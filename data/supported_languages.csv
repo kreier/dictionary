@@ -33,7 +33,6 @@ bua,Buryat,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Buryat(*** no dictionary yet ***),30,
 yue,Cantonese,TRUE,FALSE,,,ltr,NotoSimplifiedChinese,10,15,0,FALSE,0,1,Chinese Cantonese (Simplified) [中文简体（广东话)] ,31,32
 ca,Catalan,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Catalan(*** no dictionary yet ***),32,33
 ceb,Cebuano,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,Cebuano (Bisayâ),33,34
-ny,Chichewa (Nyanja),FALSE,,,,ltr,,10,15,0,FALSE,0,1,Chichewa (Nyanja)(*** no dictionary yet ***),34,35
 zh,Mandarin,TRUE,FALSE,,,ltr,NotoSimplifiedChinese,10,15,0,FALSE,0,1,Chinese Mandarin (Simplified) [中文简体（普通话)] ,35,36
 Zh-TW,Chinese (Traditional),FALSE,,,,ltr,,10,15,0,FALSE,0,1,Chinese (Traditional)(*** no dictionary yet ***),36,37
 cv,Chuvash,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Chuvash(*** no dictionary yet ***),37,38
@@ -61,7 +60,6 @@ fy,Frisian,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Frisian(*** no dictionary yet ***),59
 ff,Fulfulde,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Fulfulde(*** no dictionary yet ***),60,60
 gaa,Ga,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Ga(*** no dictionary yet ***),61,61
 gl,Galician,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Galician(*** no dictionary yet ***),62,62
-lg,Ganda (Luganda),FALSE,,,,ltr,,10,15,0,FALSE,0,1,Ganda (Luganda)(*** no dictionary yet ***),63,63
 ka,Georgian,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Georgian(*** no dictionary yet ***),64,64
 de,German,TRUE,FALSE,,,ltr,,10,15,0,FALSE,1,1,German (Deutsch) ,65,65
 el,Greek,TRUE,FALSE,,,ltr,,10,15,0,FALSE,0,1,Greek (Ελληνικά),66,66
@@ -158,7 +156,6 @@ sm,Samoan,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Samoan(*** no dictionary yet ***),151,
 sg,Sango,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Sango(*** no dictionary yet ***),152,157
 sa,Sanskrit,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Sanskrit(*** no dictionary yet ***),153,158
 gd,Scots Gaelic,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Scots Gaelic(*** no dictionary yet ***),154,159
-nso,Sepedi,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Sepedi(*** no dictionary yet ***),,160
 sr,Serbian,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Serbian(*** no dictionary yet ***),155,161
 st,Sesotho,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Sesotho(*** no dictionary yet ***),156,162
 crs,Seychellois Creole,FALSE,,,,ltr,,10,15,0,FALSE,0,1,Seychellois Creole(*** no dictionary yet ***),157,163
