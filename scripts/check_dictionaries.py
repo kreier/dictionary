@@ -1,20 +1,35 @@
 #!/usr/bin/env python3
-"""Validate dictionary CSV files against dictionary_reference.csv and supported_languages.csv."""
+"""Validate dictionary CSV files and normalize dictionary column structure."""
 
 from __future__ import annotations
 
-import csv
 import re
 import sys
-from collections import Counter
 from pathlib import Path
-from typing import Iterable, List, Tuple
+
+import pandas as pd
 
 
 DATA_DIR_NAME = "data"
 REFERENCE_FILE = "dictionary_reference.csv"
 SUPPORTED_FILE = "supported_languages.csv"
 DICTIONARY_PATTERN = re.compile(r"^dictionary_(?P<code>.+)\.csv$")
+
+REQUIRED_DICTIONARY_COLUMNS = [
+    "key",
+    "text",
+    "english",
+    "notes",
+    "tag",
+    "checked",
+    "checked_by",
+    "date",
+    "google",
+    "chatgpt",
+    "gemini",
+    "glaude",
+    "bing",
+]
 
 
 class ValidationError(Exception):
@@ -30,32 +45,44 @@ def parse_bool(value: str) -> bool:
     raise ValidationError(f"Expected TRUE/FALSE but found '{value}'")
 
 
-def load_csv_rows(path: Path) -> list[dict[str, str]]:
+def load_csv(path: Path) -> pd.DataFrame:
     try:
-        with path.open("r", encoding="utf-8-sig", newline="") as handle:
-            reader = csv.DictReader(handle)
-            if reader.fieldnames is None:
-                raise ValidationError(f"{path.name}: missing CSV header")
-            return list(reader)
+        return pd.read_csv(path, dtype=str, keep_default_na=False, encoding="utf-8-sig")
     except FileNotFoundError as exc:
         raise ValidationError(f"Missing required file: {path}") from exc
+    except pd.errors.EmptyDataError as exc:
+        raise ValidationError(f"{path.name}: empty CSV") from exc
 
 
-def load_key_sequence(path: Path) -> list[str]:
-    rows = load_csv_rows(path)
-    if not rows:
-        return []
-    if "key" not in rows[0]:
-        raise ValidationError(f"{path.name}: missing 'key' column")
-    return [((row.get("key") or "").strip()) for row in rows]
+def ensure_dictionary_columns(path: Path, problems: list[str], notes: list[str]) -> pd.DataFrame | None:
+    try:
+        df = load_csv(path)
+    except ValidationError as err:
+        problems.append(str(err))
+        return None
+
+    missing_columns = [col for col in REQUIRED_DICTIONARY_COLUMNS if col not in df.columns]
+
+    if missing_columns:
+        for col in missing_columns:
+            df[col] = ""
+
+        ordered_columns = REQUIRED_DICTIONARY_COLUMNS + [
+            col for col in df.columns if col not in REQUIRED_DICTIONARY_COLUMNS
+        ]
+        df = df[ordered_columns]
+        df.to_csv(path, index=False, encoding="utf-8-sig")
+        notes.append(f"{path.name}: added missing columns: {', '.join(missing_columns)}")
+
+    return df
 
 
-def find_duplicate_keys(keys: Iterable[str]) -> list[str]:
-    counts = Counter(keys)
-    return sorted([key for key, count in counts.items() if count > 1 and key])
+def find_duplicate_values(values: list[str]) -> list[str]:
+    counts = pd.Series(values).value_counts()
+    return sorted([value for value, count in counts.items() if value and count > 1])
 
 
-def first_order_mismatch(expected: List[str], actual: List[str]) -> Tuple[int, str, str] | None:
+def first_order_mismatch(expected: list[str], actual: list[str]) -> tuple[int, str, str] | None:
     for idx, (left, right) in enumerate(zip(expected, actual), start=1):
         if left != right:
             return idx, left, right
@@ -77,45 +104,42 @@ def main() -> int:
     notes: list[str] = []
 
     try:
-        reference_keys = load_key_sequence(reference_path)
+        reference_df = load_csv(reference_path)
     except ValidationError as err:
         print(f"ERROR: {err}")
         return 2
 
+    if "key" not in reference_df.columns:
+        print(f"ERROR: {REFERENCE_FILE} missing required 'key' column")
+        return 2
+
+    reference_keys = reference_df["key"].astype(str).str.strip().tolist()
     if not reference_keys:
         problems.append(f"{REFERENCE_FILE} has no data rows.")
 
-    reference_duplicates = find_duplicate_keys(reference_keys)
+    reference_duplicates = find_duplicate_values(reference_keys)
     if reference_duplicates:
         problems.append(
             f"{REFERENCE_FILE} contains duplicate keys: {', '.join(reference_duplicates[:10])}"
         )
 
     try:
-        supported_rows = load_csv_rows(supported_path)
+        supported_df = load_csv(supported_path)
     except ValidationError as err:
         print(f"ERROR: {err}")
         return 2
 
-    if not supported_rows:
-        problems.append(f"{SUPPORTED_FILE} has no data rows.")
-
-    header_columns = set(supported_rows[0].keys()) if supported_rows else set()
-    missing_columns = [name for name in ("key", "dict") if name not in header_columns]
-    if missing_columns:
-        problems.append(
-            f"{SUPPORTED_FILE} missing required columns: {', '.join(missing_columns)}"
-        )
-        # Cannot continue language-level checks reliably without required columns.
-        for problem in problems:
-            print(f"[ERROR] {problem}")
-        return 1
+    required_supported_cols = ["key", "dict"]
+    missing_supported_cols = [col for col in required_supported_cols if col not in supported_df.columns]
+    if missing_supported_cols:
+        print(f"ERROR: {SUPPORTED_FILE} missing required columns: {', '.join(missing_supported_cols)}")
+        return 2
 
     supported_codes: set[str] = set()
 
-    for row_index, row in enumerate(supported_rows, start=2):
-        code = (row.get("key") or "").strip()
-        raw_dict_value = row.get("dict") or ""
+    for row_index, row in enumerate(supported_df.to_dict(orient="records"), start=2):
+        code = str(row.get("key", "")).strip()
+        raw_dict_value = str(row.get("dict", ""))
 
         if not code:
             problems.append(f"{SUPPORTED_FILE}:{row_index} has empty 'key' value")
@@ -150,13 +174,17 @@ def main() -> int:
         if not exists:
             continue
 
-        try:
-            dictionary_keys = load_key_sequence(dictionary_path)
-        except ValidationError as err:
-            problems.append(str(err))
+        dictionary_df = ensure_dictionary_columns(dictionary_path, problems, notes)
+        if dictionary_df is None:
             continue
 
-        duplicate_keys = find_duplicate_keys(dictionary_keys)
+        if "key" not in dictionary_df.columns:
+            problems.append(f"{dictionary_path.name} missing required 'key' column")
+            continue
+
+        dictionary_keys = dictionary_df["key"].astype(str).str.strip().tolist()
+
+        duplicate_keys = find_duplicate_values(dictionary_keys)
         if duplicate_keys:
             problems.append(
                 f"{dictionary_path.name} contains duplicate keys: {', '.join(duplicate_keys[:10])}"
@@ -192,8 +220,9 @@ def main() -> int:
             else:
                 problems.append(f"{dictionary_path.name} key order mismatch")
 
-    dictionary_files = sorted(path for path in data_dir.glob("dictionary_*.csv") if path.name != REFERENCE_FILE)
-    file_codes = set()
+    dictionary_files = sorted(
+        path for path in data_dir.glob("dictionary_*.csv") if path.name != REFERENCE_FILE
+    )
 
     for path in dictionary_files:
         match = DICTIONARY_PATTERN.match(path.name)
@@ -201,19 +230,19 @@ def main() -> int:
             notes.append(f"Skipped file with unexpected name format: {path.name}")
             continue
         code = match.group("code")
-        file_codes.add(code)
         if code not in supported_codes:
             problems.append(
                 f"{path.name} exists but language code '{code}' is missing from {SUPPORTED_FILE}"
             )
 
     print(f"Reference keys: {len(reference_keys)}")
-    print(f"Supported language rows: {len(supported_rows)}")
+    print(f"Supported language rows: {len(supported_df)}")
     print(f"Dictionary files found: {len(dictionary_files)}")
 
     if notes:
+        print("\nNotes:")
         for note in notes:
-            print(f"[NOTE] {note}")
+            print(f"- {note}")
 
     if problems:
         print("\nValidation failed with the following issue(s):")
