@@ -1,0 +1,572 @@
+key,text,english,notes,tag,checked
+version,6.02,6.02, ,float,True
+pdf_title,ប្រវត្តិសាស្រ្តមនុស្សជាតិ 6000 ឆ្នាំត្រូវបានមើលឃើញ,6000 years human history visualized,2026-02-12,text,True
+pdf_subject,ការកំណត់ពេលវេលារបស់មនុស្ស,Timeline of humankind, ,text,False
+BCE,មុន​គ.ស.,B.C.E., ,B9,True
+CE,គ.ស.,C.E., ,B9,True
+month,ខែ,month, ,text,False
+months,ខែ,months, ,text,False
+day,ថ្ងៃ,day, ,text,False
+days,ថ្ងៃ,days, ,text,False
+to,ទៅ,to, ,text,False
+Deluge,ទឹកជំនន់,Deluge, ,text,False
+moses2,1593 ដល់ 1473 មុនគ.ស. - 120 ឆ្នាំ។,1593 to 1473 B.C.E. – 120 years, ,text,False
+temple1,ខែ​ណែសាន ឆ្នាំ 1513 មុន គ.ស. ទៅ ស៊ីវ 1034 មុនគ។,Nisan 1513 B.C.E. to Ziv 1034 B.C.E., ,text,False
+69weeks,ព្រះ​យេស៊ូ​បាន​ធ្វើ​បុណ្យ​ជ្រមុជ​ទឹក​នៅ​រដូវ​ស្លឹក​ឈើ​ជ្រុះ ឆ្នាំ 29 គ.ស.,Jesus baptized autumn 29 C.E., ,text,False
+year,ឆ្នាំ,year,"timespan, age (Adam was 130 years old when Shem was born)",text,True
+years,ឆ្នាំ,years, ,text,False
+years_age,ឆ្នាំ,years,"years when used as age for a person (different word than years in some languages), like he is 23 years old",text,False
+age_kings, , ,"if the word ""year"" appears after the numeral, like ""at the age of 35 years""",text,False
+wilderness,អ៊ីស្រាអែលនៅទីរហោស្ថានពីឆ្នាំ 1513 ដល់ 1473 មុនគ. - 40 ឆ្នាំ។,Israel in the wilderness 1513 to 1473 B.C.E. – 40 years, ,text,False
+timespan_judges,1473 ដល់ 1117 មុនគ.ស. - 356 ឆ្នាំ។,1473 to 1117 B.C.E. – 356 years, ,text,False
+timespan_judges2,ពេលវេលារបស់ចៅក្រម,Time of the judges, ,text,False
+temple2,479 ឆ្នាំ​រហូត​ដល់​ការ​សាងសង់​ព្រះវិហារ​បរិសុទ្ធ — ពង្សាវតារក្សត្រ​ទី 1 6:1,479 years until the temple construction – 1 Kings 6:1,1034 BCE,text,False
+69weeks2,69 សប្តាហ៍ដល់ព្រះមេស្ស៊ី - ដានីយ៉ែល 9: 25,69 weeks to the Messiah – Daniel 9:25, ,text,False
+jesus_service,3.5 ឆ្នាំ​នៃ​ការ​បម្រើ​ព្រះ​យេស៊ូ ត្រូវ​ប្រហារ​ជីវិត​ថ្ងៃ​ទី 14 ខែ​ណែសាន ឆ្នាំ 33 គ.ស.,"3.5 years of Jesus service, executed Nisan 14th, 33 C.E.", ,text,False
+jesus_life,ព្រះយេស៊ូវ​បាន​ប្រសូត​នៅ​ឆ្នាំ 2 មុនគ.ស.,Jesus born 2 B.C.E., ,text,False
+exile,607 ដល់ 537 មុនគ.ស. — 70 ឆ្នាំ (យេរេមា 25:11),607 to 537 B.C.E. – 70 years (Jeremiah 25:11), ,text,False
+exile2,និរទេសខ្លួន,Exile, ,text,False
+7times2,7 ដង – 2520 ឆ្នាំ​ដល់​រាជាណាចក្រ​មេស្ស៊ី ឆ្នាំ 1914 គ.ស. (ដានីយ៉ែល 4:23),7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23), ,text,False
+ww1,សង្គ្រាមលោកលើកទី 1 - 1914-1918 គ.,World War I – 1914–1918, ,text,False
+ww2,សង្គ្រាមលោកលើកទី 2 - 1939-1945 គ.,World War II – 1939–1945, ,text,False
+30_year_war,សង្គ្រាមសាមសិបឆ្នាំនៅអឺរ៉ុប 1618-1648,Thirty Years' War in Europe 1618-1648, ,text,False
+joshua,110 ឆ្នាំ។,110 years, ,text,False
+caleb,ជាង 85 ឆ្នាំ។,more than 85 years, ,text,False
+missionary1,ដំណើរផ្សងព្រេងដំបូងរបស់ប៉ុល គ. 47–48 គ.ស. ជាមួយ​បាណាបាស និង​យ៉ូហាន ម៉ាកុស,"First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark", ,text,False
+circumcision,បញ្ហាកាត់ស្បែកនៅក្រុងអាន់ទីយ៉ូក សន្និសីទនៅទីក្រុងយេរូសាឡឹម គ. 49 គ.ស.,"Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.", ,text,False
+missionary2,ដំណើរផ្សងព្រេងទីពីរ គ. 49-52 គ.ស. ជាមួយស៊ីឡាស (ស៊ីលវ៉ានុស),Second Missionary Journey c. 49-52 C.E with Silas (Silvanus), ,text,False
+missionary3,ដំណើរផ្សងព្រេងទីបី គ. 52-56 គ.ស.,Third Missionary Journey c. 52-56 C.E., ,text,False
+caesarea,ប៉ូល​ដែល​ជាប់​ឃុំឃាំង​នៅ​សេសារា គ. 56-58 គ.ស.,Paul in custody in Caesarea c. 56-58 C.E., ,text,False
+rome1,ការជាប់គុកដំបូងរបស់ប៉ូលនៅទីក្រុងរ៉ូម គ. 59-61 គ.ស.,Paul’s first imprisonment in Rome c. 59-61 C.E., ,text,False
+rome2,ការជាប់គុកលើកទីពីររបស់ប៉ូលនៅទីក្រុងរ៉ូម គ. 65 គ.ស. ធីម៉ូថេទី2 បានសរសេរថា ប៉ុលបានប្រហារជីវិត,"Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed", ,text,False
+event_exodus,និក្ខមនំ​ចេញ​ពី​ប្រទេស​អេស៊ីប​នៅ​ថ្ងៃ​ទី 14 ខែ​ណែសាន ឆ្នាំ 1513 មុន គ.ស.,"Exodus from Egypt on Nisan 14th, 1513 B.C.E.", ,text,False
+event_division_kingdom,ផ្នែកនៃអ៊ីស្រាអែល 997 មុនគ.ស,Division of Israel 997 BCE, ,text,False
+event_destruction_samaria,ការបំផ្លិចបំផ្លាញស្រុកសាម៉ារី 740 មុនគ.ស. ដោយ អាស្ស៊ីរី,Destruction of Samaria 740 B.C.E. by Assyria,Destruction of Samaria 740 B.C.E. by Assyria,text,False
+event_destruction_jerusalem1,ការបំផ្លិចបំផ្លាញក្រុងយេរូសាឡឹម 607 មុនគ. ដោយបាប៊ីឡូន 390 ឆ្នាំបន្ទាប់ពីការបែកបាក់នៃនគរ (អេសេគាល 4: 5),"Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)", ,text,False
+event_temple_rebuilt,ប្រាសាទ​នៅ​ក្រុង​យេរូសាឡឹម​បាន​កសាង​ឡើង​វិញ​នៅ​ឆ្នាំ 515 មុន​គ.ស.,Temple in Jerusalem rebuilt 515 B.C.E., ,text,False
+event_jerusalem_rebuilt,ជញ្ជាំង​ក្រុង​យេរូសាឡិម​បាន​កសាង​ឡើង​វិញ​នៅ​ឆ្នាំ 455 មុនគ.ស.,Jerusalem wall rebuilt 455 B.C.E., ,text,False
+event_destruction_jerusalem2,ការបំផ្លិចបំផ្លាញក្រុងយេរូសាឡិមឆ្នាំ 70 នៃគ.ស. ដោយទីក្រុងរ៉ូមនៅក្រោមទីតុស,Destruction of Jerusalem 70 C.E. by Rome under Titus, ,text,False
+event_1914,ចុងបញ្ចប់នៃគ្រានៃប្រជាជាតិនានា (លូកា 21:24) រាជាណាចក្ររបស់ព្រះចាប់ផ្តើមគ្រប់គ្រងនៅស្ថានសួគ៌នៅឆ្នាំ 1914 គ.ស.,"End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",include scripture Luke 21:24,text,False
+became_king,បានក្លាយជាស្តេចនៅអាយុ,becomes king at age, ,text,False
+vulgate,Vulgate បានបញ្ចប់ដោយ Jerome (ការបកប្រែជាឡាតាំងនៃព្រះគម្ពីរ) គ. 405 គ.ស.,Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E., ,text,False
+gutenberg,សៀវភៅ Gutenberg បោះពុម្ពឆ្នាំ 1455,Gutenberg Bible printed 1455, ,text,False
+erasmus,អត្ថបទជាភាសាក្រិចនៃបទគម្ពីរភាសាក្រិចរបស់គ្រិស្តបរិស័ទ បោះពុម្ពដោយ Desiderius Erasmus នៃទីក្រុង Rotterdam ឆ្នាំ 1516,Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516, ,text,False
+luther,ការ​បក​ប្រែ Luther Bible នៅ​ខែ​កញ្ញា ឆ្នាំ 1522,Luther Bible translation in September 1522, ,text,False
+tyndale,ការបកប្រែព្រះគម្ពីរជាភាសាអង់គ្លេសដោយ Tyndale 1536,English Bible translation by Tyndale 1536, ,text,False
+king_james,King James Bible 1611,King James Bible 1611, ,text,False
+69weeks3,"ព្រះ​យេស៊ូ​ចាប់​ផ្ដើម​បម្រើ​ទ្រង់ 29 គ.ស. (លូកា 3:1, 21)","Jesus starts his service 29 CE (Luke 3:1, 21)", ,text,False
+ransom,ពាក់កណ្តាលសប្តាហ៍ «ការលះបង់ដើម្បីឈប់» ដានីយ៉ែល 9:27,Middle of week “sacrifice to cease” Daniel 9:27, ,text,False
+cornelius,កូនេលាស​បាន​ទទួល​បុណ្យ​ជ្រមុជ​ទឹក​នៅ​ចុង​បញ្ចប់​នៃ 70 សប្តាហ៍ (ដានីយ៉ែល 9:24) ក្នុង​ឆ្នាំ 36 គ.ស.,Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E., ,text,False
+columbus,ចុងបញ្ចប់នៃសម័យមុនកូឡុំប៊ីនៅអាមេរិក 1492,End of the pre-columbian period in the Americas 1492, ,text,False
+declaration_independence,ការប្រកាសឯករាជ្យនៃអាណានិគមចំនួន 13 នៅអាមេរិក 1776,Declaration of independence of 13 colonies in America 1776, ,text,False
+tischendorf,Tischendorf រកឃើញ Codex Sinaiticus ពីសតវត្សទី 4 ក្នុងឆ្នាំ 1844,Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844, ,text,False
+dead_sea_scrolls,រមូរសមុទ្រស្លាប់ត្រូវបានសរសេរ,Dead Sea Scrolls written, ,text,False
+septuagint,Septuagint LXX បកប្រែ,Septuagint LXX translated, ,text,False
+watchtower,សៀវភៅ​ដំបូង​នៃ​«​ប៉ម​យាម​ស៊ីយ៉ូន​និង​ការ​ប្រកាស​អំពី​វត្តមាន​របស់​ព្រះ​គ្រីស្ទ» ត្រូវ​បាន​បោះពុម្ព​ក្នុង​ឆ្នាំ 1879,The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879, ,text,False
+jehovahs_witnesses,"សិស្ស​គម្ពីរ​បាន​យក​ឈ្មោះ​ថ្មី គឺ​សាក្សី​ព្រះ​យេហូវ៉ា (អេសាយ 43:10, 12) នៅ​ក្រុង​កូឡុំបឹស អូហៃអូ ឆ្នាំ 1931","The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",include scripture,text,False
+gilead_school,សាលា​ព្រះគម្ពីរ​កាឡាដ​របស់​ប៉មយាម​បាន​ចាប់​ផ្ដើម​នៅ​ថ្ងៃ​ច័ន្ទ ទី​1 ខែ​កុម្ភៈ ឆ្នាំ​1943,"Watchtower Bible School of Gilead begins on Monday, February 1, 1943", ,text,False
+new_world_translation1,«ការ​បក​ប្រែ​ពិភព​លោក​ថ្មី​នៃ​បទ​គម្ពីរ​បរិសុទ្ធ» ដែល​បាន​ចេញ​ផ្សាយ​នៅ​ក្រុង Manchester ប្រទេស​អង់គ្លេស នៅ​ថ្ងៃ​ទី18 ខែ​មិថុនា ឆ្នាំ​1960 បង្ហាញ​ព្រះ​នាម​ព្រះ​យេហូវ៉ា​ឡើង​វិញ​ក្នុង​ផ្នែក​ជា​ច្រើន​នៃ​គម្ពីរ។,"“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",hightlight reintroduction of Jehovah’s name,text,False
+new_world_translation2,បានកែប្រែ «ការបកប្រែពិភពលោកថ្មីនៃបទគម្ពីរបរិសុទ្ធ» ដែលបានចេញផ្សាយនៅក្នុងកិច្ចប្រជុំប្រចាំឆ្នាំ 2013 ដែលត្រូវបានកែលម្អឱ្យប្រើជាឌីជីថល និងតាមអ៊ីនធឺណិត។,"Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",new edition with digital and online in mind,text,False
+cold_war,"ស្ថានភាពភូមិសាស្ត្រនយោបាយ បានដាក់ស្លាកថា ""សង្គ្រាមត្រជាក់"" ឆ្នាំ 1945-1991",Geopolitical situation labeled “Cold War” 1945-1991, ,text,False
+timeline_created,"ការកំណត់ពេលវេលានេះត្រូវបានបង្កើតឡើងក្នុងឆ្នាំ 2023 ដែលជាឆ្នាំក្តៅបំផុតក្នុងប្រវត្តិសាស្ត្រមនុស្សជាតិ និង 125,000 ឆ្នាំចុងក្រោយ","This timeline is created in 2023, the hottest year in human history and the last 125,000 years", ,text,False
+codex_sinaiticus,Codex Sinaiticus បានសរសេរ,Codex Sinaiticus written, ,text,False
+codex_vaticanus,Codex Vaticanus បានសរសេរ,Codex Vaticanus written, ,text,False
+leningrad_codex,Leningrad Codex បានសរសេរនៅក្នុង Cairo AD 1008,Leningrad Codex written in Cairo AD 1008, ,text,False
+john,យ៉ូហាន​សរសេរ « វិវរណៈ » ពេល​ត្រូវ​និរទេស​នៅ​ប៉ាត់ម៉ុស 96-98 គ.ស.,John writes “revelation” while exiled on Patmos 96-98 C.E., ,text,False
+buddha,ព្រះពុទ្ធ - សត្ថាធិប្បាយ ហ្គោតាម៉ា c.563-c.483 មុន​គ.ស.,The Buddha – Siddhartha Gautama c.563-c.483 B.C.E, ,text,False
+buddha2,ព្រះពុទ្ធ​ជំនួស គ. 480-400 មុន​គ.ស.,Buddha alternatively c. 480-400 B.C.E., ,text,False
+mohammed,លោក ម៉ូហាំម៉ាត់ គ. 570-632 គ.ស.,Mohammed c. 570-632, ,text,False
+confucius,ខុងជឺ c.551-c.479 B.C.E.,Confucius c.551-c.479 B.C.E., ,text,False
+hijrah,Hijrah - ដំណើរ Mecca ទៅ Medina ថ្ងៃទី 16 ខែកក្កដាឆ្នាំ 622,Hijrah - Journey Mecca to Medina 16 July 622, ,text,False
+moses_escape,"1553 មុនគ.ស. ម៉ូសេ​ត្រូវ​រត់​គេច​ពី​ស្រុក​អេស៊ីព្ទ - និក្ខមនំ 2:15, កិច្ចការ 7:23","1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23", ,text,False
+10plagues,1513 មុនគ.ស. អេហ្ស៊ីបទទួលគ្រោះកាចចំនួន10,1513 B.C.E Egypt receives 10 plagues, ,text,False
+joseph_sold,យ៉ូសែប​បាន​លក់​ជា​ខ្ញុំ​បម្រើ​នៅ​អាយុ 17 ឆ្នាំ – លោកុប្បត្តិ 37:2,Joseph sold as slave at the age of 17 – Gen 37:2, ,text,False
+infliction,ការ​ធ្វើ​បាប 400 ឆ្នាំ (កិច្ចការ 7:6) – Ishmael 1913 B.C.E.,400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E, ,text,False
+Alexander,អាឡិចសាន់ឌឺដ៏អស្ចារ្យ (ដានីយ៉ែល 11:3),Alexander the Great (Daniel 11:3), ,text,False
+persia,"ស៊ីរូសដ៏អស្ចារ្យ, ខេមប៊ីស៊ូសII, ដាយរូស I 490 មុន​គ.ស., សេកសេស I 480 មុន​គ.ស. (ប្ប្តីរបស់ អេសធើរ, Daniel 11:2)","Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)", ,text,False
+king_north,"Seleucus I Nicator (v5) Syria ទៅ Antiochus III (v10) និង Seleucus IV (v18, 19) ចុះទៅ Octavian (v20) និង Tiberius (v21-24)","Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)", ,text,False
+king_north1,ស្តេចខាងជើង,King of the North, ,text,False
+king_south,"Ptolemy I, II, III, IV (v11, 12), V (v15, 16) ទៅកាន់សមរភូមិ Actium 31 B.C.E.","Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.", ,text,False
+king_south1,ស្តេចខាងត្បូង,King of the South, ,text,False
+king_south2,ចក្រភពអង់គ្លេសឆ្នាំ 1870 ដែលជាមហាអំណាចពិភពលោក អង់គ្លេស-អាមេរិក តាំងពីឆ្នាំ 1914,"British Empire 1870, Anglo-American World Power since 1914", ,text,False
+king_south3,ស្តេចខាងត្បូង,King of the South, ,text,False
+king_north2,"ប្រទេសអាល្លឺម៉ង់ជាមួយអធិរាជ William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)","Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)", ,text,False
+king_north3,ខាងជើង,North, ,text,False
+king_north4,"សហភាពសូវៀត 1945-1991 (ដានីយ៉ែល 11:32-39, 40b, 41)","Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)", ,text,False
+king_north5,ប្រទេសរុស្ស៊ីតាំងពីឆ្នាំ 2017 (w20 ឧសភា),Russia since 2017 (w20 May), ,text,False
+time_of_end,វត្តមាន​របស់​ព្រះ​គ្រីស្ទ ការ​សន្និដ្ឋាន​នៃ​របៀប​របប​ពិភព​លោក (ម៉ាថាយ 24:3) គ្រា​ចុង​ក្រោយ​បង្អស់ (២ធីម៉ូថេ 3:1),"Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",scriptures written out,text,False
+time_of_end2,ថ្ងៃ​ចុងក្រោយ,Last days, ,text,False
+suryavaman2,ព្រះបាទសូរ្យវរ្ម័នទី២ កសាងអង្គរវត្ត 1113-1150,King Suryavarman II builds Angkor Wat 1113-1150, ,text,False
+notre-dame,Notre-Dame de Paris បានសាងសង់នៅឆ្នាំ 1163-1260,Notre-Dame de Paris built 1163-1260, ,text,False
+babel,ប៉ម Babel ត្រូវបានសាងសង់,Tower of Babel built, ,text,False
+infliction1,400ឆ្នាំ នៅក្នុងការចម្លង,400 year infliction,Acts 7:6,text,False
+Lots_wife,ប្រពន្ធរបស់ឡុត,Lot’s wife, ,text,False
+Lots_daughters,កូន​ស្រី​របស់​ឡុត,Daughters of Lot, ,text,False
+Moab,​ម៉ូអាប់ (កូនស្រីច្បង),Moab (older daughter),Genesis 19:37,text,False
+rosetta,ថ្ម Rosetta 196 មុនគ.,Rosetta stone 196 B.C.E., ,text,False
+Herodotus,"ហេរ៉ូដូតុស គ. 484 – គ. 425 មុនគ.ស សរសេរ ""ប្រវត្តិសាស្ត្រ""","Herodotus c. 484 – c. 425 BC, writes The Histories",Father of History,text,False
+Aristotle,អារីស្តូត 384-322 មុនគ,Aristotle 384 – 322 BC,"The First Teacher, The Philosopher",text,False
+Ptolemy,Ptolemy c 100 - គ។ 170 គ.ស.,Ptolemy c 100 – c. 170 C.E., ,text,False
+Pythagoras,Pythagoras គ. 570 – គ. 495 មុនគ,Pythagoras c. 570 – c. 495 BC, ,text,False
+Plato,ផ្លាតូ គ. 427 – គ. 348 មុនគ,Plato c. 427 – c. 348 BC, ,text,False
+Socrates,សូក្រាត គ. 470 – គ. 399 មុនគ,Socrates c. 470 – c. 399 BC, ,text,False
+Josephus,យ៉ូសែប គ. 37 – គ. 100 គ.ស.,Josephus c. 37 – c. 100 C.E., ,text,False
+Cicero,ស៊ីសេរ៉ូ 106-43 មុនគ,Cicero 106–43 BC,"influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",text,False
+lachish_letters,អក្សរឡាចស៊ីស គ. 590 មុនគ.ស.,Lachish letters c. 590 B.C.E., ,text,False
+lachish_reliefs,ការធូរស្បើយ Lachish គ. 681 មុនគ.ស.,Lachish reliefs c. 681 B.C.E., ,text,False
+mesha_stele,មេសា ស្ទីល (ថ្ម ពួកម៉ូអាប់) គ. 840 មុនគ.ស.,Mesha Stele (Moabite stone) c. 840 B.C.E., ,text,False
+gilgamesh,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵,Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵, ,text,False
+epic_gilgamesh,វីរភាពនៃ ហ្គីហ្គាមេស (Sîn-lēqi-unninni),Epic of Gilgamesh (Sîn-lēqi-unninni), ,text,False
+gregorian,ប្រតិទិនហ្គ្រេហ្គោរៀន 1582,Gregorian calendar 1582, ,text,False
+shang-dynasty,គ. 1600-1046 មុនគ.ស,c. 1600-1046 BC, ,text,False
+western-zhou,គ. 1046-771 មុនគ.ស,c. 1046-771 BC, ,text,False
+qin-dynasty,ឈីន 221-207 មុនគ,Qin 221-207 BC, ,text,False
+western-han,207 មុនគ.ស – 9 គ.ស,207 BC – 9 CE, ,text,False
+three-kingdoms,នគរបី 220-280 គ.ស,Three kingdoms 220-280 CE, ,text,False
+sixteen-kingdoms,នគរដប់ប្រាំមួយ 304-439 គ.ស,Sixteen kingdoms 304-439 CE, ,text,False
+tang-dynasty2,"618-690, 705-907","618-690, 705-907", ,text,False
+wu-zhou,690-705 Wu Zhou,690-705 Wu Zhou, ,text,False
+tang-dynasty1_c,តាំង,Tang, ,text,False
+gonghe,រាជវង្ស ហ្គុនហេ 841-828 មុនគ,Gonghe Regency 841-828 BC, ,text,False
+Ashoka,អសោក (គ.304-232 មុនគ.ស) លើកស្ទួយព្រះពុទ្ធសាសនា,Ashoka (c. 304-232 BC) promotes Buddhism, ,text,False
+siloam-tunnel,ហេសេគាពង្រីកផ្លូវរូងក្រោមដីស៊ីឡូអាម,Hezekiah extends Siloam tunnel,c. 742-732 BC,text,False
+Angloamerica2,"Anglo-American ត្រូវ​បាន​តំណាង​ដោយ​ជើង​ដែក​លាយ​នឹង​ដីឥដ្ឋ នៅ​ក្នុង​ទំនាយ​នៅ​ក្នុង ដានីយ៉ែល 2:33, 41-43។","Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43", ,text,False
+Manetho,ម៉ាណេតូ សរសេរ អេហ្ស៊ីប,Manetho writes Aegyptiaca, ,text,False
+destruction_babylon,"ការ​បំផ្លាញ​បាប៊ីឡូន​ដ៏​អស្ចារ្យ (វិវរណៈ 17:3, 15​-​18; 18:9, 10)","Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",beginning of great tribulation (GT),text,False
+gog_of_magog,"ការ​វាយ​ប្រហារ​របស់​កុក​នៃ​ស្រុក​ម៉ាកូក (អេសេគាល 38:1, 2, 9-12, 18-23)","Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",end of GT,text,False
+sheep_goat,អ្នក​នៅ​លើ​ផែនដី​នឹង​ត្រូវ​កាត់​ទោស ដោយ​ញែក​ចៀម និង​ពពែ (ម៉ាថាយ 25:31-33),"Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",end of GT,text,False
+annointed,ការ​ប្រមូល​អ្នក​គ្រប់​គ្រង​រាជាណាចក្រ (ម៉ាថាយ 24:31; កូរិនថូសទី1 15:50-53; ថែស្សាឡូនីចទី1 4:15-17),Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17),end of GT,text,False
+armageddon,"សមរភូមិអើម៉ាគេដូន (វិវរណៈ 16:14, 16; អេសាយ 13:9; ពេត្រុសទី២ 3:12)","Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",end of system of things,text,False
+millenium,"រាជាណាចក្រ​របស់​ព្រះ​ចាប់​ផ្ដើម​រជ្ជកាល​1000​ឆ្នាំ (វិវរណៈ 5:9, 10; 20:4, 6)","God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)", ,text,False
+great_crowd,"មនុស្ស​មួយ​ហ្វូង​យ៉ាង​ធំ​បាន​រួច​ជីវិត​ពី​អើម៉ាគេដូន (វិវរណៈ 7:9, 14; ទំនុកតម្កើង 37:9-11)","A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)", ,text,False
+world_population,ចំនួនប្រជាជនពិភពលោករាប់ពាន់លានក្នុងរយៈពេល 2000 ឆ្នាំចុងក្រោយនេះ។,World population in billions in the last 2000 years, ,text,False
+khmer_empire_c,អាណាចក្រខ្មែរ - សម័យអង្គរ,Khmer Empire - Angkor period, ,text,False
+holy_roman_empire_c,ចក្រភពរ៉ូម៉ាំងបរិសុទ្ធ - បន្ទាប់ពីឆ្នាំ 1512 ចក្រភពរ៉ូមបរិសុទ្ធនៃប្រជាជាតិអាល្លឺម៉ង់,Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512, ,text,False
+mongol_empire,ចក្រភពម៉ុងហ្គោល 1206 - 1294 គ.,Mongol Empire 1206 – 1294, ,text,False
+maya_classic_c,អរិយធម៌ម៉ាយ៉ា - សម័យបុរាណ,Maya civilization – Classic period, ,text,False
+maya_postclassic_c,អរិយធម៌ម៉ាយ៉ា - សម័យក្រោយបុរាណ,Maya civilization – Postclassic period, ,text,False
+Teotihuacan,ទីក្រុងធំជាងគេនៅអាមេរិក ពីរ៉ាមីតសាងសង់ គ. 200 គ.ស.,"Largest city in the Americas, pyramids build c. 200 C.E.", ,text,False
+Dionysius_Exiguus,Dionysius Exiguus អ្នកបង្កើត Anno Domini,"Dionysius Exiguus, inventor of Anno Domini", ,text,False
+Umayyad_c,អ៊ូម៉ាយ៉ាត,Umayyad, ,text,False
+ur3,រាជវង្ស Ur III 𒋀𒀕𒆠,Ur III Dynasty 𒋀𒀕𒆠, ,text,False
+hammurabi,ហាំមូរ៉ាប៊ី 𒄩𒄠𒈬𒊏𒁉,Hammurabi 𒄩𒄠𒈬𒊏𒁉, ,text,False
+Al-Khwarizmi,al-Khwarizmi សរសេរ Al-Jabr (ពិជគណិត),al-Khwarizmi writes Al-Jabr (Algebra), ,text,False
+al-azhar,សាកលវិទ្យាល័យ Al-Azhar ត្រូវបានបង្កើតឡើងនៅទីក្រុងគែរ,Al-Azhar University is established in Cairo, ,text,False
+Ibn-Sina,Ibn Sina ឬ Avicenna,Ibn Sina or Avicenna, ,text,False
+life-expectancy, ,Life expectancy 75 years, ,text,False
+430years_c, ,"430 years: Exodus 12:41, Galatians 3:17",2024-12-24,text,False
+maya_calendar, ,"Calculated beginning of Maya calendar August 11, 3114 B.C.E.",2024-12-25,text,False
+xia-dynasty2, ,c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period,2025-01-02,text,False
+xia-dynasty2_c, ,Xia dynasty in China, ,text,False
+tres_zapotes, ,"September 3rd, 32 B.C.E.",2024-12-31,text,False
+joseph_jacob_reunited, ,Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9),2025-01-01,text,False
+king_south_light_c, ,King of the South from Daniel 11,2025-02-05,text,False
+king_north_light_c, ,King of the North from Daniel 11,2025-02-05,text,False
+daniel2_iron_c, ,Iron legs from Daniel 2,2025-02-05,text,False
+argenteus, ,Codex Argenteus c. 505,written copy of Wulfila Bible,text,False
+nguyen_dynasty_c, ,Nguyễn,2025-09-20,text,False
+edo_c, ,Edo period in Japan,Edo period (Tokugawa shogunate),text,False
+meiji_c, ,Meiji,2025-09-20,text,False
+american_civil_war, ,American Civil War 1861-1865,"April 12, 1861 to May 26, 1865",text,False
+aleppo_codex, ,Aleppo Codex c. 920,2025-10-03,text,False
+vandals, ,Kingdom of the Vandals and Alans 435 – 534,Vandals 435-534 C.E.,text,False
+francia, ,"c. 481/509 – 843, Merovingian till 751, then Carolingian",Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun,text,False
+francia_c, ,Kingdom of the Franks, ,text,False
+100_years_war, ,Hundred Years’ War 1337 – 1453,1337–1453,text,False
+black_death, ,Black death 1346-1353,1346-1353,text,False
+sui_dynasty, ,581-618 Sui dynasty,2025-11-09,text,False
+sui_dynasty_c, ,Sui,2025-11-09,text,False
+tribulation,"ទុក្ខវេទនា​ជា​ខ្លាំង (ម៉ាកុស 13:19; ដានីយ៉ែល 12:1; ម៉ាថាយ 24:21, 22)","The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)", ,text,False
+Adam,អាដាម​,Adam,Luke 3:38,bible,False
+Seth,សេត​,Seth, ,bible,False
+Enosh,អេណុស,Enosh, ,bible,False
+Kenan,កៃណាន,Kenan (Cainan), ,bible,False
+Mahalalel,ម៉ាហាលាល,Mahalalel (Mahalaleel), ,bible,False
+Jared,យ៉ារេឌ,Jared, ,bible,False
+Enoch,អេណុក,Enoch, ,bible,False
+Methuselah,ម៉េធូសាឡា,Methuselah,Luke 3:37,bible,False
+Lamech,ឡេម៉េក,Lamech, ,bible,False
+Noah,ណូអេ,Noah, ,bible,False
+Shem,សិម​,Shem, ,bible,False
+Arpachshad,អាប៉ាក់សាឌ,Arpachshad,Luke 3:36,bible,False
+Shelah,សេឡា,Shelah, ,bible,False
+Eber,ហេបឺរ​,Eber, ,bible,False
+Peleg,ពេឡេក,Peleg, ,bible,False
+Reu,រេហ៊ូ,Reu, ,bible,False
+Serug,សេរូក,Serug,Luke 3:35,bible,False
+Nahor,ណេឃ័រ,Nahor, ,bible,False
+Terah,ថេរ៉ា,Terah, ,bible,False
+Abraham,អាប្រាហាំ,Abraham, ,bible,False
+Isaac,អ៊ីសាក,Isaac, ,bible,False
+Jacob,យ៉ាកុប,Jacob,Luke 3:34,bible,False
+Joseph,យ៉ូសែប,Joseph,Genesis 37,bible,False
+Moses,ម៉ូសេ,Moses, ,bible,False
+Othniel,អុតនាល,Othniel,Judges 3:9-11,bible,False
+Ehud,អ៊ីហឺត,Ehud,Judges 3:15-18,bible,False
+Shamgar,សាមកើរ,Shamgar,Judges 3:31,bible,False
+Barak,​បារ៉ាក់​,"Barak, Deborah, Jael",Judges 4:6,bible,False
+Gideon,គេឌាន​,Gideon,Judges 7:1,bible,False
+Tola,ថូឡា​,Tola,Judges 10:1,bible,False
+Jair,​យ៉ាអៀ,Jair,Judges 10:3,bible,False
+Jephthah,យែបថា,Jephthah,Judges 11:1,bible,False
+Ibzan,អ៊ីបសេន,Ibzan,Judges 12:8,bible,False
+Elon,អ៊ីឡន,Elon,Judges 12:11,bible,False
+Abdon,​អាប់ដូន,Abdon,Judges 12:13,bible,False
+Samson,​សាំសុន,Samson,Judges 13:24,bible,False
+Samuel,សាំយូអែល,Samuel,1 Samuel 1:20,bible,False
+Saul,សុល,Saul,1 Samuel 9:2,bible,False
+David,ដាវីឌ,David,1 Samuel 16:13,bible,False
+Solomon,​សាឡូម៉ូន​,Solomon,1 Kings 2:1,bible,False
+Malachi,ម៉ាឡាគី,Malachi, ,bible,False
+Ruth,រូថ,Ruth, ,bible,False
+Ezra,អែសរ៉ា,Ezra, ,bible,False
+Nehemiah,នេហេមា,Nehemiah, ,bible,False
+Esther,អេសធើរ,Esther, ,bible,False
+Job,យ៉ូប,Job, ,bible,False
+moses3,ម៉ូសេ,Moses, ,bible,False
+joshua2,យ៉ូស្វេ,Joshua, ,bible,False
+caleb2,កាលែប​,Caleb, ,bible,False
+Augustus,អូគូស,Augustus,Luke 2:1,bible,False
+Tiberius,ទីប៊ែរ,Tiberius,Luke 3:1,bible,False
+Claudius,ក្លូឌាស។,Claudius,Acts 11:28,bible,False
+persia2,ពែរ្ស,Persia, ,bible,False
+jehoiada,យេហូយ៉ាដា,Jehoiada,2 Kings 11:4,bible,False
+Haggai,ហាកាយ,Haggai, ,bible,False
+Zerubbabel,សេរ៉ូបាបិល (លូកា 3:27),Zerubbabel (Luke 3:27),Luke 3:27,bible,False
+Jacob2,យ៉ាកុប/,Jacob/,Jacob/Israel 1858-1711 – 147 years,bible,False
+Israel,អ៊ីស្រាអែល,Israel,Genesis 35:10,bible,False
+Sarah,សារ៉ា,Sarah,"2008-1881 BCE – 127 years, Isaiah 51:2",bible,False
+Hagar,ហាកា,Hagar,Genesis 21:14,bible,False
+Haran,ហារ៉ាន,Haran,Genesis 11:26,bible,False
+Reumah,រេយូម៉ា,Reumah,Concubine – 4 sons 22:24,bible,False
+Milcah,មីលកា,Milcah,8 sons (Bethuel and 7 more),bible,False
+Lot,ឡុត,Lot,Genesis 11:27,bible,False
+Ammon,​បេនអាំមី (​អាំម៉ូន),Ben-ammi (Ammon),Genesis 19:38,bible,False
+Bethuel,បេធូអែល,Bethuel,Genesis 22:23,bible,False
+Rebekah,រេបិកា,Rebekah, ,bible,False
+Laban,ឡាបាន់,Laban,Genesis 24:29,bible,False
+Leah,​លេអា​,Leah,Genesis 35:23,bible,False
+Rachel,​រ៉ាជែល​,Rachel,Genesis 35:24,bible,False
+Bilhah,​ប៊ីលហា​,Bilhah,Genesis 35:25,bible,False
+Zilpah,​ស៊ីលផា​,Zilpah,Genesis 35:26,bible,False
+Reuben,រូបេន​,Reuben, ,bible,False
+Simeon,ស៊ីម្មាន,Simeon, ,bible,False
+Levi,លេវី,Levi,Genesis 35:23,bible,False
+Judah,យូដា,Judah, ,bible,False
+Issachar,អ៊ីសាខារ,Issachar, ,bible,False
+Zebulun,​សេប៊ូឡូន,Zebulun, ,bible,False
+Dinah,​ឌីណា​,Dinah,Genesis 34,bible,False
+Esau,​អេសាវ​/,Esau/, ,bible,False
+Edom,អេដំ,Edom,Genesis 36:1,bible,False
+Ishmael,អ៊ីសម៉ាអែល,Ishmael,Genesis 16:16,bible,False
+Manasseh2,(ម៉ាណាសេ,(Manasseh,Genesis 41:50-52,bible,False
+Ephraim,និងអេប្រាអ៊ីម),and Ephraim), ,bible,False
+Benjamin,​បេនយ៉ាមីន,Benjamin, ,bible,False
+Dan,ដាន់,Dan,Genesis 35:23,bible,False
+Naphtali,​ណែបថាលី,Naphtali, ,bible,False
+Gad,កាដ,Gad, ,bible,False
+Asher,​អេស៊ើរ,Asher, ,bible,False
+Milcah1,"គឺ​អ៊ូ​, ប៊ូស, ​កេមូអែល,","Uz, Buz, Kemuel,",Genesis 22:21,bible,False
+Milcah2,"កេសេត, ហាសូ,","Chesed, Hazo,", ,bible,False
+Milcah3,"ពីលដាស, យីតឡាប","Pildash, Jidlaph", ,bible,False
+Tebah,ថេបា,Tebah,Genesis 22:24,bible,False
+Gaham,កាហាំ,Gaham, ,bible,False
+Tahash,តាហាស,Tahash, ,bible,False
+Maacah,​ម៉ាអាកា,Maacah, ,bible,False
+Mahalath,ម៉ាហាឡាត/,Mahalath/,"Genesis 28:8, 9",bible,False
+Basemath,​បាសេម៉ាត,Basemath,"Genesis36:3, 4",bible,False
+Reuel,រូអាល់,Reuel,"36:13, 17",bible,False
+Nahath,ណាហាត,Nahath, ,bible,False
+Zerah,សេរ៉ា,Zerah, ,bible,False
+Schammah,សាម៉ា,Schammah, ,bible,False
+Mizzah,​មីសសា,Mizzah, ,bible,False
+Adah,​អាដា,Adah,"36:11, 12, 15, 16",bible,False
+Eliphaz,អេលីផាស,Eliphaz, ,bible,False
+Teman,ថេម៉ាន,Teman, ,bible,False
+Omar,អូម៉ា,Omar, ,bible,False
+Zepho,សេបផូ,Zepho, ,bible,False
+Kenaz,​កេណាស,Kenaz, ,bible,False
+Korah,​កូរ៉ា,Korah, ,bible,False
+Korah_Gatam, ,"Korah, Gatam","Genesis 36:11, 16",bible,False
+Amalek,អាម៉ាលេក​,Amalek, ,bible,False
+Oholibamah,​អូហូលីបាម៉ា​,Oholibamah,"36:14, 18",bible,False
+Jeush,យេអឺស,Jeush, ,bible,False
+Jalam,ចាឡាម,Jalam, ,bible,False
+Nebaioth,​ណេបេយ៉ោត,Nebaioth,Genesis 25:13,bible,False
+Kedar,​កេដា,Kedar, ,bible,False
+Mishma,មីសម៉ា,Mishma, ,bible,False
+Adbeel_Mibsam, ,"Adbeel, Mibsam",Genesis 25:13,bible,False
+Dumah_Massa, ,"Dumah, Massa",Genesis 25:14,bible,False
+Hadad,តេម៉ា,Hadad, ,bible,False
+Tema,តេម៉ា,Tema, ,bible,False
+Jetur,យេថឺ,Jetur, ,bible,False
+Naphish,ណាភីស,Naphish, ,bible,False
+Kedemah,​កេដេម៉ា,Kedemah, ,bible,False
+Keturah, ,Keturah,Genesis 25:1,bible,False
+Zimran, ,Zimran,Genesis 25:1,bible,False
+Jokshan, ,Jokshan,Genesis 25:1,bible,False
+Medan, ,Medan,Genesis 25:1,bible,False
+Midian, ,Midian,Genesis 25:1,bible,False
+Ishbak, ,Ishbak,Genesis 25:1,bible,False
+Shuah, ,Shuah,Genesis 25:1,bible,False
+Timna, ,Timna,"Genesis 36:12, 1 Chr 1:36",bible,False
+life-expectancy2, ,(Psalm 90:10),2024-11-29,bible,False
+Ham, ,Ham,Gen 10:1,bible,False
+Canaan, ,Canaan,Gen 10:6,bible,False
+Sidon, ,Sidon,Gen 10:15,bible,False
+Heth, ,Heth,Gen 10:15,bible,False
+Jebusite, ,Jebusite,Gen 10:16,bible,False
+Amorite, ,Amorite,Gen 10:16,bible,False
+Girgashite, ,Girgashite,Gen 10:16,bible,False
+Hivite, ,Hivite,Gen 10:17,bible,False
+Arkite, ,Arkite,Gen 10:17,bible,False
+Sinite, ,Sinite,Gen 10:17,bible,False
+Arvadite, ,Arvadite,Gen 10:18,bible,False
+Zemarite, ,Zemarite,Gen 10:18,bible,False
+Hamathite, ,Hamathite,Gen 10:18,bible,False
+Cush, ,Cush,Gen 10:6,bible,False
+Nimrod, ,Nimrod,Gen 10:8,bible,False
+Mizraim, ,Mizraim,Gen 10:14,bible,False
+Casluh, ,Casluh,1 Chronicles 1:12 (Philistines),bible,False
+Japheth, ,Japheth,Gen 10:1,bible,False
+Asshur, ,Asshur,Gen 10:22,bible,False
+Lud, ,Lud,Gen 10:22,bible,False
+Aram, ,Aram,Gen 10:22,bible,False
+Elam, ,Elam,Gen 10:22,bible,False
+Joktan, ,Joktan,Gen 10:26,bible,False
+Almodad, ,Almodad,Gen 10:26,bible,False
+Sheleph, ,Sheleph,Gen 10:26,bible,False
+Hazarmareth, ,Hazarmareth,Gen 10:26,bible,False
+Jerah, ,Jerah,Gen 10:26,bible,False
+Hadoram, ,Hadoram,Gen 10:27,bible,False
+Uzal, ,Uzal,Gen 10:27,bible,False
+Diklah_Obal, ,"Diklah, Obal",Gen 10:27,bible,False
+Abimael, ,Abimael,Gen 10:28,bible,False
+Sheba_Ophir, ,"Sheba, Ophir","Gen 10:28, 29",bible,False
+Havilah, ,Havilah,Gen 10:29,bible,False
+Jobab, ,Jobab,Gen 10:29,bible,False
+Ham_fn, ,1) Egyptians: Psalms 105:23,2025-09-22,bible,False
+Canaan_fn, ,2) Canaanites: Joshua 13:3,2025-09-22,bible,False
+Aram_fn, ,3) Arameans: Hosea 12:12,2025-09-22,bible,False
+Elam_fn, ,4) Elamites: Ezra 4:9,2025-09-22,bible,False
+Asshur_fn, ,5) Assyrians: Ezekiel 27:23,2025-09-22,bible,False
+Casluh_fn, ,6) Philistines: 1 Chronicles 1:12,2025-09-22,bible,False
+Cush_fn, ,7) Ethiopian [Cushite]: 2 Kings 19:9,2025-09-22,bible,False
+Edom_fn, ,8) Edomites: Numbers 20:14-17,2025-09-22,bible,False
+Moab_fn, ,"9) Moabites: Deuteronomy 23:3, 4",2025-09-22,bible,False
+Ammon_fn, ,10) Ammonites: Joshua 12:2,2025-09-22,bible,False
+Midian_fn, ,"11) Midianites: Numbers 31:2, 3",2025-09-22,bible,False
+Amalek_fn, ,12) Amalekites: 1 Samuel 15:2,2025-09-22,bible,False
+Teman_fn, ,13) Temanites: Job 42:7,2025-09-22,bible,False
+Sidon_fn, ,14) Sidonians: Zechariah 9:2,2025-09-22,bible,False
+Heth_fn, ,15) Hittites: Genesis 15:20,2025-09-22,bible,False
+Jebusite_fn, ,16) Jebusites: Joshua 15:63,2025-09-22,bible,False
+Judith, ,Judith?,"Genesis 26:34, 35",bible,False
+Lud_fn, ,17) Lydians: 1 Chronicles 1:17,"Jewish Antiquities, I, 143, 144 [vi, 4]",bible,False
+Ishmael_fn, ,18) Ishmaelites: Genesis 37:27,2025-09-22,bible,False
+Amorite_fn, ,19) Amorites: Judges 6:10,2025-09-22,bible,False
+Hivite_fn, ,"20) Hivites [Gibeon]: Joshua 9:3, 7",Gibeonites,bible,False
+Cain, ,Cain,"Genesis 4:1, son Enoch same name as other",bible,False
+Abel, ,Abel,Genesis 4:2,bible,False
+Irad, ,Irad,Genesis 4:18,bible,False
+Mehujael, ,Mehujael,Genesis 4:18,bible,False
+Methushael, ,Methushael,"Genesis 4:18, son Lamech same as other",bible,False
+Jabal, ,Jabal,"Genesis 4:20 living in tents, have livestock",bible,False
+Jubal, ,Jubal,Genesis 4:21 play harp and pipe,bible,False
+Zillah, ,Zillah,"Genesis 4:19, Adah is also a wife of Esau",bible,False
+Tubal-cain, ,Tubal-cain,Genesis 4:22 tool of copper and iron,bible,False
+Naamah, ,Naamah,Genesis 4:22 his sister,bible,False
+Rehoboam,រេហូបោម,Rehoboam,first king of southern kingdom of Juda,A6-A,False
+Abijah,អាប៊ីយ៉ា (​អាប៊ីយ៉ាម​),Abijah (Abijam),"3 years, also Abijam",A6-A,False
+Asa,អេសា,Asa, ,A6-A,False
+Jehoshaphat,យេហូសាផាត,Jehoshaphat,bce_float = -y+1 - (12-m)/12 – (31-d)/360,A6-A,False
+Jehoram2,យេហូរ៉ាម,Jehoram, ,A6-A,False
+Ahaziah,អាហាស៊ីយ៉ា,Ahaziah, ,A6-A,False
+Athaliah,មហា​ក្សត្រី​អាថាលៀ,Queen Athaliah,Queen Athaliah,A6-A,False
+Jehoash,យេហូអាស,Jehoash, ,A6-A,False
+Amaziah,អាម៉ាស៊ា,Amaziah, ,A6-A,False
+Uzziah,អូសៀស (​អាសារៀ​),Uzziah (Azariah),also Azariah,A6-A,False
+Jeroboam,យេរ៉ូបោម,Jeroboam,first king of northern 10-tribe kingdom,A6-A,False
+Nadab,ណាដាប,Nadab,less than 2,A6-A,False
+Baasha,បាអាសា,Baasha, ,A6-A,False
+Elah,អេឡា,Elah, ,A6-A,False
+Zimri,ស៊ីមរី,Zimri,Only 7 days in ca. 751 BCE,A6-A,False
+OmriTibni,អំរី​និង​ធីបណាយ,Omri and Tibni together,4 years Omri and Tibni,A6-A,False
+Omri,អំរី (​ម្នាក់​ឯង​),Omri (alone),from 947 Omri alone,A6-A,False
+Ahab,អាហាប់,Ahab, ,A6-A,False
+Jehoram,យេហូរ៉ាម,Jehoram, ,A6-A,False
+Jehu,យេហ៊ូ,Jehu, ,A6-A,False
+Jeoahaz,យេហូអាហាស,Jeoahaz, ,A6-A,False
+JeoahazJehoash,យេហូអាហាស​និង​យេហូអាស,Jeoahaz and Jehoash,For 3 years Jeoahaz and Jeoash reigned together,A6-A,False
+Jehoash2,យេហូអាស (​ម្នាក់​ឯង​),Jehoash (alone),Jehoash (alone),A6-A,False
+Jeroboam2,យេរ៉ូបោម​ទី​២,Jeroboam II, ,A6-A,False
+Elijah,អេលីយ៉ា,Elijah, ,A6-A,False
+Elisha,អេលីសេ,Elisha, ,A6-A,False
+Jonah,យ៉ូណាស,Jonah, ,A6-A,False
+Amos,អេម៉ុស,Amos, ,A6-A,False
+Joel,យ៉ូអែល,Joel, ,A6-A,False
+Jotham,យ៉ូថាម,Jotham, ,A6-B,False
+Ahaz,អេហាស,Ahaz, ,A6-B,False
+Hezekiah,ហេសេគា,Hezekiah, ,A6-B,False
+Manasseh,ម៉ាណាសេ,Manasseh, ,A6-B,False
+Amon,អេម៉ុន,Amon, ,A6-B,False
+Josiah,យ៉ូសៀស,Josiah, ,A6-B,False
+Jehoahaz,យេហូអាហាស,Jehoahaz,Only 3 months,A6-B,False
+Jehoiakim,យេហូយ៉ាគីម,Jehoiakim, ,A6-B,False
+Jehoiachin,យេហូយ៉ាគីន,Jehoiachin,Only 3 months 10 days,A6-B,False
+Zedekiah,សេដេគា,Zedekiah, ,A6-B,False
+Zechariah,សាការី,Zechariah,"reign only recorded 6 months, probably only established 792 BCE",A6-B,False
+Schallum,សាលូម,Schallum,only one month,A6-B,False
+Menahem,មេណាហិម,Menahem, ,A6-B,False
+Pekahiah,ភេកាហ៊ា,Pekahiah, ,A6-B,False
+Pekah,ភេកា,Pekah, ,A6-B,False
+Hoshea,ហូស៊ា,Hoshea,9 years from c. 748,A6-B,False
+Hosea,ហូសេ,Hosea, ,A6-B,False
+Isaiah,អេសាយ,Isaiah, ,A6-B,False
+Micah,មីកា,Micah, ,A6-B,False
+Zephaniah,សេផានា,Zephaniah, ,A6-B,False
+Nahum,ណាហ៊ុម,Nahum, ,A6-B,False
+Jeremiah,យេរេមា,Jeremiah, ,A6-B,False
+Habakuk,ហាបាគុក,Habakuk, ,A6-B,False
+Daniel,ដានីយ៉ែល,Daniel, ,A6-B,False
+Ezekiel,អេសេគាល,Ezekiel, ,A6-B,False
+Obadiah,អូបាឌា,Obadiah, ,A6-B,False
+Babylon,"ដានីយ៉ែល 2:32, 36-38; 7:4","Daniel 2:32, 36-38; 7:4", ,B9,False
+Medopersia,"ដានីយ៉ែល 2:32, 39; 7:5","Daniel 2:32, 39; 7:5", ,B9,False
+Greece,"ដានីយ៉ែល 2:32, 39; 7:6","Daniel 2:32, 39; 7:6", ,B9,False
+Rome,"ដានីយ៉ែល 2:33, 40; 7:7","Daniel 2:33, 40; 7:7", ,B9,False
+Angloamerica,"ដានីយ៉ែល 2:33, 41-43","Daniel 2:33, 41-43", ,B9,False
+Babylon_c,បាប៊ីឡូន,Babylon, ,B9,False
+Medopersia_c,មេឌី​ពើស៊ី,Medo-Persia, ,B9,False
+Greece_c,ក្រិច,Greece, ,B9,False
+Rome_c,រ៉ូម,Rome, ,B9,False
+Angloamerica_c,អង់គ្លេស​អាម៉េរិក,Anglo-America, ,B9,False
+daniel2_1,ស្ដេច​នេប៊ូក្នេសា​បំផ្លាញ,King Nebuchadnezzar,607 BCE,B9,False
+daniel2_2,យេរូសាឡិម,destroys Jerusalem, ,B9,False
+daniel2_3,ច្បាំង​ឈ្នះ​បាប៊ីឡូន,Conquers Babylon,539 BCE,B9,False
+daniel2_4,ស៊ីរូស​បង្គាប់​ពួក​យូដា​ឲ្យ​ទៅ​,Cyrus decrees return,537 BCE,B9,False
+daniel2_5,យេរូសាឡិម​វិញ,of Jews to Jerusalem, ,B9,False
+daniel2_6,អាឡិចសង់​ដ៏​ខ្លាំង​ក្លា​,Alexander the Great,331 BCE,B9,False
+daniel2_7,ច្បាំង​ឈ្នះ​ពើស៊ី,conquers Persia, ,B9,False
+daniel2_8,គ្រប់​គ្រង​អ៊ីស្រាអែល,Rules over Israel,63 BCE,B9,False
+daniel2_9,បំផ្លាញ​យេរូសាឡិម,Destroys Jerusalem,70 CE,B9,False
+daniel2_10,អំឡុង​សង្គ្រាម​លោក​លើក​ទី​១,"During World War I,",1914-1918 CE,B9,False
+daniel2_11,ចាប់​ផ្ដើម​មាន​ម,Anglo-American World Power, ,B9,False
+daniel2_12,ហា​អំណាច​អង់គ្លេស​អាម៉េរិក,comes into being,End 4.2,B9,False
+607BCE,ឆ្នាំ​607 មុន​គ.ស.,607 B.C.E.,accommodate for language,B9,False
+539BCE,ឆ្នាំ​539 មុន​គ.ស.,539 B.C.E.,systems in style:,B9,False
+537BCE,ឆ្នាំ​537 មុន​គ.ស.,537 B.C.E.,>>year 537 before time<<,B9,False
+331BCE,ឆ្នាំ​331 មុន​គ.ស.,331 B.C.E.,so they need a word,B9,False
+63BCE,ឆ្នាំ​63 មុន​គ.ស.,63 B.C.E.,prior to the year,B9,False
+70CE,ឆ្នាំ​70 គ.ស.,70 C.E.,and something,B9,False
+1914CE,ឆ្នាំ​1914-​1918 គ.ស.,1914-1918 C.E.,after the year,B9,False
+7times,វិវរណៈ 12:9,Revelation 12:9, ,scripture,False
+infliction2,កិច្ចការ 7:6,Acts 7:6, ,scripture,False
+eastern-zhou,770-256 មុនគ.ស,770-256 BC, ,span_bc,False
+430years, ,1943 – 1513 B.C.E., ,span_bce,False
+eastern-han,25-220 គ.ស,25-220 CE, ,span_ce,False
+northern-dynasties,368-581 គ.ស,368-581 CE, ,span_ce,False
+southern-dynasties,420-589 គ.ស,420-589 CE, ,span_ce,False
+khmer_empire,804 – 1431,804 – 1431, ,timespan,True
+byzantine_empire,330 – 1453,330 – 1453, ,timespan,True
+ottoman_empire,1299 – 1922,1299 – 1922, ,timespan,True
+holy_roman_empire,800 – 924,800 – 924, ,timespan,True
+holy_roman_empire2,962 – 1806,962 – 1806, ,timespan,True
+inca_empire,1438 – 1533,1438 – 1533, ,timespan,True
+gupta_empire,319 – 550,319 – 550, ,timespan,True
+Umayyad,661 – 750,661 – 750, ,timespan,True
+Abbasid,750 – 1258,750 – 1258, ,timespan,True
+Mamluk,1250 – 1517,1250 – 1517, ,timespan,True
+seljuk_empire,1037 – 1194,1037 – 1194,"Seljuk Empire 1037-1194, part of Seljuk dynasty 1037-1308",timespan,True
+lombard,568 – 774,568 – 774,Kingdom of the Lombards 568-774,timespan,True
+qing-dynasty,1636-1912,1636-1912, ,timespan,True
+ming-dynasty,1368-1644,1368-1644, ,timespan,True
+yuan-dynasty,1271-1368,1271-1368, ,timespan,True
+southern-song,1127-1279,1127-1279, ,timespan,True
+northern-song,960-1127,960-1127, ,timespan,True
+western-xia,1038-1227,1038-1227, ,timespan,True
+maya_classic,250–950,250–950, ,timespan,True
+maya_postclassic,950-1539,950-1539, ,timespan,True
+tran_dynasty,1225–1400,1225–1400, ,timespan,True
+le_dynasty,1428–1527,1428–1527,triều Lê sơ or Vietnamese: nhà Lê sơ,timespan,True
+revival_le_dynasty,1533-1789,1533-1789, ,timespan,True
+nguyen_dynasty,1802 – 1883,1802 – 1883, ,timespan,True
+edo,1603 – 1868,1603 – 1868, ,timespan,True
+meiji,1868 – 1912,1868 – 1912, ,timespan,True
+Julius,ជូលីស,Julius, ,wiki,False
+Caligula,កាលីហ្គូឡា,Caligula, ,wiki,False
+Nero,នីរ៉ូ,Nero, ,wiki,False
+Galba-Otho-Vitellius,"ហ្គាបា, អូតូ និង វីតាលីស (ឆ្នាំនៃអធិរាជទាំងបួន)","Galba, Otho and Vitellius (Year of the Four Emperors)", ,wiki,False
+Vespasian,វេស្ប៉ាសៀន,Vespasian, ,wiki,False
+covid19,កូវីដ-19,Covid-19, ,wiki,False
+nicaea1,ក្រុមប្រឹក្សាទីមួយនៃនីកា,First Council of Nicaea, ,wiki,False
+oxyrhynchus,អាល់បាណាសា ផងដែរ។,Oxyrhynchus Papyri, ,wiki,False
+p52,ផងដែរ។ P52,Papyrus P52, ,wiki,False
+qing-dynasty_c,រាជវង្សឈីង,Qing dynasty,1636-1912,wiki,False
+ming-dynasty_c,រាជវង្ស មីង នៅ​ចក្រភព​ចិន,Ming dynasty in imperial China,1368-1644,wiki,False
+yuan-dynasty_c,យន់,Yuan,1271-1368,wiki,False
+southern-song_c,ចម្រៀងភាគខាងត្បូង,Southern Song,1127-1279,wiki,False
+northern-song_c,ចម្រៀងខាងជើង,Northern Song,960-1127,wiki,False
+western-xia_c,សៀខាងលិច,Western Xia,1038-1227,wiki,False
+Copernicus,នីកូឡាស កូពែរនិច,Nicolaus Copernicus, ,wiki,False
+Galileo,កាលីឡេអូ ហ្គាលីលី,Galileo Galilei,Galileo di Vincenzo Bonaiuti de' Galilei,wiki,False
+Newton,អ៊ីសាក ញូតុន,Isaac Newton, ,wiki,False
+shang-dynasty_c,រាជវង្ស ស៊ាង,Shang dynasty,c. 1600-1046 BC,wiki,False
+western-zhou_c,ចូវខាងលិច,Western Zhou,c. 1046-771 BC,wiki,False
+eastern-zhou_c,ចូវខាងកើត,Eastern Zhou,770-256 BC,wiki,False
+western-han_c,ហានខាងលិច,Western Han,207 BC – 9 CE,wiki,False
+eastern-han_c,ហានខាងកើត,Eastern Han,25-220 CE,wiki,False
+three-kingdoms_c,ចិន,China,Three kingdoms 220-280 CE,wiki,False
+sixteen-kingdoms_c,ចិន,China,Sixteen kingdoms 304-439 CE,wiki,False
+northern-dynasties_c,រាជវង្សខាងជើង,Northern dynasties,368-581 CE,wiki,False
+southern-dynasties_c,រាជវង្សខាងត្បូង,Southern dynasties,420-589 CE,wiki,False
+tang-dynasty2_c,រាជវង្សថាង,Tang dynasty,"618-690, 705-907",wiki,False
+byzantine_empire_c,ចក្រភព ប៊ីហ្សីនទីន,Byzantine Empire, ,wiki,False
+ottoman_empire_c,ចក្រភពអូតូម៉ង់,Ottoman Empire, ,wiki,False
+Genghis,ជេនហ្គិស ខាន់,Genghis Khan, ,wiki,False
+inca_empire_c,អាណាចក្រ Inca,Inca empire, ,wiki,False
+gupta_empire_c,ចក្រភព ហ្គូតា,Gupta Empire, ,wiki,False
+Teotihuacan_c,Teotihuacan,Teotihuacan, ,wiki,False
+Abbasid_c,Abbasid Caliphate,Abbasid Caliphate, ,wiki,False
+Mamluk_c,ម៉មលូកស៊ុលតង់,Mamluk Sultanate, ,wiki,False
+Al-Ghazali,អាល់ហ្គាហ្សាលី,Al-Ghazali,2024-06-19,wiki,False
+wulfila, ,Wulfila Bible,2025-09-20,wiki,False
+tran_dynasty_c, ,Trần dynasty, ,wiki,False
+le_dynasty_c, ,Lê dynasty, ,wiki,False
+revival_le_dynasty_c, ,Trịnh lords and Nguyễn lords,"Nhà Lê trung hưng, Revival Lê dynasty",wiki,False
+seljuk_empire_c, ,Seljuk empire, ,wiki,False
+vandals_c, ,Vandals, ,wiki,False
+lombard_c, ,Lombard Kingdom,2025-10-13,wiki,False
+people,មនុស្ស,people, ,deprecated,False
+judges,ចៅក្រម,judges, ,deprecated,False
+prophets,ហោរា,prophets, ,deprecated,False
+kings,ស្តេច,kings, ,deprecated,False
+periods,រយៈពេល,periods, ,deprecated,False
+events,ព្រឹត្តិការណ៍,events, ,deprecated,False
+objects,វត្ថុឬវត្ថុ,objects or items, ,deprecated,False
+event_destruction_samaria2,740 មុនគ.ស. ដោយ អាស្ស៊ីរី,740 B.C.E. by Assyria,was shortened here for 2 lines,deprecated,False
+photodrama,ល្ខោនរូបថតនៃការបង្កើត ត្រូវបានបង្ហាញជាលើកដំបូងនៅញូវយ៉កនៅថ្ងៃទី 11 ខែមករាឆ្នាំ 1914 ។,"The “Photo-Drama of Creation” is first shown in New York on January 11, 1914", ,deprecated,False
+truth_book,"សៀវភៅ ""សេចក្តីពិតដែលនាំទៅរកជីវិតអស់កល្បជានិច្ច"" ចេញផ្សាយឆ្នាំ 1968",The book “The Truth That Leads to Eternal Life” is released 1968, ,deprecated,False
+jw_broadcasting,ការផ្សាយ jw.broadcast នៅខែតុលា ឆ្នាំ 2014,Start of JW Broadcasting® in October 2014, ,deprecated,False
+meeting_workbook,"ទម្រង់ថ្មីនៃកិច្ចប្រជុំពាក់កណ្តាលសប្តាហ៍ជាមួយ ""សៀវភៅការងារ"" ដែលចាប់ផ្តើមពីខែមករា ឆ្នាំ 2016",New format of midweek meeting with “Meeting Workbook” starting January 2016, ,deprecated,False
+terahfam,សមាជិកនៃគ្រួសាររបស់ Terah,Members of Terah’s family, ,deprecated,False
+metropolitan,ការ​ចាប់​ផ្តើ​ម​នៃ​ការ​ធ្វើ​ជា​សាក្សី​ទី​ក្រុង​នៅ​ក្នុង 2011,Start of metropolitan witnessing in 2011, ,deprecated,False
+jw_org,ការចាប់ផ្តើមនៃ JW.ORG ជាមួយនឹងការណែនាំក្នុងកិច្ចបម្រើផ្សាយរបស់ព្រះរាជាណាចក្រ ខែធ្នូ ឆ្នាំ 2012,Start of JW.ORG with instructions in Kingdom Ministry December 2012, ,deprecated,False
+Babylon2, , ,no text left and right – empty!,deprecated,False
+daniel2_shift,0,0,Start 4.2,deprecated,False
+Gatam,កាថាម,Gatam, ,deprecated,False
+Adbeel,អាតបៀល,Adbeel, ,deprecated,False
+Mibsam,មីបសាម,Mibsam, ,deprecated,False
+Dumah,ឌូម៉ា,Dumah, ,deprecated,False
+Massa,ម៉ាសា,Massa, ,deprecated,False
+tang-dynasty1, , , ,deprecated,False
+xia-dynasty,រាជវង្ស Xia នៅប្រទេសចិន គ. 2070 – គ. 1600 មុនគ,Xia dynasty in China c. 2070 – c. 1600 BC, ,deprecated,False
+Midianites, ,"1) Midianites: Numbers 31:2, 3", ,deprecated,False
+Moabites, ,"2) Moabites: Deuteronomy 23:3, 4", ,deprecated,False
+Ammonites, ,3) Ammonites: Joshua 12:2, ,deprecated,False
+Edomites, ,4) Edomites: Numbers 20:14-17, ,deprecated,False
+Temanites, ,5) Temanites: Job 42:7, ,deprecated,False
+Amalekites, ,6) Amalekites: 1 Samuel 15:2,2024-09-29,deprecated,False
+king_south_light, , ,2025-02-05,deprecated,False
+king_north_light, , ,2025-02-05,deprecated,False
+daniel2_iron, , ,2025-02-05,deprecated,False
