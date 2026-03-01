@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dictionary · Translation Editor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;800&family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink:     #0f0e0d;
+      --paper:   #f5f1eb;
+      --card:    #fffdf9;
+      --accent:  #d4501a;
+      --muted:   #9b9389;
+      --border:  #ddd8cf;
+      --green:   #2d7a4f;
+      --yellow:  #c99a00;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'DM Mono', monospace;
+      background: var(--paper);
+      color: var(--ink);
+      min-height: 100vh;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+    }
+
+    /* HEADER */
+    header {
+      border-bottom: 2px solid var(--ink);
+      padding: 0 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      height: 64px;
+    }
+    .logo {
+      font-family: 'Syne', sans-serif;
+      font-weight: 800;
+      font-size: 1.25rem;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: baseline;
+      gap: .4rem;
+    }
+    .logo span { color: var(--accent); }
+    .logo sub {
+      font-size: .65rem;
+      color: var(--muted);
+      font-weight: 400;
+      font-family: 'DM Mono', monospace;
+      letter-spacing: .05em;
+    }
+    nav { display: flex; gap: .5rem; align-items: center; }
+    .btn {
+      font-family: 'DM Mono', monospace;
+      font-size: .78rem;
+      padding: .4rem .9rem;
+      border: 1.5px solid var(--ink);
+      background: transparent;
+      cursor: pointer;
+      transition: background .15s, color .15s;
+      letter-spacing: .03em;
+    }
+    .btn:hover { background: var(--ink); color: var(--paper); }
+    .btn.primary { background: var(--accent); color: #fff; border-color: var(--accent); }
+    .btn.primary:hover { background: #b8421a; border-color: #b8421a; }
+    .gh-link {
+      display: flex; align-items: center; gap: .4rem;
+      font-size: .78rem; color: var(--muted); text-decoration: none;
+      border: 1.5px solid var(--border); padding: .4rem .8rem;
+      transition: border-color .15s, color .15s;
+    }
+    .gh-link:hover { border-color: var(--ink); color: var(--ink); }
+    .gh-link svg { width: 16px; height: 16px; fill: currentColor; }
+
+    /* LAYOUT */
+    main {
+      display: grid;
+      grid-template-columns: 260px 1fr 280px;
+      height: calc(100vh - 64px - 40px);
+      overflow: hidden;
+    }
+    aside {
+      border-right: 1.5px solid var(--border);
+      overflow-y: auto;
+      padding: 1.25rem 0;
+    }
+    aside h2 {
+      font-family: 'Syne', sans-serif;
+      font-size: .7rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      padding: 0 1.25rem .6rem;
+    }
+    .lang-list { list-style: none; }
+    .lang-item {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: .55rem 1.25rem;
+      cursor: pointer;
+      border-left: 3px solid transparent;
+      transition: background .12s, border-color .12s;
+      font-size: .83rem;
+    }
+    .lang-item:hover { background: rgba(0,0,0,.04); }
+    .lang-item.active { border-left-color: var(--accent); background: rgba(212,80,26,.06); }
+    .lang-item .flag { font-size: 1.1rem; margin-right: .5rem; }
+    .lang-item .count {
+      font-size: .68rem; background: var(--border);
+      padding: 1px 6px; color: var(--muted);
+    }
+    .lang-item .count.warn { background: #fdf0dc; color: var(--yellow); }
+
+    /* EDITOR */
+    .editor-pane {
+      display: flex; flex-direction: column; overflow: hidden;
+    }
+    .editor-toolbar {
+      border-bottom: 1.5px solid var(--border);
+      padding: .75rem 1.5rem;
+      display: flex; align-items: center; gap: .75rem;
+      flex-shrink: 0;
+    }
+    .editor-toolbar select, .editor-toolbar input[type="search"] {
+      font-family: 'DM Mono', monospace;
+      font-size: .78rem;
+      border: 1.5px solid var(--border);
+      background: var(--card);
+      padding: .35rem .6rem;
+      color: var(--ink);
+      outline: none;
+      transition: border-color .15s;
+    }
+    .editor-toolbar input[type="search"] { flex: 1; }
+    .editor-toolbar select:focus,
+    .editor-toolbar input[type="search"]:focus { border-color: var(--accent); }
+    .filter-tag {
+      font-size: .7rem; padding: .25rem .6rem; border: 1.5px solid var(--border);
+      cursor: pointer; transition: all .12s; background: transparent; color: var(--muted);
+    }
+    .filter-tag.active { border-color: var(--accent); color: var(--accent); background: rgba(212,80,26,.06); }
+
+    .entries { overflow-y: auto; flex: 1; padding: 1.25rem 1.5rem; display: flex; flex-direction: column; gap: .75rem; }
+
+    .entry-card {
+      background: var(--card);
+      border: 1.5px solid var(--border);
+      padding: 1rem 1.15rem;
+      transition: border-color .15s, box-shadow .15s;
+      cursor: pointer;
+      position: relative;
+    }
+    .entry-card:hover { border-color: var(--ink); box-shadow: 3px 3px 0 var(--ink); }
+    .entry-card.selected { border-color: var(--accent); box-shadow: 3px 3px 0 var(--accent); }
+    .entry-header { display: flex; align-items: baseline; gap: .75rem; margin-bottom: .5rem; }
+    .entry-key { font-family: 'Syne', sans-serif; font-weight: 600; font-size: .9rem; }
+    .entry-id { font-size: .68rem; color: var(--muted); }
+    .entry-source { font-size: .8rem; color: var(--muted); margin-bottom: .4rem; font-style: italic; }
+    .entry-translation { font-size: .85rem; }
+    .entry-translation.empty { color: var(--muted); font-style: italic; }
+    .status-dot {
+      position: absolute; top: .9rem; right: .9rem;
+      width: 8px; height: 8px; border-radius: 50%;
+    }
+    .status-dot.done    { background: var(--green); }
+    .status-dot.pending { background: var(--yellow); }
+    .status-dot.missing { background: var(--accent); }
+
+    /* DETAILS PANEL */
+    .details-pane {
+      border-left: 1.5px solid var(--border);
+      overflow-y: auto;
+      padding: 1.25rem;
+      display: flex; flex-direction: column; gap: 1.25rem;
+    }
+    .details-pane h2 {
+      font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.05rem;
+      letter-spacing: -.01em;
+    }
+    .field label {
+      display: block; font-size: .68rem; letter-spacing: .1em;
+      text-transform: uppercase; color: var(--muted); margin-bottom: .4rem;
+    }
+    .field .source-text {
+      background: rgba(0,0,0,.04); padding: .6rem .75rem;
+      font-size: .85rem; border-left: 3px solid var(--border);
+      font-style: italic; color: var(--muted);
+    }
+    .field textarea {
+      width: 100%; font-family: 'DM Mono', monospace;
+      font-size: .85rem; border: 1.5px solid var(--border);
+      padding: .6rem .75rem; background: var(--card); color: var(--ink);
+      resize: vertical; min-height: 90px; outline: none;
+      transition: border-color .15s;
+    }
+    .field textarea:focus { border-color: var(--accent); }
+    .meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; }
+    .meta-item { font-size: .75rem; }
+    .meta-item dt { color: var(--muted); margin-bottom: .15rem; }
+    .meta-item dd { font-weight: 500; }
+    .pr-section { border-top: 1.5px dashed var(--border); padding-top: 1rem; }
+    .pr-section h3 {
+      font-family: 'Syne', sans-serif; font-size: .75rem;
+      letter-spacing: .1em; text-transform: uppercase; color: var(--muted);
+      margin-bottom: .75rem;
+    }
+    .pr-info {
+      display: flex; align-items: center; justify-content: space-between;
+      font-size: .78rem; padding: .5rem .75rem; background: #f0fdf6;
+      border: 1.5px solid #b7eacd;
+    }
+    .pr-info a { color: var(--green); text-decoration: none; font-weight: 500; }
+    .btn-group { display: flex; gap: .5rem; flex-wrap: wrap; }
+    .btn-sm { font-size: .73rem; padding: .35rem .75rem; }
+
+    /* FOOTER */
+    footer {
+      border-top: 1.5px solid var(--border);
+      height: 40px;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 2rem;
+      font-size: .7rem; color: var(--muted);
+    }
+    .progress-bar-wrap { flex: 1; max-width: 200px; margin: 0 1rem; }
+    .progress-bar { height: 4px; background: var(--border); }
+    .progress-bar-fill { height: 100%; background: var(--green); width: 38%; transition: width .4s; }
+
+    /* EMPTY STATE */
+    .empty-state {
+      flex: 1; display: flex; flex-direction: column;
+      align-items: center; justify-content: center; gap: 1rem;
+      color: var(--muted); text-align: center;
+    }
+    .empty-state .icon { font-size: 2.5rem; }
+    .empty-state p { font-size: .83rem; max-width: 200px; line-height: 1.5; }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="logo">
+    kreier/<span>dictionary</span>
+    <sub>translation editor</sub>
+  </div>
+  <nav>
+    <a href="https://github.com/kreier/dictionary" target="_blank" class="gh-link">
+      <svg viewBox="0 0 16 16"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+        0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+        -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66
+        .07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15
+        -.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.65 7.65 0 0 1 2-.27
+        c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12
+        .51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48
+        0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8
+        c0-4.42-3.58-8-8-8z"/></svg>
+      GitHub
+    </a>
+    <button class="btn" onclick="alert('Wire up GitHub OAuth here')">Sign in</button>
+    <button class="btn primary" onclick="alert('Opens PR draft via GitHub API')">Submit PR</button>
+  </nav>
+</header>
+
+<!-- MAIN -->
+<main>
+
+  <!-- LEFT: language list -->
+  <aside>
+    <h2>Languages</h2>
+    <ul class="lang-list" id="langList">
+      <li class="lang-item active" data-lang="vi" onclick="selectLang(this)">
+        <span><span class="flag">🇻🇳</span>Vietnamese</span>
+        <span class="count warn">12 missing</span>
+      </li>
+      <li class="lang-item" data-lang="de" onclick="selectLang(this)">
+        <span><span class="flag">🇩🇪</span>German</span>
+        <span class="count">3 missing</span>
+      </li>
+      <li class="lang-item" data-lang="ja" onclick="selectLang(this)">
+        <span><span class="flag">🇯🇵</span>Japanese</span>
+        <span class="count warn">7 missing</span>
+      </li>
+      <li class="lang-item" data-lang="fr" onclick="selectLang(this)">
+        <span><span class="flag">🇫🇷</span>French</span>
+        <span class="count">1 missing</span>
+      </li>
+      <li class="lang-item" data-lang="es" onclick="selectLang(this)">
+        <span><span class="flag">🇪🇸</span>Spanish</span>
+        <span class="count">0 missing</span>
+      </li>
+      <li class="lang-item" data-lang="zh" onclick="selectLang(this)">
+        <span><span class="flag">🇨🇳</span>Chinese (Simplified)</span>
+        <span class="count warn">5 missing</span>
+      </li>
+    </ul>
+  </aside>
+
+  <!-- CENTER: entry list -->
+  <section class="editor-pane">
+    <div class="editor-toolbar">
+      <input type="search" placeholder="Search keys or text…" id="searchInput" oninput="filterEntries()" />
+      <select id="statusFilter" onchange="filterEntries()">
+        <option value="all">All status</option>
+        <option value="missing">Missing</option>
+        <option value="pending">Pending review</option>
+        <option value="done">Translated</option>
+      </select>
+      <button class="filter-tag active" onclick="toggleTag(this,'ui')">UI</button>
+      <button class="filter-tag" onclick="toggleTag(this,'content')">Content</button>
+      <button class="filter-tag" onclick="toggleTag(this,'meta')">Meta</button>
+    </div>
+    <div class="entries" id="entriesList"></div>
+  </section>
+
+  <!-- RIGHT: detail / edit panel -->
+  <aside class="details-pane" id="detailPane">
+    <div class="empty-state">
+      <div class="icon">↖</div>
+      <p>Select an entry on the left to start translating.</p>
+    </div>
+  </aside>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <span id="footerLang">Vietnamese · 3 / 11 translated</span>
+  <div class="progress-bar-wrap">
+    <div class="progress-bar"><div class="progress-bar-fill" id="progressFill" style="width:27%"></div></div>
+  </div>
+  <span>kreier.github.io/dictionary · <a href="https://github.com/kreier/dictionary/pulls" target="_blank" style="color:inherit">open PRs</a></span>
+</footer>
+
+<script>
+/* ── Sample data — replace with fetch() from your repo's JSON or GitHub Contents API ── */
+const ENTRIES = [
+  { id: "nav.home",         source: "Home",                              translation: "Trang chủ",  status: "done",    category: "ui" },
+  { id: "nav.about",        source: "About",                             translation: "Giới thiệu", status: "pending", category: "ui" },
+  { id: "nav.contact",      source: "Contact",                           translation: "",           status: "missing", category: "ui" },
+  { id: "word.hello",       source: "Hello",                             translation: "Xin chào",   status: "done",    category: "content" },
+  { id: "word.goodbye",     source: "Goodbye",                           translation: "",           status: "missing", category: "content" },
+  { id: "word.thank_you",   source: "Thank you",                         translation: "Cảm ơn",    status: "done",    category: "content" },
+  { id: "word.please",      source: "Please",                            translation: "Làm ơn",    status: "done",    category: "content" },  // TODO: fix accent
+  { id: "word.yes",         source: "Yes",                               translation: "",           status: "missing", category: "content" },
+  { id: "word.no",          source: "No",                                translation: "",           status: "missing", category: "content" },
+  { id: "meta.title",       source: "Dictionary Project",                translation: "",           status: "missing", category: "meta" },
+  { id: "meta.description", source: "A collaborative multilingual dictionary.", translation: "Từ điển đa ngôn ngữ.", status: "pending", category: "meta" },
+];
+
+let selectedId = null;
+let activeTags = new Set(["ui"]);
+
+function renderEntries() {
+  const q  = document.getElementById("searchInput").value.toLowerCase();
+  const sf = document.getElementById("statusFilter").value;
+  const list = document.getElementById("entriesList");
+
+  const filtered = ENTRIES.filter(e => {
+    const matchQ = !q || e.id.toLowerCase().includes(q) || e.source.toLowerCase().includes(q) || e.translation.toLowerCase().includes(q);
+    const matchS = sf === "all" || e.status === sf;
+    const matchT = activeTags.size === 0 || activeTags.has(e.category);
+    return matchQ && matchS && matchT;
+  });
+
+  if (!filtered.length) {
+    list.innerHTML = `<div class="empty-state"><div class="icon">∅</div><p>No entries match your filters.</p></div>`;
+    return;
+  }
+
+  list.innerHTML = filtered.map(e => `
+    <div class="entry-card ${selectedId === e.id ? "selected" : ""}" onclick="selectEntry('${e.id}')">
+      <span class="status-dot ${e.status}"></span>
+      <div class="entry-header">
+        <span class="entry-key">${e.id}</span>
+        <span class="entry-id">${e.category}</span>
+      </div>
+      <div class="entry-source">${e.source}</div>
+      <div class="entry-translation ${e.translation ? "" : "empty"}">${e.translation || "— not yet translated —"}</div>
+    </div>
+  `).join("");
+}
+
+function selectEntry(id) {
+  selectedId = id;
+  const e = ENTRIES.find(x => x.id === id);
+  renderEntries();
+
+  const langName = document.querySelector(".lang-item.active span:last-child")?.textContent || "—";
+  document.getElementById("detailPane").innerHTML = `
+    <h2>${e.id}</h2>
+    <div class="field">
+      <label>Source (English)</label>
+      <div class="source-text">${e.source}</div>
+    </div>
+    <div class="field">
+      <label>Your Translation</label>
+      <textarea id="translationInput" placeholder="Enter translation…">${e.translation}</textarea>
+    </div>
+    <div class="meta-grid">
+      <dl class="meta-item"><dt>Category</dt><dd>${e.category}</dd></dl>
+      <dl class="meta-item"><dt>Status</dt><dd>${e.status}</dd></dl>
+      <dl class="meta-item"><dt>Key</dt><dd style="font-size:.7rem;word-break:break-all">${e.id}</dd></dl>
+      <dl class="meta-item"><dt>Language</dt><dd>${document.querySelector(".lang-item.active")?.dataset.lang?.toUpperCase() || "—"}</dd></dl>
+    </div>
+    <div class="btn-group">
+      <button class="btn btn-sm primary" onclick="saveEntry('${e.id}')">Save draft</button>
+      <button class="btn btn-sm" onclick="markReady('${e.id}')">Mark ready for PR</button>
+      <button class="btn btn-sm" onclick="skipEntry()">Skip →</button>
+    </div>
+    <div class="pr-section">
+      <h3>GitHub PR Automation</h3>
+      <div class="pr-info">
+        <span>Target: <strong>kreier/dictionary</strong></span>
+        <a href="https://github.com/kreier/dictionary/pulls" target="_blank">View PRs →</a>
+      </div>
+      <p style="font-size:.72rem;color:var(--muted);margin-top:.6rem;line-height:1.6">
+        "Mark ready" will fork the repo, commit changes to a new branch, and open a pull request via the GitHub REST API.
+        Wire up <code style="font-size:.7rem">POST /repos/kreier/dictionary/pulls</code> here.
+      </p>
+    </div>
+  `;
+}
+
+function saveEntry(id) {
+  const val = document.getElementById("translationInput")?.value.trim();
+  const e = ENTRIES.find(x => x.id === id);
+  if (val !== undefined) {
+    e.translation = val;
+    e.status = val ? "pending" : "missing";
+  }
+  renderEntries();
+  updateFooter();
+  // TODO: POST to GitHub Contents API or store in localStorage until batch submit
+  alert(`Draft saved for "${id}"\n\nTODO: persist via GitHub API.`);
+}
+
+function markReady(id) {
+  const val = document.getElementById("translationInput")?.value.trim();
+  if (!val) { alert("Please add a translation first."); return; }
+  const e = ENTRIES.find(x => x.id === id);
+  e.translation = val;
+  e.status = "done";
+  renderEntries();
+  updateFooter();
+  // TODO: GitHub API — create/update file, open PR
+  alert(`"${id}" marked ready!\n\nTODO: call GitHub API to open a PR on kreier/dictionary.`);
+}
+
+function skipEntry() {
+  const visible = ENTRIES.filter(e => activeTags.size === 0 || activeTags.has(e.category));
+  const idx = visible.findIndex(x => x.id === selectedId);
+  const next = visible[(idx + 1) % visible.length];
+  selectEntry(next.id);
+}
+
+function selectLang(el) {
+  document.querySelectorAll(".lang-item").forEach(li => li.classList.remove("active"));
+  el.classList.add("active");
+  selectedId = null;
+  document.getElementById("detailPane").innerHTML = `<div class="empty-state"><div class="icon">↖</div><p>Select an entry on the left to start translating.</p></div>`;
+  renderEntries();
+  // TODO: load language-specific translations from your data source
+}
+
+function filterEntries() { renderEntries(); }
+
+function toggleTag(btn, tag) {
+  btn.classList.toggle("active");
+  activeTags.has(tag) ? activeTags.delete(tag) : activeTags.add(tag);
+  renderEntries();
+}
+
+function updateFooter() {
+  const done = ENTRIES.filter(e => e.status === "done").length;
+  const total = ENTRIES.length;
+  document.getElementById("footerLang").textContent =
+    `${document.querySelector(".lang-item.active")?.dataset.lang?.toUpperCase() || "??"} · ${done} / ${total} translated`;
+  document.getElementById("progressFill").style.width = `${Math.round(done/total*100)}%`;
+}
+
+renderEntries();
+</script>
+</body>
+</html>
