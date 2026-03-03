@@ -1,4 +1,4 @@
-﻿key,text,english,notes,tag,checked,checked_by,date,google,chatgpt,gemini,glaude,bing
+﻿key,text,english,notes,tag,checked,checked_by,date,google,chatgpt,gemini,claude,bing
 version,6.02,6.02, ,float,False,,,,,,,
 pdf_title,6000 vuoden ihmiskunnan historia visualisoituna,6000 years human history visualized,2026-02-12,text,True,,,,,,,
 pdf_subject,Ihmiskunnan aikajana,Timeline of humankind, ,text,False,,,,,,,

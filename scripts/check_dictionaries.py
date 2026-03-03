@@ -27,8 +27,12 @@ REQUIRED_DICTIONARY_COLUMNS = [
     "google",
     "chatgpt",
     "gemini",
-    "glaude",
+    "claude",
     "bing",
+]
+
+REMOVABLE_DICTIONARY_COLUMNS = [
+    "glaude",
 ]
 
 
@@ -62,17 +66,26 @@ def ensure_dictionary_columns(path: Path, problems: list[str], notes: list[str])
         return None
 
     missing_columns = [col for col in REQUIRED_DICTIONARY_COLUMNS if col not in df.columns]
+    removable_columns = [col for col in REMOVABLE_DICTIONARY_COLUMNS if col in df.columns]
 
-    if missing_columns:
+    if missing_columns or removable_columns:
         for col in missing_columns:
             df[col] = ""
+
+        if removable_columns:
+            df = df.drop(columns=removable_columns)
 
         ordered_columns = REQUIRED_DICTIONARY_COLUMNS + [
             col for col in df.columns if col not in REQUIRED_DICTIONARY_COLUMNS
         ]
         df = df[ordered_columns]
         df.to_csv(path, index=False, encoding="utf-8-sig")
-        notes.append(f"{path.name}: added missing columns: {', '.join(missing_columns)}")
+        note_parts: list[str] = []
+        if missing_columns:
+            note_parts.append(f"added missing columns: {', '.join(missing_columns)}")
+        if removable_columns:
+            note_parts.append(f"removed extra columns: {', '.join(removable_columns)}")
+        notes.append(f"{path.name}: {'; '.join(note_parts)}")
 
     return df
 

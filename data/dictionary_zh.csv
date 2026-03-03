@@ -1,4 +1,4 @@
-﻿key,text,english,notes,tag,checked,checked_by,date,google,chatgpt,gemini,glaude,bing
+﻿key,text,english,notes,tag,checked,checked_by,date,google,chatgpt,gemini,claude,bing
 version,6.02,6.02, ,float,True,,,,,,,
 pdf_title,6000年的人类历史可视化,6000 years human history visualized,2026-02-12,text,True,,,,,,,
 pdf_subject,人类时间轴,Timeline of humankind,6.01,text,True,,,,,,,

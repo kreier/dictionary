@@ -1,4 +1,4 @@
-﻿key,text,english,notes,tag,checked,checked_by,date,google,chatgpt,gemini,glaude,bing
+﻿key,text,english,notes,tag,checked,checked_by,date,google,chatgpt,gemini,claude,bing
 version,6.02,6.02,5.7,float,True,,,,,,,
 pdf_title,人類史6000年の年表,6000 years human history visualized,2026-02-12,text,True,,,,,,,
 pdf_subject,人類の年表,Timeline of humankind,5.7,text,False,,,,,,,

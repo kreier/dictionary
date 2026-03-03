@@ -1,4 +1,4 @@
-﻿key,text,english,notes,tag,checked,checked_by,date,google,chatgpt,gemini,glaude,bing
+﻿key,text,english,notes,tag,checked,checked_by,date,google,chatgpt,gemini,claude,bing
 version,6.02,6.02, ,float,False,,,,,,,
 pdf_title,한눈에 보는 인류 6000년 역사,6000 years human history visualized,2026-02-12,text,True,,,,,,,
 pdf_subject,인류의 타임라인,Timeline of humankind,6.01,text,False,,,,,,,
