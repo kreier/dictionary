@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import asyncio
 import html
 import json
 import os
@@ -22,6 +23,7 @@ SUPPORTED_FILE = "supported_languages.csv"
 DICTIONARY_PREFIX = "dictionary_"
 DICTIONARY_SUFFIX = ".csv"
 TRANSLATE_ENDPOINT = "https://translation.googleapis.com/language/translate/v2"
+PUBLIC_TRANSLATE_ENDPOINT = "https://translate.googleapis.com/translate_a/single"
 
 
 class ScriptError(Exception):
@@ -74,7 +76,7 @@ def resolve_language_row(supported_df: pd.DataFrame, lang_code: str) -> dict[str
     raise ScriptError(f"Language '{lang_code}' not found in {SUPPORTED_FILE}")
 
 
-def translate_text(text: str, target_lang: str, api_key: str) -> str:
+def translate_text_cloud(text: str, target_lang: str, api_key: str) -> str:
     payload = urllib.parse.urlencode(
         {
             "q": text,
@@ -112,6 +114,63 @@ def translate_text(text: str, target_lang: str, api_key: str) -> str:
     return html.unescape(str(translated))
 
 
+def translate_text_public(text: str, target_lang: str) -> str:
+    query = urllib.parse.urlencode(
+        {
+            "client": "gtx",
+            "sl": "en",
+            "tl": target_lang,
+            "dt": "t",
+            "q": text,
+        }
+    )
+    url = f"{PUBLIC_TRANSLATE_ENDPOINT}?{query}"
+    request = urllib.request.Request(url, method="GET")
+
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            body = response.read().decode("utf-8")
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="replace")
+        raise ScriptError(
+            f"Public Google Translate endpoint HTTP {exc.code}: {detail[:500]}"
+        ) from exc
+    except urllib.error.URLError as exc:
+        raise ScriptError(f"Public Google Translate request failed: {exc}") from exc
+
+    try:
+        response_json = json.loads(body)
+        chunks = response_json[0]
+        translated = "".join(str(chunk[0]) for chunk in chunks if chunk and chunk[0] is not None)
+    except (json.JSONDecodeError, IndexError, TypeError, ValueError) as exc:
+        raise ScriptError(f"Unexpected public endpoint response: {body[:500]}") from exc
+
+    return html.unescape(str(translated))
+
+
+async def translate_many_public(
+    dictionary_df: pd.DataFrame,
+    indices: list[int],
+    target_lang: str,
+    concurrency: int,
+) -> dict[int, str]:
+    semaphore = asyncio.Semaphore(max(1, concurrency))
+    results: dict[int, str] = {}
+
+    async def worker(index: int) -> None:
+        english_text = str(dictionary_df.at[index, "english"])
+        if not english_text.strip():
+            return
+        async with semaphore:
+            translated_text = await asyncio.to_thread(
+                translate_text_public, english_text, target_lang
+            )
+        results[index] = translated_text
+
+    await asyncio.gather(*(worker(index) for index in indices))
+    return results
+
+
 def confirm_apply_mismatches(mismatches: list[Mismatch]) -> bool:
     print("\nMismatches found where existing 'google' differs from API result:")
     for item in mismatches:
@@ -125,14 +184,19 @@ def confirm_apply_mismatches(mismatches: list[Mismatch]) -> bool:
     return answer in {"y", "yes"}
 
 
-def run(lang_code_input: str) -> int:
+def run(lang_code_input: str, provider: str, concurrency: int) -> int:
     repo_root = Path(__file__).resolve().parents[2]
     data_dir = repo_root / DATA_DIR_NAME
     supported_path = data_dir / SUPPORTED_FILE
 
-    api_key = os.getenv("GOOGLE_TRANSLATE_API_KEY", "").strip()
-    if not api_key:
-        raise ScriptError("Missing GOOGLE_TRANSLATE_API_KEY environment variable")
+    api_key = ""
+    if provider == "cloud":
+        api_key = os.getenv("GOOGLE_TRANSLATE_API_KEY", "").strip()
+        if not api_key:
+            raise ScriptError(
+                "Missing GOOGLE_TRANSLATE_API_KEY environment variable "
+                "(or use --provider public for no-key mode)"
+            )
 
     supported_df = load_csv(supported_path)
     row = resolve_language_row(supported_df, lang_code_input)
@@ -164,13 +228,27 @@ def run(lang_code_input: str) -> int:
     mismatches: list[Mismatch] = []
 
     print(f"Processing {total_text_rows} row(s) with tag='text' for language '{lang_code}'...")
+    target_indices = [int(index) for index in dictionary_df.index[text_rows]]
+    translations: dict[int, str] = {}
 
-    for index in dictionary_df.index[text_rows]:
-        english_text = str(dictionary_df.at[index, "english"])
-        if not english_text.strip():
+    if provider == "public":
+        print(
+            f"Using no-key public endpoint with async workers (concurrency={max(1, concurrency)})."
+        )
+        translations = asyncio.run(
+            translate_many_public(dictionary_df, target_indices, lang_code, concurrency)
+        )
+    else:
+        for index in target_indices:
+            english_text = str(dictionary_df.at[index, "english"])
+            if not english_text.strip():
+                continue
+            translations[index] = translate_text_cloud(english_text, lang_code, api_key)
+
+    for index in target_indices:
+        translated_text = translations.get(index, "")
+        if not translated_text:
             continue
-
-        translated_text = translate_text(english_text, lang_code, api_key)
         current_google_value = str(dictionary_df.at[index, "google"])
 
         if not current_google_value.strip():
@@ -219,10 +297,25 @@ def main() -> int:
         )
     )
     parser.add_argument("language", help="Language code in supported_languages.csv (key column)")
+    parser.add_argument(
+        "--provider",
+        choices=["cloud", "public"],
+        default="cloud",
+        help=(
+            "Translation backend: 'cloud' uses Google Cloud API (requires GOOGLE_TRANSLATE_API_KEY), "
+            "'public' uses translate.googleapis.com (no key, unofficial)."
+        ),
+    )
+    parser.add_argument(
+        "--concurrency",
+        type=int,
+        default=8,
+        help="Max concurrent requests for --provider public (default: 8).",
+    )
     args = parser.parse_args()
 
     try:
-        return run(args.language)
+        return run(args.language, args.provider, args.concurrency)
     except ScriptError as exc:
         print(f"ERROR: {exc}")
         return 1
