@@ -1,4 +1,70 @@
+import csv
+import json
+import os
 
+DATA_DIR = 'data'
+DOCS_DATA_DIR = 'docs/data'
+SUPPORTED_LANG_FILE = os.path.join(DATA_DIR, 'supported_languages.csv')
+
+CATEGORIES = {
+    "text": ["text"],
+    "bible": ["bible"],
+    "A6": ["A6-A", "A6-B"],
+    "B9": ["B9"],
+    "wiki": ["wiki"],
+    "other": ["scripture", "span_bc", "span_bce", "span_ce"]
+}
+
+EXCLUDE_TAGS = ["timespan", "float", "deprecated"]
+
+def process_dictionaries():
+    if not os.path.exists(DOCS_DATA_DIR):
+        os.makedirs(DOCS_DATA_DIR)
+
+    languages = []
+    with open(SUPPORTED_LANG_FILE, mode='r', encoding='utf-8-sig') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            if row['dict'].upper() == 'TRUE':
+                languages.append({
+                    'key': row['key'],
+                    'language_str': row['language_str']
+                })
+
+    for lang in languages:
+        lang_key = lang['key']
+        dict_file = os.path.join(DATA_DIR, f'dictionary_{lang_key}.csv')
+        if not os.path.exists(dict_file):
+            print(f"Warning: {dict_file} not found.")
+            continue
+
+        entries = []
+        with open(dict_file, mode='r', encoding='utf-8-sig') as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                tag = row.get('tag', '').strip()
+                if tag in EXCLUDE_TAGS:
+                    continue
+
+                # Determine category
+                category = None
+                for cat_name, tags in CATEGORIES.items():
+                    if tag in tags:
+                        category = cat_name
+                        break
+
+                if category:
+                    row['category'] = category
+                    entries.append(row)
+
+        output_file = os.path.join(DOCS_DATA_DIR, f'{lang_key}.json')
+        with open(output_file, 'w', encoding='utf-8') as f:
+            json.dump(entries, f, ensure_ascii=False, indent=2)
+
+    return languages
+
+def generate_html(languages):
+    html_template = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -140,48 +206,7 @@
     <header>
         <div class="controls">
             <select id="lang-select">
-                <option value="en">English</option>
-<option value="ar">Arabic (العربية) </option>
-<option value="hy">Armenian (Հայերեն)</option>
-<option value="be">Belarusian (беларуская)</option>
-<option value="yue">Chinese Cantonese (Simplified) [中文简体（广东话)] </option>
-<option value="ceb">Cebuano (Bisayâ)</option>
-<option value="zh">Chinese Mandarin (Simplified) [中文简体（普通话)] </option>
-<option value="nl">Dutch (Nederlands)</option>
-<option value="et">Estonian (eesti keel)</option>
-<option value="fj">Fijian (Vosa Vaka-Viti)</option>
-<option value="tl">Tagalog (Filipino) </option>
-<option value="fi">Finnish (Suomi) </option>
-<option value="fr">French (Français) </option>
-<option value="de">German (Deutsch) </option>
-<option value="el">Greek (Ελληνικά)</option>
-<option value="he">Hebrew (עִבְרִית)</option>
-<option value="hi">Hindi (हिन्दी)</option>
-<option value="hu">Hungarian (Magyar)</option>
-<option value="ig">Igbo (Ásụ̀sụ́ Ìgbò) </option>
-<option value="ilo">Iloko (Illocano) </option>
-<option value="id">Indonesian (Indonesia)</option>
-<option value="it">Italian (Italiano)</option>
-<option value="ja">Japanese (日本語) </option>
-<option value="kne">Kankana-ey </option>
-<option value="km">Khmer (ខ្មែរ) </option>
-<option value="kman">Khmer (ខ្មែរ) with arabic numerals</option>
-<option value="kg">Kikongo</option>
-<option value="ko">Korean (한국인) </option>
-<option value="ms">Malay (Bahasa Melayu)</option>
-<option value="mn">Mongolian (монгол)</option>
-<option value="no">Norwegian (Norsk) </option>
-<option value="fa">Persian or Farsi (فارسی)</option>
-<option value="pt">Portugese (Português)</option>
-<option value="pa">Punjabi (ਪੰਜਾਬੀ)</option>
-<option value="ru">Russian (Русский) </option>
-<option value="si">Sinhala (සිංහල) </option>
-<option value="es">Spanish (Español) </option>
-<option value="sw">Swahili (Kiswahili)</option>
-<option value="th">Thai (ภาษาไทย) </option>
-<option value="uk">Ukrainian (українська)</option>
-<option value="ur">Urdu (اُردُو)</option>
-<option value="vi">Vietnamese (Tiếng Việt)</option>
+                """ + "\n".join([f'<option value="{l["key"]}">{l["language_str"]}</option>' for l in languages]) + """
             </select>
             <div class="category-buttons" id="category-buttons">
                 <button class="cat-btn" data-cat="text"><span>TEXT</span><span class="cat-count" id="count-text">0/0</span></button>
@@ -388,3 +413,10 @@
     </script>
 </body>
 </html>
+    """
+    with open('docs/index.html', 'w', encoding='utf-8') as f:
+        f.write(html_template)
+
+if __name__ == "__main__":
+    langs = process_dictionaries()
+    generate_html(langs)
