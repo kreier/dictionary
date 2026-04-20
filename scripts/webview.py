@@ -75,7 +75,7 @@ def generate_html(languages):
         body {
             font-family: sans-serif;
             margin: 0;
-            padding-top: 180px; /* Space for fixed header */
+            padding-top: 220px; /* Initial space for fixed header */
             background-color: #f4f4f4;
         }
         header {
@@ -95,16 +95,36 @@ def generate_html(languages):
             width: 100%;
             max-width: 600px;
         }
-        select, .category-buttons {
+        #lang-select, .search-box {
             width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
             margin-bottom: 10px;
+            font-size: 16px;
+            height: 40px;
+        }
+        #key-select {
+            flex-grow: 1;
+            padding: 8px;
+            box-sizing: border-box;
+            font-size: 16px;
+            height: 40px;
         }
         .category-buttons {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
             gap: 5px;
+            margin-bottom: 10px;
+            scrollbar-width: none; /* Firefox */
+            -ms-overflow-style: none;  /* IE and Edge */
+        }
+        .category-buttons::-webkit-scrollbar {
+            display: none; /* Chrome, Safari and Opera */
         }
         .cat-btn {
+            flex: 1;
+            min-width: 60px;
             padding: 8px 4px;
             font-size: 12px;
             text-align: center;
@@ -113,6 +133,8 @@ def generate_html(languages):
             cursor: pointer;
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         .cat-btn.active {
             background: #007bff;
@@ -127,18 +149,23 @@ def generate_html(languages):
             justify-content: space-between;
             align-items: center;
             background: #fff;
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-            margin-bottom: 10px;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
+            gap: 10px;
+            margin-bottom: 5px;
+        }
+        .nav-line button {
+            padding: 0 15px;
+            font-size: 16px;
+            cursor: pointer;
+            height: 40px;
+            background: #eee;
+            border: 1px solid #ccc;
         }
         .metadata {
             font-size: 12px;
             color: #666;
             text-align: center;
-            flex-grow: 1;
+            margin-bottom: 5px;
+            min-height: 1.2em;
         }
         .content {
             max-width: 600px;
@@ -161,12 +188,6 @@ def generate_html(languages):
         .box-content {
             font-size: 16px;
             white-space: pre-wrap;
-        }
-        .search-box {
-            width: 100%;
-            padding: 8px;
-            box-sizing: border-box;
-            margin-bottom: 10px;
         }
         .edit-btn {
             background: #28a745;
@@ -217,17 +238,17 @@ def generate_html(languages):
                 <button class="cat-btn" data-cat="other"><span>OTHER</span><span class="cat-count" id="count-other">0/0</span></button>
             </div>
             <input type="text" id="search-input" class="search-box" placeholder="Search key or english...">
+            <div class="nav-line">
+                <button id="prev-btn">&lt;</button>
+                <select id="key-select"></select>
+                <button id="next-btn">&gt;</button>
+            </div>
+            <div class="metadata" id="metadata">
+                <span id="checked-emoji"></span>
+                <span id="checked-info"></span>
+            </div>
         </div>
     </header>
-
-    <div class="nav-line">
-        <button id="prev-btn">&lt;</button>
-        <div class="metadata" id="metadata">
-            <input type="checkbox" id="checked-status" disabled> Checked
-            <span id="checked-info"></span>
-        </div>
-        <button id="next-btn">&gt;</button>
-    </div>
 
     <div class="content">
         <div class="box"><div class="box-label">Key</div><div class="box-content" id="box-key"></div></div>
@@ -286,8 +307,8 @@ def generate_html(languages):
             cats.forEach(cat => {
                 const catEntries = entries.filter(e => e.category === cat);
                 const total = catEntries.length;
-                const unchecked = catEntries.filter(e => e.checked !== 'True').length;
-                document.getElementById(`count-${cat}`).innerText = `${unchecked}/${total}`;
+                const checked = catEntries.filter(e => e.checked === 'True').length;
+                document.getElementById(`count-${cat}`).innerText = `${checked}/${total}`;
             });
         }
 
@@ -298,6 +319,16 @@ def generate_html(languages):
                 const matchesSearch = e.key.toLowerCase().includes(searchTerm) || e.english.toLowerCase().includes(searchTerm);
                 return matchesCat && matchesSearch;
             });
+
+            const keySelect = document.getElementById('key-select');
+            keySelect.innerHTML = '';
+            filteredEntries.forEach((e, index) => {
+                const opt = document.createElement('option');
+                opt.value = index;
+                opt.text = e.key;
+                keySelect.add(opt);
+            });
+
             currentIndex = 0;
             showEntry();
         }
@@ -308,6 +339,7 @@ def generate_html(languages):
                 clearDisplay();
                 return;
             }
+            document.getElementById('key-select').value = currentIndex;
             document.getElementById('box-key').innerText = entry.key;
             document.getElementById('box-text').innerText = entry.text;
             document.getElementById('box-english').innerText = entry.english;
@@ -318,7 +350,7 @@ def generate_html(languages):
             document.getElementById('box-claude').innerText = entry.claude || '';
             document.getElementById('box-bing').innerText = entry.bing || '';
 
-            document.getElementById('checked-status').checked = entry.checked === 'True';
+            document.getElementById('checked-emoji').innerText = entry.checked === 'True' ? '✅' : '⬜';
             document.getElementById('checked-info').innerText = entry.checked === 'True' ?
                 ` by ${entry.checked_by} on ${entry.date}` : '';
         }
@@ -327,7 +359,7 @@ def generate_html(languages):
             ['key', 'text', 'english', 'notes', 'google', 'chatgpt', 'gemini', 'claude', 'bing'].forEach(id => {
                 document.getElementById(`box-${id}`).innerText = '';
             });
-            document.getElementById('checked-status').checked = false;
+            document.getElementById('checked-emoji').innerText = '';
             document.getElementById('checked-info').innerText = '';
         }
 
@@ -344,6 +376,11 @@ def generate_html(languages):
 
         searchInput.addEventListener('input', filterAndShow);
 
+        document.getElementById('key-select').addEventListener('change', (e) => {
+            currentIndex = parseInt(e.target.value);
+            showEntry();
+        });
+
         prevBtn.addEventListener('click', () => {
             if (currentIndex > 0) {
                 currentIndex--;
@@ -358,9 +395,19 @@ def generate_html(languages):
             }
         });
 
+        function adjustPadding() {
+            const headerHeight = document.querySelector('header').offsetHeight;
+            document.body.style.paddingTop = (headerHeight + 10) + 'px';
+        }
+
+        window.addEventListener('resize', adjustPadding);
+        const observer = new ResizeObserver(adjustPadding);
+        observer.observe(document.querySelector('header'));
+
         // Initial setup
         document.querySelector('.cat-btn[data-cat="text"]').classList.add('active');
         loadLang(langSelect.value);
+        adjustPadding();
 
         // Edit Modal Logic
         const modal = document.getElementById('edit-modal');
