@@ -85,6 +85,33 @@ def load_data(lang):
 def index():
     return render_template_string(open(os.path.join(DOCS_DIR, 'update_wiki.html')).read(), lang=target_lang)
 
+@app.route('/wiki_en')
+def wiki_en():
+    url = request.args.get('url')
+    if not url and entries and entries[0].get('en_notes'):
+        url = entries[0]['en_notes']
+    return render_template_string("""
+        <script>
+            window.name = 'wiki_en';
+            window.location.replace({{ url | tojson }});
+        </script>
+    """, url=url or "#")
+
+@app.route('/wiki_target')
+def wiki_target():
+    url = request.args.get('url')
+    if not url and entries:
+        first = entries[0]
+        url = first.get('notes')
+        if not url or url.strip() == "":
+            url = get_wikipedia_url(first.get('en_notes'), target_lang)
+    return render_template_string("""
+        <script>
+            window.name = 'wiki_target';
+            window.location.replace({{ url | tojson }});
+        </script>
+    """, url=url or "#")
+
 @app.route('/api/entries')
 def get_entries():
     return jsonify(entries)
@@ -148,17 +175,12 @@ if __name__ == "__main__":
 
     def open_browser():
         try:
+            # Open main UI
             webbrowser.open(f"http://127.0.0.1:5000")
-
-            # Open first entry wiki pages
-            if entries:
-                first = entries[0]
-                if first.get('en_notes'):
-                    webbrowser.open(first['en_notes'], new=2, autoraise=True)
-                    # Lookup and open target wiki for the first entry
-                    target_url = get_wikipedia_url(first['en_notes'], target_lang)
-                    if target_url:
-                        webbrowser.open(target_url, new=2, autoraise=True)
+            # Open English Wiki window/tab
+            webbrowser.open(f"http://127.0.0.1:5000/wiki_en")
+            # Open Target Wiki window/tab
+            webbrowser.open(f"http://127.0.0.1:5000/wiki_target")
         except Exception as e:
             print(f"Webbrowser error: {e}")
 
