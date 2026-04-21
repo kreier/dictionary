@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Wiki - {{ lang }}</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; background: #f4f4f4; }
+        table { width: 100%; border-collapse: collapse; background: white; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background: #eee; }
+        .btn { padding: 5px 10px; cursor: pointer; border: none; border-radius: 3px; }
+        .btn-wiki { background: #007bff; color: white; }
+        .btn-edit { background: #28a745; color: white; }
+        #edit-modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.5);
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 80%;
+            max-width: 600px;
+        }
+        .modal-content input, .modal-content textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>Update Wiki - {{ lang }}</h1>
+    <table id="wiki-table">
+        <thead>
+            <tr>
+                <th>Key</th>
+                <th>Text</th>
+                <th>English</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be populated by JS -->
+        </tbody>
+    </table>
+
+    <div id="edit-modal">
+        <div class="modal-content">
+            <h3>Edit Entry</h3>
+            <label>Key:</label>
+            <input type="text" id="edit-key" disabled>
+            <label>Text:</label>
+            <textarea id="edit-text" rows="3"></textarea>
+            <label>Notes (Wikipedia URL):</label>
+            <textarea id="edit-notes" rows="2"></textarea>
+            <div style="display:flex; justify-content: space-between;">
+                <button class="btn" onclick="closeModal()">Cancel</button>
+                <button class="btn btn-edit" onclick="submitEdit()">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let entries = [];
+        let currentEditingIndex = -1;
+
+        async function fetchEntries() {
+            const res = await fetch('/api/entries');
+            entries = await res.json();
+            renderTable();
+        }
+
+        function renderTable() {
+            const tbody = document.querySelector('#wiki-table tbody');
+            tbody.innerHTML = '';
+            entries.forEach((entry, index) => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${entry.key}</td>
+                    <td>${entry.text}</td>
+                    <td>${entry.english}</td>
+                    <td>
+                        <button class="btn btn-wiki" onclick="openWiki(${index})">Open wiki</button>
+                        <button class="btn btn-edit" onclick="openEdit(${index})">Edit</button>
+                    </td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        async function openWiki(index) {
+            const entry = entries[index];
+            if (entry.en_notes) {
+                window.open(entry.en_notes, 'wiki_en');
+            }
+
+            let targetUrl = entry.notes;
+            if (!targetUrl || targetUrl.trim() === "") {
+                // Fetch from backend
+                const res = await fetch(`/api/lookup_wiki?en_url=${encodeURIComponent(entry.en_notes)}`);
+                const data = await res.json();
+                targetUrl = data.url;
+            }
+
+            if (targetUrl && targetUrl.trim() !== "") {
+                window.open(targetUrl, 'wiki_target');
+            }
+        }
+
+        async function openEdit(index) {
+            currentEditingIndex = index;
+            const entry = entries[index];
+            document.getElementById('edit-key').value = entry.key;
+            document.getElementById('edit-text').value = entry.text;
+
+            let targetUrl = entry.notes;
+            if (!targetUrl || targetUrl.trim() === "") {
+                const res = await fetch(`/api/lookup_wiki?en_url=${encodeURIComponent(entry.en_notes)}`);
+                const data = await res.json();
+                targetUrl = data.url;
+            }
+
+            document.getElementById('edit-notes').value = targetUrl || '';
+            document.getElementById('edit-modal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('edit-modal').style.display = 'none';
+        }
+
+        async function submitEdit() {
+            const key = document.getElementById('edit-key').value;
+            const text = document.getElementById('edit-text').value;
+            const notes = document.getElementById('edit-notes').value;
+
+            const res = await fetch('/api/save', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ key, text, notes })
+            });
+
+            if (res.ok) {
+                entries[currentEditingIndex].text = text;
+                entries[currentEditingIndex].notes = notes;
+                renderTable();
+                closeModal();
+            } else {
+                alert('Failed to save');
+            }
+        }
+
+        fetchEntries();
+    </script>
+</body>
+</html>
