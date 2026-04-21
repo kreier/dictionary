@@ -95,24 +95,39 @@
             });
         }
 
-        function openWiki(index) {
+        async function openWiki(index) {
             const entry = entries[index];
             if (entry.en_notes) {
                 window.open(entry.en_notes, 'wiki_en');
             }
-            // Prioritize manually edited notes over prefetched URL
-            const targetUrl = entry.notes || entry.target_wiki_url;
+
+            let targetUrl = entry.notes;
+            if (!targetUrl || targetUrl.trim() === "") {
+                // Fetch from backend
+                const res = await fetch(`/api/lookup_wiki?en_url=${encodeURIComponent(entry.en_notes)}`);
+                const data = await res.json();
+                targetUrl = data.url;
+            }
+
             if (targetUrl && targetUrl.trim() !== "") {
                 window.open(targetUrl, 'wiki_target');
             }
         }
 
-        function openEdit(index) {
+        async function openEdit(index) {
             currentEditingIndex = index;
             const entry = entries[index];
             document.getElementById('edit-key').value = entry.key;
             document.getElementById('edit-text').value = entry.text;
-            document.getElementById('edit-notes').value = entry.notes || entry.target_wiki_url || '';
+
+            let targetUrl = entry.notes;
+            if (!targetUrl || targetUrl.trim() === "") {
+                const res = await fetch(`/api/lookup_wiki?en_url=${encodeURIComponent(entry.en_notes)}`);
+                const data = await res.json();
+                targetUrl = data.url;
+            }
+
+            document.getElementById('edit-notes').value = targetUrl || '';
             document.getElementById('edit-modal').style.display = 'flex';
         }
 

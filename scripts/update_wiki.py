@@ -76,8 +76,6 @@ def load_data(lang):
                         'notes': row.get('notes', '').strip(),
                         'en_notes': en_row.get('notes', '').strip()
                     }
-                    # Prefetch target wiki URL
-                    entry['target_wiki_url'] = get_wikipedia_url(entry['en_notes'], lang)
                     target_entries.append(entry)
 
     entries = target_entries
@@ -90,6 +88,14 @@ def index():
 @app.route('/api/entries')
 def get_entries():
     return jsonify(entries)
+
+@app.route('/api/lookup_wiki')
+def lookup_wiki():
+    en_url = request.args.get('en_url')
+    if not en_url:
+        return jsonify({"url": None})
+    url = get_wikipedia_url(en_url, target_lang)
+    return jsonify({"url": url})
 
 @app.route('/api/save', methods=['POST'])
 def save_entry():
@@ -149,8 +155,10 @@ if __name__ == "__main__":
                 first = entries[0]
                 if first.get('en_notes'):
                     webbrowser.open(first['en_notes'], new=2, autoraise=True)
-                if first.get('target_wiki_url'):
-                    webbrowser.open(first['target_wiki_url'], new=2, autoraise=True)
+                    # Lookup and open target wiki for the first entry
+                    target_url = get_wikipedia_url(first['en_notes'], target_lang)
+                    if target_url:
+                        webbrowser.open(target_url, new=2, autoraise=True)
         except Exception as e:
             print(f"Webbrowser error: {e}")
 
