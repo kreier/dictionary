@@ -37,6 +37,10 @@
 </head>
 <body>
     <h1>Update Wiki - {{ lang }}</h1>
+    <div style="margin-bottom: 20px;">
+        <button class="btn btn-wiki" onclick="reopenWindows()">Re-open Wikipedia Windows</button>
+        <span style="font-size: 0.9em; color: #666; margin-left: 10px;">(Click this if the Wikipedia windows didn't open or were closed)</span>
+    </div>
     <table id="wiki-table">
         <thead>
             <tr>
@@ -95,10 +99,15 @@
             });
         }
 
+        function reopenWindows() {
+            window.open('/wiki_en', 'wiki_en');
+            window.open('/wiki_target', 'wiki_target');
+        }
+
         async function openWiki(index) {
             const entry = entries[index];
             if (entry.en_notes) {
-                window.open(entry.en_notes, 'wiki_en');
+                window.open(`/wiki_en?url=${encodeURIComponent(entry.en_notes)}`, 'wiki_en');
             }
 
             let targetUrl = entry.notes;
@@ -107,10 +116,12 @@
                 const res = await fetch(`/api/lookup_wiki?en_url=${encodeURIComponent(entry.en_notes)}`);
                 const data = await res.json();
                 targetUrl = data.url;
+                // Update local entry so we don't fetch again
+                entries[index].notes = targetUrl;
             }
 
             if (targetUrl && targetUrl.trim() !== "") {
-                window.open(targetUrl, 'wiki_target');
+                window.open(`/wiki_target?url=${encodeURIComponent(targetUrl)}`, 'wiki_target');
             }
         }
 
@@ -129,6 +140,9 @@
 
             document.getElementById('edit-notes').value = targetUrl || '';
             document.getElementById('edit-modal').style.display = 'flex';
+
+            // Also update the wiki windows when editing
+            openWiki(index);
         }
 
         function closeModal() {
