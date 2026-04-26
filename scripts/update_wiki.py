@@ -5,9 +5,11 @@ import sys
 import webbrowser
 from datetime import datetime
 from flask import Flask, request, jsonify, render_template_string
+from flask_socketio import SocketIO, emit
 import requests
 
 app = Flask(__name__)
+socketio = SocketIO(app)
 
 DATA_DIR = 'data'
 DOCS_DIR = 'docs'
@@ -91,10 +93,53 @@ def wiki_en():
     if not url and entries and entries[0].get('en_notes'):
         url = entries[0]['en_notes']
     return render_template_string("""
-        <script>
-            window.name = 'wiki_en';
-            window.location.replace({{ url | tojson }});
-        </script>
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Wiki EN Bridge</title>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.min.js"></script>
+        </head>
+        <body>
+            <h3>Wikipedia English Bridge</h3>
+            <p>Status: <span id="status">Connecting...</span></p>
+            <p>Current URL: <span id="url">{{ url }}</span></p>
+            <button onclick="manualOpen()">Open/Restore Popup</button>
+            <script>
+                const socket = io();
+                let wikiWindow = null;
+                let currentUrl = "{{ url }}";
+                const urlDisplay = document.getElementById('url');
+                const statusDisplay = document.getElementById('status');
+
+                function openWiki(url) {
+                    if (url && url !== "#") {
+                        currentUrl = url;
+                        urlDisplay.textContent = url;
+                        if (wikiWindow && !wikiWindow.closed) {
+                            wikiWindow.location.href = url;
+                        } else {
+                            wikiWindow = window.open(url, 'wiki_en_popup');
+                        }
+                    }
+                }
+
+                function manualOpen() {
+                    openWiki(currentUrl);
+                }
+
+                socket.on('connect', () => {
+                    statusDisplay.textContent = 'Connected';
+                    openWiki("{{ url }}");
+                });
+
+                socket.on('wiki_update', (data) => {
+                    if (data.type === 'en') {
+                        openWiki(data.url);
+                    }
+                });
+            </script>
+        </body>
+        </html>
     """, url=url or "#")
 
 @app.route('/wiki_target')
@@ -106,11 +151,54 @@ def wiki_target():
         if not url or url.strip() == "":
             url = get_wikipedia_url(first.get('en_notes'), target_lang)
     return render_template_string("""
-        <script>
-            window.name = 'wiki_target';
-            window.location.replace({{ url | tojson }});
-        </script>
-    """, url=url or "#")
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Wiki {{ lang }} Bridge</title>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.min.js"></script>
+        </head>
+        <body>
+            <h3>Wikipedia {{ lang }} Bridge</h3>
+            <p>Status: <span id="status">Connecting...</span></p>
+            <p>Current URL: <span id="url">{{ url }}</span></p>
+            <button onclick="manualOpen()">Open/Restore Popup</button>
+            <script>
+                const socket = io();
+                let wikiWindow = null;
+                let currentUrl = "{{ url }}";
+                const urlDisplay = document.getElementById('url');
+                const statusDisplay = document.getElementById('status');
+
+                function openWiki(url) {
+                    if (url && url !== "#") {
+                        currentUrl = url;
+                        urlDisplay.textContent = url;
+                        if (wikiWindow && !wikiWindow.closed) {
+                            wikiWindow.location.href = url;
+                        } else {
+                            wikiWindow = window.open(url, 'wiki_target_popup');
+                        }
+                    }
+                }
+
+                function manualOpen() {
+                    openWiki(currentUrl);
+                }
+
+                socket.on('connect', () => {
+                    statusDisplay.textContent = 'Connected';
+                    openWiki("{{ url }}");
+                });
+
+                socket.on('wiki_update', (data) => {
+                    if (data.type === 'target') {
+                        openWiki(data.url);
+                    }
+                });
+            </script>
+        </body>
+        </html>
+    """, url=url or "#", lang=target_lang)
 
 @app.route('/api/entries')
 def get_entries():
@@ -123,6 +211,10 @@ def lookup_wiki():
         return jsonify({"url": None})
     url = get_wikipedia_url(en_url, target_lang)
     return jsonify({"url": url})
+
+@socketio.on('update_wiki')
+def handle_update_wiki(data):
+    emit('wiki_update', data, broadcast=True)
 
 @app.route('/api/save', methods=['POST'])
 def save_entry():
@@ -187,4 +279,4 @@ if __name__ == "__main__":
     # Open UI in browser after a short delay to ensure Flask is running
     Timer(1.5, open_browser).start()
 
-    app.run(port=5000, host='0.0.0.0')
+    socketio.run(app, port=5000, host='0.0.0.0', debug=True, allow_unsafe_werkzeug=True)
