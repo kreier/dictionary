@@ -1,8 +1,16 @@
 # Synology Diskstation
 .DS_Store
 
-# Vite
+# Vite production build
 dist/
+
+# Node dependencies
+node_modules/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
