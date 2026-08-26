@@ -1,0 +1,107 @@
+name: Update Dictionary Data
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    # Run once every day at 03:00 UTC
+    - cron: "0 3 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    name: Update dictionary JSON
+    runs-on: ubuntu-latest
+
+    steps:
+      # Check out the dictionary repository
+      - name: Checkout dictionary repository
+        uses: actions/checkout@v7
+
+      # Check out Timeline into a separate directory
+      - name: Checkout Timeline database
+        uses: actions/checkout@v7
+        with:
+          repository: kreier/timeline
+          path: timeline
+
+      # Determine the exact Timeline commit
+      - name: Get Timeline revision
+        id: timeline
+        working-directory: timeline
+        run: |
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      # Check whether this Timeline revision is already published
+      - name: Check current data revision
+        id: check
+        env:
+          TIMELINE_SHA: ${{ steps.timeline.outputs.sha }}
+        run: |
+          if [ -f public/data/.source.json ]; then
+            CURRENT_SHA=$(python -c "
+          import json
+          with open('public/data/.source.json', encoding='utf-8') as f:
+              print(json.load(f).get('commit', ''))
+          ")
+
+            echo "Current published Timeline revision: $CURRENT_SHA"
+            echo "Current Timeline revision:          $TIMELINE_SHA"
+
+            if [ "$CURRENT_SHA" = "$TIMELINE_SHA" ]; then
+              echo "changed=false" >> "$GITHUB_OUTPUT"
+              echo "Dictionary data is already up to date."
+              exit 0
+            fi
+          fi
+
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "Dictionary data needs to be updated."
+
+      # Generate JSON only if Timeline changed
+      - name: Generate dictionary JSON
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          python scripts/generate-data.py \
+            --source timeline/db \
+            --output public/data
+
+      # Record the Timeline revision used to generate the JSON
+      - name: Record Timeline revision
+        if: steps.check.outputs.changed == 'true'
+        env:
+          TIMELINE_SHA: ${{ steps.timeline.outputs.sha }}
+        run: |
+          python - <<'PY'
+          import json
+          import os          
+          from pathlib import Path
+
+          path = Path("public/data/.source.json")
+
+          data = {
+              "repository": "kreier/timeline",
+              "commit": os.environ["TIMELINE_SHA"]
+          }
+
+          path.write_text(
+              json.dumps(data, indent=2) + "\n",
+              encoding="utf-8"
+          )
+          PY
+
+      # Commit the generated data
+      - name: Commit updated dictionary data
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add public/data
+
+          git diff --cached --quiet || \
+            git commit -m "Update dictionary data from Timeline (${TIMELINE_SHA:0:7})"
+
+          git push

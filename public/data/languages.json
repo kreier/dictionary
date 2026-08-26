@@ -1,0 +1,170 @@
+[
+  {
+    "key": "en",
+    "language_str": "English"
+  },
+  {
+    "key": "ar",
+    "language_str": "Arabic (العربية) "
+  },
+  {
+    "key": "hy",
+    "language_str": "Armenian (Հայերեն)"
+  },
+  {
+    "key": "be",
+    "language_str": "Belarusian (беларуская)"
+  },
+  {
+    "key": "yue",
+    "language_str": "Chinese Cantonese (Simplified) [中文简体（广东话)] "
+  },
+  {
+    "key": "ceb",
+    "language_str": "Cebuano (Bisayâ)"
+  },
+  {
+    "key": "zh",
+    "language_str": "Chinese Mandarin (Simplified) [中文简体（普通话)] "
+  },
+  {
+    "key": "nl",
+    "language_str": "Dutch (Nederlands)"
+  },
+  {
+    "key": "et",
+    "language_str": "Estonian (eesti keel)"
+  },
+  {
+    "key": "fj",
+    "language_str": "Fijian (Vosa Vaka-Viti)"
+  },
+  {
+    "key": "tl",
+    "language_str": "Tagalog (Filipino) "
+  },
+  {
+    "key": "fi",
+    "language_str": "Finnish (Suomi) "
+  },
+  {
+    "key": "fr",
+    "language_str": "French (Français) "
+  },
+  {
+    "key": "de",
+    "language_str": "German (Deutsch) "
+  },
+  {
+    "key": "el",
+    "language_str": "Greek (Ελληνικά)"
+  },
+  {
+    "key": "he",
+    "language_str": "Hebrew (עִבְרִית)"
+  },
+  {
+    "key": "hi",
+    "language_str": "Hindi (हिन्दी)"
+  },
+  {
+    "key": "hu",
+    "language_str": "Hungarian (Magyar)"
+  },
+  {
+    "key": "ig",
+    "language_str": "Igbo (Ásụ̀sụ́ Ìgbò) "
+  },
+  {
+    "key": "ilo",
+    "language_str": "Iloko (Illocano) "
+  },
+  {
+    "key": "id",
+    "language_str": "Indonesian (Indonesia)"
+  },
+  {
+    "key": "it",
+    "language_str": "Italian (Italiano)"
+  },
+  {
+    "key": "ja",
+    "language_str": "Japanese (日本語) "
+  },
+  {
+    "key": "kne",
+    "language_str": "Kankana-ey "
+  },
+  {
+    "key": "km",
+    "language_str": "Khmer (ខ្មែរ) "
+  },
+  {
+    "key": "kman",
+    "language_str": "Khmer (ខ្មែរ) with arabic numerals"
+  },
+  {
+    "key": "kg",
+    "language_str": "Kikongo"
+  },
+  {
+    "key": "ko",
+    "language_str": "Korean (한국인) "
+  },
+  {
+    "key": "ms",
+    "language_str": "Malay (Bahasa Melayu)"
+  },
+  {
+    "key": "mn",
+    "language_str": "Mongolian (монгол)"
+  },
+  {
+    "key": "no",
+    "language_str": "Norwegian (Norsk) "
+  },
+  {
+    "key": "fa",
+    "language_str": "Persian or Farsi (فارسی)"
+  },
+  {
+    "key": "pt",
+    "language_str": "Portugese (Português)"
+  },
+  {
+    "key": "pa",
+    "language_str": "Punjabi (ਪੰਜਾਬੀ)"
+  },
+  {
+    "key": "ru",
+    "language_str": "Russian (Русский) "
+  },
+  {
+    "key": "si",
+    "language_str": "Sinhala (සිංහල) "
+  },
+  {
+    "key": "es",
+    "language_str": "Spanish (Español) "
+  },
+  {
+    "key": "sw",
+    "language_str": "Swahili (Kiswahili)"
+  },
+  {
+    "key": "th",
+    "language_str": "Thai (ภาษาไทย) "
+  },
+  {
+    "key": "uk",
+    "language_str": "Ukrainian (українська)"
+  },
+  {
+    "key": "ur",
+    "language_str": "Urdu (اُردُو)"
+  },
+  {
+    "key": "vi",
+    "language_str": "Vietnamese (Tiếng Việt)"
+  }
+]
