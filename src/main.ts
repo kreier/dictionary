@@ -422,7 +422,9 @@ async function loadLanguages(): Promise<void> {
     }
 
     if (languages.length > 0) {
-        await loadLanguage(languages[0].key);
+        const defaultLanguage = languages[languages.length - 1].key;
+        languageSelect.value = defaultLanguage;
+        await loadLanguage(defaultLanguage);
     }
 }
 
