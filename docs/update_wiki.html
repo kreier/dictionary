@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Update Wiki - {{ lang }}</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.5/socket.io.min.js"></script>
     <style>
         body { font-family: sans-serif; margin: 20px; background: #f4f4f4; }
         table { width: 100%; border-collapse: collapse; background: white; }
@@ -72,6 +73,7 @@
     </div>
 
     <script>
+        const socket = io();
         let entries = [];
         let currentEditingIndex = -1;
 
@@ -108,6 +110,7 @@
             const entry = entries[index];
             if (entry.en_notes) {
                 window.open(`/wiki_en?url=${encodeURIComponent(entry.en_notes)}`, 'wiki_en');
+                socket.emit('update_wiki', { type: 'en', url: entry.en_notes });
             }
 
             let targetUrl = entry.notes;
@@ -122,6 +125,7 @@
 
             if (targetUrl && targetUrl.trim() !== "") {
                 window.open(`/wiki_target?url=${encodeURIComponent(targetUrl)}`, 'wiki_target');
+                socket.emit('update_wiki', { type: 'target', url: targetUrl });
             }
         }
 
