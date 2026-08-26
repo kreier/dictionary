@@ -10,6 +10,11 @@ interface DictionaryEntry {
     category?: string;
 }
 
+interface Language {
+    key: string;
+    language_str: string;
+}
+
 let entries: DictionaryEntry[] = [];
 let currentLanguage = "";
 
@@ -72,7 +77,9 @@ async function loadLanguage(language: string) {
     results.textContent = "Loading...";
     searchInput.disabled = true;
 
-    const response = await fetch(`/data/${language}.json`);
+    const response = await fetch(
+        `${import.meta.env.BASE_URL}data/${language}.json`
+    );    
 
     if (!response.ok) {
         throw new Error(
@@ -153,23 +160,27 @@ function escapeHtml(value: string): string {
 searchInput.addEventListener("input", search);
 
 
-// Temporary language list.
-//
-// Later this will come from supported_languages.csv
-// converted into a JSON file by the data-generation script.
-const languages = [
-    { code: "de", name: "German" },
-    { code: "en", name: "English" },
-    { code: "vi", name: "Vietnamese" }
-];
+async function loadLanguages() {
+    const response = await fetch(
+        `${import.meta.env.BASE_URL}data/languages.json`
+    );
 
-for (const language of languages) {
-    const option = document.createElement("option");
+    if (!response.ok) {
+        throw new Error(
+            `Could not load languages: ${response.status}`
+        );
+    }
 
-    option.value = language.code;
-    option.textContent = language.name;
+    const languages: Language[] = await response.json();
 
-    languageSelect.appendChild(option);
+    for (const language of languages) {
+        const option = document.createElement("option");
+
+        option.value = language.key;
+        option.textContent = language.language_str;
+
+        languageSelect.appendChild(option);
+    }
 }
 
 languageSelect.addEventListener("change", () => {
@@ -181,4 +192,9 @@ languageSelect.addEventListener("change", () => {
                     "Could not load dictionary.";
             });
     }
+});
+
+loadLanguages().catch(error => {
+    console.error(error);
+    results.textContent = "Could not load languages.";
 });
