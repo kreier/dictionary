@@ -6,17 +6,20 @@
 
 - Added Vite-based frontend application.
 - Added TypeScript dictionary viewer.
-- Added language loading from `public/data/languages.json`.
+- Added language loading from `public/data/languages.json` (defaults to last entry / Vietnamese on startup).
 - Added dictionary category navigation.
 - Added checked/total counters for dictionary categories.
 - Added dictionary search by key and English.
-- Added key selection and previous/next navigation.
+- Added key selection and previous/next navigation with modified entry indicator (`✏️`).
 - Added display of dictionary translation, notes and AI/translation fields.
 - Added display of dictionary verification status, editor and date.
 - Added edit mode activation with required name attribution dialog.
 - Added in-place editing for TEXT and NOTES textareas with full-width stretching and height presets.
-- Added "Preview Changes" modal with side-by-side diff comparison for original vs modified text/notes.
+- Added interactive "Checked" toggle in header metadata (auto-checks on edit, manually toggleable).
+- Added multi-entry edit persistence across navigation and category changes within the active language.
+- Added "Preview Changes" modal with key-grouped diffs displaying only modified fields.
 - Added "Preview timeline" dummy button between "Preview Changes" and "Submit Changes".
+- Added "Submit Changes" modal with Cloudflare Worker proxy configuration and submission handling.
 
 ### Changed
 
@@ -35,5 +38,5 @@
 ### Not yet migrated
 
 - Timeline rendering logic for the "Preview timeline" button.
-- Cloudflare Turnstile bot verification and secure Worker submission to GitHub API.
+- Cloudflare Worker deployment and `/approve` Action workflow in `kreier/timeline`.
 - GitHub Pages deployment still uses the old deployment mechanism.

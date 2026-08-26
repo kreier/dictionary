@@ -559,45 +559,32 @@ Limit change length:
 if (body.new_translation.length > 60) reject
 ```
 
-# 9️⃣ Recommended Production Architecture (Best Practice)
+# 9️⃣ Adopted Production Architecture (GitHub Issue + Action Bot)
 
-Instead of editing CSV directly:
+Instead of editing CSV files directly from the worker (which causes merge conflicts across concurrent submissions), the adopted design uses GitHub Issues with automated comment approval:
 
-Worker should:
-```
-create PR adding JSON file
-```
-Example:
-```
-/submissions/edit-123.json
-```
-Maintainer later merges approved changes.
+1. **User Phone / Web App**:
+   - Edits Text, Notes, or Checked verification.
+   - Passes Cloudflare Turnstile bot protection.
+   - Submits changes to Cloudflare Worker.
 
-This avoids:
+2. **Cloudflare Worker (`dictionary-submissions`)**:
+   - Validates Turnstile spam check.
+   - Uses secret `GITHUB_TOKEN` to open an Issue in `kreier/timeline`.
+   - Formats human-readable markdown table + machine-readable JSON block.
 
--   merge conflicts
--   malicious overwrites
--   corruption
+3. **Maintainer Review & 1-Click Approval**:
+   - Maintainer reviews the Issue diff on GitHub (or GitHub Mobile app).
+   - Maintainer comments `/approve` or `/approved`.
 
+4. **Action Bot (`approve-translation.yml`) in `kreier/timeline`**:
+   - Automatically parses the JSON payload from the issue.
+   - Updates `db/dictionary_<lang>.csv`.
+   - Commits changes to `main` with attribution.
+   - Closes the issue with a confirmation comment.
 
-# 🏁 Summary Workflow
+5. **Dictionary Sync**:
+   - `kreier/dictionary` synchronizes data and updates static JSON files.
 
-**User phone**  
-→ edits word  
-→ taps submit
+This approach provides zero merge conflicts, complete author attribution, and instant mobile-friendly approval.
 
-**Worker**  
-→ creates branch  
-→ commits change  
-→ opens PR
-
-**Maintainer**  
-→ reviews PR  
-→ merges
-
-✅ This setup is used widely for:
-
--   community translations
--   crowdsourced corrections
--   typo fixes
--   public datasets

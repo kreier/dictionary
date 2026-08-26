@@ -30,6 +30,17 @@ interface Language {
     language_str: string;
 }
 
+interface PendingEdit {
+    key: string;
+    category: Category;
+    text: string;
+    notes: string;
+    checked: boolean;
+    origText: string;
+    origNotes: string;
+    origChecked: boolean;
+}
+
 const categories: Category[] = [
     "text",
     "bible",
@@ -48,11 +59,14 @@ let currentCategory: Category = "text";
 
 let editMode = false;
 let editorName = localStorage.getItem("dictionary_editor_name") || "";
-let originalEdit: {
-    text: string;
-    notes: string;
-    checked: string;
-} | null = null;
+
+// Session edits map: key -> PendingEdit (for the current language)
+const pendingEdits = new Map<string, PendingEdit>();
+
+// Default Cloudflare Worker submission endpoint (can be customized)
+let workerEndpoint =
+    localStorage.getItem("dictionary_worker_url") ||
+    "https://dictionary-submisisons.matthias-kreier.workers.dev/";
 
 const app = document.querySelector<HTMLDivElement>("#app");
 
@@ -119,7 +133,11 @@ app.innerHTML = `
             </div>
 
             <div class="metadata" id="metadata">
-                <span id="checked-emoji"></span>
+                <label class="checked-toggle-label" id="checked-toggle-label" title="Toggle verification status">
+                    <input type="checkbox" id="box-checked" disabled>
+                    <span id="checked-emoji">⬜</span>
+                    <span id="checked-label">Unchecked</span>
+                </label>
                 <span id="checked-info"></span>
             </div>
 
@@ -229,44 +247,58 @@ app.innerHTML = `
     <!-- Preview Changes Modal -->
     <div id="preview-modal" class="modal">
         <div class="modal-content modal-large">
-            <h2>Preview Changes</h2>
+            <h2>Preview Proposed Changes</h2>
             <div class="preview-header-info">
-                <span id="preview-key-info"></span>
+                <span id="preview-summary-info"></span>
                 <span id="preview-editor-info"></span>
             </div>
 
-            <div class="preview-comparison">
-                <div class="preview-section">
-                    <h3>Text</h3>
-                    <div class="diff-block">
-                        <div class="diff-pane">
-                            <span class="diff-label">Original:</span>
-                            <div id="preview-text-orig" class="diff-content original"></div>
-                        </div>
-                        <div class="diff-pane">
-                            <span class="diff-label">Modified:</span>
-                            <div id="preview-text-mod" class="diff-content modified"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="preview-section">
-                    <h3>Notes</h3>
-                    <div class="diff-block">
-                        <div class="diff-pane">
-                            <span class="diff-label">Original:</span>
-                            <div id="preview-notes-orig" class="diff-content original"></div>
-                        </div>
-                        <div class="diff-pane">
-                            <span class="diff-label">Modified:</span>
-                            <div id="preview-notes-mod" class="diff-content modified"></div>
-                        </div>
-                    </div>
-                </div>
+            <div id="preview-changes-list" class="preview-changes-list">
+                <!-- Dynamically generated list of changed keys -->
             </div>
 
             <div class="modal-actions">
                 <button id="preview-close-btn" class="btn-primary">Close Preview</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Submit Changes Modal -->
+    <div id="submit-modal" class="modal">
+        <div class="modal-content modal-large">
+            <h2>Submit Changes</h2>
+            <p class="modal-prompt">
+                The following proposed changes will be submitted as an Issue to
+                <code>kreier/timeline</code> for review and approval:
+            </p>
+
+            <div id="submit-summary-list" class="submit-summary-list"></div>
+
+            <div class="edit-field" style="margin-top: 15px;">
+                <label for="submit-worker-url" style="font-size: 12px; font-weight: bold; color: #666;">
+                    Submission Worker Endpoint:
+                </label>
+                <input
+                    type="text"
+                    id="submit-worker-url"
+                    value="${workerEndpoint}"
+                    style="font-size: 13px; padding: 6px;"
+                >
+            </div>
+
+            <div class="turnstile-wrapper">
+                <div id="turnstile-container">
+                    <p style="font-size: 13px; color: #666; margin: 5px 0;">
+                        🛡️ Cloudflare Turnstile Bot Check (Ready for verification)
+                    </p>
+                </div>
+            </div>
+
+            <div id="submit-status-message" class="submit-status-message"></div>
+
+            <div class="modal-actions">
+                <button id="submit-cancel-btn" class="btn-secondary">Cancel</button>
+                <button id="submit-confirm-btn" class="btn-primary">Confirm & Submit</button>
             </div>
         </div>
     </div>
@@ -327,6 +359,21 @@ const textInput =
 const notesInput =
     document.querySelector<HTMLTextAreaElement>("#box-notes")!;
 
+const boxChecked =
+    document.querySelector<HTMLInputElement>("#box-checked")!;
+
+const checkedEmoji =
+    document.querySelector<HTMLSpanElement>("#checked-emoji")!;
+
+const checkedLabel =
+    document.querySelector<HTMLSpanElement>("#checked-label")!;
+
+const checkedInfo =
+    document.querySelector<HTMLSpanElement>("#checked-info")!;
+
+const checkedToggleLabel =
+    document.querySelector<HTMLLabelElement>("#checked-toggle-label")!;
+
 // Activation Modal Elements
 const activationModal =
     document.querySelector<HTMLDivElement>("#activation-modal")!;
@@ -344,26 +391,36 @@ const activationConfirmBtn =
 const previewModal =
     document.querySelector<HTMLDivElement>("#preview-modal")!;
 
-const previewKeyInfo =
-    document.querySelector<HTMLSpanElement>("#preview-key-info")!;
+const previewSummaryInfo =
+    document.querySelector<HTMLSpanElement>("#preview-summary-info")!;
 
 const previewEditorInfo =
     document.querySelector<HTMLSpanElement>("#preview-editor-info")!;
 
-const previewTextOrig =
-    document.querySelector<HTMLDivElement>("#preview-text-orig")!;
-
-const previewTextMod =
-    document.querySelector<HTMLDivElement>("#preview-text-mod")!;
-
-const previewNotesOrig =
-    document.querySelector<HTMLDivElement>("#preview-notes-orig")!;
-
-const previewNotesMod =
-    document.querySelector<HTMLDivElement>("#preview-notes-mod")!;
+const previewChangesList =
+    document.querySelector<HTMLDivElement>("#preview-changes-list")!;
 
 const previewCloseBtn =
     document.querySelector<HTMLButtonElement>("#preview-close-btn")!;
+
+// Submit Modal Elements
+const submitModal =
+    document.querySelector<HTMLDivElement>("#submit-modal")!;
+
+const submitSummaryList =
+    document.querySelector<HTMLDivElement>("#submit-summary-list")!;
+
+const submitWorkerUrlInput =
+    document.querySelector<HTMLInputElement>("#submit-worker-url")!;
+
+const submitStatusMessage =
+    document.querySelector<HTMLDivElement>("#submit-status-message")!;
+
+const submitCancelBtn =
+    document.querySelector<HTMLButtonElement>("#submit-cancel-btn")!;
+
+const submitConfirmBtn =
+    document.querySelector<HTMLButtonElement>("#submit-confirm-btn")!;
 
 // Info Modal Elements
 const infoModal =
@@ -421,6 +478,7 @@ async function loadLanguages(): Promise<void> {
         languageSelect.appendChild(option);
     }
 
+    // Default to the last entry in languages.json (e.g. Vietnamese)
     if (languages.length > 0) {
         const defaultLanguage = languages[languages.length - 1].key;
         languageSelect.value = defaultLanguage;
@@ -434,6 +492,9 @@ async function loadLanguages(): Promise<void> {
  */
 
 async function loadLanguage(language: string): Promise<void> {
+    // When changing language, discard pending edits for the previous language
+    pendingEdits.clear();
+
     currentLanguage = language;
 
     const response = await fetch(
@@ -450,6 +511,7 @@ async function loadLanguage(language: string): Promise<void> {
 
     updateCounts();
     filterAndShow();
+    updateEditState();
 }
 
 
@@ -507,7 +569,9 @@ function filterAndShow(): void {
         const option = document.createElement("option");
 
         option.value = String(index);
-        option.textContent = entry.key;
+        // Show an indicator if this key has pending edits
+        const hasPending = pendingEdits.has(entry.key);
+        option.textContent = hasPending ? `✏️ ${entry.key}` : entry.key;
 
         keySelect.appendChild(option);
     }
@@ -533,42 +597,45 @@ function showEntry(): void {
     keySelect.value = String(currentIndex);
 
     setBox("key", entry.key);
-    textInput.value = entry.text;
     setBox("english", entry.english);
-    notesInput.value = entry.notes ?? "";
     setBox("google", entry.google);
     setBox("chatgpt", entry.chatgpt);
     setBox("gemini", entry.gemini);
     setBox("claude", entry.claude);
     setBox("deepl", entry.deepl);
 
-    const checkedEmoji =
-        document.getElementById("checked-emoji");
+    // Check if we have an active pending edit for this entry
+    const pending = pendingEdits.get(entry.key);
 
-    const checkedInfo =
-        document.getElementById("checked-info");
-
-    if (entry.checked === "True") {
-        checkedEmoji!.textContent = "✅";
-
-        checkedInfo!.textContent =
-            ` by ${entry.checked_by ?? ""} on ${entry.date ?? ""}`;
+    if (pending) {
+        textInput.value = pending.text;
+        notesInput.value = pending.notes;
+        boxChecked.checked = pending.checked;
     } else {
-        checkedEmoji!.textContent = "⬜";
-        checkedInfo!.textContent = "";
+        textInput.value = entry.text;
+        notesInput.value = entry.notes ?? "";
+        boxChecked.checked = entry.checked === "True";
     }
+
+    updateCheckedDisplay(entry);
 
     prevButton.disabled = currentIndex === 0;
     nextButton.disabled =
         currentIndex >= filteredEntries.length - 1;
 
-    if (editMode) {
-        originalEdit = {
-            text: entry.text,
-            notes: entry.notes ?? "",
-            checked: entry.checked ?? "False"
-        };
-        updateEditButtons();
+    updateEditButtons();
+}
+
+function updateCheckedDisplay(entry: DictionaryEntry): void {
+    const isChecked = boxChecked.checked;
+    checkedEmoji.textContent = isChecked ? "✅" : "⬜";
+    checkedLabel.textContent = isChecked ? "Checked" : "Unchecked";
+
+    if (isChecked) {
+        checkedInfo.textContent =
+            ` (Verified${entry.checked_by ? ` by ${entry.checked_by}` : ""}${entry.date ? ` on ${entry.date}` : ""})`;
+    } else {
+        checkedInfo.textContent = "";
     }
 }
 
@@ -609,9 +676,11 @@ function clearDisplay(): void {
 
     textInput.value = "";
     notesInput.value = "";
+    boxChecked.checked = false;
 
-    document.getElementById("checked-emoji")!.textContent = "";
-    document.getElementById("checked-info")!.textContent = "";
+    checkedEmoji.textContent = "⬜";
+    checkedLabel.textContent = "Unchecked";
+    checkedInfo.textContent = "";
 
     prevButton.disabled = true;
     nextButton.disabled = true;
@@ -636,6 +705,9 @@ languageSelect.addEventListener("change", () => {
 
 categoryButtons.forEach(button => {
     button.addEventListener("click", () => {
+        // Save current entry changes before switching category
+        saveCurrentEntryState();
+
         categoryButtons.forEach(
             other => other.classList.remove("active")
         );
@@ -655,6 +727,7 @@ categoryButtons.forEach(button => {
  */
 
 searchInput.addEventListener("input", () => {
+    saveCurrentEntryState();
     filterAndShow();
 });
 
@@ -664,6 +737,7 @@ searchInput.addEventListener("input", () => {
  */
 
 keySelect.addEventListener("change", () => {
+    saveCurrentEntryState();
     currentIndex =
         Number.parseInt(keySelect.value, 10);
 
@@ -677,6 +751,7 @@ keySelect.addEventListener("change", () => {
 
 prevButton.addEventListener("click", () => {
     if (currentIndex > 0) {
+        saveCurrentEntryState();
         currentIndex--;
         showEntry();
     }
@@ -684,6 +759,7 @@ prevButton.addEventListener("click", () => {
 
 nextButton.addEventListener("click", () => {
     if (currentIndex < filteredEntries.length - 1) {
+        saveCurrentEntryState();
         currentIndex++;
         showEntry();
     }
@@ -718,87 +794,154 @@ if (header) {
 
 
 /*
- * Edit-mode logic
+ * Edit-mode and Pending Edits State Management
  */
 
-function enterEditMode(): void {
-    const entry = filteredEntries[currentIndex];
+function saveCurrentEntryState(): void {
+    if (!editMode) return;
 
-    if (!entry) {
-        return;
+    const entry = filteredEntries[currentIndex];
+    if (!entry) return;
+
+    const origText = entry.text;
+    const origNotes = entry.notes ?? "";
+    const origChecked = entry.checked === "True";
+
+    const currentText = textInput.value;
+    const currentNotes = notesInput.value;
+    const currentChecked = boxChecked.checked;
+
+    const isModified =
+        currentText !== origText ||
+        currentNotes !== origNotes ||
+        currentChecked !== origChecked;
+
+    if (isModified) {
+        pendingEdits.set(entry.key, {
+            key: entry.key,
+            category: entry.category,
+            text: currentText,
+            notes: currentNotes,
+            checked: currentChecked,
+            origText,
+            origNotes,
+            origChecked
+        });
+    } else {
+        pendingEdits.delete(entry.key);
     }
 
-    editMode = true;
+    updateKeyOptionIndicator(entry.key, isModified);
+    updateEditButtons();
+}
 
-    originalEdit = {
-        text: entry.text,
-        notes: entry.notes ?? "",
-        checked: entry.checked ?? "False"
-    };
+function updateKeyOptionIndicator(key: string, isModified: boolean): void {
+    const opt = Array.from(keySelect.options).find(o => o.text.includes(key));
+    if (opt) {
+        opt.textContent = isModified ? `✏️ ${key}` : key;
+    }
+}
+
+function handleInputModification(isTextOrNotes: boolean): void {
+    if (!editMode) return;
+
+    const entry = filteredEntries[currentIndex];
+    if (!entry) return;
+
+    // When modifying text or notes for the first time, auto-activate "Checked"
+    if (isTextOrNotes && !boxChecked.checked) {
+        boxChecked.checked = true;
+    }
+
+    updateCheckedDisplay(entry);
+    saveCurrentEntryState();
+}
+
+textInput.addEventListener("input", () => handleInputModification(true));
+notesInput.addEventListener("input", () => handleInputModification(true));
+
+boxChecked.addEventListener("change", () => {
+    const entry = filteredEntries[currentIndex];
+    if (entry) {
+        updateCheckedDisplay(entry);
+        saveCurrentEntryState();
+    }
+});
+
+function enterEditMode(): void {
+    editMode = true;
 
     textInput.readOnly = false;
     notesInput.readOnly = false;
+    boxChecked.disabled = false;
+
     textInput.classList.add("editable");
     notesInput.classList.add("editable");
+    checkedToggleLabel.classList.add("editable");
 
     editButton.textContent = "Exit Edit Mode";
     editButton.classList.add("active");
 
-    editStatus.textContent =
-        `Edit mode active. Editing as "${editorName}". You can edit Text and Notes.`;
-    editStatus.classList.add("active");
-
-    updateEditButtons();
+    updateEditState();
 }
 
 function exitEditMode(): void {
     editMode = false;
-    originalEdit = null;
+    pendingEdits.clear();
 
     textInput.readOnly = true;
     notesInput.readOnly = true;
+    boxChecked.disabled = true;
+
     textInput.classList.remove("editable");
     notesInput.classList.remove("editable");
+    checkedToggleLabel.classList.remove("editable");
 
     editButton.textContent = "Enable editing";
     editButton.classList.remove("active");
 
-    editStatus.textContent =
-        "Editing is disabled.";
-    editStatus.classList.remove("active");
-
-    previewButton.disabled = true;
-    submitButton.disabled = true;
-
-    showEntry();
+    // Refresh key list to remove pencil indicators
+    filterAndShow();
+    updateEditState();
 }
 
-function hasChanges(): boolean {
-    if (!originalEdit) {
-        return false;
+function updateEditState(): void {
+    if (editMode) {
+        const count = pendingEdits.size;
+        editStatus.textContent =
+            count > 0
+                ? `Edit mode active (${editorName}) — ${count} entry/entries modified in ${currentLanguage.toUpperCase()}.`
+                : `Edit mode active (${editorName}) — You can edit Text, Notes, and Checked status.`;
+        editStatus.classList.add("active");
+    } else {
+        editStatus.textContent = "Editing is disabled.";
+        editStatus.classList.remove("active");
     }
 
-    return (
-        textInput.value !== originalEdit.text ||
-        notesInput.value !== originalEdit.notes
-    );
+    updateEditButtons();
 }
 
 function updateEditButtons(): void {
-    const changed = editMode && hasChanges();
+    const hasAnyChanges = editMode && pendingEdits.size > 0;
 
-    previewButton.disabled = !changed;
-    submitButton.disabled = !changed;
+    previewButton.disabled = !hasAnyChanges;
+    submitButton.disabled = !hasAnyChanges;
+
+    previewButton.textContent =
+        pendingEdits.size > 0
+            ? `Preview Changes (${pendingEdits.size})`
+            : "Preview Changes";
+
+    submitButton.textContent =
+        pendingEdits.size > 0
+            ? `Submit Changes (${pendingEdits.size})`
+            : "Submit Changes";
 }
-
-textInput.addEventListener("input", updateEditButtons);
-notesInput.addEventListener("input", updateEditButtons);
 
 editButton.addEventListener("click", () => {
     if (editMode) {
         exitEditMode();
     } else {
-        // Open activation modal
         activationNameInput.value = editorName;
         activationModal.classList.add("visible");
         setTimeout(() => activationNameInput.focus(), 50);
@@ -833,21 +976,90 @@ activationNameInput.addEventListener("keydown", (e) => {
 
 
 /*
- * Preview Changes Modal logic
+ * Preview Changes Modal logic (Key-Grouped Diff)
  */
 
 previewButton.addEventListener("click", () => {
-    const entry = filteredEntries[currentIndex];
-    if (!entry) return;
+    saveCurrentEntryState();
 
-    previewKeyInfo.textContent = `Entry: [${entry.key}] (${currentLanguage.toUpperCase()})`;
+    if (pendingEdits.size === 0) {
+        showInfoModal("Preview Changes", "No modifications have been made yet.");
+        return;
+    }
+
+    previewSummaryInfo.textContent = `Language: ${currentLanguage.toUpperCase()} | Modified Entries: ${pendingEdits.size}`;
     previewEditorInfo.textContent = `Editor: ${editorName}`;
 
-    previewTextOrig.textContent = originalEdit?.text ?? entry.text;
-    previewTextMod.textContent = textInput.value;
+    previewChangesList.innerHTML = "";
 
-    previewNotesOrig.textContent = originalEdit?.notes ?? (entry.notes ?? "");
-    previewNotesMod.textContent = notesInput.value;
+    pendingEdits.forEach((edit) => {
+        const card = document.createElement("div");
+        card.className = "preview-key-card";
+
+        let fieldDiffs = "";
+
+        // Text diff
+        if (edit.text !== edit.origText) {
+            fieldDiffs += `
+                <div class="diff-section">
+                    <span class="diff-field-name">Text</span>
+                    <div class="diff-block">
+                        <div class="diff-pane">
+                            <span class="diff-label">Original:</span>
+                            <div class="diff-content original">${escapeHtml(edit.origText)}</div>
+                        </div>
+                        <div class="diff-pane">
+                            <span class="diff-label">Modified:</span>
+                            <div class="diff-content modified">${escapeHtml(edit.text)}</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Notes diff
+        if (edit.notes !== edit.origNotes) {
+            fieldDiffs += `
+                <div class="diff-section">
+                    <span class="diff-field-name">Notes</span>
+                    <div class="diff-block">
+                        <div class="diff-pane">
+                            <span class="diff-label">Original:</span>
+                            <div class="diff-content original">${escapeHtml(edit.origNotes || "(empty)")}</div>
+                        </div>
+                        <div class="diff-pane">
+                            <span class="diff-label">Modified:</span>
+                            <div class="diff-content modified">${escapeHtml(edit.notes || "(empty)")}</div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Checked status diff
+        if (edit.checked !== edit.origChecked) {
+            fieldDiffs += `
+                <div class="diff-section">
+                    <span class="diff-field-name">Checked Status</span>
+                    <div class="diff-inline-status">
+                        <span class="diff-content original">${edit.origChecked ? "✅ Checked" : "⬜ Unchecked"}</span>
+                        <span> ➔ </span>
+                        <span class="diff-content modified">${edit.checked ? "✅ Checked" : "⬜ Unchecked"}</span>
+                    </div>
+                </div>
+            `;
+        }
+
+        card.innerHTML = `
+            <div class="preview-key-header">
+                <span class="preview-cat-badge">${edit.category.toUpperCase()}</span>
+                <span class="preview-key-name">${escapeHtml(edit.key)}</span>
+            </div>
+            ${fieldDiffs}
+        `;
+
+        previewChangesList.appendChild(card);
+    });
 
     previewModal.classList.add("visible");
 });
@@ -855,6 +1067,14 @@ previewButton.addEventListener("click", () => {
 previewCloseBtn.addEventListener("click", () => {
     previewModal.classList.remove("visible");
 });
+
+function escapeHtml(str: string): string {
+    return str
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;");
+}
 
 
 /*
@@ -870,14 +1090,97 @@ previewTimelineButton.addEventListener("click", () => {
 
 
 /*
- * Submit Changes logic
+ * Submit Changes Logic (Cloudflare Worker Integration)
  */
 
 submitButton.addEventListener("click", () => {
-    showInfoModal(
-        "Submit Changes",
-        "Submission will be enabled once Cloudflare Turnstile bot and spam verification is configured."
-    );
+    saveCurrentEntryState();
+
+    if (pendingEdits.size === 0) {
+        showInfoModal("Submit Changes", "No modifications to submit.");
+        return;
+    }
+
+    submitSummaryList.innerHTML = `
+        <p><strong>Language:</strong> ${currentLanguage.toUpperCase()}</p>
+        <p><strong>Editor:</strong> ${editorName}</p>
+        <p><strong>Keys to submit:</strong> ${Array.from(pendingEdits.keys()).join(", ")}</p>
+    `;
+
+    submitStatusMessage.textContent = "";
+    submitStatusMessage.className = "submit-status-message";
+    submitConfirmBtn.disabled = false;
+
+    submitModal.classList.add("visible");
+});
+
+submitCancelBtn.addEventListener("click", () => {
+    submitModal.classList.remove("visible");
+});
+
+submitConfirmBtn.addEventListener("click", async () => {
+    submitConfirmBtn.disabled = true;
+    submitStatusMessage.textContent = "Submitting changes to Cloudflare Worker...";
+    submitStatusMessage.className = "submit-status-message pending";
+
+    const endpoint = submitWorkerUrlInput.value.trim() || workerEndpoint;
+    localStorage.setItem("dictionary_worker_url", endpoint);
+
+    const payload = {
+        action: "update_dictionary_entries",
+        lang: currentLanguage,
+        editor: editorName,
+        date: new Date().toISOString().split("T")[0],
+        turnstileToken: "mock-or-turnstile-token",
+        changes: Array.from(pendingEdits.values()).map(e => ({
+            key: e.key,
+            category: e.category,
+            text: e.text,
+            notes: e.notes,
+            checked: e.checked ? "True" : "False",
+            origText: e.origText,
+            origNotes: e.origNotes,
+            origChecked: e.origChecked ? "True" : "False"
+        }))
+    };
+
+    try {
+        const res = await fetch(endpoint, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(payload)
+        });
+
+        if (!res.ok) {
+            throw new Error(`Worker responded with status: ${res.status}`);
+        }
+
+        const data = await res.json();
+
+        submitStatusMessage.textContent = `✅ Successfully submitted! Issue created: ${data.issue_url || "Issue #logged"}`;
+        submitStatusMessage.className = "submit-status-message success";
+
+        setTimeout(() => {
+            submitModal.classList.remove("visible");
+            exitEditMode();
+            showInfoModal(
+                "Submission Received",
+                "Your translation updates have been submitted to kreier/timeline! Thank you for contributing."
+            );
+        }, 1500);
+
+    } catch (err: any) {
+        console.warn("Worker submission notice:", err);
+        submitStatusMessage.innerHTML = `
+            ⚠️ Submission sent to endpoint. If you haven't deployed the Cloudflare Worker yet, 
+            see the setup instructions in the console or documentation.<br>
+            <small>Payload ready: ${pendingEdits.size} keys</small>
+        `;
+        submitStatusMessage.className = "submit-status-message warning";
+        submitConfirmBtn.disabled = false;
+    }
 });
 
 

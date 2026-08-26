@@ -9,7 +9,7 @@
 - [x] Create TypeScript frontend in `src/main.ts`.
 - [x] Load languages from `public/data/languages.json`.
 - [x] Load dictionary JSON files from `public/data/`.
-- [x] Implement language selection.
+- [x] Implement language selection (defaults to last entry / Vietnamese on startup).
 - [x] Implement dictionary categories.
 - [x] Implement checked/total counters.
 - [x] Implement search by key and English.
@@ -48,18 +48,16 @@
 - [ ] Test automatic synchronization after a Timeline change.
 - [ ] Consider event-driven synchronization from Timeline instead of polling.
 
-## Editing
+## Editing & Submissions
 
 - [x] Add Enable editing button in one row on the left.
 - [x] Add edit activation modal with editor name attribution.
 - [x] Enable in-place editing for TEXT and NOTES fields with full-width layout.
-- [x] Validate edits and detect unsaved changes.
-- [x] Show proposed changes before submission (Preview Changes modal).
+- [x] Add interactive "Checked" verification status toggle (auto-activates on edit).
+- [x] Retain multi-entry edits across navigation and category changes within a language.
+- [x] Show modified fields only, grouped by keys in Preview Changes modal.
 - [x] Add Preview timeline dummy button.
+- [x] Implement Submit Changes modal with Cloudflare Worker proxy integration.
+- [ ] Deploy Cloudflare Worker (`dictionary-submissions`) for Turnstile + GitHub Issue creation.
+- [ ] Add `.github/workflows/approve-translation.yml` in `kreier/timeline` for `/approve` bot action.
 - [ ] Implement timeline visualization logic for dictionary entries.
-- [ ] Add Cloudflare verification / bot protection (Turnstile).
-- [ ] Implement Cloudflare Worker.
-- [ ] Implement secure GitHub API access.
-- [ ] Create pull request against `kreier/timeline`.
-- [ ] Handle concurrent edits.
-- [ ] Handle rejected or closed pull requests.

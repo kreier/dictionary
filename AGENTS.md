@@ -359,51 +359,48 @@ the Vite-generated application correctly.
 
 ## Editing architecture
 
-Dictionary editing is intentionally separate from the current Step 3B
-viewer implementation.
-
-The intended future workflow is approximately:
+The dictionary edit and submission workflow is structured as follows:
 
     User
-      |
-      v
+      │
+      ▼
     Dictionary web interface
-      |
-      v
-    bot / abuse verification
-      |
-      v
-    Cloudflare Worker
-      |
-      v
-    GitHub API
-      |
-      v
-    Pull Request
-      |
-      v
-    kreier/timeline
-      |
-      v
-    review and merge
-      |
-      v
-    dictionary synchronization
-      |
-      v
-    public/data/*.json
+      │
+      ▼
+    Cloudflare Turnstile bot verification
+      │
+      ▼
+    Cloudflare Worker (`dictionary-submissions`)
+      │
+      ▼
+    GitHub API (Issue created in `kreier/timeline`)
+      │
+      ▼
+    Review on GitHub (Maintainer comments `/approve`)
+      │
+      ▼
+    GitHub Action (`approve-translation.yml`) in `kreier/timeline`
+      │
+      ▼
+    Direct update to `db/dictionary_<lang>.csv` on `main`
+      │
+      ▼
+    Dictionary data synchronization
+      │
+      ▼
+    `public/data/*.json`
 
 The browser must never contain a GitHub token or other credential that
 allows arbitrary modification of the Timeline repository.
 
-The future edit interface should:
+The edit interface:
 
-1. allow the user to modify an entry;
-2. validate the proposed change;
-3. show a clear before/after representation;
-4. perform bot/abuse verification;
-5. submit the proposed change through a trusted intermediary;
-6. create a pull request against `kreier/timeline`.
+1. allows the user to modify Text, Notes, and Checked verification;
+2. preserves edits across navigation and category filters within a language;
+3. shows a clear key-grouped before/after diff preview of modified fields;
+4. performs Turnstile verification;
+5. submits the proposed change via Cloudflare Worker;
+6. creates an issue in `kreier/timeline` ready for `/approve` action processing.
 
 Do not implement direct browser-to-GitHub repository writes.
 
@@ -412,8 +409,8 @@ Do not implement direct browser-to-GitHub repository writes.
 ## Editing status
 
 The local edit interface has been implemented in the Vite application with
-in-place editing of Text and Notes, editor attribution, change detection,
-and a before/after preview modal.
+in-place editing of Text, Notes, and verification status, multi-entry session
+persistence, editor attribution, change detection, and a key-grouped preview modal.
 
 Current status:
 
@@ -423,10 +420,10 @@ Current status:
 Next major frontend / integration steps:
 
     Step 3D: timeline rendering logic (Preview timeline button)
-    Step 3E: Cloudflare Turnstile verification & Worker GitHub PR submission
+    Step 3E: Cloudflare Worker deployment & kreier/timeline /approve action bot
 
-The edit workflow is currently implemented as a local UI and change
-preview before integrating Cloudflare and GitHub API functionality.
+The edit workflow is currently integrated with the submission dialog and
+awaits Cloudflare Worker and Timeline action deployment.
 
 ---
 

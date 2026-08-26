@@ -382,6 +382,33 @@ textarea.box-content.edit-input:focus {
     background: #5a6268;
 }
 
+/* Checked toggle in metadata */
+.checked-toggle-label {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    cursor: default;
+    user-select: none;
+}
+
+.checked-toggle-label.editable {
+    cursor: pointer;
+    background: #e8f4fd;
+    padding: 3px 8px;
+    border-radius: 12px;
+    border: 1px solid #b8daff;
+    transition: all 0.15s ease;
+}
+
+.checked-toggle-label.editable:hover {
+    background: #d0e8fc;
+}
+
+.checked-toggle-label input[type="checkbox"] {
+    display: none;
+}
+
 .preview-header-info {
     display: flex;
     justify-content: space-between;
@@ -392,14 +419,63 @@ textarea.box-content.edit-input:focus {
     border-bottom: 1px solid #eee;
 }
 
-.preview-section {
-    margin-bottom: 16px;
+.preview-changes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-height: 60vh;
+    overflow-y: auto;
+    padding-right: 5px;
 }
 
-.preview-section h3 {
-    font-size: 14px;
-    margin: 0 0 6px 0;
-    color: #444;
+.preview-key-card {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 12px 14px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.preview-key-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid #f1f3f5;
+}
+
+.preview-cat-badge {
+    font-size: 10px;
+    font-weight: bold;
+    background: #007bff;
+    color: white;
+    padding: 2px 6px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.preview-key-name {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+.diff-section {
+    margin-bottom: 10px;
+}
+
+.diff-section:last-child {
+    margin-bottom: 0;
+}
+
+.diff-field-name {
+    font-size: 11px;
+    font-weight: bold;
+    color: #6c757d;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 4px;
 }
 
 .diff-block {
@@ -409,17 +485,17 @@ textarea.box-content.edit-input:focus {
     background: #f8f9fa;
     border: 1px solid #e9ecef;
     border-radius: 4px;
-    padding: 10px;
+    padding: 8px 10px;
 }
 
 .diff-pane {
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 2px;
 }
 
 .diff-label {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: bold;
     text-transform: uppercase;
     color: #888;
@@ -428,9 +504,9 @@ textarea.box-content.edit-input:focus {
 .diff-content {
     font-size: 14px;
     white-space: pre-wrap;
-    padding: 6px 8px;
+    padding: 4px 8px;
     border-radius: 3px;
-    min-height: 1.4em;
+    min-height: 1.3em;
 }
 
 .diff-content.original {
@@ -443,4 +519,61 @@ textarea.box-content.edit-input:focus {
     background: #e6ffed;
     border: 1px solid #c3e6cb;
     color: #155724;
+}
+
+.diff-inline-status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+}
+
+.submit-summary-list {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    padding: 10px 14px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.submit-summary-list p {
+    margin: 4px 0;
+}
+
+.turnstile-wrapper {
+    margin-top: 12px;
+    padding: 10px;
+    background: #fdfdfe;
+    border: 1px dashed #ced4da;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.submit-status-message {
+    margin-top: 12px;
+    font-size: 13px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    display: none;
+}
+
+.submit-status-message.pending {
+    display: block;
+    background: #e8f4fd;
+    color: #0056b3;
+}
+
+.submit-status-message.success {
+    display: block;
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.submit-status-message.warning {
+    display: block;
+    background: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
 }
