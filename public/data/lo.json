@@ -1,43 +1,43 @@
 [
   {
     "key": "pdf_title",
-    "text": "6000 anni di storia umana visualizzata",
+    "text": "6,000 ປີປະຫວັດສາດຂອງມະນຸດເຫັນ",
     "english": "6000 years human history visualized",
     "notes": "2026-06-30",
     "tag": "text",
-    "checked": "True",
+    "checked": "False",
     "category": "text"
   },
   {
     "key": "pdf_subject",
-    "text": "Cronologia dell'umanità",
+    "text": "ໄລຍະເວລາຂອງມະນຸດ",
     "english": "Timeline of humankind",
-    "notes": "5.9",
+    "notes": " ",
     "tag": "text",
-    "checked": "True",
+    "checked": "False",
     "category": "text"
   },
   {
     "key": "BCE",
-    "text": "a.E.V.",
+    "text": "ກ່ອນ ຄ.ສ. ",
     "english": "B.C.E.",
     "notes": "appendix B9",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "CE",
-    "text": "E.V.",
+    "text": "ຄ.ສ. ",
     "english": "C.E.",
     "notes": " ",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "month",
-    "text": "mese",
+    "text": "ເດືອນ",
     "english": "month",
     "notes": " ",
     "tag": "text",
@@ -46,7 +46,7 @@
   },
   {
     "key": "months",
-    "text": "mesi",
+    "text": "ເດືອນ",
     "english": "months",
     "notes": " ",
     "tag": "text",
@@ -55,7 +55,7 @@
   },
   {
     "key": "day",
-    "text": "giorno",
+    "text": "ມື້",
     "english": "day",
     "notes": " ",
     "tag": "text",
@@ -64,7 +64,7 @@
   },
   {
     "key": "days",
-    "text": "giorni",
+    "text": "ມື້",
     "english": "days",
     "notes": " ",
     "tag": "text",
@@ -73,7 +73,7 @@
   },
   {
     "key": "to",
-    "text": "A",
+    "text": "ກັບ",
     "english": "to",
     "notes": " ",
     "tag": "text",
@@ -82,7 +82,7 @@
   },
   {
     "key": "Deluge",
-    "text": "Diluvio",
+    "text": "ນໍ້າຖ້ວມ",
     "english": "Deluge",
     "notes": " ",
     "tag": "text",
@@ -91,7 +91,7 @@
   },
   {
     "key": "moses2",
-    "text": "Dal 1593 al 1473 a.E.V. - 120 anni",
+    "text": "1593 ຫາ 1473 ກ່ອນ ຄ.ສ. – 120 ປີ",
     "english": "1593 to 1473 B.C.E. – 120 years",
     "notes": " ",
     "tag": "text",
@@ -100,7 +100,7 @@
   },
   {
     "key": "temple1",
-    "text": "NISAN 1513 a.E.V. a ZIV 1034 a.E.V.",
+    "text": "ນີຊານ 1513 ກ່ອນ ຄ.ສ. ເຖິງ Ziv 1034 B.C.E.",
     "english": "Nisan 1513 B.C.E. to Ziv 1034 B.C.E.",
     "notes": " ",
     "tag": "text",
@@ -109,7 +109,7 @@
   },
   {
     "key": "69weeks",
-    "text": "Gesù battezzato l'autunno 29 E.V.",
+    "text": "ພະ​ເຍຊູ​ຮັບ​ບັບເຕມາ​ໃນ​ລະດູ​ໃບ​ໄມ້​ປົ່ງ​ໃນ​ປີ 29 ສ.",
     "english": "Jesus baptized autumn 29 C.E.",
     "notes": " ",
     "tag": "text",
@@ -118,7 +118,7 @@
   },
   {
     "key": "year",
-    "text": "anno",
+    "text": "ປີ",
     "english": "year",
     "notes": "timespan, age (Adam was 130 years old when Shem was born)",
     "tag": "text",
@@ -127,7 +127,7 @@
   },
   {
     "key": "years",
-    "text": "anni",
+    "text": "ປີ",
     "english": "years",
     "notes": " ",
     "tag": "text",
@@ -136,7 +136,7 @@
   },
   {
     "key": "years_age",
-    "text": "anni",
+    "text": "ປີ",
     "english": "years",
     "notes": "years when used as age for a person (different word than years in some languages), like he is 23 years old",
     "tag": "text",
@@ -154,7 +154,7 @@
   },
   {
     "key": "wilderness",
-    "text": "Israele nel deserto dal 1513 al 1473 a.E.V. - 40 anni",
+    "text": "ອິດ​ສະ​ຣາ​ເອນ​ໃນ​ຖິ່ນ​ແຫ້ງ​ແລ້ງ​ກັນ​ດານ 1513 ຫາ 1473 BC. – 40 ປີ",
     "english": "Israel in the wilderness 1513 to 1473 B.C.E. – 40 years",
     "notes": " ",
     "tag": "text",
@@ -163,7 +163,7 @@
   },
   {
     "key": "timespan_judges",
-    "text": "1473-1117 a.E.V. - 356 anni",
+    "text": "1473 ຫາ 1117 ກ່ອນ ຄ.ສ. – 356 ປີ",
     "english": "1473 to 1117 B.C.E. – 356 years",
     "notes": " ",
     "tag": "text",
@@ -172,7 +172,7 @@
   },
   {
     "key": "timespan_judges2",
-    "text": "Tempo dei giudici",
+    "text": "ເວລາຂອງຜູ້ພິພາກສາ",
     "english": "Time of the judges",
     "notes": " ",
     "tag": "text",
@@ -181,7 +181,7 @@
   },
   {
     "key": "temple2",
-    "text": "479 anni fino alla costruzione del tempio - 1 Re 6: 1",
+    "text": "479 ປີ​ຈົນ​ກວ່າ​ການ​ສ້າງ​ພຣະ​ວິຫານ—1 ກະສັດ 6:1",
     "english": "479 years until the temple construction – 1 Kings 6:1",
     "notes": "1034 BCE",
     "tag": "text",
@@ -190,7 +190,7 @@
   },
   {
     "key": "69weeks2",
-    "text": "69 settimane al Messia - Daniel 9:25",
+    "text": "69 ອາທິດ​ຕໍ່​ພຣະ​ເມ​ຊີ​ອາ—ດານຽນ 9:25",
     "english": "69 weeks to the Messiah – Daniel 9:25",
     "notes": " ",
     "tag": "text",
@@ -199,7 +199,7 @@
   },
   {
     "key": "jesus_service",
-    "text": "3,5 anni di servizio di Gesù, eseguito Nisan 14, 33 E.V.",
+    "text": "3.5 ປີ​ຂອງ​ການ​ຮັບໃຊ້​ພະ​ເຍຊູ, ຖືກ​ປະຫານ​ຊີວິດ​ໃນ​ວັນ​ທີ 14 ເດືອນ​ນີຊານ, 33 ສ.",
     "english": "3.5 years of Jesus service, executed Nisan 14th, 33 C.E.",
     "notes": " ",
     "tag": "text",
@@ -208,7 +208,7 @@
   },
   {
     "key": "jesus_life",
-    "text": "Gesù nato il 2 a.E.V.",
+    "text": "ພະ​ເຍຊູ​ເກີດ 2 ປີ ກ່ອນ ຄ.",
     "english": "Jesus born 2 B.C.E.",
     "notes": " ",
     "tag": "text",
@@ -217,7 +217,7 @@
   },
   {
     "key": "exile",
-    "text": "607 a 537 a.E.V. - 70 anni (Geremia 25:11)",
+    "text": "607 ຫາ 537 ກ່ອນ ຄ.ສ. — 70 ປີ (ເຢ​ເລ​ມີ 25:11)",
     "english": "607 to 537 B.C.E. – 70 years (Jeremiah 25:11)",
     "notes": " ",
     "tag": "text",
@@ -226,7 +226,7 @@
   },
   {
     "key": "exile2",
-    "text": "Esilio",
+    "text": "ເນລະເທດ",
     "english": "Exile",
     "notes": " ",
     "tag": "text",
@@ -235,7 +235,7 @@
   },
   {
     "key": "7times2",
-    "text": "7 volte - 2520 anni al Regno messianico 1914 E.V. (Daniel 4:23)",
+    "text": "7 ຄັ້ງ – 2520 ປີ​ເຖິງ​ລາຊະອານາຈັກ​ເມຊີ​ໃນ​ປີ 1914 CE (ດາ​ນີ​ເອນ 4:23)",
     "english": "7 times – 2520 years to the Messianic Kingdom 1914 C.E. (Daniel 4:23)",
     "notes": " ",
     "tag": "text",
@@ -244,7 +244,7 @@
   },
   {
     "key": "ww1",
-    "text": "Prima guerra mondiale - 1914–1918 E.E.",
+    "text": "ສົງຄາມໂລກຄັ້ງທີ 1 – 1914–1918",
     "english": "World War I – 1914–1918",
     "notes": " ",
     "tag": "text",
@@ -253,7 +253,7 @@
   },
   {
     "key": "ww2",
-    "text": "Seconda Guerra Mondiale - 1939–1945 E.E.",
+    "text": "ສົງຄາມໂລກຄັ້ງທີ II – 1939–1945",
     "english": "World War II – 1939–1945",
     "notes": " ",
     "tag": "text",
@@ -262,7 +262,7 @@
   },
   {
     "key": "30_year_war",
-    "text": "Trent'anni di guerra in Europa 1618-1648",
+    "text": "ສົງຄາມສາມສິບປີໃນເອີຣົບ 1618-1648",
     "english": "Thirty Years' War in Europe 1618-1648",
     "notes": " ",
     "tag": "text",
@@ -271,7 +271,7 @@
   },
   {
     "key": "joshua",
-    "text": "110 anni",
+    "text": "110 ປີ",
     "english": "110 years",
     "notes": " ",
     "tag": "text",
@@ -280,7 +280,7 @@
   },
   {
     "key": "caleb",
-    "text": "Più di 85 anni",
+    "text": "ຫຼາຍກວ່າ 85 ປີ",
     "english": "more than 85 years",
     "notes": " ",
     "tag": "text",
@@ -289,7 +289,7 @@
   },
   {
     "key": "missionary1",
-    "text": "Primo viaggio missionario di Paolo, c. 47-48 E.V. con Barnabas e John Mark",
+    "text": "ການເດີນທາງເຜີຍແຜ່ຄັ້ງທໍາອິດຂອງໂປໂລ, ຄ. 47-48 CE ກັບ Barnabas ແລະ John Mark",
     "english": "First Missionary Journey of Paul, c. 47-48 C.E. with Barnabas and John Mark",
     "notes": " ",
     "tag": "text",
@@ -298,7 +298,7 @@
   },
   {
     "key": "circumcision",
-    "text": "Problema sulla circoncisione ad Antioch, conferenza a Gerusalemme c. 49 E.V.",
+    "text": "ບັນຫາ​ຕັດ​ສິນ​ຢູ່​ເມືອງ​ອັນຕີອົກ, ກອງ​ປະຊຸມ​ໃນ​ນະຄອນ​ເຢຣູຊາເລັມ ຄ. 49 ຄ.ສ.",
     "english": "Circumcision issue at Antioch, conference in Jerusalem c. 49 C.E.",
     "notes": " ",
     "tag": "text",
@@ -307,7 +307,7 @@
   },
   {
     "key": "missionary2",
-    "text": "Secondo viaggio missionario c. 49-52 E.E con Silas (Silvanus)",
+    "text": "ການເດີນທາງເຜີຍແຜ່ຄັ້ງທີສອງ ຄ. 49-52 C.E ກັບ Silas (Silvanus)",
     "english": "Second Missionary Journey c. 49-52 C.E with Silas (Silvanus)",
     "notes": " ",
     "tag": "text",
@@ -316,7 +316,7 @@
   },
   {
     "key": "missionary3",
-    "text": "Terzo viaggio missionario c. 52-56 C.E.",
+    "text": "ການເດີນທາງເຜີຍແຜ່ຄັ້ງທີສາມ ຄ. 52-56 ຄ.ສ.",
     "english": "Third Missionary Journey c. 52-56 C.E.",
     "notes": " ",
     "tag": "text",
@@ -325,7 +325,7 @@
   },
   {
     "key": "caesarea",
-    "text": "Paolo in custodia a Cesarea c. 56-58 E.V.",
+    "text": "ໂປໂລ​ຖືກ​ຄຸມ​ຂັງ​ຢູ່​ໃນ​ເມືອງ Caesarea ຄ. 56-58 ຄ.ສ.",
     "english": "Paul in custody in Caesarea c. 56-58 C.E.",
     "notes": " ",
     "tag": "text",
@@ -334,7 +334,7 @@
   },
   {
     "key": "rome1",
-    "text": "La prima prigionia di Paul a Roma c. 59-61 C.E.",
+    "text": "ການ​ຈໍາ​ຄຸກ​ຄັ້ງ​ທໍາ​ອິດ​ຂອງ​ໂປ​ໂລ​ໃນ Rome ຄ. 59-61 ຄ.ສ.",
     "english": "Paul’s first imprisonment in Rome c. 59-61 C.E.",
     "notes": " ",
     "tag": "text",
@@ -343,7 +343,7 @@
   },
   {
     "key": "rome2",
-    "text": "La seconda prigionia di Paul a Roma c. 65 E.E., 2 Timothy scritto, Paul ha eseguito",
+    "text": "ການ​ຈໍາ​ຄຸກ​ຄັ້ງ​ທີ​ສອງ​ຂອງ​ໂປ​ໂລ​ໃນ Rome ຄ. 65 CE, 2 ຕີໂມເຕຂຽນ, ໂປໂລໄດ້ປະຫານຊີວິດ",
     "english": "Paul’s second imprisonment in Rome c. 65 C.E., 2 Timothy written, Paul executed",
     "notes": " ",
     "tag": "text",
@@ -352,7 +352,7 @@
   },
   {
     "key": "event_exodus",
-    "text": "Esodo dall'Egitto il 14 °, 1513 a.E.V.",
+    "text": "ອົບພະຍົບອອກຈາກປະເທດເອຢິບໃນວັນທີ 14 ເດືອນນີຊານ, 1513 ກ່ອນ ຄ.ສ.",
     "english": "Exodus from Egypt on Nisan 14th, 1513 B.C.E.",
     "notes": " ",
     "tag": "text",
@@ -361,7 +361,7 @@
   },
   {
     "key": "event_division_kingdom",
-    "text": "Divisione di Israele 997 a.C.",
+    "text": "ການ​ແບ່ງ​ແຍກ​ອິດ​ສະ​ຣາ​ເອນ 997 BC",
     "english": "Division of Israel 997 BCE",
     "notes": " ",
     "tag": "text",
@@ -370,7 +370,7 @@
   },
   {
     "key": "event_destruction_samaria",
-    "text": "Distruzione di Samaria 740 a.E.V. di Assiria",
+    "text": "ການທໍາລາຍຊາມາເລຍ 740 ກ່ອນ ຄ.ສ. ໂດຍ ອັດ ຊີ ເຣຍ",
     "english": "Destruction of Samaria 740 B.C.E. by Assyria",
     "notes": "Destruction of Samaria 740 B.C.E. by Assyria",
     "tag": "text",
@@ -379,7 +379,7 @@
   },
   {
     "key": "event_destruction_jerusalem1",
-    "text": "Distruzione di Gerusalemme 607 a.E.V. Di Babylon, 390 anni dopo la divisione del regno (Ezechiele 4: 5)",
+    "text": "ການທໍາລາຍເຢຣູຊາເລັມ 607 ກ່ອນ ຄ.ສ. ໂດຍ Babylon, 390 ປີ​ຫຼັງ​ຈາກ​ການ​ແບ່ງ​ປັນ​ຂອງ​ອາ​ນາ​ຈັກ (Ezekiel 4:5​)",
     "english": "Destruction of Jerusalem 607 B.C.E. by Babylon, 390 years after the division of the kingdom (Ezekiel 4:5)",
     "notes": " ",
     "tag": "text",
@@ -388,7 +388,7 @@
   },
   {
     "key": "event_temple_rebuilt",
-    "text": "Tempio a Gerusalemme ricostruita 515 a.E.V.",
+    "text": "ວິຫານ​ໃນ​ນະຄອນ​ເຢຣູຊາເລັມ​ໄດ້​ສ້າງ​ຂຶ້ນ​ໃໝ່​ໃນ​ປີ 515 ກ່ອນ ຄ.ສ.",
     "english": "Temple in Jerusalem rebuilt 515 B.C.E.",
     "notes": " ",
     "tag": "text",
@@ -397,7 +397,7 @@
   },
   {
     "key": "event_jerusalem_rebuilt",
-    "text": "Gerusalemme muro ricostruito 455 a.E.V.",
+    "text": "ກໍາ​ແພງ​ເຢ​ຣູ​ຊາ​ເລັມ​ໄດ້​ສ້າງ​ຂຶ້ນ​ໃຫມ່​ໃນ 455 BC.",
     "english": "Jerusalem wall rebuilt 455 B.C.E.",
     "notes": " ",
     "tag": "text",
@@ -406,7 +406,7 @@
   },
   {
     "key": "event_destruction_jerusalem2",
-    "text": "Distruzione di Gerusalemme 70 E.V. di Roma sotto Titus",
+    "text": "ການທໍາລາຍເຢຣູຊາເລັມ 70 CE ໂດຍ Rome ພາຍໃຕ້ Titus",
     "english": "Destruction of Jerusalem 70 C.E. by Rome under Titus",
     "notes": " ",
     "tag": "text",
@@ -415,7 +415,7 @@
   },
   {
     "key": "event_1914",
-    "text": "Fine del tempo delle nazioni (Luca 21:24), il regno di Dio inizia a governare in cielo 1914 E.V.",
+    "text": "ສິ້ນ​ສຸດ​ເວລາ​ຂອງ​ຊາດ (ລືກາ 21:24), ລາຊະອານາຈັກ​ຂອງ​ພະເຈົ້າ​ເລີ່ມ​ປົກຄອງ​ໃນ​ສະຫວັນ​ໃນ​ປີ 1914 ຈ.ສ.",
     "english": "End of the time of the nations (Luke 21:24), God’s Kingdom starts to rule in heaven 1914 C.E.",
     "notes": "include scripture Luke 21:24",
     "tag": "text",
@@ -424,7 +424,7 @@
   },
   {
     "key": "became_king",
-    "text": "diventa re all'età",
+    "text": "ກາຍເປັນກະສັດເມື່ອອາຍຸສູງສຸດ",
     "english": "becomes king at age",
     "notes": "2025-04-14",
     "tag": "text",
@@ -433,7 +433,7 @@
   },
   {
     "key": "vulgate",
-    "text": "Vulgata completata da Jerome (traduzione latina della Bibbia) c. 405 E.V.",
+    "text": "Vulgate ສໍາເລັດໂດຍ Jerome (ຄໍາແປລາຕິນຂອງຄໍາພີໄບເບິນ) ຄ. 405 ຄ.ສ.",
     "english": "Vulgate completed by Jerome (Latin translation of the bible) c. 405 C.E.",
     "notes": " ",
     "tag": "text",
@@ -442,7 +442,7 @@
   },
   {
     "key": "gutenberg",
-    "text": "Gutenberg Bible stampata 1455",
+    "text": "ຄໍາພີ Gutenberg ພິມໃນປີ 1455",
     "english": "Gutenberg Bible printed 1455",
     "notes": " ",
     "tag": "text",
@@ -451,7 +451,7 @@
   },
   {
     "key": "erasmus",
-    "text": "Testo greco di Scritture greche cristiane pubblicate da Desiderius Erasmus di Rotterdam 1516",
+    "text": "ຂໍ້​ຄວາມ​ຂອງ​ພະ​ຄຳພີ​ຄລິດສະຕຽນ​ພາສາ​ເກັຣກ​ທີ່​ພິມ​ຈຳໜ່າຍ​ໂດຍ Desiderius Erasmus ແຫ່ງ Rotterdam ປີ 1516",
     "english": "Greek text of Christian Greek Scriptures published by Desiderius Erasmus of Rotterdam 1516",
     "notes": " ",
     "tag": "text",
@@ -460,7 +460,7 @@
   },
   {
     "key": "luther",
-    "text": "Traduzione della Bibbia di Lutero nel settembre 1522",
+    "text": "ການແປພຣະຄໍາພີ Luther ໃນເດືອນກັນຍາ 1522",
     "english": "Luther Bible translation in September 1522",
     "notes": " ",
     "tag": "text",
@@ -469,7 +469,7 @@
   },
   {
     "key": "tyndale",
-    "text": "Traduzione della Bibbia inglese di Tyndale 1536",
+    "text": "ການ​ແປ​ພາ​ສາ​ອັງ​ກິດ​ພະ​ຄໍາ​ພີ​ໂດຍ Tyndale 1536​",
     "english": "English Bible translation by Tyndale 1536",
     "notes": " ",
     "tag": "text",
@@ -487,7 +487,7 @@
   },
   {
     "key": "69weeks3",
-    "text": "Gesù inizia il suo servizio 29 CE (Luca 3: 1, 21)",
+    "text": "ພະ​ເຍຊູ​ເລີ່ມ​ຮັບໃຊ້​ໃນ​ປີ 29 ສ.ສ. (ລືກາ 3:1, 21)",
     "english": "Jesus starts his service 29 CE (Luke 3:1, 21)",
     "notes": " ",
     "tag": "text",
@@ -496,7 +496,7 @@
   },
   {
     "key": "ransom",
-    "text": "Sacrificio per cessare a metà settimana \"Daniel 9:27",
+    "text": "ໃນ​ກາງ​ອາ​ທິດ “ການ​ເສຍ​ສະ​ລະ​ເພື່ອ​ຢຸດ” ດາ​ນີ​ເອນ 9:27",
     "english": "Middle of week “sacrifice to cease” Daniel 9:27",
     "notes": " ",
     "tag": "text",
@@ -505,7 +505,7 @@
   },
   {
     "key": "cornelius",
-    "text": "Cornelius battezzato alla fine di 70 settimane (Daniele 9:24) nel 36 E.V.",
+    "text": "ໂຄເນເລຍ​ໄດ້​ຮັບ​ບັບເຕມາ​ໃນ​ຕອນ​ທ້າຍ​ຂອງ 70 ອາ​ທິດ (ດາ​ນີ​ເອນ 9:24) ໃນ 36 CE.",
     "english": "Cornelius baptized at the end of 70 weeks (Daniel 9:24) in 36 C.E.",
     "notes": " ",
     "tag": "text",
@@ -514,7 +514,7 @@
   },
   {
     "key": "columbus",
-    "text": "Fine del periodo precolombiano nelle Americhe 1492",
+    "text": "ການສິ້ນສຸດຂອງຍຸກກ່ອນໂຄລໍາເບຍໃນອາເມລິກາ 1492",
     "english": "End of the pre-columbian period in the Americas 1492",
     "notes": " ",
     "tag": "text",
@@ -523,7 +523,7 @@
   },
   {
     "key": "declaration_independence",
-    "text": "Dichiarazione di indipendenza di 13 colonie in America 1776",
+    "text": "ປະກາດເອກະລາດຂອງ 13 ອານານິຄົມໃນອາເມລິກາ 1776",
     "english": "Declaration of independence of 13 colonies in America 1776",
     "notes": " ",
     "tag": "text",
@@ -532,7 +532,7 @@
   },
   {
     "key": "tischendorf",
-    "text": "Tischendorf scopre il Codice Sinaiticus dal IV secolo del 1844",
+    "text": "Tischendorf ຄົ້ນພົບ Codex Sinaiticus ຈາກສະຕະວັດທີ 4 ໃນປີ 1844",
     "english": "Tischendorf discovers the Codex Sinaiticus from the 4th century in 1844",
     "notes": " ",
     "tag": "text",
@@ -541,7 +541,7 @@
   },
   {
     "key": "dead_sea_scrolls",
-    "text": "Scrotoli del Mar Morto scritto",
+    "text": "Dead Sea Scrolls ຂຽນ",
     "english": "Dead Sea Scrolls written",
     "notes": " ",
     "tag": "text",
@@ -550,7 +550,7 @@
   },
   {
     "key": "septuagint",
-    "text": "Septuagint LXX tradotto",
+    "text": "Septuagint LXX ແປ",
     "english": "Septuagint LXX translated",
     "notes": " ",
     "tag": "text",
@@ -559,7 +559,7 @@
   },
   {
     "key": "watchtower",
-    "text": "Il primo numero di \"Zion’s Watch Tower and Herald of Christ's Presence\" è pubblicato nel 1879",
+    "text": "ສະບັບ​ທຳອິດ​ຂອງ “ຫໍສັງເກດການ​ແຫ່ງ​ຊີໂອນ ແລະ​ການ​ປະກາດ​ການ​ມີ​ຢູ່​ຂອງ​ພະ​ຄລິດ” ຖືກ​ພິມ​ໃນ​ປີ 1879.",
     "english": "The first issue of “Zion’s Watch Tower and Herald of Christ’s Presence” is published in 1879",
     "notes": " ",
     "tag": "text",
@@ -568,7 +568,7 @@
   },
   {
     "key": "jehovahs_witnesses",
-    "text": "Gli studenti biblici adottano un nuovo nome: i testimoni di Geova (Isaia 43:10, 12) a Columbus, Ohio, 1931",
+    "text": "ນັກ​ສຶກສາ​ຄຳພີ​ໄບເບິນ​ຮັບ​ເອົາ​ຊື່​ໃໝ່​ຄື: ພະຍານ​ພະ​ເຢໂຫວາ (ເອຊາອີ 43:10, 12) ໃນ​ເມືອງ​ໂຄລຳ​ບັສ ລັດ​ໂອ​ໄຮ​ໂອ, ປີ 1931.",
     "english": "The Bible Students adopt a new name – Jehovah’s Witnesses (Isaiah 43:10, 12) in Columbus, Ohio, 1931",
     "notes": "include scripture",
     "tag": "text",
@@ -577,7 +577,7 @@
   },
   {
     "key": "gilead_school",
-    "text": "La scuola biblica di orologeria di Gilead inizia lunedì 1 febbraio 1943",
+    "text": "ໂຮງ​ຮຽນ Watchtower Bible of Gilead ເລີ່ມ​ຕົ້ນ​ໃນ​ວັນ​ຈັນ ທີ 1 ກຸມພາ 1943",
     "english": "Watchtower Bible School of Gilead begins on Monday, February 1, 1943",
     "notes": " ",
     "tag": "text",
@@ -586,7 +586,7 @@
   },
   {
     "key": "new_world_translation1",
-    "text": "New World Translation of the Holy Scritture rilasciato a Manchester, in Inghilterra, il 18 giugno 1960, reintroduce il nome Geova in molte parti della Bibbia",
+    "text": "“ຄຳພີ​ໄບເບິນ​ສະບັບ​ແປ​ໂລກ​ໃໝ່” ທີ່​ພິມ​ຈຳໜ່າຍ​ໃນ​ເມືອງ​ແມນເຊັສເຕີ ປະ​ເທດ​ອັງກິດ​ໃນ​ວັນ​ທີ 18 ມິຖຸນາ 1960 ໂດຍ​ນຳ​ເອົາ​ຊື່​ຂອງ​ພະ​ເຢໂຫວາ​ຄືນ​ມາ​ໃນ​ຫຼາຍ​ພາກ​ຂອງ​ຄຳພີ​ໄບເບິນ.",
     "english": "“New World Translation of the Holy Scriptures” released in Manchester, England on June 18, 1960, reintroduces the name Jehovah in many parts of the Bible",
     "notes": "hightlight reintroduction of Jehovah’s name",
     "tag": "text",
@@ -595,7 +595,7 @@
   },
   {
     "key": "new_world_translation2",
-    "text": "Reviso \"New World Translation of the Holy Scritture\" rilasciato durante la riunione annuale 2013, ottimizzata per essere utilizzata digitalmente e online",
+    "text": "ສະບັບປັບປຸງ “ສະບັບແປໂລກໃໝ່ຂອງພະຄຳພີບໍລິສຸດ” ທີ່ອອກໃນກອງປະຊຸມປະຈຳປີ 2013, ປັບປຸງໃຫ້ເໝາະສົມເພື່ອໃຊ້ທາງດິຈິຕອລ ແລະທາງອິນເຕີເນັດ.",
     "english": "Revised “New World Translation of the Holy Scriptures” released at annual meeting 2013, optimized to be used digitally and online",
     "notes": "new edition with digital and online in mind",
     "tag": "text",
@@ -604,7 +604,7 @@
   },
   {
     "key": "cold_war",
-    "text": "Situazione geopolitica etichettata \"Guerra fredda\" 1945-1991",
+    "text": "ສະ​ຖາ​ນະ​ການ​ທາງ​ພູ​ມິ​ສາດ​ການ​ເມືອງ​ທີ່​ມີ​ຊື່ \"ສົງ​ຄາມ​ເຢັນ​\" 1945-1991​",
     "english": "Geopolitical situation labeled “Cold War” 1945-1991",
     "notes": " ",
     "tag": "text",
@@ -613,7 +613,7 @@
   },
   {
     "key": "codex_sinaiticus",
-    "text": "Codex sinaiticus scritto",
+    "text": "Codex Sinaiticus ຂຽນ",
     "english": "Codex Sinaiticus written",
     "notes": " ",
     "tag": "text",
@@ -622,7 +622,7 @@
   },
   {
     "key": "codex_vaticanus",
-    "text": "Codice Vaticanus scritto",
+    "text": "Codex Vaticanus ຂຽນ",
     "english": "Codex Vaticanus written",
     "notes": " ",
     "tag": "text",
@@ -631,7 +631,7 @@
   },
   {
     "key": "leningrad_codex",
-    "text": "Codice Leningrad scritto nel Cairo d.C.",
+    "text": "Leningrad Codex ຂຽນໃນ Cairo AD 1008",
     "english": "Leningrad Codex written in Cairo AD 1008",
     "notes": " ",
     "tag": "text",
@@ -640,7 +640,7 @@
   },
   {
     "key": "john",
-    "text": "John scrive \"Apocalisse\" mentre si esibì su Patmos 96-98 E.V.",
+    "text": "ໂຢຮັນ​ຂຽນ “ການ​ເປີດ​ເຜີຍ” ໃນ​ຂະນະ​ທີ່​ຖືກ​ເນລະ​ເທດ​ໃນ​ວັນ​ທີ 96-98 ​ສ.",
     "english": "John writes “revelation” while exiled on Patmos 96-98 C.E.",
     "notes": " ",
     "tag": "text",
@@ -649,7 +649,7 @@
   },
   {
     "key": "buddha",
-    "text": "The Buddha-Siddhartha Gautama C.563-C.483 a.C.",
+    "text": "ພຣະພຸດທະເຈົ້າ - Siddhartha Gautama c.563-c.483 B.C.E",
     "english": "The Buddha – Siddhartha Gautama c.563-c.483 B.C.E",
     "notes": " ",
     "tag": "text",
@@ -658,7 +658,7 @@
   },
   {
     "key": "buddha2",
-    "text": "Buddha in alternativa c. 480-400 a.E.V.",
+    "text": "ພຣະພຸດທະອົງໃນທາງກົງກັນຂ້າມ ຄ. 480-400 ກ່ອນ ຄ.ສ.",
     "english": "Buddha alternatively c. 480-400 B.C.E.",
     "notes": " ",
     "tag": "text",
@@ -667,7 +667,7 @@
   },
   {
     "key": "mohammed",
-    "text": "Mohammed c. 570-632 E.V.",
+    "text": "Mohammed ຄ. 570-632",
     "english": "Mohammed c. 570-632",
     "notes": " ",
     "tag": "text",
@@ -676,7 +676,7 @@
   },
   {
     "key": "confucius",
-    "text": "Confucio C.551-C.479 a.E.V.",
+    "text": "ຂົງຈື້ ຄ.551-c.479 ກ່ອນ ຄ.ສ.",
     "english": "Confucius c.551-c.479 B.C.E.",
     "notes": " ",
     "tag": "text",
@@ -685,7 +685,7 @@
   },
   {
     "key": "hijrah",
-    "text": "Hijrah - Journey Mecca a Medina 16 luglio 622",
+    "text": "Hijrah - Journey Mecca to Medina 16 ກໍລະກົດ 622",
     "english": "Hijrah - Journey Mecca to Medina 16 July 622",
     "notes": " ",
     "tag": "text",
@@ -694,7 +694,7 @@
   },
   {
     "key": "moses_escape",
-    "text": "1553 a.E.V. Mosè deve sfuggire all'Egitto - Esodo 2:15, Atti 7:23",
+    "text": "1553 ກ່ອນ ຄ.ສ. ໂມເຊ​ຕ້ອງ​ໜີ​ອອກ​ຈາກ​ເອຢິບ—ອົບພະຍົບ 2:15, ກິດຈະການ 7:23",
     "english": "1553 B.C.E. Moses has to escape Egypt – Exodus 2:15, Acts 7:23",
     "notes": " ",
     "tag": "text",
@@ -703,7 +703,7 @@
   },
   {
     "key": "10plagues",
-    "text": "1513 a.C. Egitto riceve 10 piaghe",
+    "text": "ປີ 1513 ກ່ອນ ຄ.ສ. ປະເທດເອຢິບໄດ້ຮັບໄພພິບັດ 10 ອັນ",
     "english": "1513 B.C.E Egypt receives 10 plagues",
     "notes": " ",
     "tag": "text",
@@ -712,7 +712,7 @@
   },
   {
     "key": "joseph_sold",
-    "text": "Joseph è stato venduto come schiavo all'età di 17 anni - Gen 37: 2",
+    "text": "ໂຢເຊບ​ຖືກ​ຂາຍ​ເປັນ​ທາດ​ຕອນ​ອາຍຸ 17 ປີ—ປຖກ 37:2",
     "english": "Joseph sold as slave at the age of 17 – Gen 37:2",
     "notes": " ",
     "tag": "text",
@@ -721,7 +721,7 @@
   },
   {
     "key": "infliction",
-    "text": "Inflizione di 400 anni (Atti 7: 6) - Ishmael 1913 a.C.",
+    "text": "ການ​ຂົ່ມ​ຂູ່ 400 ປີ (ກິດ​ຈະ​ການ 7:6) – ອິດ​ຊະ​ມາ​ເອນ 1913 BC.",
     "english": "400 year infliction (Acts 7:6) – Ishmael 1913 B.C.E",
     "notes": " ",
     "tag": "text",
@@ -730,7 +730,7 @@
   },
   {
     "key": "Alexander",
-    "text": "Alexander the Great (Daniel 11: 3)",
+    "text": "ອາ​ເລັກ​ຊັນ​ເດີ​ຜູ້​ຍິ່ງ​ໃຫຍ່ (ດາ​ນີ​ເອນ 11:3)",
     "english": "Alexander the Great (Daniel 11:3)",
     "notes": " ",
     "tag": "text",
@@ -739,7 +739,7 @@
   },
   {
     "key": "persia",
-    "text": "Cyrus the Great, Cambyses II, Darius I 490 a.C., Xerxes I 480 a.C. (marito di Esther, Daniele 11: 2)",
+    "text": "Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (ຜົວ​ຂອງ Esther, Daniel 11:2)",
     "english": "Cyrus the Great, Cambyses II, Darius I 490 BCE, Xerxes I 480 BCE (husband of Esther, Daniel 11:2)",
     "notes": " ",
     "tag": "text",
@@ -748,7 +748,7 @@
   },
   {
     "key": "king_north",
-    "text": "Seleucus I Nicatore (V5) Siria ad Antioco III (V10) e Seleucus IV (V18, 19) fino a Octavian (V20) e Tiberio (V21-24)",
+    "text": "Seleucus I Nicator (v5) Syria ເຖິງ Antiochus III (v10) ແລະ Seleucus IV (v18, 19) ລົງໄປ Octavian (v20) ແລະ Tiberius (v21-24)",
     "english": "Seleucus I Nicator (v5) Syria to Antiochus III (v10) and Seleucus IV (v18, 19) down to Octavian (v20) and Tiberius (v21-24)",
     "notes": " ",
     "tag": "text",
@@ -757,7 +757,7 @@
   },
   {
     "key": "king_north1",
-    "text": "Re del Nord",
+    "text": "ກະສັດ​ແຫ່ງ​ພາກ​ເໜືອ",
     "english": "King of the North",
     "notes": " ",
     "tag": "text",
@@ -766,7 +766,7 @@
   },
   {
     "key": "king_south",
-    "text": "Tolomeo I, II, III, IV (V11, 12), V (V15, 16) al Battle Actium 31 a.E.V.",
+    "text": "Ptolemy I, II, III, IV (v11, 12), V (v15, 16) ກັບຮົບ Actium 31 B.C.E.",
     "english": "Ptolemy I, II, III, IV (v11, 12), V (v15, 16) to the battle Actium 31 B.C.E.",
     "notes": " ",
     "tag": "text",
@@ -775,7 +775,7 @@
   },
   {
     "key": "king_south1",
-    "text": "Re del Sud",
+    "text": "ກະສັດແຫ່ງພາກໃຕ້",
     "english": "King of the South",
     "notes": " ",
     "tag": "text",
@@ -784,7 +784,7 @@
   },
   {
     "key": "king_south2",
-    "text": "Impero britannico 1870, potere mondiale anglo-americano dal 1914",
+    "text": "ຈັກກະພັດອັງກິດ 1870, ມະຫາອຳນາດໂລກອັງກິດ-ອາເມລິກາ ຕັ້ງແຕ່ປີ 1914",
     "english": "British Empire 1870, Anglo-American World Power since 1914",
     "notes": " ",
     "tag": "text",
@@ -793,7 +793,7 @@
   },
   {
     "key": "king_south3",
-    "text": "Re del Sud",
+    "text": "ກະສັດແຫ່ງພາກໃຕ້",
     "english": "King of the South",
     "notes": " ",
     "tag": "text",
@@ -802,7 +802,7 @@
   },
   {
     "key": "king_north2",
-    "text": "Germania con imperatore William I 1871 (V28), 1914 (V29), 1935 (V30b), 1939 (V31A)",
+    "text": "ເຢຍລະມັນກັບ Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
     "english": "Germany with Emperor William I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
     "notes": " ",
     "tag": "text",
@@ -811,7 +811,7 @@
   },
   {
     "key": "king_north3",
-    "text": "Nord",
+    "text": "ເໜືອ",
     "english": "North",
     "notes": " ",
     "tag": "text",
@@ -820,7 +820,7 @@
   },
   {
     "key": "king_north4",
-    "text": "Unione Sovietica 1945-1991 (Daniel 11: 32-39, 40b, 41)",
+    "text": "ສະຫະພາບໂຊວຽດ 1945-1991 (ດານຽນ 11:32-39, 40b, 41)",
     "english": "Soviet Union 1945-1991 (Daniel 11:32-39, 40b, 41)",
     "notes": " ",
     "tag": "text",
@@ -829,7 +829,7 @@
   },
   {
     "key": "king_north5",
-    "text": "Russia dal 2017 (W20 maggio)",
+    "text": "ຣັດເຊຍຕັ້ງແຕ່ປີ 2017 (w20 ພຶດສະພາ)",
     "english": "Russia since 2017 (w20 May)",
     "notes": " ",
     "tag": "text",
@@ -838,7 +838,7 @@
   },
   {
     "key": "time_of_end",
-    "text": "Presenza di Cristo, conclusione del sistema delle cose (Matteo 24: 3), negli ultimi giorni (2 Timoteo 3: 1)",
+    "text": "ການ​ສະ​ຖິດ​ຢູ່​ຂອງ​ພຣະ​ຄຣິດ, ສະ​ຫຼຸບ​ຂອງ​ລະ​ບົບ​ຂອງ​ສິ່ງ​ຕ່າງໆ (ມັດ​ທາຍ 24:3), ຍຸກ​ສຸດ​ທ້າຍ (2 ຕີ​ໂມ​ທຽວ 3:1).",
     "english": "Presence of Christ, Conclusion of the system of things (Matthew 24:3), the last days (2 Timothy 3:1)",
     "notes": "scriptures written out",
     "tag": "text",
@@ -847,7 +847,7 @@
   },
   {
     "key": "time_of_end2",
-    "text": "Ultimi giorni",
+    "text": "ມື້ສຸດທ້າຍ",
     "english": "Last days",
     "notes": " ",
     "tag": "text",
@@ -856,7 +856,7 @@
   },
   {
     "key": "suryavaman2",
-    "text": "King Suryavarman II Costruisce Angkor Wat 1113-1150",
+    "text": "ພະເຈົ້າສຸລິຍະຈັກກະພັດ 2 ສ້າງອັງກໍວັດ 1113-1150",
     "english": "King Suryavarman II builds Angkor Wat 1113-1150",
     "notes": " ",
     "tag": "text",
@@ -865,7 +865,7 @@
   },
   {
     "key": "notre-dame",
-    "text": "Notre-Dame de Paris ha costruito 1163-1260",
+    "text": "Notre-Dame de Paris ສ້າງ 1163-1260",
     "english": "Notre-Dame de Paris built 1163-1260",
     "notes": " ",
     "tag": "text",
@@ -874,7 +874,7 @@
   },
   {
     "key": "babel",
-    "text": "Torre di Babele costruita",
+    "text": "ສ້າງ Tower of Babel",
     "english": "Tower of Babel built",
     "notes": " ",
     "tag": "text",
@@ -883,7 +883,7 @@
   },
   {
     "key": "infliction1",
-    "text": "Inflizione di 400 anni",
+    "text": "ຄວາມ​ເສຍ​ຫາຍ 400 ປີ",
     "english": "400 year infliction",
     "notes": "Acts 7:6",
     "tag": "text",
@@ -892,7 +892,7 @@
   },
   {
     "key": "Lots_wife",
-    "text": "La moglie di Lot",
+    "text": "ເມຍຂອງໂລດ",
     "english": "Lot’s wife",
     "notes": " ",
     "tag": "text",
@@ -901,7 +901,7 @@
   },
   {
     "key": "Lots_daughters",
-    "text": "Figlie di lot",
+    "text": "ລູກສາວຂອງໂລດ",
     "english": "Daughters of Lot",
     "notes": " ",
     "tag": "text",
@@ -910,7 +910,7 @@
   },
   {
     "key": "Moab",
-    "text": "Moab (figlia maggiore)",
+    "text": "ໂມອາບ (ລູກສາວໃຫຍ່)",
     "english": "Moab (older daughter)",
     "notes": "Genesis 19:37",
     "tag": "text",
@@ -919,7 +919,7 @@
   },
   {
     "key": "rosetta",
-    "text": "Rosetta Stone 196 a.E.V.",
+    "text": "ຫີນ Rosetta 196 ກ່ອນ ຄ.ສ.",
     "english": "Rosetta stone 196 B.C.E.",
     "notes": " ",
     "tag": "text",
@@ -928,7 +928,7 @@
   },
   {
     "key": "Herodotus",
-    "text": "Erodoto c. 484 - c. 425 a.C., scrive le storie",
+    "text": "Herodotus ຄ. 484 – ຄ. 425 BC, ຂຽນປະຫວັດສາດ",
     "english": "Herodotus c. 484 – c. 425 BC, writes The Histories",
     "notes": "Father of History",
     "tag": "text",
@@ -937,7 +937,7 @@
   },
   {
     "key": "Aristotle",
-    "text": "Aristotele 384 - 322 a.C.",
+    "text": "Aristotle 384 – 322 BC",
     "english": "Aristotle 384 – 322 BC",
     "notes": "The First Teacher, The Philosopher",
     "tag": "text",
@@ -946,7 +946,7 @@
   },
   {
     "key": "Ptolemy",
-    "text": "Tolomeo C 100 - c. 170 E.V.",
+    "text": "Ptolemy ຄ 100 – ຄ. 170 ຄ.ສ.",
     "english": "Ptolemy c 100 – c. 170 C.E.",
     "notes": " ",
     "tag": "text",
@@ -955,7 +955,7 @@
   },
   {
     "key": "Pythagoras",
-    "text": "Pitagora c. 570 - c. 495 a.C.",
+    "text": "Pythagoras ຄ. 570 – ຄ.ສ. 495 ປີ ກ່ອນ ຄ.ສ",
     "english": "Pythagoras c. 570 – c. 495 BC",
     "notes": " ",
     "tag": "text",
@@ -964,7 +964,7 @@
   },
   {
     "key": "Plato",
-    "text": "Platone c. 427 - c. 348 a.C.",
+    "text": "Plato ຄ. 427 – ຄ. 348 BC",
     "english": "Plato c. 427 – c. 348 BC",
     "notes": " ",
     "tag": "text",
@@ -973,7 +973,7 @@
   },
   {
     "key": "Socrates",
-    "text": "Socrate c. 470 - c. 399 BC",
+    "text": "Socrates ຄ. 470 – ຄ. 399 BC",
     "english": "Socrates c. 470 – c. 399 BC",
     "notes": " ",
     "tag": "text",
@@ -982,7 +982,7 @@
   },
   {
     "key": "Josephus",
-    "text": "Josephus c. 37 - c. 100 E.V.",
+    "text": "ໂຢເຊບ ຄ. 37 – ຄ. 100 ຄ.ສ.",
     "english": "Josephus c. 37 – c. 100 C.E.",
     "notes": " ",
     "tag": "text",
@@ -991,7 +991,7 @@
   },
   {
     "key": "Cicero",
-    "text": "Cicerone 106–43 a.C.",
+    "text": "Cicero 106–43 BC",
     "english": "Cicero 106–43 BC",
     "notes": "influence on Latin language, 3 Jan 106 BC – 7 Dec 43 BC",
     "tag": "text",
@@ -1000,7 +1000,7 @@
   },
   {
     "key": "lachish_letters",
-    "text": "Lettere di lachish c. 590 a.E.V.",
+    "text": "ຕົວອັກສອນ Lachish ຄ. 590 ກ່ອນ ຄ.ສ.",
     "english": "Lachish letters c. 590 B.C.E.",
     "notes": " ",
     "tag": "text",
@@ -1009,7 +1009,7 @@
   },
   {
     "key": "lachish_reliefs",
-    "text": "Rilievi lachish c. 681 a.E.V.",
+    "text": "ການບັນເທົາທຸກ Lachish ຄ. 681 ກ່ອນ ຄ.ສ.",
     "english": "Lachish reliefs c. 681 B.C.E.",
     "notes": " ",
     "tag": "text",
@@ -1018,7 +1018,7 @@
   },
   {
     "key": "mesha_stele",
-    "text": "Mesha Stele (MOABITE STONE) c. 840 a.E.V.",
+    "text": "Mesha Stele (ຫີນ Moabite) ຄ. 840 ກ່ອນ ຄ.ສ.",
     "english": "Mesha Stele (Moabite stone) c. 840 B.C.E.",
     "notes": "w25/12 study article 50 paragraph 6",
     "tag": "text",
@@ -1027,7 +1027,7 @@
   },
   {
     "key": "gilgamesh",
-    "text": "Gilgamesh e Aga 𒇽𒆥𒄄𒀀𒀝𒂵",
+    "text": "Gilgamesh ແລະ Aga 𒇽𒆥𒀝𒂵",
     "english": "Gilgamesh and Aga 𒇽𒆥𒄄𒀀𒀝𒂵",
     "notes": " ",
     "tag": "text",
@@ -1036,7 +1036,7 @@
   },
   {
     "key": "epic_gilgamesh",
-    "text": "Epico di Gilgamesh (Sîn-lēqi-unninni)",
+    "text": "Epic of Gilgamesh (Sîn-lēqi-unninni)",
     "english": "Epic of Gilgamesh (Sîn-lēqi-unninni)",
     "notes": " ",
     "tag": "text",
@@ -1045,7 +1045,7 @@
   },
   {
     "key": "gregorian",
-    "text": "Calendario gregoriano 1582",
+    "text": "ປະຕິທິນ Gregorian 1582",
     "english": "Gregorian calendar 1582",
     "notes": " ",
     "tag": "text",
@@ -1054,7 +1054,7 @@
   },
   {
     "key": "shang-dynasty",
-    "text": "C. 1600-1046 a.C.",
+    "text": "ຄ. 1600-1046 ກ່ອນ ຄ.ສ",
     "english": "c. 1600-1046 BC",
     "notes": " ",
     "tag": "text",
@@ -1063,7 +1063,7 @@
   },
   {
     "key": "western-zhou",
-    "text": "C. 1046-771 a.C.",
+    "text": "ຄ. 1046-771 BC",
     "english": "c. 1046-771 BC",
     "notes": " ",
     "tag": "text",
@@ -1072,7 +1072,7 @@
   },
   {
     "key": "qin-dynasty",
-    "text": "Qin 221-207 a.C.",
+    "text": "Qin 221-207 BC",
     "english": "Qin 221-207 BC",
     "notes": " ",
     "tag": "text",
@@ -1081,7 +1081,7 @@
   },
   {
     "key": "western-han",
-    "text": "207 a.C. - 9 CE",
+    "text": "207 ກ່ອນ ຄ.ສ. – 9 ສ.ສ",
     "english": "207 BC – 9 CE",
     "notes": " ",
     "tag": "text",
@@ -1090,7 +1090,7 @@
   },
   {
     "key": "three-kingdoms",
-    "text": "Tre regni 220-280 d.C.",
+    "text": "ສາມອານາຈັກ 220-280 CE",
     "english": "Three kingdoms 220-280 CE",
     "notes": " ",
     "tag": "text",
@@ -1099,7 +1099,7 @@
   },
   {
     "key": "sixteen-kingdoms",
-    "text": "Sedici regni 304-439 CE",
+    "text": "ສິບຫົກອານາຈັກ 304-439 CE",
     "english": "Sixteen kingdoms 304-439 CE",
     "notes": " ",
     "tag": "text",
@@ -1126,7 +1126,7 @@
   },
   {
     "key": "tang-dynasty1_c",
-    "text": "Codolo",
+    "text": "ຕັງ",
     "english": "Tang",
     "notes": " ",
     "tag": "text",
@@ -1144,7 +1144,7 @@
   },
   {
     "key": "Ashoka",
-    "text": "Ashoka (c. 304-232 a.C.) promuove il buddismo",
+    "text": "ອະໂສກ (ຄ.ສ 304-232 ກ່ອນ ຄ.ສ.) ສົ່ງເສີມພຸດທະສາສະໜາ",
     "english": "Ashoka (c. 304-232 BC) promotes Buddhism",
     "notes": " ",
     "tag": "text",
@@ -1153,7 +1153,7 @@
   },
   {
     "key": "siloam-tunnel",
-    "text": "Hezekiah estende il tunnel siloam",
+    "text": "ເອເຊເກຍເຊຂະຫຍາຍອຸໂມງສີໂລອາມ",
     "english": "Hezekiah extends Siloam tunnel",
     "notes": "c. 742-732 BC",
     "tag": "text",
@@ -1162,7 +1162,7 @@
   },
   {
     "key": "Angloamerica2",
-    "text": "L'anglo-americano è simboleggiato dai piedi del ferro mescolati con argilla nella profezia in Daniele 2:33, 41-43",
+    "text": "Anglo-American ແມ່ນສັນຍາລັກໂດຍຕີນຂອງທາດເຫຼັກປະສົມກັບດິນເຜົາໃນຄໍາພະຍາກອນໃນດານີເອນ 2: 33, 41-43.",
     "english": "Anglo-American is symbolized by the feet of iron mixed with clay in the prophecy in Daniel 2:33, 41-43",
     "notes": " ",
     "tag": "text",
@@ -1171,7 +1171,7 @@
   },
   {
     "key": "Manetho",
-    "text": "Manetho scrive Aegyptiaca",
+    "text": "Manetho ຂຽນ Aegyptiaca",
     "english": "Manetho writes Aegyptiaca",
     "notes": " ",
     "tag": "text",
@@ -1180,7 +1180,7 @@
   },
   {
     "key": "destruction_babylon",
-    "text": "Distruzione di Babylon the Great (Apocalisse 17: 3, 15-18; 18: 9, 10)",
+    "text": "ການ​ທຳລາຍ​ບາບີໂລນ​ໃຫຍ່ (ພະນິມິດ 17:3, 15-18; 18:9, 10)",
     "english": "Destruction of Babylon the Great (Revelation 17:3, 15-18; 18:9, 10)",
     "notes": "beginning of great tribulation (GT)",
     "tag": "text",
@@ -1189,7 +1189,7 @@
   },
   {
     "key": "peace_security",
-    "text": "“Pace e sicurezza!” (1 Tessalonicesi 5:3, questa è una possibilità, QfR 26/2, 25/11)",
+    "text": "\"ສັນຕິພາບແລະຄວາມປອດໄພ!\" (1 ເທຊະໂລນີກ 5:3, ນີ້ແມ່ນຄວາມເປັນໄປໄດ້ຫນຶ່ງ, QfR 26/2, 25/11)",
     "english": "“Peace and security!” (1 Thessalonians 5:3, this is one possibility, QfR 26/2, 25/11)",
     "notes": "one possibility, see Questions from Readers",
     "tag": "text",
@@ -1198,7 +1198,7 @@
   },
   {
     "key": "gog_of_magog",
-    "text": "Attacco di Gog of Magog (Ezechiele 38: 1, 2, 9-12, 18-23)",
+    "text": "ການ​ໂຈມ​ຕີ​ຂອງ​ໂກກ​ຂອງ​ມາໂກກ (ເອເຊກຽນ 38:1, 2, 9-12, 18-23)",
     "english": "Attack of Gog of Magog (Ezekiel 38:1, 2, 9-12, 18-23)",
     "notes": "end of GT",
     "tag": "text",
@@ -1207,7 +1207,7 @@
   },
   {
     "key": "sheep_goat",
-    "text": "Gli abitanti della Terra sono giudicati, separando pecore e capre (Matteo 25: 31-33)",
+    "text": "ຜູ້​ອາ​ໄສ​ຢູ່​ໃນ​ໂລກ​ຖືກ​ພິ​ພາກ​ສາ, ແຍກ​ແກະ​ແລະ​ແບ້ (ມັດ​ທາຍ 25:31-33)",
     "english": "Earth’s inhabitants are judged, separating sheep and goats (Matthew 25:31-33)",
     "notes": "end of GT",
     "tag": "text",
@@ -1216,7 +1216,7 @@
   },
   {
     "key": "annointed",
-    "text": "Gathering of Kingdom Rulers (Matteo 24:31; 1 Corinzi 15: 50-53; 1 Tessalonicesi 4: 15-17)",
+    "text": "ການ​ເຕົ້າ​ໂຮມ​ຜູ້​ປົກຄອງ​ຂອງ​ລາຊະອານາຈັກ (ມັດທາຍ 24:31; 1 ໂກລິນໂທ 15:50-53; 1 ເທຊະໂລນີກ 4:15-17)",
     "english": "Gathering of Kingdom rulers (Matthew 24:31; 1 Corinthians 15:50-53; 1 Thessalonians 4:15-17)",
     "notes": "end of GT",
     "tag": "text",
@@ -1225,7 +1225,7 @@
   },
   {
     "key": "armageddon",
-    "text": "Battaglia di Armageddon (Apocalisse 16:14, 16; Isaia 13: 9; 2 Pietro 3:12)",
+    "text": "ຮົບ​ຂອງ Armageddon (ພະ​ນິມິດ 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",
     "english": "Battle of Armageddon (Revelation 16:14, 16; Isaiah 13:9; 2 Peter 3:12)",
     "notes": "end of system of things",
     "tag": "text",
@@ -1234,7 +1234,7 @@
   },
   {
     "key": "millenium",
-    "text": "Il regno di Dio inizia il suo regno di 1000 anni (Apocalisse 5: 9, 10; 20: 4, 6)",
+    "text": "ລາຊະອານາຈັກ​ຂອງ​ພະເຈົ້າ​ເລີ່ມ​ປົກຄອງ 1000 ປີ (ຄຳປາກົດ 5:9, 10; 20:4, 6)",
     "english": "God’s Kingdom begins its 1000-year reign (Revelation 5:9, 10; 20:4, 6)",
     "notes": " ",
     "tag": "text",
@@ -1243,7 +1243,7 @@
   },
   {
     "key": "great_crowd",
-    "text": "Una grande folla sopravvive ad Armageddon (Apocalisse 7: 9, 14; Salmo 37: 9-11)",
+    "text": "ຝູງ​ຄົນ​ເປັນ​ຈຳນວນ​ຫລວງຫລາຍ​ລອດ​ຊີວິດ​ຈາກ​ອະລະມະເຄໂດນ (ຄຳປາກົດ 7:9, 14; ຄຳເພງ 37:9-11)",
     "english": "A great crowd survives Armageddon (Revelation 7:9, 14; Psalm 37:9-11)",
     "notes": " ",
     "tag": "text",
@@ -1252,16 +1252,16 @@
   },
   {
     "key": "world_population",
-    "text": "Popolazione mondiale in miliardi negli ultimi 2000 anni",
+    "text": "ປະຊາກອນໂລກຫຼາຍຕື້ຄົນໃນ 2000 ປີທີ່ຜ່ານມາ",
     "english": "World population in billions in the last 2000 years",
-    "notes": "appendix B9",
+    "notes": " ",
     "tag": "text",
     "checked": "False",
     "category": "text"
   },
   {
     "key": "khmer_empire_c",
-    "text": "Khmer Empire - periodo di Angkor",
+    "text": "ອານາຈັກຂະເໝນ - ສະໄໝອັງກໍ",
     "english": "Khmer Empire - Angkor period",
     "notes": " ",
     "tag": "text",
@@ -1270,7 +1270,7 @@
   },
   {
     "key": "holy_roman_empire_c",
-    "text": "Sacro Romano Impero - noto come Sacro Romano Impero della nazione tedesca dopo il 1512",
+    "text": "ຈັກກະພັດໂຣມັນບໍລິສຸດ - ເປັນທີ່ຮູ້ຈັກໃນນາມຈັກກະພັດໂລມັນບໍລິສຸດຂອງຊາດເຢຍລະມັນຫຼັງປີ 1512",
     "english": "Holy Roman Empire – known as Holy Roman Empire of the German Nation after 1512",
     "notes": " ",
     "tag": "text",
@@ -1279,7 +1279,7 @@
   },
   {
     "key": "mongol_empire",
-    "text": "Mongol Empire 1206 - 1294 E.V.",
+    "text": "ອານາຈັກມົງໂກນ 1206 – 1294",
     "english": "Mongol Empire 1206 – 1294",
     "notes": " ",
     "tag": "text",
@@ -1288,7 +1288,7 @@
   },
   {
     "key": "maya_classic_c",
-    "text": "Maya Civilization - periodo classico",
+    "text": "ພົນລະເຮືອນ Maya - ໄລຍະເວລາຄລາສສິກ",
     "english": "Maya civilization – Classic period",
     "notes": " ",
     "tag": "text",
@@ -1297,7 +1297,7 @@
   },
   {
     "key": "maya_postclassic_c",
-    "text": "Maya Civilization - periodo postclassico",
+    "text": "ອາ​ລະ​ຍະ​ທໍາ Maya – ໄລ​ຍະ​ເວ​ລາ Postclassic​",
     "english": "Maya civilization – Postclassic period",
     "notes": " ",
     "tag": "text",
@@ -1306,7 +1306,7 @@
   },
   {
     "key": "Teotihuacan",
-    "text": "La più grande città delle Americhe, le piramidi costruiscono c. 200 E.V.",
+    "text": "ເມືອງທີ່ໃຫຍ່ທີ່ສຸດໃນອາເມລິກາ, pyramids ກໍ່ສ້າງ c. 200 ຄ.ສ.",
     "english": "Largest city in the Americas, pyramids build c. 200 C.E.",
     "notes": " ",
     "tag": "text",
@@ -1315,7 +1315,7 @@
   },
   {
     "key": "Dionysius_Exiguus",
-    "text": "Dionysius exiguus, inventore di Anno Domini",
+    "text": "Dionysius Exiguus, ຜູ້ປະດິດສ້າງຂອງ Anno Domini",
     "english": "Dionysius Exiguus, inventor of Anno Domini",
     "notes": " ",
     "tag": "text",
@@ -1324,7 +1324,7 @@
   },
   {
     "key": "Umayyad_c",
-    "text": "Omayyad",
+    "text": "Umayyad",
     "english": "Umayyad",
     "notes": " ",
     "tag": "text",
@@ -1333,7 +1333,7 @@
   },
   {
     "key": "ur3",
-    "text": "Ur III Dinastia 𒋀𒀕𒆠",
+    "text": "ລາຊະວົງ Ur III 𒋀𒀕𒆠",
     "english": "Ur III Dynasty 𒋀𒀕𒆠",
     "notes": " ",
     "tag": "text",
@@ -1351,7 +1351,7 @@
   },
   {
     "key": "Al-Khwarizmi",
-    "text": "Al-Khwarizmi scrive al-jabr (algebra)",
+    "text": "al-Khwarizmi ຂຽນ Al-Jabr (Algebra)",
     "english": "al-Khwarizmi writes Al-Jabr (Algebra)",
     "notes": " ",
     "tag": "text",
@@ -1360,7 +1360,7 @@
   },
   {
     "key": "al-azhar",
-    "text": "L'Università di Al-Azhar è fondata al Cairo",
+    "text": "ມະຫາວິທະຍາໄລ Al-Azhar ຖືກສ້າງຕັ້ງຂຶ້ນໃນ Cairo",
     "english": "Al-Azhar University is established in Cairo",
     "notes": " ",
     "tag": "text",
@@ -1369,7 +1369,7 @@
   },
   {
     "key": "Ibn-Sina",
-    "text": "Ibn Sina o Avicenna",
+    "text": "Ibn Sina ຫຼື Avicenna",
     "english": "Ibn Sina or Avicenna",
     "notes": " ",
     "tag": "text",
@@ -1378,7 +1378,7 @@
   },
   {
     "key": "life-expectancy",
-    "text": "Aspettativa di vita 75 anni",
+    "text": "ອາຍຸຍືນ 75 ປີ",
     "english": "Life expectancy 75 years",
     "notes": " ",
     "tag": "text",
@@ -1387,7 +1387,7 @@
   },
   {
     "key": "430years_c",
-    "text": "430 anni: Esodo 12:41, Galati 3:17",
+    "text": "430 ປີ: Exodus 12:41, Galatians 3:17",
     "english": "430 years: Exodus 12:41, Galatians 3:17",
     "notes": "2024-12-24",
     "tag": "text",
@@ -1396,7 +1396,7 @@
   },
   {
     "key": "maya_calendar",
-    "text": "Inizio calcolato del calendario Maya 11 agosto 3114 a.E.V.",
+    "text": "ການ​ຄິດ​ໄລ່​ການ​ເລີ່ມ​ຕົ້ນ​ຂອງ​ປະ​ຕິ​ທິນ Maya ເດືອນ​ສິງ​ຫາ 11, 3114 B.C.E.",
     "english": "Calculated beginning of Maya calendar August 11, 3114 B.C.E.",
     "notes": "2024-12-25",
     "tag": "text",
@@ -1405,7 +1405,7 @@
   },
   {
     "key": "xia-dynasty2",
-    "text": "C. 2070 - c. 1600 a.C.; Era alluso per la prima volta durante il periodo di Zhou occidentale",
+    "text": "ຄ. 2070 – ຄ. 1600 BC; ຍຸກ​ທຳອິດ​ເວົ້າ​ເຖິງ​ສະໄໝ​ໂຈ່​ວຕາເວັນຕົກ",
     "english": "c. 2070 – c. 1600 BC; Era first alluded during the Western Zhou period",
     "notes": "2025-01-02",
     "tag": "text",
@@ -1414,7 +1414,7 @@
   },
   {
     "key": "xia-dynasty2_c",
-    "text": "Dinastia Xia in Cina",
+    "text": "ລາຊະວົງ Xia ໃນປະເທດຈີນ",
     "english": "Xia dynasty in China",
     "notes": " ",
     "tag": "text",
@@ -1423,7 +1423,7 @@
   },
   {
     "key": "tres_zapotes",
-    "text": "3 settembre, 32 a.E.V.",
+    "text": "ວັນທີ 3 ກັນຍາ, 32 ກ່ອນ ຄ.ສ.",
     "english": "September 3rd, 32 B.C.E.",
     "notes": "2024-12-31",
     "tag": "text",
@@ -1432,7 +1432,7 @@
   },
   {
     "key": "joseph_jacob_reunited",
-    "text": "Joseph e Jacob si riunirono in Egitto - 1728 a.E.V. (Gen 45:11; 47: 9)",
+    "text": "ໂຢເຊບ​ແລະ​ຢາໂຄບ​ໄດ້​ເຕົ້າ​ໂຮມ​ກັນ​ອີກ​ໃນ​ປະເທດ​ເອຢິບ—ປີ 1728 ກ່ອນ ຄ.ສ. (ປະຖົມມະການ 45:11; 47:9)",
     "english": "Joseph and Jacob reunited in Egypt – 1728 B.C.E. (Gen 45:11; 47:9)",
     "notes": "2025-01-01",
     "tag": "text",
@@ -1441,7 +1441,7 @@
   },
   {
     "key": "king_south_light_c",
-    "text": "Re del sud di Daniele 11",
+    "text": "ກະສັດແຫ່ງພາກໃຕ້ຈາກດານີເອນ 11",
     "english": "King of the South from Daniel 11",
     "notes": "2025-02-05",
     "tag": "text",
@@ -1450,7 +1450,7 @@
   },
   {
     "key": "king_north_light_c",
-    "text": "Re del Nord da Daniele 11",
+    "text": "ກະສັດ​ແຫ່ງ​ພາກ​ເໜືອ​ຈາກ​ດານີເອນ 11",
     "english": "King of the North from Daniel 11",
     "notes": "2025-02-05",
     "tag": "text",
@@ -1459,7 +1459,7 @@
   },
   {
     "key": "daniel2_iron_c",
-    "text": "Gambe di ferro da Daniel 2",
+    "text": "ຂາທາດເຫຼັກຈາກ Daniel 2",
     "english": "Iron legs from Daniel 2",
     "notes": "2025-02-05",
     "tag": "text",
@@ -1468,7 +1468,7 @@
   },
   {
     "key": "argenteus",
-    "text": "Codex Argenteus c. 505",
+    "text": "Codex Argenteus ຄ. 505",
     "english": "Codex Argenteus c. 505",
     "notes": "written copy of Wulfila Bible",
     "tag": "text",
@@ -1477,25 +1477,25 @@
   },
   {
     "key": "nguyen_dynasty_c",
-    "text": "Nguyễn",
+    "text": "ຫງຽນ",
     "english": "Nguyễn",
     "notes": "2025-09-20",
     "tag": "text",
-    "checked": "True",
+    "checked": "False",
     "category": "text"
   },
   {
     "key": "edo_c",
-    "text": "Periodo Edo in Giappone",
+    "text": "ໄລຍະ Edo ໃນຍີ່ປຸ່ນ",
     "english": "Edo period in Japan",
-    "notes": " ",
+    "notes": "Edo period (Tokugawa shogunate)",
     "tag": "text",
     "checked": "False",
     "category": "text"
   },
   {
     "key": "meiji_c",
-    "text": "Meiji",
+    "text": "ເມຈິ",
     "english": "Meiji",
     "notes": "2025-09-20",
     "tag": "text",
@@ -1504,16 +1504,16 @@
   },
   {
     "key": "american_civil_war",
-    "text": "Guerra civile americana 1861-1865",
+    "text": "ສົງຄາມກາງເມືອງອາເມຣິກາ 1861-1865",
     "english": "American Civil War 1861-1865",
     "notes": "April 12, 1861 to May 26, 1865",
     "tag": "text",
-    "checked": "True",
+    "checked": "False",
     "category": "text"
   },
   {
     "key": "aleppo_codex",
-    "text": "Codice di Aleppo c. 920",
+    "text": "Aleppo Codex ຄ. 920",
     "english": "Aleppo Codex c. 920",
     "notes": "2025-10-03",
     "tag": "text",
@@ -1522,7 +1522,7 @@
   },
   {
     "key": "vandals",
-    "text": "Regno dei Vandali e degli Alani 435 – 534",
+    "text": "ອານາຈັກຂອງ Vandals ແລະ Alans 435 – 534",
     "english": "Kingdom of the Vandals and Alans 435 – 534",
     "notes": "Vandals 435-534 C.E.",
     "tag": "text",
@@ -1531,7 +1531,7 @@
   },
   {
     "key": "francia",
-    "text": "C. 481/509 – 843, merovingio fino al 751, poi carolingio",
+    "text": "ຄ. 481/509 – 843, Merovingian ຈົນເຖິງ 751, ຈາກນັ້ນ Carolingian",
     "english": "c. 481/509 – 843, Merovingian till 751, then Carolingian",
     "notes": "Kingdom of the Franks (Regnum Francorum) c. 481/509-843 treaty of Verdun",
     "tag": "text",
@@ -1540,7 +1540,7 @@
   },
   {
     "key": "francia_c",
-    "text": "Regno dei Franchi",
+    "text": "ອານາຈັກຂອງ Franks ໄດ້",
     "english": "Kingdom of the Franks",
     "notes": " ",
     "tag": "text",
@@ -1549,7 +1549,7 @@
   },
   {
     "key": "100_years_war",
-    "text": "Guerra dei Cent’anni 1337 – 1453",
+    "text": "ສົງຄາມຮ້ອຍປີ 1337-1453",
     "english": "Hundred Years’ War 1337 – 1453",
     "notes": "1337–1453",
     "tag": "text",
@@ -1558,7 +1558,7 @@
   },
   {
     "key": "black_death",
-    "text": "Morte nera 1346-1353",
+    "text": "ການເສຍຊີວິດສີດໍາ 1346-1353",
     "english": "Black death 1346-1353",
     "notes": "1346-1353",
     "tag": "text",
@@ -1567,7 +1567,7 @@
   },
   {
     "key": "sui_dynasty",
-    "text": "581-618 Dinastia Sui",
+    "text": "581-618 ລາຊະວົງ Sui",
     "english": "581-618 Sui dynasty",
     "notes": "2025-11-09",
     "tag": "text",
@@ -1576,7 +1576,7 @@
   },
   {
     "key": "sui_dynasty_c",
-    "text": "Sui",
+    "text": "ສຸຍ",
     "english": "Sui",
     "notes": "2025-11-09",
     "tag": "text",
@@ -1585,7 +1585,7 @@
   },
   {
     "key": "tribulation",
-    "text": "The Great Tribolation (Marco 13:19; Daniele 12: 1; Matt 24:21, 22)",
+    "text": "ຄວາມ​ທຸກ​ລຳບາກ​ຄັ້ງ​ໃຫຍ່ (ມາລະໂກ 13:19; ດານີເອນ 12:1; ມັດທາຍ 24:21, 22)",
     "english": "The Great Tribulation (Mark 13:19; Daniel 12:1; Matt 24:21, 22)",
     "notes": " ",
     "tag": "text",
@@ -1594,250 +1594,250 @@
   },
   {
     "key": "Adam",
-    "text": "Adamo",
+    "text": "ອາດາມ",
     "english": "Adam",
     "notes": "Luke 3:38",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Seth",
-    "text": "Set",
+    "text": "ເຊດ",
     "english": "Seth",
-    "notes": " ",
+    "notes": "Luke 3:38",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Enosh",
-    "text": "Ènos",
+    "text": "ເອໂນດ",
     "english": "Enosh",
-    "notes": " ",
+    "notes": "Luke 3:38",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Kenan",
-    "text": "Chenàn",
+    "text": "ເຄນານ (ເຄນານ)",
     "english": "Kenan (Cainan)",
-    "notes": "Genesis 5:12",
+    "notes": "Genesis 5:12, Luke 3:37",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Mahalalel",
-    "text": "Maalaleèl",
+    "text": "ມາຮາລາເລນ",
     "english": "Mahalalel (Mahalaleel)",
-    "notes": "Ma·hala·lel",
+    "notes": "Genesis 5:15, Luke 3:37",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Jared",
-    "text": "Iàred",
+    "text": "ຢາເຣັດ",
     "english": "Jared",
-    "notes": " ",
+    "notes": "Luke 3:37",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Enoch",
-    "text": "Ènoc",
+    "text": "ເອນົກ",
     "english": "Enoch",
-    "notes": " ",
+    "notes": "Luke 3:37",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Methuselah",
-    "text": "Matusalemme",
+    "text": "ເມທູເຊລາ",
     "english": "Methuselah",
     "notes": "Luke 3:37",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Lamech",
-    "text": "Làmec",
+    "text": "ລາເມັກ",
     "english": "Lamech",
-    "notes": " ",
+    "notes": "Luke 3:36",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Noah",
-    "text": "Noè",
+    "text": "ໂນອາ",
     "english": "Noah",
-    "notes": " ",
+    "notes": "Luke 3:36",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Shem",
-    "text": "Sem",
+    "text": "ເຊມ",
     "english": "Shem",
-    "notes": " ",
+    "notes": "Luke 3:36",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Arpachshad",
-    "text": "Arpacsàd",
+    "text": "ອາ​ປາ​ຊ​ຊາດ",
     "english": "Arpachshad",
     "notes": "Luke 3:36",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Shelah",
-    "text": "Sela",
+    "text": "ເຊລາ",
     "english": "Shelah",
-    "notes": " ",
+    "notes": "Luke 3:35",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Eber",
-    "text": "Èber",
+    "text": "ອີເບີ",
     "english": "Eber",
-    "notes": " ",
+    "notes": "Luke 3:35",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Peleg",
-    "text": "Pèleg",
+    "text": "Pleg",
     "english": "Peleg",
-    "notes": " ",
+    "notes": "Luke 3:35",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Reu",
-    "text": "Reu",
+    "text": "ຣູ",
     "english": "Reu",
-    "notes": " ",
+    "notes": "Luke 3:35",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Serug",
-    "text": "Serùg",
+    "text": "Serug",
     "english": "Serug",
     "notes": "Luke 3:35",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Nahor",
-    "text": "Nàhor",
+    "text": "ນາໂຮ",
     "english": "Nahor",
-    "notes": "Genesis 11:24",
+    "notes": "Luke 3:34, Genesis 11:24",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Terah",
-    "text": "Tera",
+    "text": "ເທຣາ",
     "english": "Terah",
-    "notes": " ",
+    "notes": "Luke 3:34",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Abraham",
-    "text": "Abraamo",
+    "text": "ອັບຣາຮາມ",
     "english": "Abraham",
-    "notes": " ",
+    "notes": "Luke 3:34",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Isaac",
-    "text": "Isacco",
+    "text": "ອີຊາກ",
     "english": "Isaac",
-    "notes": " ",
+    "notes": "Luke 3:34",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Jacob",
-    "text": "Giacobbe",
+    "text": "ຢາໂຄບ",
     "english": "Jacob",
     "notes": "Luke 3:34",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Joseph",
-    "text": "Giuseppe",
+    "text": "ໂຈເຊັບ",
     "english": "Joseph",
     "notes": "Genesis 37",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Moses",
-    "text": "Mosè",
+    "text": "ໂມເຊ",
     "english": "Moses",
-    "notes": " ",
+    "notes": "Exodus 2:10",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Othniel",
-    "text": "Otniel",
+    "text": "ໂອດນີເອນ",
     "english": "Othniel",
     "notes": "Judges 3:9-11",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Ehud",
-    "text": "Eud",
+    "text": "ເອຮຸດ",
     "english": "Ehud",
     "notes": "Judges 3:15-18",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Shamgar",
-    "text": "Samgar",
+    "text": "ຊາມກາ",
     "english": "Shamgar",
     "notes": "Judges 3:31",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Barak",
-    "text": "Barac",
+    "text": "ບາຣັກ, ເດໂບຣາ, ຢາເອນ",
     "english": "Barak, Deborah, Jael",
     "notes": "Judges 4:6",
     "tag": "bible",
@@ -1846,47 +1846,47 @@
   },
   {
     "key": "Gideon",
-    "text": "Gedeone",
+    "text": "ກີເດໂອນ",
     "english": "Gideon",
     "notes": "Judges 7:1",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Tola",
-    "text": "Tola",
+    "text": "ໂທລາ",
     "english": "Tola",
     "notes": "Judges 10:1",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Jair",
-    "text": "Iair",
+    "text": "ຢາອີ",
     "english": "Jair",
     "notes": "Judges 10:3",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Jephthah",
-    "text": "Iefte",
+    "text": "ເຢບເທ",
     "english": "Jephthah",
     "notes": "Judges 11:1",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Ibzan",
-    "text": "Ibzan",
+    "text": "ອິບຊານ",
     "english": "Ibzan",
     "notes": "Judges 12:8",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
@@ -1895,7 +1895,7 @@
     "english": "Elon",
     "notes": "Judges 12:11",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
@@ -1904,138 +1904,138 @@
     "english": "Abdon",
     "notes": "Judges 12:13",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Samson",
-    "text": "Sansone",
+    "text": "ແຊມຊັນ",
     "english": "Samson",
     "notes": "Judges 13:24",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Samuel",
-    "text": "Samuele",
+    "text": "ຊາມູເອນ",
     "english": "Samuel",
     "notes": "1 Samuel 1:20",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Saul",
-    "text": "Saul",
+    "text": "ໂຊໂລ",
     "english": "Saul",
     "notes": "1 Samuel 9:2",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "David",
-    "text": "Davide",
+    "text": "ດາວິດ",
     "english": "David",
     "notes": "1 Samuel 16:13",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Solomon",
-    "text": "Salomone",
+    "text": "ຊາໂລໂມນ",
     "english": "Solomon",
     "notes": "1 Kings 2:1",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Malachi",
-    "text": "Malachia",
+    "text": "ມາລາກີ",
     "english": "Malachi",
-    "notes": " ",
+    "notes": "bible book",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Ruth",
-    "text": "Rut",
+    "text": "Ruth",
     "english": "Ruth",
-    "notes": " ",
+    "notes": "bible book",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Ezra",
-    "text": "Esdra",
+    "text": "ເອຊະຣາ",
     "english": "Ezra",
-    "notes": " ",
+    "notes": "bible book",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Nehemiah",
-    "text": "Neemia",
+    "text": "ເນເຫມີຢາ",
     "english": "Nehemiah",
-    "notes": " ",
+    "notes": "bible book",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Esther",
-    "text": "Ester",
+    "text": "ເອສເທີ",
     "english": "Esther",
-    "notes": " ",
+    "notes": "bible book",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Job",
-    "text": "Giobbe",
+    "text": "ວຽກ",
     "english": "Job",
-    "notes": " ",
+    "notes": "bible book",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "moses3",
-    "text": "Mosè",
+    "text": "ໂມເຊ",
     "english": "Moses",
-    "notes": " ",
+    "notes": "Exodus 2:10",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "joshua2",
-    "text": "Giosuè",
+    "text": "ໂຢຊວຍ",
     "english": "Joshua",
-    "notes": " ",
+    "notes": "Exodus 17:14",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "caleb2",
     "text": "Caleb",
     "english": "Caleb",
-    "notes": " ",
+    "notes": "Numbers 13:30",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Augustus",
-    "text": "Augusto",
+    "text": "Augustus",
     "english": "Augustus",
     "notes": "Luke 2:1",
     "tag": "bible",
@@ -2044,7 +2044,7 @@
   },
   {
     "key": "Tiberius",
-    "text": "Tiberio",
+    "text": "ທິເບຣີສ",
     "english": "Tiberius",
     "notes": "Luke 3:1",
     "tag": "bible",
@@ -2053,7 +2053,7 @@
   },
   {
     "key": "Claudius",
-    "text": "Claudio",
+    "text": "Claudius",
     "english": "Claudius",
     "notes": "Acts 11:28",
     "tag": "bible",
@@ -2062,43 +2062,43 @@
   },
   {
     "key": "persia2",
-    "text": "Persia",
+    "text": "ເປີເຊຍ",
     "english": "Persia",
-    "notes": " ",
+    "notes": "Esther 1:3",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "jehoiada",
-    "text": "Ieòiada",
+    "text": "ເຢໂຮຍອາດາ",
     "english": "Jehoiada",
     "notes": "2 Kings 11:4",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Haggai",
-    "text": "Aggeo",
+    "text": "ແຮກກີ",
     "english": "Haggai",
-    "notes": " ",
+    "notes": "bible book",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Zerubbabel",
-    "text": "Zorobabèle (Luca 3:27)",
+    "text": "ເຊຣູ​ບາ​ເບນ (ລູກາ 3:27)",
     "english": "Zerubbabel (Luke 3:27)",
     "notes": "Luke 3:27",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Jacob2",
-    "text": "Giacobbe/",
+    "text": "ຢາໂຄບ/",
     "english": "Jacob/",
     "notes": "Jacob/Israel 1858-1711 – 147 years",
     "tag": "bible",
@@ -2107,7 +2107,7 @@
   },
   {
     "key": "Israel",
-    "text": "Israele",
+    "text": "ອິດສະຣາເອນ",
     "english": "Israel",
     "notes": "Genesis 35:10",
     "tag": "bible",
@@ -2116,7 +2116,7 @@
   },
   {
     "key": "Sarah",
-    "text": "Sarah",
+    "text": "ຊາຣາ",
     "english": "Sarah",
     "notes": "2008-1881 BCE – 127 years, Isaiah 51:2",
     "tag": "bible",
@@ -2125,7 +2125,7 @@
   },
   {
     "key": "Hagar",
-    "text": "Hagar",
+    "text": "ຮາກາ",
     "english": "Hagar",
     "notes": "Genesis 21:14",
     "tag": "bible",
@@ -2134,7 +2134,7 @@
   },
   {
     "key": "Haran",
-    "text": "Haran",
+    "text": "ຮາຣານ",
     "english": "Haran",
     "notes": "Genesis 11:26",
     "tag": "bible",
@@ -2143,25 +2143,25 @@
   },
   {
     "key": "Reumah",
-    "text": "Reumah",
+    "text": "ຣູມາ",
     "english": "Reumah",
-    "notes": "Concubine – 4 sons 22:24",
+    "notes": "Genesis 22:24 Concubine – 4 sons",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Milcah",
-    "text": "Milcah",
+    "text": "ມິນກາ",
     "english": "Milcah",
-    "notes": "8 sons (Bethuel and 7 more)",
+    "notes": "Genesis 22:20 - 8 sons (Bethuel and 7 more)",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Lot",
-    "text": "Quantità",
+    "text": "ຫຼາຍ",
     "english": "Lot",
     "notes": "Genesis 11:27",
     "tag": "bible",
@@ -2170,7 +2170,7 @@
   },
   {
     "key": "Ammon",
-    "text": "Ben-Amir (Ammon)",
+    "text": "ເບັນ-ອຳມີ (ອຳໂມນ)",
     "english": "Ben-ammi (Ammon)",
     "notes": "Genesis 19:38",
     "tag": "bible",
@@ -2179,7 +2179,7 @@
   },
   {
     "key": "Bethuel",
-    "text": "Bethuel",
+    "text": "ເບທູເອນ",
     "english": "Bethuel",
     "notes": "Genesis 22:23",
     "tag": "bible",
@@ -2188,16 +2188,16 @@
   },
   {
     "key": "Rebekah",
-    "text": "Rebekah",
+    "text": "ເຣເບກາ",
     "english": "Rebekah",
-    "notes": " ",
+    "notes": "Genesis 22:23",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Laban",
-    "text": "Labano",
+    "text": "ລາບານ",
     "english": "Laban",
     "notes": "Genesis 24:29",
     "tag": "bible",
@@ -2206,7 +2206,7 @@
   },
   {
     "key": "Leah",
-    "text": "Leah",
+    "text": "ເລອາ",
     "english": "Leah",
     "notes": "Genesis 35:23",
     "tag": "bible",
@@ -2215,7 +2215,7 @@
   },
   {
     "key": "Rachel",
-    "text": "Rachel",
+    "text": "ຣາເຊນ",
     "english": "Rachel",
     "notes": "Genesis 35:24",
     "tag": "bible",
@@ -2224,7 +2224,7 @@
   },
   {
     "key": "Bilhah",
-    "text": "Bilhah",
+    "text": "ບິນຮາ",
     "english": "Bilhah",
     "notes": "Genesis 35:25",
     "tag": "bible",
@@ -2242,25 +2242,25 @@
   },
   {
     "key": "Reuben",
-    "text": "Reuben",
+    "text": "ຣູເບັນ",
     "english": "Reuben",
-    "notes": " ",
+    "notes": "Genesis 35:23",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Simeon",
-    "text": "Simeon",
+    "text": "ຊີເມໂອນ",
     "english": "Simeon",
-    "notes": " ",
+    "notes": "Genesis 35:23",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Levi",
-    "text": "Levi",
+    "text": "ເລວີ",
     "english": "Levi",
     "notes": "Genesis 35:23",
     "tag": "bible",
@@ -2269,52 +2269,52 @@
   },
   {
     "key": "Judah",
-    "text": "Giuda",
+    "text": "ຢູດາ",
     "english": "Judah",
-    "notes": " ",
+    "notes": "Genesis 35:23",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Issachar",
-    "text": "Issachar",
+    "text": "ອິດຊາຄາ",
     "english": "Issachar",
-    "notes": " ",
+    "notes": "Genesis 35:23",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Zebulun",
-    "text": "Zebulun",
+    "text": "ເຊບູລູນ",
     "english": "Zebulun",
-    "notes": " ",
+    "notes": "Genesis 35:23",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Dinah",
-    "text": "Dinah",
+    "text": "ດີນາ",
     "english": "Dinah",
-    "notes": "Genesis 34",
+    "notes": "Genesis 34:1",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Esau",
-    "text": "Esaù/",
+    "text": "ເອຊາວ/",
     "english": "Esau/",
-    "notes": " ",
+    "notes": "Genesis 36:1",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Edom",
-    "text": "Edom",
+    "text": "ເອໂດມ",
     "english": "Edom",
     "notes": "Genesis 36:1",
     "tag": "bible",
@@ -2323,7 +2323,7 @@
   },
   {
     "key": "Ishmael",
-    "text": "Ismaele",
+    "text": "ອິດຊະມາເອນ",
     "english": "Ishmael",
     "notes": "Genesis 16:16",
     "tag": "bible",
@@ -2332,63 +2332,63 @@
   },
   {
     "key": "Manasseh2",
-    "text": "(Manasse",
+    "text": "(ມານາເຊ",
     "english": "(Manasseh",
-    "notes": "Genesis 41:50-52",
+    "notes": "Genesis 41:51",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Ephraim",
-    "text": "ed Ephraim)",
+    "text": "ແລະ Ephraim)",
     "english": "and Ephraim)",
-    "notes": " ",
+    "notes": "Genesis 41:52",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Benjamin",
-    "text": "Benjamin",
+    "text": "ເບັນຢາມິນ",
     "english": "Benjamin",
-    "notes": " ",
+    "notes": "Genesis 35:24",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Dan",
-    "text": "Dan",
+    "text": "ແດນ",
     "english": "Dan",
-    "notes": "Genesis 35:23",
+    "notes": "Genesis 35:25",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Naphtali",
-    "text": "Naftali",
+    "text": "ນາບທາລີ",
     "english": "Naphtali",
-    "notes": " ",
+    "notes": "Genesis 35:25",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Gad",
-    "text": "GAD",
+    "text": "ກາດ",
     "english": "Gad",
-    "notes": " ",
+    "notes": "Genesis 35:26",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Asher",
-    "text": "Asher",
+    "text": "ອາເຊີ",
     "english": "Asher",
-    "notes": " ",
+    "notes": "Genesis 35:26",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
@@ -2406,7 +2406,7 @@
     "key": "Milcah2",
     "text": "Chesed, Hazo,",
     "english": "Chesed, Hazo,",
-    "notes": " ",
+    "notes": "Genesis 22:22",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
@@ -2415,14 +2415,14 @@
     "key": "Milcah3",
     "text": "Pildash, Jidlaph",
     "english": "Pildash, Jidlaph",
-    "notes": " ",
+    "notes": "Genesis 22:22",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Tebah",
-    "text": "Tebah",
+    "text": "ເຕບາ",
     "english": "Tebah",
     "notes": "Genesis 22:24",
     "tag": "bible",
@@ -2431,34 +2431,34 @@
   },
   {
     "key": "Gaham",
-    "text": "Gaham",
+    "text": "ກາຮາມ",
     "english": "Gaham",
-    "notes": " ",
+    "notes": "Genesis 22:24",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Tahash",
-    "text": "Tahash",
+    "text": "ທາຮາສ",
     "english": "Tahash",
-    "notes": " ",
+    "notes": "Genesis 22:24",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Maacah",
-    "text": "Maacah",
+    "text": "ມາອາກາ",
     "english": "Maacah",
-    "notes": " ",
+    "notes": "Genesis 22:24",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Mahalath",
-    "text": "Mahalath/",
+    "text": "ມະຫາລາດ/",
     "english": "Mahalath/",
     "notes": "Genesis 28:8, 9",
     "tag": "bible",
@@ -2467,9 +2467,9 @@
   },
   {
     "key": "Basemath",
-    "text": "Basemath",
+    "text": "ເບສມາດ",
     "english": "Basemath",
-    "notes": "Genesis36:3, 4",
+    "notes": "Genesis 36:3, 4",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
@@ -2478,88 +2478,88 @@
     "key": "Reuel",
     "text": "Reuel",
     "english": "Reuel",
-    "notes": "36:13, 17",
+    "notes": "Genesis 36:13, 17",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Nahath",
-    "text": "Nahath",
+    "text": "ນາຮາດ",
     "english": "Nahath",
-    "notes": " ",
+    "notes": "Genesis 36:13",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Zerah",
-    "text": "Zerah",
+    "text": "ເຊຣາ",
     "english": "Zerah",
-    "notes": " ",
+    "notes": "Genesis 36:13",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Schammah",
-    "text": "Schammah",
+    "text": "ແຊມມາ",
     "english": "Schammah",
-    "notes": " ",
+    "notes": "Genesis 36:13",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Mizzah",
-    "text": "Mizzah",
+    "text": "ມິສຊາ",
     "english": "Mizzah",
-    "notes": " ",
+    "notes": "Genesis 36:13",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Adah",
-    "text": "Adah",
+    "text": "ອາດາ",
     "english": "Adah",
-    "notes": "36:11, 12, 15, 16",
+    "notes": "Genesis 36:11, 12, 15, 16",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Eliphaz",
-    "text": "Eliphaz",
+    "text": "ເອລີຟາດ",
     "english": "Eliphaz",
-    "notes": " ",
+    "notes": "Genesis 36:11",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Teman",
-    "text": "Teman",
+    "text": "ເຕແມນ",
     "english": "Teman",
-    "notes": " ",
+    "notes": "Genesis 36:11",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Omar",
-    "text": "Omar",
+    "text": "ໂອມາ",
     "english": "Omar",
-    "notes": " ",
+    "notes": "Genesis 36:11",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Zepho",
-    "text": "Zepho",
+    "text": "ເຊໂຟ",
     "english": "Zepho",
-    "notes": " ",
+    "notes": "Genesis 36:11",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
@@ -2568,61 +2568,61 @@
     "key": "Kenaz",
     "text": "Kenaz",
     "english": "Kenaz",
-    "notes": " ",
+    "notes": "Genesis 36:11",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Korah",
-    "text": "Korah",
+    "text": "ໂຄຣາ",
     "english": "Korah",
-    "notes": " ",
+    "notes": "Genesis 36:16",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Korah_Gatam",
-    "text": "Korah, Gatam",
+    "text": "ໂຄຣາ, ກາດມ",
     "english": "Korah, Gatam",
-    "notes": "303 and 304",
+    "notes": "Genesis 36:11, 16",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Amalek",
-    "text": "Amalek",
+    "text": "ອາມາເລັກ",
     "english": "Amalek",
-    "notes": " ",
+    "notes": "Genesis 36:12",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Oholibamah",
-    "text": "Oholibamah",
+    "text": "ໂອໂຮລີບາມາ",
     "english": "Oholibamah",
-    "notes": "36:14, 18",
+    "notes": "Genesis 36:14, 18",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Jeush",
-    "text": "Jeush",
+    "text": "ເຢຊ",
     "english": "Jeush",
-    "notes": " ",
+    "notes": "Genesis 36:14",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Jalam",
-    "text": "Jalam",
+    "text": "ຈາລາມ",
     "english": "Jalam",
-    "notes": " ",
+    "notes": "Genesis 36:14",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
@@ -2638,27 +2638,27 @@
   },
   {
     "key": "Kedar",
-    "text": "Kedar",
+    "text": "ເຄດາ",
     "english": "Kedar",
-    "notes": " ",
+    "notes": "Genesis 25:13",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Mishma",
-    "text": "Mishma",
+    "text": "ມິສມາ",
     "english": "Mishma",
-    "notes": " ",
+    "notes": "Genesis 25:14",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Adbeel_Mibsam",
-    "text": "Adbeel, mibsam",
+    "text": "Adbeel, Mibsam",
     "english": "Adbeel, Mibsam",
-    "notes": "311 and 312",
+    "notes": "Genesis 25:13",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
@@ -2667,25 +2667,25 @@
     "key": "Dumah_Massa",
     "text": "Dumah, Massa",
     "english": "Dumah, Massa",
-    "notes": "314 and 315",
+    "notes": "Genesis 25:14",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Hadad",
-    "text": "Hadad",
+    "text": "ຮາດ",
     "english": "Hadad",
-    "notes": " ",
+    "notes": "Genesis 25:15",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Tema",
-    "text": "Tema",
+    "text": "ເທມາ",
     "english": "Tema",
-    "notes": " ",
+    "notes": "Genesis 25:15",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
@@ -2694,25 +2694,25 @@
     "key": "Jetur",
     "text": "Jetur",
     "english": "Jetur",
-    "notes": " ",
+    "notes": "Genesis 25:15",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Naphish",
-    "text": "Nafo",
+    "text": "ນາຟີຊ",
     "english": "Naphish",
-    "notes": " ",
+    "notes": "Genesis 25:15",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Kedemah",
-    "text": "Kedemah",
+    "text": "ເຄເດມາ",
     "english": "Kedemah",
-    "notes": " ",
+    "notes": "Genesis 25:15",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
@@ -2721,43 +2721,43 @@
     "key": "Keturah",
     "text": "Keturah",
     "english": "Keturah",
-    "notes": "Genesis 25:1-4",
+    "notes": "Genesis 25:1",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Zimran",
-    "text": "Zimran",
+    "text": "ຊິມຣານ",
     "english": "Zimran",
-    "notes": " ",
+    "notes": "Genesis 25:1",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Jokshan",
-    "text": "Jokshan",
+    "text": "ໂຈຊານ",
     "english": "Jokshan",
-    "notes": " ",
+    "notes": "Genesis 25:1",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Medan",
-    "text": "Medan",
+    "text": "ເມດານ",
     "english": "Medan",
-    "notes": " ",
+    "notes": "Genesis 25:1",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Midian",
-    "text": "Madian",
+    "text": "ມີເດຍ",
     "english": "Midian",
-    "notes": " ",
+    "notes": "Genesis 25:1",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
@@ -2766,32 +2766,32 @@
     "key": "Ishbak",
     "text": "Ishbak",
     "english": "Ishbak",
-    "notes": " ",
+    "notes": "Genesis 25:1",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Shuah",
-    "text": "Shuah",
+    "text": "ຊູອາ",
     "english": "Shuah",
-    "notes": " ",
+    "notes": "Genesis 25:1",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Timna",
-    "text": "Timna",
+    "text": "ທິມນາ",
     "english": "Timna",
-    "notes": "1 Chr 1:36, Ge 36:10-12",
+    "notes": "Genesis 36:12, 1 Chr 1:36",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "life-expectancy2",
-    "text": "(Salmo 90:10)",
+    "text": "(ຄຳເພງ 90:10)",
     "english": "(Psalm 90:10)",
     "notes": "2024-11-29",
     "tag": "bible",
@@ -2800,313 +2800,313 @@
   },
   {
     "key": "Ham",
-    "text": "Cam",
+    "text": "Ham",
     "english": "Ham",
     "notes": "Gen 10:1",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Canaan",
-    "text": "Cànaan",
+    "text": "ການາອານ",
     "english": "Canaan",
     "notes": "Gen 10:6",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Sidon",
-    "text": "Sidóne",
+    "text": "ຊີໂດນ",
     "english": "Sidon",
     "notes": "Gen 10:15",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Heth",
-    "text": "Het",
+    "text": "ເຮດ",
     "english": "Heth",
     "notes": "Gen 10:15",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Jebusite",
-    "text": "ai gebusei",
+    "text": "Jebusite",
     "english": "Jebusite",
     "notes": "Gen 10:16",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Amorite",
-    "text": "agli amorrei",
+    "text": "Amorite",
     "english": "Amorite",
     "notes": "Gen 10:16",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Girgashite",
-    "text": "ai ghirgasei",
+    "text": "Girgashite",
     "english": "Girgashite",
     "notes": "Gen 10:16",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Hivite",
-    "text": "agli ivvei",
+    "text": "Hivite",
     "english": "Hivite",
     "notes": "Gen 10:17",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Arkite",
-    "text": "agli archei",
+    "text": "Arkite",
     "english": "Arkite",
     "notes": "Gen 10:17",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Sinite",
-    "text": "ai sinei",
+    "text": "Sinite",
     "english": "Sinite",
     "notes": "Gen 10:17",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Arvadite",
-    "text": "agli arvadei",
+    "text": "Arvadite",
     "english": "Arvadite",
     "notes": "Gen 10:18",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Zemarite",
-    "text": "agli zemarei",
+    "text": "ເຊມາຣີດ",
     "english": "Zemarite",
     "notes": "Gen 10:18",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Hamathite",
-    "text": "agli amatei",
+    "text": "ຮາມາທິ",
     "english": "Hamathite",
     "notes": "Gen 10:18",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Cush",
-    "text": "Cus",
+    "text": "Cush",
     "english": "Cush",
     "notes": "Gen 10:6",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Nimrod",
-    "text": "Nìmrod",
+    "text": "ນິມຣອດ",
     "english": "Nimrod",
     "notes": "Gen 10:8",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Mizraim",
-    "text": "Mizràim",
+    "text": "Mizraim",
     "english": "Mizraim",
     "notes": "Gen 10:14",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Casluh",
-    "text": "Casluìm",
+    "text": "Casluh",
     "english": "Casluh",
     "notes": "1 Chronicles 1:12 (Philistines)",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Japheth",
-    "text": "Iàfet",
+    "text": "ຢາເຟດ",
     "english": "Japheth",
-    "notes": "Gen 10:3",
+    "notes": "Gen 10:1",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Asshur",
-    "text": "Assùr",
+    "text": "ແອສເຊີ",
     "english": "Asshur",
     "notes": "Gen 10:22",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Lud",
-    "text": "Lud",
+    "text": "ລູດ",
     "english": "Lud",
     "notes": "Gen 10:22",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Aram",
-    "text": "Àram",
+    "text": "ອາຣາມ",
     "english": "Aram",
     "notes": "Gen 10:22",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Elam",
-    "text": "Èlam",
+    "text": "ເອລາມ",
     "english": "Elam",
     "notes": "Gen 10:22",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Joktan",
-    "text": "Ioctàn",
+    "text": "ໂຈຕັນ",
     "english": "Joktan",
     "notes": "Gen 10:26",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Almodad",
-    "text": "Almodàd",
+    "text": "Almodad",
     "english": "Almodad",
     "notes": "Gen 10:26",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Sheleph",
-    "text": "Sèlef",
+    "text": "Sheleph",
     "english": "Sheleph",
     "notes": "Gen 10:26",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Hazarmareth",
-    "text": "Azarmàvet",
+    "text": "ຮາຊາມາເຣັດ",
     "english": "Hazarmareth",
     "notes": "Gen 10:26",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Jerah",
-    "text": "Iera",
+    "text": "ເຢຣາ",
     "english": "Jerah",
     "notes": "Gen 10:26",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Hadoram",
-    "text": "Hadoràm",
+    "text": "ຮາໂດຣາມ",
     "english": "Hadoram",
     "notes": "Gen 10:27",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Uzal",
-    "text": "Uzàl",
+    "text": "Uzal",
     "english": "Uzal",
     "notes": "Gen 10:27",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Diklah_Obal",
-    "text": "Dicla, Obàl",
+    "text": "Diklah, Obal",
     "english": "Diklah, Obal",
     "notes": "Gen 10:27",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Abimael",
-    "text": "Abimaèl",
+    "text": "ອາບີມາເອນ",
     "english": "Abimael",
     "notes": "Gen 10:28",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Sheba_Ophir",
-    "text": "Saba, Òfir",
+    "text": "ເຊບາ, ໂອຟີ",
     "english": "Sheba, Ophir",
     "notes": "Gen 10:28, 29",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Havilah",
-    "text": "Avìla",
+    "text": "ຮາວິລາ",
     "english": "Havilah",
     "notes": "Gen 10:29",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Jobab",
-    "text": "Iobàb",
+    "text": "ໂຢບັບ",
     "english": "Jobab",
     "notes": "Gen 10:29",
     "tag": "bible",
-    "checked": "True",
+    "checked": "False",
     "category": "bible"
   },
   {
     "key": "Ham_fn",
-    "text": "1) Egiziani: Salmi 105: 23",
+    "text": "1) ຊາວ​ເອຢິບ: ຄຳເພງ 105:23",
     "english": "1) Egyptians: Psalms 105:23",
     "notes": "2025-09-22",
     "tag": "bible",
@@ -3115,7 +3115,7 @@
   },
   {
     "key": "Canaan_fn",
-    "text": "2) Canaaniti: Joshua 13: 3",
+    "text": "2) ຊາວ​ການາອານ: ໂຢຊວຍ 13:3",
     "english": "2) Canaanites: Joshua 13:3",
     "notes": "2025-09-22",
     "tag": "bible",
@@ -3124,7 +3124,7 @@
   },
   {
     "key": "Aram_fn",
-    "text": "3) Aramei: Osea 12:12",
+    "text": "3) ອາຣາມ: ໂຮເສອາ 12:12",
     "english": "3) Arameans: Hosea 12:12",
     "notes": "2025-09-22",
     "tag": "bible",
@@ -3133,7 +3133,7 @@
   },
   {
     "key": "Elam_fn",
-    "text": "4) Elamiti: Ezra 4: 9",
+    "text": "4) ເອລາມີ: ເອຊະຣາ 4:9",
     "english": "4) Elamites: Ezra 4:9",
     "notes": "2025-09-22",
     "tag": "bible",
@@ -3142,7 +3142,7 @@
   },
   {
     "key": "Asshur_fn",
-    "text": "5) Assiri: Ezechiele 27:23",
+    "text": "5) ອັດຊີເຣຍ: ເອເຊກຽນ 27:23",
     "english": "5) Assyrians: Ezekiel 27:23",
     "notes": "2025-09-22",
     "tag": "bible",
@@ -3151,7 +3151,7 @@
   },
   {
     "key": "Casluh_fn",
-    "text": "6) Filistei: 1 Cronache 1:12",
+    "text": "6) ຟີລິດສະຕິນ: 1 ຂ່າວຄາວ 1:12",
     "english": "6) Philistines: 1 Chronicles 1:12",
     "notes": "2025-09-22",
     "tag": "bible",
@@ -3160,7 +3160,7 @@
   },
   {
     "key": "Cush_fn",
-    "text": "7) Etiopiano [Cushite]: 2 Re 19: 9",
+    "text": "7) ເອ​ທິ​ໂອ​ເປຍ [ກູ​ຊີ]: 2 ກະສັດ 19:9",
     "english": "7) Ethiopian [Cushite]: 2 Kings 19:9",
     "notes": "2025-09-22",
     "tag": "bible",
@@ -3169,61 +3169,61 @@
   },
   {
     "key": "Edom_fn",
-    "text": "8) Edomiti: Numeri 20: 14-17",
+    "text": "8) ເອໂດມ: ຈົດເຊັນບັນຊີ 20:14-17",
     "english": "8) Edomites: Numbers 20:14-17",
-    "notes": "same as 459",
+    "notes": "2025-09-22",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Moab_fn",
-    "text": "9) Moabiti: Deuteronomio 23: 3, 4",
+    "text": "9) ໂມອາບ: ພຣະບັນຍັດສອງ 23:3, 4",
     "english": "9) Moabites: Deuteronomy 23:3, 4",
-    "notes": "same as 457",
+    "notes": "2025-09-22",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Ammon_fn",
-    "text": "10) Amoniti: Joshua 12: 2",
+    "text": "10) ຊາວ​ອຳໂມນ: ໂຢຊວຍ 12:2",
     "english": "10) Ammonites: Joshua 12:2",
-    "notes": "same as 458",
+    "notes": "2025-09-22",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Midian_fn",
-    "text": "11) Madianiti: Numeri 31: 2, 3",
+    "text": "11) ມີເດຍ: ຈົດເຊັນບັນຊີ 31:2, 3",
     "english": "11) Midianites: Numbers 31:2, 3",
-    "notes": "same as 456",
+    "notes": "2025-09-22",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Amalek_fn",
-    "text": "12) Amalekites: 1 Samuele 15: 2",
+    "text": "12) ຊາວ​ອາມາລີ: 1 ຊາມູເອນ 15:2",
     "english": "12) Amalekites: 1 Samuel 15:2",
-    "notes": "same as 461",
+    "notes": "2025-09-22",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Teman_fn",
-    "text": "13) Temaniti: Giobbe 42: 7",
+    "text": "13) ຊາວ​ເຕມານ: ໂຢບ 42:7",
     "english": "13) Temanites: Job 42:7",
-    "notes": "same as 460",
+    "notes": "2025-09-22",
     "tag": "bible",
     "checked": "False",
     "category": "bible"
   },
   {
     "key": "Sidon_fn",
-    "text": "14) Sidonians: Zaccaria 9: 2",
+    "text": "14) ຊີໂດເນຍ: ຊາກາຣີຢາ 9:2",
     "english": "14) Sidonians: Zechariah 9:2",
     "notes": "2025-09-22",
     "tag": "bible",
@@ -3232,7 +3232,7 @@
   },
   {
     "key": "Heth_fn",
-    "text": "15) Ittiti: Genesi 15:20",
+    "text": "15) ຊາວຮິດຕີ: ຕົ້ນເດີມ 15:20",
     "english": "15) Hittites: Genesis 15:20",
     "notes": "2025-09-22",
     "tag": "bible",
@@ -3241,7 +3241,7 @@
   },
   {
     "key": "Jebusite_fn",
-    "text": "16) Jebusites: Joshua 15:63",
+    "text": "16) ເຢບຸດ: ໂຢຊວຍ 15:63",
     "english": "16) Jebusites: Joshua 15:63",
     "notes": "2025-09-22",
     "tag": "bible",
@@ -3259,7 +3259,7 @@
   },
   {
     "key": "Lud_fn",
-    "text": "17) Lydians: 1 Cronache 1:17",
+    "text": "17) ລີດຽນ: 1 ຂ່າວຄາວ 1:17",
     "english": "17) Lydians: 1 Chronicles 1:17",
     "notes": "Jewish Antiquities, I, 143, 144 [vi, 4]",
     "tag": "bible",
@@ -3268,7 +3268,7 @@
   },
   {
     "key": "Ishmael_fn",
-    "text": "18) Ismaeliti: Genesi 37:27",
+    "text": "18) ອິດຊະມາເອນ: ຕົ້ນເດີມ 37:27",
     "english": "18) Ishmaelites: Genesis 37:27",
     "notes": "2025-09-22",
     "tag": "bible",
@@ -3277,7 +3277,7 @@
   },
   {
     "key": "Amorite_fn",
-    "text": "19) Amoriti: Giudici 6:10",
+    "text": "19) ອາໂມຣີດ: ຜູ້ຕັດສິນ 6:10",
     "english": "19) Amorites: Judges 6:10",
     "notes": "2025-09-22",
     "tag": "bible",
@@ -3286,7 +3286,7 @@
   },
   {
     "key": "Hivite_fn",
-    "text": "20) Hivites [Gibeon]: Joshua 9: 3, 7",
+    "text": "20) ຮີວີ [ກີເບໂອນ]: ໂຢຊວຍ 9:3, 7",
     "english": "20) Hivites [Gibeon]: Joshua 9:3, 7",
     "notes": "Gibeonites",
     "tag": "bible",
@@ -3295,7 +3295,7 @@
   },
   {
     "key": "Cain",
-    "text": "Caino",
+    "text": "ກາອິນ",
     "english": "Cain",
     "notes": "Genesis 4:1, son Enoch same name as other",
     "tag": "bible",
@@ -3304,7 +3304,7 @@
   },
   {
     "key": "Abel",
-    "text": "Abele",
+    "text": "ອາເບວ",
     "english": "Abel",
     "notes": "Genesis 4:2",
     "tag": "bible",
@@ -3313,7 +3313,7 @@
   },
   {
     "key": "Irad",
-    "text": "Irad",
+    "text": "ໄອຣາດ",
     "english": "Irad",
     "notes": "Genesis 4:18",
     "tag": "bible",
@@ -3322,7 +3322,7 @@
   },
   {
     "key": "Mehujael",
-    "text": "Mehujael",
+    "text": "ເມຮູຢາເອນ",
     "english": "Mehujael",
     "notes": "Genesis 4:18",
     "tag": "bible",
@@ -3331,7 +3331,7 @@
   },
   {
     "key": "Methushael",
-    "text": "Metushael",
+    "text": "ເມທູຊາເອນ",
     "english": "Methushael",
     "notes": "Genesis 4:18, son Lamech same as other",
     "tag": "bible",
@@ -3340,7 +3340,7 @@
   },
   {
     "key": "Jabal",
-    "text": "Jabal",
+    "text": "ຈາບານ",
     "english": "Jabal",
     "notes": "Genesis 4:20 living in tents, have livestock",
     "tag": "bible",
@@ -3349,7 +3349,7 @@
   },
   {
     "key": "Jubal",
-    "text": "Giubal",
+    "text": "Jubal",
     "english": "Jubal",
     "notes": "Genesis 4:21 play harp and pipe",
     "tag": "bible",
@@ -3367,7 +3367,7 @@
   },
   {
     "key": "Tubal-cain",
-    "text": "Tubal-Caino",
+    "text": "Tubal-cain",
     "english": "Tubal-cain",
     "notes": "Genesis 4:22 tool of copper and iron",
     "tag": "bible",
@@ -3376,7 +3376,7 @@
   },
   {
     "key": "Naamah",
-    "text": "Naamah",
+    "text": "ນາອາມາ",
     "english": "Naamah",
     "notes": "Genesis 4:22 his sister",
     "tag": "bible",
@@ -3385,763 +3385,763 @@
   },
   {
     "key": "Rehoboam",
-    "text": "Roboamo",
+    "text": "ເຣໂຮໂບອາມ",
     "english": "Rehoboam",
     "notes": "first king of southern kingdom of Juda",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Abijah",
-    "text": "Abia (Abiam)",
+    "text": "ອາບີຢາ (ອາບີຢາ)",
     "english": "Abijah (Abijam)",
     "notes": "3 years, also Abijam",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Asa",
-    "text": "Asa",
+    "text": "ອາຊາ",
     "english": "Asa",
     "notes": "A6-A",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Jehoshaphat",
-    "text": "Giosafat",
+    "text": "ໂຢຊາຟັດ",
     "english": "Jehoshaphat",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Jehoram2",
-    "text": "Ieoram",
+    "text": "ເຢໂຮຣາມ",
     "english": "Jehoram",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Ahaziah",
-    "text": "Acazia",
+    "text": "ອາຮາຊີຢາ",
     "english": "Ahaziah",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Athaliah",
-    "text": "Regina Atalia",
+    "text": "ພະລາຊິນີອາທາລີຢາ",
     "english": "Queen Athaliah",
     "notes": "Queen Athaliah",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Jehoash",
-    "text": "Ioas",
+    "text": "ໂຢອາດ",
     "english": "Jehoash",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Amaziah",
-    "text": "Amazia",
+    "text": "ອາມາຊີຢາ",
     "english": "Amaziah",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Uzziah",
-    "text": "Uzzia (Azaria)",
+    "text": "ອຸດຊີຢາ (ອາຊາຣີຢາ)",
     "english": "Uzziah (Azariah)",
     "notes": "also Azariah",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Jeroboam",
-    "text": "Geroboamo",
+    "text": "ເຢໂຣໂບອາມ",
     "english": "Jeroboam",
     "notes": "first king of northern 10-tribe kingdom",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Nadab",
-    "text": "Nadab",
+    "text": "ນາດາບ",
     "english": "Nadab",
     "notes": "less than 2",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Baasha",
-    "text": "Baasa",
+    "text": "ບາຊາ",
     "english": "Baasha",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Elah",
-    "text": "Ela",
+    "text": "ເອລາ",
     "english": "Elah",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Zimri",
-    "text": "Zimri",
+    "text": "ຊິມຣີ",
     "english": "Zimri",
     "notes": "Only 7 days in ca. 751 BCE",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "OmriTibni",
-    "text": "Omri e Tibni",
+    "text": "Omri ແລະ Tibni ຮ່ວມກັນ",
     "english": "Omri and Tibni together",
     "notes": "4 years Omri and Tibni",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Omri",
-    "text": "Omri (da solo)",
+    "text": "ໂອມຣີ (ຄົນດຽວ)",
     "english": "Omri (alone)",
     "notes": "from 947 Omri alone",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Ahab",
-    "text": "Acab",
+    "text": "ອາຫັບ",
     "english": "Ahab",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Jehoram",
-    "text": "Ieoram",
+    "text": "ເຢໂຮຣາມ",
     "english": "Jehoram",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Jehu",
-    "text": "Ieu",
+    "text": "ເຢຮູ",
     "english": "Jehu",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Jeoahaz",
-    "text": "Ioacaz",
+    "text": "ໂຢອາຮາດ",
     "english": "Jeoahaz",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "JeoahazJehoash",
-    "text": "Ioacaz e Ioas",
+    "text": "ໂຢອາຮາດ ແລະໂຢອາດ",
     "english": "Jeoahaz and Jehoash",
     "notes": "For 3 years Jeoahaz and Jeoash reigned together",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Jehoash2",
-    "text": "Ioas (da solo)",
+    "text": "ໂຢອາດ (ຜູ້ດຽວ)",
     "english": "Jehoash (alone)",
     "notes": "Jehoash (alone)",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Jeroboam2",
-    "text": "Geroboamo II",
+    "text": "ເຢໂຣໂບອາມ II",
     "english": "Jeroboam II",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Elijah",
-    "text": "Elia",
+    "text": "ເອລີຢາ",
     "english": "Elijah",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Elisha",
-    "text": "Eliseo",
+    "text": "ເອລີຊາ",
     "english": "Elisha",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Jonah",
-    "text": "Giona",
+    "text": "ໂຢນາ",
     "english": "Jonah",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Amos",
-    "text": "Amos",
+    "text": "ອາໂມດ",
     "english": "Amos",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Joel",
-    "text": "Gioele",
+    "text": "ໂຢເອນ",
     "english": "Joel",
     "notes": " ",
     "tag": "A6-A",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Jotham",
-    "text": "Iotam",
+    "text": "ໂຢທາມ",
     "english": "Jotham",
     "notes": "A6-B",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Ahaz",
-    "text": "Acaz",
+    "text": "ອາຮາດ",
     "english": "Ahaz",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Hezekiah",
-    "text": "Ezechia",
+    "text": "ເອເຊເກຍເຊ",
     "english": "Hezekiah",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Manasseh",
-    "text": "Manasse",
+    "text": "ມານາເຊ",
     "english": "Manasseh",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Amon",
-    "text": "Amon",
+    "text": "ອາມອນ",
     "english": "Amon",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Josiah",
-    "text": "Giosia",
+    "text": "ໂຢສີຢາ",
     "english": "Josiah",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Jehoahaz",
-    "text": "Ioacaz",
+    "text": "ເຢໂຮອາຮາດ",
     "english": "Jehoahaz",
     "notes": "Only 3 months",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Jehoiakim",
-    "text": "Ioiachim",
+    "text": "ເຢໂຮຍອາກິມ",
     "english": "Jehoiakim",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Jehoiachin",
-    "text": "Ioiachin",
+    "text": "ເຢໂຮຢາກິນ",
     "english": "Jehoiachin",
     "notes": "Only 3 months 10 days",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Zedekiah",
-    "text": "Sedechia",
+    "text": "ເຊເດກີຢາ",
     "english": "Zedekiah",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Zechariah",
-    "text": "Zaccaria",
+    "text": "ຊາກາຣີຢາ",
     "english": "Zechariah",
     "notes": "reign only recorded 6 months, probably only established 792 BCE",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Schallum",
-    "text": "Sallum",
+    "text": "Schallum",
     "english": "Schallum",
     "notes": "only one month",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Menahem",
-    "text": "Menaem",
+    "text": "ເມນາເຮັມ",
     "english": "Menahem",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Pekahiah",
-    "text": "Pecachia",
+    "text": "ເປກາຮີຢາ",
     "english": "Pekahiah",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Pekah",
-    "text": "Peca",
+    "text": "ເປກາ",
     "english": "Pekah",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Hoshea",
-    "text": "Osea",
+    "text": "ໂຮເຊອາ",
     "english": "Hoshea",
     "notes": "9 years from c. 748",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Hosea",
-    "text": "Osea",
+    "text": "ໂຮເຊອາ",
     "english": "Hosea",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Isaiah",
-    "text": "Isaia",
+    "text": "ເອຊາຢາ",
     "english": "Isaiah",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Micah",
-    "text": "Michea",
+    "text": "ມີກາ",
     "english": "Micah",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Zephaniah",
-    "text": "Sofonia",
+    "text": "ເຊຟານີຢາ",
     "english": "Zephaniah",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Nahum",
-    "text": "Naum",
+    "text": "ນາຮູມ",
     "english": "Nahum",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Jeremiah",
-    "text": "Geremia",
+    "text": "ເຢເຣມີຢາ",
     "english": "Jeremiah",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Habakuk",
-    "text": "Abacuc",
+    "text": "ຮາບາກຸກ",
     "english": "Habakuk",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Daniel",
-    "text": "Daniele",
+    "text": "ດານີເອນ",
     "english": "Daniel",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Ezekiel",
-    "text": "Ezechiele",
+    "text": "ເອເຊກຽນ",
     "english": "Ezekiel",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Obadiah",
-    "text": "Abdia",
+    "text": "ໂອບາດີຢາ",
     "english": "Obadiah",
     "notes": " ",
     "tag": "A6-B",
-    "checked": "True",
+    "checked": "False",
     "category": "A6"
   },
   {
     "key": "Babylon",
-    "text": "Daniele 2:32, 36-38; 7:4",
+    "text": "ດານີເອນ 2:32, 36-38; 7:4",
     "english": "Daniel 2:32, 36-38; 7:4",
     "notes": " ",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "Medopersia",
-    "text": "Daniele 2:32, 39; 7:5",
+    "text": "ດານີເອນ 2:32, 39; 7:5",
     "english": "Daniel 2:32, 39; 7:5",
     "notes": " ",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "Greece",
-    "text": "Daniele 2:32, 39; 7:6",
+    "text": "ດານີເອນ 2:32, 39; 7:6",
     "english": "Daniel 2:32, 39; 7:6",
     "notes": " ",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "Rome",
-    "text": "Daniele 2:33, 40; 7:7",
+    "text": "ດານີເອນ 2:33, 40; 7:7",
     "english": "Daniel 2:33, 40; 7:7",
     "notes": " ",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "Angloamerica",
-    "text": "Daniele 2:33, 41-43",
+    "text": "ດານີເອນ 2:33, 41-43",
     "english": "Daniel 2:33, 41-43",
     "notes": " ",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "Babylon_c",
-    "text": "Babilonia",
+    "text": "ບາບີໂລນ",
     "english": "Babylon",
     "notes": " ",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "Medopersia_c",
-    "text": "Media-Persia",
+    "text": "ເມໂດ-ເປີເຊຍ",
     "english": "Medo-Persia",
     "notes": " ",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "Greece_c",
-    "text": "Grecia",
+    "text": "ປະເທດເກຣັກ",
     "english": "Greece",
     "notes": " ",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "Rome_c",
-    "text": "Roma",
+    "text": "ໂລມ",
     "english": "Rome",
     "notes": " ",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "Angloamerica_c",
-    "text": "Potenza anglo-americana",
+    "text": "Anglo-America",
     "english": "Anglo-America",
     "notes": " ",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "daniel2_1",
-    "text": "Il re Nabucodonosor",
+    "text": "ກະສັດເນບູກາດເນັດຊາ",
     "english": "King Nebuchadnezzar",
     "notes": "607 BCE",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "daniel2_2",
-    "text": "distrugge Gerusalemme",
+    "text": "ທໍາລາຍເຢຣູຊາເລັມ",
     "english": "destroys Jerusalem",
     "notes": "appendix B9",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "daniel2_3",
-    "text": "Conquista Babilonia",
+    "text": "ເອົາຊະນະບາບີໂລນ",
     "english": "Conquers Babylon",
     "notes": "539 BCE",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "daniel2_4",
-    "text": "Ciro decreta il ritorno",
+    "text": "ລັດຖະດຳລັດຂອງໄຊຣັດກັບຄືນມາ",
     "english": "Cyrus decrees return",
     "notes": "537 BCE",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "daniel2_5",
-    "text": "degli ebrei a Gerusalemme",
+    "text": "ຂອງ​ຊາວ​ຢິວ​ກັບ​ເຢ​ຣູ​ຊາ​ເລັມ​",
     "english": "of Jews to Jerusalem",
     "notes": " ",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "daniel2_6",
-    "text": "Alessandro Magno",
+    "text": "Alexander the Great",
     "english": "Alexander the Great",
     "notes": "331 BCE",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "daniel2_7",
-    "text": "conquista la Persia",
+    "text": "ເອົາ​ຊະ​ນະ Persia​",
     "english": "conquers Persia",
     "notes": " ",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "daniel2_8",
-    "text": "Governa su Israele",
+    "text": "ກົດ​ລະ​ບຽບ​ຂອງ​ອິດ​ສະ​ຣາ​ເອນ​",
     "english": "Rules over Israel",
     "notes": "63 BCE",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "daniel2_9",
-    "text": "Distrugge Gerusalemme",
+    "text": "ທໍາລາຍເຢຣູຊາເລັມ",
     "english": "Destroys Jerusalem",
     "notes": "70 CE",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "daniel2_10",
-    "text": "Durante la Prima guerra",
+    "text": "ໃນລະຫວ່າງສົງຄາມໂລກຄັ້ງທີ 1,",
     "english": "During World War I,",
     "notes": "1914-1918 CE",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "daniel2_11",
-    "text": "mondiale viene all’esistenza",
+    "text": "ມະຫາອຳນາດໂລກອັງກິດ-ອາເມລິກາ",
     "english": "Anglo-American World Power",
     "notes": " ",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "daniel2_12",
-    "text": "la potenza anglo-americana",
+    "text": "ມາເປັນ",
     "english": "comes into being",
     "notes": "End 4.2",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "607BCE",
-    "text": "607 a.E.V.",
+    "text": "607 ກ່ອນ ຄ.ສ.",
     "english": "607 B.C.E.",
     "notes": "accommodate for language",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "539BCE",
-    "text": "539 a.E.V.",
+    "text": "539 ກ່ອນ ຄ.ສ.",
     "english": "539 B.C.E.",
     "notes": "systems in style:",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "537BCE",
-    "text": "537 a.E.V.",
+    "text": "537 ກ່ອນ ຄ.ສ.",
     "english": "537 B.C.E.",
     "notes": ">>year 537 before time<<",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "331BCE",
-    "text": "331 a.E.V.",
+    "text": "331 ກ່ອນ ຄ.ສ.",
     "english": "331 B.C.E.",
     "notes": "so they need a word",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "63BCE",
-    "text": "63 a.E.V.",
+    "text": "63 ປີ ຄ.ສ.",
     "english": "63 B.C.E.",
     "notes": "prior to the year",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "70CE",
-    "text": "70 E.V.",
+    "text": "70 ຄ.ສ.",
     "english": "70 C.E.",
     "notes": "and something",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "1914CE",
-    "text": "1914-1918",
+    "text": "1914-1918 ຄ.ສ.",
     "english": "1914-1918 C.E.",
     "notes": "after the year",
     "tag": "B9",
-    "checked": "True",
+    "checked": "False",
     "category": "B9"
   },
   {
     "key": "7times",
-    "text": "Apocalisse 12: 9",
+    "text": "ຄຳປາກົດ 12:9",
     "english": "Revelation 12:9",
     "notes": " ",
     "tag": "scripture",
@@ -4150,7 +4150,7 @@
   },
   {
     "key": "infliction2",
-    "text": "Atti 7: 6",
+    "text": "ກິດຈະການ 7:6",
     "english": "Acts 7:6",
     "notes": " ",
     "tag": "scripture",
@@ -4159,7 +4159,7 @@
   },
   {
     "key": "eastern-zhou",
-    "text": "770-256 a.C.",
+    "text": "770-256 ກ່ອນ ຄ.ສ",
     "english": "770-256 BC",
     "notes": " ",
     "tag": "span_bc",
@@ -4168,7 +4168,7 @@
   },
   {
     "key": "430years",
-    "text": "1943 - 1513 a.E.V.",
+    "text": "1943 – 1513 ກ່ອນ ຄ.ສ.",
     "english": "1943 – 1513 B.C.E.",
     "notes": " ",
     "tag": "span_bce",
@@ -4177,7 +4177,7 @@
   },
   {
     "key": "eastern-han",
-    "text": "25-220 CE",
+    "text": "25-220 ສ.ສ",
     "english": "25-220 CE",
     "notes": " ",
     "tag": "span_ce",
@@ -4186,7 +4186,7 @@
   },
   {
     "key": "northern-dynasties",
-    "text": "368-581 CE",
+    "text": "368-581 ສ.ສ",
     "english": "368-581 CE",
     "notes": " ",
     "tag": "span_ce",
@@ -4195,7 +4195,7 @@
   },
   {
     "key": "southern-dynasties",
-    "text": "420-589 CE",
+    "text": "420-589 ສ.ສ",
     "english": "420-589 CE",
     "notes": " ",
     "tag": "span_ce",
@@ -4204,7 +4204,7 @@
   },
   {
     "key": "Julius",
-    "text": "Giulio",
+    "text": "Julius",
     "english": "Julius",
     "notes": " ",
     "tag": "wiki",
@@ -4222,16 +4222,16 @@
   },
   {
     "key": "Nero",
-    "text": "Nero",
+    "text": "ເນໂຣ",
     "english": "Nero",
     "notes": " ",
     "tag": "wiki",
-    "checked": "True",
+    "checked": "False",
     "category": "wiki"
   },
   {
     "key": "Galba-Otho-Vitellius",
-    "text": "Galba, Otho e Vitellius (anno dei quattro imperatori)",
+    "text": "Galba, Otho ແລະ Vitellius (ປີຂອງສີ່ Emperors)",
     "english": "Galba, Otho and Vitellius (Year of the Four Emperors)",
     "notes": " ",
     "tag": "wiki",
@@ -4240,7 +4240,7 @@
   },
   {
     "key": "Vespasian",
-    "text": "Vespasiano",
+    "text": "ວີສະປາຊຽນ",
     "english": "Vespasian",
     "notes": " ",
     "tag": "wiki",
@@ -4258,7 +4258,7 @@
   },
   {
     "key": "nicaea1",
-    "text": "Primo consiglio di NICEAA",
+    "text": "ສະພາທໍາອິດຂອງ Nicaea",
     "english": "First Council of Nicaea",
     "notes": " ",
     "tag": "wiki",
@@ -4267,7 +4267,7 @@
   },
   {
     "key": "oxyrhynchus",
-    "text": "Oxyrhynchus papiri",
+    "text": "Oxyrhynchus Papyri",
     "english": "Oxyrhynchus Papyri",
     "notes": " ",
     "tag": "wiki",
@@ -4276,7 +4276,7 @@
   },
   {
     "key": "p52",
-    "text": "Papiro P52",
+    "text": "Papyrus P52",
     "english": "Papyrus P52",
     "notes": " ",
     "tag": "wiki",
@@ -4285,7 +4285,7 @@
   },
   {
     "key": "qing-dynasty_c",
-    "text": "Dinastia Qing",
+    "text": "ລາຊະວົງຊິງ",
     "english": "Qing dynasty",
     "notes": "1636-1912",
     "tag": "wiki",
@@ -4294,7 +4294,7 @@
   },
   {
     "key": "ming-dynasty_c",
-    "text": "Ming Dynasty nella Cina imperiale",
+    "text": "ລາຊະວົງ Ming ໃນຈັກກະພັດຈີນ",
     "english": "Ming dynasty in imperial China",
     "notes": "1368-1644",
     "tag": "wiki",
@@ -4303,7 +4303,7 @@
   },
   {
     "key": "yuan-dynasty_c",
-    "text": "Yuan",
+    "text": "ຢວນ",
     "english": "Yuan",
     "notes": "1271-1368",
     "tag": "wiki",
@@ -4312,7 +4312,7 @@
   },
   {
     "key": "southern-song_c",
-    "text": "Canzone del sud",
+    "text": "ເພງພາກໃຕ້",
     "english": "Southern Song",
     "notes": "1127-1279",
     "tag": "wiki",
@@ -4321,7 +4321,7 @@
   },
   {
     "key": "northern-song_c",
-    "text": "Canzone settentrionale",
+    "text": "ເພງພາກເຫນືອ",
     "english": "Northern Song",
     "notes": "960-1127",
     "tag": "wiki",
@@ -4330,7 +4330,7 @@
   },
   {
     "key": "western-xia_c",
-    "text": "Xia occidentale",
+    "text": "ຕາເວັນຕົກ Xia",
     "english": "Western Xia",
     "notes": "1038-1227",
     "tag": "wiki",
@@ -4348,7 +4348,7 @@
   },
   {
     "key": "Galileo",
-    "text": "Galileo Galilei",
+    "text": "ກາລິເລໂອ ຄາລີເລ",
     "english": "Galileo Galilei",
     "notes": "Galileo di Vincenzo Bonaiuti de' Galilei",
     "tag": "wiki",
@@ -4357,7 +4357,7 @@
   },
   {
     "key": "Newton",
-    "text": "Isaac Newton",
+    "text": "ອີຊາກ ນິວຕັນ",
     "english": "Isaac Newton",
     "notes": " ",
     "tag": "wiki",
@@ -4366,7 +4366,7 @@
   },
   {
     "key": "shang-dynasty_c",
-    "text": "Dinastia Shang",
+    "text": "ລາຊະວົງຊາງ",
     "english": "Shang dynasty",
     "notes": "c. 1600-1046 BC",
     "tag": "wiki",
@@ -4375,7 +4375,7 @@
   },
   {
     "key": "western-zhou_c",
-    "text": "Zhou occidentale",
+    "text": "ຕາເວັນຕົກ Zhou",
     "english": "Western Zhou",
     "notes": "c. 1046-771 BC",
     "tag": "wiki",
@@ -4384,7 +4384,7 @@
   },
   {
     "key": "eastern-zhou_c",
-    "text": "Zhou orientale",
+    "text": "Zhou ຕາ​ເວັນ​ອອກ​",
     "english": "Eastern Zhou",
     "notes": "770-256 BC",
     "tag": "wiki",
@@ -4393,7 +4393,7 @@
   },
   {
     "key": "western-han_c",
-    "text": "Han occidentale",
+    "text": "ຕາເວັນຕົກ Han",
     "english": "Western Han",
     "notes": "207 BC – 9 CE",
     "tag": "wiki",
@@ -4402,7 +4402,7 @@
   },
   {
     "key": "eastern-han_c",
-    "text": "Han orientale",
+    "text": "ຕາເວັນອອກ Han",
     "english": "Eastern Han",
     "notes": "25-220 CE",
     "tag": "wiki",
@@ -4411,7 +4411,7 @@
   },
   {
     "key": "three-kingdoms_c",
-    "text": "Cina",
+    "text": "ຈີນ",
     "english": "China",
     "notes": "Three kingdoms 220-280 CE",
     "tag": "wiki",
@@ -4420,7 +4420,7 @@
   },
   {
     "key": "sixteen-kingdoms_c",
-    "text": "Cina",
+    "text": "ຈີນ",
     "english": "China",
     "notes": "Sixteen kingdoms 304-439 CE",
     "tag": "wiki",
@@ -4429,7 +4429,7 @@
   },
   {
     "key": "northern-dynasties_c",
-    "text": "Dinastie settentrionali",
+    "text": "ລາຊະວົງເໜືອ",
     "english": "Northern dynasties",
     "notes": "368-581 CE",
     "tag": "wiki",
@@ -4438,7 +4438,7 @@
   },
   {
     "key": "southern-dynasties_c",
-    "text": "Dinastie meridionali",
+    "text": "ລາຊະວົງໃຕ້",
     "english": "Southern dynasties",
     "notes": "420-589 CE",
     "tag": "wiki",
@@ -4447,7 +4447,7 @@
   },
   {
     "key": "tang-dynasty2_c",
-    "text": "Tang Dynasty",
+    "text": "ລາຊະວົງ Tang",
     "english": "Tang dynasty",
     "notes": "618-690, 705-907",
     "tag": "wiki",
@@ -4456,18 +4456,18 @@
   },
   {
     "key": "byzantine_empire_c",
-    "text": "Impero bizantino",
+    "text": "ອານາຈັກ Byzantine",
     "english": "Byzantine Empire",
-    "notes": " ",
+    "notes": "330–1453 ",
     "tag": "wiki",
     "checked": "False",
     "category": "wiki"
   },
   {
     "key": "ottoman_empire_c",
-    "text": "Impero ottomano",
+    "text": "ອານາຈັກ Ottoman",
     "english": "Ottoman Empire",
-    "notes": " ",
+    "notes": "1299–1922",
     "tag": "wiki",
     "checked": "False",
     "category": "wiki"
@@ -4476,14 +4476,14 @@
     "key": "Genghis",
     "text": "Genghis Khan",
     "english": "Genghis Khan",
-    "notes": " ",
+    "notes": "c. 1162 – August 1227",
     "tag": "wiki",
     "checked": "False",
     "category": "wiki"
   },
   {
     "key": "inca_empire_c",
-    "text": "Impero Inca",
+    "text": "ອານາຈັກ Inca",
     "english": "Inca empire",
     "notes": " ",
     "tag": "wiki",
@@ -4492,7 +4492,7 @@
   },
   {
     "key": "gupta_empire_c",
-    "text": "Gupta Empire",
+    "text": "ຈັກກະພັດ Gupta",
     "english": "Gupta Empire",
     "notes": " ",
     "tag": "wiki",
@@ -4510,7 +4510,7 @@
   },
   {
     "key": "Abbasid_c",
-    "text": "Califfato abbaside",
+    "text": "Abbasid Caliphate",
     "english": "Abbasid Caliphate",
     "notes": " ",
     "tag": "wiki",
@@ -4519,7 +4519,7 @@
   },
   {
     "key": "Mamluk_c",
-    "text": "Mamluk Sultanato",
+    "text": "ມຳລັກ ສຸນທານີ",
     "english": "Mamluk Sultanate",
     "notes": " ",
     "tag": "wiki",
@@ -4537,7 +4537,7 @@
   },
   {
     "key": "wulfila",
-    "text": "Wulfila Bible",
+    "text": "Wulfila ພະຄໍາພີ",
     "english": "Wulfila Bible",
     "notes": "2025-09-20",
     "tag": "wiki",
@@ -4546,34 +4546,34 @@
   },
   {
     "key": "tran_dynasty_c",
-    "text": "Dinastia Trần",
+    "text": "ລາຊະວົງ ເຈີ່ນ",
     "english": "Trần dynasty",
-    "notes": " ",
+    "notes": "1225–1400",
     "tag": "wiki",
-    "checked": "True",
+    "checked": "False",
     "category": "wiki"
   },
   {
     "key": "le_dynasty_c",
-    "text": "Dinastia Lê",
+    "text": "ລາຊະວົງ ເລ",
     "english": "Lê dynasty",
-    "notes": " ",
+    "notes": "1428-1527",
     "tag": "wiki",
-    "checked": "True",
+    "checked": "False",
     "category": "wiki"
   },
   {
     "key": "revival_le_dynasty_c",
-    "text": "Sovrani Trịnh, Sovrani Nguyễn",
+    "text": "ເຈົ້ານາຍ Trunh ແລະເຈົ້ານາຍ Nguyễn",
     "english": "Trịnh lords and Nguyễn lords",
-    "notes": "Nhà Lê trung hưng",
+    "notes": "Nhà Lê trung hưng, Revival Lê dynasty 1533–1789 ",
     "tag": "wiki",
     "checked": "False",
     "category": "wiki"
   },
   {
     "key": "seljuk_empire_c",
-    "text": "Impero selgiuchide",
+    "text": "ອານາຈັກເຊລຈູກ",
     "english": "Seljuk empire",
     "notes": " ",
     "tag": "wiki",
@@ -4582,7 +4582,7 @@
   },
   {
     "key": "vandals_c",
-    "text": "Vandali",
+    "text": "Vandals",
     "english": "Vandals",
     "notes": " ",
     "tag": "wiki",
@@ -4591,7 +4591,7 @@
   },
   {
     "key": "lombard_c",
-    "text": "Regno Longobardo",
+    "text": "ອານາຈັກ Lombard",
     "english": "Lombard Kingdom",
     "notes": "2025-10-13",
     "tag": "wiki",
