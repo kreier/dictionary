@@ -134,28 +134,35 @@ Python-generated `docs/index.html`.
 
 ## Future editing architecture
 
-The intended editing flow is:
+The editing and submission flow is:
 
-    Browser
-       |
-       v
-    Cloudflare verification / Worker
-       |
-       v
-    GitHub API
-       |
-       v
-    Pull Request
-       |
-       v
-    kreier/timeline
-       |
-       | merge
-       v
-    dictionary data synchronization
-       |
-       v
-    public/data/*.json
+    Browser (Dictionary Web App)
+       │  User modifies Text/Notes/Checked in Edit Mode
+       │  Clicks "Submit Changes"
+       ▼
+    Cloudflare Worker (`dictionary-submissions`)
+       │  • Validates Turnstile bot check
+       │  • Authenticates via private GitHub Token
+       │  • Creates GitHub Issue with diff table + JSON block
+       ▼
+    GitHub Issue created in `kreier/timeline`
+       │  • Title: [Update Translation] VI: key1, key2 (by EditorName)
+       │  • Labels: update-dictionary, lang:vi
+       ▼
+    Review & Approval (Maintainer)
+       │  Maintainer comments `/approve` or `/approved` on the Issue
+       ▼
+    GitHub Action (`approve-translation.yml`) in `kreier/timeline`
+       │  • Parses JSON payload from issue
+       │  • Updates `db/dictionary_<lang>.csv`
+       │  • Commits changes to `main`
+       │  • Closes the issue
+       ▼
+    Dictionary Synchronization Workflow
+       │  • Triggered automatically / on schedule
+       │  • `scripts/generate-data.py` regenerates `public/data/*.json`
+       ▼
+    Live dictionary updated on GitHub Pages
 
 The browser must never contain credentials capable of directly modifying
 the Timeline repository.
