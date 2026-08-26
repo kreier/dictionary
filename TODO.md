@@ -58,6 +58,6 @@
 - [x] Show modified fields only, grouped by keys in Preview Changes modal.
 - [x] Add Preview timeline dummy button.
 - [x] Implement Submit Changes modal with Cloudflare Worker proxy integration.
-- [ ] Deploy Cloudflare Worker (`dictionary-submissions`) for Turnstile + GitHub Issue creation.
-- [ ] Add `.github/workflows/approve-translation.yml` in `kreier/timeline` for `/approve` bot action.
+- [x] Deploy Cloudflare Worker (`dictionary-submissions`) for Turnstile + GitHub Issue creation.
+- [x] Add `.github/workflows/approve-translation.yml` in `kreier/timeline` for `/approve` bot action.
 - [ ] Implement timeline visualization logic for dictionary entries.
