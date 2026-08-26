@@ -21,7 +21,7 @@ header {
 
 .controls {
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
 }
 
 #language-select,
@@ -113,9 +113,11 @@ header {
 }
 
 .content {
-    max-width: 600px;
+    width: 100%;
+    max-width: 800px;
     margin: 0 auto;
     padding: 10px;
+    box-sizing: border-box;
 }
 
 .box {
@@ -170,19 +172,28 @@ textarea.box-content.edit-input:focus {
 }
 
 .edit-controls {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 8px;
+    width: 100%;
+    box-sizing: border-box;
     margin-top: 15px;
-    align-items: center;
+}
+
+@media (max-width: 640px) {
+    .edit-controls {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
 }
 
 .edit-btn,
 .preview-btn,
 .timeline-btn,
 .submit-btn {
-    padding: 9px 14px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 8px;
     font-size: 14px;
     font-weight: 600;
     border: 1px solid transparent;
@@ -190,6 +201,10 @@ textarea.box-content.edit-input:focus {
     cursor: pointer;
     transition: all 0.15s ease-in-out;
     white-space: nowrap;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .edit-btn {

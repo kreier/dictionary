@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [1.0.0] - 2026-08-27
 
 ### Added
 
@@ -19,24 +19,19 @@
 - Added multi-entry edit persistence across navigation and category changes within the active language.
 - Added "Preview Changes" modal with key-grouped diffs displaying only modified fields.
 - Added "Preview timeline" dummy button between "Preview Changes" and "Submit Changes".
-- Added "Submit Changes" modal with Cloudflare Worker proxy configuration and submission handling.
+- Added "Submit Changes" modal with Cloudflare Worker proxy integration for automated GitHub Issue creation.
 
 ### Changed
 
-- Frontend styling moved from the Python-generated HTML into
-  `src/style.css`.
+- Frontend styling moved from the Python-generated HTML into `src/style.css`.
 - Frontend application logic moved from generated HTML into `src/main.ts`.
 - Vite 8.2.2 is now used as the frontend build system.
 - TypeScript 7.0.2 is used for the frontend.
-- Reorganized edit controls into a single horizontal row on the left ("Enable editing", "Preview Changes", "Preview timeline", "Submit Changes").
+- Reorganized edit controls into a full-width 100% CSS grid layout (4 equal columns on desktop, 2x2 grid across 2 rows on mobile).
+- Expanded desktop maximum interface width from 600px to 800px.
 - Renamed "EDIT" button to "Enable editing" / "Exit Edit Mode".
 
-### Removed
-
-- None yet.
-
-### Not yet migrated
+### Future Roadmap
 
 - Timeline rendering logic for the "Preview timeline" button.
-- Cloudflare Worker deployment and `/approve` Action workflow in `kreier/timeline`.
-- GitHub Pages deployment still uses the old deployment mechanism.
+- Native Cloudflare Turnstile bot protection widget integration.
