@@ -17,7 +17,7 @@ interface DictionaryEntry {
     chatgpt?: string;
     gemini?: string;
     claude?: string;
-    bing?: string;
+    deepl?: string;
     checked?: string;
     checked_by?: string;
     date?: string;
@@ -161,8 +161,8 @@ app.innerHTML = `
         </div>
 
         <div class="box">
-            <div class="box-label">Bing</div>
-            <div class="box-content" id="box-bing"></div>
+            <div class="box-label">DeepL</div>
+            <div class="box-content" id="box-deepl"></div>
         </div>
 
     </main>
@@ -337,7 +337,7 @@ function showEntry(): void {
     setBox("chatgpt", entry.chatgpt);
     setBox("gemini", entry.gemini);
     setBox("claude", entry.claude);
-    setBox("bing", entry.bing);
+    setBox("deepl", entry.deepl);
 
     const checkedEmoji =
         document.getElementById("checked-emoji");
@@ -392,7 +392,7 @@ function clearDisplay(): void {
         "chatgpt",
         "gemini",
         "claude",
-        "bing"
+        "deepl"
     ]) {
         setBox(field, "");
     }
