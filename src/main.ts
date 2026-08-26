@@ -66,7 +66,7 @@ const pendingEdits = new Map<string, PendingEdit>();
 // Default Cloudflare Worker submission endpoint (can be customized)
 let workerEndpoint =
     localStorage.getItem("dictionary_worker_url") ||
-    "https://dictionary-submissions.your-subdomain.workers.dev/submit";
+    "https://dictionary-submisisons.matthias-kreier.workers.dev/";
 
 const app = document.querySelector<HTMLDivElement>("#app");
 
