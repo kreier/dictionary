@@ -47,6 +47,7 @@ let currentIndex = 0;
 let currentCategory: Category = "text";
 
 let editMode = false;
+let editorName = localStorage.getItem("dictionary_editor_name") || "";
 let originalEdit: {
     text: string;
     notes: string;
@@ -137,6 +138,7 @@ app.innerHTML = `
             <textarea
                 class="box-content edit-input"
                 id="box-text"
+                rows="2"
                 readonly
             ></textarea>
         </div>
@@ -151,6 +153,7 @@ app.innerHTML = `
             <textarea
                 class="box-content edit-input"
                 id="box-notes"
+                rows="2"
                 readonly
             ></textarea>
         </div>
@@ -182,77 +185,100 @@ app.innerHTML = `
 
         <div class="edit-controls">
             <button class="edit-btn" id="edit-btn">
-                EDIT
+                Enable editing
             </button>
 
             <button class="preview-btn" id="preview-btn" disabled>
                 Preview Changes
             </button>
 
+            <button class="timeline-btn" id="preview-timeline-btn">
+                Preview timeline
+            </button>
+
             <button class="submit-btn" id="submit-btn" disabled>
                 Submit Changes
             </button>
         </div>
+
         <div id="edit-status" class="edit-status">
             Editing is disabled.
         </div>
-
-        <div id="editor-field" class="editor-field" hidden>
-            <label for="edit-name">Your name</label>
-            <input
-                type="text"
-                id="edit-name"
-                placeholder="Name associated with your changes"
-                autocomplete="name"
-            >
-        </div>
     </main>
 
-    <div id="edit-modal" class="modal">
+    <!-- Activation Modal -->
+    <div id="activation-modal" class="modal">
         <div class="modal-content">
-
-            <h2>Edit Entry</h2>
-
+            <h2>Activate Edit Mode</h2>
+            <p class="modal-prompt">Please enter your name, so we can attribute your edits:</p>
             <div class="edit-field">
-                <label for="edit-name">Name</label>
                 <input
                     type="text"
-                    id="edit-name"
-                    placeholder="Your name"
+                    id="activation-name"
+                    placeholder="Your name (e.g. Jane Doe)"
+                    autocomplete="name"
                 >
             </div>
+            <div class="modal-actions">
+                <button id="activation-cancel-btn" class="btn-secondary">Cancel</button>
+                <button id="activation-confirm-btn" class="btn-primary">Activate Edit Mode</button>
+            </div>
+        </div>
+    </div>
 
-            <div class="edit-field">
-                <label for="edit-text">Text</label>
-                <textarea
-                    id="edit-text"
-                    rows="4"
-                ></textarea>
+    <!-- Preview Changes Modal -->
+    <div id="preview-modal" class="modal">
+        <div class="modal-content modal-large">
+            <h2>Preview Changes</h2>
+            <div class="preview-header-info">
+                <span id="preview-key-info"></span>
+                <span id="preview-editor-info"></span>
             </div>
 
-            <div class="edit-field">
-                <label for="edit-notes">Notes</label>
-                <textarea
-                    id="edit-notes"
-                    rows="3"
-                ></textarea>
+            <div class="preview-comparison">
+                <div class="preview-section">
+                    <h3>Text</h3>
+                    <div class="diff-block">
+                        <div class="diff-pane">
+                            <span class="diff-label">Original:</span>
+                            <div id="preview-text-orig" class="diff-content original"></div>
+                        </div>
+                        <div class="diff-pane">
+                            <span class="diff-label">Modified:</span>
+                            <div id="preview-text-mod" class="diff-content modified"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="preview-section">
+                    <h3>Notes</h3>
+                    <div class="diff-block">
+                        <div class="diff-pane">
+                            <span class="diff-label">Original:</span>
+                            <div id="preview-notes-orig" class="diff-content original"></div>
+                        </div>
+                        <div class="diff-pane">
+                            <span class="diff-label">Modified:</span>
+                            <div id="preview-notes-mod" class="diff-content modified"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="edit-field edit-checkbox">
-                <label>
-                    <input
-                        type="checkbox"
-                        id="edit-checked"
-                    >
-                    Checked
-                </label>
+            <div class="modal-actions">
+                <button id="preview-close-btn" class="btn-primary">Close Preview</button>
             </div>
+        </div>
+    </div>
 
-            <div class="edit-actions">
-                <button id="edit-cancel">Cancel</button>
-                <button id="edit-preview">Preview changes</button>
+    <!-- Info / Alert Modal -->
+    <div id="info-modal" class="modal">
+        <div class="modal-content">
+            <h2 id="info-modal-title">Notice</h2>
+            <p id="info-modal-message"></p>
+            <div class="modal-actions">
+                <button id="info-modal-close" class="btn-primary">OK</button>
             </div>
-
         </div>
     </div>
 `;
@@ -283,29 +309,11 @@ const nextButton =
 const editButton =
     document.querySelector<HTMLButtonElement>("#edit-btn")!;
 
-const editModal =
-    document.querySelector<HTMLDivElement>("#edit-modal")!;
-
-const editName =
-    document.querySelector<HTMLInputElement>("#edit-name")!;
-
-const editText =
-    document.querySelector<HTMLTextAreaElement>("#edit-text")!;
-
-const editNotes =
-    document.querySelector<HTMLTextAreaElement>("#edit-notes")!;
-
-const editChecked =
-    document.querySelector<HTMLInputElement>("#edit-checked")!;
-
-const editCancel =
-    document.querySelector<HTMLButtonElement>("#edit-cancel")!;
-
-const editPreview =
-    document.querySelector<HTMLButtonElement>("#edit-preview")!;
-
 const previewButton =
     document.querySelector<HTMLButtonElement>("#preview-btn")!;
+
+const previewTimelineButton =
+    document.querySelector<HTMLButtonElement>("#preview-timeline-btn")!;
 
 const submitButton =
     document.querySelector<HTMLButtonElement>("#submit-btn")!;
@@ -313,14 +321,77 @@ const submitButton =
 const editStatus =
     document.querySelector<HTMLDivElement>("#edit-status")!;
 
-const editorField =
-    document.querySelector<HTMLDivElement>("#editor-field")!;
-
 const textInput =
     document.querySelector<HTMLTextAreaElement>("#box-text")!;
 
 const notesInput =
     document.querySelector<HTMLTextAreaElement>("#box-notes")!;
+
+// Activation Modal Elements
+const activationModal =
+    document.querySelector<HTMLDivElement>("#activation-modal")!;
+
+const activationNameInput =
+    document.querySelector<HTMLInputElement>("#activation-name")!;
+
+const activationCancelBtn =
+    document.querySelector<HTMLButtonElement>("#activation-cancel-btn")!;
+
+const activationConfirmBtn =
+    document.querySelector<HTMLButtonElement>("#activation-confirm-btn")!;
+
+// Preview Modal Elements
+const previewModal =
+    document.querySelector<HTMLDivElement>("#preview-modal")!;
+
+const previewKeyInfo =
+    document.querySelector<HTMLSpanElement>("#preview-key-info")!;
+
+const previewEditorInfo =
+    document.querySelector<HTMLSpanElement>("#preview-editor-info")!;
+
+const previewTextOrig =
+    document.querySelector<HTMLDivElement>("#preview-text-orig")!;
+
+const previewTextMod =
+    document.querySelector<HTMLDivElement>("#preview-text-mod")!;
+
+const previewNotesOrig =
+    document.querySelector<HTMLDivElement>("#preview-notes-orig")!;
+
+const previewNotesMod =
+    document.querySelector<HTMLDivElement>("#preview-notes-mod")!;
+
+const previewCloseBtn =
+    document.querySelector<HTMLButtonElement>("#preview-close-btn")!;
+
+// Info Modal Elements
+const infoModal =
+    document.querySelector<HTMLDivElement>("#info-modal")!;
+
+const infoModalTitle =
+    document.querySelector<HTMLHeadingElement>("#info-modal-title")!;
+
+const infoModalMessage =
+    document.querySelector<HTMLParagraphElement>("#info-modal-message")!;
+
+const infoModalClose =
+    document.querySelector<HTMLButtonElement>("#info-modal-close")!;
+
+
+/*
+ * Helper modal alert
+ */
+function showInfoModal(title: string, message: string): void {
+    infoModalTitle.textContent = title;
+    infoModalMessage.textContent = message;
+    infoModal.classList.add("visible");
+}
+
+infoModalClose.addEventListener("click", () => {
+    infoModal.classList.remove("visible");
+});
+
 
 /*
  * Load the available languages.
@@ -460,10 +531,8 @@ function showEntry(): void {
     keySelect.value = String(currentIndex);
 
     setBox("key", entry.key);
-    // setBox("text", entry.text);
     textInput.value = entry.text;
     setBox("english", entry.english);
-    // setBox("notes", entry.notes);
     notesInput.value = entry.notes ?? "";
     setBox("google", entry.google);
     setBox("chatgpt", entry.chatgpt);
@@ -490,6 +559,15 @@ function showEntry(): void {
     prevButton.disabled = currentIndex === 0;
     nextButton.disabled =
         currentIndex >= filteredEntries.length - 1;
+
+    if (editMode) {
+        originalEdit = {
+            text: entry.text,
+            notes: entry.notes ?? "",
+            checked: entry.checked ?? "False"
+        };
+        updateEditButtons();
+    }
 }
 
 
@@ -517,9 +595,7 @@ function setBox(
 function clearDisplay(): void {
     for (const field of [
         "key",
-        "text",
         "english",
-        "notes",
         "google",
         "chatgpt",
         "gemini",
@@ -528,6 +604,9 @@ function clearDisplay(): void {
     ]) {
         setBox(field, "");
     }
+
+    textInput.value = "";
+    notesInput.value = "";
 
     document.getElementById("checked-emoji")!.textContent = "";
     document.getElementById("checked-info")!.textContent = "";
@@ -608,30 +687,6 @@ nextButton.addEventListener("click", () => {
     }
 });
 
-/*
- * Edit interface
- */
-
-editButton.addEventListener("click", () => {
-    const entry = filteredEntries[currentIndex];
-
-    if (!entry) {
-        return;
-    }
-
-    editName.value = "";
-    editText.value = entry.text;
-    editNotes.value = entry.notes ?? "";
-    editChecked.checked = entry.checked === "True";
-
-    editModal.classList.add("visible");
-});
-
-
-editCancel.addEventListener("click", () => {
-    editModal.classList.remove("visible");
-});
-
 
 /*
  * Make the header spacing adapt to its actual height.
@@ -659,11 +714,12 @@ if (header) {
     observer.observe(header);
 }
 
+
 /*
- * edit-mode logic
+ * Edit-mode logic
  */
 
-function enterEditMode() {
+function enterEditMode(): void {
     const entry = filteredEntries[currentIndex];
 
     if (!entry) {
@@ -680,35 +736,34 @@ function enterEditMode() {
 
     textInput.readOnly = false;
     notesInput.readOnly = false;
-
-    editorField.hidden = false;
+    textInput.classList.add("editable");
+    notesInput.classList.add("editable");
 
     editButton.textContent = "Exit Edit Mode";
+    editButton.classList.add("active");
 
     editStatus.textContent =
-        "Edit mode active. Enter your name and make your changes.";
-
-    previewButton.disabled = true;
-    submitButton.disabled = true;
+        `Edit mode active. Editing as "${editorName}". You can edit Text and Notes.`;
+    editStatus.classList.add("active");
 
     updateEditButtons();
 }
 
-function exitEditMode() {
+function exitEditMode(): void {
     editMode = false;
     originalEdit = null;
 
     textInput.readOnly = true;
     notesInput.readOnly = true;
+    textInput.classList.remove("editable");
+    notesInput.classList.remove("editable");
 
-    editorField.hidden = true;
-
-    editName.value = "";
-
-    editButton.textContent = "EDIT";
+    editButton.textContent = "Enable editing";
+    editButton.classList.remove("active");
 
     editStatus.textContent =
         "Editing is disabled.";
+    editStatus.classList.remove("active");
 
     previewButton.disabled = true;
     submitButton.disabled = true;
@@ -716,22 +771,8 @@ function exitEditMode() {
     showEntry();
 }
 
-editButton.addEventListener("click", () => {
-    if (editMode) {
-        exitEditMode();
-    } else {
-        enterEditMode();
-    }
-});
-
 function hasChanges(): boolean {
     if (!originalEdit) {
-        return false;
-    }
-
-    const entry = filteredEntries[currentIndex];
-
-    if (!entry) {
         return false;
     }
 
@@ -741,18 +782,101 @@ function hasChanges(): boolean {
     );
 }
 
-function updateEditButtons() {
+function updateEditButtons(): void {
     const changed = editMode && hasChanges();
 
     previewButton.disabled = !changed;
-    submitButton.disabled =
-        !changed || editName.value.trim() === "";
+    submitButton.disabled = !changed;
 }
 
 textInput.addEventListener("input", updateEditButtons);
 notesInput.addEventListener("input", updateEditButtons);
-editName.addEventListener("input", updateEditButtons);
 
+editButton.addEventListener("click", () => {
+    if (editMode) {
+        exitEditMode();
+    } else {
+        // Open activation modal
+        activationNameInput.value = editorName;
+        activationModal.classList.add("visible");
+        setTimeout(() => activationNameInput.focus(), 50);
+    }
+});
+
+activationCancelBtn.addEventListener("click", () => {
+    activationModal.classList.remove("visible");
+});
+
+function handleActivationConfirm(): void {
+    const name = activationNameInput.value.trim();
+    if (!name) {
+        activationNameInput.focus();
+        activationNameInput.classList.add("input-error");
+        return;
+    }
+
+    activationNameInput.classList.remove("input-error");
+    editorName = name;
+    localStorage.setItem("dictionary_editor_name", editorName);
+    activationModal.classList.remove("visible");
+    enterEditMode();
+}
+
+activationConfirmBtn.addEventListener("click", handleActivationConfirm);
+activationNameInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+        handleActivationConfirm();
+    }
+});
+
+
+/*
+ * Preview Changes Modal logic
+ */
+
+previewButton.addEventListener("click", () => {
+    const entry = filteredEntries[currentIndex];
+    if (!entry) return;
+
+    previewKeyInfo.textContent = `Entry: [${entry.key}] (${currentLanguage.toUpperCase()})`;
+    previewEditorInfo.textContent = `Editor: ${editorName}`;
+
+    previewTextOrig.textContent = originalEdit?.text ?? entry.text;
+    previewTextMod.textContent = textInput.value;
+
+    previewNotesOrig.textContent = originalEdit?.notes ?? (entry.notes ?? "");
+    previewNotesMod.textContent = notesInput.value;
+
+    previewModal.classList.add("visible");
+});
+
+previewCloseBtn.addEventListener("click", () => {
+    previewModal.classList.remove("visible");
+});
+
+
+/*
+ * Preview Timeline dummy logic
+ */
+
+previewTimelineButton.addEventListener("click", () => {
+    showInfoModal(
+        "Preview Timeline",
+        "Timeline preview is in progress! The logic to render an interactive timeline for this dictionary entry will follow in an upcoming update."
+    );
+});
+
+
+/*
+ * Submit Changes logic
+ */
+
+submitButton.addEventListener("click", () => {
+    showInfoModal(
+        "Submit Changes",
+        "Submission will be enabled once Cloudflare Turnstile bot and spam verification is configured."
+    );
+});
 
 
 /*

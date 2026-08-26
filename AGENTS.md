@@ -411,18 +411,21 @@ Do not implement direct browser-to-GitHub repository writes.
 
 ## Editing status
 
-The edit functionality from the old `webview.py` has not yet been migrated
-to the Vite application.
+The local edit interface has been implemented in the Vite application with
+in-place editing of Text and Notes, editor attribution, change detection,
+and a before/after preview modal.
 
 Current status:
 
     Step 3B: read-only dictionary viewer — complete
+    Step 3C: edit interface (local UI & change preview) — complete
 
-Next major frontend step:
+Next major frontend / integration steps:
 
-    Step 3C: edit interface
+    Step 3D: timeline rendering logic (Preview timeline button)
+    Step 3E: Cloudflare Turnstile verification & Worker GitHub PR submission
 
-The edit workflow should initially be implemented as a local UI and change
+The edit workflow is currently implemented as a local UI and change
 preview before integrating Cloudflare and GitHub API functionality.
 
 ---

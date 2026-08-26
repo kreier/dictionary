@@ -138,20 +138,139 @@ header {
     white-space: pre-wrap;
 }
 
+textarea.box-content.edit-input {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.4;
+    min-height: 2.8em;
+    height: 2.8em;
+    resize: vertical;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 2px 4px;
+    background: transparent;
+    color: inherit;
+    outline: none;
+    margin: 0;
+}
+
+textarea.box-content.edit-input.editable {
+    background: #fff;
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.15rem rgba(0, 123, 255, 0.25);
+    padding: 6px 8px;
+}
+
+textarea.box-content.edit-input:focus {
+    border-color: #007bff;
+    background: #fff;
+}
+
+.edit-controls {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.edit-btn,
+.preview-btn,
+.timeline-btn,
+.submit-btn {
+    padding: 9px 14px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    white-space: nowrap;
+}
+
 .edit-btn {
     background: #28a745;
     color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 20px;
-    width: 100%;
-    font-size: 16px;
+    border-color: #28a745;
 }
 
-.edit-btn:hover {
+.edit-btn:hover:not(:disabled) {
     background: #218838;
+    border-color: #1e7e34;
+}
+
+.edit-btn.active {
+    background: #dc3545;
+    border-color: #dc3545;
+}
+
+.edit-btn.active:hover:not(:disabled) {
+    background: #c82333;
+    border-color: #bd2130;
+}
+
+.preview-btn {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.preview-btn:hover:not(:disabled) {
+    background: #0069d9;
+    border-color: #0062cc;
+}
+
+.timeline-btn {
+    background: #6f42c1;
+    color: white;
+    border-color: #6f42c1;
+}
+
+.timeline-btn:hover:not(:disabled) {
+    background: #5a32a3;
+    border-color: #4e2b8f;
+}
+
+.submit-btn {
+    background: #17a2b8;
+    color: white;
+    border-color: #17a2b8;
+}
+
+.submit-btn:hover:not(:disabled) {
+    background: #138496;
+    border-color: #117a8b;
+}
+
+.edit-btn:disabled,
+.preview-btn:disabled,
+.timeline-btn:disabled,
+.submit-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    background: #adb5bd;
+    border-color: #adb5bd;
+    color: #495057;
+}
+
+.edit-status {
+    font-size: 13px;
+    color: #666;
+    padding: 8px 12px;
+    background: #e9ecef;
+    border-radius: 4px;
+    margin-top: 10px;
+    border-left: 4px solid #adb5bd;
+}
+
+.edit-status.active {
+    background: #e8f4fd;
+    color: #0056b3;
+    border-left-color: #007bff;
 }
 
 .modal {
@@ -173,65 +292,155 @@ header {
 
 .modal-content {
     background: white;
-    padding: 20px;
+    padding: 24px;
     border-radius: 8px;
     width: 90%;
-    max-width: 500px;
+    max-width: 480px;
     max-height: 90vh;
     overflow-y: auto;
     box-sizing: border-box;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content.modal-large {
+    max-width: 650px;
 }
 
 .modal-content h2 {
     margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: #333;
+}
+
+.modal-prompt {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.4;
 }
 
 .edit-field {
     margin-bottom: 15px;
 }
 
-.edit-field label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.edit-field input[type="text"],
-.edit-field textarea {
+.edit-field input[type="text"] {
     width: 100%;
-    padding: 8px;
+    padding: 10px 12px;
     box-sizing: border-box;
     font-family: inherit;
-    font-size: 16px;
-    border: 1px solid #ccc;
+    font-size: 15px;
+    border: 1px solid #ced4da;
     border-radius: 4px;
+    outline: none;
 }
 
-.edit-checkbox label {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-weight: normal;
+.edit-field input[type="text"]:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
-.edit-actions {
+.edit-field input[type="text"].input-error {
+    border-color: #dc3545;
+    box-shadow: 0 0 0 0.2rem rgba(220, 53, 69, 0.25);
+}
+
+.modal-actions {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     gap: 10px;
     margin-top: 20px;
 }
 
-.edit-actions button {
-    padding: 8px 15px;
-    cursor: pointer;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    background: #eee;
-}
-
-.edit-actions button:last-child {
+.btn-primary {
     background: #007bff;
     color: white;
-    border-color: #007bff;
+    border: 1px solid #007bff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background: #0069d9;
+}
+
+.btn-secondary {
+    background: #6c757d;
+    color: white;
+    border: 1px solid #6c757d;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.btn-secondary:hover {
+    background: #5a6268;
+}
+
+.preview-header-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.preview-section {
+    margin-bottom: 16px;
+}
+
+.preview-section h3 {
+    font-size: 14px;
+    margin: 0 0 6px 0;
+    color: #444;
+}
+
+.diff-block {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.diff-pane {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.diff-label {
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #888;
+}
+
+.diff-content {
+    font-size: 14px;
+    white-space: pre-wrap;
+    padding: 6px 8px;
+    border-radius: 3px;
+    min-height: 1.4em;
+}
+
+.diff-content.original {
+    background: #ffeef0;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+}
+
+.diff-content.modified {
+    background: #e6ffed;
+    border: 1px solid #c3e6cb;
+    color: #155724;
 }
