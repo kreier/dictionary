@@ -1,139 +1,114 @@
-#!/usr/bin/env python3
-
 import argparse
 import csv
 import json
-import shutil
 from pathlib import Path
 
 
-def read_csv(path: Path) -> list[dict[str, str]]:
-    """Read a CSV file using UTF-8 and return its rows as dictionaries."""
-    with path.open("r", encoding="utf-8-sig", newline="") as f:
-        return list(csv.DictReader(f))
+CATEGORIES = {
+    "text": ["text"],
+    "bible": ["bible"],
+    "A6": ["A6-A", "A6-B"],
+    "B9": ["B9"],
+    "wiki": ["wiki"],
+    "other": ["scripture", "span_bc", "span_bce", "span_ce"],
+}
+
+EXCLUDE_TAGS = ["timespan", "float", "deprecated"]
 
 
-def get_category(row: dict[str, str]) -> str:
-    """Determine the web dictionary category for a dictionary entry."""
+def process_dictionaries(source_dir: Path, output_dir: Path):
+    """Convert dictionary CSV files into JSON files for the web interface."""
 
-    tag = (row.get("tag") or "").strip().lower()
+    output_dir.mkdir(parents=True, exist_ok=True)
 
-    if tag == "bible":
-        return "bible"
+    supported_lang_file = source_dir / "supported_languages.csv"
 
-    if tag == "a6":
-        return "A6"
+    languages = []
 
-    if tag == "b9":
-        return "B9"
+    with supported_lang_file.open(
+        mode="r",
+        encoding="utf-8-sig",
+        newline=""
+    ) as f:
+        reader = csv.DictReader(f)
 
-    if tag == "wiki":
-        return "wiki"
+        for row in reader:
+            if row["dict"].upper() == "TRUE":
+                languages.append({
+                    "key": row["key"],
+                    "language_str": row["language_str"],
+                })
 
-    if tag == "text":
-        return "text"
+    for lang in languages:
+        lang_key = lang["key"]
+        dict_file = source_dir / f"dictionary_{lang_key}.csv"
 
-    return "other"
-
-
-def should_include(row: dict[str, str]) -> bool:
-    """Return True if the entry should be included in the web dictionary."""
-
-    tag = (row.get("tag") or "").strip().lower()
-
-    excluded_tags = {
-        "timespan",
-        "float",
-        "deprecated",
-    }
-
-    return tag not in excluded_tags
-
-
-def generate_language(
-    language: str,
-    source_dir: Path,
-    output_dir: Path,
-) -> None:
-    """Convert one dictionary CSV into its web JSON representation."""
-
-    source_file = source_dir / f"dictionary_{language}.csv"
-
-    if not source_file.exists():
-        print(f"Warning: {source_file} does not exist")
-        return
-
-    rows = read_csv(source_file)
-
-    entries = []
-
-    for row in rows:
-        if not should_include(row):
+        if not dict_file.exists():
+            print(f"Warning: {dict_file} not found.")
             continue
 
-        entry = dict(row)
-        entry["category"] = get_category(row)
+        entries = []
 
-        entries.append(entry)
+        with dict_file.open(
+            mode="r",
+            encoding="utf-8-sig",
+            newline=""
+        ) as f:
+            reader = csv.DictReader(f)
 
-    output_file = output_dir / f"{language}.json"
+            for row in reader:
+                tag = row.get("tag", "").strip()
 
-    with output_file.open("w", encoding="utf-8") as f:
+                if tag in EXCLUDE_TAGS:
+                    continue
+
+                category = None
+
+                for cat_name, tags in CATEGORIES.items():
+                    if tag in tags:
+                        category = cat_name
+                        break
+
+                if category:
+                    row["category"] = category
+                    entries.append(row)
+
+        output_file = output_dir / f"{lang_key}.json"
+
+        with output_file.open("w", encoding="utf-8") as f:
+            json.dump(
+                entries,
+                f,
+                ensure_ascii=False,
+                indent=2,
+            )
+
+        print(
+            f"Generated {output_file} "
+            f"({len(entries)} entries)"
+        )
+
+    languages_file = output_dir / "languages.json"
+
+    with languages_file.open("w", encoding="utf-8") as f:
         json.dump(
-            entries,
+            languages,
             f,
             ensure_ascii=False,
             indent=2,
         )
 
     print(
-        f"{language}: "
-        f"{len(entries):,} entries → {output_file}"
+        f"Generated {languages_file} "
+        f"({len(languages)} languages)"
     )
 
-
-def generate(
-    source_dir: Path,
-    output_dir: Path,
-) -> None:
-    """Generate all web dictionary JSON files."""
-
-    supported_languages_file = source_dir / "supported_languages.csv"
-
-    if not supported_languages_file.exists():
-        raise FileNotFoundError(
-            f"Could not find {supported_languages_file}"
-        )
-
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    languages = read_csv(supported_languages_file)
-
-    for language in languages:
-        if (
-            language.get("dict") or ""
-        ).strip().upper() != "TRUE":
-            continue
-
-        code = (language.get("language") or "").strip()
-
-        if not code:
-            print("Warning: language entry has no language code")
-            continue
-
-        generate_language(
-            language=code,
-            source_dir=source_dir,
-            output_dir=output_dir,
-        )
+    return languages
 
 
-def main() -> None:
+def main():
     parser = argparse.ArgumentParser(
-        description=(
-            "Generate dictionary JSON files from "
-            "the Timeline database."
-        )
+        description="Generate dictionary JSON files from CSV data."
     )
 
     parser.add_argument(
@@ -150,12 +125,12 @@ def main() -> None:
         "--output",
         type=Path,
         default=Path("public/data"),
-        help="Directory in which to write JSON files",
+        help="Directory where JSON files will be generated",
     )
 
     args = parser.parse_args()
 
-    generate(
+    process_dictionaries(
         source_dir=args.source,
         output_dir=args.output,
     )
