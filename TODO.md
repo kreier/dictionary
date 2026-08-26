@@ -17,7 +17,7 @@
 - [x] Implement previous/next navigation.
 - [x] Display dictionary fields.
 - [x] Display checked status, editor and date.
-- [ ] Implement edit interface.
+- [x] Implement edit interface.
 - [ ] Remove HTML generation from `webview.py`.
 - [ ] Remove obsolete frontend code from `webview.py`.
 
@@ -27,7 +27,7 @@
 - [ ] Verify all supported languages.
 - [ ] Verify all dictionary categories.
 - [ ] Verify mobile layout.
-- [ ] Run `npm run build`.
+- [x] Run `npm run build`.
 - [ ] Run `npm run preview`.
 
 ## GitHub Pages
@@ -50,12 +50,14 @@
 
 ## Editing
 
-- [ ] Add EDIT button.
-- [ ] Add edit modal.
-- [ ] Populate edit form from current entry.
-- [ ] Validate edits.
-- [ ] Show proposed changes before submission.
-- [ ] Add Cloudflare verification / bot protection.
+- [x] Add Enable editing button in one row on the left.
+- [x] Add edit activation modal with editor name attribution.
+- [x] Enable in-place editing for TEXT and NOTES fields with full-width layout.
+- [x] Validate edits and detect unsaved changes.
+- [x] Show proposed changes before submission (Preview Changes modal).
+- [x] Add Preview timeline dummy button.
+- [ ] Implement timeline visualization logic for dictionary entries.
+- [ ] Add Cloudflare verification / bot protection (Turnstile).
 - [ ] Implement Cloudflare Worker.
 - [ ] Implement secure GitHub API access.
 - [ ] Create pull request against `kreier/timeline`.

@@ -13,6 +13,10 @@
 - Added key selection and previous/next navigation.
 - Added display of dictionary translation, notes and AI/translation fields.
 - Added display of dictionary verification status, editor and date.
+- Added edit mode activation with required name attribution dialog.
+- Added in-place editing for TEXT and NOTES textareas with full-width stretching and height presets.
+- Added "Preview Changes" modal with side-by-side diff comparison for original vs modified text/notes.
+- Added "Preview timeline" dummy button between "Preview Changes" and "Submit Changes".
 
 ### Changed
 
@@ -21,6 +25,8 @@
 - Frontend application logic moved from generated HTML into `src/main.ts`.
 - Vite 8.2.2 is now used as the frontend build system.
 - TypeScript 7.0.2 is used for the frontend.
+- Reorganized edit controls into a single horizontal row on the left ("Enable editing", "Preview Changes", "Preview timeline", "Submit Changes").
+- Renamed "EDIT" button to "Enable editing" / "Exit Edit Mode".
 
 ### Removed
 
@@ -28,6 +34,6 @@
 
 ### Not yet migrated
 
-- Dictionary editing functionality remains to be migrated from the old
-  `webview.py` implementation.
+- Timeline rendering logic for the "Preview timeline" button.
+- Cloudflare Turnstile bot verification and secure Worker submission to GitHub API.
 - GitHub Pages deployment still uses the old deployment mechanism.

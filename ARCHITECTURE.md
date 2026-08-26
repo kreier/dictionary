@@ -109,9 +109,13 @@ The dictionary viewer currently supports:
 - display of dictionary fields;
 - checked status;
 - checked-by information;
-- checked date.
+- checked date;
+- edit mode activation with editor attribution;
+- in-place editing for Text and Notes;
+- before/after diff preview modal for proposed changes;
+- placeholder for timeline preview.
 
-The edit interface is not yet part of the Vite implementation.
+The Cloudflare security check and automated pull request submission will be integrated in subsequent steps.
 
 ## GitHub Pages
 
