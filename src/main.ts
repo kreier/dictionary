@@ -46,6 +46,13 @@ let currentLanguage = "";
 let currentIndex = 0;
 let currentCategory: Category = "text";
 
+let editMode = false;
+let originalEdit: {
+    text: string;
+    notes: string;
+    checked: string;
+} | null = null;
+
 const app = document.querySelector<HTMLDivElement>("#app");
 
 if (!app) {
@@ -127,7 +134,11 @@ app.innerHTML = `
 
         <div class="box">
             <div class="box-label">Text</div>
-            <div class="box-content" id="box-text"></div>
+            <textarea
+                class="box-content edit-input"
+                id="box-text"
+                readonly
+            ></textarea>
         </div>
 
         <div class="box">
@@ -137,7 +148,11 @@ app.innerHTML = `
 
         <div class="box">
             <div class="box-label">Notes</div>
-            <div class="box-content" id="box-notes"></div>
+            <textarea
+                class="box-content edit-input"
+                id="box-notes"
+                readonly
+            ></textarea>
         </div>
 
         <div class="box">
@@ -165,7 +180,81 @@ app.innerHTML = `
             <div class="box-content" id="box-deepl"></div>
         </div>
 
+        <div class="edit-controls">
+            <button class="edit-btn" id="edit-btn">
+                EDIT
+            </button>
+
+            <button class="preview-btn" id="preview-btn" disabled>
+                Preview Changes
+            </button>
+
+            <button class="submit-btn" id="submit-btn" disabled>
+                Submit Changes
+            </button>
+        </div>
+        <div id="edit-status" class="edit-status">
+            Editing is disabled.
+        </div>
+
+        <div id="editor-field" class="editor-field" hidden>
+            <label for="edit-name">Your name</label>
+            <input
+                type="text"
+                id="edit-name"
+                placeholder="Name associated with your changes"
+                autocomplete="name"
+            >
+        </div>
     </main>
+
+    <div id="edit-modal" class="modal">
+        <div class="modal-content">
+
+            <h2>Edit Entry</h2>
+
+            <div class="edit-field">
+                <label for="edit-name">Name</label>
+                <input
+                    type="text"
+                    id="edit-name"
+                    placeholder="Your name"
+                >
+            </div>
+
+            <div class="edit-field">
+                <label for="edit-text">Text</label>
+                <textarea
+                    id="edit-text"
+                    rows="4"
+                ></textarea>
+            </div>
+
+            <div class="edit-field">
+                <label for="edit-notes">Notes</label>
+                <textarea
+                    id="edit-notes"
+                    rows="3"
+                ></textarea>
+            </div>
+
+            <div class="edit-field edit-checkbox">
+                <label>
+                    <input
+                        type="checkbox"
+                        id="edit-checked"
+                    >
+                    Checked
+                </label>
+            </div>
+
+            <div class="edit-actions">
+                <button id="edit-cancel">Cancel</button>
+                <button id="edit-preview">Preview changes</button>
+            </div>
+
+        </div>
+    </div>
 `;
 
 
@@ -191,6 +280,47 @@ const prevButton =
 const nextButton =
     document.querySelector<HTMLButtonElement>("#next-btn")!;
 
+const editButton =
+    document.querySelector<HTMLButtonElement>("#edit-btn")!;
+
+const editModal =
+    document.querySelector<HTMLDivElement>("#edit-modal")!;
+
+const editName =
+    document.querySelector<HTMLInputElement>("#edit-name")!;
+
+const editText =
+    document.querySelector<HTMLTextAreaElement>("#edit-text")!;
+
+const editNotes =
+    document.querySelector<HTMLTextAreaElement>("#edit-notes")!;
+
+const editChecked =
+    document.querySelector<HTMLInputElement>("#edit-checked")!;
+
+const editCancel =
+    document.querySelector<HTMLButtonElement>("#edit-cancel")!;
+
+const editPreview =
+    document.querySelector<HTMLButtonElement>("#edit-preview")!;
+
+const previewButton =
+    document.querySelector<HTMLButtonElement>("#preview-btn")!;
+
+const submitButton =
+    document.querySelector<HTMLButtonElement>("#submit-btn")!;
+
+const editStatus =
+    document.querySelector<HTMLDivElement>("#edit-status")!;
+
+const editorField =
+    document.querySelector<HTMLDivElement>("#editor-field")!;
+
+const textInput =
+    document.querySelector<HTMLTextAreaElement>("#box-text")!;
+
+const notesInput =
+    document.querySelector<HTMLTextAreaElement>("#box-notes")!;
 
 /*
  * Load the available languages.
@@ -330,9 +460,11 @@ function showEntry(): void {
     keySelect.value = String(currentIndex);
 
     setBox("key", entry.key);
-    setBox("text", entry.text);
+    // setBox("text", entry.text);
+    textInput.value = entry.text;
     setBox("english", entry.english);
-    setBox("notes", entry.notes);
+    // setBox("notes", entry.notes);
+    notesInput.value = entry.notes ?? "";
     setBox("google", entry.google);
     setBox("chatgpt", entry.chatgpt);
     setBox("gemini", entry.gemini);
@@ -476,6 +608,30 @@ nextButton.addEventListener("click", () => {
     }
 });
 
+/*
+ * Edit interface
+ */
+
+editButton.addEventListener("click", () => {
+    const entry = filteredEntries[currentIndex];
+
+    if (!entry) {
+        return;
+    }
+
+    editName.value = "";
+    editText.value = entry.text;
+    editNotes.value = entry.notes ?? "";
+    editChecked.checked = entry.checked === "True";
+
+    editModal.classList.add("visible");
+});
+
+
+editCancel.addEventListener("click", () => {
+    editModal.classList.remove("visible");
+});
+
 
 /*
  * Make the header spacing adapt to its actual height.
@@ -502,6 +658,101 @@ if (header) {
     const observer = new ResizeObserver(adjustPadding);
     observer.observe(header);
 }
+
+/*
+ * edit-mode logic
+ */
+
+function enterEditMode() {
+    const entry = filteredEntries[currentIndex];
+
+    if (!entry) {
+        return;
+    }
+
+    editMode = true;
+
+    originalEdit = {
+        text: entry.text,
+        notes: entry.notes ?? "",
+        checked: entry.checked ?? "False"
+    };
+
+    textInput.readOnly = false;
+    notesInput.readOnly = false;
+
+    editorField.hidden = false;
+
+    editButton.textContent = "Exit Edit Mode";
+
+    editStatus.textContent =
+        "Edit mode active. Enter your name and make your changes.";
+
+    previewButton.disabled = true;
+    submitButton.disabled = true;
+
+    updateEditButtons();
+}
+
+function exitEditMode() {
+    editMode = false;
+    originalEdit = null;
+
+    textInput.readOnly = true;
+    notesInput.readOnly = true;
+
+    editorField.hidden = true;
+
+    editName.value = "";
+
+    editButton.textContent = "EDIT";
+
+    editStatus.textContent =
+        "Editing is disabled.";
+
+    previewButton.disabled = true;
+    submitButton.disabled = true;
+
+    showEntry();
+}
+
+editButton.addEventListener("click", () => {
+    if (editMode) {
+        exitEditMode();
+    } else {
+        enterEditMode();
+    }
+});
+
+function hasChanges(): boolean {
+    if (!originalEdit) {
+        return false;
+    }
+
+    const entry = filteredEntries[currentIndex];
+
+    if (!entry) {
+        return false;
+    }
+
+    return (
+        textInput.value !== originalEdit.text ||
+        notesInput.value !== originalEdit.notes
+    );
+}
+
+function updateEditButtons() {
+    const changed = editMode && hasChanges();
+
+    previewButton.disabled = !changed;
+    submitButton.disabled =
+        !changed || editName.value.trim() === "";
+}
+
+textInput.addEventListener("input", updateEditButtons);
+notesInput.addEventListener("input", updateEditButtons);
+editName.addEventListener("input", updateEditButtons);
+
 
 
 /*

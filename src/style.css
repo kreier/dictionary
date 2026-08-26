@@ -137,3 +137,101 @@ header {
     font-size: 16px;
     white-space: pre-wrap;
 }
+
+.edit-btn {
+    background: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.edit-btn:hover {
+    background: #218838;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.visible {
+    display: flex;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    max-height: 90vh;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+.edit-field {
+    margin-bottom: 15px;
+}
+
+.edit-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.edit-field input[type="text"],
+.edit-field textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.edit-checkbox label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: normal;
+}
+
+.edit-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.edit-actions button {
+    padding: 8px 15px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #eee;
+}
+
+.edit-actions button:last-child {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+}
