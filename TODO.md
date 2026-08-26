@@ -2,40 +2,62 @@
 
 ## Vite migration
 
-- [ ] Move the application HTML structure from `webview.py` into `index.html`.
-- [ ] Move JavaScript functionality from `webview.py` into `src/main.ts`.
-- [ ] Move CSS from `webview.py` into `src/style.css`.
+- [x] Create Vite project structure.
+- [x] Move generated JSON from `docs/data/` to `public/data/`.
+- [x] Create `index.html` application shell.
+- [x] Move frontend CSS to `src/style.css`.
+- [x] Create TypeScript frontend in `src/main.ts`.
+- [x] Load languages from `public/data/languages.json`.
+- [x] Load dictionary JSON files from `public/data/`.
+- [x] Implement language selection.
+- [x] Implement dictionary categories.
+- [x] Implement checked/total counters.
+- [x] Implement search by key and English.
+- [x] Implement key selection.
+- [x] Implement previous/next navigation.
+- [x] Display dictionary fields.
+- [x] Display checked status, editor and date.
+- [ ] Implement edit interface.
 - [ ] Remove HTML generation from `webview.py`.
-- [ ] Rename/remove `webview.py` once migration is complete.
-- [ ] Load language information from `public/data/languages.json`.
-- [ ] Test with `npm run dev`.
-- [ ] Test production build with `npm run build`.
-- [ ] Test with `npm run preview`.
+- [ ] Remove obsolete frontend code from `webview.py`.
+
+## Local development
+
+- [x] `npm run dev` starts the Vite development server.
+- [ ] Verify all supported languages.
+- [ ] Verify all dictionary categories.
+- [ ] Verify mobile layout.
+- [ ] Run `npm run build`.
+- [ ] Run `npm run preview`.
 
 ## GitHub Pages
 
-- [ ] Replace the existing `docs/` Pages deployment with Vite build output.
-- [ ] Verify `/dictionary/` base path.
+- [ ] Configure Vite production build for GitHub Pages.
+- [ ] Replace the old `docs/` deployment.
+- [ ] Deploy `dist/` through GitHub Actions.
+- [ ] Verify `/dictionary/` base path in production.
 - [ ] Verify JSON loading on GitHub Pages.
-- [ ] Verify all supported languages.
 
 ## Data synchronization
 
 - [x] Move source CSV files out of the main data path.
 - [x] Create `scripts/generate-data.py`.
-- [x] Move generated JSON files to `public/data/`.
+- [x] Generate JSON into `public/data/`.
 - [x] Create Timeline synchronization GitHub Action.
 - [x] Track Timeline commit SHA.
 - [ ] Test automatic synchronization after a Timeline change.
-- [ ] Consider triggering synchronization from Timeline rather than polling.
+- [ ] Consider event-driven synchronization from Timeline instead of polling.
 
 ## Editing
 
-- [ ] Design edit UI.
-- [ ] Add verification / bot protection.
+- [ ] Add EDIT button.
+- [ ] Add edit modal.
+- [ ] Populate edit form from current entry.
+- [ ] Validate edits.
 - [ ] Show proposed changes before submission.
+- [ ] Add Cloudflare verification / bot protection.
 - [ ] Implement Cloudflare Worker.
-- [ ] Implement GitHub authentication.
-- [ ] Create pull request against `Kreier/timeline`.
-- [ ] Never modify Timeline directly from the browser.
+- [ ] Implement secure GitHub API access.
+- [ ] Create pull request against `kreier/timeline`.
 - [ ] Handle concurrent edits.
+- [ ] Handle rejected or closed pull requests.

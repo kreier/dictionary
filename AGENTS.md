@@ -2,7 +2,7 @@
 
 ## Project
 
-This repository contains the web interface for the Kreier dictionary.
+This repository contains the web interface for the kreier dictionary.
 
 The production website is:
 
@@ -21,97 +21,50 @@ kreier/timeline/db/
 The CSV files in this repository's `archive/data/` directory are historical
 copies only and must not be treated as the source of truth.
 
-Do not modify `archive/data/` to make dictionary changes.
+## Frontend implementation
 
-## Generated data
+The frontend is a Vite application using vanilla TypeScript.
 
-The web application consumes JSON files in:
+The application entry point is:
 
-public/data/
+    index.html
 
-These files are generated from the CSV files in `kreier/timeline/db/` by:
+The application logic is in:
 
-scripts/generate-data.py
+    src/main.ts
 
-Do not manually edit the generated JSON files.
+The styling is in:
 
-The file:
+    src/style.css
 
-public/data/.source.json
+Do not introduce React, Vue, or another frontend framework unless the
+architecture is explicitly reconsidered.
 
-records the Timeline Git commit from which the JSON data was generated.
+The frontend reads generated JSON from:
 
-## Application architecture
+    public/data/
 
-The application is being migrated from a Python-generated HTML page to Vite.
+Use:
 
-The intended architecture is:
+    import.meta.env.BASE_URL
 
-Timeline CSV
-    ↓
-scripts/generate-data.py
-    ↓
-public/data/*.json
-    ↓
-Vite
-    ↓
-dist/
-    ↓
-GitHub Pages
+when constructing URLs to files under `public/`.
 
-The frontend should contain no dictionary data directly in TypeScript.
+Do not hard-code `/data/...` paths, because the production site is served
+under the `/dictionary/` GitHub Pages base path.
 
-## Development
+The current frontend should preserve the functionality of the previous
+`webview.py` implementation unless a change is explicitly requested.
 
-Install dependencies:
+The current read-only functionality includes:
 
-    npm install
+- language selection;
+- TEXT/BIBLE/A6/B9/WIKI/OTHER categories;
+- checked/total counts;
+- search;
+- key selection;
+- previous/next navigation;
+- dictionary field display;
+- verification status.
 
-Start the development server:
-
-    npm run dev
-
-Build the production application:
-
-    npm run build
-
-Preview the production build:
-
-    npm run preview
-
-Generate dictionary JSON locally:
-
-    python scripts/generate-data.py --source archive/data
-
-When testing against Timeline:
-
-    python scripts/generate-data.py --source ../timeline/db
-
-## GitHub Actions
-
-The workflow:
-
-.github/workflows/update-dictionary-data.yml
-
-periodically checks the HEAD commit of `kreier/timeline`.
-
-If the Timeline commit has not changed since the JSON files were generated,
-the workflow should not modify the repository.
-
-If Timeline has changed, the workflow regenerates the JSON files and commits
-them to this repository.
-
-Generated-data commits should use a descriptive message such as:
-
-    Update dictionary data from Timeline (<short-sha>)
-
-## Important rules
-
-- Do not make Timeline CSV files in this repository the source of truth.
-- Do not manually modify generated JSON files.
-- Do not put secrets or GitHub credentials into frontend code.
-- Do not give the browser direct write access to the Timeline repository.
-- User edits must eventually go through a controlled backend/Cloudflare Worker
-  and result in a pull request.
-- Preserve the `/dictionary/` GitHub Pages base path.
-- Keep data generation separate from frontend application code.
+Editing functionality is intentionally being migrated separately.
