@@ -5,7 +5,7 @@ on:
 
   schedule:
     # Run once every day at 03:00 UTC
-    - cron: "0 3 * * *"
+    - cron: "14 20 * * *"
 
 permissions:
   contents: write
@@ -95,6 +95,8 @@ jobs:
       # Commit the generated data
       - name: Commit updated dictionary data
         if: steps.check.outputs.changed == 'true'
+        env:
+          TIMELINE_SHA: ${{ steps.timeline.outputs.sha }}        
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
