@@ -3009,6 +3009,23 @@
     "category": "text"
   },
   {
+    "key": "timeline_created",
+    "text": "ចន្លោះពេលវេលានេះត្រូវបានបង្កើតឡើងក្នុងឆ្នាំ២០២៣ ដែលជាឆ្នាំដែលមានអាកាសធាតុក្តៅបំផុតក្នុងប្រវត្តិសាស្ត្រមនុស្សជាតិ តាំងពី១២៥ ០០០ឆ្នាំមុន",
+    "english": "This timeline is created in 2023, the hottest year in human history and the last 125,000 years",
+    "notes": "This timeline is created in 2023, the hottest year in human history and the last 125,000 years",
+    "tag": "text",
+    "checked": "False",
+    "checked_by": " ",
+    "date": " ",
+    "link": " ",
+    "google": " ",
+    "chatgpt": " ",
+    "gemini": " ",
+    "claude": " ",
+    "deepl": " ",
+    "category": "text"
+  },
+  {
     "key": "Adam",
     "text": "អាដាម​",
     "english": "Adam",

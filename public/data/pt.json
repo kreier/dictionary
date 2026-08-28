@@ -3009,6 +3009,23 @@
     "category": "text"
   },
   {
+    "key": "timeline_created",
+    "text": "Esta linha do tempo é criada em 2023, o ano mais quente da história da humanidade e os últimos 125.000 anos",
+    "english": "This timeline is created in 2023, the hottest year in human history and the last 125,000 years",
+    "notes": " ",
+    "tag": "text",
+    "checked": "False",
+    "checked_by": " ",
+    "date": " ",
+    "link": " ",
+    "google": " ",
+    "chatgpt": " ",
+    "gemini": " ",
+    "claude": " ",
+    "deepl": " ",
+    "category": "text"
+  },
+  {
     "key": "Adam",
     "text": "Adão",
     "english": "Adam",

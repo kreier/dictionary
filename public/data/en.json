@@ -3009,6 +3009,23 @@
     "category": "text"
   },
   {
+    "key": "timeline_created",
+    "text": "This timeline is created in 2023, the hottest year in human history and the last 125,000 years",
+    "english": "This timeline is created in 2023, the hottest year in human history and the last 125,000 years",
+    "notes": "2026-06-27",
+    "tag": "text",
+    "checked": "True",
+    "checked_by": "Matthias",
+    "date": "2026-04-20",
+    "link": " ",
+    "google": " ",
+    "chatgpt": " ",
+    "gemini": " ",
+    "claude": " ",
+    "deepl": " ",
+    "category": "text"
+  },
+  {
     "key": "Adam",
     "text": "Adam",
     "english": "Adam",
