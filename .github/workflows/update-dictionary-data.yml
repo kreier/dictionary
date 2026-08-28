@@ -4,11 +4,13 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Run once every day at 03:14 Vietnam UTC+7
+    # Run once every day at 20:14 UTC (03:14 Vietnam time)
     - cron: "14 20 * * *"
 
 permissions:
   contents: write
+  pages: write
+  id-token: write  
 
 jobs:
   update-data:
