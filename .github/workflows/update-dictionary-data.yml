@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    # Run once every day at 03:00 UTC
+    # Run once every day at 03:14 Vietnam UTC+7
     - cron: "14 20 * * *"
 
 permissions:
@@ -14,6 +14,9 @@ jobs:
   update-data:
     name: Update dictionary JSON
     runs-on: ubuntu-latest
+
+    outputs:
+      changed: ${{ steps.check.outputs.changed }}
 
     steps:
       # Check out the dictionary repository
@@ -103,7 +106,16 @@ jobs:
 
           git add public/data
 
-          git diff --cached --quiet || \
-            git commit -m "Update dictionary data from Timeline (${TIMELINE_SHA:0:7})"
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
 
+          git commit -m "Update dictionary data from Timeline (${TIMELINE_SHA:0:7})"
           git push
+
+  deploy:
+    name: Deploy updated dictionary
+    needs: update-data
+    if: needs.update-data.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy-pages.yml
