@@ -89,7 +89,7 @@ The intended data flow is:
        GitHub Pages
 
 The JSON files are generated, read-optimized representations of the
-dictionary CSV data.
+dictionary data.
 
 ---
 
