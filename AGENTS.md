@@ -1,7 +1,31 @@
 # AGENTS.md
 
-This file provides guidance for humans and AI agents working on the
+This file is the primary entry point for humans and AI agents working on the
 `kreier/dictionary` repository.
+
+## Repository orientation
+
+Before making significant changes, orient yourself using the repository
+documentation and the actual source code.
+
+Read these documents as appropriate:
+
+- `ARCHITECTURE.md` — system architecture and design decisions
+- `STATUS.md` — current implementation state and immediate next step
+- `TODO.md` — outstanding and planned work
+- `CHANGELOG.md` — recent changes and historical context
+
+For a substantial feature or architectural change, read all of the above
+before proposing an implementation.
+
+Do not assume documentation is more current than the source code. If
+documentation and implementation disagree, identify the discrepancy and
+resolve it deliberately.
+
+When the user gives a task, first understand the existing implementation and
+its architectural constraints before proposing changes. Prefer modifying the
+existing architecture over introducing new patterns unless there is a clear
+reason to do so.
 
 ## Project purpose
 
@@ -396,7 +420,7 @@ allows arbitrary modification of the Timeline repository.
 The edit interface:
 
 1. allows the user to modify Text, Notes, and Checked verification;
-2. preserves edits across navigation and category filters within a language;
+2. preserves edits across navigation and category filters within the active language;
 3. shows a clear key-grouped before/after diff preview of modified fields;
 4. performs Turnstile verification;
 5. submits the proposed change via Cloudflare Worker;
@@ -454,16 +478,17 @@ Important project documentation includes:
 
     AGENTS.md
     ARCHITECTURE.md
-    CHANGELOG.md
+    STATUS.md
     TODO.md
+    CHANGELOG.md
 
 When making a significant architectural change:
 
 1. update `ARCHITECTURE.md` if the architecture changes;
-2. update `CHANGELOG.md` for user-visible or significant technical changes;
-3. update `TODO.md` when tasks are completed or added;
-4. update `AGENTS.md` when development rules or architectural assumptions
-   change.
+2. update `STATUS.md` if the current implementation phase or immediate next step changes;
+3. update `CHANGELOG.md` for user-visible or significant technical changes;
+4. update `TODO.md` when tasks are completed or added;
+5. update `AGENTS.md` when development rules or architectural assumptions change.
 
 Do not update documentation merely to create noise for trivial changes.
 
