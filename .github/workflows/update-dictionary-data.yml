@@ -1,6 +1,9 @@
 name: Update Dictionary Data
 
 on:
+  repository_dispatch:
+    types: [timeline-updated]
+
   workflow_dispatch:
 
   schedule:
