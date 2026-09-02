@@ -41,6 +41,46 @@ interface PendingEdit {
     origChecked: boolean;
 }
 
+declare global {
+    interface Window {
+        turnstile?: {
+            render: (
+                container: string | HTMLElement,
+                options: {
+                    sitekey: string;
+                    callback?: (token: string) => void;
+                    "expired-callback"?: () => void;
+                    "error-callback"?: (error: string) => void;
+                }
+            ) => string;
+            reset: (widgetId?: string) => void;
+        };
+    }
+}
+
+const app = document.querySelector<HTMLDivElement>("#app");
+
+function loadTurnstile(): Promise<void> {
+    return new Promise((resolve, reject) => {
+        if (window.turnstile) {
+            resolve();
+            return;
+        }
+
+        const script = document.createElement("script");
+        script.src =
+            "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit";
+        script.async = true;
+        script.defer = true;
+
+        script.onload = () => resolve();
+        script.onerror = () =>
+            reject(new Error("Could not load Cloudflare Turnstile."));
+
+        document.head.appendChild(script);
+    });
+}
+
 const categories: Category[] = [
     "text",
     "bible",
@@ -63,12 +103,19 @@ let editorName = localStorage.getItem("dictionary_editor_name") || "";
 // Session edits map: key -> PendingEdit (for the current language)
 const pendingEdits = new Map<string, PendingEdit>();
 
+let turnstileWidgetId: string | undefined;
+let turnstileToken: string | null = null;
+
 // Default Cloudflare Worker submission endpoint (can be customized)
+// let workerEndpoint =
+//     localStorage.getItem("dictionary_worker_url") ||
+//     "https://dictionary-submisisons.matthias-kreier.workers.dev/";
+
 let workerEndpoint =
     localStorage.getItem("dictionary_worker_url") ||
-    "https://dictionary-submisisons.matthias-kreier.workers.dev/";
+    "https://update-dictionary.matthias-kreier.workers.dev/";    
 
-const app = document.querySelector<HTMLDivElement>("#app");
+// const app = document.querySelector<HTMLDivElement>("#app");
 
 if (!app) {
     throw new Error("Could not find #app");
@@ -287,11 +334,7 @@ app.innerHTML = `
             </div>
 
             <div class="turnstile-wrapper">
-                <div id="turnstile-container">
-                    <p style="font-size: 13px; color: #666; margin: 5px 0;">
-                        🛡️ Cloudflare Turnstile Bot Check (Ready for verification)
-                    </p>
-                </div>
+                <div id="turnstile-container"></div>
             </div>
 
             <div id="submit-status-message" class="submit-status-message"></div>
@@ -412,6 +455,9 @@ const submitSummaryList =
 
 const submitWorkerUrlInput =
     document.querySelector<HTMLInputElement>("#submit-worker-url")!;
+
+const turnstileContainer =
+    document.querySelector<HTMLDivElement>("#turnstile-container")!;    
 
 const submitStatusMessage =
     document.querySelector<HTMLDivElement>("#submit-status-message")!;
@@ -1109,16 +1155,77 @@ submitButton.addEventListener("click", () => {
 
     submitStatusMessage.textContent = "";
     submitStatusMessage.className = "submit-status-message";
-    submitConfirmBtn.disabled = false;
+
+    turnstileToken = null;
+    submitConfirmBtn.disabled = true;
 
     submitModal.classList.add("visible");
+
+    turnstileContainer.innerHTML = "";
+
+    loadTurnstile()
+        .then(() => {
+            if (!window.turnstile) {
+                throw new Error("Turnstile is not available.");
+            }
+
+            turnstileWidgetId = window.turnstile.render(
+                turnstileContainer,
+                {
+                    sitekey: "0x4AAAAAAEdFv-13Hc5iBLS8",
+
+                    callback: (token: string) => {
+                        turnstileToken = token;
+                        submitConfirmBtn.disabled = false;
+                        submitStatusMessage.textContent =
+                            "✅ Bot verification successful. Ready to submit.";
+                        submitStatusMessage.className =
+                            "submit-status-message success";
+                    },
+
+                    "expired-callback": () => {
+                        turnstileToken = null;
+                        submitConfirmBtn.disabled = true;
+                        submitStatusMessage.textContent =
+                            "Turnstile verification expired. Please verify again.";
+                        submitStatusMessage.className =
+                            "submit-status-message warning";
+                    },
+
+                    "error-callback": (error: string) => {
+                        turnstileToken = null;
+                        submitConfirmBtn.disabled = true;
+                        submitStatusMessage.textContent =
+                            `Turnstile verification failed: ${error}`;
+                        submitStatusMessage.className =
+                            "submit-status-message warning";
+                    }
+                }
+            );
+        })
+        .catch(error => {
+            console.error(error);
+            submitStatusMessage.textContent =
+                "Could not load Cloudflare Turnstile.";
+            submitStatusMessage.className =
+                "submit-status-message warning";
+        });
 });
 
 submitCancelBtn.addEventListener("click", () => {
+    turnstileToken = null;
     submitModal.classList.remove("visible");
 });
 
 submitConfirmBtn.addEventListener("click", async () => {
+    if (!turnstileToken) {
+        submitStatusMessage.textContent =
+            "Please complete the Cloudflare verification first.";
+        submitStatusMessage.className =
+            "submit-status-message warning";
+        return;
+    }
+
     submitConfirmBtn.disabled = true;
     submitStatusMessage.textContent = "Submitting changes to Cloudflare Worker...";
     submitStatusMessage.className = "submit-status-message pending";
@@ -1131,7 +1238,7 @@ submitConfirmBtn.addEventListener("click", async () => {
         lang: currentLanguage,
         editor: editorName,
         date: new Date().toISOString().split("T")[0],
-        turnstileToken: "mock-or-turnstile-token",
+        turnstileToken: turnstileToken,
         changes: Array.from(pendingEdits.values()).map(e => ({
             key: e.key,
             category: e.category,
