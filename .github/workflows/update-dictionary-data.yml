@@ -118,9 +118,3 @@ jobs:
 
           git commit -m "Update dictionary data from Timeline (${TIMELINE_SHA:0:7})"
           git push
-
-  deploy:
-    name: Deploy updated dictionary
-    needs: update-data
-    if: needs.update-data.outputs.changed == 'true'
-    uses: ./.github/workflows/deploy-pages.yml
