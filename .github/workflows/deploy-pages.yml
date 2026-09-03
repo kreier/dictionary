@@ -1,9 +1,11 @@
 name: Deploy Dictionary to GitHub Pages
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
-  workflow_call:
+  workflow_dispatch:
 
 permissions:
   contents: read
