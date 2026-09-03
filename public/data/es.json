@@ -3,16 +3,16 @@
     "key": "pdf_title",
     "text": "6000 años de historia humana visualizados",
     "english": "6,000 Years of Human History — A Timeline",
-    "notes": "2026-08-26",
+    "notes": "2026-09-03",
     "tag": "text",
-    "checked": "False",
-    "checked_by": " ",
-    "date": " ",
+    "checked": "True",
+    "checked_by": "Matthias",
+    "date": "2026-09-03",
     "link": " ",
     "google": " ",
     "chatgpt": "6.000 años de historia humana — Una línea de tiempo",
     "gemini": "6.000 años de historia humana: Una línea del tiempo",
-    "claude": " ",
+    "claude": "6000 años de historia humana — Una línea del tiempo",
     "deepl": "6.000 años de historia de la humanidad: una línea temporal",
     "category": "text"
   },
@@ -29,7 +29,7 @@
     "google": " ",
     "chatgpt": "Línea de tiempo de la historia humana desde el 4000 a.C. hasta el presente",
     "gemini": "Línea del tiempo de la historia humana desde 4000 a.e.c. hasta la actualidad",
-    "claude": " ",
+    "claude": "Línea del tiempo de la historia humana desde el 4000 a.e.c. hasta el presente",
     "deepl": "Cronología de la historia de la humanidad desde el 4000 a. C. hasta la actualidad",
     "category": "text"
   },
@@ -46,7 +46,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": " ",
-    "claude": " ",
+    "claude": "a.e.c.",
     "deepl": " ",
     "category": "B9"
   },
@@ -63,7 +63,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": " ",
-    "claude": " ",
+    "claude": "e.c.",
     "deepl": " ",
     "category": "B9"
   },
@@ -80,7 +80,7 @@
     "google": " ",
     "chatgpt": "mes",
     "gemini": "mes",
-    "claude": " ",
+    "claude": "mes",
     "deepl": "mes",
     "category": "text"
   },
@@ -97,7 +97,7 @@
     "google": " ",
     "chatgpt": "meses",
     "gemini": "meses",
-    "claude": " ",
+    "claude": "meses",
     "deepl": "meses",
     "category": "text"
   },
@@ -114,7 +114,7 @@
     "google": " ",
     "chatgpt": "día",
     "gemini": "día",
-    "claude": " ",
+    "claude": "día",
     "deepl": "día",
     "category": "text"
   },
@@ -131,7 +131,7 @@
     "google": " ",
     "chatgpt": "días",
     "gemini": "días",
-    "claude": " ",
+    "claude": "días",
     "deepl": "días",
     "category": "text"
   },
@@ -148,7 +148,7 @@
     "google": " ",
     "chatgpt": "a",
     "gemini": "a",
-    "claude": " ",
+    "claude": "a",
     "deepl": "a",
     "category": "text"
   },
@@ -165,7 +165,7 @@
     "google": " ",
     "chatgpt": "Diluvio",
     "gemini": "Diluvio",
-    "claude": " ",
+    "claude": "Diluvio",
     "deepl": "Diluvio",
     "category": "text"
   },
@@ -182,7 +182,7 @@
     "google": " ",
     "chatgpt": "1593 a 1473 a.C. – 120 años",
     "gemini": "1593 a 1473 a.e.c. – 120 años",
-    "claude": " ",
+    "claude": "1593 a 1473 a.e.c. – 120 años",
     "deepl": "Del 1593 al 1473 a. e. c. – 120 años",
     "category": "text"
   },
@@ -199,7 +199,7 @@
     "google": " ",
     "chatgpt": "Nisan 1513 a.C. a Ziv 1034 a.C.",
     "gemini": "Nisan de 1513 a.e.c. a Ziv de 1034 a.e.c.",
-    "claude": " ",
+    "claude": "Nisán 1513 a.e.c. a Ziv 1034 a.e.c.",
     "deepl": "Del 15 de Nisán del 1513 a. C. al 10 de Ziv del 1034 a. C.",
     "category": "text"
   },
@@ -216,7 +216,7 @@
     "google": " ",
     "chatgpt": "Jesús bautizado en otoño del 29 d.C.",
     "gemini": "Jesús se bautiza en el otoño de 29 e.c.",
-    "claude": " ",
+    "claude": "Jesús bautizado en el otoño de 29 e.c.",
     "deepl": "Jesús fue bautizado en otoño del año 29 d. C.",
     "category": "text"
   },
@@ -233,7 +233,7 @@
     "google": " ",
     "chatgpt": "año",
     "gemini": "año",
-    "claude": " ",
+    "claude": "año",
     "deepl": "año",
     "category": "text"
   },
@@ -250,7 +250,7 @@
     "google": " ",
     "chatgpt": "años",
     "gemini": "años",
-    "claude": " ",
+    "claude": "años",
     "deepl": "años",
     "category": "text"
   },
@@ -267,7 +267,7 @@
     "google": " ",
     "chatgpt": "años",
     "gemini": "años",
-    "claude": " ",
+    "claude": "años",
     "deepl": "años",
     "category": "text"
   },
@@ -284,7 +284,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": " ",
-    "claude": " ",
+    "claude": "",
     "deepl": " ",
     "category": "text"
   },
@@ -301,7 +301,7 @@
     "google": " ",
     "chatgpt": "Israel en el desierto 1513 a 1473 a.C. – 40 años",
     "gemini": "Israel en el desierto 1513 a 1473 a.e.c. – 40 años",
-    "claude": " ",
+    "claude": "Israel en el desierto 1513 a 1473 a.e.c. – 40 años",
     "deepl": "Israel en el desierto, del 1513 al 1473 a. e. c. – 40 años",
     "category": "text"
   },
@@ -318,7 +318,7 @@
     "google": " ",
     "chatgpt": "1473 a 1117 a.C. – 356 años",
     "gemini": "1473 a 1117 a.e.c. – 356 años",
-    "claude": " ",
+    "claude": "1473 a 1117 a.e.c. – 356 años",
     "deepl": "1473 a 1117 a. e. c. – 356 años",
     "category": "text"
   },
@@ -335,7 +335,7 @@
     "google": " ",
     "chatgpt": "Época de los jueces",
     "gemini": "Época de los jueces",
-    "claude": " ",
+    "claude": "Época de los jueces",
     "deepl": "La época de los jueces",
     "category": "text"
   },
@@ -352,7 +352,7 @@
     "google": " ",
     "chatgpt": "479 años hasta la construcción del templo – 1 Reyes 6:1",
     "gemini": "479 años hasta la construcción del templo – 1 Reyes 6:1",
-    "claude": " ",
+    "claude": "479 años hasta la construcción del templo – 1 Reyes 6:1",
     "deepl": "Faltan 479 años para la construcción del templo – 1 Reyes 6:1",
     "category": "text"
   },
@@ -369,7 +369,7 @@
     "google": " ",
     "chatgpt": "69 semanas hasta el Mesías – Daniel 9:25",
     "gemini": "69 semanas hasta el Mesías – Daniel 9:25",
-    "claude": " ",
+    "claude": "69 semanas hasta el Mesías – Daniel 9:25",
     "deepl": "69 semanas hasta la llegada del Mesías – Daniel 9:25",
     "category": "text"
   },
@@ -386,7 +386,7 @@
     "google": " ",
     "chatgpt": "3,5 años del servicio de Jesús, ejecutado el 14 de Nisan, 33 d.C.",
     "gemini": "3,5 años de servicio de Jesús, ejecutado el 14 de nisan de 33 e.c.",
-    "claude": " ",
+    "claude": "3,5 años de servicio de Jesús, ejecutado el 14 de Nisán de 33 e.c.",
     "deepl": "3,5 años de ministerio de Jesús, ejecutado el 14 de Nisán del año 33 d. C.",
     "category": "text"
   },
@@ -403,7 +403,7 @@
     "google": " ",
     "chatgpt": "Jesús nacido en el 2 a.C.",
     "gemini": "Jesús nace en 2 a.e.c.",
-    "claude": " ",
+    "claude": "Jesús nace en el 2 a.e.c.",
     "deepl": "Jesús nació en el año 2 a. e. c.",
     "category": "text"
   },
@@ -420,7 +420,7 @@
     "google": " ",
     "chatgpt": "607 a 537 a.C. – 70 años (Jeremías 25:11)",
     "gemini": "607 a 537 a.e.c. – 70 años (Jeremías 25:11)",
-    "claude": " ",
+    "claude": "607 a 537 a.e.c. – 70 años (Jeremías 25:11)",
     "deepl": "Del 607 al 537 a. e. c. – 70 años (Jeremías 25:11)",
     "category": "text"
   },
@@ -437,7 +437,7 @@
     "google": " ",
     "chatgpt": "Exilio",
     "gemini": "Exilio",
-    "claude": " ",
+    "claude": "Exilio",
     "deepl": "Exilio",
     "category": "text"
   },
@@ -454,7 +454,7 @@
     "google": " ",
     "chatgpt": "7 tiempos – 2520 años hasta el Reino Mesiánico 1914 d.C. (Daniel 4:23)",
     "gemini": "7 tiempos – 2520 años hasta el Reino Mesiánico 1914 e.c. (Daniel 4:23)",
-    "claude": " ",
+    "claude": "7 tiempos – 2520 años hasta el Reino mesiánico en 1914 e.c. (Daniel 4:23)",
     "deepl": "7 veces: 2520 años hasta el Reino Mesiánico, 1914 d. C. (Daniel 4:23)",
     "category": "text"
   },
@@ -471,7 +471,7 @@
     "google": " ",
     "chatgpt": "Primera Guerra Mundial – 1914–1918",
     "gemini": "Primera Guerra Mundial – 1914–1918",
-    "claude": " ",
+    "claude": "Primera Guerra Mundial – 1914–1918",
     "deepl": "Primera Guerra Mundial – 1914-1918",
     "category": "text"
   },
@@ -488,7 +488,7 @@
     "google": " ",
     "chatgpt": "Segunda Guerra Mundial – 1939–1945",
     "gemini": "Segunda Guerra Mundial – 1939–1945",
-    "claude": " ",
+    "claude": "Segunda Guerra Mundial – 1939–1945",
     "deepl": "Segunda Guerra Mundial – 1939-1945",
     "category": "text"
   },
@@ -505,7 +505,7 @@
     "google": " ",
     "chatgpt": "Guerra de los Treinta Años en Europa 1618–1648",
     "gemini": "Guerra de los Treinta Años en Europa 1618-1648",
-    "claude": " ",
+    "claude": "Guerra de los Treinta Años en Europa 1618-1648",
     "deepl": "La Guerra de los Treinta Años en Europa, 1618-1648",
     "category": "text"
   },
@@ -522,7 +522,7 @@
     "google": " ",
     "chatgpt": "110 años",
     "gemini": "110 años",
-    "claude": " ",
+    "claude": "110 años",
     "deepl": "110 años",
     "category": "text"
   },
@@ -539,7 +539,7 @@
     "google": " ",
     "chatgpt": "más de 85 años",
     "gemini": "más de 85 años",
-    "claude": " ",
+    "claude": "más de 85 años",
     "deepl": "más de 85 años",
     "category": "text"
   },
@@ -556,7 +556,7 @@
     "google": " ",
     "chatgpt": "Primer viaje misionero de Pablo, c. 47–48 d.C. con Bernabé y Juan Marcos",
     "gemini": "Primer viaje misionero de Pablo, c. 47-48 e.c. con Bernabé y Juan Marcos",
-    "claude": " ",
+    "claude": "Primer viaje misional de Pablo, c. 47-48 e.c., con Bernabé y Juan Marcos",
     "deepl": "Primer viaje misionero de Pablo, hacia los años 47-48 d. C., junto con Bernabé y Juan Marcos",
     "category": "text"
   },
@@ -573,7 +573,7 @@
     "google": " ",
     "chatgpt": "Cuestión de la circuncisión en Antioquía, conferencia en Jerusalén c. 49 d.C.",
     "gemini": "Cuestión de la circuncisión en Antioquía, conferencia en Jerusalén c. 49 e.c.",
-    "claude": " ",
+    "claude": "Cuestión de la circuncisión en Antioquía, conferencia en Jerusalén c. 49 e.c.",
     "deepl": "La cuestión de la circuncisión en Antioquía; el concilio de Jerusalén, hacia el año 49 d. C.",
     "category": "text"
   },
@@ -590,7 +590,7 @@
     "google": " ",
     "chatgpt": "Segundo viaje misionero c. 49–52 d.C. con Silas (Silvano)",
     "gemini": "Segundo viaje misionero c. 49-52 e.c. con Silas (Silvano)",
-    "claude": " ",
+    "claude": "Segundo viaje misional c. 49-52 e.c. con Silas (Silvano)",
     "deepl": "Segundo viaje misionero, hacia los años 49-52 d. C., con Silas (Silvano)",
     "category": "text"
   },
@@ -607,7 +607,7 @@
     "google": " ",
     "chatgpt": "Tercer viaje misionero c. 52–56 d.C.",
     "gemini": "Tercer viaje misionero c. 52-56 e.c.",
-    "claude": " ",
+    "claude": "Tercer viaje misional c. 52-56 e.c.",
     "deepl": "Tercer viaje misionero, hacia los años 52-56 d. C.",
     "category": "text"
   },
@@ -624,7 +624,7 @@
     "google": " ",
     "chatgpt": "Pablo bajo custodia en Cesarea c. 56–58 d.C.",
     "gemini": "Pablo bajo custodia en Cesarea c. 56-58 e.c.",
-    "claude": " ",
+    "claude": "Pablo bajo custodia en Cesarea c. 56-58 e.c.",
     "deepl": "Pablo bajo custodia en Cesarea, hacia los años 56-58 d. C.",
     "category": "text"
   },
@@ -641,7 +641,7 @@
     "google": " ",
     "chatgpt": "Primer encarcelamiento de Pablo en Roma c. 59–61 d.C.",
     "gemini": "Primer encarcelamiento de Pablo en Roma c. 59-61 e.c.",
-    "claude": " ",
+    "claude": "Primer encarcelamiento de Pablo en Roma c. 59-61 e.c.",
     "deepl": "El primer encarcelamiento de Pablo en Roma, hacia los años 59-61 d. C.",
     "category": "text"
   },
@@ -658,7 +658,7 @@
     "google": " ",
     "chatgpt": "Segundo encarcelamiento de Pablo en Roma c. 65 d.C., escrita 2 Timoteo, Pablo ejecutado",
     "gemini": "Segundo encarcelamiento de Pablo en Roma c. 65 e.c., se escribe 2 Timoteo, Pablo es ejecutado",
-    "claude": " ",
+    "claude": "Segundo encarcelamiento de Pablo en Roma c. 65 e.c., se escribe 2 Timoteo, Pablo es ejecutado",
     "deepl": "Segundo encarcelamiento de Pablo en Roma, hacia el año 65 d. C.; redacción de la Segunda Carta a Timoteo; ejecución de Pablo",
     "category": "text"
   },
@@ -675,7 +675,7 @@
     "google": " ",
     "chatgpt": "Éxodo de Egipto el 14 de Nisan, 1513 a.C.",
     "gemini": "Éxodo de Egipto el 14 de nisan de 1513 a.e.c.",
-    "claude": " ",
+    "claude": "Éxodo de Egipto el 14 de Nisán de 1513 a.e.c.",
     "deepl": "Éxodo de Egipto el 14 de Nisán de 1513 a. C.",
     "category": "text"
   },
@@ -692,7 +692,7 @@
     "google": " ",
     "chatgpt": "División de Israel 997 a.C.",
     "gemini": "División de Israel 997 a.e.c.",
-    "claude": " ",
+    "claude": "División de Israel en 997 a.e.c.",
     "deepl": "División de Israel, 997 a. C.",
     "category": "text"
   },
@@ -709,7 +709,7 @@
     "google": " ",
     "chatgpt": "Destrucción de Samaria 740 a.C. por Asiria",
     "gemini": "Destrucción de Samaria en 740 a.e.c. por Asiria",
-    "claude": " ",
+    "claude": "Destrucción de Samaria en 740 a.e.c. por Asiria",
     "deepl": "Destrucción de Samaria en el año 740 a. e. c. a manos de Asiria",
     "category": "text"
   },
@@ -726,7 +726,7 @@
     "google": " ",
     "chatgpt": "Destrucción de Jerusalén 607 a.C. por Babilonia, 390 años después de la división del reino (Ezequiel 4:5)",
     "gemini": "Destrucción de Jerusalén en 607 a.e.c. por Babilonia, 390 años después de la división del reino (Ezequiel 4:5)",
-    "claude": " ",
+    "claude": "Destrucción de Jerusalén en 607 a.e.c. por Babilonia, 390 años después de la división del reino (Ezequiel 4:5)",
     "deepl": "Destrucción de Jerusalén en el año 607 a. e. c. a manos de Babilonia, 390 años después de la división del reino (Ezequiel 4:5)",
     "category": "text"
   },
@@ -743,7 +743,7 @@
     "google": " ",
     "chatgpt": "Templo en Jerusalén reconstruido 515 a.C.",
     "gemini": "Reconstrucción del templo de Jerusalén en 515 a.e.c.",
-    "claude": " ",
+    "claude": "El templo de Jerusalén es reconstruido en 515 a.e.c.",
     "deepl": "El templo de Jerusalén fue reconstruido en el año 515 a. e. c.",
     "category": "text"
   },
@@ -760,7 +760,7 @@
     "google": " ",
     "chatgpt": "Muro de Jerusalén reconstruido 455 a.C.",
     "gemini": "Reconstrucción de la muralla de Jerusalén en 455 a.e.c.",
-    "claude": " ",
+    "claude": "La muralla de Jerusalén es reconstruida en 455 a.e.c.",
     "deepl": "La muralla de Jerusalén se reconstruyó en el año 455 a. e. c.",
     "category": "text"
   },
@@ -777,7 +777,7 @@
     "google": " ",
     "chatgpt": "Destrucción de Jerusalén 70 d.C. por Roma bajo Tito",
     "gemini": "Destrucción de Jerusalén en 70 e.c. por Roma bajo Tito",
-    "claude": " ",
+    "claude": "Destrucción de Jerusalén en 70 e.c. por Roma bajo Tito",
     "deepl": "Destrucción de Jerusalén en el año 70 d. C. a manos de Roma, bajo el mando de Tito",
     "category": "text"
   },
@@ -794,7 +794,7 @@
     "google": " ",
     "chatgpt": "Fin del tiempo de las naciones (Lucas 21:24), el Reino de Dios comienza a gobernar en los cielos 1914 d.C.",
     "gemini": "Fin del tiempo de las naciones (Lucas 21:24), el Reino de Dios comienza a gobernar en el cielo 1914 e.c.",
-    "claude": " ",
+    "claude": "Fin de los tiempos de las naciones (Lucas 21:24); el Reino de Dios comienza a gobernar en el cielo en 1914 e.c.",
     "deepl": "Al finalizar el tiempo de las naciones (Lucas 21:24), el Reino de Dios comienza a reinar en el cielo en 1914 d. C.",
     "category": "text"
   },
@@ -811,7 +811,7 @@
     "google": " ",
     "chatgpt": "llega a ser rey a la edad de",
     "gemini": "llega a ser rey a la edad de",
-    "claude": " ",
+    "claude": "se convierte en rey a la edad de",
     "deepl": "se convierte en rey a la edad de",
     "category": "text"
   },
@@ -828,7 +828,7 @@
     "google": " ",
     "chatgpt": "Vulgata completada por Jerónimo (traducción latina de la Biblia) c. 405 d.C.",
     "gemini": "Vulgata completada por Jerónimo (traducción al latín de la Biblia) c. 405 e.c.",
-    "claude": " ",
+    "claude": "La Vulgata es completada por Jerónimo (traducción latina de la Biblia) c. 405 e.c.",
     "deepl": "La Vulgata, completada por Jerónimo (traducción al latín de la Biblia), hacia el año 405 d. C.",
     "category": "text"
   },
@@ -845,7 +845,7 @@
     "google": " ",
     "chatgpt": "Biblia de Gutenberg impresa en 1455",
     "gemini": "Biblia de Gutenberg impresa en 1455",
-    "claude": " ",
+    "claude": "La Biblia de Gutenberg es impresa en 1455",
     "deepl": "La Biblia de Gutenberg, impresa en 1455",
     "category": "text"
   },
@@ -862,7 +862,7 @@
     "google": " ",
     "chatgpt": "Texto griego de las Escrituras Griegas Cristianas publicado por Erasmo de Rotterdam en 1516",
     "gemini": "Texto griego de las Escrituras Griegas Cristianas publicado por Erasmo de Rótterdam en 1516",
-    "claude": " ",
+    "claude": "El texto griego de las Escrituras Griegas Cristianas es publicado por Desiderio Erasmo de Róterdam en 1516",
     "deepl": "Texto griego de las Escrituras Griegas Cristianas publicado por Desiderio Erasmo de Róterdam en 1516",
     "category": "text"
   },
@@ -879,7 +879,7 @@
     "google": " ",
     "chatgpt": "Traducción luterana de la Biblia en septiembre de 1522",
     "gemini": "Traducción de la Biblia de Lutero en septiembre de 1522",
-    "claude": " ",
+    "claude": "Traducción de la Biblia de Lutero en septiembre de 1522",
     "deepl": "Traducción de la Biblia de Lutero en septiembre de 1522",
     "category": "text"
   },
@@ -896,7 +896,7 @@
     "google": " ",
     "chatgpt": "Traducción inglesa de la Biblia por Tyndale en 1536",
     "gemini": "Traducción de la Biblia al inglés de Tyndale en 1536",
-    "claude": " ",
+    "claude": "Traducción de la Biblia al inglés por Tyndale en 1536",
     "deepl": "Traducción de la Biblia al inglés realizada por Tyndale en 1536",
     "category": "text"
   },
@@ -913,7 +913,7 @@
     "google": " ",
     "chatgpt": "Rey Jaime Biblia 1611",
     "gemini": "Biblia del rey Jacobo 1611",
-    "claude": " ",
+    "claude": "Biblia del Rey Jacobo 1611",
     "deepl": "La Biblia del Rey Jacobo, 1611",
     "category": "text"
   },
@@ -930,7 +930,7 @@
     "google": " ",
     "chatgpt": "Jesús inicia su servicio 29 E.C. (Lucas 3:1, 21)",
     "gemini": "Jesús comienza su servicio 29 e.c. (Lucas 3:1, 21)",
-    "claude": " ",
+    "claude": "Jesús comienza su servicio en el 29 e.c. (Lucas 3:1, 21)",
     "deepl": "Jesús comienza su ministerio en el año 29 d. C. (Lucas 3:1, 21)",
     "category": "text"
   },
@@ -947,7 +947,7 @@
     "google": " ",
     "chatgpt": "Mitad de la semana \"el sacrificio cesará\" Daniel 9:27",
     "gemini": "A la mitad de la semana \"hará cesar el sacrificio\" Daniel 9:27",
-    "claude": " ",
+    "claude": "Mitad de la semana, «cesará el sacrificio», Daniel 9:27",
     "deepl": "«El sacrificio cesará» a mitad de la semana. Daniel 9:27",
     "category": "text"
   },
@@ -964,7 +964,7 @@
     "google": " ",
     "chatgpt": "Cornelio bautizado al final de las 70 semanas (Daniel 9:24) en el 36 E.C.",
     "gemini": "Cornelio es bautizado al final de las 70 semanas (Daniel 9:24) en 36 e.c.",
-    "claude": " ",
+    "claude": "Cornelio es bautizado al final de las 70 semanas (Daniel 9:24) en el 36 e.c.",
     "deepl": "Cornelio se bautizó al final de las 70 semanas (Daniel 9:24), en el año 36 d. C.",
     "category": "text"
   },
@@ -981,7 +981,7 @@
     "google": " ",
     "chatgpt": "Fin del período precolombino en las Américas 1492",
     "gemini": "Fin del período precolombino en América 1492",
-    "claude": " ",
+    "claude": "Fin del período precolombino en América en 1492",
     "deepl": "Fin del período precolombino en América: 1492",
     "category": "text"
   },
@@ -998,7 +998,7 @@
     "google": " ",
     "chatgpt": "Declaración de independencia de 13 colonias en América 1776",
     "gemini": "Declaración de independencia de las 13 colonias en América 1776",
-    "claude": " ",
+    "claude": "Declaración de independencia de las 13 colonias en América en 1776",
     "deepl": "Declaración de independencia de las 13 colonias de América, 1776",
     "category": "text"
   },
@@ -1015,7 +1015,7 @@
     "google": " ",
     "chatgpt": "Tischendorf descubre el Códice Sinaítico del siglo IV en 1844",
     "gemini": "Tischendorf descubre el Códice Sinaítico del siglo IV en 1844",
-    "claude": " ",
+    "claude": "Tischendorf descubre el Codex Sinaiticus del siglo IV en 1844",
     "deepl": "En 1844, Tischendorf descubre el Códice Sinaítico, que data del siglo IV.",
     "category": "text"
   },
@@ -1032,7 +1032,7 @@
     "google": " ",
     "chatgpt": "Rollos del Mar Muerto escritos",
     "gemini": "Se escriben los Rollos del Mar Muerto",
-    "claude": " ",
+    "claude": "Los Rollos del Mar Muerto son escritos",
     "deepl": "Los Rollos del Mar Muerto escritos",
     "category": "text"
   },
@@ -1049,7 +1049,7 @@
     "google": " ",
     "chatgpt": "Setenta LXX traducida",
     "gemini": "Se traduce la Septuaginta (LXX)",
-    "claude": " ",
+    "claude": "La Septuaginta (LXX) es traducida",
     "deepl": "La Septuaginta (LXX) tradujo",
     "category": "text"
   },
@@ -1066,7 +1066,7 @@
     "google": " ",
     "chatgpt": "Se publica el primer número de \"La Atalaya de Sion y Heraldo de la presencia de Cristo\" en 1879",
     "gemini": "Se publica el primer número de “Zion’s Watch Tower and Herald of Christ’s Presence” en 1879",
-    "claude": " ",
+    "claude": "El primer número de «La Atalaya de Sion y Heraldo de la Presencia de Cristo» se publica en 1879",
     "deepl": "El primer número de «La Atalaya de Sión y Heraldo de la Presencia de Cristo» se publicó en 1879.",
     "category": "text"
   },
@@ -1083,7 +1083,7 @@
     "google": " ",
     "chatgpt": "Los Estudiantes de la Biblia adoptan un nuevo nombre: Testigos de Jehová (Isaías 43:10, 12) en Columbus, Ohio, 1931",
     "gemini": "Los Estudiantes de la Biblia adoptan un nuevo nombre: Testigos de Jehová (Isaías 43:10, 12) en Columbus, Ohio, 1931",
-    "claude": " ",
+    "claude": "Los Estudiantes de la Biblia adoptan un nuevo nombre: testigos de Jehová (Isaías 43:10, 12), en Columbus, Ohio, en 1931",
     "deepl": "Los Estudiantes de la Biblia adoptan un nuevo nombre —Testigos de Jehová (Isaías 43:10, 12)— en Columbus (Ohio), en 1931",
     "category": "text"
   },
@@ -1100,7 +1100,7 @@
     "google": " ",
     "chatgpt": "La Escuela Bíblica Galaad de la Atalaya comienza el lunes 1 de febrero de 1943",
     "gemini": "La Escuela Bíblica de la Torre de Vigía de Galaad comienza el lunes 1 de febrero de 1943",
-    "claude": " ",
+    "claude": "La Escuela Bíblica de Galaad de la Watchtower comienza el lunes 1 de febrero de 1943",
     "deepl": "La Escuela Bíblica de la Atalaya de Gilead comienza el lunes 1 de febrero de 1943",
     "category": "text"
   },
@@ -1117,7 +1117,7 @@
     "google": " ",
     "chatgpt": "Se publica la \"Traducción del Nuevo Mundo de las Santas Escrituras\" en Manchester, Inglaterra el 18 de junio de 1960, reintroduciendo el nombre Jehová en muchas partes de la Biblia",
     "gemini": "Presentación de la “Traducción del Nuevo Mundo de las Santas Escrituras” en Mánchester, Inglaterra, el 18 de junio de 1960, reintroduce el nombre Jehová en muchas partes de la Biblia",
-    "claude": " ",
+    "claude": "«Traducción del Nuevo Mundo de las Santas Escrituras» se publica en Mánchester, Inglaterra, el 18 de junio de 1960, y reintroduce el nombre Jehová en muchas partes de la Biblia",
     "deepl": "La «Traducción del Nuevo Mundo de las Sagradas Escrituras», publicada en Mánchester (Inglaterra) el 18 de junio de 1960, reintroduce el nombre de Jehová en muchas partes de la Biblia.",
     "category": "text"
   },
@@ -1134,7 +1134,7 @@
     "google": " ",
     "chatgpt": "Se publica la \"Traducción del Nuevo Mundo de las Santas Escrituras\" revisada en la reunión anual de 2013, optimizada para su uso digital y en línea",
     "gemini": "Edición revisada de la “Traducción del Nuevo Mundo de las Santas Escrituras” presentada en la reunión anual de 2013, optimizada para su uso digital y en línea",
-    "claude": " ",
+    "claude": "Edición revisada de la «Traducción del Nuevo Mundo de las Santas Escrituras» presentada en la reunión anual de 2013, optimizada para uso digital y en línea",
     "deepl": "La «Traducción del Nuevo Mundo de las Sagradas Escrituras», revisada, se presentó en la reunión anual de 2013, optimizada para su uso digital y en línea.",
     "category": "text"
   },
@@ -1151,7 +1151,7 @@
     "google": " ",
     "chatgpt": "Situación geopolítica llamada \"Guerra Fría\" 1945-1991",
     "gemini": "Situación geopolítica denominada “Guerra Fría” 1945-1991",
-    "claude": " ",
+    "claude": "Situación geopolítica denominada «Guerra Fría» 1945-1991",
     "deepl": "Situación geopolítica conocida como «Guerra Fría», 1945-1991",
     "category": "text"
   },
@@ -1168,7 +1168,7 @@
     "google": " ",
     "chatgpt": "Códice Sinaítico escrito",
     "gemini": "Se escribe el Códice Sinaítico",
-    "claude": " ",
+    "claude": "El Codex Sinaiticus es escrito",
     "deepl": "El Codex Sinaiticus escrito",
     "category": "text"
   },
@@ -1185,7 +1185,7 @@
     "google": " ",
     "chatgpt": "Códice Vaticano escrito",
     "gemini": "Se escribe el Códice Vaticano",
-    "claude": " ",
+    "claude": "El Codex Vaticanus es escrito",
     "deepl": "El Codex Vaticanus escrito",
     "category": "text"
   },
@@ -1202,7 +1202,7 @@
     "google": " ",
     "chatgpt": "Códice de Leningrado escrito en El Cairo AD 1008",
     "gemini": "Se escribe el Códice de Leningrado en El Cairo en 1008 d.C.",
-    "claude": " ",
+    "claude": "El Códice de Leningrado es escrito en El Cairo en el año 1008 d.C.",
     "deepl": "Códice de Leningrado, escrito en El Cairo en el año 1008 d. C.",
     "category": "text"
   },
@@ -1219,7 +1219,7 @@
     "google": " ",
     "chatgpt": "Juan escribe \"revelación\" mientras está exiliado en Patmos 96-98 E.C.",
     "gemini": "Juan escribe el “Apocalipsis” mientras está exiliado en Patmos 96-98 e.c.",
-    "claude": " ",
+    "claude": "Juan escribe «Revelación» mientras está exiliado en Patmos, 96-98 e.c.",
     "deepl": "Juan escribe el «Apocalipsis» mientras se encuentra exiliado en Patmos, entre los años 96 y 98 d. C.",
     "category": "text"
   },
@@ -1236,7 +1236,7 @@
     "google": " ",
     "chatgpt": "El Buda – Siddhartha Gautama c.563-c.483 A.E.C.",
     "gemini": "El Buda – Siddhartha Gautama c. 563-c. 483 a.e.c.",
-    "claude": " ",
+    "claude": "Buda – Siddhartha Gautama c. 563-c. 483 a.e.c.",
     "deepl": "El Buda – Siddhartha Gautama, aprox. 563-aprox. 483 a. e. c.",
     "category": "text"
   },
@@ -1253,7 +1253,7 @@
     "google": " ",
     "chatgpt": "Buda alternativamente c. 480-400 A.E.C.",
     "gemini": "Buda opcionalmente c. 480-400 a.e.c.",
-    "claude": " ",
+    "claude": "Buda, alternativamente, c. 480-400 a.e.c.",
     "deepl": "Buda, aproximadamente entre el 480 y el 400 a. e. c.",
     "category": "text"
   },
@@ -1270,7 +1270,7 @@
     "google": " ",
     "chatgpt": "Mahoma c. 570-632",
     "gemini": "Mahoma c. 570-632",
-    "claude": " ",
+    "claude": "Mahoma c. 570-632",
     "deepl": "Mahoma, hacia el 570-632",
     "category": "text"
   },
@@ -1287,7 +1287,7 @@
     "google": " ",
     "chatgpt": "Confucio c.551-c.479 A.E.C.",
     "gemini": "Confucio c. 551-c. 479 a.e.c.",
-    "claude": " ",
+    "claude": "Confucio c. 551-c. 479 a.e.c.",
     "deepl": "Confucio, aprox. 551-aprox. 479 a. e. c.",
     "category": "text"
   },
@@ -1304,7 +1304,7 @@
     "google": " ",
     "chatgpt": "Hégira - Viaje de La Meca a Medina 16 de julio de 622",
     "gemini": "Hégira - Viaje de La Meca a Medina el 16 de julio de 622",
-    "claude": " ",
+    "claude": "Héjira: viaje de La Meca a Medina, 16 de julio de 622",
     "deepl": "La Hégira: el viaje de La Meca a Medina, 16 de julio de 622",
     "category": "text"
   },
@@ -1321,7 +1321,7 @@
     "google": " ",
     "chatgpt": "1553 A.E.C. Moisés tiene que escapar de Egipto – Éxodo 2:15, Hechos 7:23",
     "gemini": "1553 a.e.c. Moisés tiene que huir de Egipto – Éxodo 2:15, Hechos 7:23",
-    "claude": " ",
+    "claude": "1553 a.e.c.: Moisés tiene que huir de Egipto – Éxodo 2:15, Hechos 7:23",
     "deepl": "1553 a. C. Moisés se ve obligado a huir de Egipto — Éxodo 2:15, Hechos 7:23",
     "category": "text"
   },
@@ -1338,7 +1338,7 @@
     "google": " ",
     "chatgpt": "1513 A.E.C. Egipto recibe 10 plagas",
     "gemini": "1513 a.e.c. Egipto recibe las 10 plagas",
-    "claude": " ",
+    "claude": "1513 a.e.c.: Egipto recibe 10 plagas",
     "deepl": "1513 a. C. Egipto sufre las diez plagas",
     "category": "text"
   },
@@ -1355,7 +1355,7 @@
     "google": " ",
     "chatgpt": "José vendido como esclavo a la edad de 17 años – Gén. 37:2",
     "gemini": "José es vendido como esclavo a los 17 años – Gén. 37:2",
-    "claude": " ",
+    "claude": "José es vendido como esclavo a los 17 años – Génesis 37:2",
     "deepl": "José fue vendido como esclavo a los 17 años – Génesis 37:2",
     "category": "text"
   },
@@ -1372,7 +1372,7 @@
     "google": " ",
     "chatgpt": "400 años de aflicción (Hechos 7:6) – Ismael 1913 A.E.C.",
     "gemini": "400 años de aflicción (Hechos 7:6) – Ismael 1913 a.e.c.",
-    "claude": " ",
+    "claude": "Aflicción de 400 años (Hechos 7:6) – Ismael 1913 a.e.c.",
     "deepl": "400 años de aflicción (Hechos 7:6) – Ismael, 1913 a. e. c.",
     "category": "text"
   },
@@ -1389,7 +1389,7 @@
     "google": " ",
     "chatgpt": "Alejandro Magno (Daniel 11:3)",
     "gemini": "Alejandro Magno (Daniel 11:3)",
-    "claude": " ",
+    "claude": "Alejandro Magno (Daniel 11:3)",
     "deepl": "Alejandro Magno (Daniel 11:3)",
     "category": "text"
   },
@@ -1406,7 +1406,7 @@
     "google": " ",
     "chatgpt": "Ciro el Grande, Cambises II, Darío I 490 A.E.C., Jerjes I 480 A.E.C. (esposo de Ester, Daniel 11:2)",
     "gemini": "Ciro el Grande, Cambises II, Darío I 490 a.e.c., Jerjes I 480 a.e.c. (esposo de Ester, Daniel 11:2)",
-    "claude": " ",
+    "claude": "Ciro el Grande, Cambises II, Darío I 490 a.e.c., Jerjes I 480 a.e.c. (esposo de Ester, Daniel 11:2)",
     "deepl": "Ciro el Grande, Cambises II, Darío I (490 a. C.), Jerjes I (480 a. C.) (esposo de Ester, Daniel 11:2)",
     "category": "text"
   },
@@ -1423,7 +1423,7 @@
     "google": " ",
     "chatgpt": "Seleuco I Nicátor (v5) Siria hasta Antíoco III (v10) y Seleuco IV (v18, 19) hasta Octaviano (v20) y Tiberio (v21-24)",
     "gemini": "Seleuco I Nicator (v. 5) Siria hasta Antíoco III (v. 10) y Seleuco IV (v. 18, 19) hasta Octaviano (v. 20) y Tiberio (v. 21-24)",
-    "claude": " ",
+    "claude": "Seleuco I Nicátor (v. 5), Siria, hasta Antíoco III (v. 10) y Seleuco IV (v. 18, 19), hasta Octavio (v. 20) y Tiberio (v. 21-24)",
     "deepl": "Seleuco I Nicátor (v. 5), desde Siria hasta Antíoco III (v. 10) y Seleuco IV (v. 18, 19), hasta Octaviano (v. 20) y Tiberio (v. 21-24)",
     "category": "text"
   },
@@ -1440,7 +1440,7 @@
     "google": " ",
     "chatgpt": "Rey del Norte",
     "gemini": "Rey del Norte",
-    "claude": " ",
+    "claude": "Rey del Norte",
     "deepl": "El Rey del Norte",
     "category": "text"
   },
@@ -1457,7 +1457,7 @@
     "google": " ",
     "chatgpt": "Ptolomeo I, II, III, IV (v11, 12), V (v15, 16) hasta la batalla de Accio 31 A.E.C.",
     "gemini": "Ptolomeo I, II, III, IV (v. 11, 12), V (v. 15, 16) hasta la batalla de Accio 31 a.e.c.",
-    "claude": " ",
+    "claude": "Tolomeo I, II, III, IV (v. 11, 12), V (v. 15, 16), hasta la batalla de Actium en 31 a.e.c.",
     "deepl": "Ptolomeo I, II, III, IV (v. 11, 12), V (v. 15, 16) hasta la batalla de Actium, en el año 31 a. C.",
     "category": "text"
   },
@@ -1474,7 +1474,7 @@
     "google": " ",
     "chatgpt": "Rey del Sur",
     "gemini": "Rey del Sur",
-    "claude": " ",
+    "claude": "Rey del Sur",
     "deepl": "El rey del sur",
     "category": "text"
   },
@@ -1491,7 +1491,7 @@
     "google": " ",
     "chatgpt": "Imperio Británico 1870, Poder Mundial Angloamericano desde 1914",
     "gemini": "Imperio británico 1870, potencia mundial angloamericana desde 1914",
-    "claude": " ",
+    "claude": "Imperio británico en 1870, potencia mundial anglo-estadounidense desde 1914",
     "deepl": "El Imperio Británico en 1870, la potencia mundial angloamericana desde 1914",
     "category": "text"
   },
@@ -1508,7 +1508,7 @@
     "google": " ",
     "chatgpt": "Rey del Sur",
     "gemini": "Rey del Sur",
-    "claude": " ",
+    "claude": "Rey del Sur",
     "deepl": "El rey del sur",
     "category": "text"
   },
@@ -1525,7 +1525,7 @@
     "google": " ",
     "chatgpt": "Alemania con el emperador Guillermo I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
     "gemini": "Alemania con el emperador Guillermo I 1871 (v. 28), 1914 (v. 29), 1935 (v. 30b), 1939 (v. 31a)",
-    "claude": " ",
+    "claude": "Alemania con el emperador Guillermo I en 1871 (v. 28), 1914 (v. 29), 1935 (v. 30b), 1939 (v. 31a)",
     "deepl": "Alemania con el emperador Guillermo I: 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
     "category": "text"
   },
@@ -1542,7 +1542,7 @@
     "google": " ",
     "chatgpt": "Norte",
     "gemini": "Norte",
-    "claude": " ",
+    "claude": "Norte",
     "deepl": "Norte",
     "category": "text"
   },
@@ -1559,7 +1559,7 @@
     "google": " ",
     "chatgpt": "Unión Soviética 1945-1991 (Daniel 11:32-39, 40b, 41)",
     "gemini": "Unión Soviética 1945-1991 (Daniel 11:32-39, 40b, 41)",
-    "claude": " ",
+    "claude": "Unión Soviética 1945-1991 (Daniel 11:32-39, 40b, 41)",
     "deepl": "Unión Soviética, 1945-1991 (Daniel 11:32-39, 40b, 41)",
     "category": "text"
   },
@@ -1576,7 +1576,7 @@
     "google": " ",
     "chatgpt": "Rusia desde 2017 (w20 mayo)",
     "gemini": "Rusia desde 2017 (w20 mayo)",
-    "claude": " ",
+    "claude": "Rusia desde 2017 (w20 mayo)",
     "deepl": "Rusia desde 2017 (semana del 20 de mayo)",
     "category": "text"
   },
@@ -1593,7 +1593,7 @@
     "google": " ",
     "chatgpt": "Presencia de Cristo, Conclusión del sistema de cosas (Mateo 24:3), los últimos días (2 Timoteo 3:1)",
     "gemini": "Presencia de Cristo, conclusión del sistema de cosas (Mateo 24:3), los últimos días (2 Timoteo 3:1)",
-    "claude": " ",
+    "claude": "Presencia de Cristo, conclusión del sistema de cosas (Mateo 24:3), los últimos días (2 Timoteo 3:1)",
     "deepl": "La presencia de Cristo, el fin del sistema de cosas (Mateo 24:3), los últimos días (2 Timoteo 3:1)",
     "category": "text"
   },
@@ -1610,7 +1610,7 @@
     "google": " ",
     "chatgpt": "Últimos días",
     "gemini": "Últimos días",
-    "claude": " ",
+    "claude": "Últimos días",
     "deepl": "Últimos días",
     "category": "text"
   },
@@ -1627,7 +1627,7 @@
     "google": " ",
     "chatgpt": "El rey Suryavarman II construye Angkor Wat 1113-1150",
     "gemini": "El rey Suryavarman II construye Angkor Wat 1113-1150",
-    "claude": " ",
+    "claude": "El rey Suryavarman II construye Angkor Wat 1113-1150",
     "deepl": "El rey Suryavarman II construye Angkor Wat entre 1113 y 1150",
     "category": "text"
   },
@@ -1644,7 +1644,7 @@
     "google": " ",
     "chatgpt": "Notre-Dame de París construida 1163-1260",
     "gemini": "Construcción de Notre-Dame de París 1163-1260",
-    "claude": " ",
+    "claude": "Notre-Dame de París es construida 1163-1260",
     "deepl": "Notre-Dame de París, construida entre 1163 y 1260",
     "category": "text"
   },
@@ -1661,7 +1661,7 @@
     "google": " ",
     "chatgpt": "Torre de Babel construida",
     "gemini": "Construcción de la Torre de Babel",
-    "claude": " ",
+    "claude": "La Torre de Babel es construida",
     "deepl": "Se construyó la Torre de Babel",
     "category": "text"
   },
@@ -1678,7 +1678,7 @@
     "google": " ",
     "chatgpt": "400 años de aflicción",
     "gemini": "400 años de aflicción",
-    "claude": " ",
+    "claude": "Aflicción de 400 años",
     "deepl": "400 años de sufrimiento",
     "category": "text"
   },
@@ -1695,7 +1695,7 @@
     "google": " ",
     "chatgpt": "Esposa de Lot",
     "gemini": "La esposa de Lot",
-    "claude": " ",
+    "claude": "La esposa de Lot",
     "deepl": "La mujer de Lot",
     "category": "text"
   },
@@ -1712,7 +1712,7 @@
     "google": " ",
     "chatgpt": "Hijas de Lot",
     "gemini": "Hijas de Lot",
-    "claude": " ",
+    "claude": "Hijas de Lot",
     "deepl": "Las hijas de Lot",
     "category": "text"
   },
@@ -1729,7 +1729,7 @@
     "google": " ",
     "chatgpt": "Moab (hija mayor)",
     "gemini": "Moab (hija mayor)",
-    "claude": " ",
+    "claude": "Moab (hija mayor)",
     "deepl": "Moab (la hija mayor)",
     "category": "text"
   },
@@ -1746,7 +1746,7 @@
     "google": " ",
     "chatgpt": "Piedra de Rosetta 196 A.E.C.",
     "gemini": "Piedra de Rosetta 196 a.e.c.",
-    "claude": " ",
+    "claude": "Piedra de Rosetta 196 a.e.c.",
     "deepl": "Piedra de Rosetta, 196 a. C.",
     "category": "text"
   },
@@ -1763,7 +1763,7 @@
     "google": " ",
     "chatgpt": "Heródoto c. 484 – c. 425 a.C., escribe Las Historias",
     "gemini": "Heródoto c. 484 – c. 425 a. C., escribe Las Historias",
-    "claude": " ",
+    "claude": "Heródoto c. 484 – c. 425 a.C., escribe Los nueve libros de la historia",
     "deepl": "Heródoto (h. 484 – h. 425 a. C.) escribe *Las Historias*",
     "category": "text"
   },
@@ -1780,7 +1780,7 @@
     "google": " ",
     "chatgpt": "Aristóteles 384 – 322 a.C.",
     "gemini": "Aristóteles 384 – 322 a. C.",
-    "claude": " ",
+    "claude": "Aristóteles 384 – 322 a.C.",
     "deepl": "Aristóteles, 384-322 a. C.",
     "category": "text"
   },
@@ -1797,7 +1797,7 @@
     "google": " ",
     "chatgpt": "Ptolomeo c. 100 – c. 170 d.C.",
     "gemini": "Ptolomeo c. 100 – c. 170 e. c.",
-    "claude": " ",
+    "claude": "Ptolomeo c. 100 – c. 170 e.c.",
     "deepl": "Ptolomeo, hacia el año 100 – hacia el año 170 d. C.",
     "category": "text"
   },
@@ -1814,7 +1814,7 @@
     "google": " ",
     "chatgpt": "Pitágoras c. 570 – c. 495 a.C.",
     "gemini": "Pitágoras c. 570 – c. 495 a. C.",
-    "claude": " ",
+    "claude": "Pitágoras c. 570 – c. 495 a.C.",
     "deepl": "Pitágoras, aprox. 570 – aprox. 495 a. C.",
     "category": "text"
   },
@@ -1831,7 +1831,7 @@
     "google": " ",
     "chatgpt": "Platón c. 427 – c. 348 a.C.",
     "gemini": "Platón c. 427 – c. 348 a. C.",
-    "claude": " ",
+    "claude": "Platón c. 427 – c. 348 a.C.",
     "deepl": "Platón, aprox. 427 – aprox. 348 a. C.",
     "category": "text"
   },
@@ -1848,7 +1848,7 @@
     "google": " ",
     "chatgpt": "Sócrates c. 470 – c. 399 a.C.",
     "gemini": "Sócrates c. 470 – c. 399 a. C.",
-    "claude": " ",
+    "claude": "Sócrates c. 470 – c. 399 a.C.",
     "deepl": "Sócrates, aprox. 470 – aprox. 399 a. C.",
     "category": "text"
   },
@@ -1865,7 +1865,7 @@
     "google": " ",
     "chatgpt": "Josefo c. 37 – c. 100 d.C.",
     "gemini": "Josefo c. 37 – c. 100 e. c.",
-    "claude": " ",
+    "claude": "Josefo c. 37 – c. 100 e.c.",
     "deepl": "Josefo, hacia el año 37 – hacia el año 100 d. C.",
     "category": "text"
   },
@@ -1882,7 +1882,7 @@
     "google": " ",
     "chatgpt": "Cicerón 106–43 a.C.",
     "gemini": "Cicerón 106–43 a. C.",
-    "claude": " ",
+    "claude": "Cicerón 106–43 a.C.",
     "deepl": "Cicerón, 106-43 a. C.",
     "category": "text"
   },
@@ -1899,7 +1899,7 @@
     "google": " ",
     "chatgpt": "Cartas de Laquis c. 590 a.C.",
     "gemini": "Cartas de Laquis c. 590 a. e. c.",
-    "claude": " ",
+    "claude": "Cartas de Laquis c. 590 a.e.c.",
     "deepl": "Cartas de Laquis, hacia el año 590 a. e. c.",
     "category": "text"
   },
@@ -1916,7 +1916,7 @@
     "google": " ",
     "chatgpt": "Relieves de Laquis c. 681 a.C.",
     "gemini": "Relieves de Laquis c. 681 a. e. c.",
-    "claude": " ",
+    "claude": "Relieves de Laquis c. 681 a.e.c.",
     "deepl": "Relieves de Laquis, hacia el año 681 a. e. c.",
     "category": "text"
   },
@@ -1933,7 +1933,7 @@
     "google": " ",
     "chatgpt": "Estela de Mesa (Piedra moabita) c. 840 a.C.",
     "gemini": "Estela de Mesha (Piedra moabita) c. 840 a. e. c.",
-    "claude": " ",
+    "claude": "Estela de Mesá (piedra moabita) c. 840 a.e.c.",
     "deepl": "Estela de Mesha (piedra de Moab), hacia el año 840 a. e. c.",
     "category": "text"
   },
@@ -1950,7 +1950,7 @@
     "google": " ",
     "chatgpt": "Gilgamés y Aga 𒇽𒆥𒄄𒀀𒀝𒂵",
     "gemini": "Gilgamesh y Aga 𒇽𒆥𒄄𒀀𒀝𒂵",
-    "claude": " ",
+    "claude": "Gilgamesh y Agga 𒇽𒆥𒄄𒀀𒀝𒂵",
     "deepl": "Gilgamesh y Aga 𒇽𒆥𒄄𒀀𒀝𒂵",
     "category": "text"
   },
@@ -1967,7 +1967,7 @@
     "google": " ",
     "chatgpt": "Epopeya de Gilgamés (Sîn-lēqi-unninni)",
     "gemini": "Poema de Gilgamesh (Sîn-lēqi-unninni)",
-    "claude": " ",
+    "claude": "Epopeya de Gilgamesh (Sîn-lēqi-unninni)",
     "deepl": "La epopeya de Gilgamesh (Sîn-lēqi-unninni)",
     "category": "text"
   },
@@ -1984,7 +1984,7 @@
     "google": " ",
     "chatgpt": "Calendario gregoriano 1582",
     "gemini": "Calendario gregoriano 1582",
-    "claude": " ",
+    "claude": "Calendario gregoriano 1582",
     "deepl": "Calendario gregoriano, 1582",
     "category": "text"
   },
@@ -2001,7 +2001,7 @@
     "google": " ",
     "chatgpt": "c. 1600-1046 a.C.",
     "gemini": "c. 1600-1046 a. C.",
-    "claude": " ",
+    "claude": "c. 1600-1046 a.C.",
     "deepl": "h. 1600-1046 a. C.",
     "category": "text"
   },
@@ -2018,7 +2018,7 @@
     "google": " ",
     "chatgpt": "c. 1046-771 a.C.",
     "gemini": "c. 1046-771 a. C.",
-    "claude": " ",
+    "claude": "c. 1046-771 a.C.",
     "deepl": "h. 1046-771 a. C.",
     "category": "text"
   },
@@ -2035,7 +2035,7 @@
     "google": " ",
     "chatgpt": "Qin 221-207 a.C.",
     "gemini": "Qin 221-207 a. C.",
-    "claude": " ",
+    "claude": "Qin 221-207 a.C.",
     "deepl": "Dinastía Qin, 221-207 a. C.",
     "category": "text"
   },
@@ -2052,7 +2052,7 @@
     "google": " ",
     "chatgpt": "207 a.C. – 9 d.C.",
     "gemini": "207 a. C. – 9 e. c.",
-    "claude": " ",
+    "claude": "207 a.C. – 9 e.c.",
     "deepl": "207 a. C. – 9 d. C.",
     "category": "text"
   },
@@ -2069,7 +2069,7 @@
     "google": " ",
     "chatgpt": "Tres reinos 220-280 d.C.",
     "gemini": "Tres reinos 220-280 e. c.",
-    "claude": " ",
+    "claude": "Tres Reinos 220-280 e.c.",
     "deepl": "Los Tres Reinos, 220-280 d. C.",
     "category": "text"
   },
@@ -2086,7 +2086,7 @@
     "google": " ",
     "chatgpt": "Dieciséis reinos 304-439 d.C.",
     "gemini": "Dieciséis reinos 304-439 e. c.",
-    "claude": " ",
+    "claude": "Dieciséis Reinos 304-439 e.c.",
     "deepl": "Los dieciséis reinos, 304-439 d. C.",
     "category": "text"
   },
@@ -2103,7 +2103,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": " ",
-    "claude": " ",
+    "claude": "618-690, 705-907",
     "deepl": " ",
     "category": "text"
   },
@@ -2120,7 +2120,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": " ",
-    "claude": " ",
+    "claude": "690-705 Wu Zhou",
     "deepl": " ",
     "category": "text"
   },
@@ -2137,7 +2137,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Tang",
     "deepl": " ",
     "category": "text"
   },
@@ -2154,7 +2154,7 @@
     "google": " ",
     "chatgpt": "Regencia de Gonghe 841-828 a.C.",
     "gemini": "Regencia de Gonghe 841-828 a. C.",
-    "claude": " ",
+    "claude": "Regencia Gonghe 841-828 a.C.",
     "deepl": "Regencia de Gonghe, 841-828 a. C.",
     "category": "text"
   },
@@ -2171,7 +2171,7 @@
     "google": " ",
     "chatgpt": "Asoka (c. 304-232 a.C.) promueve el budismo",
     "gemini": "Ashoka (c. 304-232 a. C.) promueve el budismo",
-    "claude": " ",
+    "claude": "Asoka (c. 304-232 a.C.) promueve el budismo",
     "deepl": "Ashoka (h. 304-232 a. C.) promueve el budismo",
     "category": "text"
   },
@@ -2188,7 +2188,7 @@
     "google": " ",
     "chatgpt": "Ezequías extiende el túnel de Siloam",
     "gemini": "Ezequías extiende el túnel de Siloé",
-    "claude": " ",
+    "claude": "Ezequías extiende el túnel de Siloé",
     "deepl": "Ezequías amplía el túnel de Siloé",
     "category": "text"
   },
@@ -2205,7 +2205,7 @@
     "google": " ",
     "chatgpt": "El angloamericano es simbolizado por los pies de hierro mezclados con barro en la profecía de Daniel 2:33, 41-43",
     "gemini": "La potencia angloamericana está simbolizada por los pies de hierro mezclado con barro en la profecía de Daniel 2:33, 41-43",
-    "claude": " ",
+    "claude": "Lo angloestadounidense está simbolizado por los pies de hierro mezclado con barro en la profecía de Daniel 2:33, 41-43",
     "deepl": "El imperio angloamericano está simbolizado por los pies de hierro mezclados con arcilla en la profecía de Daniel 2:33, 41-43.",
     "category": "text"
   },
@@ -2222,7 +2222,7 @@
     "google": " ",
     "chatgpt": "Manetón escribe Aegyptiaca",
     "gemini": "Manetón escribe Aegyptiaca",
-    "claude": " ",
+    "claude": "Manetón escribe Aegyptiaca",
     "deepl": "Manetón escribe «Aegyptiaca»",
     "category": "text"
   },
@@ -2239,7 +2239,7 @@
     "google": " ",
     "chatgpt": "Destrucción de la gran Babilonia (Apocalipsis 17:3, 15-18; 18:9, 10)",
     "gemini": "Destrucción de Babilonia la Grande (Apocalipsis 17:3, 15-18; 18:9, 10)",
-    "claude": " ",
+    "claude": "Destrucción de Babilonia la Grande (Revelación 17:3, 15-18; 18:9, 10)",
     "deepl": "La destrucción de Babilonia la Grande (Apocalipsis 17:3, 15-18; 18:9, 10)",
     "category": "text"
   },
@@ -2256,7 +2256,7 @@
     "google": " ",
     "chatgpt": "“¡Paz y seguridad!” (1 Tesalonicenses 5:3, esta es una posibilidad, QfR 26/2, 25/11)",
     "gemini": "“¡Paz y seguridad!” (1 Tesalonicenses 5:3, esta es una posibilidad, QfR 26/2, 25/11)",
-    "claude": " ",
+    "claude": "«¡Paz y seguridad!» (1 Tesalonicenses 5:3; esta es una posibilidad, QfR 26/2, 25/11)",
     "deepl": "«¡Paz y seguridad!» (1 Tesalonicenses 5:3; esta es una posibilidad, QfR 26/2, 25/11)",
     "category": "text"
   },
@@ -2273,7 +2273,7 @@
     "google": " ",
     "chatgpt": "Ataque de Gog de Magog (Ezequiel 38:1, 2, 9-12, 18-23)",
     "gemini": "Ataque de Gog de Magog (Ezequiel 38:1, 2, 9-12, 18-23)",
-    "claude": " ",
+    "claude": "Ataque de Gog de Magog (Ezequiel 38:1, 2, 9-12, 18-23)",
     "deepl": "El ataque de Gog de Magog (Ezequiel 38:1, 2, 9-12, 18-23)",
     "category": "text"
   },
@@ -2290,7 +2290,7 @@
     "google": " ",
     "chatgpt": "Los habitantes de la tierra son juzgados, separando ovejas y cabras (Mateo 25:31-33)",
     "gemini": "Se juzga a los habitantes de la Tierra, separando a las ovejas de las cabras (Mateo 25:31-33)",
-    "claude": " ",
+    "claude": "Los habitantes de la Tierra son juzgados, separando las ovejas de las cabras (Mateo 25:31-33)",
     "deepl": "Los habitantes de la Tierra serán juzgados, y se separarán las ovejas de las cabras (Mateo 25:31-33)",
     "category": "text"
   },
@@ -2307,7 +2307,7 @@
     "google": " ",
     "chatgpt": "Reunión de los gobernantes del Reino (Mateo 24:31; 1 Corintios 15:50-53; 1 Tesalonicenses 4:15-17)",
     "gemini": "Reunión de los gobernantes del Reino (Mateo 24:31; 1 Corintios 15:50-53; 1 Tesalonicenses 4:15-17)",
-    "claude": " ",
+    "claude": "Reunión de los gobernantes del Reino (Mateo 24:31; 1 Corintios 15:50-53; 1 Tesalonicenses 4:15-17)",
     "deepl": "Reunión de los gobernantes del Reino (Mateo 24:31; 1 Corintios 15:50-53; 1 Tesalonicenses 4:15-17)",
     "category": "text"
   },
@@ -2324,7 +2324,7 @@
     "google": " ",
     "chatgpt": "Batalla de Armagedón (Apocalipsis 16:14, 16; Isaías 13:9; 2 Pedro 3:12)",
     "gemini": "Batalla de Armagedón (Apocalipsis 16:14, 16; Isaías 13:9; 2 Pedro 3:12)",
-    "claude": " ",
+    "claude": "Batalla del Armagedón (Revelación 16:14, 16; Isaías 13:9; 2 Pedro 3:12)",
     "deepl": "Batalla del Armagedón (Apocalipsis 16:14, 16; Isaías 13:9; 2 Pedro 3:12)",
     "category": "text"
   },
@@ -2341,7 +2341,7 @@
     "google": " ",
     "chatgpt": "El Reino de Dios comienza su reinado de 1000 años (Apocalipsis 5:9, 10; 20:4, 6)",
     "gemini": "El Reino de Dios comienza su reinado de 1000 años (Apocalipsis 5:9, 10; 20:4, 6)",
-    "claude": " ",
+    "claude": "El Reino de Dios comienza su reinado de 1000 años (Revelación 5:9, 10; 20:4, 6)",
     "deepl": "El Reino de Dios inicia su reinado de mil años (Apocalipsis 5:9, 10; 20:4, 6)",
     "category": "text"
   },
@@ -2358,7 +2358,7 @@
     "google": " ",
     "chatgpt": "Una gran multitud sobrevive a Armagedón (Apocalipsis 7:9, 14; Salmo 37:9-11)",
     "gemini": "Una gran muchedumbre sobrevive al Armagedón (Apocalipsis 7:9, 14; Salmo 37:9-11)",
-    "claude": " ",
+    "claude": "Una gran muchedumbre sobrevive al Armagedón (Revelación 7:9, 14; Salmo 37:9-11)",
     "deepl": "Una gran multitud sobrevive al Armagedón (Apocalipsis 7:9, 14; Salmo 37:9-11)",
     "category": "text"
   },
@@ -2375,7 +2375,7 @@
     "google": " ",
     "chatgpt": "Población mundial en miles de millones en los últimos 2000 años",
     "gemini": "Población mundial en miles de millones en los últimos 2000 años",
-    "claude": " ",
+    "claude": "Población mundial en miles de millones en los últimos 2000 años",
     "deepl": "Población mundial en miles de millones durante los últimos 2000 años",
     "category": "text"
   },
@@ -2392,7 +2392,7 @@
     "google": " ",
     "chatgpt": "Imperio jemer - período de Angkor",
     "gemini": "Imperio jemer - Período de Angkor",
-    "claude": " ",
+    "claude": "Imperio jemer: período de Angkor",
     "deepl": "Imperio jemer: período de Angkor",
     "category": "text"
   },
@@ -2409,7 +2409,7 @@
     "google": " ",
     "chatgpt": "Sacro Imperio Romano – conocido como Sacro Imperio Romano de la Nación Alemana después de 1512",
     "gemini": "Sacro Imperio Romano Germánico – conocido como Sacro Imperio Romano de la Nación Germánica después de 1512",
-    "claude": " ",
+    "claude": "Sacro Imperio Romano, conocido como Sacro Imperio Romano Germánico después de 1512",
     "deepl": "Sacro Imperio Romano Germánico —conocido como Sacro Imperio Romano Germánico de la Nación Alemana a partir de 1512—",
     "category": "text"
   },
@@ -2426,7 +2426,7 @@
     "google": " ",
     "chatgpt": "Imperio mongol 1206 – 1294",
     "gemini": "Imperio mongol 1206 – 1294",
-    "claude": " ",
+    "claude": "Imperio mongol 1206 – 1294",
     "deepl": "Imperio mongol, 1206-1294",
     "category": "text"
   },
@@ -2443,7 +2443,7 @@
     "google": " ",
     "chatgpt": "Civilización maya – período clásico",
     "gemini": "Civilización maya – Período clásico",
-    "claude": " ",
+    "claude": "Civilización maya: período Clásico",
     "deepl": "Civilización maya – Período Clásico",
     "category": "text"
   },
@@ -2460,7 +2460,7 @@
     "google": " ",
     "chatgpt": "Civilización maya – período posclásico",
     "gemini": "Civilización maya – Período posclásico",
-    "claude": " ",
+    "claude": "Civilización maya: período Posclásico",
     "deepl": "Civilización maya – Período posclásico",
     "category": "text"
   },
@@ -2477,7 +2477,7 @@
     "google": " ",
     "chatgpt": "Ciudad más grande de las Américas, pirámides construidas c. 200 d.C.",
     "gemini": "La ciudad más grande de las Américas, pirámides construidas c. 200 e. c.",
-    "claude": " ",
+    "claude": "La ciudad más grande de América, pirámides construidas c. 200 e.c.",
     "deepl": "La ciudad más grande de América; pirámides construidas hacia el año 200 d. C.",
     "category": "text"
   },
@@ -2494,7 +2494,7 @@
     "google": " ",
     "chatgpt": "Dionisio el Exiguo, inventor de la Anno Domini",
     "gemini": "Dionisio el Exiguo, inventor del Anno Domini",
-    "claude": " ",
+    "claude": "Dionisio el Exiguo, creador del sistema Anno Domini",
     "deepl": "Dionisio el Exiguo, creador del «Anno Domini»",
     "category": "text"
   },
@@ -2511,7 +2511,7 @@
     "google": " ",
     "chatgpt": "Omeya",
     "gemini": "Omeya",
-    "claude": " ",
+    "claude": "Omeya",
     "deepl": "Omeya",
     "category": "text"
   },
@@ -2528,7 +2528,7 @@
     "google": " ",
     "chatgpt": "Dinastía Ur III 𒋀𒀕𒆠",
     "gemini": "Dinastía Ur III 𒋀𒀕𒆠",
-    "claude": " ",
+    "claude": "III Dinastía de Ur 𒋀𒀕𒆠",
     "deepl": "Dinastía de Ur III 𒋀𒀕𒆠",
     "category": "text"
   },
@@ -2545,7 +2545,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hammurabi",
-    "claude": " ",
+    "claude": "Hammurabi 𒄩𒄠𒈬𒊏𒁉",
     "deepl": " ",
     "category": "text"
   },
@@ -2562,7 +2562,7 @@
     "google": " ",
     "chatgpt": "al-Juarismi escribe Al-Jabr (Álgebra)",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Al-Juarismi escribe Al-Jabr (Álgebra)",
     "deepl": "Al-Jabari escribe *Al-Jabr* (Álgebra)",
     "category": "text"
   },
@@ -2579,7 +2579,7 @@
     "google": " ",
     "chatgpt": "La Universidad de Al-Azhar se establece en El Cairo",
     "gemini": " ",
-    "claude": " ",
+    "claude": "La Universidad Al-Azhar se establece en El Cairo",
     "deepl": "La Universidad de Al-Azhar tiene su sede en El Cairo",
     "category": "text"
   },
@@ -2596,7 +2596,7 @@
     "google": " ",
     "chatgpt": "Ibn Sina o Avicena",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Ibn Sina o Avicena",
     "deepl": "Ibn Sina o Avicena",
     "category": "text"
   },
@@ -2613,7 +2613,7 @@
     "google": " ",
     "chatgpt": "Esperanza de vida 75 años",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Esperanza de vida: 75 años",
     "deepl": "Esperanza de vida: 75 años",
     "category": "text"
   },
@@ -2630,7 +2630,7 @@
     "google": " ",
     "chatgpt": "430 años: Éxodo 12:41, Gálatas 3:17",
     "gemini": " ",
-    "claude": " ",
+    "claude": "430 años: Éxodo 12:41, Gálatas 3:17",
     "deepl": "430 años: Éxodo 12:41, Gálatas 3:17",
     "category": "text"
   },
@@ -2647,7 +2647,7 @@
     "google": " ",
     "chatgpt": "Inicio calculado del calendario maya 11 de agosto de 3114 a.C.",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Inicio calculado del calendario maya: 11 de agosto de 3114 a.e.c.",
     "deepl": "Inicio calculado del calendario maya: 11 de agosto del 3114 a. e. c.",
     "category": "text"
   },
@@ -2664,7 +2664,7 @@
     "google": " ",
     "chatgpt": "c. 2070 – c. 1600 a.C.; Era mencionada por primera vez durante el período de la dinastía Zhou occidental",
     "gemini": " ",
-    "claude": " ",
+    "claude": "c. 2070 – c. 1600 a.C.; era mencionada por primera vez durante el período Zhou Occidental",
     "deepl": "h. 2070 – h. 1600 a. C.; época a la que se alude por primera vez durante el periodo Zhou Occidental",
     "category": "text"
   },
@@ -2681,7 +2681,7 @@
     "google": " ",
     "chatgpt": "Dinastía Xia en China",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Dinastía Xia en China",
     "deepl": "La dinastía Xia en China",
     "category": "text"
   },
@@ -2698,7 +2698,7 @@
     "google": " ",
     "chatgpt": "3 de septiembre de 32 a.C.",
     "gemini": " ",
-    "claude": " ",
+    "claude": "3 de septiembre de 32 a.e.c.",
     "deepl": "3 de septiembre del año 32 a. C.",
     "category": "text"
   },
@@ -2715,7 +2715,7 @@
     "google": " ",
     "chatgpt": "José y Jacob se reencuentran en Egipto – 1728 a.C. (Génesis 45:11; 47:9)",
     "gemini": " ",
-    "claude": " ",
+    "claude": "José y Jacob se reencuentran en Egipto – 1728 a.e.c. (Gén. 45:11; 47:9)",
     "deepl": "José y Jacob se reunieron en Egipto – 1728 a. e. c. (Génesis 45:11; 47:9)",
     "category": "text"
   },
@@ -2732,7 +2732,7 @@
     "google": " ",
     "chatgpt": "Rey del Sur de Daniel 11",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Rey del Sur de Daniel 11",
     "deepl": "El rey del Sur, según Daniel 11",
     "category": "text"
   },
@@ -2749,7 +2749,7 @@
     "google": " ",
     "chatgpt": "Rey del Norte de Daniel 11",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Rey del Norte de Daniel 11",
     "deepl": "El rey del Norte, según Daniel 11",
     "category": "text"
   },
@@ -2766,7 +2766,7 @@
     "google": " ",
     "chatgpt": "Piernas de hierro de Daniel 2",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Piernas de hierro de Daniel 2",
     "deepl": "Las piernas de hierro de Daniel 2",
     "category": "text"
   },
@@ -2783,7 +2783,7 @@
     "google": " ",
     "chatgpt": "Códice Argénteo c. 505",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Codex Argenteus c. 505",
     "deepl": "Codex Argenteus, hacia el año 505",
     "category": "text"
   },
@@ -2800,7 +2800,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Nguyễn",
     "deepl": " ",
     "category": "text"
   },
@@ -2817,7 +2817,7 @@
     "google": " ",
     "chatgpt": "Período Edo en Japón",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Período Edo en Japón",
     "deepl": "El periodo Edo en Japón",
     "category": "text"
   },
@@ -2834,7 +2834,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Meiji",
     "deepl": " ",
     "category": "text"
   },
@@ -2851,7 +2851,7 @@
     "google": " ",
     "chatgpt": "Guerra Civil Estadounidense 1861-1865",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Guerra Civil estadounidense 1861-1865",
     "deepl": "Guerra Civil Estadounidense, 1861-1865",
     "category": "text"
   },
@@ -2868,7 +2868,7 @@
     "google": " ",
     "chatgpt": "Códice de Aleppo c. 920",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Códice de Alepo c. 920",
     "deepl": "Códice de Alepo, hacia el año 920",
     "category": "text"
   },
@@ -2885,7 +2885,7 @@
     "google": " ",
     "chatgpt": "Reino de los vándalos y alanos 435 – 534",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Reino de los vándalos y alanos 435 – 534",
     "deepl": "Reino de los vándalos y los alanos, 435-534",
     "category": "text"
   },
@@ -2902,7 +2902,7 @@
     "google": " ",
     "chatgpt": "c. 481/509 – 843, Merovingios hasta 751, luego Carolingios",
     "gemini": " ",
-    "claude": " ",
+    "claude": "c. 481/509 – 843, merovingio hasta 751, luego carolingio",
     "deepl": "h. 481/509 – 843; merovingio hasta el 751, después carolingio",
     "category": "text"
   },
@@ -2919,7 +2919,7 @@
     "google": " ",
     "chatgpt": "Reino de los francos",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Reino de los francos",
     "deepl": "Reino de los francos",
     "category": "text"
   },
@@ -2936,7 +2936,7 @@
     "google": " ",
     "chatgpt": "Guerra de los Cien Años 1337 – 1453",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Guerra de los Cien Años 1337 – 1453",
     "deepl": "Guerra de los Cien Años, 1337-1453",
     "category": "text"
   },
@@ -2953,7 +2953,7 @@
     "google": " ",
     "chatgpt": "Peste negra 1346-1353",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Peste negra 1346-1353",
     "deepl": "La peste negra, 1346-1353",
     "category": "text"
   },
@@ -2970,7 +2970,7 @@
     "google": " ",
     "chatgpt": "581-618 Dinastía Sui",
     "gemini": " ",
-    "claude": " ",
+    "claude": "581-618 dinastía Sui",
     "deepl": "581-618, dinastía Sui",
     "category": "text"
   },
@@ -2987,7 +2987,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Sui",
     "deepl": " ",
     "category": "text"
   },
@@ -3004,7 +3004,7 @@
     "google": " ",
     "chatgpt": "La Gran Tribulación (Marcos 13:19; Daniel 12:1; Mateo 24:21, 22)",
     "gemini": " ",
-    "claude": " ",
+    "claude": "La gran tribulación (Marcos 13:19; Daniel 12:1; Mateo 24:21, 22)",
     "deepl": "La Gran Tribulación (Marcos 13:19; Daniel 12:1; Mateo 24:21, 22)",
     "category": "text"
   },
@@ -3021,7 +3021,7 @@
     "google": " ",
     "chatgpt": "Esta línea de tiempo fue creada en 2023, el año más caluroso de la historia humana y los últimos 125,000 años",
     "gemini": " ",
-    "claude": " ",
+    "claude": "Esta línea del tiempo se creó en 2023, el año más caluroso de la historia de la humanidad y de los últimos 125 000 años",
     "deepl": "Esta línea temporal se ha elaborado en 2023, el año más caluroso de la historia de la humanidad y de los últimos 125 000 años.",
     "category": "text"
   },
