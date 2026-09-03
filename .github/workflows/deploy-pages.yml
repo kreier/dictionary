@@ -1,10 +1,6 @@
 name: Deploy Dictionary to GitHub Pages
 
 on:
-  push:
-    branches:
-      - main
-
   workflow_dispatch:
 
   workflow_call:
