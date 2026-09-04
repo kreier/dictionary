@@ -109,8 +109,8 @@ CHAPTERS = [
 ]
 
 FOOTNOTE_MARKERS = [
-    'Chú thích', 'Footnotes', 'Fußnoten', 'Notas', 'Notes', 'Сноски',
-    'Voetnoten', 'Note in calce', 'Notas de rodapé', 'Przypisy'
+    'Chú thích', 'Footnotes', 'Fußnoten', 'Notas', 'Notes', 'Сноски', 'Примечания',
+    'Voetnoten', 'Note in calce', 'Notas de rodapé', 'Przypisy', 'الحواشي', 'حواشٍ'
 ]
 
 def parse_chapter_html(html: str) -> dict[int, str]:
@@ -141,6 +141,10 @@ def fetch_chapter(lang: str, book_num: int, ch: int, retries: int = 2) -> dict[i
     for attempt in range(retries + 1):
         try:
             with urllib.request.urlopen(req, timeout=15) as res:
+                final_url = res.geturl()
+                if f'/{lang}/' not in final_url and not final_url.startswith(f'https://www.jw.org/{lang}/'):
+                    print(f'[{lang}] JW.org does not have Bible in this locale (redirected to {final_url})', file=sys.stderr)
+                    return {}
                 html = res.read().decode('utf-8', errors='ignore')
                 verses = parse_chapter_html(html)
                 if verses:

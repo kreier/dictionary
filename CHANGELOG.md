@@ -22,6 +22,9 @@
 - Added universal `jw.org/finder` link generation for all 56 supported languages, dynamically resolving book paths, chapters, and verses.
 - Added side-by-side inline scripture context cards for the `BIBLE` category displaying verse texts in English and target language.
 - Added smart word highlighting in scripture context boxes for both English terms and target language translations (handling diacritics and NWT pronunciation marks).
+- Added Russian (`ru`) and Arabic (`ar`) Bible scriptures cache into `public/data/scriptures.json`.
+- Added Cyrillic and Arabic text support in smart scripture highlighting (handling Russian stress accents, noun declensions, and Arabic harakat/tashkeel).
+- Added locale redirection verification in `scripts/generate-scriptures.py` (e.g., detecting that Belarusian `be` has no online NWT on JW.org and preventing fallback data corruption).
 - Added German (`de`), Spanish (`es`), and French (`fr`) Bible scriptures cache into `public/data/scriptures.json`.
 - Generalized `scripts/generate-scriptures.py` to fetch verses for any language on demand via the universal finder endpoint.
 - Added dedicated "Confirm Translation" button and interactive verification checkbox in edit mode.
