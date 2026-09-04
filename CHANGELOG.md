@@ -12,10 +12,12 @@
 - Added German (`de`), Spanish (`es`), and French (`fr`) Bible scriptures cache into `public/data/scriptures.json`.
 - Generalized `scripts/generate-scriptures.py` to fetch verses for any language on demand via the universal finder endpoint.
 - Added dedicated "Confirm Translation" button and interactive verification checkbox in edit mode.
-- Synchronized with authoritative `kreier/timeline` commit `3564612e7b3649f8fb5bf683b5bf76dae9bb6eb9` (v6.08), expanding supported languages to 56.
+- Synchronized with authoritative `kreier/timeline` commit `5aebe65a83e25ac6ba14eb6c08e5f703e90fc69e` with updated references for Haggai, Malachi, Ruth, Ezra, Nehemiah, Esther, Job, Jacob2, and Sarah.
+- Cached verses for Haggai 1 and all referenced footnote chapters in `public/data/scriptures.json` (1,891 verses total).
 
 ### Changed
 
+- Updated `scripts/generate-data.py` to merge authoritative notes and tags from `dictionary_reference.csv` into all 56 language JSON files.
 - Removed italics from scripture context text, styling verses in crisp black text with blue verse references.
 - Removed redundant "Key" display box since the key is already shown in the dropdown selector.
 - Regenerated all `public/data/*.json` files from authoritative Timeline source CSVs.

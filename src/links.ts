@@ -7,13 +7,13 @@ export interface WebReferenceLinks {
     sourceType: "bible" | "a6" | "b9" | "wiki";
 }
 
-interface BibleBookDef {
+export interface BibleBookDef {
     num: number;
     slug: string;
     names: string[];
 }
 
-const BIBLE_BOOKS: BibleBookDef[] = [
+export const BIBLE_BOOKS: BibleBookDef[] = [
     { num: 1, slug: "genesis", names: ["genesis", "gen", "ge"] },
     { num: 2, slug: "exodus", names: ["exodus", "ex"] },
     { num: 3, slug: "leviticus", names: ["leviticus", "lev", "le"] },
@@ -26,8 +26,8 @@ const BIBLE_BOOKS: BibleBookDef[] = [
     { num: 10, slug: "2-samuel", names: ["2 samuel", "2 sam", "2sa"] },
     { num: 11, slug: "1-kings", names: ["1 kings", "1 ki", "1ki"] },
     { num: 12, slug: "2-kings", names: ["2 kings", "2 ki", "2ki"] },
-    { num: 13, slug: "1-chronicles", names: ["1 chronicles", "1 chron", "1ch"] },
-    { num: 14, slug: "2-chronicles", names: ["2 chronicles", "2 chron", "2ch"] },
+    { num: 13, slug: "1-chronicles", names: ["1 chronicles", "1 chron", "1 chr", "1ch"] },
+    { num: 14, slug: "2-chronicles", names: ["2 chronicles", "2 chron", "2 chr", "2ch"] },
     { num: 15, slug: "ezra", names: ["ezra", "ezr"] },
     { num: 16, slug: "nehemiah", names: ["nehemiah", "neh", "ne"] },
     { num: 17, slug: "esther", names: ["esther", "esth", "es"] },
@@ -90,44 +90,36 @@ export function parseBibleReference(notes: string | undefined, englishText?: str
     verseId?: number;
     label: string;
 } | null {
-    const textToSearch = (notes && /\d/.test(notes)) ? notes : (englishText || notes || "");
-    if (!textToSearch.trim()) return null;
+    const regex = /((?:[1-3]\s+)?[A-Za-z]+)\s+(\d+)(?::(\d+))?/g;
+    const candidates = [notes, englishText].filter((t): t is string => Boolean(t && t.trim()));
 
-    // Matches e.g. "Genesis 3:15", "Luke 3:38", "1 Kings 6:1", "Gen 10:1", "Psalms 105:23"
-    const regex = /((?:[1-3]\s+)?[A-Za-z]+)\s+(\d+)(?::(\d+))?/;
-    let match = textToSearch.match(regex);
-    if (!match && englishText && textToSearch !== englishText) {
-        match = englishText.match(regex);
+    for (const text of candidates) {
+        regex.lastIndex = 0;
+        let match: RegExpExecArray | null;
+        while ((match = regex.exec(text)) !== null) {
+            const bookRaw = match[1].toLowerCase().replace(/\s+/g, " ").trim();
+            const book = BIBLE_BOOKS.find(b => b.names.includes(bookRaw));
+            if (book) {
+                const chapter = Number.parseInt(match[2], 10);
+                const verse = match[3] ? Number.parseInt(match[3], 10) : undefined;
+                const verseId = verse !== undefined ? book.num * 1000000 + chapter * 1000 + verse : undefined;
+                const label = verse !== undefined
+                    ? `${book.slug.replace(/-/g, " ")} ${chapter}:${verse}`
+                    : `${book.slug.replace(/-/g, " ")} ${chapter}`;
+
+                return {
+                    bookNum: book.num,
+                    bookSlug: book.slug,
+                    chapter,
+                    verse,
+                    verseId,
+                    label
+                };
+            }
+        }
     }
-    if (!match) return null;
 
-    const bookRaw = match[1].toLowerCase().replace(/\s+/g, " ").trim();
-    const chapter = Number.parseInt(match[2], 10);
-    const verse = match[3] ? Number.parseInt(match[3], 10) : undefined;
-
-    const book = BIBLE_BOOKS.find(b =>
-        b.names.some(n => n === bookRaw || bookRaw.startsWith(n))
-    );
-
-    if (!book) return null;
-
-    let verseId: number | undefined;
-    if (verse !== undefined) {
-        verseId = book.num * 1000000 + chapter * 1000 + verse;
-    }
-
-    const label = verse !== undefined
-        ? `${book.slug.replace(/-/g, " ")} ${chapter}:${verse}`
-        : `${book.slug.replace(/-/g, " ")} ${chapter}`;
-
-    return {
-        bookNum: book.num,
-        bookSlug: book.slug,
-        chapter,
-        verse,
-        verseId,
-        label
-    };
+    return null;
 }
 
 export function getBibleLinks(notes: string | undefined, targetLang: string, englishText?: string): WebReferenceLinks {

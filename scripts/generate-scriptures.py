@@ -23,6 +23,7 @@ CHAPTERS = [
     ('genesis', 1, 5),
     ('genesis', 1, 10),
     ('genesis', 1, 11),
+    ('genesis', 1, 15),
     ('genesis', 1, 16),
     ('genesis', 1, 19),
     ('genesis', 1, 21),
@@ -41,32 +42,64 @@ CHAPTERS = [
     ('exodus', 2, 17),
     # Numbers
     ('numbers', 4, 13),
+    ('numbers', 4, 20),
+    ('numbers', 4, 31),
+    # Deuteronomy
+    ('deuteronomy', 5, 23),
     # Joshua
     ('joshua', 6, 9),
+    ('joshua', 6, 12),
+    ('joshua', 6, 13),
+    ('joshua', 6, 15),
     # Judges
     ('judges', 7, 3),
     ('judges', 7, 4),
+    ('judges', 7, 6),
     ('judges', 7, 7),
     ('judges', 7, 10),
     ('judges', 7, 11),
     ('judges', 7, 12),
     ('judges', 7, 13),
+    # Ruth
+    ('ruth', 8, 1),
     # 1 Samuel
     ('1-samuel', 9, 1),
     ('1-samuel', 9, 9),
+    ('1-samuel', 9, 15),
     ('1-samuel', 9, 16),
     # 1 Kings
     ('1-kings', 11, 2),
     # 2 Kings
     ('2-kings', 12, 11),
+    ('2-kings', 12, 19),
     # 1 Chronicles
     ('1-chronicles', 13, 1),
+    # Ezra
+    ('ezra', 15, 1),
+    ('ezra', 15, 4),
+    ('ezra', 15, 7),
+    # Nehemiah
+    ('nehemiah', 16, 1),
     # Esther
     ('esther', 17, 1),
+    ('esther', 17, 2),
+    # Job
+    ('job', 18, 1),
+    ('job', 18, 42),
     # Psalms
     ('psalms', 19, 105),
     # Isaiah
     ('isaiah', 23, 51),
+    # Ezekiel
+    ('ezekiel', 26, 27),
+    # Hosea
+    ('hosea', 28, 12),
+    # Zechariah
+    ('zechariah', 38, 9),
+    # Haggai
+    ('haggai', 37, 1),
+    # Malachi
+    ('malachi', 39, 1),
     # Luke
     ('luke', 42, 2),
     ('luke', 42, 3),
