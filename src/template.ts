@@ -9,6 +9,11 @@ export function initAppShell(app: HTMLElement): {
     nextButton: HTMLButtonElement;
     mainContent: HTMLElement;
     splitTextRow: HTMLDivElement;
+    splitScriptureRow: HTMLDivElement;
+    labelScriptureEnglish: HTMLDivElement;
+    scriptureTextEnglish: HTMLDivElement;
+    labelScriptureTarget: HTMLDivElement;
+    scriptureTextTarget: HTMLDivElement;
     splitWebRow: HTMLDivElement;
     notesAndAiBoxes: HTMLDivElement;
     labelText: HTMLSpanElement;
@@ -145,6 +150,19 @@ export function initAppShell(app: HTMLElement): {
                     rows="3"
                     readonly
                 ></textarea>
+            </div>
+        </div>
+
+        <!-- Inline Scripture Card Scaffold (for BIBLE) -->
+        <div class="split-scripture-row" id="split-scripture-row" style="display: none;">
+            <div class="box split-col scripture-box" id="box-scripture-english">
+                <div class="box-label" id="label-scripture-english">Scripture Reference (English)</div>
+                <div class="scripture-content" id="scripture-text-english"></div>
+            </div>
+
+            <div class="box split-col scripture-box" id="box-scripture-target">
+                <div class="box-label" id="label-scripture-target">Scripture Reference</div>
+                <div class="scripture-content" id="scripture-text-target"></div>
             </div>
         </div>
 
@@ -334,6 +352,11 @@ export function initAppShell(app: HTMLElement): {
         nextButton: app.querySelector<HTMLButtonElement>("#next-btn")!,
         mainContent: app.querySelector<HTMLElement>("#main-content")!,
         splitTextRow: app.querySelector<HTMLDivElement>("#split-text-row")!,
+        splitScriptureRow: app.querySelector<HTMLDivElement>("#split-scripture-row")!,
+        labelScriptureEnglish: app.querySelector<HTMLDivElement>("#label-scripture-english")!,
+        scriptureTextEnglish: app.querySelector<HTMLDivElement>("#scripture-text-english")!,
+        labelScriptureTarget: app.querySelector<HTMLDivElement>("#label-scripture-target")!,
+        scriptureTextTarget: app.querySelector<HTMLDivElement>("#scripture-text-target")!,
         splitWebRow: app.querySelector<HTMLDivElement>("#split-web-row")!,
         notesAndAiBoxes: app.querySelector<HTMLDivElement>("#notes-and-ai-boxes")!,
         labelText: app.querySelector<HTMLSpanElement>("#label-text")!,

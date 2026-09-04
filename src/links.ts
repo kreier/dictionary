@@ -82,18 +82,22 @@ const BIBLE_BOOKS: BibleBookDef[] = [
     { num: 66, slug: "revelation", names: ["revelation", "rev", "re"] }
 ];
 
-export function parseBibleReference(notes: string | undefined): {
+export function parseBibleReference(notes: string | undefined, englishText?: string): {
     bookSlug: string;
     chapter: number;
     verse?: number;
     verseId?: number;
     label: string;
 } | null {
-    if (!notes || !notes.trim()) return null;
+    const textToSearch = (notes && /\d/.test(notes)) ? notes : (englishText || notes || "");
+    if (!textToSearch.trim()) return null;
 
-    // Matches e.g. "Genesis 3:15", "Luke 3:38", "1 Kings 6:1", "Genesis 37"
+    // Matches e.g. "Genesis 3:15", "Luke 3:38", "1 Kings 6:1", "Gen 10:1", "Psalms 105:23"
     const regex = /((?:[1-3]\s+)?[A-Za-z]+)\s+(\d+)(?::(\d+))?/;
-    const match = notes.match(regex);
+    let match = textToSearch.match(regex);
+    if (!match && englishText && textToSearch !== englishText) {
+        match = englishText.match(regex);
+    }
     if (!match) return null;
 
     const bookRaw = match[1].toLowerCase().replace(/\s+/g, " ").trim();
@@ -124,25 +128,73 @@ export function parseBibleReference(notes: string | undefined): {
     };
 }
 
-export function getBibleLinks(notes: string | undefined, targetLang: string): WebReferenceLinks {
-    const parsed = parseBibleReference(notes);
+interface LangBibleConfig {
+    basePath: string;
+    bookSlugs: Record<string, string>;
+}
+
+const BIBLE_LANG_CONFIGS: Record<string, LangBibleConfig> = {
+    vi: {
+        basePath: "thu-vien/kinh-thanh/nwt/cac-sach",
+        bookSlugs: {
+            "genesis": "S%C3%A1ng-th%E1%BA%BF",
+            "exodus": "Xu%E1%BA%A5t-Ai-C%E1%BA%ADp",
+            "numbers": "D%C3%A2n-s%E1%BB%91",
+            "deuteronomy": "Ph%E1%BB%A5c-truy%E1%BB%81n-lu%E1%BA%ADt-l%E1%BB%87",
+            "joshua": "Gi%C3%B4-su%C3%AA",
+            "judges": "Quan-x%C3%A9t",
+            "1-samuel": "1-Sa-mu-%C3%AAn",
+            "1-kings": "1-C%C3%A1c-vua",
+            "2-kings": "2-C%C3%A1c-vua",
+            "1-chronicles": "1-S%E1%BB%AD-k%C3%BD",
+            "ezra": "%C3%8A-x%C6%A1-ra",
+            "esther": "%C3%8A-x%C6%A1-t%C3%AA",
+            "psalms": "Thi-thi%C3%AAn",
+            "isaiah": "%C3%8A-sai",
+            "ezekiel": "%C3%8A-x%C3%AA-chi-%C3%AAn",
+            "hosea": "%C3%94-s%C3%AA",
+            "zechariah": "xa-cha-ri",
+            "luke": "lu-ca",
+            "acts": "C%C3%B4ng-v%E1%BB%A5"
+        }
+    }
+};
+
+export function getBibleLinks(notes: string | undefined, targetLang: string, englishText?: string): WebReferenceLinks {
+    const parsed = parseBibleReference(notes, englishText);
     const lang = targetLang || "en";
 
     if (parsed) {
-        const path = `library/bible/nwt/books/${parsed.bookSlug}/${parsed.chapter}/`;
+        const englishPath = `library/bible/nwt/books/${parsed.bookSlug}/${parsed.chapter}/`;
         const anchor = parsed.verseId ? `#v${parsed.verseId}` : "";
+        const englishUrl = `https://www.jw.org/en/${englishPath}${anchor}`;
+
+        let targetUrl: string;
+        const config = BIBLE_LANG_CONFIGS[lang];
+        if (config) {
+            const localizedSlug = config.bookSlugs[parsed.bookSlug] || parsed.bookSlug;
+            targetUrl = `https://www.jw.org/${lang}/${config.basePath}/${localizedSlug}/${parsed.chapter}/${anchor}`;
+        } else if (lang === "en") {
+            targetUrl = englishUrl;
+        } else {
+            targetUrl = `https://www.jw.org/${lang}/library/bible/nwt/books/`;
+        }
 
         return {
-            englishUrl: `https://www.jw.org/en/${path}${anchor}`,
-            targetUrl: `https://www.jw.org/${lang}/${path}${anchor}`,
+            englishUrl,
+            targetUrl,
             label: parsed.label.toUpperCase(),
             sourceType: "bible"
         };
     }
 
+    const fallbackTarget = BIBLE_LANG_CONFIGS[lang]
+        ? `https://www.jw.org/${lang}/${BIBLE_LANG_CONFIGS[lang].basePath}/`
+        : `https://www.jw.org/${lang}/library/bible/nwt/books/`;
+
     return {
         englishUrl: "https://www.jw.org/en/library/bible/nwt/books/",
-        targetUrl: `https://www.jw.org/${lang}/library/bible/nwt/books/`,
+        targetUrl: fallbackTarget,
         label: "BIBLE (NWT)",
         sourceType: "bible"
     };
@@ -202,7 +254,7 @@ export function getReferenceLinksForEntry(
 ): WebReferenceLinks | null {
     switch (entry.category) {
         case "bible":
-            return getBibleLinks(entry.notes, targetLang);
+            return getBibleLinks(entry.notes, targetLang, entry.english);
         case "A6":
             return getA6Links(entry.tag, targetLang);
         case "B9":

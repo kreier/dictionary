@@ -69,6 +69,8 @@
 - [x] Add `.github/workflows/approve-translation.yml` in `kreier/timeline` for `/approve` bot action.
 - [x] Add split view layout for BIBLE, A6, B9, and WIKI categories.
 - [x] Add web reference link cards for jw.org bible verses, Appendix A6, Appendix B9, and Wikipedia.
+- [x] Add localized Bible reference link generation for Vietnamese on jw.org.
+- [x] Add inline side-by-side scripture context cards for BIBLE category entries.
 - [x] Add dedicated "Confirm Translation" button and prominent checkbox toggle in edit mode.
 - [x] Remove redundant "Key" display box.
 - [ ] Implement timeline visualization logic for dictionary entries.

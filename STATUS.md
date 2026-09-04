@@ -28,6 +28,8 @@ major frontend work is timeline visualization.
 - Release v1.1
 - Split view layout for BIBLE, A6, B9, and WIKI with English & Translation side-by-side
 - Web reference link cards for jw.org bible verses, appendix A6/B9, and Wikipedia
+- Localized `jw.org` Bible link generation for Vietnamese
+- Inline scripture context cards for BIBLE category entries (English & translation side-by-side)
 - Interactive "Checked" verification button and direct checkbox toggle in edit mode
 - Removed redundant "Key" display box
 

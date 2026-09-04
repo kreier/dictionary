@@ -6,6 +6,9 @@
 
 - Added split view layout for `BIBLE`, `A6`, `B9`, and `WIKI` categories (English reference on left, translated text on right).
 - Added web reference link cards below the split view for `jw.org` bible verses, Appendix A6, Appendix B9, and Wikipedia pages.
+- Added localized `jw.org` Bible link generation for Vietnamese (`thu-vien/kinh-thanh/nwt/cac-sach/` with localized book slugs).
+- Added side-by-side inline scripture context cards for the `BIBLE` category displaying verse texts in English and target language.
+- Added `public/data/scriptures.json` and `scripts/generate-scriptures.py` to extract and supply verse context for dictionary entries.
 - Added dedicated "Confirm Translation" button and interactive verification checkbox in edit mode.
 
 ### Changed
