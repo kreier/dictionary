@@ -87,6 +87,7 @@ CHAPTERS = [
     ('job', 18, 1),
     ('job', 18, 42),
     # Psalms
+    ('psalms', 19, 90),
     ('psalms', 19, 105),
     # Isaiah
     ('isaiah', 23, 51),

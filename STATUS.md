@@ -26,6 +26,12 @@ major frontend work is timeline visualization.
 - TypeScript compiler configuration (`tsconfig.json`) and typecheck verification
 - Housekeeping: removed unused dependencies and obsolete placeholder scripts
 - Release v1.1
+- Multi-verse scripture reference support: ranges (`Numbers 20:14-17`), comma lists (`Judges 4:7, 17`), and multi-scriptures (`Genesis 5:12; Luke 3:37`)
+- Full range deep linking to `jw.org/finder` (`#v4020014-v4020017` / `bible=04020014-04020017`)
+- Footnote (`_fn`) tribe name extraction and multi-term highlighting across EN, DE, and VI
+- Comma-separated name highlighting (e.g., `Barak, Deborah, Jael`)
+- Complete audit of `dictionary_reference.csv` (199 Bible/footnote entries verified)
+- Synchronized dictionary JSONs and cache with authoritative Timeline commit `73e62e1`
 - Split view layout for BIBLE, A6, B9, and WIKI with English & Translation side-by-side
 - Web reference link cards with universal `jw.org/finder` resolution for all 56 languages
 - Inline scripture context cards for BIBLE category entries with smart word highlighting
