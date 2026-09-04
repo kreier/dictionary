@@ -4,6 +4,19 @@
 
 ### Added
 
+- Added multi-verse scripture reference parsing and rendering:
+  - Verse ranges (e.g., `Numbers 20:14-17` rendering all 4 verses 14, 15, 16, 17 with jw.org range deep links `#v4020014-v4020017` and `bible=04020014-04020017`).
+  - Comma-separated verse lists (e.g., `Judges 4:7, 17`, `Joshua 9:3, 7`, `Genesis 28:8, 9`).
+  - Semicolon-separated multi-scripture references (e.g., `Genesis 5:12; Luke 3:37`, `Genesis 36:12; 1 Chronicles 1:36`).
+  - Trailing commentary parsing (e.g., `Malachi 1:1; bible book`, `Luke 3:34; Jacob/Israel 1858-1711 – 147 years`).
+- Added footnote (`_fn`) tribe name extraction and highlighting:
+  - Parses pattern `^\d+\)\s*([^:]+):` across English, German, and Vietnamese.
+  - Highlights primary tribe names and bracketed aliases (e.g., `Hivites [Gibeon]`, `Ethiopian [Cushite]`).
+  - Multi-name comma splitting (e.g., `Barak, Deborah, Jael` highlighting all three persons).
+  - Normalizes and matches across German umlauts, diacritics, and pronunciation dots.
+- Audited `dictionary_reference.csv` (199 Bible & `_fn` entries, 100% valid scripture references).
+- Synchronized dictionary data with authoritative `kreier/timeline` commit `73e62e124f3bba101ab9dcfa0028f49510ffe43b`.
+- Expanded scripture cache in `public/data/scriptures.json` to 1,908 verses across 41 chapters.
 - Added split view layout for `BIBLE`, `A6`, `B9`, and `WIKI` categories (English reference on left, translated text on right).
 - Added web reference link cards below the split view for `jw.org` bible verses, Appendix A6, Appendix B9, and Wikipedia pages.
 - Added universal `jw.org/finder` link generation for all 56 supported languages, dynamically resolving book paths, chapters, and verses.

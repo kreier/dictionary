@@ -15,7 +15,7 @@ import {
     submitChanges,
     DEFAULT_WORKER_ENDPOINT
 } from "./api";
-import { getReferenceLinksForEntry, BIBLE_BOOKS } from "./links";
+import { getReferenceLinksForEntry, parseAllBibleReferences } from "./links";
 
 const app = document.querySelector<HTMLDivElement>("#app");
 if (!app) {
@@ -81,45 +81,109 @@ async function loadScriptures(): Promise<Record<string, ScriptureVerse> | null> 
     return scripturesData;
 }
 
-function highlightScriptureWord(text: string, searchWord?: string): string {
-    const escapedText = escapeHtml(text);
-    if (!searchWord || !searchWord.trim()) return escapedText;
+function extractHighlightTerms(entryText?: string, entryKey?: string): string[] {
+    if (!entryText && !entryKey) return [];
+    const terms: string[] = [];
 
-    const rawWord = searchWord.split(/[(),]/)[0].trim();
-    if (!rawWord) return escapedText;
+    if (entryText) {
+        const fnMatch = entryText.match(/^\s*\d+\)\s*([^:]+):/);
+        if (fnMatch) {
+            const raw = fnMatch[1].trim();
+            const bracketMatch = raw.match(/^([^\[]+)\[([^\]]+)\]/);
+            if (bracketMatch) {
+                terms.push(bracketMatch[1].trim());
+                terms.push(bracketMatch[2].trim());
+            } else {
+                terms.push(raw);
+            }
+        } else {
+            // Split comma-separated names like Barak, Deborah, Jael
+            const parts = entryText.split(",").map(s => s.trim()).filter(Boolean);
+            for (const part of parts) {
+                const subparts = part.split(/[\/(]/).map(s => s.replace(/[),;]/g, "").trim()).filter(Boolean);
+                terms.push(...subparts);
+            }
+        }
+    }
 
-    const pronMarks = "['’ʹ·\\u02b9\\u00b4]?";
+    if (entryKey) {
+        const cleanKey = entryKey.replace(/_fn$/, "").replace(/\d+$/, "").replace(/_/g, " ").trim();
+        if (cleanKey) terms.push(cleanKey);
+    }
+
+    const expanded: string[] = [];
+    for (const t of terms) {
+        if (!t) continue;
+        expanded.push(t);
+        const stripped = t.replace(/['’ʹ·\u0323]/g, "");
+        if (stripped !== t) expanded.push(stripped);
+
+        if (stripped.endsWith("ians")) {
+            expanded.push(stripped.slice(0, -4));
+            expanded.push(stripped.slice(0, -1));
+        } else if (stripped.endsWith("ian")) {
+            expanded.push(stripped.slice(0, -3));
+        } else if (stripped.endsWith("ites")) {
+            expanded.push(stripped.slice(0, -4));
+            expanded.push(stripped.slice(0, -1));
+        } else if (stripped.endsWith("ite")) {
+            expanded.push(stripped.slice(0, -3));
+        } else if (stripped.endsWith("er") && stripped.length > 4) {
+            expanded.push(stripped.slice(0, -2));
+            expanded.push(stripped.slice(0, -2) + "en");
+        }
+
+        const viPrefix = stripped.match(/^(?:Người|Dân)\s+(.+)$/i);
+        if (viPrefix) {
+            expanded.push(viPrefix[1].trim());
+        }
+    }
+
+    return Array.from(new Set(expanded.filter(s => s && s.length > 1)));
+}
+
+function buildTermPattern(rawWord: string): string {
+    const pronMarks = "['’ʹ·\\u02b9\\u00b4\\u0323]?";
+    const normalized = rawWord.replace(/['’ʹ·]/g, "").normalize("NFD");
+    const baseLetters = normalized.replace(/[\u0323\u0307]/g, "");
     const charPatterns: string[] = [];
-
-    for (const ch of rawWord) {
-        if (/[a-zA-Z]/.test(ch)) {
-            const base = ch.normalize("NFD")[0];
-            const upper = base.toUpperCase();
-            const lower = base.toLowerCase();
-            charPatterns.push(`(?:[${upper}${lower}\\u1eb8\\u1eb9\\u1e00-\\u1eff][\\u0300-\\u036f]?)${pronMarks}`);
+    for (const ch of baseLetters) {
+        if (/[\u0300-\u036f]/.test(ch)) {
+            charPatterns.push(`(?:${ch})?${pronMarks}`);
+            continue;
+        }
+        if (/[a-zA-Z\u00c0-\u024f\u1e00-\u1eff]/.test(ch)) {
+            const upper = ch.toUpperCase();
+            const lower = ch.toLowerCase();
+            charPatterns.push(`(?:[${upper}${lower}\\u00c0-\\u024f\\u1e00-\\u1eff][\\u0300-\\u036f]?)${pronMarks}`);
         } else {
             const escapedChar = ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
             charPatterns.push(`${escapedChar}${pronMarks}`);
         }
     }
+    return `(?:\\b|(?<=[\\s^['"\\(]))(${charPatterns.join("")})(?:\\b|(?=[\\s.,;:!?'"\\)]|$))`;
+}
 
-    const regexStr = `(?:\\b|(?<=[\\s^[(\'"]))(${charPatterns.join("")})(?:\\b|(?=[\\s.,;:!?\'"\\)]|$))`;
-    try {
-        const regex = new RegExp(regexStr, "giu");
-        if (regex.test(escapedText)) {
-            return escapedText.replace(regex, '<mark class="scripture-highlight">$1</mark>');
+function highlightScriptureWords(text: string, terms: string[]): string {
+    let escapedText = escapeHtml(text);
+    if (!terms || terms.length === 0) return escapedText;
+
+    const sortedTerms = [...terms].sort((a, b) => b.length - a.length);
+
+    for (const term of sortedTerms) {
+        if (!term || term.length < 2) continue;
+        const pattern = buildTermPattern(term);
+        try {
+            const regex = new RegExp(pattern, "giu");
+            escapedText = escapedText.replace(regex, '<mark class="scripture-highlight">$1</mark>');
+        } catch {
+            const direct = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+            try {
+                const fb = new RegExp(`(\\b${direct}\\b)`, "gi");
+                escapedText = escapedText.replace(fb, '<mark class="scripture-highlight">$1</mark>');
+            } catch {}
         }
-    } catch {
-        // Fallback
     }
-
-    const directEscaped = rawWord.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-    try {
-        const fallbackRegex = new RegExp(`(\\b${directEscaped}\\b)`, "gi");
-        if (fallbackRegex.test(escapedText)) {
-            return escapedText.replace(fallbackRegex, '<mark class="scripture-highlight">$1</mark>');
-        }
-    } catch {}
 
     return escapedText;
 }
@@ -128,53 +192,37 @@ function findScriptureForEntry(
     notes: string | undefined,
     lang: string,
     englishWord?: string,
-    targetWord?: string
+    targetWord?: string,
+    entryKey?: string
 ): RenderedScripture | null {
     if (!scripturesData) return null;
 
-    const refRegex = /((?:[1-3]\s+)?[A-Za-z]+)\s+(\d+)(?::(\d+))?/g;
-    const candidates = [notes, englishWord].filter((t): t is string => Boolean(t && t.trim()));
-    const matches: Array<{ bookSlug: string; chapter: number; verse?: number }> = [];
+    const parsedRefs = parseAllBibleReferences(notes, englishWord);
+    if (parsedRefs.length === 0) return null;
 
-    for (const text of candidates) {
-        refRegex.lastIndex = 0;
-        let match: RegExpExecArray | null;
-        while ((match = refRegex.exec(text)) !== null) {
-            const rawBook = match[1].toLowerCase().replace(/\s+/g, " ").trim();
-            const book = BIBLE_BOOKS.find(b => b.names.includes(rawBook));
-            if (book) {
-                const chapter = Number.parseInt(match[2], 10);
-                const verse = match[3] ? Number.parseInt(match[3], 10) : undefined;
-                matches.push({ bookSlug: book.slug, chapter, verse });
-            }
-        }
-        if (matches.length > 0) break;
-    }
-
-    if (matches.length === 0) return null;
+    const englishTerms = extractHighlightTerms(englishWord, entryKey);
+    const targetTerms = extractHighlightTerms(targetWord, entryKey);
 
     const enParts: string[] = [];
     const targetParts: string[] = [];
-    const labels: string[] = [];
 
-    for (const m of matches) {
-        if (m.verse !== undefined) {
+    for (const parsedRef of parsedRefs) {
+        for (const v of parsedRef.verses) {
             for (const key of Object.keys(scripturesData)) {
                 const item = scripturesData[key];
                 const itemBookNorm = (item.book || "").toLowerCase().replace(/[\s_]+/g, "-");
                 if (
-                    item.chapter === m.chapter &&
-                    item.verse === m.verse &&
-                    itemBookNorm === m.bookSlug
+                    item.chapter === parsedRef.chapter &&
+                    item.verse === v &&
+                    itemBookNorm === parsedRef.bookSlug
                 ) {
-                    labels.push(item.reference);
-                    const enHighlighted = highlightScriptureWord(item.en, englishWord);
+                    const enHighlighted = highlightScriptureWords(item.en, englishTerms);
                     enParts.push(`<span class="scripture-verse-num">${escapeHtml(item.reference)}:</span> ${enHighlighted}`);
 
                     const targetRaw = item[lang] ?? (lang === "vi" ? item.vi : "") ?? (lang === "de" ? item.de : "");
                     const targetText = typeof targetRaw === "string" ? targetRaw.trim() : "";
                     if (targetText) {
-                        const targetHighlighted = highlightScriptureWord(targetText, targetWord);
+                        const targetHighlighted = highlightScriptureWords(targetText, targetTerms);
                         targetParts.push(`<span class="scripture-verse-num">${escapeHtml(item.reference)}:</span> ${targetHighlighted}`);
                     }
                     break;
@@ -185,12 +233,13 @@ function findScriptureForEntry(
 
     if (enParts.length === 0) return null;
 
+    const fullLabel = parsedRefs.map(r => r.label).join("; ");
     return {
-        refLabel: labels.join(", "),
+        refLabel: fullLabel,
         enHtml: enParts.join("<br><br>"),
         targetHtml: targetParts.length > 0
             ? targetParts.join("<br><br>")
-            : `<span class="scripture-empty">Translation for ${escapeHtml(lang.toUpperCase())} not yet cached for ${escapeHtml(labels.join(", "))}. Click the reference card below to view on jw.org.</span>`
+            : `<span class="scripture-empty">Translation for ${escapeHtml(lang.toUpperCase())} not yet cached for ${escapeHtml(fullLabel)}. Click the reference card below to view on jw.org.</span>`
     };
 }
 
@@ -333,7 +382,7 @@ function showEntry(): void {
         dom.labelText.textContent = `Text (${currentLanguage.toUpperCase()})`;
 
         if (currentCategory === "bible") {
-            const scripture = findScriptureForEntry(entry.notes, currentLanguage, entry.english, entry.text);
+            const scripture = findScriptureForEntry(entry.notes, currentLanguage, entry.english, entry.text, entry.key);
             if (scripture) {
                 dom.splitScriptureRow.style.display = "grid";
                 dom.labelScriptureEnglish.textContent = `Scripture Context: ${scripture.refLabel} (English)`;

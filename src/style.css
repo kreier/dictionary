@@ -540,7 +540,7 @@ textarea.box-content.edit-input:focus {
     color: #111827;
     font-style: normal;
     white-space: pre-wrap;
-    max-height: 160px;
+    max-height: 220px;
     overflow-y: auto;
 }
 

@@ -82,68 +82,131 @@ export const BIBLE_BOOKS: BibleBookDef[] = [
     { num: 66, slug: "revelation", names: ["revelation", "rev", "re"] }
 ];
 
-export function parseBibleReference(notes: string | undefined, englishText?: string): {
+export interface ParsedBibleRef {
     bookNum: number;
     bookSlug: string;
     chapter: number;
+    verses: number[];
     verse?: number;
     verseId?: number;
+    isRange?: boolean;
+    rangeStart?: number;
+    rangeEnd?: number;
     label: string;
-} | null {
-    const regex = /((?:[1-3]\s+)?[A-Za-z]+)\s+(\d+)(?::(\d+))?/g;
+}
+
+export function parseAllBibleReferences(notes: string | undefined, englishText?: string): ParsedBibleRef[] {
+    const regex = /((?:[1-3]\s+)?[A-Za-z]+)\s+(\d+)(?::(\d+(?:\s*-\s*\d+)?(?:\s*,\s*\d+)*))?/g;
     const candidates = [notes, englishText].filter((t): t is string => Boolean(t && t.trim()));
+    const results: ParsedBibleRef[] = [];
 
     for (const text of candidates) {
         regex.lastIndex = 0;
         let match: RegExpExecArray | null;
         while ((match = regex.exec(text)) !== null) {
-            const bookRaw = match[1].toLowerCase().replace(/\s+/g, " ").trim();
-            const book = BIBLE_BOOKS.find(b => b.names.includes(bookRaw));
-            if (book) {
-                const chapter = Number.parseInt(match[2], 10);
-                const verse = match[3] ? Number.parseInt(match[3], 10) : undefined;
-                const verseId = verse !== undefined ? book.num * 1000000 + chapter * 1000 + verse : undefined;
-                const label = verse !== undefined
-                    ? `${book.slug.replace(/-/g, " ")} ${chapter}:${verse}`
-                    : `${book.slug.replace(/-/g, " ")} ${chapter}`;
+            const rawBook = match[1].toLowerCase().replace(/\s+/g, " ").trim();
+            const book = BIBLE_BOOKS.find(b => b.names.includes(rawBook));
+            if (!book) continue;
 
-                return {
-                    bookNum: book.num,
-                    bookSlug: book.slug,
-                    chapter,
-                    verse,
-                    verseId,
-                    label
-                };
+            const chapter = Number.parseInt(match[2], 10);
+            const verseSpec = match[3] ? match[3].trim() : undefined;
+            const verses: number[] = [];
+            let isRange = false;
+            let rangeStart: number | undefined;
+            let rangeEnd: number | undefined;
+
+            if (verseSpec) {
+                if (verseSpec.includes("-")) {
+                    const parts = verseSpec.split("-").map(s => Number.parseInt(s.trim(), 10));
+                    if (!Number.isNaN(parts[0]) && !Number.isNaN(parts[1])) {
+                        isRange = true;
+                        rangeStart = parts[0];
+                        rangeEnd = parts[1];
+                        for (let v = parts[0]; v <= parts[1]; v++) {
+                            verses.push(v);
+                        }
+                    }
+                } else {
+                    const list = verseSpec.split(",").map(s => Number.parseInt(s.trim(), 10)).filter(n => !Number.isNaN(n));
+                    verses.push(...list);
+                }
             }
+
+            const bookDisplay = book.slug.split("-").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+            let label = `${bookDisplay} ${chapter}`;
+            if (isRange && rangeStart !== undefined && rangeEnd !== undefined) {
+                label = `${bookDisplay} ${chapter}:${rangeStart}-${rangeEnd}`;
+            } else if (verses.length > 0) {
+                label = `${bookDisplay} ${chapter}:${verses.join(", ")}`;
+            }
+
+            const firstVerse = verses.length > 0 ? verses[0] : undefined;
+            const firstVerseId = firstVerse !== undefined ? book.num * 1000000 + chapter * 1000 + firstVerse : undefined;
+
+            results.push({
+                bookNum: book.num,
+                bookSlug: book.slug,
+                chapter,
+                verses,
+                verse: firstVerse,
+                verseId: firstVerseId,
+                isRange,
+                rangeStart,
+                rangeEnd,
+                label
+            });
         }
+        if (results.length > 0) break;
     }
 
-    return null;
+    return results;
+}
+
+export function parseBibleReference(notes: string | undefined, englishText?: string): ParsedBibleRef | null {
+    const refs = parseAllBibleReferences(notes, englishText);
+    return refs.length > 0 ? refs[0] : null;
 }
 
 export function getBibleLinks(notes: string | undefined, targetLang: string, englishText?: string): WebReferenceLinks {
-    const parsed = parseBibleReference(notes, englishText);
+    const parsedRefs = parseAllBibleReferences(notes, englishText);
     const lang = targetLang || "en";
 
-    if (parsed) {
-        const englishPath = `library/bible/nwt/books/${parsed.bookSlug}/${parsed.chapter}/`;
-        const anchor = parsed.verseId ? `#v${parsed.verseId}` : "";
+    if (parsedRefs.length > 0) {
+        const primary = parsedRefs[0];
+        const labels = parsedRefs.map(r => r.label.toUpperCase()).join("; ");
+
+        let anchor = "";
+        let bibleParam = "";
+
+        const bookCode = String(primary.bookNum).padStart(2, "0");
+        const chapterCode = String(primary.chapter).padStart(3, "0");
+
+        if (primary.isRange && primary.rangeStart !== undefined && primary.rangeEnd !== undefined) {
+            const startVerseCode = String(primary.rangeStart).padStart(3, "0");
+            const endVerseCode = String(primary.rangeEnd).padStart(3, "0");
+            const startVerseId = primary.bookNum * 1000000 + primary.chapter * 1000 + primary.rangeStart;
+            const endVerseId = primary.bookNum * 1000000 + primary.chapter * 1000 + primary.rangeEnd;
+            anchor = `#v${startVerseId}-v${endVerseId}`;
+            bibleParam = `${bookCode}${chapterCode}${startVerseCode}-${bookCode}${chapterCode}${endVerseCode}`;
+        } else if (primary.verses.length > 0) {
+            const verseCode = String(primary.verses[0]).padStart(3, "0");
+            const verseId = primary.bookNum * 1000000 + primary.chapter * 1000 + primary.verses[0];
+            anchor = `#v${verseId}`;
+            bibleParam = `${bookCode}${chapterCode}${verseCode}`;
+        } else {
+            bibleParam = `${bookCode}${chapterCode}000`;
+        }
+
+        const englishPath = `library/bible/nwt/books/${primary.bookSlug}/${primary.chapter}/`;
         const englishUrl = `https://www.jw.org/en/${englishPath}${anchor}`;
-
-        const bookCode = String(parsed.bookNum).padStart(2, "0");
-        const chapterCode = String(parsed.chapter).padStart(3, "0");
-        const verseCode = parsed.verse !== undefined ? String(parsed.verse).padStart(3, "0") : "000";
-        const bibleCode = `${bookCode}${chapterCode}${verseCode}`;
-
         const targetUrl = lang === "en"
             ? englishUrl
-            : `https://www.jw.org/finder?locale=${lang}&pub=nwt&bible=${bibleCode}`;
+            : `https://www.jw.org/finder?locale=${lang}&pub=nwt&bible=${bibleParam}`;
 
         return {
             englishUrl,
             targetUrl,
-            label: parsed.label.toUpperCase(),
+            label: labels,
             sourceType: "bible"
         };
     }
