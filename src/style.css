@@ -105,11 +105,16 @@ header {
 }
 
 .metadata {
-    font-size: 12px;
+    font-size: 13px;
     color: #666;
     text-align: center;
     margin-bottom: 5px;
-    min-height: 1.2em;
+    min-height: 1.6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
 }
 
 .content {
@@ -173,7 +178,7 @@ textarea.box-content.edit-input:focus {
 
 .edit-controls {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
     gap: 8px;
     width: 100%;
     box-sizing: border-box;
@@ -188,6 +193,7 @@ textarea.box-content.edit-input:focus {
 }
 
 .edit-btn,
+.confirm-checked-btn,
 .preview-btn,
 .timeline-btn,
 .submit-btn {
@@ -205,6 +211,33 @@ textarea.box-content.edit-input:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.confirm-checked-btn {
+    background: #28a745;
+    color: white;
+    border-color: #28a745;
+}
+
+.confirm-checked-btn:hover:not(:disabled) {
+    background: #218838;
+    border-color: #1e7e34;
+}
+
+.quick-check-btn {
+    background: #28a745;
+    color: white;
+    border: 1px solid #218838;
+    border-radius: 12px;
+    padding: 2px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s ease;
+}
+
+.quick-check-btn:hover {
+    background: #218838;
 }
 
 .edit-btn {
@@ -401,18 +434,20 @@ textarea.box-content.edit-input:focus {
 .checked-toggle-label {
     display: inline-flex;
     align-items: center;
-    gap: 5px;
+    gap: 6px;
     font-weight: 500;
     cursor: default;
     user-select: none;
+    padding: 2px 6px;
+    border-radius: 4px;
 }
 
 .checked-toggle-label.editable {
     cursor: pointer;
     background: #e8f4fd;
-    padding: 3px 8px;
-    border-radius: 12px;
-    border: 1px solid #b8daff;
+    padding: 4px 10px;
+    border-radius: 16px;
+    border: 1px solid #007bff;
     transition: all 0.15s ease;
 }
 
@@ -421,7 +456,131 @@ textarea.box-content.edit-input:focus {
 }
 
 .checked-toggle-label input[type="checkbox"] {
-    display: none;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    margin: 0;
+}
+
+/* Split View Layout (for BIBLE, A6, B9, WIKI) */
+.split-text-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.split-mode .split-text-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.split-mode #box-english-container {
+    background: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 6px;
+}
+
+.split-mode #box-english-container .box-label {
+    color: #495057;
+    font-weight: 700;
+}
+
+.split-mode #box-english-container .box-content {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.split-mode #box-text-container {
+    background: #ffffff;
+    border: 1px solid #007bff;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 123, 255, 0.12);
+}
+
+.split-mode #box-text-container .box-label {
+    color: #0056b3;
+    font-weight: 700;
+}
+
+.split-mode textarea.box-content.edit-input {
+    min-height: 5em;
+    height: 6.5em;
+}
+
+/* Split Web Reference Row */
+.split-web-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.web-ref-box {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.web-ref-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    background: #f8fafc;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #0f172a;
+    transition: all 0.15s ease;
+}
+
+.web-ref-card:hover {
+    background: #e2e8f0;
+    border-color: #94a3b8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.web-ref-icon {
+    font-size: 22px;
+    flex-shrink: 0;
+}
+
+.web-ref-info {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.web-ref-title {
+    font-size: 13px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #0056b3;
+}
+
+.web-ref-url {
+    font-size: 11px;
+    color: #64748b;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media (max-width: 600px) {
+    .split-mode .split-text-row {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .split-web-row {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
 }
 
 .preview-header-info {

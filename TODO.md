@@ -67,4 +67,8 @@
 - [x] Implement Submit Changes modal with Cloudflare Worker proxy integration.
 - [x] Deploy Cloudflare Worker (`dictionary-submissions`) for Turnstile + GitHub Issue creation.
 - [x] Add `.github/workflows/approve-translation.yml` in `kreier/timeline` for `/approve` bot action.
+- [x] Add split view layout for BIBLE, A6, B9, and WIKI categories.
+- [x] Add web reference link cards for jw.org bible verses, Appendix A6, Appendix B9, and Wikipedia.
+- [x] Add dedicated "Confirm Translation" button and prominent checkbox toggle in edit mode.
+- [x] Remove redundant "Key" display box.
 - [ ] Implement timeline visualization logic for dictionary entries.
