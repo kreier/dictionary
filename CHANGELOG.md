@@ -1,5 +1,17 @@
 # Changelog
 
+## Unreleased
+
+### Added
+
+- Added `STATUS.md` as the concise current-state reference for humans and AI agents.
+- Added `CLAUDE.md` as a compatibility entry point that imports `AGENTS.md`.
+
+### Changed
+
+- Updated `AGENTS.md` to serve as the primary repository-orientation entry point.
+- Documented when agents should consult `ARCHITECTURE.md`, `STATUS.md`, `TODO.md`, and `CHANGELOG.md`.
+
 ## [1.0.0] - 2026-08-27
 
 ### Added

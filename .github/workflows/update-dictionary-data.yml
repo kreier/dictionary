@@ -1,19 +1,27 @@
 name: Update Dictionary Data
 
 on:
+  repository_dispatch:
+    types: [timeline-updated]
+
   workflow_dispatch:
 
   schedule:
-    # Run once every day at 03:00 UTC
-    - cron: "0 3 * * *"
+    # Run once every day at 20:14 UTC (03:14 Vietnam time)
+    - cron: "14 20 * * *"
 
 permissions:
   contents: write
+  pages: write
+  id-token: write  
 
 jobs:
   update-data:
     name: Update dictionary JSON
     runs-on: ubuntu-latest
+
+    outputs:
+      changed: ${{ steps.check.outputs.changed }}
 
     steps:
       # Check out the dictionary repository
@@ -95,13 +103,18 @@ jobs:
       # Commit the generated data
       - name: Commit updated dictionary data
         if: steps.check.outputs.changed == 'true'
+        env:
+          TIMELINE_SHA: ${{ steps.timeline.outputs.sha }}        
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add public/data
 
-          git diff --cached --quiet || \
-            git commit -m "Update dictionary data from Timeline (${TIMELINE_SHA:0:7})"
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
 
+          git commit -m "Update dictionary data from Timeline (${TIMELINE_SHA:0:7})"
           git push
