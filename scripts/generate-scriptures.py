@@ -1,75 +1,85 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 """
-Generate public/data/scriptures.json by fetching and extracting Bible verses
-for English and Vietnamese from jw.org for chapters referenced in the dictionary.
+Generate or update public/data/scriptures.json by fetching and extracting Bible verses
+from jw.org for chapters referenced in the dictionary across supported languages.
+
+Uses jw.org universal finder endpoint:
+https://www.jw.org/finder?locale={lang}&pub=nwt&bible={book_num:02d}{chapter:03d}000
 """
 
+import argparse
+import concurrent.futures
 import json
 import re
+import sys
+import time
 import urllib.request
 from pathlib import Path
 
-CHAPTER_URLS = {
+# Chapters referenced by dictionary Bible entries
+CHAPTERS = [
     # Genesis
-    ('genesis', 4): ('library/bible/nwt/books/genesis/4/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/4/'),
-    ('genesis', 5): ('library/bible/nwt/books/genesis/5/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/5/'),
-    ('genesis', 10): ('library/bible/nwt/books/genesis/10/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/10/'),
-    ('genesis', 11): ('library/bible/nwt/books/genesis/11/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/11/'),
-    ('genesis', 16): ('library/bible/nwt/books/genesis/16/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/16/'),
-    ('genesis', 19): ('library/bible/nwt/books/genesis/19/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/19/'),
-    ('genesis', 21): ('library/bible/nwt/books/genesis/21/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/21/'),
-    ('genesis', 22): ('library/bible/nwt/books/genesis/22/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/22/'),
-    ('genesis', 24): ('library/bible/nwt/books/genesis/24/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/24/'),
-    ('genesis', 25): ('library/bible/nwt/books/genesis/25/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/25/'),
-    ('genesis', 26): ('library/bible/nwt/books/genesis/26/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/26/'),
-    ('genesis', 28): ('library/bible/nwt/books/genesis/28/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/28/'),
-    ('genesis', 34): ('library/bible/nwt/books/genesis/34/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/34/'),
-    ('genesis', 35): ('library/bible/nwt/books/genesis/35/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/35/'),
-    ('genesis', 36): ('library/bible/nwt/books/genesis/36/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/36/'),
-    ('genesis', 37): ('library/bible/nwt/books/genesis/37/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/37/'),
-    ('genesis', 41): ('library/bible/nwt/books/genesis/41/', 'thu-vien/kinh-thanh/nwt/cac-sach/S%C3%A1ng-th%E1%BA%BF/41/'),
+    ('genesis', 1, 4),
+    ('genesis', 1, 5),
+    ('genesis', 1, 10),
+    ('genesis', 1, 11),
+    ('genesis', 1, 16),
+    ('genesis', 1, 19),
+    ('genesis', 1, 21),
+    ('genesis', 1, 22),
+    ('genesis', 1, 24),
+    ('genesis', 1, 25),
+    ('genesis', 1, 26),
+    ('genesis', 1, 28),
+    ('genesis', 1, 34),
+    ('genesis', 1, 35),
+    ('genesis', 1, 36),
+    ('genesis', 1, 37),
+    ('genesis', 1, 41),
     # Exodus
-    ('exodus', 2): ('library/bible/nwt/books/exodus/2/', 'thu-vien/kinh-thanh/nwt/cac-sach/Xu%E1%BA%A5t-Ai-C%E1%BA%ADp/2/'),
-    ('exodus', 17): ('library/bible/nwt/books/exodus/17/', 'thu-vien/kinh-thanh/nwt/cac-sach/Xu%E1%BA%A5t-Ai-C%E1%BA%ADp/17/'),
+    ('exodus', 2, 2),
+    ('exodus', 2, 17),
     # Numbers
-    ('numbers', 13): ('library/bible/nwt/books/numbers/13/', 'thu-vien/kinh-thanh/nwt/cac-sach/D%C3%A2n-s%E1%BB%91/13/'),
+    ('numbers', 4, 13),
+    # Joshua
+    ('joshua', 6, 9),
     # Judges
-    ('judges', 3): ('library/bible/nwt/books/judges/3/', 'thu-vien/kinh-thanh/nwt/cac-sach/Quan-x%C3%A9t/3/'),
-    ('judges', 4): ('library/bible/nwt/books/judges/4/', 'thu-vien/kinh-thanh/nwt/cac-sach/Quan-x%C3%A9t/4/'),
-    ('judges', 7): ('library/bible/nwt/books/judges/7/', 'thu-vien/kinh-thanh/nwt/cac-sach/Quan-x%C3%A9t/7/'),
-    ('judges', 10): ('library/bible/nwt/books/judges/10/', 'thu-vien/kinh-thanh/nwt/cac-sach/Quan-x%C3%A9t/10/'),
-    ('judges', 11): ('library/bible/nwt/books/judges/11/', 'thu-vien/kinh-thanh/nwt/cac-sach/Quan-x%C3%A9t/11/'),
-    ('judges', 12): ('library/bible/nwt/books/judges/12/', 'thu-vien/kinh-thanh/nwt/cac-sach/Quan-x%C3%A9t/12/'),
-    ('judges', 13): ('library/bible/nwt/books/judges/13/', 'thu-vien/kinh-thanh/nwt/cac-sach/Quan-x%C3%A9t/13/'),
+    ('judges', 7, 3),
+    ('judges', 7, 4),
+    ('judges', 7, 7),
+    ('judges', 7, 10),
+    ('judges', 7, 11),
+    ('judges', 7, 12),
+    ('judges', 7, 13),
     # 1 Samuel
-    ('1-samuel', 1): ('library/bible/nwt/books/1-samuel/1/', 'thu-vien/kinh-thanh/nwt/cac-sach/1-Sa-mu-%C3%AAn/1/'),
-    ('1-samuel', 9): ('library/bible/nwt/books/1-samuel/9/', 'thu-vien/kinh-thanh/nwt/cac-sach/1-Sa-mu-%C3%AAn/9/'),
-    ('1-samuel', 16): ('library/bible/nwt/books/1-samuel/16/', 'thu-vien/kinh-thanh/nwt/cac-sach/1-Sa-mu-%C3%AAn/16/'),
+    ('1-samuel', 9, 1),
+    ('1-samuel', 9, 9),
+    ('1-samuel', 9, 16),
     # 1 Kings
-    ('1-kings', 2): ('library/bible/nwt/books/1-kings/2/', 'thu-vien/kinh-thanh/nwt/cac-sach/1-C%C3%A1c-vua/2/'),
+    ('1-kings', 11, 2),
     # 2 Kings
-    ('2-kings', 11): ('library/bible/nwt/books/2-kings/11/', 'thu-vien/kinh-thanh/nwt/cac-sach/2-C%C3%A1c-vua/11/'),
+    ('2-kings', 12, 11),
     # 1 Chronicles
-    ('1-chronicles', 1): ('library/bible/nwt/books/1-chronicles/1/', 'thu-vien/kinh-thanh/nwt/cac-sach/1-S%E1%BB%AD-k%C3%BD/1/'),
+    ('1-chronicles', 13, 1),
     # Esther
-    ('esther', 1): ('library/bible/nwt/books/esther/1/', 'thu-vien/kinh-thanh/nwt/cac-sach/%C3%8A-x%C6%A1-t%C3%AA/1/'),
+    ('esther', 17, 1),
+    # Psalms
+    ('psalms', 19, 105),
     # Isaiah
-    ('isaiah', 51): ('library/bible/nwt/books/isaiah/51/', 'thu-vien/kinh-thanh/nwt/cac-sach/%C3%8A-sai/51/'),
+    ('isaiah', 23, 51),
     # Luke
-    ('luke', 2): ('library/bible/nwt/books/luke/2/', 'thu-vien/kinh-thanh/nwt/cac-sach/lu-ca/2/'),
-    ('luke', 3): ('library/bible/nwt/books/luke/3/', 'thu-vien/kinh-thanh/nwt/cac-sach/lu-ca/3/'),
+    ('luke', 42, 2),
+    ('luke', 42, 3),
     # Acts
-    ('acts', 11): ('library/bible/nwt/books/acts/11/', 'thu-vien/kinh-thanh/nwt/cac-sach/C%C3%B4ng-v%E1%BB%A5/11/'),
-}
+    ('acts', 44, 11),
+]
 
-def parse_chapter(url: str) -> dict:
-    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-    try:
-        html = urllib.request.urlopen(req, timeout=15).read().decode('utf-8', errors='ignore')
-    except Exception as e:
-        print(f'Error fetching {url}: {e}')
-        return {}
+FOOTNOTE_MARKERS = [
+    'Chú thích', 'Footnotes', 'Fußnoten', 'Notas', 'Notes', 'Сноски',
+    'Voetnoten', 'Note in calce', 'Notas de rodapé', 'Przypisy'
+]
 
+def parse_chapter_html(html: str) -> dict[int, str]:
     verses = {}
     pattern = (
         r'<span class=[\x22\x27]verse[\x22\x27] id=[\x22\x27]v(\d+)[\x22\x27]>(.*?)'
@@ -82,52 +92,95 @@ def parse_chapter(url: str) -> dict:
         c = re.sub(r'<sup[^>]*>.*?</sup>', '', c)
         c = re.sub(r'<[^>]+>', '', c)
         c = re.sub(r'\s+', ' ', c).replace('+', '').replace('*', '').strip()
-        if 'Chú thích' in c:
-            c = c.split('Chú thích')[0].strip()
-        if 'Footnotes' in c:
-            c = c.split('Footnotes')[0].strip()
+        for marker in FOOTNOTE_MARKERS:
+            if marker in c:
+                c = c.split(marker)[0].strip()
         c = re.sub(r',([^\s])', r', \1', c).strip()
         verses[vid] = c
     return verses
 
+def fetch_chapter(lang: str, book_num: int, ch: int, retries: int = 2) -> dict[int, str]:
+    bible_code = f'{book_num:02d}{ch:03d}000'
+    url = f'https://www.jw.org/finder?locale={lang}&pub=nwt&bible={bible_code}'
+    req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
+
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=15) as res:
+                html = res.read().decode('utf-8', errors='ignore')
+                verses = parse_chapter_html(html)
+                if verses:
+                    return verses
+        except Exception as e:
+            if attempt == retries:
+                print(f'[{lang}] Error fetching {book_num}:{ch} ({url}): {e}', file=sys.stderr)
+            time.sleep(1)
+    return {}
+
+def process_language(lang: str, existing_data: dict, workers: int = 5):
+    print(f'=== Fetching scriptures for language: {lang} ===')
+    
+    needed = []
+    for book, bnum, ch in CHAPTERS:
+        sample_key = f'{book.title()} {ch}:1'
+        if sample_key in existing_data and existing_data[sample_key].get(lang):
+            continue
+        needed.append((book, bnum, ch))
+
+    if not needed:
+        print(f'All {len(CHAPTERS)} chapters already populated for {lang}.')
+        return
+
+    print(f'Need to fetch {len(needed)} chapters for {lang} using {workers} workers...')
+
+    def fetch_task(item):
+        book, bnum, ch = item
+        verses = fetch_chapter(lang, bnum, ch)
+        return book, ch, verses
+
+    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+        futures = [executor.submit(fetch_task, item) for item in needed]
+        for f in concurrent.futures.as_completed(futures):
+            book, ch, verses = f.result()
+            print(f'[{lang}] {book} {ch}: fetched {len(verses)} verses')
+            for vnum, text in verses.items():
+                ref_key = f'{book.title()} {ch}:{vnum}'
+                if ref_key not in existing_data:
+                    existing_data[ref_key] = {
+                        'reference': ref_key,
+                        'book': book,
+                        'chapter': ch,
+                        'verse': vnum,
+                    }
+                existing_data[ref_key][lang] = text
+
 def main():
-    out_file = Path('public/data/scriptures.json')
+    parser = argparse.ArgumentParser(description='Generate or update scriptures.json')
+    parser.add_argument('--lang', default='de', help='Comma-separated language codes to fetch (e.g. de,es,fr)')
+    parser.add_argument('--output', default='public/data/scriptures.json', help='Output JSON path')
+    parser.add_argument('--workers', type=int, default=5, help='Concurrent fetch workers')
+    args = parser.parse_args()
+
+    out_file = Path(args.output)
     existing_data = {}
     if out_file.exists():
         try:
             with out_file.open('r', encoding='utf-8') as f:
                 existing_data = json.load(f)
-        except Exception:
+            print(f'Loaded {len(existing_data)} existing verse entries from {out_file}.')
+        except Exception as e:
+            print(f'Warning: Failed to load existing {out_file}: {e}')
             existing_data = {}
 
-    total = len(CHAPTER_URLS)
-    for idx, ((book, ch), (en_path, vi_path)) in enumerate(CHAPTER_URLS.items(), 1):
-        sample_key = f'{book.title()} {ch}:1'
-        if sample_key in existing_data:
-            print(f'[{idx}/{total}] Skipping {book} {ch} (already present)')
-            continue
-
-        print(f'[{idx}/{total}] Fetching {book} {ch}...')
-        en_verses = parse_chapter(f'https://www.jw.org/en/{en_path}')
-        vi_verses = parse_chapter(f'https://www.jw.org/vi/{vi_path}')
-
-        for vnum, en_text in en_verses.items():
-            vi_text = vi_verses.get(vnum, '')
-            ref_key = f'{book.title()} {ch}:{vnum}'
-            existing_data[ref_key] = {
-                'reference': ref_key,
-                'book': book,
-                'chapter': ch,
-                'verse': vnum,
-                'en': en_text,
-                'vi': vi_text,
-            }
+    languages = [l.strip() for l in args.lang.split(',') if l.strip()]
+    for lang in languages:
+        process_language(lang, existing_data, workers=args.workers)
 
     out_file.parent.mkdir(parents=True, exist_ok=True)
     with out_file.open('w', encoding='utf-8') as f:
         json.dump(existing_data, f, ensure_ascii=False, indent=2)
 
-    print(f'Done! Total verses in {out_file}: {len(existing_data)}')
+    print(f'\nDone! Total verses in {out_file}: {len(existing_data)}')
 
 if __name__ == '__main__':
     main()
