@@ -7,7 +7,7 @@ import {
     type SubmissionPayload
 } from "./types";
 import { initAppShell } from "./template";
-import { renderDiffCard } from "./diff";
+import { renderDiffCard, escapeHtml } from "./diff";
 import { loadTurnstile, TURNSTILE_SITE_KEY } from "./turnstile";
 import {
     fetchLanguages,
@@ -44,6 +44,102 @@ let turnstileToken: string | null = null;
 const workerEndpoint =
     localStorage.getItem("dictionary_worker_url") ||
     DEFAULT_WORKER_ENDPOINT;
+
+interface ScriptureVerse {
+    reference: string;
+    book?: string;
+    chapter?: number;
+    verse?: number;
+    en: string;
+    vi?: string;
+    [key: string]: string | number | undefined;
+}
+
+interface RenderedScripture {
+    refLabel: string;
+    enHtml: string;
+    targetHtml: string;
+}
+
+let scripturesData: Record<string, ScriptureVerse> | null = null;
+let scripturesLoading = false;
+
+async function loadScriptures(): Promise<Record<string, ScriptureVerse> | null> {
+    if (scripturesData) return scripturesData;
+    if (scripturesLoading) return null;
+    scripturesLoading = true;
+    try {
+        const res = await fetch(`${import.meta.env.BASE_URL}data/scriptures.json`);
+        if (res.ok) {
+            scripturesData = await res.json();
+        }
+    } catch (e) {
+        console.warn("Failed to load scriptures.json", e);
+    } finally {
+        scripturesLoading = false;
+    }
+    return scripturesData;
+}
+
+function findScriptureForEntry(
+    notes: string | undefined,
+    lang: string,
+    englishText?: string
+): RenderedScripture | null {
+    const textToScan = (notes && /\d/.test(notes)) ? notes : (englishText || notes || "");
+    if (!textToScan || !scripturesData) return null;
+
+    const refRegex = /((?:[1-3]\s+)?[A-Za-z]+)\s+(\d+)(?::(\d+))?/g;
+    const matches: Array<{ book: string; chapter: number; verse?: number }> = [];
+    let match: RegExpExecArray | null;
+
+    while ((match = refRegex.exec(textToScan)) !== null) {
+        const rawBook = match[1].toLowerCase().replace(/\s+/g, " ").trim();
+        const chapter = Number.parseInt(match[2], 10);
+        const verse = match[3] ? Number.parseInt(match[3], 10) : undefined;
+        matches.push({ book: rawBook, chapter, verse });
+    }
+
+    if (matches.length === 0) return null;
+
+    const enParts: string[] = [];
+    const targetParts: string[] = [];
+    const labels: string[] = [];
+
+    for (const m of matches) {
+        if (m.verse !== undefined) {
+            const rawBookNorm = m.book.toLowerCase().replace(/[\s_]+/g, "-");
+            for (const key of Object.keys(scripturesData)) {
+                const item = scripturesData[key];
+                const itemBookNorm = (item.book || "").toLowerCase().replace(/[\s_]+/g, "-");
+                if (
+                    item.chapter === m.chapter &&
+                    item.verse === m.verse &&
+                    itemBookNorm &&
+                    (rawBookNorm === itemBookNorm || rawBookNorm.includes(itemBookNorm) || itemBookNorm.includes(rawBookNorm))
+                ) {
+                    labels.push(item.reference);
+                    enParts.push(`<span class="scripture-verse-num">${escapeHtml(item.reference)}:</span> ${escapeHtml(item.en)}`);
+                    const targetText = ((item[lang] as string) || (lang === "vi" && item.vi ? item.vi : "") || "").trim();
+                    if (targetText) {
+                        targetParts.push(`<span class="scripture-verse-num">${escapeHtml(item.reference)}:</span> ${escapeHtml(targetText)}`);
+                    }
+                    break;
+                }
+            }
+        }
+    }
+
+    if (enParts.length === 0) return null;
+
+    return {
+        refLabel: labels.join(", "),
+        enHtml: enParts.join("<br><br>"),
+        targetHtml: targetParts.length > 0
+            ? targetParts.join("<br><br>")
+            : `<span class="scripture-empty">Translation not yet cached for ${escapeHtml(labels.join(", "))}.</span>`
+    };
+}
 
 
 /*
@@ -183,6 +279,21 @@ function showEntry(): void {
         dom.splitWebRow.style.display = "grid";
         dom.labelText.textContent = `Text (${currentLanguage.toUpperCase()})`;
 
+        if (currentCategory === "bible") {
+            const scripture = findScriptureForEntry(entry.notes, currentLanguage, entry.english);
+            if (scripture) {
+                dom.splitScriptureRow.style.display = "grid";
+                dom.labelScriptureEnglish.textContent = `Scripture Context: ${scripture.refLabel} (English)`;
+                dom.scriptureTextEnglish.innerHTML = scripture.enHtml;
+                dom.labelScriptureTarget.textContent = `Scripture Context: ${scripture.refLabel} (${currentLanguage.toUpperCase()})`;
+                dom.scriptureTextTarget.innerHTML = scripture.targetHtml;
+            } else {
+                dom.splitScriptureRow.style.display = "none";
+            }
+        } else {
+            dom.splitScriptureRow.style.display = "none";
+        }
+
         const refLinks = getReferenceLinksForEntry(entry, currentLanguage);
         if (refLinks) {
             dom.linkEnglish.href = refLinks.englishUrl;
@@ -200,6 +311,7 @@ function showEntry(): void {
         dom.mainContent.classList.remove("split-mode");
         dom.notesAndAiBoxes.style.display = "block";
         dom.splitWebRow.style.display = "none";
+        dom.splitScriptureRow.style.display = "none";
         dom.labelText.textContent = "Text";
 
         setBox("google", entry.google);
@@ -279,6 +391,10 @@ function clearDisplay(): void {
     dom.linkTarget.href = "#";
     dom.linkTargetTitle.textContent = "Translation Website";
     dom.linkTargetUrl.textContent = "";
+
+    dom.splitScriptureRow.style.display = "none";
+    dom.scriptureTextEnglish.textContent = "";
+    dom.scriptureTextTarget.textContent = "";
 
     dom.prevButton.disabled = true;
     dom.nextButton.disabled = true;
@@ -474,6 +590,13 @@ dom.categoryButtons.forEach(button => {
         button.classList.add("active");
 
         currentCategory = button.dataset.cat as Category;
+        if (currentCategory === "bible" && !scripturesData) {
+            loadScriptures().then(() => {
+                if (currentCategory === "bible") {
+                    showEntry();
+                }
+            });
+        }
         filterAndShow();
     });
 });
@@ -736,6 +859,8 @@ if (header) {
 const initialCategoryButton =
     document.querySelector<HTMLButtonElement>('.cat-btn[data-cat="text"]');
 initialCategoryButton?.classList.add("active");
+
+loadScriptures().catch(console.warn);
 
 loadLanguages().catch(error => {
     console.error(error);

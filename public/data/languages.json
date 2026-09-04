@@ -16,14 +16,6 @@
     "language_str": "Belarusian (беларуская)"
   },
   {
-    "key": "bn",
-    "language_str": "Bengali (বাংলা)"
-  },
-  {
-    "key": "bg",
-    "language_str": "Bulgarian (български)"
-  },
-  {
     "key": "yue",
     "language_str": "Chinese Cantonese (Simplified) [中文简体（广东话)] "
   },
@@ -68,10 +60,6 @@
     "language_str": "Greek (Ελληνικά)"
   },
   {
-    "key": "ha",
-    "language_str": "Hausa"
-  },
-  {
     "key": "he",
     "language_str": "Hebrew (עִבְרִית)"
   },
@@ -104,16 +92,8 @@
     "language_str": "Japanese (日本語) "
   },
   {
-    "key": "jv",
-    "language_str": "Javanese (Jawa)"
-  },
-  {
     "key": "kne",
     "language_str": "Kankana-ey "
-  },
-  {
-    "key": "kn",
-    "language_str": "Kannada (ಕನ್ನಡ)"
   },
   {
     "key": "km",
@@ -132,28 +112,12 @@
     "language_str": "Korean (한국인) "
   },
   {
-    "key": "lo",
-    "language_str": "Laotian (ລາວ)"
-  },
-  {
     "key": "ms",
     "language_str": "Malay (Bahasa Melayu)"
   },
   {
-    "key": "ml",
-    "language_str": "Malayalam (മലയാളം)"
-  },
-  {
-    "key": "mr",
-    "language_str": "Marathi (मराठी)"
-  },
-  {
     "key": "mn",
     "language_str": "Mongolian (монгол)"
-  },
-  {
-    "key": "my",
-    "language_str": "Myanmar (မြန်မာ)"
   },
   {
     "key": "no",
@@ -164,12 +128,8 @@
     "language_str": "Persian or Farsi (فارسی)"
   },
   {
-    "key": "pl",
-    "language_str": "Polish (polski)"
-  },
-  {
     "key": "pt",
-    "language_str": "Portuguese (Português)"
+    "language_str": "Portugese (Português)"
   },
   {
     "key": "pa",
@@ -192,24 +152,8 @@
     "language_str": "Swahili (Kiswahili)"
   },
   {
-    "key": "sv",
-    "language_str": "Swedish (Svenska)"
-  },
-  {
-    "key": "ta",
-    "language_str": "Tamil (தமிழ்)"
-  },
-  {
-    "key": "te",
-    "language_str": "Telugu (తెలుగు)"
-  },
-  {
     "key": "th",
     "language_str": "Thai (ภาษาไทย) "
-  },
-  {
-    "key": "tr",
-    "language_str": "Turkish (Türkçe)"
   },
   {
     "key": "uk",
