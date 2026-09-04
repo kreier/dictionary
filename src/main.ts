@@ -156,14 +156,14 @@ function buildTermPattern(rawWord: string): string {
     const baseLetters = normalized.replace(/[\u0323\u0307]/g, "");
     const charPatterns: string[] = [];
     for (const ch of baseLetters) {
-        if (/[\u0300-\u036f\u064b-\u065f]/.test(ch)) {
+        if (/[\u0300-\u036f\u064b-\u065f\u0981-\u09cd\u09d7]/.test(ch)) {
             charPatterns.push(`(?:${ch})?${pronMarks}`);
             continue;
         }
-        if (/[a-zA-Z\u00c0-\u024f\u0400-\u04ff\u0600-\u06ff\u1e00-\u1eff]/.test(ch)) {
+        if (/[a-zA-Z\u00c0-\u024f\u0400-\u04ff\u0600-\u06ff\u0980-\u09ff\u1e00-\u1eff]/.test(ch)) {
             const upper = ch.toUpperCase();
             const lower = ch.toLowerCase();
-            charPatterns.push(`(?:[${upper}${lower}][\\u0300-\\u036f\\u064b-\\u065f]?)${pronMarks}`);
+            charPatterns.push(`(?:[${upper}${lower}][\\u0300-\\u036f\\u064b-\\u065f\u0981-\\u09cd\u09d7]?)${pronMarks}`);
         } else {
             const escapedChar = ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
             charPatterns.push(`${escapedChar}${pronMarks}`);

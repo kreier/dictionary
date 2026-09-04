@@ -201,7 +201,7 @@ export function getBibleLinks(notes: string | undefined, targetLang: string, eng
         const englishUrl = `https://www.jw.org/en/${englishPath}${anchor}`;
         const targetUrl = lang === "en"
             ? englishUrl
-            : `https://www.jw.org/finder?locale=${lang}&pub=nwt&bible=${bibleParam}`;
+            : `https://www.jw.org/finder?locale=${lang}&bible=${bibleParam}`;
 
         return {
             englishUrl,

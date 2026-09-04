@@ -4,6 +4,10 @@
 
 ### Added
 
+- Synchronized dictionary data and reference with authoritative `kreier/timeline` commit `e4782b404d538e1a179fa4f00b468532f861fcb2` (updated Barak to `Judges 4:9, 17`, Keturah's sons to `Genesis 25:2`, Mizraim to `Genesis 10:13`, and Hazarmaveth key update across all 56 languages).
+- Added Bengali (`bn`) scriptures cache into `public/data/scriptures.json` for all available online Bible books in Bengali NWT.
+- Added Bengali script (`\u0980-\u09ff`) and combining signs (`\u0981-\u09cd\u09d7`) in `buildTermPattern` for word highlighting in Bengali.
+- Omitted hardcoded `&pub=nwt` in universal `finder` URLs to support languages/books hosted under other editions (such as Bengali Christian Greek scriptures).
 - Added multi-verse scripture reference parsing and rendering:
   - Verse ranges (e.g., `Numbers 20:14-17` rendering all 4 verses 14, 15, 16, 17 with jw.org range deep links `#v4020014-v4020017` and `bible=04020014-04020017`).
   - Comma-separated verse lists (e.g., `Judges 4:7, 17`, `Joshua 9:3, 7`, `Genesis 28:8, 9`).
@@ -15,7 +19,6 @@
   - Multi-name comma splitting (e.g., `Barak, Deborah, Jael` highlighting all three persons).
   - Normalizes and matches across German umlauts, diacritics, and pronunciation dots.
 - Audited `dictionary_reference.csv` (199 Bible & `_fn` entries, 100% valid scripture references).
-- Synchronized dictionary data with authoritative `kreier/timeline` commit `73e62e124f3bba101ab9dcfa0028f49510ffe43b`.
 - Expanded scripture cache in `public/data/scriptures.json` to 1,908 verses across 41 chapters.
 - Added split view layout for `BIBLE`, `A6`, `B9`, and `WIKI` categories (English reference on left, translated text on right).
 - Added web reference link cards below the split view for `jw.org` bible verses, Appendix A6, Appendix B9, and Wikipedia pages.

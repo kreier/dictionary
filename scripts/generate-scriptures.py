@@ -110,7 +110,8 @@ CHAPTERS = [
 
 FOOTNOTE_MARKERS = [
     'Chú thích', 'Footnotes', 'Fußnoten', 'Notas', 'Notes', 'Сноски', 'Примечания',
-    'Voetnoten', 'Note in calce', 'Notas de rodapé', 'Przypisy', 'الحواشي', 'حواشٍ'
+    'Voetnoten', 'Note in calce', 'Notas de rodapé', 'Przypisy', 'الحواشي', 'حواشٍ',
+    'পাদটীকা', 'পাদটিকা'
 ]
 
 def parse_chapter_html(html: str) -> dict[int, str]:
@@ -135,7 +136,7 @@ def parse_chapter_html(html: str) -> dict[int, str]:
 
 def fetch_chapter(lang: str, book_num: int, ch: int, retries: int = 2) -> dict[int, str]:
     bible_code = f'{book_num:02d}{ch:03d}000'
-    url = f'https://www.jw.org/finder?locale={lang}&pub=nwt&bible={bible_code}'
+    url = f'https://www.jw.org/finder?locale={lang}&bible={bible_code}'
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
 
     for attempt in range(retries + 1):
@@ -143,7 +144,6 @@ def fetch_chapter(lang: str, book_num: int, ch: int, retries: int = 2) -> dict[i
             with urllib.request.urlopen(req, timeout=15) as res:
                 final_url = res.geturl()
                 if f'/{lang}/' not in final_url and not final_url.startswith(f'https://www.jw.org/{lang}/'):
-                    print(f'[{lang}] JW.org does not have Bible in this locale (redirected to {final_url})', file=sys.stderr)
                     return {}
                 html = res.read().decode('utf-8', errors='ignore')
                 verses = parse_chapter_html(html)
