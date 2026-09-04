@@ -15,7 +15,7 @@ import {
     submitChanges,
     DEFAULT_WORKER_ENDPOINT
 } from "./api";
-import { getReferenceLinksForEntry } from "./links";
+import { getReferenceLinksForEntry, BIBLE_BOOKS } from "./links";
 
 const app = document.querySelector<HTMLDivElement>("#app");
 if (!app) {
@@ -130,18 +130,25 @@ function findScriptureForEntry(
     englishWord?: string,
     targetWord?: string
 ): RenderedScripture | null {
-    const textToScan = (notes && /\d/.test(notes)) ? notes : (englishWord || notes || "");
-    if (!textToScan || !scripturesData) return null;
+    if (!scripturesData) return null;
 
     const refRegex = /((?:[1-3]\s+)?[A-Za-z]+)\s+(\d+)(?::(\d+))?/g;
-    const matches: Array<{ book: string; chapter: number; verse?: number }> = [];
-    let match: RegExpExecArray | null;
+    const candidates = [notes, englishWord].filter((t): t is string => Boolean(t && t.trim()));
+    const matches: Array<{ bookSlug: string; chapter: number; verse?: number }> = [];
 
-    while ((match = refRegex.exec(textToScan)) !== null) {
-        const rawBook = match[1].toLowerCase().replace(/\s+/g, " ").trim();
-        const chapter = Number.parseInt(match[2], 10);
-        const verse = match[3] ? Number.parseInt(match[3], 10) : undefined;
-        matches.push({ book: rawBook, chapter, verse });
+    for (const text of candidates) {
+        refRegex.lastIndex = 0;
+        let match: RegExpExecArray | null;
+        while ((match = refRegex.exec(text)) !== null) {
+            const rawBook = match[1].toLowerCase().replace(/\s+/g, " ").trim();
+            const book = BIBLE_BOOKS.find(b => b.names.includes(rawBook));
+            if (book) {
+                const chapter = Number.parseInt(match[2], 10);
+                const verse = match[3] ? Number.parseInt(match[3], 10) : undefined;
+                matches.push({ bookSlug: book.slug, chapter, verse });
+            }
+        }
+        if (matches.length > 0) break;
     }
 
     if (matches.length === 0) return null;
@@ -152,15 +159,13 @@ function findScriptureForEntry(
 
     for (const m of matches) {
         if (m.verse !== undefined) {
-            const rawBookNorm = m.book.toLowerCase().replace(/[\s_]+/g, "-");
             for (const key of Object.keys(scripturesData)) {
                 const item = scripturesData[key];
                 const itemBookNorm = (item.book || "").toLowerCase().replace(/[\s_]+/g, "-");
                 if (
                     item.chapter === m.chapter &&
                     item.verse === m.verse &&
-                    itemBookNorm &&
-                    (rawBookNorm === itemBookNorm || rawBookNorm.includes(itemBookNorm) || itemBookNorm.includes(rawBookNorm))
+                    itemBookNorm === m.bookSlug
                 ) {
                     labels.push(item.reference);
                     const enHighlighted = highlightScriptureWord(item.en, englishWord);

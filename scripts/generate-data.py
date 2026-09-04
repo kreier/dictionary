@@ -39,6 +39,15 @@ def process_dictionaries(source_dir: Path, output_dir: Path):
                     "language_str": row["language_str"],
                 })
 
+    ref_file = source_dir / "dictionary_reference.csv"
+    ref_data = {}
+    if ref_file.exists():
+        with ref_file.open(mode="r", encoding="utf-8-sig", newline="") as f:
+            for r in csv.DictReader(f):
+                k = r.get("key")
+                if k:
+                    ref_data[k] = r
+
     for lang in languages:
         lang_key = lang["key"]
         dict_file = source_dir / f"dictionary_{lang_key}.csv"
@@ -57,6 +66,15 @@ def process_dictionaries(source_dir: Path, output_dir: Path):
             reader = csv.DictReader(f)
 
             for row in reader:
+                ref_row = ref_data.get(row.get("key"))
+                if ref_row:
+                    if ref_row.get("notes") is not None:
+                        row["notes"] = ref_row["notes"]
+                    if ref_row.get("tag"):
+                        row["tag"] = ref_row["tag"]
+                    if not row.get("english") and ref_row.get("english"):
+                        row["english"] = ref_row["english"]
+
                 tag = row.get("tag", "").strip()
 
                 if tag in EXCLUDE_TAGS:
