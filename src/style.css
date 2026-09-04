@@ -565,6 +565,81 @@ textarea.box-content.edit-input:focus {
     font-size: 13px;
 }
 
+/* Appendix A6 Styles */
+.scripture-content.a6-content {
+    white-space: normal;
+    max-height: 280px;
+    padding-right: 4px;
+}
+
+.a6-heading-h2 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 12px 0 6px 0;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #e2e8f0;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+
+.a6-heading-h2:first-child {
+    margin-top: 0;
+}
+
+.a6-year {
+    font-size: 12px;
+    font-weight: 700;
+    color: #2563eb;
+    margin: 6px 0 2px 0;
+}
+
+.a6-item {
+    font-size: 13.5px;
+    margin: 2px 0 4px 0;
+    line-height: 1.45;
+    padding: 2px 4px;
+    border-radius: 4px;
+    transition: background-color 0.15s ease;
+}
+
+.a6-active-item {
+    background-color: #fef9c3;
+    border-left: 3px solid #eab308;
+    padding-left: 6px;
+    font-weight: 500;
+}
+
+.a6-prophets-list {
+    margin: 4px 0 8px 16px;
+    padding: 0;
+    font-size: 13.5px;
+    line-height: 1.45;
+}
+
+.a6-prophets-list li {
+    margin: 2px 0;
+    padding: 1px 4px;
+    border-radius: 3px;
+    transition: background-color 0.15s ease;
+}
+
+.a6-prophets-list li.a6-active-item {
+    background-color: #fef9c3;
+    border-left: 3px solid #eab308;
+    padding-left: 6px;
+    font-weight: 500;
+}
+
+.a6-prophets-title {
+    list-style-type: none;
+    margin-left: -16px !important;
+    margin-top: 6px !important;
+    margin-bottom: 4px !important;
+    font-size: 13px;
+    color: #1e293b;
+}
+
 /* Split Web Reference Row */
 .split-web-row {
     display: grid;

@@ -4,7 +4,9 @@ import {
     type Category,
     type DictionaryEntry,
     type PendingEdit,
-    type SubmissionPayload
+    type SubmissionPayload,
+    type A6Section,
+    type AppendixA6Data
 } from "./types";
 import { initAppShell } from "./template";
 import { renderDiffCard, escapeHtml } from "./diff";
@@ -81,9 +83,42 @@ async function loadScriptures(): Promise<Record<string, ScriptureVerse> | null> 
     return scripturesData;
 }
 
+let a6Data: AppendixA6Data | null = null;
+let a6Loading = false;
+
+async function loadA6Data(): Promise<AppendixA6Data | null> {
+    if (a6Data) return a6Data;
+    if (a6Loading) return null;
+    a6Loading = true;
+    try {
+        const res = await fetch(`${import.meta.env.BASE_URL}data/appendix_a6.json`);
+        if (res.ok) {
+            a6Data = await res.json();
+        }
+    } catch (e) {
+        console.warn("Failed to load appendix_a6.json", e);
+    } finally {
+        a6Loading = false;
+    }
+    return a6Data;
+}
+
+const A6_ALIASES: Record<string, string[]> = {
+    Jeoahaz: ["Jehoahaz"],
+    Schallum: ["Shallum"],
+    Habakuk: ["Habakkuk"],
+    Athalija: ["Athalja"],
+    Athaliah: ["Athalja", "Athalie", "Аталия"],
+    Ahaz: ["A-cha"],
+};
+
 function extractHighlightTerms(entryText?: string, entryKey?: string): string[] {
     if (!entryText && !entryKey) return [];
     const terms: string[] = [];
+
+    if (entryKey && A6_ALIASES[entryKey]) {
+        terms.push(...A6_ALIASES[entryKey]);
+    }
 
     if (entryText) {
         const fnMatch = entryText.match(/^\s*\d+\)\s*([^:]+):/);
@@ -97,11 +132,19 @@ function extractHighlightTerms(entryText?: string, entryKey?: string): string[] 
                 terms.push(raw);
             }
         } else {
-            // Split comma-separated names like Barak, Deborah, Jael
-            const parts = entryText.split(",").map(s => s.trim()).filter(Boolean);
+            let textToProcess = entryText.replace(/\xa0/g, " ");
+            textToProcess = textToProcess.replace(/\((?:alone|allein|một mình|один|empty|\s*)\)/gi, " ");
+            textToProcess = textToProcess.replace(/\b(?:together|zusammen)\b/gi, " ");
+            textToProcess = textToProcess.replace(/[\s\xa0]+(?:II|I)\b/g, " ");
+
+            // Split comma-separated names and 'and'/'und'/'và'/'и'
+            const parts = textToProcess.split(",").map(s => s.trim()).filter(Boolean);
             for (const part of parts) {
                 const subparts = part.split(/[\/(]/).map(s => s.replace(/[),;]/g, "").trim()).filter(Boolean);
-                terms.push(...subparts);
+                for (const sp of subparts) {
+                    const andParts = sp.split(/\s+(?:and|und|và|и)\s+/i).map(s => s.trim()).filter(Boolean);
+                    terms.push(...andParts);
+                }
             }
         }
     }
@@ -251,6 +294,84 @@ function findScriptureForEntry(
     };
 }
 
+function renderA6Section(
+    section: A6Section | undefined,
+    terms: string[]
+): { html: string; hasHighlight: boolean } {
+    if (!section || !section.items || section.items.length === 0) {
+        return { html: "", hasHighlight: false };
+    }
+
+    let hasHighlight = false;
+    const parts: string[] = [];
+
+    for (const item of section.items) {
+        if (item.type === "h2") {
+            parts.push(`<h4 class="a6-heading-h2">${escapeHtml(item.text || "")}</h4>`);
+        } else if (item.type === "h3") {
+            parts.push(`<div class="a6-year">${escapeHtml(item.text || "")}</div>`);
+        } else if (item.type === "p") {
+            const rawText = item.text || "";
+            const highlighted = highlightScriptureWords(rawText, terms);
+            const isMatch = highlighted.includes('class="scripture-highlight"');
+            if (isMatch) hasHighlight = true;
+            parts.push(`<p class="a6-item${isMatch ? " a6-active-item" : ""}">${highlighted}</p>`);
+        } else if (item.type === "ul") {
+            parts.push(`<ul class="a6-prophets-list">`);
+            const lis = item.items || [];
+            for (let i = 0; i < lis.length; i++) {
+                const liText = lis[i];
+                if (
+                    i === 0 &&
+                    (liText.toLowerCase().includes("prophet") ||
+                        liText.toLowerCase().includes("tiên tri") ||
+                        liText.toLowerCase().includes("пророк"))
+                ) {
+                    parts.push(`<li class="a6-prophets-title"><strong>${escapeHtml(liText)}</strong></li>`);
+                    continue;
+                }
+                const highlighted = highlightScriptureWords(liText, terms);
+                const isMatch = highlighted.includes('class="scripture-highlight"');
+                if (isMatch) hasHighlight = true;
+                parts.push(`<li class="${isMatch ? "a6-active-item" : ""}">${highlighted}</li>`);
+            }
+            parts.push(`</ul>`);
+        }
+    }
+
+    return { html: parts.join(""), hasHighlight };
+}
+
+function findA6ForEntry(
+    entry: DictionaryEntry,
+    targetLang: string
+): { titleEn: string; titleTarget: string; enHtml: string; targetHtml: string } | null {
+    if (!a6Data) return null;
+
+    const tag = (entry.tag === "A6-B" ? "A6-B" : "A6-A") as "A6-A" | "A6-B";
+    const enSection = a6Data["en"]?.[tag];
+    const targetSection = a6Data[targetLang]?.[tag];
+
+    if (!enSection) return null;
+
+    const enTerms = extractHighlightTerms(entry.english, entry.key);
+    const targetTerms = extractHighlightTerms(entry.text, entry.key);
+
+    const enRendered = renderA6Section(enSection, enTerms);
+    const targetRendered = renderA6Section(targetSection, targetTerms);
+
+    const targetHtml = targetSection
+        ? targetRendered.html
+        : `<span class="scripture-empty">Appendix ${tag} content for ${escapeHtml(targetLang.toUpperCase())} not yet cached. Click the reference card below to view on jw.org.</span>`;
+
+    return {
+        titleEn: enSection.title,
+        titleTarget: targetSection?.title || enSection.title,
+        enHtml: enRendered.html,
+        targetHtml
+    };
+}
+
 
 /*
  * Helper alert modal
@@ -390,6 +511,9 @@ function showEntry(): void {
         dom.labelText.textContent = `Text (${currentLanguage.toUpperCase()})`;
 
         if (currentCategory === "bible") {
+            dom.splitScriptureRow.classList.remove("a6-mode");
+            dom.scriptureTextEnglish.classList.remove("a6-content");
+            dom.scriptureTextTarget.classList.remove("a6-content");
             const scripture = findScriptureForEntry(entry.notes, currentLanguage, entry.english, entry.text, entry.key);
             if (scripture) {
                 dom.splitScriptureRow.style.display = "grid";
@@ -397,6 +521,33 @@ function showEntry(): void {
                 dom.scriptureTextEnglish.innerHTML = scripture.enHtml;
                 dom.labelScriptureTarget.textContent = `Scripture Context: ${scripture.refLabel} (${currentLanguage.toUpperCase()})`;
                 dom.scriptureTextTarget.innerHTML = scripture.targetHtml;
+            } else {
+                dom.splitScriptureRow.style.display = "none";
+            }
+        } else if (currentCategory === "A6") {
+            if (!a6Data) {
+                loadA6Data().then(() => {
+                    if (currentCategory === "A6" && filteredEntries[currentIndex] === entry) {
+                        showEntry();
+                    }
+                });
+            }
+            dom.splitScriptureRow.classList.add("a6-mode");
+            dom.scriptureTextEnglish.classList.add("a6-content");
+            dom.scriptureTextTarget.classList.add("a6-content");
+            const a6 = findA6ForEntry(entry, currentLanguage);
+            if (a6) {
+                dom.splitScriptureRow.style.display = "grid";
+                dom.labelScriptureEnglish.textContent = `${a6.titleEn} (English)`;
+                dom.scriptureTextEnglish.innerHTML = a6.enHtml;
+                dom.labelScriptureTarget.textContent = `${a6.titleTarget} (${currentLanguage.toUpperCase()})`;
+                dom.scriptureTextTarget.innerHTML = a6.targetHtml;
+
+                // Auto-scroll highlighted king into view
+                requestAnimationFrame(() => {
+                    dom.scriptureTextEnglish.querySelector(".a6-active-item")?.scrollIntoView({ block: "center", behavior: "smooth" });
+                    dom.scriptureTextTarget.querySelector(".a6-active-item")?.scrollIntoView({ block: "center", behavior: "smooth" });
+                });
             } else {
                 dom.splitScriptureRow.style.display = "none";
             }
@@ -703,6 +854,12 @@ dom.categoryButtons.forEach(button => {
         if (currentCategory === "bible" && !scripturesData) {
             loadScriptures().then(() => {
                 if (currentCategory === "bible") {
+                    showEntry();
+                }
+            });
+        } else if (currentCategory === "A6" && !a6Data) {
+            loadA6Data().then(() => {
+                if (currentCategory === "A6") {
                     showEntry();
                 }
             });

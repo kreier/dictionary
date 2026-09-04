@@ -73,4 +73,6 @@
 - [x] Add inline side-by-side scripture context cards for BIBLE category entries.
 - [x] Add dedicated "Confirm Translation" button and prominent checkbox toggle in edit mode.
 - [x] Remove redundant "Key" display box.
+- [x] Add inline side-by-side Appendix A6 kings & prophets context cards with name highlighting for EN, DE, VI, and RU.
+- [x] Add direct localized JW.org link generation for Appendix A6 across 45 languages.
 - [ ] Implement timeline visualization logic for dictionary entries.

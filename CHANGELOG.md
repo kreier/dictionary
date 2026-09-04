@@ -4,6 +4,12 @@
 
 ### Added
 
+- Added Appendix A6 kings & prophets side-by-side context view for all 55 entries across A6-A (Kings of Judah) and A6-B (Kings of Israel).
+- Added structured Appendix A6 cache in `public/data/appendix_a6.json` for English (`en`), German (`de`), Vietnamese (`vi`), and Russian (`ru`).
+- Added Appendix A6 generator script `scripts/generate-a6.py` with multi-language parsing and CLI support.
+- Added smart multilingual name highlighting for Kings and Prophets with auto-scroll centering active items in both left (English) and right (target language) panels.
+- Added direct localized JW.org web reference links for 45 languages for both Appendix A6-A (`kings-of-judah`) and A6-B (`kings-of-israel`) in `src/links.ts`.
+
 - Synchronized dictionary data and reference with authoritative `kreier/timeline` commit `e4782b404d538e1a179fa4f00b468532f861fcb2` (updated Barak to `Judges 4:9, 17`, Keturah's sons to `Genesis 25:2`, Mizraim to `Genesis 10:13`, and Hazarmaveth key update across all 56 languages).
 - Added Bengali (`bn`) scriptures cache into `public/data/scriptures.json` for all available online Bible books in Bengali NWT.
 - Added Bengali script (`\u0980-\u09ff`) and combining signs (`\u0981-\u09cd\u09d7`) in `buildTermPattern` for word highlighting in Bengali.
