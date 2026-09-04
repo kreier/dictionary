@@ -7,16 +7,11 @@ Crowdsourced translation editor UI backed by GitHub PR automation. There are two
 
 ## Web UI helper to translate the [timeline](https://github.com/kreier/timeline)
 
-For the translations it's best if a native speaker has a last view over the translation to confirm it is correct. Excel files and Google sheets are one solution. But what about if you could just check it on your phone? So I created a UI that creates a pull request. I manage the backend and data structure and consistency. The users just click a few buttons, enter the name and hit "Submit". An early edition looks like this:
+The production web interface is live at:
+**[https://kreier.github.io/dictionary/](https://kreier.github.io/dictionary/)**
 
-<img src="archive/docs/dictionary_editor_2026-04-20.png" width="30%"> <img src="archive/docs/dictionary_editor_example.png" width="68%">
+For translations, it is best if a native speaker can verify the translation directly. The web interface provides a responsive, mobile-ready tool where contributors can browse categories, search dictionary entries, verify accuracy, edit entries in place with required name attribution, and submit changes directly through Cloudflare Turnstile bot verification. Submissions create an issue in [kreier/timeline](https://github.com/kreier/timeline) that maintainers can approve with a simple `/approve` comment.
 
-It's not yet mobile ready. Working on it ...
+## Helper scripts and data generation
 
-## Helper script to automate translation
-
-The Google translate API works well for a first draft in translating the timeline into more than 200 languages. With context awareness the translations from LLMs like ChatGPT, Claude and Gemini got much better. But you don't have a simple API that you can call. The usual requests use the web interface. 
-
-The helper scripts should create requests that can be copy/pasted into these agents, and then their answer be parsed and integrated to the csv database.
-
-Another helper creates a pull request to the timeline project with the updated translations.
+The authoritative dictionary data is maintained in `kreier/timeline/db/`. When changes are merged in Timeline, automated GitHub Actions run `scripts/generate-data.py` to regenerate read-optimized static JSON in `public/data/` and deploy the updated application to GitHub Pages.

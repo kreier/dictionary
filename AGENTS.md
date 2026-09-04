@@ -188,12 +188,18 @@ The main files are:
 
     index.html
     src/main.ts
+    src/types.ts
+    src/template.ts
+    src/diff.ts
+    src/turnstile.ts
+    src/api.ts
     src/style.css
     vite.config.ts
+    tsconfig.json
 
 `index.html` is deliberately a small application shell.
 
-The application UI is created by `src/main.ts`.
+The application UI is initialized by `src/template.ts` and coordinated by `src/main.ts`.
 
 Do not move the complete application markup back into generated HTML or
 introduce Python-based HTML generation for the Vite frontend.
@@ -440,14 +446,13 @@ Current status:
 
     Step 3B: read-only dictionary viewer — complete
     Step 3C: edit interface (local UI & change preview) — complete
+    Step 3E: Cloudflare Worker integration & kreier/timeline /approve action bot — complete
 
-Next major frontend / integration steps:
+Next major frontend step:
 
     Step 3D: timeline rendering logic (Preview timeline button)
-    Step 3E: Cloudflare Worker deployment & kreier/timeline /approve action bot
 
-The edit workflow is currently integrated with the submission dialog and
-awaits Cloudflare Worker and Timeline action deployment.
+The edit workflow is integrated with the Cloudflare Worker submission proxy and Timeline `/approve` action bot.
 
 ---
 
