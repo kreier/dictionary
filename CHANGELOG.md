@@ -12,6 +12,7 @@
 
 ### Fixed
 
+- Removed book (`📖`) and globe (`🌐`) icons from the online reference cards to prevent text overflow and clipping on long titles and URLs.
 - Fixed browser freeze when selecting Appendix A6 caused by a recursive microtask loop inside `showEntry()`; implemented in-flight promise caching for `loadA6Data()` and `loadScriptures()`.
 
 - Synchronized dictionary data and reference with authoritative `kreier/timeline` commit `e4782b404d538e1a179fa4f00b468532f861fcb2` (updated Barak to `Judges 4:9, 17`, Keturah's sons to `Genesis 25:2`, Mizraim to `Genesis 10:13`, and Hazarmaveth key update across all 56 languages).
