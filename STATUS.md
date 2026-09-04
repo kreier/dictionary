@@ -27,9 +27,10 @@ major frontend work is timeline visualization.
 - Housekeeping: removed unused dependencies and obsolete placeholder scripts
 - Release v1.1
 - Split view layout for BIBLE, A6, B9, and WIKI with English & Translation side-by-side
-- Web reference link cards for jw.org bible verses, appendix A6/B9, and Wikipedia
-- Localized `jw.org` Bible link generation for Vietnamese
-- Inline scripture context cards for BIBLE category entries (English & translation side-by-side)
+- Web reference link cards with universal `jw.org/finder` resolution for all 56 languages
+- Inline scripture context cards for BIBLE category entries with smart word highlighting
+- Removed italics from scripture context, styled in crisp plain text with clear blue references
+- German, Vietnamese, Spanish, and French scripture context caching
 - Interactive "Checked" verification button and direct checkbox toggle in edit mode
 - Removed redundant "Key" display box
 

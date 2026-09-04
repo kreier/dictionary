@@ -81,12 +81,56 @@ async function loadScriptures(): Promise<Record<string, ScriptureVerse> | null> 
     return scripturesData;
 }
 
+function highlightScriptureWord(text: string, searchWord?: string): string {
+    const escapedText = escapeHtml(text);
+    if (!searchWord || !searchWord.trim()) return escapedText;
+
+    const rawWord = searchWord.split(/[(),]/)[0].trim();
+    if (!rawWord) return escapedText;
+
+    const pronMarks = "['’ʹ·\\u02b9\\u00b4]?";
+    const charPatterns: string[] = [];
+
+    for (const ch of rawWord) {
+        if (/[a-zA-Z]/.test(ch)) {
+            const base = ch.normalize("NFD")[0];
+            const upper = base.toUpperCase();
+            const lower = base.toLowerCase();
+            charPatterns.push(`(?:[${upper}${lower}\\u1eb8\\u1eb9\\u1e00-\\u1eff][\\u0300-\\u036f]?)${pronMarks}`);
+        } else {
+            const escapedChar = ch.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+            charPatterns.push(`${escapedChar}${pronMarks}`);
+        }
+    }
+
+    const regexStr = `(?:\\b|(?<=[\\s^[(\'"]))(${charPatterns.join("")})(?:\\b|(?=[\\s.,;:!?\'"\\)]|$))`;
+    try {
+        const regex = new RegExp(regexStr, "giu");
+        if (regex.test(escapedText)) {
+            return escapedText.replace(regex, '<mark class="scripture-highlight">$1</mark>');
+        }
+    } catch {
+        // Fallback
+    }
+
+    const directEscaped = rawWord.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    try {
+        const fallbackRegex = new RegExp(`(\\b${directEscaped}\\b)`, "gi");
+        if (fallbackRegex.test(escapedText)) {
+            return escapedText.replace(fallbackRegex, '<mark class="scripture-highlight">$1</mark>');
+        }
+    } catch {}
+
+    return escapedText;
+}
+
 function findScriptureForEntry(
     notes: string | undefined,
     lang: string,
-    englishText?: string
+    englishWord?: string,
+    targetWord?: string
 ): RenderedScripture | null {
-    const textToScan = (notes && /\d/.test(notes)) ? notes : (englishText || notes || "");
+    const textToScan = (notes && /\d/.test(notes)) ? notes : (englishWord || notes || "");
     if (!textToScan || !scripturesData) return null;
 
     const refRegex = /((?:[1-3]\s+)?[A-Za-z]+)\s+(\d+)(?::(\d+))?/g;
@@ -119,10 +163,14 @@ function findScriptureForEntry(
                     (rawBookNorm === itemBookNorm || rawBookNorm.includes(itemBookNorm) || itemBookNorm.includes(rawBookNorm))
                 ) {
                     labels.push(item.reference);
-                    enParts.push(`<span class="scripture-verse-num">${escapeHtml(item.reference)}:</span> ${escapeHtml(item.en)}`);
-                    const targetText = ((item[lang] as string) || (lang === "vi" && item.vi ? item.vi : "") || "").trim();
+                    const enHighlighted = highlightScriptureWord(item.en, englishWord);
+                    enParts.push(`<span class="scripture-verse-num">${escapeHtml(item.reference)}:</span> ${enHighlighted}`);
+
+                    const targetRaw = item[lang] ?? (lang === "vi" ? item.vi : "") ?? (lang === "de" ? item.de : "");
+                    const targetText = typeof targetRaw === "string" ? targetRaw.trim() : "";
                     if (targetText) {
-                        targetParts.push(`<span class="scripture-verse-num">${escapeHtml(item.reference)}:</span> ${escapeHtml(targetText)}`);
+                        const targetHighlighted = highlightScriptureWord(targetText, targetWord);
+                        targetParts.push(`<span class="scripture-verse-num">${escapeHtml(item.reference)}:</span> ${targetHighlighted}`);
                     }
                     break;
                 }
@@ -137,7 +185,7 @@ function findScriptureForEntry(
         enHtml: enParts.join("<br><br>"),
         targetHtml: targetParts.length > 0
             ? targetParts.join("<br><br>")
-            : `<span class="scripture-empty">Translation not yet cached for ${escapeHtml(labels.join(", "))}.</span>`
+            : `<span class="scripture-empty">Translation for ${escapeHtml(lang.toUpperCase())} not yet cached for ${escapeHtml(labels.join(", "))}. Click the reference card below to view on jw.org.</span>`
     };
 }
 
@@ -280,7 +328,7 @@ function showEntry(): void {
         dom.labelText.textContent = `Text (${currentLanguage.toUpperCase()})`;
 
         if (currentCategory === "bible") {
-            const scripture = findScriptureForEntry(entry.notes, currentLanguage, entry.english);
+            const scripture = findScriptureForEntry(entry.notes, currentLanguage, entry.english, entry.text);
             if (scripture) {
                 dom.splitScriptureRow.style.display = "grid";
                 dom.labelScriptureEnglish.textContent = `Scripture Context: ${scripture.refLabel} (English)`;

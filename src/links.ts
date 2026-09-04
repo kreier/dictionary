@@ -83,6 +83,7 @@ const BIBLE_BOOKS: BibleBookDef[] = [
 ];
 
 export function parseBibleReference(notes: string | undefined, englishText?: string): {
+    bookNum: number;
     bookSlug: string;
     chapter: number;
     verse?: number;
@@ -120,6 +121,7 @@ export function parseBibleReference(notes: string | undefined, englishText?: str
         : `${book.slug.replace(/-/g, " ")} ${chapter}`;
 
     return {
+        bookNum: book.num,
         bookSlug: book.slug,
         chapter,
         verse,
@@ -127,38 +129,6 @@ export function parseBibleReference(notes: string | undefined, englishText?: str
         label
     };
 }
-
-interface LangBibleConfig {
-    basePath: string;
-    bookSlugs: Record<string, string>;
-}
-
-const BIBLE_LANG_CONFIGS: Record<string, LangBibleConfig> = {
-    vi: {
-        basePath: "thu-vien/kinh-thanh/nwt/cac-sach",
-        bookSlugs: {
-            "genesis": "S%C3%A1ng-th%E1%BA%BF",
-            "exodus": "Xu%E1%BA%A5t-Ai-C%E1%BA%ADp",
-            "numbers": "D%C3%A2n-s%E1%BB%91",
-            "deuteronomy": "Ph%E1%BB%A5c-truy%E1%BB%81n-lu%E1%BA%ADt-l%E1%BB%87",
-            "joshua": "Gi%C3%B4-su%C3%AA",
-            "judges": "Quan-x%C3%A9t",
-            "1-samuel": "1-Sa-mu-%C3%AAn",
-            "1-kings": "1-C%C3%A1c-vua",
-            "2-kings": "2-C%C3%A1c-vua",
-            "1-chronicles": "1-S%E1%BB%AD-k%C3%BD",
-            "ezra": "%C3%8A-x%C6%A1-ra",
-            "esther": "%C3%8A-x%C6%A1-t%C3%AA",
-            "psalms": "Thi-thi%C3%AAn",
-            "isaiah": "%C3%8A-sai",
-            "ezekiel": "%C3%8A-x%C3%AA-chi-%C3%AAn",
-            "hosea": "%C3%94-s%C3%AA",
-            "zechariah": "xa-cha-ri",
-            "luke": "lu-ca",
-            "acts": "C%C3%B4ng-v%E1%BB%A5"
-        }
-    }
-};
 
 export function getBibleLinks(notes: string | undefined, targetLang: string, englishText?: string): WebReferenceLinks {
     const parsed = parseBibleReference(notes, englishText);
@@ -169,16 +139,14 @@ export function getBibleLinks(notes: string | undefined, targetLang: string, eng
         const anchor = parsed.verseId ? `#v${parsed.verseId}` : "";
         const englishUrl = `https://www.jw.org/en/${englishPath}${anchor}`;
 
-        let targetUrl: string;
-        const config = BIBLE_LANG_CONFIGS[lang];
-        if (config) {
-            const localizedSlug = config.bookSlugs[parsed.bookSlug] || parsed.bookSlug;
-            targetUrl = `https://www.jw.org/${lang}/${config.basePath}/${localizedSlug}/${parsed.chapter}/${anchor}`;
-        } else if (lang === "en") {
-            targetUrl = englishUrl;
-        } else {
-            targetUrl = `https://www.jw.org/${lang}/library/bible/nwt/books/`;
-        }
+        const bookCode = String(parsed.bookNum).padStart(2, "0");
+        const chapterCode = String(parsed.chapter).padStart(3, "0");
+        const verseCode = parsed.verse !== undefined ? String(parsed.verse).padStart(3, "0") : "000";
+        const bibleCode = `${bookCode}${chapterCode}${verseCode}`;
+
+        const targetUrl = lang === "en"
+            ? englishUrl
+            : `https://www.jw.org/finder?locale=${lang}&pub=nwt&bible=${bibleCode}`;
 
         return {
             englishUrl,
@@ -188,9 +156,9 @@ export function getBibleLinks(notes: string | undefined, targetLang: string, eng
         };
     }
 
-    const fallbackTarget = BIBLE_LANG_CONFIGS[lang]
-        ? `https://www.jw.org/${lang}/${BIBLE_LANG_CONFIGS[lang].basePath}/`
-        : `https://www.jw.org/${lang}/library/bible/nwt/books/`;
+    const fallbackTarget = lang === "en"
+        ? "https://www.jw.org/en/library/bible/nwt/books/"
+        : `https://www.jw.org/finder?locale=${lang}&pub=nwt`;
 
     return {
         englishUrl: "https://www.jw.org/en/library/bible/nwt/books/",

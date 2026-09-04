@@ -6,14 +6,17 @@
 
 - Added split view layout for `BIBLE`, `A6`, `B9`, and `WIKI` categories (English reference on left, translated text on right).
 - Added web reference link cards below the split view for `jw.org` bible verses, Appendix A6, Appendix B9, and Wikipedia pages.
-- Added localized `jw.org` Bible link generation for Vietnamese (`thu-vien/kinh-thanh/nwt/cac-sach/` with localized book slugs).
+- Added universal `jw.org/finder` link generation for all 56 supported languages, dynamically resolving book paths, chapters, and verses.
 - Added side-by-side inline scripture context cards for the `BIBLE` category displaying verse texts in English and target language.
-- Added `public/data/scriptures.json` and `scripts/generate-scriptures.py` to extract and supply verse context for dictionary entries.
+- Added smart word highlighting in scripture context boxes for both English terms and target language translations (handling diacritics and NWT pronunciation marks).
+- Added German (`de`), Spanish (`es`), and French (`fr`) Bible scriptures cache into `public/data/scriptures.json`.
+- Generalized `scripts/generate-scriptures.py` to fetch verses for any language on demand via the universal finder endpoint.
 - Added dedicated "Confirm Translation" button and interactive verification checkbox in edit mode.
 - Synchronized with authoritative `kreier/timeline` commit `3564612e7b3649f8fb5bf683b5bf76dae9bb6eb9` (v6.08), expanding supported languages to 56.
 
 ### Changed
 
+- Removed italics from scripture context text, styling verses in crisp black text with blue verse references.
 - Removed redundant "Key" display box since the key is already shown in the dropdown selector.
 - Regenerated all `public/data/*.json` files from authoritative Timeline source CSVs.
 
