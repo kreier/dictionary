@@ -64,43 +64,47 @@ interface RenderedScripture {
 }
 
 let scripturesData: Record<string, ScriptureVerse> | null = null;
-let scripturesLoading = false;
+let scripturesPromise: Promise<Record<string, ScriptureVerse> | null> | null = null;
 
 async function loadScriptures(): Promise<Record<string, ScriptureVerse> | null> {
     if (scripturesData) return scripturesData;
-    if (scripturesLoading) return null;
-    scripturesLoading = true;
-    try {
-        const res = await fetch(`${import.meta.env.BASE_URL}data/scriptures.json`);
-        if (res.ok) {
-            scripturesData = await res.json();
+    if (scripturesPromise) return scripturesPromise;
+    scripturesPromise = (async () => {
+        try {
+            const res = await fetch(`${import.meta.env.BASE_URL}data/scriptures.json`);
+            if (res.ok) {
+                scripturesData = await res.json();
+            }
+        } catch (e) {
+            console.warn("Failed to load scriptures.json", e);
+        } finally {
+            scripturesPromise = null;
         }
-    } catch (e) {
-        console.warn("Failed to load scriptures.json", e);
-    } finally {
-        scripturesLoading = false;
-    }
-    return scripturesData;
+        return scripturesData;
+    })();
+    return scripturesPromise;
 }
 
 let a6Data: AppendixA6Data | null = null;
-let a6Loading = false;
+let a6Promise: Promise<AppendixA6Data | null> | null = null;
 
 async function loadA6Data(): Promise<AppendixA6Data | null> {
     if (a6Data) return a6Data;
-    if (a6Loading) return null;
-    a6Loading = true;
-    try {
-        const res = await fetch(`${import.meta.env.BASE_URL}data/appendix_a6.json`);
-        if (res.ok) {
-            a6Data = await res.json();
+    if (a6Promise) return a6Promise;
+    a6Promise = (async () => {
+        try {
+            const res = await fetch(`${import.meta.env.BASE_URL}data/appendix_a6.json`);
+            if (res.ok) {
+                a6Data = await res.json();
+            }
+        } catch (e) {
+            console.warn("Failed to load appendix_a6.json", e);
+        } finally {
+            a6Promise = null;
         }
-    } catch (e) {
-        console.warn("Failed to load appendix_a6.json", e);
-    } finally {
-        a6Loading = false;
-    }
-    return a6Data;
+        return a6Data;
+    })();
+    return a6Promise;
 }
 
 const A6_ALIASES: Record<string, string[]> = {
@@ -426,6 +430,20 @@ async function loadLanguage(language: string): Promise<void> {
     updateCounts();
     filterAndShow();
     updateEditState();
+
+    if (currentCategory === "bible" && !scripturesData) {
+        loadScriptures().then(() => {
+            if (currentCategory === "bible") {
+                showEntry();
+            }
+        });
+    } else if (currentCategory === "A6" && !a6Data) {
+        loadA6Data().then(() => {
+            if (currentCategory === "A6") {
+                showEntry();
+            }
+        });
+    }
 }
 
 
@@ -525,13 +543,6 @@ function showEntry(): void {
                 dom.splitScriptureRow.style.display = "none";
             }
         } else if (currentCategory === "A6") {
-            if (!a6Data) {
-                loadA6Data().then(() => {
-                    if (currentCategory === "A6" && filteredEntries[currentIndex] === entry) {
-                        showEntry();
-                    }
-                });
-            }
             dom.splitScriptureRow.classList.add("a6-mode");
             dom.scriptureTextEnglish.classList.add("a6-content");
             dom.scriptureTextTarget.classList.add("a6-content");
