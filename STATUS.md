@@ -25,6 +25,11 @@ major frontend work is timeline visualization.
 - Frontend modularization (`src/types.ts`, `src/template.ts`, `src/diff.ts`, `src/turnstile.ts`, `src/api.ts`)
 - TypeScript compiler configuration (`tsconfig.json`) and typecheck verification
 - Housekeeping: removed unused dependencies and obsolete placeholder scripts
+- Release v1.1
+- Split view layout for BIBLE, A6, B9, and WIKI with English & Translation side-by-side
+- Web reference link cards for jw.org bible verses, appendix A6/B9, and Wikipedia
+- Interactive "Checked" verification button and direct checkbox toggle in edit mode
+- Removed redundant "Key" display box
 
 ## Current next step
 

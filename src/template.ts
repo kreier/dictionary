@@ -7,14 +7,30 @@ export function initAppShell(app: HTMLElement): {
     keySelect: HTMLSelectElement;
     prevButton: HTMLButtonElement;
     nextButton: HTMLButtonElement;
+    mainContent: HTMLElement;
+    splitTextRow: HTMLDivElement;
+    splitWebRow: HTMLDivElement;
+    notesAndAiBoxes: HTMLDivElement;
+    labelText: HTMLSpanElement;
     textInput: HTMLTextAreaElement;
+    boxEnglish: HTMLDivElement;
     notesInput: HTMLTextAreaElement;
+    linkEnglish: HTMLAnchorElement;
+    linkEnglishTitle: HTMLSpanElement;
+    linkEnglishUrl: HTMLSpanElement;
+    linkTarget: HTMLAnchorElement;
+    linkTargetTitle: HTMLSpanElement;
+    linkTargetUrl: HTMLSpanElement;
+    labelRefEnglish: HTMLDivElement;
+    labelRefTarget: HTMLDivElement;
     boxChecked: HTMLInputElement;
     checkedEmoji: HTMLSpanElement;
     checkedLabel: HTMLSpanElement;
     checkedInfo: HTMLSpanElement;
     checkedToggleLabel: HTMLLabelElement;
+    quickCheckBtn: HTMLButtonElement;
     editButton: HTMLButtonElement;
+    confirmCheckedBtn: HTMLButtonElement;
     previewButton: HTMLButtonElement;
     previewTimelineButton: HTMLButtonElement;
     submitButton: HTMLButtonElement;
@@ -103,72 +119,105 @@ export function initAppShell(app: HTMLElement): {
                     <span id="checked-emoji">⬜</span>
                     <span id="checked-label">Unchecked</span>
                 </label>
+                <button type="button" class="quick-check-btn" id="quick-check-btn" style="display: none;">
+                    Confirm ✅
+                </button>
                 <span id="checked-info"></span>
             </div>
 
         </div>
     </header>
 
-    <main class="content">
+    <main class="content" id="main-content">
 
-        <div class="box">
-            <div class="box-label">Key</div>
-            <div class="box-content" id="box-key"></div>
+        <!-- Split / Primary Text Row -->
+        <div class="split-text-row" id="split-text-row">
+            <div class="box split-col" id="box-english-container">
+                <div class="box-label">English</div>
+                <div class="box-content" id="box-english"></div>
+            </div>
+
+            <div class="box split-col" id="box-text-container">
+                <div class="box-label" id="label-text">Text</div>
+                <textarea
+                    class="box-content edit-input"
+                    id="box-text"
+                    rows="3"
+                    readonly
+                ></textarea>
+            </div>
         </div>
 
-        <div class="box">
-            <div class="box-label">Text</div>
-            <textarea
-                class="box-content edit-input"
-                id="box-text"
-                rows="2"
-                readonly
-            ></textarea>
+        <!-- Web Reference Links Scaffold (for BIBLE, A6, B9, WIKI) -->
+        <div class="split-web-row" id="split-web-row" style="display: none;">
+            <div class="box split-col web-ref-box">
+                <div class="box-label" id="label-ref-english">English Reference</div>
+                <a class="web-ref-card" id="link-english" href="#" target="_blank" rel="noopener noreferrer">
+                    <span class="web-ref-icon">📖</span>
+                    <div class="web-ref-info">
+                        <span class="web-ref-title" id="link-english-title">Open English Website</span>
+                        <span class="web-ref-url" id="link-english-url"></span>
+                    </div>
+                </a>
+            </div>
+
+            <div class="box split-col web-ref-box">
+                <div class="box-label" id="label-ref-target">Translation Reference</div>
+                <a class="web-ref-card" id="link-target" href="#" target="_blank" rel="noopener noreferrer">
+                    <span class="web-ref-icon">🌐</span>
+                    <div class="web-ref-info">
+                        <span class="web-ref-title" id="link-target-title">Open Translation Website</span>
+                        <span class="web-ref-url" id="link-target-url"></span>
+                    </div>
+                </a>
+            </div>
         </div>
 
-        <div class="box">
-            <div class="box-label">English</div>
-            <div class="box-content" id="box-english"></div>
-        </div>
+        <!-- Standard Only: Notes and 5 AI Translations -->
+        <div id="notes-and-ai-boxes">
+            <div class="box">
+                <div class="box-label">Notes</div>
+                <textarea
+                    class="box-content edit-input"
+                    id="box-notes"
+                    rows="2"
+                    readonly
+                ></textarea>
+            </div>
 
-        <div class="box">
-            <div class="box-label">Notes</div>
-            <textarea
-                class="box-content edit-input"
-                id="box-notes"
-                rows="2"
-                readonly
-            ></textarea>
-        </div>
+            <div class="box">
+                <div class="box-label">Google</div>
+                <div class="box-content" id="box-google"></div>
+            </div>
 
-        <div class="box">
-            <div class="box-label">Google</div>
-            <div class="box-content" id="box-google"></div>
-        </div>
+            <div class="box">
+                <div class="box-label">ChatGPT</div>
+                <div class="box-content" id="box-chatgpt"></div>
+            </div>
 
-        <div class="box">
-            <div class="box-label">ChatGPT</div>
-            <div class="box-content" id="box-chatgpt"></div>
-        </div>
+            <div class="box">
+                <div class="box-label">Gemini</div>
+                <div class="box-content" id="box-gemini"></div>
+            </div>
 
-        <div class="box">
-            <div class="box-label">Gemini</div>
-            <div class="box-content" id="box-gemini"></div>
-        </div>
+            <div class="box">
+                <div class="box-label">Claude</div>
+                <div class="box-content" id="box-claude"></div>
+            </div>
 
-        <div class="box">
-            <div class="box-label">Claude</div>
-            <div class="box-content" id="box-claude"></div>
-        </div>
-
-        <div class="box">
-            <div class="box-label">DeepL</div>
-            <div class="box-content" id="box-deepl"></div>
+            <div class="box">
+                <div class="box-label">DeepL</div>
+                <div class="box-content" id="box-deepl"></div>
+            </div>
         </div>
 
         <div class="edit-controls">
             <button class="edit-btn" id="edit-btn">
                 Enable editing
+            </button>
+
+            <button class="confirm-checked-btn" id="confirm-checked-btn" style="display: none;">
+                Confirm Translation ✅
             </button>
 
             <button class="preview-btn" id="preview-btn" disabled>
@@ -283,14 +332,30 @@ export function initAppShell(app: HTMLElement): {
         keySelect: app.querySelector<HTMLSelectElement>("#key-select")!,
         prevButton: app.querySelector<HTMLButtonElement>("#prev-btn")!,
         nextButton: app.querySelector<HTMLButtonElement>("#next-btn")!,
+        mainContent: app.querySelector<HTMLElement>("#main-content")!,
+        splitTextRow: app.querySelector<HTMLDivElement>("#split-text-row")!,
+        splitWebRow: app.querySelector<HTMLDivElement>("#split-web-row")!,
+        notesAndAiBoxes: app.querySelector<HTMLDivElement>("#notes-and-ai-boxes")!,
+        labelText: app.querySelector<HTMLSpanElement>("#label-text")!,
         textInput: app.querySelector<HTMLTextAreaElement>("#box-text")!,
+        boxEnglish: app.querySelector<HTMLDivElement>("#box-english")!,
         notesInput: app.querySelector<HTMLTextAreaElement>("#box-notes")!,
+        linkEnglish: app.querySelector<HTMLAnchorElement>("#link-english")!,
+        linkEnglishTitle: app.querySelector<HTMLSpanElement>("#link-english-title")!,
+        linkEnglishUrl: app.querySelector<HTMLSpanElement>("#link-english-url")!,
+        linkTarget: app.querySelector<HTMLAnchorElement>("#link-target")!,
+        linkTargetTitle: app.querySelector<HTMLSpanElement>("#link-target-title")!,
+        linkTargetUrl: app.querySelector<HTMLSpanElement>("#link-target-url")!,
+        labelRefEnglish: app.querySelector<HTMLDivElement>("#label-ref-english")!,
+        labelRefTarget: app.querySelector<HTMLDivElement>("#label-ref-target")!,
         boxChecked: app.querySelector<HTMLInputElement>("#box-checked")!,
         checkedEmoji: app.querySelector<HTMLSpanElement>("#checked-emoji")!,
         checkedLabel: app.querySelector<HTMLSpanElement>("#checked-label")!,
         checkedInfo: app.querySelector<HTMLSpanElement>("#checked-info")!,
         checkedToggleLabel: app.querySelector<HTMLLabelElement>("#checked-toggle-label")!,
+        quickCheckBtn: app.querySelector<HTMLButtonElement>("#quick-check-btn")!,
         editButton: app.querySelector<HTMLButtonElement>("#edit-btn")!,
+        confirmCheckedBtn: app.querySelector<HTMLButtonElement>("#confirm-checked-btn")!,
         previewButton: app.querySelector<HTMLButtonElement>("#preview-btn")!,
         previewTimelineButton: app.querySelector<HTMLButtonElement>("#preview-timeline-btn")!,
         submitButton: app.querySelector<HTMLButtonElement>("#submit-btn")!,

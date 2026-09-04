@@ -15,6 +15,7 @@ import {
     submitChanges,
     DEFAULT_WORKER_ENDPOINT
 } from "./api";
+import { getReferenceLinksForEntry } from "./links";
 
 const app = document.querySelector<HTMLDivElement>("#app");
 if (!app) {
@@ -172,13 +173,41 @@ function showEntry(): void {
 
     dom.keySelect.value = String(currentIndex);
 
-    setBox("key", entry.key);
+    // Populate standard or split view
     setBox("english", entry.english);
-    setBox("google", entry.google);
-    setBox("chatgpt", entry.chatgpt);
-    setBox("gemini", entry.gemini);
-    setBox("claude", entry.claude);
-    setBox("deepl", entry.deepl);
+
+    const isSplitCategory = ["bible", "A6", "B9", "wiki"].includes(currentCategory);
+    if (isSplitCategory) {
+        dom.mainContent.classList.add("split-mode");
+        dom.notesAndAiBoxes.style.display = "none";
+        dom.splitWebRow.style.display = "grid";
+        dom.labelText.textContent = `Text (${currentLanguage.toUpperCase()})`;
+
+        const refLinks = getReferenceLinksForEntry(entry, currentLanguage);
+        if (refLinks) {
+            dom.linkEnglish.href = refLinks.englishUrl;
+            dom.linkEnglishTitle.textContent = `${refLinks.label} (English)`;
+            dom.linkEnglishUrl.textContent = refLinks.englishUrl;
+
+            dom.linkTarget.href = refLinks.targetUrl;
+            dom.linkTargetTitle.textContent = `${refLinks.label} (${currentLanguage.toUpperCase()})`;
+            dom.linkTargetUrl.textContent = refLinks.targetUrl;
+
+            dom.labelRefEnglish.textContent = "English Reference";
+            dom.labelRefTarget.textContent = `Reference (${currentLanguage.toUpperCase()})`;
+        }
+    } else {
+        dom.mainContent.classList.remove("split-mode");
+        dom.notesAndAiBoxes.style.display = "block";
+        dom.splitWebRow.style.display = "none";
+        dom.labelText.textContent = "Text";
+
+        setBox("google", entry.google);
+        setBox("chatgpt", entry.chatgpt);
+        setBox("gemini", entry.gemini);
+        setBox("claude", entry.claude);
+        setBox("deepl", entry.deepl);
+    }
 
     const pending = pendingEdits.get(entry.key);
     if (pending) {
@@ -207,8 +236,12 @@ function updateCheckedDisplay(entry: DictionaryEntry): void {
     if (isChecked) {
         dom.checkedInfo.textContent =
             ` (Verified${entry.checked_by ? ` by ${entry.checked_by}` : ""}${entry.date ? ` on ${entry.date}` : ""})`;
+        dom.quickCheckBtn.textContent = "Uncheck ⬜";
+        dom.confirmCheckedBtn.textContent = "Unmark Checked ⬜";
     } else {
         dom.checkedInfo.textContent = "";
+        dom.quickCheckBtn.textContent = "Confirm ✅";
+        dom.confirmCheckedBtn.textContent = "Confirm Translation ✅";
     }
 }
 
@@ -221,7 +254,6 @@ function setBox(name: string, value: string | undefined): void {
 
 function clearDisplay(): void {
     for (const field of [
-        "key",
         "english",
         "google",
         "chatgpt",
@@ -239,6 +271,14 @@ function clearDisplay(): void {
     dom.checkedEmoji.textContent = "⬜";
     dom.checkedLabel.textContent = "Unchecked";
     dom.checkedInfo.textContent = "";
+
+    dom.linkEnglish.href = "#";
+    dom.linkEnglishTitle.textContent = "English Website";
+    dom.linkEnglishUrl.textContent = "";
+
+    dom.linkTarget.href = "#";
+    dom.linkTargetTitle.textContent = "Translation Website";
+    dom.linkTargetUrl.textContent = "";
 
     dom.prevButton.disabled = true;
     dom.nextButton.disabled = true;
@@ -308,6 +348,22 @@ function handleInputModification(isTextOrNotes: boolean): void {
     saveCurrentEntryState();
 }
 
+function toggleOrConfirmChecked(): void {
+    if (!editMode) {
+        dom.activationNameInput.value = editorName;
+        dom.activationModal.classList.add("visible");
+        setTimeout(() => dom.activationNameInput.focus(), 50);
+        return;
+    }
+
+    const entry = filteredEntries[currentIndex];
+    if (!entry) return;
+
+    dom.boxChecked.checked = !dom.boxChecked.checked;
+    updateCheckedDisplay(entry);
+    saveCurrentEntryState();
+}
+
 function enterEditMode(): void {
     editMode = true;
 
@@ -318,6 +374,9 @@ function enterEditMode(): void {
     dom.textInput.classList.add("editable");
     dom.notesInput.classList.add("editable");
     dom.checkedToggleLabel.classList.add("editable");
+
+    dom.quickCheckBtn.style.display = "inline-block";
+    dom.confirmCheckedBtn.style.display = "flex";
 
     dom.editButton.textContent = "Exit Edit Mode";
     dom.editButton.classList.add("active");
@@ -336,6 +395,9 @@ function exitEditMode(): void {
     dom.textInput.classList.remove("editable");
     dom.notesInput.classList.remove("editable");
     dom.checkedToggleLabel.classList.remove("editable");
+
+    dom.quickCheckBtn.style.display = "none";
+    dom.confirmCheckedBtn.style.display = "none";
 
     dom.editButton.textContent = "Enable editing";
     dom.editButton.classList.remove("active");
@@ -453,6 +515,9 @@ dom.boxChecked.addEventListener("change", () => {
         saveCurrentEntryState();
     }
 });
+
+dom.quickCheckBtn.addEventListener("click", toggleOrConfirmChecked);
+dom.confirmCheckedBtn.addEventListener("click", toggleOrConfirmChecked);
 
 dom.editButton.addEventListener("click", () => {
     if (editMode) {

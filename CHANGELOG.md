@@ -4,6 +4,18 @@
 
 ### Added
 
+- Added split view layout for `BIBLE`, `A6`, `B9`, and `WIKI` categories (English reference on left, translated text on right).
+- Added web reference link cards below the split view for `jw.org` bible verses, Appendix A6, Appendix B9, and Wikipedia pages.
+- Added dedicated "Confirm Translation" button and interactive verification checkbox in edit mode.
+
+### Changed
+
+- Removed redundant "Key" display box since the key is already shown in the dropdown selector.
+
+## [1.1.0] - 2026-09-04
+
+### Added
+
 - Added `tsconfig.json` configuring standard Vite TypeScript bundling, browser DOM libraries, and strict type checking.
 - Added `npm run typecheck` script (`tsc --noEmit`) to `package.json`.
 - Modularized `src/main.ts` into discrete modules: `src/types.ts`, `src/template.ts`, `src/diff.ts`, `src/turnstile.ts`, and `src/api.ts`.

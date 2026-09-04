@@ -29,6 +29,7 @@ export interface DictionaryEntry {
     checked_by?: string;
     date?: string;
     tag?: string;
+    link?: string;
     category: Category;
 }
 
