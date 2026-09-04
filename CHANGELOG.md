@@ -10,10 +10,12 @@
 - Added side-by-side inline scripture context cards for the `BIBLE` category displaying verse texts in English and target language.
 - Added `public/data/scriptures.json` and `scripts/generate-scriptures.py` to extract and supply verse context for dictionary entries.
 - Added dedicated "Confirm Translation" button and interactive verification checkbox in edit mode.
+- Synchronized with authoritative `kreier/timeline` commit `3564612e7b3649f8fb5bf683b5bf76dae9bb6eb9` (v6.08), expanding supported languages to 56.
 
 ### Changed
 
 - Removed redundant "Key" display box since the key is already shown in the dropdown selector.
+- Regenerated all `public/data/*.json` files from authoritative Timeline source CSVs.
 
 ## [1.1.0] - 2026-09-04
 
