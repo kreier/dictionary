@@ -12,7 +12,7 @@ major frontend work is timeline visualization.
 
 ## Completed recently
 
-- Vite-based static frontend
+- Vite-based static frontend deployed to GitHub Pages
 - TypeScript dictionary viewer
 - Language and category navigation
 - Dictionary search and entry navigation
@@ -22,6 +22,9 @@ major frontend work is timeline visualization.
 - Key-grouped change preview
 - Cloudflare Worker submission integration
 - Timeline `/approve` action workflow in the Timeline repository
+- Frontend modularization (`src/types.ts`, `src/template.ts`, `src/diff.ts`, `src/turnstile.ts`, `src/api.ts`)
+- TypeScript compiler configuration (`tsconfig.json`) and typecheck verification
+- Housekeeping: removed unused dependencies and obsolete placeholder scripts
 
 ## Current next step
 

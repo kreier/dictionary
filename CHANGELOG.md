@@ -4,11 +4,21 @@
 
 ### Added
 
+- Added `tsconfig.json` configuring standard Vite TypeScript bundling, browser DOM libraries, and strict type checking.
+- Added `npm run typecheck` script (`tsc --noEmit`) to `package.json`.
+- Modularized `src/main.ts` into discrete modules: `src/types.ts`, `src/template.ts`, `src/diff.ts`, `src/turnstile.ts`, and `src/api.ts`.
 - Added `STATUS.md` as the concise current-state reference for humans and AI agents.
 - Added `CLAUDE.md` as a compatibility entry point that imports `AGENTS.md`.
 
+### Removed
+
+- Removed unused dependency `jose` from `package.json` and synchronized `package-lock.json`.
+- Removed obsolete placeholder scripts (`scripts/update_bing.py`, `scripts/update_chatgpt.py`, `scripts/update_claude.py`, and `scripts/update_gemini.py`).
+
 ### Changed
 
+- Updated `README.md` to describe the live Vite web application, responsive mobile layout, and GitHub Pages production deployment.
+- Updated `TODO.md` and `STATUS.md` to reflect completed GitHub Pages deployment and codebase housekeeping.
 - Updated `AGENTS.md` to serve as the primary repository-orientation entry point.
 - Documented when agents should consult `ARCHITECTURE.md`, `STATUS.md`, `TODO.md`, and `CHANGELOG.md`.
 

@@ -32,11 +32,18 @@
 
 ## GitHub Pages
 
-- [ ] Configure Vite production build for GitHub Pages.
-- [ ] Replace the old `docs/` deployment.
-- [ ] Deploy `dist/` through GitHub Actions.
-- [ ] Verify `/dictionary/` base path in production.
-- [ ] Verify JSON loading on GitHub Pages.
+- [x] Configure Vite production build for GitHub Pages.
+- [x] Replace the old `docs/` deployment.
+- [x] Deploy `dist/` through GitHub Actions.
+- [x] Verify `/dictionary/` base path in production.
+- [x] Verify JSON loading on GitHub Pages.
+
+## Code quality & Housekeeping
+
+- [x] Add `tsconfig.json` and `npm run typecheck` script.
+- [x] Modularize `src/main.ts` into `types.ts`, `template.ts`, `diff.ts`, `turnstile.ts`, and `api.ts`.
+- [x] Remove unused `jose` dependency from `package.json`.
+- [x] Remove unneeded placeholder scripts (`update_*.py`).
 
 ## Data synchronization
 
