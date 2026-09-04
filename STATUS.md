@@ -39,6 +39,11 @@ major frontend work is timeline visualization.
 - German, Vietnamese, Spanish, and French scripture context caching
 - Interactive "Checked" verification button and direct checkbox toggle in edit mode
 - Removed redundant "Key" display box
+- Inline Appendix A6 kings & prophets context view for all 55 entries across A6-A and A6-B
+- Smart word highlighting for King and Prophet names with auto-scroll centering in both English and target language
+- Appendix A6 cache (`public/data/appendix_a6.json`) for English, German, Vietnamese, and Russian
+- Generator script `scripts/generate-a6.py` for Appendix A6 scraping and normalization
+- Localized JW.org web reference links for 45 languages in Appendix A6
 
 ## Current next step
 

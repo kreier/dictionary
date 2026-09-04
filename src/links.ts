@@ -223,15 +223,116 @@ export function getBibleLinks(notes: string | undefined, targetLang: string, eng
     };
 }
 
+export const A6_DIRECT_URLS: Record<string, Record<string, string>> = {
+    "A6-A": {
+        "en": "https://www.jw.org/en/library/bible/nwt/appendix-a/kings-of-judah/",
+        "hy": "https://www.jw.org/hy/%D5%A3%D6%80%D5%A1%D5%A4%D5%A1%D6%80%D5%A1%D5%B6/bible/nwt/%D5%B0%D5%A1%D5%BE%D5%A5%D5%AC%D5%BE%D5%A1%D5%AE-%D5%A1/%D5%B0%D5%B8%D6%82%D5%A4%D5%A1%D5%B5%D5%AB-%D5%A9%D5%A1%D5%A3%D5%A1%D5%BE%D5%B8%D6%80%D5%B6%D5%A5%D6%80%D5%A8/",
+        "ceb": "https://www.jw.org/ceb/librarya/bibliya/nwt/apendise-a/mga-hari-sa-juda/",
+        "nl": "https://www.jw.org/nl/bibliotheek/bijbel/nwt/appendix-a/koningen-van-juda/",
+        "et": "https://www.jw.org/et/raamatukogu/piibel/nwt/lisa-a/juuda-kuningad/",
+        "fj": "https://www.jw.org/fj/ka-e-vakarautaki/ivolatabu/nwt/ikuri-a/tui-juta/",
+        "tl": "https://www.jw.org/tl/library/bibliya/nwt/apendise-a/mga-hari-ng-juda/",
+        "fi": "https://www.jw.org/fi/kirjasto/raamattu/nwt/liite-a/juudan-kuninkaat/",
+        "fr": "https://www.jw.org/fr/biblioth%C3%A8que/bible/nwt/appendice-a/rois-de-juda-et-d-israel/",
+        "de": "https://www.jw.org/de/bibliothek/bibel/nwt/anhang-a/koenige-juda/",
+        "el": "https://www.jw.org/el/%CE%B2%CE%B9%CE%B2%CE%BB%CE%B9%CE%BF%CE%B8%CE%AE%CE%BA%CE%B7/%CE%B1%CE%B3%CE%AF%CE%B1-%CE%B3%CF%81%CE%B1%CF%86%CE%AE/nwt/%CF%80%CE%B1%CF%81%CE%AC%CF%81%CF%84%CE%B7%CE%BC%CE%B1-%CE%B1/%CE%B2%CE%B1%CF%83%CE%B9%CE%BB%CE%B9%CE%AC%CE%B4%CE%B5%CF%82-%CF%84%CE%BF%CF%85-%CE%B9%CE%BF%CF%8D%CE%B4%CE%B1/",
+        "he": "https://www.jw.org/he/%D7%A1%D7%A4%D7%A8%D7%99%D7%99%D7%94/%D7%94%D7%AA%D7%A0%D7%9A-%D7%95%D7%9B%D7%AA%D7%91%D7%99-%D7%94%D7%A7%D7%95%D7%93%D7%A9-%D7%94%D7%99%D7%95%D7%95%D7%A0%D7%99%D7%99%D7%9D/nwt/%D7%A0%D7%A1%D7%A4%D7%97-%D7%90/%D7%9E%D7%9C%D7%9B%D7%99-%D7%99%D7%94%D7%95%D7%93%D7%94/",
+        "hi": "https://www.jw.org/hi/%E0%A4%B2%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%B0%E0%A5%80/%E0%A4%AC%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B2/nwt/%E0%A4%85%E0%A4%A4%E0%A4%BF%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8D%E2%80%8D%E0%A4%A4-%E0%A4%B2%E0%A5%87%E0%A4%96-%E0%A4%95/%E0%A4%AF%E0%A4%B9%E0%A5%82%E0%A4%A6%E0%A4%BE-%E0%A4%95%E0%A5%87-%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%BE/",
+        "hu": "https://www.jw.org/hu/konyvtar/biblia/nwt/a-fuggelek/juda-kiralyai/",
+        "ig": "https://www.jw.org/ig/ihe-ndi-anyi-nwere/baibul/nwt/ihe-ndi-ozo-a-kowara-nke-a/ndi-eze-juda/",
+        "ilo": "https://www.jw.org/ilo/libraria/biblia/nwt/apendise-a/dagiti-ari-ti-juda/",
+        "id": "https://www.jw.org/id/perpustakaan/alkitab/nwt/lampiran-a/raja-raja-yehuda/",
+        "it": "https://www.jw.org/it/biblioteca-digitale/bibbia/nwt/appendice-a/re-di-giuda/",
+        "ja": "https://www.jw.org/ja/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC/%E8%81%96%E6%9B%B8/nwt/%E4%BB%98%E9%8C%B2A/%E3%83%A6%E3%83%80%E3%81%AE%E7%8E%8B/",
+        "jv": "https://www.jw.org/jv/perpustakaan/alkitab/nwt/lampiran-a/nabi-raja-yehuda/",
+        "kn": "https://www.jw.org/kn/%E0%B2%B2%E0%B3%88%E0%B2%AC%E0%B3%8D%E0%B2%B0%E0%B2%B0%E0%B2%BF/%E0%B2%AC%E0%B3%88%E0%B2%AC%E0%B2%B2%E0%B3%8D%E2%80%8C/nwt/%E0%B2%AA%E0%B2%B0%E0%B2%BF%E0%B2%B6%E0%B2%BF%E0%B2%B7%E0%B3%8D%E0%B2%9F-%E0%B2%8E/%E0%B2%AF%E0%B3%86%E0%B2%B9%E0%B3%82%E0%B2%A6%E0%B2%A6-%E0%B2%B0%E0%B2%BE%E0%B2%9C%E0%B2%B0%E0%B3%81/",
+        "km": "https://www.jw.org/km/%E1%9E%94%E1%9E%8E%E1%9F%92%E1%9E%8E%E1%9E%B6%E1%9E%9B%E1%9F%90%E1%9E%99/%E1%9E%82%E1%9E%98%E1%9F%92%E1%9E%96%E1%9E%B8%E1%9E%9A/nwt/%E1%9E%9F%E1%9F%81%E1%9E%85%E1%9E%80%E1%9F%92%E1%9E%8A%E1%9E%B8-%E1%9E%96%E1%9E%93%E1%9F%92%E1%9E%99%E1%9E%9B%E1%9F%8B-%E1%9E%94%E1%9E%93%E1%9F%92%E1%9E%90%E1%9F%82%E1%9E%98-%E1%9E%95%E1%9F%92%E1%9E%93%E1%9F%82%E1%9E%80-%E1%9E%80/%E1%9E%9F%E1%9F%92%E1%9E%8A%E1%9F%81%E1%9E%85-%E1%9E%93%E1%9F%83-%E1%9E%99%E1%9E%BC%E1%9E%8A%E1%9E%B6/",
+        "kg": "https://www.jw.org/kg/biblioteke/biblia/nwt/bangindu-ya-ngika-a/bantotila-ya-yuda/",
+        "ko": "https://www.jw.org/ko/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/%EC%84%B1%EA%B2%BD/nwt/%EB%B6%80%EB%A1%9D-%EA%B0%80/%EC%9C%A0%EB%8B%A4%EC%9D%98-%EC%99%95/",
+        "lo": "https://www.jw.org/lo/%E0%BA%AA%E0%BA%B7%E0%BB%88%E0%BB%81%E0%BA%A5%E0%BA%B0%E0%BA%AA%E0%BA%B4%E0%BB%88%E0%BA%87%E0%BA%9E%E0%BA%B4%E0%BA%A1/%E0%BA%84%E0%BA%B3%E0%BA%9E%E0%BA%B5%E0%BB%84%E0%BA%9A%E0%BB%80%E0%BA%9A%E0%BA%B4%E0%BA%99/nwt/%E0%BA%9E%E0%BA%B2%E0%BA%81%E0%BA%9C%E0%BA%B0%E0%BB%9C%E0%BA%A7%E0%BA%81-%E0%BA%81/%E0%BA%81%E0%BA%B0%E0%BA%AA%E0%BA%B1%E0%BA%94%E0%BA%A2%E0%BA%B9%E0%BA%94%E0%BA%B2h/",
+        "ms": "https://www.jw.org/ms/perpustakaan/bible/nwt/lampiran-a/raja-yehuda/",
+        "ml": "https://www.jw.org/ml/%E0%B4%B2%E0%B5%88%E0%B4%AC%E0%B5%8D%E0%B4%B0%E0%B4%B1%E0%B4%BF/%E0%B4%AC%E0%B5%88%E0%B4%AC%E0%B4%BF%E0%B5%BE/nwt/%E0%B4%85%E0%B4%A8%E0%B5%81%E0%B4%AC%E0%B4%A8%E0%B5%8D%E0%B4%A7%E0%B4%82-%E0%B4%8E/%E0%B4%AF%E0%B4%B9%E0%B5%82%E0%B4%A6%E0%B4%AF%E0%B4%BF%E0%B4%B2%E0%B5%86-%E0%B4%B0%E0%B4%BE%E0%B4%9C%E0%B4%BE%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B4%A8%E0%B5%8D%E0%B4%AE%E0%B4%BE%E0%B5%BC/",
+        "mr": "https://www.jw.org/mr/%E0%A4%B2%E0%A4%BE%E0%A4%AF%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%B0%E0%A5%80/%E0%A4%AC%E0%A4%BE%E0%A4%AF%E0%A4%AC%E0%A4%B2/nwt/%E0%A4%85%E0%A4%A4%E0%A4%BF%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8D%E2%80%8D%E0%A4%A4-%E0%A4%B2%E0%A5%87%E0%A4%96-%E0%A4%95/%E0%A4%AF%E0%A4%B9%E0%A5%82%E0%A4%A6%E0%A4%BE%E0%A4%9A%E0%A5%87-%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A5%87/",
+        "my": "https://www.jw.org/my/%E1%80%85%E1%80%AC%E1%80%80%E1%80%BC%E1%80%8A%E1%80%B7%E1%80%BA%E1%80%90%E1%80%AD%E1%80%AF%E1%80%80%E1%80%BA/%E1%80%9E%E1%80%99%E1%80%B9%E1%80%99%E1%80%AC%E1%80%80%E1%80%BB%E1%80%99%E1%80%BA%E1%80%B8%E1%80%85%E1%80%AC/nwt/%E1%80%94%E1%80%B1%E1%80%AC%E1%80%80%E1%80%BA%E1%80%86%E1%80%80%E1%80%BA%E1%80%90%E1%80%BD%E1%80%B2-%E1%80%80/%E1%80%9A%E1%80%AF-%E1%80%92-%E1%80%98%E1%80%AF%E1%80%9B%E1%80%84%E1%80%BA%E1%80%99%E1%80%BB%E1%80%AC%E1%80%B8/",
+        "no": "https://www.jw.org/no/bibliotek/bibelen/nwt/tillegg-a/konger-i-juda/",
+        "fa": "https://www.jw.org/fa/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87/%DA%A9%D8%AA%D8%A7%D8%A8-%D9%85%D9%82%D8%AF%D8%B3/nwt/%D8%B6%D9%85%DB%8C%D9%85%D9%87-%D8%A7%D9%84%D9%81/%D9%BE%D8%A7%D8%AF%D8%B4%D8%A7%D9%87%D8%A7%D9%86-%DB%8C%D9%87%D9%88%D8%AF%D8%A7/",
+        "pl": "https://www.jw.org/pl/biblioteka/biblia/nwt/dodatek-a/krolowie-judy/",
+        "pt": "https://www.jw.org/pt/biblioteca/biblia/nwt/apendice-a/reis-de-juda/",
+        "pa": "https://www.jw.org/pa/%E0%A8%B2%E0%A8%BE%E0%A8%87%E0%A8%AC%E0%A9%8D%E0%A8%B0%E0%A9%87%E0%A8%B0%E0%A9%80/%E0%A8%AC%E0%A8%BE%E0%A8%88%E0%A8%AC%E0%A8%B2/nwt/%E0%A8%B5%E0%A8%A7%E0%A9%87%E0%A8%B0%E0%A9%87-%E0%A8%9C%E0%A8%BE%E0%A8%A3%E0%A8%95%E0%A8%BE%E0%A8%B0%E0%A9%80-1/%E0%A8%AF%E0%A8%B9%E0%A9%82%E0%A8%A6%E0%A8%BE%E0%A8%B9-%E0%A8%A6%E0%A9%87-%E0%A8%B0%E0%A8%BE%E0%A8%9C%E0%A9%87/",
+        "ru": "https://www.jw.org/ru/%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D1%8F/nwt/%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B0/%D1%86%D0%B0%D1%80%D0%B8-%D0%B8%D1%83%D0%B4%D0%B5%D0%B8/",
+        "si": "https://www.jw.org/si/%E0%B6%BD%E0%B6%BA%E0%B7%92%E0%B6%B6%E0%B7%8A%E2%80%8D%E0%B6%BB%E0%B6%BB%E0%B7%92/%E0%B6%B6%E0%B6%BA%E0%B7%92%E0%B6%B6%E0%B6%BD%E0%B6%BA/nwt/%E0%B6%8B%E0%B6%B4%E0%B6%9C%E0%B7%8A%E2%80%8D%E0%B6%BB%E0%B6%B1%E0%B7%8A%E0%B6%AE%E0%B6%BA-A/%E0%B6%BA%E0%B7%96%E0%B6%AF%E0%B7%8F-%E0%B6%BB%E0%B6%A2%E0%B7%80%E0%B6%BB%E0%B7%94/",
+        "es": "https://www.jw.org/es/biblioteca/biblia/nwt/apendice-a/reyes-de-juda/",
+        "sw": "https://www.jw.org/sw/maktaba/biblia/nwt/nyongeza-a/wafalme-wa-yuda/",
+        "sv": "https://www.jw.org/sv/bibliotek/bibeln/nwt/till%C3%A4gg-a/kungar-i-juda/",
+        "ta": "https://www.jw.org/ta/%E0%AE%B2%E0%AF%88%E0%AE%AA%E0%AF%8D%E0%AE%B0%E0%AE%B0%E0%AE%BF/%E0%AE%AA%E0%AF%88%E0%AE%AA%E0%AE%BF%E0%AE%B3%E0%AF%8D/nwt/%E0%AE%87%E0%AE%A3%E0%AF%88%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81-a/%E0%AE%AF%E0%AF%82%E0%AE%A4%E0%AE%BE%E0%AE%B5%E0%AE%BF%E0%AE%A9%E0%AF%8D-%E0%AE%B0%E0%AE%BE%E0%AE%9C%E0%AE%BE%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D/",
+        "te": "https://www.jw.org/te/%E0%B0%B2%E0%B1%88%E0%B0%AC%E0%B1%8D%E0%B0%B0%E0%B0%B0%E0%B1%80/%E0%B0%AC%E0%B1%88%E0%B0%AC%E0%B0%BF%E0%B0%B2%E0%B1%81/nwt/%E0%B0%85%E0%B0%A8%E0%B1%81%E0%B0%AC%E0%B0%82%E0%B0%A7%E0%B0%82-a/%E0%B0%AF%E0%B1%82%E0%B0%A6%E0%B0%BE-%E0%B0%B0%E0%B0%BE%E0%B0%9C%E0%B1%81%E0%B0%B2%E0%B1%81/",
+        "th": "https://www.jw.org/th/%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%86/%E0%B8%84%E0%B8%B1%E0%B8%A1%E0%B8%A0%E0%B8%B5%E0%B8%A3%E0%B9%8C%E0%B9%84%E0%B8%9A%E0%B9%80%E0%B8%9A%E0%B8%B4%E0%B8%A5/nwt/%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%9C%E0%B8%99%E0%B8%A7%E0%B8%81-%E0%B8%81/%E0%B8%81%E0%B8%A9%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B4%E0%B8%A2%E0%B9%8C%E0%B8%A2%E0%B8%B9%E0%B8%94%E0%B8%B2%E0%B8%AB%E0%B9%8C/",
+        "tr": "https://www.jw.org/tr/kutuphane/kutsal-kitap/nwt/ek-a/yahuda-krallari/",
+        "uk": "https://www.jw.org/uk/%D0%B1%D1%96%D0%B1%D0%BB%D1%96%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/%D0%B1%D1%96%D0%B1%D0%BB%D1%96%D1%8F/nwt/%D0%B4%D0%BE%D0%B4%D0%B0%D1%82%D0%BE%D0%BA-%D0%B0/%D1%86%D0%B0%D1%80%D1%96-%D1%8E%D0%B4%D0%B8/",
+        "vi": "https://www.jw.org/vi/thu-vien/kinh-thanh/nwt/phu-luc-a/cac-vua-giuda/"
+    },
+    "A6-B": {
+        "en": "https://www.jw.org/en/library/bible/nwt/appendix-a/kings-of-israel/",
+        "hy": "https://www.jw.org/hy/%D5%A3%D6%80%D5%A1%D5%A4%D5%A1%D6%80%D5%A1%D5%B6/bible/nwt/%D5%B0%D5%A1%D5%BE%D5%A5%D5%AC%D5%BE%D5%A1%D5%AE-%D5%A1/%D5%AB%D5%BD%D6%80%D5%A1%D5%B5%D5%A5%D5%AC%D5%AB-%D5%A9%D5%A1%D5%A3%D5%A1%D5%BE%D5%B8%D6%80%D5%B6%D5%A5%D6%80%D5%A8/",
+        "ceb": "https://www.jw.org/ceb/librarya/bibliya/nwt/apendise-a/mga-hari-sa-israel/",
+        "nl": "https://www.jw.org/nl/bibliotheek/bijbel/nwt/appendix-a/koningen-van-israel/",
+        "et": "https://www.jw.org/et/raamatukogu/piibel/nwt/lisa-a/iisraeli-kuningad/",
+        "fj": "https://www.jw.org/fj/ka-e-vakarautaki/ivolatabu/nwt/ikuri-a/tui-kei-isireli/",
+        "tl": "https://www.jw.org/tl/library/bibliya/nwt/apendise-a/mga-hari-ng-israel/",
+        "fi": "https://www.jw.org/fi/kirjasto/raamattu/nwt/liite-a/israelin-kuninkaat/",
+        "fr": "https://www.jw.org/fr/biblioth%C3%A8que/bible/nwt/appendice-a/rois-de-juda-et-d-israel-2/",
+        "de": "https://www.jw.org/de/bibliothek/bibel/nwt/anhang-a/koenige-israel/",
+        "el": "https://www.jw.org/el/%CE%B2%CE%B9%CE%B2%CE%BB%CE%B9%CE%BF%CE%B8%CE%AE%CE%BA%CE%B7/%CE%B1%CE%B3%CE%AF%CE%B1-%CE%B3%CF%81%CE%B1%CF%86%CE%AE/nwt/%CF%80%CE%B1%CF%81%CE%AC%CF%81%CF%84%CE%B7%CE%BC%CE%B1-%CE%B1/%CE%B2%CE%B1%CF%83%CE%B9%CE%BB%CE%B9%CE%AC%CE%B4%CE%B5%CF%82-%CF%84%CE%BF%CF%85-%CE%B9%CF%83%CF%81%CE%B1%CE%AE%CE%BB/",
+        "he": "https://www.jw.org/he/%D7%A1%D7%A4%D7%A8%D7%99%D7%99%D7%94/%D7%94%D7%AA%D7%A0%D7%9A-%D7%95%D7%9B%D7%AA%D7%91%D7%99-%D7%94%D7%A7%D7%95%D7%93%D7%A9-%D7%94%D7%99%D7%95%D7%95%D7%A0%D7%99%D7%99%D7%9D/nwt/%D7%A0%D7%A1%D7%A4%D7%97-%D7%90/%D7%9E%D7%9C%D7%9B%D7%99-%D7%99%D7%A9%D7%A8%D7%90%D7%9C/",
+        "hi": "https://www.jw.org/hi/%E0%A4%B2%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A5%87%E0%A4%B0%E0%A5%80/%E0%A4%AC%E0%A4%BE%E0%A4%87%E0%A4%AC%E0%A4%B2/nwt/%E0%A4%85%E0%A4%A4%E0%A4%BF%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8D%E2%80%8D%E0%A4%A4-%E0%A4%B2%E0%A5%87%E0%A4%96-%E0%A4%95/%E0%A4%87%E0%A4%B8%E0%A4%B0%E0%A4%BE%E0%A4%8F%E0%A4%B2-%E0%A4%95%E0%A5%87-%E0%A4%B0%E0%A4%BE%E0%A4%9C%E0%A4%BE/",
+        "hu": "https://www.jw.org/hu/konyvtar/biblia/nwt/a-fuggelek/izrael-kiralyai/",
+        "ig": "https://www.jw.org/ig/ihe-ndi-anyi-nwere/baibul/nwt/ihe-ndi-ozo-a-kowara-nke-a/ndi-eze-izrel/",
+        "ilo": "https://www.jw.org/ilo/libraria/biblia/nwt/apendise-a/dagiti-ari-ti-israel/",
+        "id": "https://www.jw.org/id/perpustakaan/alkitab/nwt/lampiran-a/raja-raja-israel/",
+        "it": "https://www.jw.org/it/biblioteca-digitale/bibbia/nwt/appendice-a/re-d-israele/",
+        "ja": "https://www.jw.org/ja/%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA%E3%83%BC/%E8%81%96%E6%9B%B8/nwt/%E4%BB%98%E9%8C%B2A/%E3%82%A4%E3%82%B9%E3%83%A9%E3%82%A8%E3%83%AB%E3%81%AE%E7%8E%8B/",
+        "jv": "https://www.jw.org/jv/perpustakaan/alkitab/nwt/lampiran-a/nabi-raja-israel/",
+        "kn": "https://www.jw.org/kn/%E0%B2%B2%E0%B3%88%E0%B2%AC%E0%B3%8D%E0%B2%B0%E0%B2%B0%E0%B2%BF/%E0%B2%AC%E0%B3%88%E0%B2%AC%E0%B2%B2%E0%B3%8D%E2%80%8C/nwt/%E0%B2%AA%E0%B2%B0%E0%B2%BF%E0%B2%B6%E0%B2%BF%E0%B2%B7%E0%B3%8D%E0%B2%9F-%E0%B2%8E/%E0%B2%87%E0%B2%B8%E0%B3%8D%E0%B2%B0%E0%B2%BE%E0%B2%AF%E0%B3%87%E0%B2%B2%E0%B2%BF%E0%B2%A8-%E0%B2%B0%E0%B2%BE%E0%B2%9C%E0%B2%B0%E0%B3%81/",
+        "km": "https://www.jw.org/km/%E1%9E%94%E1%9E%8E%E1%9F%92%E1%9E%8E%E1%9E%B6%E1%9E%9B%E1%9F%90%E1%9E%99/%E1%9E%82%E1%9E%98%E1%9F%92%E1%9E%96%E1%9E%B8%E1%9E%9A/nwt/%E1%9E%9F%E1%9F%81%E1%9E%85%E1%9E%80%E1%9F%92%E1%9E%8A%E1%9E%B8-%E1%9E%96%E1%9E%93%E1%9F%92%E1%9E%99%E1%9E%9B%E1%9F%8B-%E1%9E%94%E1%9E%93%E1%9F%92%E1%9E%90%E1%9F%82%E1%9E%98-%E1%9E%95%E1%9F%92%E1%9E%93%E1%9F%82%E1%9E%80-%E1%9E%80/%E1%9E%9F%E1%9F%92%E1%9E%8A%E1%9F%81%E1%9E%85-%E1%9E%93%E1%9F%83-%E1%9E%A2%E1%9F%8A%E1%9E%B8%E1%9E%9F%E1%9F%92%E1%9E%9A%E1%9E%B6%E1%9E%A2%E1%9F%82%E1%9E%9B/",
+        "kg": "https://www.jw.org/kg/biblioteke/biblia/nwt/bangindu-ya-ngika-a/bantotila-ya-izraele/",
+        "ko": "https://www.jw.org/ko/%EB%9D%BC%EC%9D%B4%EB%B8%8C%EB%9F%AC%EB%A6%AC/%EC%84%B1%EA%B2%BD/nwt/%EB%B6%80%EB%A1%9D-%EA%B0%80/%EC%9D%B4%EC%8A%A4%EB%9D%BC%EC%97%98%EC%9D%98-%EC%99%95/",
+        "lo": "https://www.jw.org/lo/%E0%BA%AA%E0%BA%B7%E0%BB%88%E0%BB%81%E0%BA%A5%E0%BA%B0%E0%BA%AA%E0%BA%B4%E0%BB%88%E0%BA%87%E0%BA%9E%E0%BA%B4%E0%BA%A1/%E0%BA%84%E0%BA%B3%E0%BA%9E%E0%BA%B5%E0%BB%84%E0%BA%9A%E0%BB%80%E0%BA%9A%E0%BA%B4%E0%BA%99/nwt/%E0%BA%9E%E0%BA%B2%E0%BA%81%E0%BA%9C%E0%BA%B0%E0%BB%9C%E0%BA%A7%E0%BA%81-%E0%BA%81/%E0%BA%81%E0%BA%B0%E0%BA%AA%E0%BA%B1%E0%BA%94%E0%BA%AD%E0%BA%B4%E0%BA%94%E0%BA%AA%E0%BA%B0%E0%BA%A3%E0%BA%B2%E0%BB%80%E0%BA%AD%E0%BA%99/",
+        "ms": "https://www.jw.org/ms/perpustakaan/bible/nwt/lampiran-a/raja-israel/",
+        "ml": "https://www.jw.org/ml/%E0%B4%B2%E0%B5%88%E0%B4%AC%E0%B5%8D%E0%B4%B0%E0%B4%B1%E0%B4%BF/%E0%B4%AC%E0%B5%88%E0%B4%AC%E0%B4%BF%E0%B5%BE/nwt/%E0%B4%85%E0%B4%A8%E0%B5%81%E0%B4%AC%E0%B4%A8%E0%B5%8D%E0%B4%A7%E0%B4%82-%E0%B4%8E/%E0%B4%87%E0%B4%B8%E0%B5%8D%E0%B4%B0%E0%B4%BE%E0%B4%AF%E0%B5%87%E0%B4%B2%E0%B4%BF%E0%B4%B2%E0%B5%86-%E0%B4%B0%E0%B4%BE%E0%B4%9C%E0%B4%BE%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B4%A8%E0%B5%8D%E0%B4%AE%E0%B4%BE%E0%B5%BC/",
+        "mr": "https://www.jw.org/mr/%E0%A4%B2%E0%A4%BE%E0%A4%AF%E0%A4%AC%E0%A5%8D%E0%A4%B0%E0%A4%B0%E0%A5%80/%E0%A4%AC%E0%A4%BE%E0%A4%AF%E0%A4%AC%E0%A4%B2/nwt/%E0%A4%85%E0%A4%A4%E0%A4%BF%E0%A4%B0%E0%A4%BF%E0%A4%95%E0%A5%8D%E2%80%8D%E0%A4%A4-%E0%A4%B2%E0%A5%87%E0%A4%96-%E0%A4%95/%E0%A4%87%E0%A4%B8%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%8F%E0%A4%B2%E0%A4%9A%E0%A5%87-%E0%A4%B8%E0%A4%82%E0%A4%A6%E0%A5%87%E0%A4%B7%E0%A5%8D%E0%A4%9F%E0%A5%87/",
+        "my": "https://www.jw.org/my/%E1%80%85%E1%80%AC%E1%80%80%E1%80%BC%E1%80%8A%E1%80%B7%E1%80%BA%E1%80%90%E1%80%AD%E1%80%AF%E1%80%80%E1%80%BA/%E1%80%9E%E1%80%99%E1%80%B9%E1%80%99%E1%80%AC%E1%80%80%E1%80%BB%E1%80%99%E1%80%BA%E1%80%B8%E1%80%85%E1%80%AC/nwt/%E1%80%94%E1%80%B1%E1%80%AC%E1%80%80%E1%80%BA%E1%80%86%E1%80%80%E1%80%BA%E1%80%90%E1%80%BD%E1%80%B2-%E1%80%80/%E1%80%9A%E1%80%AF-%E1%80%92-%E1%80%98%E1%80%AF%E1%80%9B%E1%80%84%E1%80%BA%E1%80%99%E1%80%BB%E1%80%AC%E1%80%B8-2/",
+        "no": "https://www.jw.org/no/bibliotek/bibelen/nwt/tillegg-a/konger-i-israel/",
+        "fa": "https://www.jw.org/fa/%DA%A9%D8%AA%D8%A7%D8%A8%D8%AE%D8%A7%D9%86%D9%87/%DA%A9%D8%AA%D8%A7%D8%A8-%D9%85%D9%82%D8%AF%D8%B3/nwt/%D8%B6%D9%85%DB%8C%D9%85%D9%87-%D8%A7%D9%84%D9%81/%D9%BE%D8%A7%D8%AF%D8%B4%D8%A7%D9%87%D8%A7%D9%86-%D8%A7%D8%B3%D8%B1%D8%A7%D8%A6%DB%8C%D9%84/",
+        "pl": "https://www.jw.org/pl/biblioteka/biblia/nwt/dodatek-a/krolowie-izraela/",
+        "pt": "https://www.jw.org/pt/biblioteca/biblia/nwt/apendice-a/reis-de-israel/",
+        "pa": "https://www.jw.org/pa/%E0%A8%B2%E0%A8%BE%E0%A8%87%E0%A8%AC%E0%A9%8D%E0%A8%B0%E0%A9%87%E0%A8%B0%E0%A9%80/%E0%A8%AC%E0%A8%BE%E0%A8%88%E0%A8%AC%E0%A8%B2/nwt/%E0%A8%B5%E0%A8%A7%E0%A9%87%E0%A8%B0%E0%A9%87-%E0%A8%9C%E0%A8%BE%E0%A8%A3%E0%A8%95%E0%A8%BE%E0%A8%B0%E0%A9%80-1/%E0%A8%87%E0%A8%9C%E0%A8%BC%E0%A8%B0%E0%A8%BE%E0%A8%88%E0%A8%B2-%E0%A8%A6%E0%A9%87-%E0%A8%B0%E0%A8%BE%E0%A8%9C%E0%A9%87/",
+        "ru": "https://www.jw.org/ru/%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D1%8F/nwt/%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B0/%D1%86%D0%B0%D1%80%D0%B8-%D0%B8%D0%B7%D1%80%D0%B0%D0%B8%D0%BB%D1%8F/",
+        "si": "https://www.jw.org/si/%E0%B6%BD%E0%B6%BA%E0%B7%92%E0%B6%B6%E0%B7%8A%E2%80%8D%E0%B6%BB%E0%B6%BB%E0%B7%92/%E0%B6%B6%E0%B6%BA%E0%B7%92%E0%B6%B6%E0%B6%BD%E0%B6%BA/nwt/%E0%B6%8B%E0%B6%B4%E0%B6%9C%E0%B7%8A%E2%80%8D%E0%B6%BB%E0%B6%B1%E0%B7%8A%E0%B6%AE%E0%B6%BA-A/%E0%B6%8A%E0%B7%81%E0%B7%8A%E2%80%8D%E0%B6%BB%E0%B7%8F%E0%B6%BA%E0%B7%99%E0%B6%BD%E0%B7%8A-%E0%B6%BB%E0%B6%A2%E0%B7%80%E0%B6%BB%E0%B7%94/",
+        "es": "https://www.jw.org/es/biblioteca/biblia/nwt/apendice-a/reyes-de-israel/",
+        "sw": "https://www.jw.org/sw/maktaba/biblia/nwt/nyongeza-a/wafalme-wa-israeli/",
+        "sv": "https://www.jw.org/sv/bibliotek/bibeln/nwt/till%C3%A4gg-a/kungar-i-israel/",
+        "ta": "https://www.jw.org/ta/%E0%AE%B2%E0%AF%88%E0%AE%AA%E0%AF%8D%E0%AE%B0%E0%AE%B0%E0%AE%BF/%E0%AE%AA%E0%AF%88%E0%AE%AA%E0%AE%BF%E0%AE%B3%E0%AF%8D/nwt/%E0%AE%87%E0%AE%A3%E0%AF%88%E0%AE%AA%E0%AF%8D%E0%AE%AA%E0%AF%81-a/%E0%AE%87%E0%AE%B8%E0%AF%8D%E0%AE%B0%E0%AE%B5%E0%AF%87%E0%AE%B2%E0%AE%BF%E0%AE%A9%E0%AF%8D-%E0%AE%B0%E0%AE%BE%E0%AE%9C%E0%AE%BE%E0%AE%95%E0%AF%8D%E0%AE%95%E0%AE%B3%E0%AF%8D/",
+        "te": "https://www.jw.org/te/%E0%B0%B2%E0%B1%88%E0%B0%AC%E0%B1%8D%E0%B0%B0%E0%B0%B0%E0%B1%80/%E0%B0%AC%E0%B1%88%E0%B0%AC%E0%B0%BF%E0%B0%B2%E0%B1%81/nwt/%E0%B0%85%E0%B0%A8%E0%B1%81%E0%B0%AC%E0%B0%82%E0%B0%A7%E0%B0%82-a/%E0%B0%87%E0%B0%B6%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%AF%E0%B1%87%E0%B0%B2%E0%B1%81-%E0%B0%B0%E0%B0%BE%E0%B0%9C%E0%B1%81%E0%B0%B2%E0%B1%81/",
+        "th": "https://www.jw.org/th/%E0%B8%AB%E0%B8%99%E0%B8%B1%E0%B8%87%E0%B8%AA%E0%B8%B7%E0%B8%AD%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%AA%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%95%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%86/%E0%B8%84%E0%B8%B1%E0%B8%A1%E0%B8%A0%E0%B8%B5%E0%B8%A3%E0%B9%8C%E0%B9%84%E0%B8%9A%E0%B9%80%E0%B8%9A%E0%B8%B4%E0%B8%A5/nwt/%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%9C%E0%B8%99%E0%B8%A7%E0%B8%81-%E0%B8%81/%E0%B8%81%E0%B8%A9%E0%B8%B1%E0%B8%95%E0%B8%A3%E0%B8%B4%E0%B8%A2%E0%B9%8C%E0%B8%AD%E0%B8%B4%E0%B8%AA%E0%B8%A3%E0%B8%B2%E0%B9%80%E0%B8%AD%E0%B8%A5/",
+        "tr": "https://www.jw.org/tr/kutuphane/kutsal-kitap/nwt/ek-a/eski-israil-krallari/",
+        "uk": "https://www.jw.org/uk/%D0%B1%D1%96%D0%B1%D0%BB%D1%96%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/%D0%B1%D1%96%D0%B1%D0%BB%D1%96%D1%8F/nwt/%D0%B4%D0%BE%D0%B4%D0%B0%D1%82%D0%BE%D0%BA-%D0%B0/%D1%86%D0%B0%D1%80%D1%96-%D1%96%D0%B7%D1%80%D0%B0%D1%97%D0%BB%D1%8F/",
+        "vi": "https://www.jw.org/vi/thu-vien/kinh-thanh/nwt/phu-luc-a/cac-vua-ysoraen/"
+    }
+};
+
 export function getA6Links(tag: string | undefined, targetLang: string): WebReferenceLinks {
     const lang = targetLang || "en";
     const isIsrael = tag === "A6-B";
+    const sectionTag = isIsrael ? "A6-B" : "A6-A";
     const subpath = isIsrael ? "kings-of-israel" : "kings-of-judah";
     const title = isIsrael ? "Kings of Israel (Appendix A6)" : "Kings of Judah (Appendix A6)";
 
+    const directUrl = A6_DIRECT_URLS[sectionTag]?.[lang];
+    const targetUrl = directUrl || `https://www.jw.org/${lang}/library/bible/nwt/appendix-a/${subpath}/`;
+
     return {
         englishUrl: `https://www.jw.org/en/library/bible/nwt/appendix-a/${subpath}/`,
-        targetUrl: `https://www.jw.org/${lang}/library/bible/nwt/appendix-a/${subpath}/`,
+        targetUrl,
         label: title,
         sourceType: "a6"
     };

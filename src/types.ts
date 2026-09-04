@@ -69,6 +69,20 @@ export interface SubmissionPayload {
     changes: SubmissionChange[];
 }
 
+export interface A6Item {
+    type: "h2" | "h3" | "p" | "ul";
+    text?: string;
+    items?: string[];
+}
+
+export interface A6Section {
+    title: string;
+    url: string;
+    items: A6Item[];
+}
+
+export type AppendixA6Data = Record<string, Record<string, A6Section>>;
+
 declare global {
     interface Window {
         turnstile?: {
