@@ -171,7 +171,6 @@ export function initAppShell(app: HTMLElement): {
             <div class="box split-col web-ref-box">
                 <div class="box-label" id="label-ref-english">English Reference</div>
                 <a class="web-ref-card" id="link-english" href="#" target="_blank" rel="noopener noreferrer">
-                    <span class="web-ref-icon">📖</span>
                     <div class="web-ref-info">
                         <span class="web-ref-title" id="link-english-title">Open English Website</span>
                         <span class="web-ref-url" id="link-english-url"></span>
@@ -182,7 +181,6 @@ export function initAppShell(app: HTMLElement): {
             <div class="box split-col web-ref-box">
                 <div class="box-label" id="label-ref-target">Translation Reference</div>
                 <a class="web-ref-card" id="link-target" href="#" target="_blank" rel="noopener noreferrer">
-                    <span class="web-ref-icon">🌐</span>
                     <div class="web-ref-info">
                         <span class="web-ref-title" id="link-target-title">Open Translation Website</span>
                         <span class="web-ref-url" id="link-target-url"></span>
