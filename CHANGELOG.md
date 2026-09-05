@@ -14,6 +14,9 @@
 
 ### Added
 
+- Added Arabic Bible name aliases for scripture highlighting, covering
+  differences between canonical dictionary forms and the fully vocalized
+  names used in Arabic scripture text.
 - Added Appendix A6 kings & prophets side-by-side context view for all 55 entries across A6-A (Kings of Judah) and A6-B (Kings of Israel).
 - Added Appendix B9 World Powers Foretold by Daniel context cards, localized JW.org
   caches for English, German, Russian, Spanish, French, and Vietnamese, and
@@ -31,6 +34,10 @@
 - Added direct localized JW.org web reference links for 45 languages for both Appendix A6-A (`kings-of-judah`) and A6-B (`kings-of-israel`) in `src/links.ts`.
 
 ### Fixed
+
+- Fixed missing Arabic Bible highlights for names such as Adam, Othniel,
+  David, Ruth, Esther, and Augustus when Arabic spelling, vowel marks, or
+  transliteration differed between the dictionary and scripture cache.
 
 - Removed book (`📖`) and globe (`🌐`) icons from the online reference cards to prevent text overflow and clipping on long titles and URLs.
 - Fixed browser freeze when selecting Appendix A6 caused by a recursive microtask loop inside `showEntry()`; implemented in-flight promise caching for `loadA6Data()` and `loadScriptures()`.

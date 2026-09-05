@@ -150,6 +150,22 @@ const B9_ALIASES: Record<string, Record<string, string[]>> = {
     }
 };
 
+const ARABIC_BIBLE_ALIASES: Record<string, string[]> = {
+    Adam: ["آدَم"],
+    Othniel: ["عُثْنِيئِيل"],
+    Ehud: ["إهُود"],
+    Gideon: ["جِدْعُون"],
+    Ibzan: ["إبْصَان"],
+    Elon: ["إيلُون"],
+    Samuel: ["صَمُوئِيل"],
+    Saul: ["شَاوُل"],
+    David: ["دَاوُد"],
+    Solomon: ["سُلَيْمَان"],
+    Ruth: ["رَاعُوث"],
+    Esther: ["أَسْتِير"],
+    Augustus: ["أُوغُسْطُس"]
+};
+
 function extractHighlightTerms(entryText?: string, entryKey?: string): string[] {
     if (!entryText && !entryKey) return [];
     const terms: string[] = [];
@@ -298,7 +314,10 @@ function findScriptureForEntry(
     if (parsedRefs.length === 0) return null;
 
     const englishTerms = extractHighlightTerms(englishWord, entryKey);
-    const targetTerms = extractHighlightTerms(targetWord, entryKey);
+    const targetTerms = [
+        ...extractHighlightTerms(targetWord, entryKey),
+        ...(lang === "ar" && entryKey ? ARABIC_BIBLE_ALIASES[entryKey] ?? [] : [])
+    ];
 
     const enParts: string[] = [];
     const targetParts: string[] = [];

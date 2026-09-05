@@ -54,6 +54,8 @@ major frontend work is timeline visualization.
   consistent with Appendix B9
 - Responsive desktop/mobile header layout improvements and translated-text
   visual distinction
+- Arabic Bible name highlighting now accounts for canonical names versus
+  vocalized or transliterated forms in cached scripture text
 
 ## Current next step
 
