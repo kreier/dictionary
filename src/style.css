@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     margin: 0;
-    padding-top: 220px;
+    padding-top: 150px;
     background-color: #f4f4f4;
 }
 
@@ -21,25 +21,31 @@ header {
 
 .controls {
     width: 100%;
-    max-width: 800px;
+    max-width: 1100px;
 }
 
-#language-select,
-.search-box {
+/* Top bar: Left verification info, Right checked toggle */
+.top-bar {
     width: 100%;
-    padding: 8px;
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    font-size: 16px;
-    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 13px;
+    color: #495057;
+    min-height: 24px;
 }
 
-#key-select {
-    flex-grow: 1;
-    padding: 8px;
-    box-sizing: border-box;
-    font-size: 16px;
-    height: 40px;
+.verification-info {
+    font-size: 13px;
+    color: #495057;
+    font-weight: 500;
+}
+
+.verification-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .category-buttons {
@@ -47,7 +53,7 @@ header {
     overflow-x: auto;
     white-space: nowrap;
     gap: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     scrollbar-width: none;
     -ms-overflow-style: none;
 }
@@ -81,45 +87,166 @@ header {
     font-size: 10px;
 }
 
-.nav-line {
+/* Combined Navigation & Controls Row (50% / 50% on PC) */
+.nav-controls-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #fff;
+    width: 100%;
     gap: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
-.nav-line button {
+.nav-left-col {
+    flex: 1 1 50%;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+.nav-right-col {
+    flex: 1 1 50%;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.search-toggle-btn {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.search-toggle-btn:hover {
+    background: #e2e2e2;
+    border-color: #bbb;
+}
+
+.search-toggle-btn.has-query {
+    background: #e8f4fd;
+    border-color: #007bff;
+    color: #0056b3;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+.search-popover {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 6px;
+    border-radius: 6px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+    border: 1px solid #ced4da;
+    z-index: 1100;
+    width: 280px;
+    max-width: 90vw;
+    box-sizing: border-box;
+    gap: 6px;
+}
+
+.search-popover .search-box {
+    margin-bottom: 0;
+    height: 34px;
+    font-size: 14px;
+    padding: 6px 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    outline: none;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.search-popover .search-box:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+.search-clear-btn {
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: none;
+    background: #e9ecef;
+    color: #6c757d;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s ease, color 0.15s ease;
+    flex-shrink: 0;
+}
+
+.search-clear-btn:hover {
+    background: #dee2e6;
+    color: #343a40;
+}
+
+#language-select {
+    width: 100%;
+    flex: 1;
+    min-width: 0;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    font-size: 15px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.nav-right-col button {
     padding: 0 15px;
     font-size: 16px;
     cursor: pointer;
     height: 40px;
     background: #eee;
     border: 1px solid #ccc;
+    border-radius: 4px;
+    flex-shrink: 0;
 }
 
-.nav-line button:disabled {
+.nav-right-col button:disabled {
     opacity: 0.5;
     cursor: default;
 }
 
-.metadata {
-    font-size: 13px;
-    color: #666;
-    text-align: center;
-    margin-bottom: 5px;
-    min-height: 1.6em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    flex-wrap: wrap;
+.nav-right-col select#key-select {
+    flex-grow: 1;
+    width: 100%;
+    min-width: 0;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #fff;
 }
 
 .content {
     width: 100%;
-    max-width: 800px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 10px;
     box-sizing: border-box;
@@ -128,8 +255,8 @@ header {
 .box {
     background: white;
     border: 1px solid #ddd;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 8px 12px;
+    margin-bottom: 6px;
     border-radius: 4px;
 }
 
@@ -137,7 +264,7 @@ header {
     font-size: 10px;
     color: #888;
     text-transform: uppercase;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .box-content {
@@ -179,16 +306,16 @@ textarea.box-content.edit-input:focus {
 .edit-controls {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(135px, 1fr));
-    gap: 8px;
+    gap: 6px;
     width: 100%;
     box-sizing: border-box;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 @media (max-width: 640px) {
     .edit-controls {
         grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
+        gap: 6px;
     }
 }
 
@@ -430,24 +557,27 @@ textarea.box-content.edit-input:focus {
     background: #5a6268;
 }
 
-/* Checked toggle in metadata */
+/* Checked toggle in top bar */
 .checked-toggle-label {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    font-weight: 500;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 600;
     cursor: default;
     user-select: none;
     padding: 2px 6px;
     border-radius: 4px;
+    color: #495057;
 }
 
 .checked-toggle-label.editable {
     cursor: pointer;
     background: #e8f4fd;
-    padding: 4px 10px;
+    padding: 3px 10px;
     border-radius: 16px;
     border: 1px solid #007bff;
+    color: #0056b3;
     transition: all 0.15s ease;
 }
 
@@ -457,9 +587,17 @@ textarea.box-content.edit-input:focus {
 
 .checked-toggle-label input[type="checkbox"] {
     cursor: pointer;
-    width: 16px;
-    height: 16px;
+    width: 17px;
+    height: 17px;
     margin: 0;
+    accent-color: #007bff;
+}
+
+.checked-toggle-label input[type="checkbox"]:disabled {
+    cursor: not-allowed;
+    accent-color: #6c757d;
+    opacity: 0.65;
+    filter: grayscale(1);
 }
 
 /* Split View Layout (for BIBLE, A6, B9, WIKI) */
@@ -471,8 +609,8 @@ textarea.box-content.edit-input:focus {
 .split-mode .split-text-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    margin-bottom: 12px;
+    gap: 8px;
+    margin-bottom: 6px;
 }
 
 .split-mode #box-english-container {
@@ -513,8 +651,8 @@ textarea.box-content.edit-input:focus {
 .split-scripture-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    margin-bottom: 12px;
+    gap: 8px;
+    margin-bottom: 6px;
 }
 
 .scripture-box {
@@ -644,14 +782,14 @@ textarea.box-content.edit-input:focus {
 .split-web-row {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 12px;
-    margin-bottom: 15px;
+    gap: 8px;
+    margin-bottom: 8px;
 }
 
 .web-ref-box {
     background: #ffffff;
     border: 1px solid #e2e8f0;
-    padding: 10px;
+    padding: 8px 10px;
     border-radius: 6px;
     min-width: 0;
 }
@@ -699,7 +837,29 @@ textarea.box-content.edit-input:focus {
     text-overflow: ellipsis;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
+    body {
+        padding-top: 195px;
+    }
+
+    .nav-controls-row {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .nav-left-col,
+    .nav-right-col {
+        flex: 1 1 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .search-popover {
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
     .split-mode .split-text-row {
         grid-template-columns: 1fr;
         gap: 8px;

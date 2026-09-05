@@ -4,6 +4,13 @@
 
 ### Added
 
+- Modernized PC and mobile UI layout:
+  - Combined language selector, search, and key selector `< [key] >` into a single 50%/50% row on PC beneath category buttons.
+  - Replaced full-width search input with a clickable `🔍` icon button that reveals an accessible search popover with instant filtering and clear `✕` button.
+  - Added top verification bar with left-aligned verification status (`Verified by <USER> on <DATE>` without brackets, or `Not yet verified`) and right-aligned `Checked` toggle with checkbox placed on the far right edge.
+  - Increased maximum desktop container width from 800px to 1100px.
+  - Reduced spacing between content boxes, scripture rows, and action buttons from 10–15px to 6–8px for improved data density.
+  - Maintained touch-friendly stacked responsive layout on mobile screens (< 640px) with adjusted header offset padding.
 - Added Appendix A6 kings & prophets side-by-side context view for all 55 entries across A6-A (Kings of Judah) and A6-B (Kings of Israel).
 - Added structured Appendix A6 cache in `public/data/appendix_a6.json` for English (`en`), German (`de`), Vietnamese (`vi`), and Russian (`ru`).
 - Added Appendix A6 generator script `scripts/generate-a6.py` with multi-language parsing and CLI support.

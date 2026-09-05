@@ -615,15 +615,21 @@ function showEntry(): void {
 function updateCheckedDisplay(entry: DictionaryEntry): void {
     const isChecked = dom.boxChecked.checked;
     dom.checkedEmoji.textContent = isChecked ? "✅" : "⬜";
-    dom.checkedLabel.textContent = isChecked ? "Checked" : "Unchecked";
+    dom.checkedLabel.textContent = "Checked";
+
+    const hasVerification = Boolean(
+        isChecked && entry.checked_by && entry.date
+    );
+    if (hasVerification) {
+        dom.checkedInfo.textContent = `Verified by ${entry.checked_by} on ${entry.date}`;
+    } else {
+        dom.checkedInfo.textContent = "Not yet verified";
+    }
 
     if (isChecked) {
-        dom.checkedInfo.textContent =
-            ` (Verified${entry.checked_by ? ` by ${entry.checked_by}` : ""}${entry.date ? ` on ${entry.date}` : ""})`;
         dom.quickCheckBtn.textContent = "Uncheck ⬜";
         dom.confirmCheckedBtn.textContent = "Unmark Checked ⬜";
     } else {
-        dom.checkedInfo.textContent = "";
         dom.quickCheckBtn.textContent = "Confirm ✅";
         dom.confirmCheckedBtn.textContent = "Confirm Translation ✅";
     }
@@ -653,8 +659,8 @@ function clearDisplay(): void {
     dom.boxChecked.checked = false;
 
     dom.checkedEmoji.textContent = "⬜";
-    dom.checkedLabel.textContent = "Unchecked";
-    dom.checkedInfo.textContent = "";
+    dom.checkedLabel.textContent = "Checked";
+    dom.checkedInfo.textContent = "Not yet verified";
 
     dom.linkEnglish.href = "#";
     dom.linkEnglishTitle.textContent = "English Website";
@@ -879,9 +885,55 @@ dom.categoryButtons.forEach(button => {
     });
 });
 
+dom.searchToggleBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const isVisible = dom.searchPopover.style.display === "flex";
+    if (isVisible) {
+        dom.searchPopover.style.display = "none";
+    } else {
+        dom.searchPopover.style.display = "flex";
+        dom.searchInput.focus();
+        dom.searchInput.select();
+    }
+});
+
+dom.searchPopover.addEventListener("click", (e) => {
+    e.stopPropagation();
+});
+
+dom.searchClearBtn.addEventListener("click", () => {
+    if (dom.searchInput.value) {
+        dom.searchInput.value = "";
+        dom.searchToggleBtn.classList.remove("has-query");
+        saveCurrentEntryState();
+        filterAndShow();
+    }
+    dom.searchInput.focus();
+});
+
 dom.searchInput.addEventListener("input", () => {
+    dom.searchToggleBtn.classList.toggle(
+        "has-query",
+        Boolean(dom.searchInput.value.trim())
+    );
     saveCurrentEntryState();
     filterAndShow();
+});
+
+document.addEventListener("click", (e) => {
+    if (
+        dom.searchPopover.style.display === "flex" &&
+        !dom.searchPopover.contains(e.target as Node) &&
+        !dom.searchToggleBtn.contains(e.target as Node)
+    ) {
+        dom.searchPopover.style.display = "none";
+    }
+});
+
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && dom.searchPopover.style.display === "flex") {
+        dom.searchPopover.style.display = "none";
+    }
 });
 
 dom.keySelect.addEventListener("change", () => {
