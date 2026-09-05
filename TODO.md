@@ -78,4 +78,6 @@
 - [x] Add Appendix B9 World Powers context cards and localized caches.
 - [x] Refresh Appendix A6 and B9 caches for all listed languages and preserve
   explicit unavailable-language placeholders.
+- [x] Support Arabic Bible name highlighting across canonical and vocalized
+  scripture forms.
 - [ ] Implement timeline visualization logic for dictionary entries.
