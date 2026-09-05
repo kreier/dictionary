@@ -75,4 +75,7 @@
 - [x] Remove redundant "Key" display box.
 - [x] Add inline side-by-side Appendix A6 kings & prophets context cards with name highlighting for EN, DE, VI, and RU.
 - [x] Add direct localized JW.org link generation for Appendix A6 across 45 languages.
+- [x] Add Appendix B9 World Powers context cards and localized caches.
+- [x] Refresh Appendix A6 and B9 caches for all listed languages and preserve
+  explicit unavailable-language placeholders.
 - [ ] Implement timeline visualization logic for dictionary entries.

@@ -5,8 +5,9 @@ import {
     type DictionaryEntry,
     type PendingEdit,
     type SubmissionPayload,
-    type A6Section,
-    type AppendixA6Data
+    type AppendixSection,
+    type AppendixA6Data,
+    type AppendixB9Data
 } from "./types";
 import { initAppShell } from "./template";
 import { renderDiffCard, escapeHtml } from "./diff";
@@ -105,6 +106,28 @@ async function loadA6Data(): Promise<AppendixA6Data | null> {
         return a6Data;
     })();
     return a6Promise;
+}
+
+let b9Data: AppendixB9Data | null = null;
+let b9Promise: Promise<AppendixB9Data | null> | null = null;
+
+async function loadB9Data(): Promise<AppendixB9Data | null> {
+    if (b9Data) return b9Data;
+    if (b9Promise) return b9Promise;
+    b9Promise = (async () => {
+        try {
+            const res = await fetch(`${import.meta.env.BASE_URL}data/appendix_b9.json`);
+            if (res.ok) {
+                b9Data = await res.json();
+            }
+        } catch (e) {
+            console.warn("Failed to load appendix_b9.json", e);
+        } finally {
+            b9Promise = null;
+        }
+        return b9Data;
+    })();
+    return b9Promise;
 }
 
 const A6_ALIASES: Record<string, string[]> = {
@@ -298,9 +321,10 @@ function findScriptureForEntry(
     };
 }
 
-function renderA6Section(
-    section: A6Section | undefined,
-    terms: string[]
+function renderAppendixSection(
+    section: AppendixSection | undefined,
+    terms: string[],
+    variant: "a6" | "b9"
 ): { html: string; hasHighlight: boolean } {
     if (!section || !section.items || section.items.length === 0) {
         return { html: "", hasHighlight: false };
@@ -311,17 +335,20 @@ function renderA6Section(
 
     for (const item of section.items) {
         if (item.type === "h2") {
-            parts.push(`<h4 class="a6-heading-h2">${escapeHtml(item.text || "")}</h4>`);
+            parts.push(`<h4 class="${variant}-heading-h2">${escapeHtml(item.text || "")}</h4>`);
         } else if (item.type === "h3") {
-            parts.push(`<div class="a6-year">${escapeHtml(item.text || "")}</div>`);
+            const headingClass = variant === "a6" ? "a6-year" : "b9-heading-h3";
+            parts.push(`<div class="${headingClass}">${escapeHtml(item.text || "")}</div>`);
         } else if (item.type === "p") {
             const rawText = item.text || "";
             const highlighted = highlightScriptureWords(rawText, terms);
             const isMatch = highlighted.includes('class="scripture-highlight"');
             if (isMatch) hasHighlight = true;
-            parts.push(`<p class="a6-item${isMatch ? " a6-active-item" : ""}">${highlighted}</p>`);
+            parts.push(`<p class="${variant}-item${isMatch ? ` ${variant}-active-item` : ""}">${highlighted}</p>`);
         } else if (item.type === "ul") {
-            parts.push(`<ul class="a6-prophets-list">`);
+            const listClass = variant === "a6" ? "a6-prophets-list" : "b9-list";
+            const listTitleClass = variant === "a6" ? "a6-prophets-title" : "b9-list-title";
+            parts.push(`<ul class="${listClass}">`);
             const lis = item.items || [];
             for (let i = 0; i < lis.length; i++) {
                 const liText = lis[i];
@@ -331,19 +358,26 @@ function renderA6Section(
                         liText.toLowerCase().includes("tiên tri") ||
                         liText.toLowerCase().includes("пророк"))
                 ) {
-                    parts.push(`<li class="a6-prophets-title"><strong>${escapeHtml(liText)}</strong></li>`);
+                    parts.push(`<li class="${listTitleClass}"><strong>${escapeHtml(liText)}</strong></li>`);
                     continue;
                 }
                 const highlighted = highlightScriptureWords(liText, terms);
                 const isMatch = highlighted.includes('class="scripture-highlight"');
                 if (isMatch) hasHighlight = true;
-                parts.push(`<li class="${isMatch ? "a6-active-item" : ""}">${highlighted}</li>`);
+                parts.push(`<li class="${isMatch ? `${variant}-active-item` : ""}">${highlighted}</li>`);
             }
             parts.push(`</ul>`);
         }
     }
 
     return { html: parts.join(""), hasHighlight };
+}
+
+function renderA6Section(
+    section: AppendixSection | undefined,
+    terms: string[]
+): { html: string; hasHighlight: boolean } {
+    return renderAppendixSection(section, terms, "a6");
 }
 
 function findA6ForEntry(
@@ -364,9 +398,45 @@ function findA6ForEntry(
     const enRendered = renderA6Section(enSection, enTerms);
     const targetRendered = renderA6Section(targetSection, targetTerms);
 
-    const targetHtml = targetSection
+    const targetHtml = targetSection?.unavailable
+        ? `<span class="scripture-empty">${escapeHtml(targetSection.message || `Appendix ${tag} content for ${targetLang.toUpperCase()} is not yet available.`)}</span>`
+        : targetSection
         ? targetRendered.html
         : `<span class="scripture-empty">Appendix ${tag} content for ${escapeHtml(targetLang.toUpperCase())} not yet cached. Click the reference card below to view on jw.org.</span>`;
+
+    return {
+        titleEn: enSection.title,
+        titleTarget: targetSection?.title || enSection.title,
+        enHtml: enRendered.html,
+        targetHtml
+    };
+}
+
+function findB9ForEntry(
+    entry: DictionaryEntry,
+    targetLang: string
+): { titleEn: string; titleTarget: string; enHtml: string; targetHtml: string } | null {
+    if (!b9Data) return null;
+
+    const enSection = b9Data.en?.B9;
+    const targetSection = b9Data[targetLang]?.B9;
+    if (!enSection) return null;
+
+    const enRendered = renderAppendixSection(
+        enSection,
+        extractHighlightTerms(entry.english, entry.key),
+        "b9"
+    );
+    const targetRendered = renderAppendixSection(
+        targetSection?.unavailable ? undefined : targetSection,
+        extractHighlightTerms(entry.text, entry.key),
+        "b9"
+    );
+    const targetHtml = targetSection?.unavailable
+        ? `<span class="scripture-empty">${escapeHtml(targetSection.message || `Appendix B9 content for ${targetLang.toUpperCase()} is not yet available.`)}</span>`
+        : targetSection
+            ? targetRendered.html
+            : `<span class="scripture-empty">Appendix B9 content for ${escapeHtml(targetLang.toUpperCase())} not yet cached. Click the reference card below to view on jw.org.</span>`;
 
     return {
         titleEn: enSection.title,
@@ -440,6 +510,12 @@ async function loadLanguage(language: string): Promise<void> {
     } else if (currentCategory === "A6" && !a6Data) {
         loadA6Data().then(() => {
             if (currentCategory === "A6") {
+                showEntry();
+            }
+        });
+    } else if (currentCategory === "B9" && !b9Data) {
+        loadB9Data().then(() => {
+            if (currentCategory === "B9") {
                 showEntry();
             }
         });
@@ -529,9 +605,9 @@ function showEntry(): void {
         dom.labelText.textContent = `TRANSLATED TEXT (${currentLanguage.toUpperCase()})`;
 
         if (currentCategory === "bible") {
-            dom.splitScriptureRow.classList.remove("a6-mode");
-            dom.scriptureTextEnglish.classList.remove("a6-content");
-            dom.scriptureTextTarget.classList.remove("a6-content");
+            dom.splitScriptureRow.classList.remove("a6-mode", "b9-mode");
+            dom.scriptureTextEnglish.classList.remove("a6-content", "b9-content");
+            dom.scriptureTextTarget.classList.remove("a6-content", "b9-content");
             const scripture = findScriptureForEntry(entry.notes, currentLanguage, entry.english, entry.text, entry.key);
             if (scripture) {
                 dom.splitScriptureRow.style.display = "grid";
@@ -543,7 +619,10 @@ function showEntry(): void {
                 dom.splitScriptureRow.style.display = "none";
             }
         } else if (currentCategory === "A6") {
+            dom.splitScriptureRow.classList.remove("b9-mode");
             dom.splitScriptureRow.classList.add("a6-mode");
+            dom.scriptureTextEnglish.classList.remove("b9-content");
+            dom.scriptureTextTarget.classList.remove("b9-content");
             dom.scriptureTextEnglish.classList.add("a6-content");
             dom.scriptureTextTarget.classList.add("a6-content");
             const a6 = findA6ForEntry(entry, currentLanguage);
@@ -562,7 +641,31 @@ function showEntry(): void {
             } else {
                 dom.splitScriptureRow.style.display = "none";
             }
+        } else if (currentCategory === "B9") {
+                dom.splitScriptureRow.classList.remove("a6-mode");
+                dom.splitScriptureRow.classList.add("b9-mode");
+                dom.scriptureTextEnglish.classList.remove("a6-content");
+                dom.scriptureTextTarget.classList.remove("a6-content");
+                dom.scriptureTextEnglish.classList.add("b9-content");
+                dom.scriptureTextTarget.classList.add("b9-content");
+                const b9 = findB9ForEntry(entry, currentLanguage);
+                if (b9) {
+                    dom.splitScriptureRow.style.display = "grid";
+                    dom.labelScriptureEnglish.textContent = `${b9.titleEn} (English)`;
+                    dom.scriptureTextEnglish.innerHTML = b9.enHtml;
+                    dom.labelScriptureTarget.textContent = `${b9.titleTarget} (${currentLanguage.toUpperCase()})`;
+                    dom.scriptureTextTarget.innerHTML = b9.targetHtml;
+                    requestAnimationFrame(() => {
+                        dom.scriptureTextEnglish.querySelector(".b9-active-item")?.scrollIntoView({ block: "center", behavior: "smooth" });
+                        dom.scriptureTextTarget.querySelector(".b9-active-item")?.scrollIntoView({ block: "center", behavior: "smooth" });
+                    });
+                } else {
+                    dom.splitScriptureRow.style.display = "none";
+                }
         } else {
+            dom.splitScriptureRow.classList.remove("a6-mode", "b9-mode");
+            dom.scriptureTextEnglish.classList.remove("a6-content", "b9-content");
+            dom.scriptureTextTarget.classList.remove("a6-content", "b9-content");
             dom.splitScriptureRow.style.display = "none";
         }
 
@@ -873,6 +976,12 @@ dom.categoryButtons.forEach(button => {
         } else if (currentCategory === "A6" && !a6Data) {
             loadA6Data().then(() => {
                 if (currentCategory === "A6") {
+                    showEntry();
+                }
+            });
+        } else if (currentCategory === "B9" && !b9Data) {
+            loadB9Data().then(() => {
+                if (currentCategory === "B9") {
                     showEntry();
                 }
             });

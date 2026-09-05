@@ -44,6 +44,16 @@ major frontend work is timeline visualization.
 - Appendix A6 cache (`public/data/appendix_a6.json`) for English, German, Vietnamese, and Russian
 - Generator script `scripts/generate-a6.py` for Appendix A6 scraping and normalization
 - Localized JW.org web reference links for 45 languages in Appendix A6
+- Appendix B9 cache and generator for World Powers Foretold by Daniel in
+  English, German, Russian, Spanish, French, and Vietnamese, with Arabic and
+  Bengali unavailable placeholders
+- Refreshed Appendix A6 and B9 caches across all 56 languages listed in
+  `public/data/languages.json`; A6 contains 90 available and 22 explicit
+  unavailable sections, while B9 contains 11 unavailable placeholders
+- Appendix A6 missing-language sections now use explicit unavailable records,
+  consistent with Appendix B9
+- Responsive desktop/mobile header layout improvements and translated-text
+  visual distinction
 
 ## Current next step
 
