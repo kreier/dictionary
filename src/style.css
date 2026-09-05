@@ -701,6 +701,51 @@ textarea.box-content.edit-input:focus {
     color: #1e293b;
 }
 
+/* Appendix B9 Styles */
+.scripture-content.b9-content {
+    white-space: normal;
+    max-height: 280px;
+    padding-right: 4px;
+}
+
+.b9-heading-h2 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 0 0 6px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #e2e8f0;
+    text-transform: uppercase;
+}
+
+.b9-heading-h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 10px 0 3px;
+    padding: 4px 6px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.b9-heading-h3:first-child {
+    margin-top: 0;
+}
+
+.b9-item {
+    font-size: 13.5px;
+    margin: 2px 0 4px;
+    line-height: 1.45;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.b9-active-item {
+    background-color: #fef9c3;
+    border-left: 3px solid #eab308;
+    padding-left: 8px;
+    font-weight: 500;
+}
+
 /* Split Web Reference Row */
 .split-web-row {
     display: grid;

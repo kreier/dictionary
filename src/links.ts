@@ -338,12 +338,24 @@ export function getA6Links(tag: string | undefined, targetLang: string): WebRefe
     };
 }
 
+export const B9_DIRECT_URLS: Record<string, string> = {
+    en: "https://www.jw.org/en/library/bible/nwt/appendix-b/daniel-2-image/",
+    de: "https://www.jw.org/de/bibliothek/bibel/nwt/anhang-b/daniel-prophezeiung-weltmaechte/",
+    ru: "https://www.jw.org/ru/%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D0%BE%D1%82%D0%B5%D0%BA%D0%B0/%D0%B1%D0%B8%D0%B1%D0%BB%D0%B8%D1%8F/nwt/%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B1/%D1%81%D1%82%D0%B0%D1%82%D1%83%D1%8F-%D0%B8%D0%B7-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8-%D0%B4%D0%B0%D0%BD%D0%B8%D0%B8%D0%BB%D0%B0/",
+    es: "https://www.jw.org/es/biblioteca/biblia/nwt/apendice-b/daniel-2-estatua/",
+    fr: "https://www.jw.org/fr/biblioth%C3%A8que/bible/nwt/appendice-b/statue-daniel-2/",
+    vi: "https://www.jw.org/vi/thu-vien/kinh-thanh/nwt/phu-luc-b/pho-tuong-noi-danien2/"
+};
+
 export function getB9Links(targetLang: string): WebReferenceLinks {
     const lang = targetLang || "en";
+    const englishUrl = B9_DIRECT_URLS.en;
+    const targetUrl = B9_DIRECT_URLS[lang] ||
+        `https://www.jw.org/${lang}/library/bible/nwt/appendix-b/daniel-2-image/`;
     return {
-        englishUrl: "https://www.jw.org/en/library/bible/nwt/appendix-b/daniel-2-image/",
-        targetUrl: `https://www.jw.org/${lang}/library/bible/nwt/appendix-b/daniel-2-image/`,
-        label: "Daniel 2 Image (Appendix B9)",
+        englishUrl,
+        targetUrl,
+        label: "World Powers Foretold by Daniel (Appendix B9)",
         sourceType: "b9"
     };
 }
