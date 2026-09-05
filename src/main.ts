@@ -139,6 +139,17 @@ const A6_ALIASES: Record<string, string[]> = {
     Ahaz: ["A-cha"],
 };
 
+const B9_ALIASES: Record<string, Record<string, string[]>> = {
+    Medopersia_c: {
+        en: ["Medo-Persia"],
+        de: ["Medo-Persien"],
+        fr: ["Empire médo-perse"],
+        es: ["Medopersia"],
+        ru: ["Мидо-Персия"],
+        vi: ["Mê-đi Ba Tư"]
+    }
+};
+
 function extractHighlightTerms(entryText?: string, entryKey?: string): string[] {
     if (!entryText && !entryKey) return [];
     const terms: string[] = [];
@@ -250,6 +261,14 @@ function highlightScriptureWords(text: string, terms: string[]): string {
 
     for (const term of sortedTerms) {
         if (!term || term.length < 2) continue;
+
+        const exactTerm = escapeHtml(term).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+        const exactRegex = new RegExp(`(${exactTerm})`, "giu");
+        if (exactRegex.test(escapedText)) {
+            escapedText = escapedText.replace(exactRegex, '<mark class="scripture-highlight">$1</mark>');
+            continue;
+        }
+
         const pattern = buildTermPattern(term);
         try {
             const regex = new RegExp(pattern, "giu");
@@ -335,10 +354,16 @@ function renderAppendixSection(
 
     for (const item of section.items) {
         if (item.type === "h2") {
-            parts.push(`<h4 class="${variant}-heading-h2">${escapeHtml(item.text || "")}</h4>`);
+            const highlighted = highlightScriptureWords(item.text || "", terms);
+            const isMatch = highlighted.includes('class="scripture-highlight"');
+            if (isMatch) hasHighlight = true;
+            parts.push(`<h4 class="${variant}-heading-h2${isMatch ? ` ${variant}-active-item` : ""}">${highlighted}</h4>`);
         } else if (item.type === "h3") {
             const headingClass = variant === "a6" ? "a6-year" : "b9-heading-h3";
-            parts.push(`<div class="${headingClass}">${escapeHtml(item.text || "")}</div>`);
+            const highlighted = highlightScriptureWords(item.text || "", terms);
+            const isMatch = highlighted.includes('class="scripture-highlight"');
+            if (isMatch) hasHighlight = true;
+            parts.push(`<div class="${headingClass}${isMatch ? ` ${variant}-active-item` : ""}">${highlighted}</div>`);
         } else if (item.type === "p") {
             const rawText = item.text || "";
             const highlighted = highlightScriptureWords(rawText, terms);
@@ -422,14 +447,24 @@ function findB9ForEntry(
     const targetSection = b9Data[targetLang]?.B9;
     if (!enSection) return null;
 
+    const aliases = B9_ALIASES[entry.key];
+    const enTerms = [
+        ...extractHighlightTerms(entry.english, entry.key),
+        ...(aliases?.en ?? [])
+    ];
+    const targetTerms = [
+        ...extractHighlightTerms(entry.text, entry.key),
+        ...(aliases?.[targetLang] ?? [])
+    ];
+
     const enRendered = renderAppendixSection(
         enSection,
-        extractHighlightTerms(entry.english, entry.key),
+        enTerms,
         "b9"
     );
     const targetRendered = renderAppendixSection(
         targetSection?.unavailable ? undefined : targetSection,
-        extractHighlightTerms(entry.text, entry.key),
+        targetTerms,
         "b9"
     );
     const targetHtml = targetSection?.unavailable
