@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
     margin: 0;
-    padding-top: 220px;
+    padding-top: 175px;
     background-color: #f4f4f4;
 }
 
@@ -11,7 +11,7 @@ header {
     left: 0;
     right: 0;
     background: white;
-    padding: 10px;
+    padding: 2px 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     display: flex;
@@ -21,17 +21,66 @@ header {
 
 .controls {
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
 }
 
-#language-select,
-.search-box {
-    width: 100%;
+.control-line {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.search-language-group {
+    display: flex;
+    align-items: center;
+    flex: 1 1 50%;
+    min-width: 0;
+    gap: 8px;
+}
+
+#language-select {
+    flex: 1 1 auto;
+    min-width: 0;
     padding: 8px;
     box-sizing: border-box;
-    margin-bottom: 10px;
     font-size: 16px;
     height: 40px;
+}
+
+.search-control {
+    position: relative;
+    flex: 0 0 40px;
+}
+
+.search-toggle {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    font-size: 25px;
+    line-height: 1;
+    border: 1px solid #ccc;
+    background: #eee;
+    cursor: pointer;
+}
+
+.search-box {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: 2;
+    width: 280px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 40px;
+    border: 1px solid #aaa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.search-control.expanded .search-box {
+    display: block;
 }
 
 #key-select {
@@ -83,11 +132,11 @@ header {
 
 .nav-line {
     display: flex;
-    justify-content: space-between;
+    flex: 1 1 50%;
+    min-width: 0;
     align-items: center;
     background: #fff;
     gap: 10px;
-    margin-bottom: 5px;
 }
 
 .nav-line button {
@@ -107,19 +156,20 @@ header {
 .metadata {
     font-size: 13px;
     color: #666;
-    text-align: center;
-    margin-bottom: 5px;
-    min-height: 1.6em;
+    text-align: left;
+    margin: 0 0 3px;
+    min-height: 1.1em;
+    line-height: 1.1;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 8px;
     flex-wrap: wrap;
 }
 
 .content {
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
     box-sizing: border-box;
@@ -129,7 +179,7 @@ header {
     background: white;
     border: 1px solid #ddd;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 4px;
     border-radius: 4px;
 }
 
@@ -440,6 +490,12 @@ textarea.box-content.edit-input:focus {
     user-select: none;
     padding: 2px 6px;
     border-radius: 4px;
+    margin-left: auto;
+    flex-direction: row-reverse;
+}
+
+.checked-toggle-label #checked-emoji {
+    display: none;
 }
 
 .checked-toggle-label.editable {
@@ -471,8 +527,8 @@ textarea.box-content.edit-input:focus {
 .split-mode .split-text-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    margin-bottom: 12px;
+    gap: 6px;
+    margin-bottom: 6px;
 }
 
 .split-mode #box-english-container {
@@ -499,6 +555,11 @@ textarea.box-content.edit-input:focus {
     box-shadow: 0 1px 4px rgba(0, 123, 255, 0.12);
 }
 
+#box-text-container {
+    background: #e6edfc !important;
+    border: 1px solid #9fc9ee;
+}
+
 .split-mode #box-text-container .box-label {
     color: #0056b3;
     font-weight: 700;
@@ -513,8 +574,8 @@ textarea.box-content.edit-input:focus {
 .split-scripture-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px;
-    margin-bottom: 12px;
+    gap: 6px;
+    margin-bottom: 6px;
 }
 
 .scripture-box {
@@ -644,8 +705,8 @@ textarea.box-content.edit-input:focus {
 .split-web-row {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 12px;
-    margin-bottom: 15px;
+    gap: 6px;
+    margin-bottom: 6px;
 }
 
 .web-ref-box {
@@ -700,6 +761,37 @@ textarea.box-content.edit-input:focus {
 }
 
 @media (max-width: 600px) {
+    body {
+        padding-top: 225px;
+    }
+
+    .control-line {
+        flex-wrap: wrap;
+    }
+
+    .search-control {
+        order: 1;
+    }
+
+    .search-language-group {
+        flex-basis: 100%;
+    }
+
+    #language-select {
+        order: 2;
+        flex: 1 1 calc(100% - 48px);
+    }
+
+    .nav-line {
+        order: 3;
+        flex-basis: 100%;
+    }
+
+    .search-box {
+        left: auto;
+        right: 0;
+    }
+
     .split-mode .split-text-row {
         grid-template-columns: 1fr;
         gap: 8px;

@@ -526,7 +526,7 @@ function showEntry(): void {
         dom.mainContent.classList.add("split-mode");
         dom.notesAndAiBoxes.style.display = "none";
         dom.splitWebRow.style.display = "grid";
-        dom.labelText.textContent = `Text (${currentLanguage.toUpperCase()})`;
+        dom.labelText.textContent = `TRANSLATED TEXT (${currentLanguage.toUpperCase()})`;
 
         if (currentCategory === "bible") {
             dom.splitScriptureRow.classList.remove("a6-mode");
@@ -584,7 +584,7 @@ function showEntry(): void {
         dom.notesAndAiBoxes.style.display = "block";
         dom.splitWebRow.style.display = "none";
         dom.splitScriptureRow.style.display = "none";
-        dom.labelText.textContent = "Text";
+        dom.labelText.textContent = "TRANSLATED TEXT";
 
         setBox("google", entry.google);
         setBox("chatgpt", entry.chatgpt);
@@ -619,11 +619,13 @@ function updateCheckedDisplay(entry: DictionaryEntry): void {
 
     if (isChecked) {
         dom.checkedInfo.textContent =
-            ` (Verified${entry.checked_by ? ` by ${entry.checked_by}` : ""}${entry.date ? ` on ${entry.date}` : ""})`;
+            entry.checked_by && entry.date
+                ? `Verified by ${entry.checked_by} on ${entry.date}`
+                : "Not yet verified";
         dom.quickCheckBtn.textContent = "Uncheck ⬜";
         dom.confirmCheckedBtn.textContent = "Unmark Checked ⬜";
     } else {
-        dom.checkedInfo.textContent = "";
+        dom.checkedInfo.textContent = "Not yet verified";
         dom.quickCheckBtn.textContent = "Confirm ✅";
         dom.confirmCheckedBtn.textContent = "Confirm Translation ✅";
     }
@@ -654,7 +656,7 @@ function clearDisplay(): void {
 
     dom.checkedEmoji.textContent = "⬜";
     dom.checkedLabel.textContent = "Unchecked";
-    dom.checkedInfo.textContent = "";
+    dom.checkedInfo.textContent = "Not yet verified";
 
     dom.linkEnglish.href = "#";
     dom.linkEnglishTitle.textContent = "English Website";
@@ -882,6 +884,19 @@ dom.categoryButtons.forEach(button => {
 dom.searchInput.addEventListener("input", () => {
     saveCurrentEntryState();
     filterAndShow();
+});
+
+dom.searchToggle.addEventListener("click", () => {
+    const searchControl = dom.searchToggle.parentElement;
+    if (!searchControl) return;
+
+    const expanded = searchControl.classList.toggle("expanded");
+    if (expanded) {
+        dom.searchInput.focus();
+    } else {
+        dom.searchInput.value = "";
+        filterAndShow();
+    }
 });
 
 dom.keySelect.addEventListener("change", () => {
