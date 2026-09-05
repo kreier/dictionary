@@ -3,6 +3,7 @@ import { DEFAULT_WORKER_ENDPOINT } from "./api";
 export function initAppShell(app: HTMLElement): {
     languageSelect: HTMLSelectElement;
     categoryButtons: NodeListOf<HTMLButtonElement>;
+    searchToggle: HTMLButtonElement;
     searchInput: HTMLInputElement;
     keySelect: HTMLSelectElement;
     prevButton: HTMLButtonElement;
@@ -69,7 +70,17 @@ export function initAppShell(app: HTMLElement): {
     <header>
         <div class="controls">
 
-            <select id="language-select"></select>
+            <div class="metadata" id="metadata">
+                <span id="checked-info"></span>
+                <button type="button" class="quick-check-btn" id="quick-check-btn" style="display: none;">
+                    Confirm ✅
+                </button>
+                <label class="checked-toggle-label" id="checked-toggle-label" title="Toggle verification status">
+                    <input type="checkbox" id="box-checked" disabled>
+                    <span id="checked-emoji">⬜</span>
+                    <span id="checked-label">Unchecked</span>
+                </label>
+            </div>
 
             <div class="category-buttons" id="category-buttons">
                 <button class="cat-btn" data-cat="text">
@@ -103,31 +114,32 @@ export function initAppShell(app: HTMLElement): {
                 </button>
             </div>
 
-            <input
-                type="text"
-                id="search-input"
-                class="search-box"
-                placeholder="Search key or english..."
-            >
+            <div class="control-line">
+                <div class="search-language-group">
+                    <div class="search-control" id="search-control">
+                        <button
+                            type="button"
+                            class="search-toggle"
+                            id="search-toggle"
+                            aria-label="Search"
+                            title="Search"
+                        >🔍</button>
+                        <input
+                            type="text"
+                            id="search-input"
+                            class="search-box"
+                            placeholder="Search key or English..."
+                        >
+                    </div>
 
-            <div class="nav-line">
-                <button id="prev-btn">&lt;</button>
+                    <select id="language-select"></select>
+                </div>
 
-                <select id="key-select"></select>
-
-                <button id="next-btn">&gt;</button>
-            </div>
-
-            <div class="metadata" id="metadata">
-                <label class="checked-toggle-label" id="checked-toggle-label" title="Toggle verification status">
-                    <input type="checkbox" id="box-checked" disabled>
-                    <span id="checked-emoji">⬜</span>
-                    <span id="checked-label">Unchecked</span>
-                </label>
-                <button type="button" class="quick-check-btn" id="quick-check-btn" style="display: none;">
-                    Confirm ✅
-                </button>
-                <span id="checked-info"></span>
+                <div class="nav-line">
+                    <button id="prev-btn">&lt;</button>
+                    <select id="key-select"></select>
+                    <button id="next-btn">&gt;</button>
+                </div>
             </div>
 
         </div>
@@ -143,7 +155,7 @@ export function initAppShell(app: HTMLElement): {
             </div>
 
             <div class="box split-col" id="box-text-container">
-                <div class="box-label" id="label-text">Text</div>
+                <div class="box-label" id="label-text">TRANSLATED TEXT</div>
                 <textarea
                     class="box-content edit-input"
                     id="box-text"
@@ -344,6 +356,7 @@ export function initAppShell(app: HTMLElement): {
     return {
         languageSelect: app.querySelector<HTMLSelectElement>("#language-select")!,
         categoryButtons: app.querySelectorAll<HTMLButtonElement>(".cat-btn"),
+        searchToggle: app.querySelector<HTMLButtonElement>("#search-toggle")!,
         searchInput: app.querySelector<HTMLInputElement>("#search-input")!,
         keySelect: app.querySelector<HTMLSelectElement>("#key-select")!,
         prevButton: app.querySelector<HTMLButtonElement>("#prev-btn")!,
