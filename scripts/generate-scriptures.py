@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 """
-Generate or update public/data/scriptures.json by fetching and extracting Bible verses
-from jw.org for chapters referenced in the dictionary across supported languages.
+Generate or update scripture JSON files in public/data/scriptures/ by fetching
+and extracting Bible verses from jw.org for chapters referenced in the dictionary.
+
+Each language is stored in a separate JSON file (e.g. public/data/scriptures/bg.json).
+English (public/data/scriptures/en.json) serves as the master index containing verse
+metadata (reference, book, chapter, verse, text).
 
 Uses jw.org universal finder endpoint:
-https://www.jw.org/finder?locale={lang}&pub=nwt&bible={book_num:02d}{chapter:03d}000
+https://www.jw.org/finder?locale={lang}&bible={book_num:02d}{chapter:03d}000
 """
 
 import argparse
@@ -111,8 +115,11 @@ CHAPTERS = [
 FOOTNOTE_MARKERS = [
     'Chú thích', 'Footnotes', 'Fußnoten', 'Notas', 'Notes', 'Сноски', 'Примечания',
     'Voetnoten', 'Note in calce', 'Notas de rodapé', 'Przypisy', 'الحواشي', 'حواشٍ',
-    'পাদটীকা', 'পাদটিকা'
+    'পাদটীকা', 'পাদটিকা', 'Бележки под линия', 'Бележки', 'Footnote'
 ]
+
+def format_book_display(book_slug: str) -> str:
+    return ' '.join(w.capitalize() for w in book_slug.split('-'))
 
 def parse_chapter_html(html: str) -> dict[int, str]:
     verses = {}
@@ -155,70 +162,93 @@ def fetch_chapter(lang: str, book_num: int, ch: int, retries: int = 2) -> dict[i
             time.sleep(1)
     return {}
 
-def process_language(lang: str, existing_data: dict, workers: int = 5):
-    print(f'=== Fetching scriptures for language: {lang} ===')
-    
+def process_language(lang: str, output_dir: Path, workers: int = 5):
+    lang_file = output_dir / f'{lang}.json'
+    existing_data = {}
+    if lang_file.exists():
+        try:
+            with lang_file.open('r', encoding='utf-8') as f:
+                existing_data = json.load(f)
+        except Exception as e:
+            print(f'[{lang}] Warning: Failed to load existing {lang_file}: {e}')
+            existing_data = {}
+
     needed = []
     for book, bnum, ch in CHAPTERS:
-        sample_key = f'{book.title()} {ch}:1'
-        if sample_key in existing_data and existing_data[sample_key].get(lang):
+        sample_key = f'{book}/{ch}/1'
+        if sample_key in existing_data:
             continue
         needed.append((book, bnum, ch))
 
     if not needed:
-        print(f'All {len(CHAPTERS)} chapters already populated for {lang}.')
+        print(f'[{lang}] All {len(CHAPTERS)} chapters already cached ({len(existing_data)} verses).')
         return
 
-    print(f'Need to fetch {len(needed)} chapters for {lang} using {workers} workers...')
+    print(f'[{lang}] Fetching {len(needed)} missing chapters using {workers} workers...')
 
     def fetch_task(item):
         book, bnum, ch = item
         verses = fetch_chapter(lang, bnum, ch)
         return book, ch, verses
 
+    new_verses_count = 0
     with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
         futures = [executor.submit(fetch_task, item) for item in needed]
         for f in concurrent.futures.as_completed(futures):
             book, ch, verses = f.result()
-            print(f'[{lang}] {book} {ch}: fetched {len(verses)} verses')
-            for vnum, text in verses.items():
-                ref_key = f'{book.title()} {ch}:{vnum}'
-                if ref_key not in existing_data:
-                    existing_data[ref_key] = {
-                        'reference': ref_key,
-                        'book': book,
-                        'chapter': ch,
-                        'verse': vnum,
-                    }
-                existing_data[ref_key][lang] = text
+            if verses:
+                print(f'[{lang}] {book} {ch}: fetched {len(verses)} verses')
+                for vnum, text in verses.items():
+                    verse_id = f'{book}/{ch}/{vnum}'
+                    if lang == 'en':
+                        existing_data[verse_id] = {
+                            'reference': f'{format_book_display(book)} {ch}:{vnum}',
+                            'book': book,
+                            'chapter': ch,
+                            'verse': vnum,
+                            'text': text
+                        }
+                    else:
+                        existing_data[verse_id] = text
+                    new_verses_count += 1
+
+    if existing_data:
+        lang_file.parent.mkdir(parents=True, exist_ok=True)
+        with lang_file.open('w', encoding='utf-8') as f:
+            json.dump(existing_data, f, ensure_ascii=False, indent=2)
+        print(f'[{lang}] Saved {len(existing_data)} verses to {lang_file}.')
+    else:
+        print(f'[{lang}] No verses found or NWT not available online.')
 
 def main():
-    parser = argparse.ArgumentParser(description='Generate or update scriptures.json')
-    parser.add_argument('--lang', default='de', help='Comma-separated language codes to fetch (e.g. de,es,fr)')
-    parser.add_argument('--output', default='public/data/scriptures.json', help='Output JSON path')
+    parser = argparse.ArgumentParser(description='Generate or update per-language scripture JSON files')
+    parser.add_argument('--lang', default='', help='Comma-separated language codes to fetch (e.g. bg,de,es)')
+    parser.add_argument('--all', action='store_true', help='Fetch scriptures for all languages in languages.json')
+    parser.add_argument('--dir', default='public/data/scriptures', help='Directory for per-language scripture JSON files')
     parser.add_argument('--workers', type=int, default=5, help='Concurrent fetch workers')
     args = parser.parse_args()
 
-    out_file = Path(args.output)
-    existing_data = {}
-    if out_file.exists():
-        try:
-            with out_file.open('r', encoding='utf-8') as f:
-                existing_data = json.load(f)
-            print(f'Loaded {len(existing_data)} existing verse entries from {out_file}.')
-        except Exception as e:
-            print(f'Warning: Failed to load existing {out_file}: {e}')
-            existing_data = {}
+    out_dir = Path(args.dir)
+    out_dir.mkdir(parents=True, exist_ok=True)
 
-    languages = [l.strip() for l in args.lang.split(',') if l.strip()]
-    for lang in languages:
-        process_language(lang, existing_data, workers=args.workers)
+    if args.all:
+        languages_file = Path('public/data/languages.json')
+        if not languages_file.exists():
+            print(f'Error: {languages_file} not found!', file=sys.stderr)
+            sys.exit(1)
+        with languages_file.open('r', encoding='utf-8') as f:
+            languages = json.load(f)
+        lang_codes = [l['key'] for l in languages]
+    elif args.lang:
+        lang_codes = [l.strip() for l in args.lang.split(',') if l.strip()]
+    else:
+        lang_codes = ['en']
 
-    out_file.parent.mkdir(parents=True, exist_ok=True)
-    with out_file.open('w', encoding='utf-8') as f:
-        json.dump(existing_data, f, ensure_ascii=False, indent=2)
+    print(f'Processing {len(lang_codes)} language(s) into {out_dir}...')
+    for code in lang_codes:
+        process_language(code, out_dir, workers=args.workers)
 
-    print(f'\nDone! Total verses in {out_file}: {len(existing_data)}')
+    print('\nDone processing scriptures!')
 
 if __name__ == '__main__':
     main()

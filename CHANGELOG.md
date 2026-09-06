@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## [1.2.0] - 2026-09-06
 
 ### Added
 
@@ -11,6 +11,10 @@
   - Increased maximum desktop container width from 800px to 1100px.
   - Reduced spacing between content boxes, scripture rows, and action buttons from 10–15px to 6–8px for improved data density.
   - Maintained touch-friendly stacked responsive layout on mobile screens (< 640px) with adjusted header offset padding.
+- Expanded Bible scripture cache to 51 languages (47 fully cached with 1,908 verses each, including Bulgarian `bg`, Spanish `es`, French `fr`, Japanese `ja`, Italian `it`, and 4 partially cached).
+- Refactored scripture storage architecture from a monolithic `public/data/scriptures.json` (2.7 MB) into lightweight per-language files under `public/data/scriptures/<lang>.json` (~200–350 KB uncompressed, ~60–100 KB gzipped each).
+- Added on-demand lazy loading for Bible scriptures upon selecting the `BIBLE` category, eliminating unnecessary upfront bandwidth and memory consumption on application startup.
+- Upgraded `scripts/generate-scriptures.py` with `--all` batch fetching and per-language file generation.
 - Added Appendix A6 kings & prophets side-by-side context view for all 55 entries across A6-A (Kings of Judah) and A6-B (Kings of Israel).
 - Added structured Appendix A6 cache in `public/data/appendix_a6.json` for English (`en`), German (`de`), Vietnamese (`vi`), and Russian (`ru`).
 - Added Appendix A6 generator script `scripts/generate-a6.py` with multi-language parsing and CLI support.
