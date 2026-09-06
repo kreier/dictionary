@@ -665,6 +665,12 @@ function filterAndShow(): void {
  * Display the current dictionary entry
  */
 
+function resetSplitScriptureClasses(): void {
+    dom.splitScriptureRow.classList.remove("a6-mode", "b9-mode");
+    dom.scriptureTextEnglish.classList.remove("a6-content", "b9-content");
+    dom.scriptureTextTarget.classList.remove("a6-content", "b9-content");
+}
+
 function showEntry(): void {
     const entry = filteredEntries[currentIndex];
 
@@ -683,12 +689,10 @@ function showEntry(): void {
         dom.mainContent.classList.add("split-mode");
         dom.notesAndAiBoxes.style.display = "none";
         dom.splitWebRow.style.display = "grid";
-        dom.labelText.textContent = `TRANSLATED TEXT (${currentLanguage.toUpperCase()})`;
+        dom.labelText.textContent = `Text (${currentLanguage.toUpperCase()})`;
 
+        resetSplitScriptureClasses();
         if (currentCategory === "bible") {
-            dom.splitScriptureRow.classList.remove("a6-mode", "b9-mode");
-            dom.scriptureTextEnglish.classList.remove("a6-content", "b9-content");
-            dom.scriptureTextTarget.classList.remove("a6-content", "b9-content");
             const scripture = findScriptureForEntry(entry.notes, currentLanguage, entry.english, entry.text, entry.key);
             if (scripture) {
                 dom.splitScriptureRow.style.display = "grid";
@@ -700,10 +704,7 @@ function showEntry(): void {
                 dom.splitScriptureRow.style.display = "none";
             }
         } else if (currentCategory === "A6") {
-            dom.splitScriptureRow.classList.remove("b9-mode");
             dom.splitScriptureRow.classList.add("a6-mode");
-            dom.scriptureTextEnglish.classList.remove("b9-content");
-            dom.scriptureTextTarget.classList.remove("b9-content");
             dom.scriptureTextEnglish.classList.add("a6-content");
             dom.scriptureTextTarget.classList.add("a6-content");
             const a6 = findA6ForEntry(entry, currentLanguage);
@@ -723,30 +724,24 @@ function showEntry(): void {
                 dom.splitScriptureRow.style.display = "none";
             }
         } else if (currentCategory === "B9") {
-                dom.splitScriptureRow.classList.remove("a6-mode");
-                dom.splitScriptureRow.classList.add("b9-mode");
-                dom.scriptureTextEnglish.classList.remove("a6-content");
-                dom.scriptureTextTarget.classList.remove("a6-content");
-                dom.scriptureTextEnglish.classList.add("b9-content");
-                dom.scriptureTextTarget.classList.add("b9-content");
-                const b9 = findB9ForEntry(entry, currentLanguage);
-                if (b9) {
-                    dom.splitScriptureRow.style.display = "grid";
-                    dom.labelScriptureEnglish.textContent = `${b9.titleEn} (English)`;
-                    dom.scriptureTextEnglish.innerHTML = b9.enHtml;
-                    dom.labelScriptureTarget.textContent = `${b9.titleTarget} (${currentLanguage.toUpperCase()})`;
-                    dom.scriptureTextTarget.innerHTML = b9.targetHtml;
-                    requestAnimationFrame(() => {
-                        dom.scriptureTextEnglish.querySelector(".b9-active-item")?.scrollIntoView({ block: "center", behavior: "smooth" });
-                        dom.scriptureTextTarget.querySelector(".b9-active-item")?.scrollIntoView({ block: "center", behavior: "smooth" });
-                    });
-                } else {
-                    dom.splitScriptureRow.style.display = "none";
-                }
+            dom.splitScriptureRow.classList.add("b9-mode");
+            dom.scriptureTextEnglish.classList.add("b9-content");
+            dom.scriptureTextTarget.classList.add("b9-content");
+            const b9 = findB9ForEntry(entry, currentLanguage);
+            if (b9) {
+                dom.splitScriptureRow.style.display = "grid";
+                dom.labelScriptureEnglish.textContent = `${b9.titleEn} (English)`;
+                dom.scriptureTextEnglish.innerHTML = b9.enHtml;
+                dom.labelScriptureTarget.textContent = `${b9.titleTarget} (${currentLanguage.toUpperCase()})`;
+                dom.scriptureTextTarget.innerHTML = b9.targetHtml;
+                requestAnimationFrame(() => {
+                    dom.scriptureTextEnglish.querySelector(".b9-active-item")?.scrollIntoView({ block: "center", behavior: "smooth" });
+                    dom.scriptureTextTarget.querySelector(".b9-active-item")?.scrollIntoView({ block: "center", behavior: "smooth" });
+                });
+            } else {
+                dom.splitScriptureRow.style.display = "none";
+            }
         } else {
-            dom.splitScriptureRow.classList.remove("a6-mode", "b9-mode");
-            dom.scriptureTextEnglish.classList.remove("a6-content", "b9-content");
-            dom.scriptureTextTarget.classList.remove("a6-content", "b9-content");
             dom.splitScriptureRow.style.display = "none";
         }
 
@@ -768,7 +763,7 @@ function showEntry(): void {
         dom.notesAndAiBoxes.style.display = "block";
         dom.splitWebRow.style.display = "none";
         dom.splitScriptureRow.style.display = "none";
-        dom.labelText.textContent = "TRANSLATED TEXT";
+        dom.labelText.textContent = "Text";
 
         setBox("google", entry.google);
         setBox("chatgpt", entry.chatgpt);
@@ -811,14 +806,9 @@ function updateCheckedDisplay(entry: DictionaryEntry): void {
     }
 
     if (isChecked) {
-        dom.checkedInfo.textContent =
-            entry.checked_by && entry.date
-                ? `Verified by ${entry.checked_by} on ${entry.date}`
-                : "Not yet verified";
         dom.quickCheckBtn.textContent = "Uncheck ⬜";
         dom.confirmCheckedBtn.textContent = "Unmark Checked ⬜";
     } else {
-        dom.checkedInfo.textContent = "Not yet verified";
         dom.quickCheckBtn.textContent = "Confirm ✅";
         dom.confirmCheckedBtn.textContent = "Confirm Translation ✅";
     }
@@ -848,7 +838,7 @@ function clearDisplay(): void {
     dom.boxChecked.checked = false;
 
     dom.checkedEmoji.textContent = "⬜";
-    dom.checkedLabel.textContent = "Unchecked";
+    dom.checkedLabel.textContent = "Checked";
     dom.checkedInfo.textContent = "Not yet verified";
 
     dom.linkEnglish.href = "#";
@@ -1130,16 +1120,6 @@ document.addEventListener("click", (e) => {
 document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && dom.searchPopover.style.display === "flex") {
         dom.searchPopover.style.display = "none";
-dom.searchToggle.addEventListener("click", () => {
-    const searchControl = dom.searchToggle.parentElement;
-    if (!searchControl) return;
-
-    const expanded = searchControl.classList.toggle("expanded");
-    if (expanded) {
-        dom.searchInput.focus();
-    } else {
-        dom.searchInput.value = "";
-        filterAndShow();
     }
 });
 
