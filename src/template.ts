@@ -155,7 +155,7 @@ export function initAppShell(app: HTMLElement): {
             </div>
 
             <div class="box split-col" id="box-text-container">
-                <div class="box-label" id="label-text">Text</div>
+                <div class="box-label" id="label-text">TRANSLATED TEXT</div>
                 <textarea
                     class="box-content edit-input"
                     id="box-text"

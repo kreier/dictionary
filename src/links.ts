@@ -167,9 +167,25 @@ export function parseBibleReference(notes: string | undefined, englishText?: str
     return refs.length > 0 ? refs[0] : null;
 }
 
+export const JW_LOCALE_MAP: Record<string, string> = {
+    zh: "cmn-hans",
+    yue: "yue-hans",
+    kman: "km"
+};
+
+export function getBookNameBySlug(slug: string): string {
+    const book = BIBLE_BOOKS.find(b => b.slug === slug);
+    if (!book) return slug;
+    return book.names[0]
+        .split(" ")
+        .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+        .join(" ");
+}
+
 export function getBibleLinks(notes: string | undefined, targetLang: string, englishText?: string): WebReferenceLinks {
     const parsedRefs = parseAllBibleReferences(notes, englishText);
     const lang = targetLang || "en";
+    const jwLocale = JW_LOCALE_MAP[lang] || lang;
 
     if (parsedRefs.length > 0) {
         const primary = parsedRefs[0];
@@ -201,7 +217,7 @@ export function getBibleLinks(notes: string | undefined, targetLang: string, eng
         const englishUrl = `https://www.jw.org/en/${englishPath}${anchor}`;
         const targetUrl = lang === "en"
             ? englishUrl
-            : `https://www.jw.org/finder?locale=${lang}&bible=${bibleParam}`;
+            : `https://www.jw.org/finder?locale=${jwLocale}&bible=${bibleParam}`;
 
         return {
             englishUrl,
@@ -213,7 +229,7 @@ export function getBibleLinks(notes: string | undefined, targetLang: string, eng
 
     const fallbackTarget = lang === "en"
         ? "https://www.jw.org/en/library/bible/nwt/books/"
-        : `https://www.jw.org/finder?locale=${lang}&pub=nwt`;
+        : `https://www.jw.org/finder?locale=${jwLocale}&pub=nwt`;
 
     return {
         englishUrl: "https://www.jw.org/en/library/bible/nwt/books/",

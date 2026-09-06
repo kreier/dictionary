@@ -18,7 +18,12 @@ import {
     submitChanges,
     DEFAULT_WORKER_ENDPOINT
 } from "./api";
-import { getReferenceLinksForEntry, parseAllBibleReferences } from "./links";
+import {
+    getReferenceLinksForEntry,
+    parseAllBibleReferences,
+    BIBLE_BOOKS,
+    getBookNameBySlug
+} from "./links";
 
 const app = document.querySelector<HTMLDivElement>("#app");
 if (!app) {
@@ -377,12 +382,41 @@ function findScriptureForEntry(
     if (enParts.length === 0) return null;
 
     const fullLabel = parsedRefs.map(r => r.label).join("; ");
+    let targetHtml = "";
+    if (targetParts.length > 0) {
+        targetHtml = targetParts.join("<br><br>");
+    } else if (targetMap && targetMap["__unavailable"]) {
+        const msg = targetMap["__message"] || `Translation unavailable for ${lang.toUpperCase()}.`;
+        targetHtml = `<span class="scripture-empty">${escapeHtml(msg)} Click the reference card below to view on jw.org.</span>`;
+    } else {
+        const isCached = Boolean(targetMap && Object.keys(targetMap).some(k => !k.startsWith("__")));
+        if (!isCached) {
+            targetHtml = `<span class="scripture-empty">Translation for ${escapeHtml(lang.toUpperCase())} not yet cached for ${escapeHtml(fullLabel)}. Click the reference card below to view on jw.org.</span>`;
+        } else {
+            const availableSlugs = new Set<string>();
+            for (const key of Object.keys(targetMap!)) {
+                if (key.startsWith("__")) continue;
+                const slug = key.split("/")[0];
+                if (slug) availableSlugs.add(slug);
+            }
+
+            const firstAvailable = BIBLE_BOOKS.find(b => availableSlugs.has(b.slug));
+            const firstBookTitle = firstAvailable ? getBookNameBySlug(firstAvailable.slug) : null;
+            const primaryRef = parsedRefs[0];
+            const requestedBook = BIBLE_BOOKS.find(b => b.slug === primaryRef.bookSlug);
+
+            if (firstAvailable && requestedBook && requestedBook.num < firstAvailable.num) {
+                targetHtml = `<span class="scripture-empty">Translation for ${escapeHtml(lang.toUpperCase())} does not yet exist for ${escapeHtml(fullLabel)} (the first book is ${escapeHtml(firstBookTitle!)}). Click the reference card below to view on jw.org.</span>`;
+            } else {
+                targetHtml = `<span class="scripture-empty">Translation for ${escapeHtml(lang.toUpperCase())} does not yet exist for ${escapeHtml(fullLabel)}. Click the reference card below to view on jw.org.</span>`;
+            }
+        }
+    }
+
     return {
         refLabel: fullLabel,
         enHtml: enParts.join("<br><br>"),
-        targetHtml: targetParts.length > 0
-            ? targetParts.join("<br><br>")
-            : `<span class="scripture-empty">Translation for ${escapeHtml(lang.toUpperCase())} not yet cached for ${escapeHtml(fullLabel)}. Click the reference card below to view on jw.org.</span>`
+        targetHtml
     };
 }
 
@@ -689,7 +723,7 @@ function showEntry(): void {
         dom.mainContent.classList.add("split-mode");
         dom.notesAndAiBoxes.style.display = "none";
         dom.splitWebRow.style.display = "grid";
-        dom.labelText.textContent = `Text (${currentLanguage.toUpperCase()})`;
+        dom.labelText.textContent = `TRANSLATED TEXT (${currentLanguage.toUpperCase()})`;
 
         resetSplitScriptureClasses();
         if (currentCategory === "bible") {
@@ -763,7 +797,7 @@ function showEntry(): void {
         dom.notesAndAiBoxes.style.display = "block";
         dom.splitWebRow.style.display = "none";
         dom.splitScriptureRow.style.display = "none";
-        dom.labelText.textContent = "Text";
+        dom.labelText.textContent = "TRANSLATED TEXT";
 
         setBox("google", entry.google);
         setBox("chatgpt", entry.chatgpt);
