@@ -2,6 +2,8 @@
 
 ![GitHub License](https://img.shields.io/github/license/kreier/dictionary)
 ![GitHub Release](https://img.shields.io/github/v/release/kreier/dictionary)
+[![Update Dictionary Data](https://github.com/kreier/dictionary/actions/workflows/update-dictionary-data.yml/badge.svg)](https://github.com/kreier/dictionary/actions/workflows/update-dictionary-data.yml)
+[![Deploy Dictionary to GitHub Pages](https://github.com/kreier/dictionary/actions/workflows/deploy-pages.yml/badge.svg)](https://github.com/kreier/dictionary/actions/workflows/deploy-pages.yml)
 
 Crowdsourced translation editor UI backed by GitHub PR automation. There are two main goals for this repository
 
@@ -15,3 +17,7 @@ For translations, it is best if a native speaker can verify the translation dire
 ## Helper scripts and data generation
 
 The authoritative dictionary data is maintained in `kreier/timeline/db/`. When changes are merged in Timeline, automated GitHub Actions run `scripts/generate-data.py` to regenerate read-optimized static JSON in `public/data/` and deploy the updated application to GitHub Pages.
+
+## Interface example:
+
+![Interface example v1.2](public/2026-09-07_v1.2_Hindi.png)
