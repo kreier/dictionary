@@ -5,6 +5,9 @@ export function initAppShell(app: HTMLElement): {
     categoryButtons: NodeListOf<HTMLButtonElement>;
     searchToggle: HTMLButtonElement;
     searchInput: HTMLInputElement;
+    searchToggleBtn: HTMLButtonElement;
+    searchPopover: HTMLDivElement;
+    searchClearBtn: HTMLButtonElement;
     keySelect: HTMLSelectElement;
     prevButton: HTMLButtonElement;
     nextButton: HTMLButtonElement;
@@ -70,16 +73,18 @@ export function initAppShell(app: HTMLElement): {
     <header>
         <div class="controls">
 
-            <div class="metadata" id="metadata">
-                <span id="checked-info"></span>
-                <button type="button" class="quick-check-btn" id="quick-check-btn" style="display: none;">
-                    Confirm ✅
-                </button>
-                <label class="checked-toggle-label" id="checked-toggle-label" title="Toggle verification status">
-                    <input type="checkbox" id="box-checked" disabled>
-                    <span id="checked-emoji">⬜</span>
-                    <span id="checked-label">Unchecked</span>
-                </label>
+            <div class="top-bar" id="top-bar">
+                <span id="checked-info" class="verification-info">Not yet verified</span>
+                <div class="verification-right">
+                    <button type="button" class="quick-check-btn" id="quick-check-btn" style="display: none;">
+                        Confirm ✅
+                    </button>
+                    <label class="checked-toggle-label" id="checked-toggle-label" title="Toggle verification status">
+                        <span id="checked-emoji" style="display: none;">⬜</span>
+                        <span id="checked-label">Checked</span>
+                        <input type="checkbox" id="box-checked" disabled>
+                    </label>
+                </div>
             </div>
 
             <div class="category-buttons" id="category-buttons">
@@ -358,6 +363,9 @@ export function initAppShell(app: HTMLElement): {
         categoryButtons: app.querySelectorAll<HTMLButtonElement>(".cat-btn"),
         searchToggle: app.querySelector<HTMLButtonElement>("#search-toggle")!,
         searchInput: app.querySelector<HTMLInputElement>("#search-input")!,
+        searchToggleBtn: app.querySelector<HTMLButtonElement>("#search-toggle-btn")!,
+        searchPopover: app.querySelector<HTMLDivElement>("#search-popover")!,
+        searchClearBtn: app.querySelector<HTMLButtonElement>("#search-clear-btn")!,
         keySelect: app.querySelector<HTMLSelectElement>("#key-select")!,
         prevButton: app.querySelector<HTMLButtonElement>("#prev-btn")!,
         nextButton: app.querySelector<HTMLButtonElement>("#next-btn")!,

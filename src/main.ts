@@ -48,14 +48,12 @@ const workerEndpoint =
     localStorage.getItem("dictionary_worker_url") ||
     DEFAULT_WORKER_ENDPOINT;
 
-interface ScriptureVerse {
+interface ScriptureVerseMeta {
     reference: string;
-    book?: string;
-    chapter?: number;
-    verse?: number;
-    en: string;
-    vi?: string;
-    [key: string]: string | number | undefined;
+    book: string;
+    chapter: number;
+    verse: number;
+    text: string;
 }
 
 interface RenderedScripture {
@@ -64,26 +62,60 @@ interface RenderedScripture {
     targetHtml: string;
 }
 
-let scripturesData: Record<string, ScriptureVerse> | null = null;
-let scripturesPromise: Promise<Record<string, ScriptureVerse> | null> | null = null;
+let enScriptures: Record<string, ScriptureVerseMeta> | null = null;
+const targetScripturesCache: Map<string, Record<string, string>> = new Map();
+const scripturesLoading = new Set<string>();
 
-async function loadScriptures(): Promise<Record<string, ScriptureVerse> | null> {
-    if (scripturesData) return scripturesData;
-    if (scripturesPromise) return scripturesPromise;
-    scripturesPromise = (async () => {
-        try {
-            const res = await fetch(`${import.meta.env.BASE_URL}data/scriptures.json`);
-            if (res.ok) {
-                scripturesData = await res.json();
-            }
-        } catch (e) {
-            console.warn("Failed to load scriptures.json", e);
-        } finally {
-            scripturesPromise = null;
+async function loadEnScriptures(): Promise<Record<string, ScriptureVerseMeta> | null> {
+    if (enScriptures) return enScriptures;
+    if (scripturesLoading.has("en")) return null;
+    scripturesLoading.add("en");
+    try {
+        const res = await fetch(`${import.meta.env.BASE_URL}data/scriptures/en.json`);
+        if (res.ok) {
+            enScriptures = await res.json();
         }
-        return scripturesData;
-    })();
-    return scripturesPromise;
+    } catch (e) {
+        console.warn("Failed to load scriptures/en.json", e);
+    } finally {
+        scripturesLoading.delete("en");
+    }
+    return enScriptures;
+}
+
+async function loadTargetScriptures(lang: string): Promise<Record<string, string> | null> {
+    if (lang === "en") return null;
+    if (targetScripturesCache.has(lang)) return targetScripturesCache.get(lang)!;
+    if (scripturesLoading.has(lang)) return null;
+    scripturesLoading.add(lang);
+    try {
+        const res = await fetch(`${import.meta.env.BASE_URL}data/scriptures/${lang}.json`);
+        if (res.ok) {
+            const data: Record<string, string> = await res.json();
+            targetScripturesCache.set(lang, data);
+            return data;
+        } else {
+            targetScripturesCache.set(lang, {});
+            return {};
+        }
+    } catch (e) {
+        console.warn(`Failed to load scriptures/${lang}.json`, e);
+        targetScripturesCache.set(lang, {});
+        return {};
+    } finally {
+        scripturesLoading.delete(lang);
+    }
+}
+
+async function ensureBibleScriptures(lang: string): Promise<void> {
+    const promises: Promise<any>[] = [];
+    if (!enScriptures) promises.push(loadEnScriptures());
+    if (lang !== "en" && !targetScripturesCache.has(lang)) {
+        promises.push(loadTargetScriptures(lang));
+    }
+    if (promises.length > 0) {
+        await Promise.all(promises);
+    }
 }
 
 let a6Data: AppendixA6Data | null = null;
@@ -308,7 +340,7 @@ function findScriptureForEntry(
     targetWord?: string,
     entryKey?: string
 ): RenderedScripture | null {
-    if (!scripturesData) return null;
+    if (!enScriptures) return null;
 
     const parsedRefs = parseAllBibleReferences(notes, englishWord);
     if (parsedRefs.length === 0) return null;
@@ -321,27 +353,22 @@ function findScriptureForEntry(
 
     const enParts: string[] = [];
     const targetParts: string[] = [];
+    const targetMap = lang === "en" ? null : targetScripturesCache.get(lang);
 
     for (const parsedRef of parsedRefs) {
         for (const v of parsedRef.verses) {
-            for (const key of Object.keys(scripturesData)) {
-                const item = scripturesData[key];
-                const itemBookNorm = (item.book || "").toLowerCase().replace(/[\s_]+/g, "-");
-                if (
-                    item.chapter === parsedRef.chapter &&
-                    item.verse === v &&
-                    itemBookNorm === parsedRef.bookSlug
-                ) {
-                    const enHighlighted = highlightScriptureWords(item.en, englishTerms);
-                    enParts.push(`<span class="scripture-verse-num">${escapeHtml(item.reference)}:</span> ${enHighlighted}`);
+            const verseId = `${parsedRef.bookSlug}/${parsedRef.chapter}/${v}`;
+            const enItem = enScriptures[verseId];
+            if (enItem) {
+                const enHighlighted = highlightScriptureWords(enItem.text, englishTerms);
+                enParts.push(`<span class="scripture-verse-num">${escapeHtml(enItem.reference)}:</span> ${enHighlighted}`);
 
-                    const targetRaw = item[lang] ?? (lang === "vi" ? item.vi : "") ?? (lang === "de" ? item.de : "");
-                    const targetText = typeof targetRaw === "string" ? targetRaw.trim() : "";
-                    if (targetText) {
-                        const targetHighlighted = highlightScriptureWords(targetText, targetTerms);
-                        targetParts.push(`<span class="scripture-verse-num">${escapeHtml(item.reference)}:</span> ${targetHighlighted}`);
-                    }
-                    break;
+                if (lang === "en") {
+                    targetParts.push(`<span class="scripture-verse-num">${escapeHtml(enItem.reference)}:</span> ${enHighlighted}`);
+                } else if (targetMap && targetMap[verseId]) {
+                    const targetText = targetMap[verseId].trim();
+                    const targetHighlighted = highlightScriptureWords(targetText, targetTerms);
+                    targetParts.push(`<span class="scripture-verse-num">${escapeHtml(enItem.reference)}:</span> ${targetHighlighted}`);
                 }
             }
         }
@@ -555,8 +582,8 @@ async function loadLanguage(language: string): Promise<void> {
     filterAndShow();
     updateEditState();
 
-    if (currentCategory === "bible" && !scripturesData) {
-        loadScriptures().then(() => {
+    if (currentCategory === "bible") {
+        ensureBibleScriptures(currentLanguage).then(() => {
             if (currentCategory === "bible") {
                 showEntry();
             }
@@ -772,7 +799,16 @@ function showEntry(): void {
 function updateCheckedDisplay(entry: DictionaryEntry): void {
     const isChecked = dom.boxChecked.checked;
     dom.checkedEmoji.textContent = isChecked ? "✅" : "⬜";
-    dom.checkedLabel.textContent = isChecked ? "Checked" : "Unchecked";
+    dom.checkedLabel.textContent = "Checked";
+
+    const hasVerification = Boolean(
+        isChecked && entry.checked_by && entry.date
+    );
+    if (hasVerification) {
+        dom.checkedInfo.textContent = `Verified by ${entry.checked_by} on ${entry.date}`;
+    } else {
+        dom.checkedInfo.textContent = "Not yet verified";
+    }
 
     if (isChecked) {
         dom.checkedInfo.textContent =
@@ -1021,12 +1057,14 @@ dom.categoryButtons.forEach(button => {
         button.classList.add("active");
 
         currentCategory = button.dataset.cat as Category;
-        if (currentCategory === "bible" && !scripturesData) {
-            loadScriptures().then(() => {
-                if (currentCategory === "bible") {
-                    showEntry();
-                }
-            });
+        if (currentCategory === "bible") {
+            if (!enScriptures || (currentLanguage !== "en" && !targetScripturesCache.has(currentLanguage))) {
+                ensureBibleScriptures(currentLanguage).then(() => {
+                    if (currentCategory === "bible") {
+                        showEntry();
+                    }
+                });
+            }
         } else if (currentCategory === "A6" && !a6Data) {
             loadA6Data().then(() => {
                 if (currentCategory === "A6") {
@@ -1044,11 +1082,54 @@ dom.categoryButtons.forEach(button => {
     });
 });
 
+dom.searchToggleBtn.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const isVisible = dom.searchPopover.style.display === "flex";
+    if (isVisible) {
+        dom.searchPopover.style.display = "none";
+    } else {
+        dom.searchPopover.style.display = "flex";
+        dom.searchInput.focus();
+        dom.searchInput.select();
+    }
+});
+
+dom.searchPopover.addEventListener("click", (e) => {
+    e.stopPropagation();
+});
+
+dom.searchClearBtn.addEventListener("click", () => {
+    if (dom.searchInput.value) {
+        dom.searchInput.value = "";
+        dom.searchToggleBtn.classList.remove("has-query");
+        saveCurrentEntryState();
+        filterAndShow();
+    }
+    dom.searchInput.focus();
+});
+
 dom.searchInput.addEventListener("input", () => {
+    dom.searchToggleBtn.classList.toggle(
+        "has-query",
+        Boolean(dom.searchInput.value.trim())
+    );
     saveCurrentEntryState();
     filterAndShow();
 });
 
+document.addEventListener("click", (e) => {
+    if (
+        dom.searchPopover.style.display === "flex" &&
+        !dom.searchPopover.contains(e.target as Node) &&
+        !dom.searchToggleBtn.contains(e.target as Node)
+    ) {
+        dom.searchPopover.style.display = "none";
+    }
+});
+
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && dom.searchPopover.style.display === "flex") {
+        dom.searchPopover.style.display = "none";
 dom.searchToggle.addEventListener("click", () => {
     const searchControl = dom.searchToggle.parentElement;
     if (!searchControl) return;
@@ -1315,8 +1396,6 @@ if (header) {
 const initialCategoryButton =
     document.querySelector<HTMLButtonElement>('.cat-btn[data-cat="text"]');
 initialCategoryButton?.classList.add("active");
-
-loadScriptures().catch(console.warn);
 
 loadLanguages().catch(error => {
     console.error(error);

@@ -44,6 +44,10 @@ major frontend work is timeline visualization.
 - Appendix A6 cache (`public/data/appendix_a6.json`) for English, German, Vietnamese, and Russian
 - Generator script `scripts/generate-a6.py` for Appendix A6 scraping and normalization
 - Localized JW.org web reference links for 45 languages in Appendix A6
+- Modernized PC & mobile UI: 50/50 combined controls line, search popover icon, top-bar verification display, increased 1100px max width, and tighter box spacing
+- Refactored Bible scripture caching to per-language lazy-loaded files (`public/data/scriptures/<lang>.json`)
+- Expanded Bible scripture coverage to 51 languages (47 fully cached with 1,908 verses each, including Bulgarian `bg`)
+- Release v1.2.0
 - Appendix B9 cache and generator for World Powers Foretold by Daniel in
   English, German, Russian, Spanish, French, and Vietnamese, with Arabic and
   Bengali unavailable placeholders
