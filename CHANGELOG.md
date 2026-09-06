@@ -9,8 +9,10 @@
   verification metadata spacing, and kept mobile controls stacked.
 - Moved verification metadata above the category selectors and made the search
   control icon-based with an expandable search field.
-- Reduced spacing between content boxes and visually distinguished the
-  `TRANSLATED TEXT` field with a light blue background (`#e6edfc`).
+- Restored label `TRANSLATED TEXT` across both standard and split-mode views.
+- Differentiated between cached and non-cached Bible scripture versions: when a language has cached scriptures but the referenced book does not exist in the translation (such as Genesis for Bengali `bn` or Hebrew Scriptures for Hausa `ha`), the context panel explicitly indicates that the book does not yet exist in the translation and names the first available book (e.g. `the first book is Deuteronomy`).
+- Added scripture caches for Chinese Mandarin (`zh`), Cantonese (`yue`), and Khmer arabic numerals (`kman`), bringing cached languages to 54 of 55, with an explicit unavailable placeholder for Kankana-ey (`kne`).
+- Added `JW_LOCALE_MAP` to correctly route `zh` (`cmn-hans`), `yue` (`yue-hans`), and `kman` (`km`) to their localized JW.org Bible endpoints.
 
 ### Added
 

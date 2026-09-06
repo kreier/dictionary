@@ -141,16 +141,22 @@ def parse_chapter_html(html: str) -> dict[int, str]:
         verses[vid] = c
     return verses
 
-def fetch_chapter(lang: str, book_num: int, ch: int, retries: int = 2) -> dict[int, str]:
+LOCALE_MAP = {
+    'zh': 'cmn-hans',
+    'yue': 'yue-hans',
+    'kman': 'km',
+}
+
+def fetch_chapter(locale: str, book_num: int, ch: int, retries: int = 2) -> dict[int, str]:
     bible_code = f'{book_num:02d}{ch:03d}000'
-    url = f'https://www.jw.org/finder?locale={lang}&bible={bible_code}'
+    url = f'https://www.jw.org/finder?locale={locale}&bible={bible_code}'
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
 
     for attempt in range(retries + 1):
         try:
             with urllib.request.urlopen(req, timeout=15) as res:
                 final_url = res.geturl()
-                if f'/{lang}/' not in final_url and not final_url.startswith(f'https://www.jw.org/{lang}/'):
+                if f'/{locale}/' not in final_url and not final_url.startswith(f'https://www.jw.org/{locale}/'):
                     return {}
                 html = res.read().decode('utf-8', errors='ignore')
                 verses = parse_chapter_html(html)
@@ -158,7 +164,7 @@ def fetch_chapter(lang: str, book_num: int, ch: int, retries: int = 2) -> dict[i
                     return verses
         except Exception as e:
             if attempt == retries:
-                print(f'[{lang}] Error fetching {book_num}:{ch} ({url}): {e}', file=sys.stderr)
+                print(f'[{locale}] Error fetching {book_num}:{ch} ({url}): {e}', file=sys.stderr)
             time.sleep(1)
     return {}
 
@@ -173,6 +179,16 @@ def process_language(lang: str, output_dir: Path, workers: int = 5):
             print(f'[{lang}] Warning: Failed to load existing {lang_file}: {e}')
             existing_data = {}
 
+    if lang == 'kman':
+        km_file = output_dir / 'km.json'
+        if km_file.exists():
+            with km_file.open('r', encoding='utf-8') as f:
+                km_data = json.load(f)
+            with lang_file.open('w', encoding='utf-8') as f:
+                json.dump(km_data, f, ensure_ascii=False, indent=2)
+            print(f'[kman] Cloned {len(km_data)} verses from {km_file}.')
+            return
+
     needed = []
     for book, bnum, ch in CHAPTERS:
         sample_key = f'{book}/{ch}/1'
@@ -184,11 +200,12 @@ def process_language(lang: str, output_dir: Path, workers: int = 5):
         print(f'[{lang}] All {len(CHAPTERS)} chapters already cached ({len(existing_data)} verses).')
         return
 
-    print(f'[{lang}] Fetching {len(needed)} missing chapters using {workers} workers...')
+    jw_locale = LOCALE_MAP.get(lang, lang)
+    print(f'[{lang}] (locale: {jw_locale}) Fetching {len(needed)} missing chapters using {workers} workers...')
 
     def fetch_task(item):
         book, bnum, ch = item
-        verses = fetch_chapter(lang, bnum, ch)
+        verses = fetch_chapter(jw_locale, bnum, ch)
         return book, ch, verses
 
     new_verses_count = 0
@@ -218,7 +235,10 @@ def process_language(lang: str, output_dir: Path, workers: int = 5):
             json.dump(existing_data, f, ensure_ascii=False, indent=2)
         print(f'[{lang}] Saved {len(existing_data)} verses to {lang_file}.')
     else:
-        print(f'[{lang}] No verses found or NWT not available online.')
+        lang_file.parent.mkdir(parents=True, exist_ok=True)
+        with lang_file.open('w', encoding='utf-8') as f:
+            json.dump({'__unavailable': True, '__message': f'Translation unavailable for {lang.upper()}'}, f, ensure_ascii=False, indent=2)
+        print(f'[{lang}] No verses found; marked as unavailable in {lang_file}.')
 
 def main():
     parser = argparse.ArgumentParser(description='Generate or update per-language scripture JSON files')

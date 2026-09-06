@@ -18,7 +18,12 @@ import {
     submitChanges,
     DEFAULT_WORKER_ENDPOINT
 } from "./api";
-import { getReferenceLinksForEntry, parseAllBibleReferences } from "./links";
+import {
+    getReferenceLinksForEntry,
+    parseAllBibleReferences,
+    BIBLE_BOOKS,
+    getBookNameBySlug
+} from "./links";
 
 const app = document.querySelector<HTMLDivElement>("#app");
 if (!app) {
@@ -377,12 +382,41 @@ function findScriptureForEntry(
     if (enParts.length === 0) return null;
 
     const fullLabel = parsedRefs.map(r => r.label).join("; ");
+    let targetHtml = "";
+    if (targetParts.length > 0) {
+        targetHtml = targetParts.join("<br><br>");
+    } else if (targetMap && targetMap["__unavailable"]) {
+        const msg = targetMap["__message"] || `Translation unavailable for ${lang.toUpperCase()}.`;
+        targetHtml = `<span class="scripture-empty">${escapeHtml(msg)} Click the reference card below to view on jw.org.</span>`;
+    } else {
+        const isCached = Boolean(targetMap && Object.keys(targetMap).some(k => !k.startsWith("__")));
+        if (!isCached) {
+            targetHtml = `<span class="scripture-empty">Translation for ${escapeHtml(lang.toUpperCase())} not yet cached for ${escapeHtml(fullLabel)}. Click the reference card below to view on jw.org.</span>`;
+        } else {
+            const availableSlugs = new Set<string>();
+            for (const key of Object.keys(targetMap!)) {
+                if (key.startsWith("__")) continue;
+                const slug = key.split("/")[0];
+                if (slug) availableSlugs.add(slug);
+            }
+
+            const firstAvailable = BIBLE_BOOKS.find(b => availableSlugs.has(b.slug));
+            const firstBookTitle = firstAvailable ? getBookNameBySlug(firstAvailable.slug) : null;
+            const primaryRef = parsedRefs[0];
+            const requestedBook = BIBLE_BOOKS.find(b => b.slug === primaryRef.bookSlug);
+
+            if (firstAvailable && requestedBook && requestedBook.num < firstAvailable.num) {
+                targetHtml = `<span class="scripture-empty">Translation for ${escapeHtml(lang.toUpperCase())} does not yet exist for ${escapeHtml(fullLabel)} (the first book is ${escapeHtml(firstBookTitle!)}). Click the reference card below to view on jw.org.</span>`;
+            } else {
+                targetHtml = `<span class="scripture-empty">Translation for ${escapeHtml(lang.toUpperCase())} does not yet exist for ${escapeHtml(fullLabel)}. Click the reference card below to view on jw.org.</span>`;
+            }
+        }
+    }
+
     return {
         refLabel: fullLabel,
         enHtml: enParts.join("<br><br>"),
-        targetHtml: targetParts.length > 0
-            ? targetParts.join("<br><br>")
-            : `<span class="scripture-empty">Translation for ${escapeHtml(lang.toUpperCase())} not yet cached for ${escapeHtml(fullLabel)}. Click the reference card below to view on jw.org.</span>`
+        targetHtml
     };
 }
 
@@ -665,6 +699,12 @@ function filterAndShow(): void {
  * Display the current dictionary entry
  */
 
+function resetSplitScriptureClasses(): void {
+    dom.splitScriptureRow.classList.remove("a6-mode", "b9-mode");
+    dom.scriptureTextEnglish.classList.remove("a6-content", "b9-content");
+    dom.scriptureTextTarget.classList.remove("a6-content", "b9-content");
+}
+
 function showEntry(): void {
     const entry = filteredEntries[currentIndex];
 
@@ -685,10 +725,8 @@ function showEntry(): void {
         dom.splitWebRow.style.display = "grid";
         dom.labelText.textContent = `TRANSLATED TEXT (${currentLanguage.toUpperCase()})`;
 
+        resetSplitScriptureClasses();
         if (currentCategory === "bible") {
-            dom.splitScriptureRow.classList.remove("a6-mode", "b9-mode");
-            dom.scriptureTextEnglish.classList.remove("a6-content", "b9-content");
-            dom.scriptureTextTarget.classList.remove("a6-content", "b9-content");
             const scripture = findScriptureForEntry(entry.notes, currentLanguage, entry.english, entry.text, entry.key);
             if (scripture) {
                 dom.splitScriptureRow.style.display = "grid";
@@ -700,10 +738,7 @@ function showEntry(): void {
                 dom.splitScriptureRow.style.display = "none";
             }
         } else if (currentCategory === "A6") {
-            dom.splitScriptureRow.classList.remove("b9-mode");
             dom.splitScriptureRow.classList.add("a6-mode");
-            dom.scriptureTextEnglish.classList.remove("b9-content");
-            dom.scriptureTextTarget.classList.remove("b9-content");
             dom.scriptureTextEnglish.classList.add("a6-content");
             dom.scriptureTextTarget.classList.add("a6-content");
             const a6 = findA6ForEntry(entry, currentLanguage);
@@ -723,30 +758,24 @@ function showEntry(): void {
                 dom.splitScriptureRow.style.display = "none";
             }
         } else if (currentCategory === "B9") {
-                dom.splitScriptureRow.classList.remove("a6-mode");
-                dom.splitScriptureRow.classList.add("b9-mode");
-                dom.scriptureTextEnglish.classList.remove("a6-content");
-                dom.scriptureTextTarget.classList.remove("a6-content");
-                dom.scriptureTextEnglish.classList.add("b9-content");
-                dom.scriptureTextTarget.classList.add("b9-content");
-                const b9 = findB9ForEntry(entry, currentLanguage);
-                if (b9) {
-                    dom.splitScriptureRow.style.display = "grid";
-                    dom.labelScriptureEnglish.textContent = `${b9.titleEn} (English)`;
-                    dom.scriptureTextEnglish.innerHTML = b9.enHtml;
-                    dom.labelScriptureTarget.textContent = `${b9.titleTarget} (${currentLanguage.toUpperCase()})`;
-                    dom.scriptureTextTarget.innerHTML = b9.targetHtml;
-                    requestAnimationFrame(() => {
-                        dom.scriptureTextEnglish.querySelector(".b9-active-item")?.scrollIntoView({ block: "center", behavior: "smooth" });
-                        dom.scriptureTextTarget.querySelector(".b9-active-item")?.scrollIntoView({ block: "center", behavior: "smooth" });
-                    });
-                } else {
-                    dom.splitScriptureRow.style.display = "none";
-                }
+            dom.splitScriptureRow.classList.add("b9-mode");
+            dom.scriptureTextEnglish.classList.add("b9-content");
+            dom.scriptureTextTarget.classList.add("b9-content");
+            const b9 = findB9ForEntry(entry, currentLanguage);
+            if (b9) {
+                dom.splitScriptureRow.style.display = "grid";
+                dom.labelScriptureEnglish.textContent = `${b9.titleEn} (English)`;
+                dom.scriptureTextEnglish.innerHTML = b9.enHtml;
+                dom.labelScriptureTarget.textContent = `${b9.titleTarget} (${currentLanguage.toUpperCase()})`;
+                dom.scriptureTextTarget.innerHTML = b9.targetHtml;
+                requestAnimationFrame(() => {
+                    dom.scriptureTextEnglish.querySelector(".b9-active-item")?.scrollIntoView({ block: "center", behavior: "smooth" });
+                    dom.scriptureTextTarget.querySelector(".b9-active-item")?.scrollIntoView({ block: "center", behavior: "smooth" });
+                });
+            } else {
+                dom.splitScriptureRow.style.display = "none";
+            }
         } else {
-            dom.splitScriptureRow.classList.remove("a6-mode", "b9-mode");
-            dom.scriptureTextEnglish.classList.remove("a6-content", "b9-content");
-            dom.scriptureTextTarget.classList.remove("a6-content", "b9-content");
             dom.splitScriptureRow.style.display = "none";
         }
 
@@ -811,14 +840,9 @@ function updateCheckedDisplay(entry: DictionaryEntry): void {
     }
 
     if (isChecked) {
-        dom.checkedInfo.textContent =
-            entry.checked_by && entry.date
-                ? `Verified by ${entry.checked_by} on ${entry.date}`
-                : "Not yet verified";
         dom.quickCheckBtn.textContent = "Uncheck ⬜";
         dom.confirmCheckedBtn.textContent = "Unmark Checked ⬜";
     } else {
-        dom.checkedInfo.textContent = "Not yet verified";
         dom.quickCheckBtn.textContent = "Confirm ✅";
         dom.confirmCheckedBtn.textContent = "Confirm Translation ✅";
     }
@@ -848,7 +872,7 @@ function clearDisplay(): void {
     dom.boxChecked.checked = false;
 
     dom.checkedEmoji.textContent = "⬜";
-    dom.checkedLabel.textContent = "Unchecked";
+    dom.checkedLabel.textContent = "Checked";
     dom.checkedInfo.textContent = "Not yet verified";
 
     dom.linkEnglish.href = "#";
@@ -1130,16 +1154,6 @@ document.addEventListener("click", (e) => {
 document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && dom.searchPopover.style.display === "flex") {
         dom.searchPopover.style.display = "none";
-dom.searchToggle.addEventListener("click", () => {
-    const searchControl = dom.searchToggle.parentElement;
-    if (!searchControl) return;
-
-    const expanded = searchControl.classList.toggle("expanded");
-    if (expanded) {
-        dom.searchInput.focus();
-    } else {
-        dom.searchInput.value = "";
-        filterAndShow();
     }
 });
 
