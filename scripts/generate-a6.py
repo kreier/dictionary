@@ -25,6 +25,16 @@ A6_BASE_URLS = {
 }
 
 
+def unavailable_section(lang: str, tag: str) -> dict[str, object]:
+    return {
+        "title": f"Appendix {tag}",
+        "url": "",
+        "items": [],
+        "unavailable": True,
+        "message": f"Translation unavailable for {lang.upper()}",
+    }
+
+
 def fetch_alternate_links(url: str) -> dict[str, str]:
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     with urllib.request.urlopen(req, timeout=15) as resp:
@@ -102,6 +112,7 @@ def main() -> int:
             url = alt_urls[tag].get(lang)
             if not url:
                 print(f"Warning: No alternate link found for {lang} ({tag})")
+                data[lang][tag] = unavailable_section(lang, tag)
                 continue
 
             print(f"Fetching {lang} ({tag}): {url}")
@@ -122,8 +133,10 @@ def main() -> int:
                     print(f"  -> Extracted {len(items)} items for {lang} {tag}")
                 else:
                     print(f"  -> Failed to parse items for {lang} {tag}")
+                    data[lang][tag] = unavailable_section(lang, tag)
             except Exception as e:
                 print(f"  -> Error fetching {url}: {e}")
+                data[lang][tag] = unavailable_section(lang, tag)
 
             time.sleep(0.5)
 

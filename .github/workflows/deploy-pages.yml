@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - main
-
   workflow_dispatch:
-
+  workflow_run:
+    workflows: ["Update Dictionary Data"]
+    types: [completed]
+    
 permissions:
   contents: read
   pages: write
@@ -20,7 +22,7 @@ jobs:
   build:
     name: Build Vite application
     runs-on: ubuntu-latest
-
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7

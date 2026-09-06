@@ -75,13 +75,16 @@ export interface A6Item {
     items?: string[];
 }
 
-export interface A6Section {
+export interface AppendixSection {
     title: string;
     url: string;
     items: A6Item[];
+    unavailable?: boolean;
+    message?: string;
 }
 
-export type AppendixA6Data = Record<string, Record<string, A6Section>>;
+export type AppendixA6Data = Record<string, Record<string, AppendixSection>>;
+export type AppendixB9Data = Record<string, Record<string, AppendixSection>>;
 
 declare global {
     interface Window {

@@ -11,7 +11,7 @@ header {
     left: 0;
     right: 0;
     background: white;
-    padding: 10px;
+    padding: 2px 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     z-index: 1000;
     display: flex;
@@ -21,19 +21,66 @@ header {
 
 .controls {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1200px;
 }
 
-/* Top bar: Left verification info, Right checked toggle */
-.top-bar {
-    width: 100%;
+.control-line {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 8px;
-    font-size: 13px;
-    color: #495057;
-    min-height: 24px;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.search-language-group {
+    display: flex;
+    align-items: center;
+    flex: 1 1 50%;
+    min-width: 0;
+    gap: 8px;
+}
+
+#language-select {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 40px;
+}
+
+.search-control {
+    position: relative;
+    flex: 0 0 40px;
+}
+
+.search-toggle {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    font-size: 25px;
+    line-height: 1;
+    border: 1px solid #ccc;
+    background: #eee;
+    cursor: pointer;
+}
+
+.search-box {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    z-index: 2;
+    width: 280px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    height: 40px;
+    border: 1px solid #aaa;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.search-control.expanded .search-box {
+    display: block;
 }
 
 .verification-info {
@@ -90,7 +137,8 @@ header {
 /* Combined Navigation & Controls Row (50% / 50% on PC) */
 .nav-controls-row {
     display: flex;
-    justify-content: space-between;
+    flex: 1 1 50%;
+    min-width: 0;
     align-items: center;
     width: 100%;
     gap: 10px;
@@ -242,11 +290,23 @@ header {
     border: 1px solid #ccc;
     border-radius: 4px;
     background: #fff;
+.metadata {
+    font-size: 13px;
+    color: #666;
+    text-align: left;
+    margin: 0 0 3px;
+    min-height: 1.1em;
+    line-height: 1.1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    flex-wrap: wrap;
 }
 
 .content {
     width: 100%;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 10px;
     box-sizing: border-box;
@@ -255,8 +315,8 @@ header {
 .box {
     background: white;
     border: 1px solid #ddd;
-    padding: 8px 12px;
-    margin-bottom: 6px;
+    padding: 10px;
+    margin-bottom: 4px;
     border-radius: 4px;
 }
 
@@ -569,6 +629,12 @@ textarea.box-content.edit-input:focus {
     padding: 2px 6px;
     border-radius: 4px;
     color: #495057;
+    margin-left: auto;
+    flex-direction: row-reverse;
+}
+
+.checked-toggle-label #checked-emoji {
+    display: none;
 }
 
 .checked-toggle-label.editable {
@@ -609,7 +675,7 @@ textarea.box-content.edit-input:focus {
 .split-mode .split-text-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 8px;
+    gap: 6px;
     margin-bottom: 6px;
 }
 
@@ -637,6 +703,11 @@ textarea.box-content.edit-input:focus {
     box-shadow: 0 1px 4px rgba(0, 123, 255, 0.12);
 }
 
+#box-text-container {
+    background: #e6edfc !important;
+    border: 1px solid #9fc9ee;
+}
+
 .split-mode #box-text-container .box-label {
     color: #0056b3;
     font-weight: 700;
@@ -651,7 +722,7 @@ textarea.box-content.edit-input:focus {
 .split-scripture-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 8px;
+    gap: 6px;
     margin-bottom: 6px;
 }
 
@@ -778,12 +849,57 @@ textarea.box-content.edit-input:focus {
     color: #1e293b;
 }
 
+/* Appendix B9 Styles */
+.scripture-content.b9-content {
+    white-space: normal;
+    max-height: 280px;
+    padding-right: 4px;
+}
+
+.b9-heading-h2 {
+    font-size: 13px;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 0 0 6px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #e2e8f0;
+    text-transform: uppercase;
+}
+
+.b9-heading-h3 {
+    font-size: 14px;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 10px 0 3px;
+    padding: 4px 6px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.b9-heading-h3:first-child {
+    margin-top: 0;
+}
+
+.b9-item {
+    font-size: 13.5px;
+    margin: 2px 0 4px;
+    line-height: 1.45;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.b9-active-item {
+    background-color: #fef9c3;
+    border-left: 3px solid #eab308;
+    padding-left: 8px;
+    font-weight: 500;
+}
+
 /* Split Web Reference Row */
 .split-web-row {
     display: grid;
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 8px;
-    margin-bottom: 8px;
+    gap: 6px;
+    margin-bottom: 6px;
 }
 
 .web-ref-box {
@@ -857,6 +973,35 @@ textarea.box-content.edit-input:focus {
     .search-popover {
         width: 100%;
         left: 0;
+@media (max-width: 600px) {
+    body {
+        padding-top: 225px;
+    }
+
+    .control-line {
+        flex-wrap: wrap;
+    }
+
+    .search-control {
+        order: 1;
+    }
+
+    .search-language-group {
+        flex-basis: 100%;
+    }
+
+    #language-select {
+        order: 2;
+        flex: 1 1 calc(100% - 48px);
+    }
+
+    .nav-line {
+        order: 3;
+        flex-basis: 100%;
+    }
+
+    .search-box {
+        left: auto;
         right: 0;
     }
 

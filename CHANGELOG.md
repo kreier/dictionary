@@ -2,6 +2,16 @@
 
 ## [1.2.0] - 2026-09-06
 
+### Changed
+
+- Improved responsive header layout for desktop and mobile users: widened the
+  desktop interface, grouped search/language/key navigation controls, tightened
+  verification metadata spacing, and kept mobile controls stacked.
+- Moved verification metadata above the category selectors and made the search
+  control icon-based with an expandable search field.
+- Reduced spacing between content boxes and visually distinguished the
+  `TRANSLATED TEXT` field with a light blue background (`#e6edfc`).
+
 ### Added
 
 - Modernized PC and mobile UI layout:
@@ -15,13 +25,30 @@
 - Refactored scripture storage architecture from a monolithic `public/data/scriptures.json` (2.7 MB) into lightweight per-language files under `public/data/scriptures/<lang>.json` (~200–350 KB uncompressed, ~60–100 KB gzipped each).
 - Added on-demand lazy loading for Bible scriptures upon selecting the `BIBLE` category, eliminating unnecessary upfront bandwidth and memory consumption on application startup.
 - Upgraded `scripts/generate-scriptures.py` with `--all` batch fetching and per-language file generation.
+- Added Arabic Bible name aliases for scripture highlighting, covering
+  differences between canonical dictionary forms and the fully vocalized
+  names used in Arabic scripture text.
 - Added Appendix A6 kings & prophets side-by-side context view for all 55 entries across A6-A (Kings of Judah) and A6-B (Kings of Israel).
+- Added Appendix B9 World Powers Foretold by Daniel context cards, localized JW.org
+  caches for English, German, Russian, Spanish, French, and Vietnamese, and
+  explicit Arabic and Bengali unavailable placeholders.
+- Added `scripts/generate-b9.py` to refresh the Appendix B9 cache from JW.org.
+- Refreshed the Appendix A6 cache for all 56 listed languages (90 available
+  A6-A/A6-B sections and 22 explicit unavailable sections) and the Appendix B9
+  cache for all 56 listed languages,
+  preserving explicit unavailable placeholders where JW.org has no page.
+- Added explicit unavailable Appendix A6 records so missing JW.org pages are
+  shown as unavailable rather than being mistaken for an unrefreshed cache.
 - Added structured Appendix A6 cache in `public/data/appendix_a6.json` for English (`en`), German (`de`), Vietnamese (`vi`), and Russian (`ru`).
 - Added Appendix A6 generator script `scripts/generate-a6.py` with multi-language parsing and CLI support.
 - Added smart multilingual name highlighting for Kings and Prophets with auto-scroll centering active items in both left (English) and right (target language) panels.
 - Added direct localized JW.org web reference links for 45 languages for both Appendix A6-A (`kings-of-judah`) and A6-B (`kings-of-israel`) in `src/links.ts`.
 
 ### Fixed
+
+- Fixed missing Arabic Bible highlights for names such as Adam, Othniel,
+  David, Ruth, Esther, and Augustus when Arabic spelling, vowel marks, or
+  transliteration differed between the dictionary and scripture cache.
 
 - Removed book (`📖`) and globe (`🌐`) icons from the online reference cards to prevent text overflow and clipping on long titles and URLs.
 - Fixed browser freeze when selecting Appendix A6 caused by a recursive microtask loop inside `showEntry()`; implemented in-flight promise caching for `loadA6Data()` and `loadScriptures()`.

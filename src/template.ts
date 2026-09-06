@@ -3,6 +3,7 @@ import { DEFAULT_WORKER_ENDPOINT } from "./api";
 export function initAppShell(app: HTMLElement): {
     languageSelect: HTMLSelectElement;
     categoryButtons: NodeListOf<HTMLButtonElement>;
+    searchToggle: HTMLButtonElement;
     searchInput: HTMLInputElement;
     searchToggleBtn: HTMLButtonElement;
     searchPopover: HTMLDivElement;
@@ -118,26 +119,31 @@ export function initAppShell(app: HTMLElement): {
                 </button>
             </div>
 
-            <div class="nav-controls-row">
-                <div class="nav-left-col">
-                    <button type="button" id="search-toggle-btn" class="search-toggle-btn" title="Search key or English text">🔍</button>
-                    <div id="search-popover" class="search-popover" style="display: none;">
+            <div class="control-line">
+                <div class="search-language-group">
+                    <div class="search-control" id="search-control">
+                        <button
+                            type="button"
+                            class="search-toggle"
+                            id="search-toggle"
+                            aria-label="Search"
+                            title="Search"
+                        >🔍</button>
                         <input
                             type="text"
                             id="search-input"
                             class="search-box"
-                            placeholder="Search key or english..."
-                            autocomplete="off"
+                            placeholder="Search key or English..."
                         >
-                        <button type="button" id="search-clear-btn" class="search-clear-btn" title="Clear search">✕</button>
                     </div>
+
                     <select id="language-select"></select>
                 </div>
 
-                <div class="nav-right-col">
-                    <button id="prev-btn" title="Previous entry">&lt;</button>
+                <div class="nav-line">
+                    <button id="prev-btn">&lt;</button>
                     <select id="key-select"></select>
-                    <button id="next-btn" title="Next entry">&gt;</button>
+                    <button id="next-btn">&gt;</button>
                 </div>
             </div>
 
@@ -154,7 +160,7 @@ export function initAppShell(app: HTMLElement): {
             </div>
 
             <div class="box split-col" id="box-text-container">
-                <div class="box-label" id="label-text">Text</div>
+                <div class="box-label" id="label-text">TRANSLATED TEXT</div>
                 <textarea
                     class="box-content edit-input"
                     id="box-text"
@@ -355,6 +361,7 @@ export function initAppShell(app: HTMLElement): {
     return {
         languageSelect: app.querySelector<HTMLSelectElement>("#language-select")!,
         categoryButtons: app.querySelectorAll<HTMLButtonElement>(".cat-btn"),
+        searchToggle: app.querySelector<HTMLButtonElement>("#search-toggle")!,
         searchInput: app.querySelector<HTMLInputElement>("#search-input")!,
         searchToggleBtn: app.querySelector<HTMLButtonElement>("#search-toggle-btn")!,
         searchPopover: app.querySelector<HTMLDivElement>("#search-popover")!,
