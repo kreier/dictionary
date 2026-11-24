@@ -45,7 +45,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "до н. э.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -62,7 +62,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "н. э.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -274,16 +274,16 @@
   {
     "key": "age_kings",
     "text": "лет",
-    "english": " ",
+    "english": "",
     "notes": "if the word \"year\" appears after the numeral, like \"at the age of 35 years\"",
     "tag": "text",
-    "checked": "False",
+    "checked": "True",
     "checked_by": " ",
     "date": " ",
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "лет",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -804,13 +804,13 @@
     "english": "becomes king at age",
     "notes": "2025-04-14",
     "tag": "text",
-    "checked": "False",
+    "checked": "True",
     "checked_by": " ",
     "date": " ",
     "link": " ",
     "google": " ",
     "chatgpt": "становится царём в возрасте",
-    "gemini": "становится царём в возрасте",
+    "gemini": "стал королем в возрасте",
     "claude": " ",
     "deepl": "становится королём в возрасте",
     "category": "text"
@@ -2102,7 +2102,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "618-690, 705-907",
     "claude": " ",
     "deepl": "618–690, 705–907",
     "category": "text"
@@ -3037,7 +3037,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Адам",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3054,7 +3054,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Сиф",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3071,7 +3071,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Енос",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3088,7 +3088,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Каинан",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3105,7 +3105,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Малелеил",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3122,7 +3122,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иаред",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3139,7 +3139,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Енох",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3156,7 +3156,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Мафусал",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3173,7 +3173,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ламех",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3190,7 +3190,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ной",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3207,7 +3207,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Сим",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3224,7 +3224,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Арфаксад",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3241,7 +3241,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Сала",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3258,7 +3258,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Евер",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3275,7 +3275,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Фалек",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3292,7 +3292,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Рагав",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3309,7 +3309,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Серух",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3326,7 +3326,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Нахор",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3343,7 +3343,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Фарра",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3360,7 +3360,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Авраам",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3377,7 +3377,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Исаак",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3394,7 +3394,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иаков",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3411,7 +3411,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иосиф",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3428,7 +3428,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Моисей",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3445,7 +3445,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Гофониил",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3462,7 +3462,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Аод",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3479,7 +3479,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Самегар",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3496,7 +3496,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Варак, Девора, Иаиль",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3513,7 +3513,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Гедеон",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3530,7 +3530,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Фола",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3547,7 +3547,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иаир",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3564,7 +3564,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иеффай",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3581,7 +3581,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Есевон",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3598,7 +3598,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Елон",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3615,7 +3615,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Авдон",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3632,7 +3632,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Самсон",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3649,7 +3649,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Самуил",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3666,7 +3666,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Саул",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3683,7 +3683,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Давид",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3700,7 +3700,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Соломон",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3717,7 +3717,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Малахия",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3734,7 +3734,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Руфь",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3751,7 +3751,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ездра",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3768,7 +3768,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Неемия",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3785,7 +3785,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Есфирь",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3802,7 +3802,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иов",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3819,7 +3819,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Моисей",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3836,7 +3836,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иисус Навин",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3853,7 +3853,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Халев",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3870,7 +3870,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Август",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3887,7 +3887,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Тиберий",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3904,7 +3904,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Клавдий",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3921,7 +3921,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Персия",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3938,7 +3938,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иодай",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3955,7 +3955,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Аггей",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3972,7 +3972,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Зоровавель (Луки 3:27)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3989,7 +3989,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иаков",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4006,7 +4006,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Израиль",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4023,7 +4023,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Сарра",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4040,7 +4040,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Агарь",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4057,7 +4057,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Харран",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4074,7 +4074,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Реума",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4091,7 +4091,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Милка",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4108,7 +4108,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Лот",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4125,7 +4125,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Бен-Амми (Аммон)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4142,7 +4142,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Вафуил",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4159,7 +4159,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ревекка",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4176,7 +4176,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Лаван",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4193,7 +4193,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Лия",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4210,7 +4210,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Рахиль",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4227,7 +4227,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Валла",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4244,7 +4244,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Зелфа",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4261,7 +4261,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Рувим",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4278,7 +4278,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Симеон",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4295,7 +4295,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Левий",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4312,7 +4312,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иуда",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4329,7 +4329,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иссахар",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4346,7 +4346,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Завулон",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4363,7 +4363,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Дина",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4380,7 +4380,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Исав",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4397,7 +4397,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Едом",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4414,7 +4414,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Измаил",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4431,7 +4431,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Манассия",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4448,7 +4448,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "и Ефрем",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4465,7 +4465,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Вениамин",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4482,7 +4482,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Дан",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4499,7 +4499,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Неффалим",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4516,7 +4516,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Гад",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4533,7 +4533,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Асир",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4550,7 +4550,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Уц, Вуз, Кемуил",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4567,7 +4567,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Кесед, Хазо",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4584,7 +4584,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Пилдаш, Идлаф",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4601,7 +4601,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Тевах",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4618,7 +4618,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Гахам",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4635,7 +4635,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Тахаш",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4652,7 +4652,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Мааха",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4669,7 +4669,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Махалафа",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4686,7 +4686,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Васемафа",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4703,7 +4703,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Рагуил",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4720,7 +4720,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Нахоф",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4737,7 +4737,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Зерай",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4754,7 +4754,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Шамма",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4771,7 +4771,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Мизза",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4788,7 +4788,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ада",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4805,7 +4805,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Елифаз",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4822,7 +4822,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Теман",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4839,7 +4839,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Омар",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4856,7 +4856,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Цефо",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4873,7 +4873,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Кеназ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4890,7 +4890,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Корей",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4907,7 +4907,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Корей, Гатам",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4924,7 +4924,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Амалик",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4941,7 +4941,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Оливема",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4958,7 +4958,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иеус",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4975,7 +4975,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иелом",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4992,7 +4992,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Наваиоф",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5009,7 +5009,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Кидар",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5026,7 +5026,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Мишма",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5043,7 +5043,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Адбеил, Мивсам",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5060,7 +5060,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Дума, Масса",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5077,7 +5077,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Хадад",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5094,7 +5094,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Тема",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5111,7 +5111,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иетур",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5128,7 +5128,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Нафиш",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5145,7 +5145,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Кедма",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5162,7 +5162,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Хеттура",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5179,7 +5179,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Зимран",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5196,7 +5196,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иокшан",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5213,7 +5213,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Медан",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5230,7 +5230,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Мадиам",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5247,7 +5247,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ишбак",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5264,7 +5264,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Шуах",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5281,7 +5281,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Тимна",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5298,7 +5298,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "(Псалом 89:10)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5315,7 +5315,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Хам",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5332,7 +5332,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ханаан",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5349,7 +5349,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Сидон",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5366,7 +5366,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Хет",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5383,7 +5383,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иевусей",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5400,7 +5400,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Аморрей",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5417,7 +5417,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Гергесей",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5434,7 +5434,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Евей",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5451,7 +5451,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Аркей",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5468,7 +5468,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Синей",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5485,7 +5485,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Арвадей",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5502,7 +5502,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Цемарей",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5519,7 +5519,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Амафей",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5536,7 +5536,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Куш",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5553,7 +5553,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Нимрод",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5570,7 +5570,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Мицраим",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5587,7 +5587,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Каслухим",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5604,7 +5604,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иафет",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5621,7 +5621,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ассур",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5638,7 +5638,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Луд",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5655,7 +5655,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Арам",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5672,7 +5672,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Елам",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5689,7 +5689,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иоктан",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5706,7 +5706,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Алмодад",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5723,7 +5723,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Шалеф",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5740,7 +5740,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Хацармавет",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5757,7 +5757,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иерах",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5774,7 +5774,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Гадорам",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5791,7 +5791,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Узал",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5808,7 +5808,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Дикла, Овал",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5825,7 +5825,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Авимаил",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5842,7 +5842,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Сава, Офир",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5859,7 +5859,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Хавила",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5876,7 +5876,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иовав",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5893,7 +5893,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "1) Египтяне: Псалтирь 104:23",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5910,7 +5910,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "2) Хананеи: Иисус Навин 13:3",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5927,7 +5927,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "3) Арамеи: Осия 12:12",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5944,7 +5944,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "4) Эламиты: Ездра 4:9",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5961,7 +5961,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "5) Ассирийцы: Иезекииль 27:23",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5978,7 +5978,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "6) Филистимляне: 1 Паралипоменон 1:12",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5995,7 +5995,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "7) Ефиопляне [Кушиты]: 4 Царств 19:9",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6012,7 +6012,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "8) Едомляне: Числа 20:14-17",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6029,7 +6029,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "9) Моавитяне: Второзаконие 23:3, 4",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6046,7 +6046,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "10) Аммонитяне: Иисус Навин 12:2",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6063,7 +6063,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "11) Мадианитяне: Числа 31:2, 3",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6080,7 +6080,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "12) Амаликитяне: 1 Царств 15:2",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6097,7 +6097,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "13) Феманитяне: Иов 42:7",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6114,7 +6114,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "14) Сидоняне: Захария 9:2",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6131,7 +6131,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "15) Хеттеи: Бытие 15:20",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6148,7 +6148,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "16) Иевусеи: Иисус Навин 15:63",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6165,7 +6165,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иудифь?",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6182,7 +6182,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "17) Лидийцы: 1 Паралипоменон 1:17",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6199,7 +6199,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "18) Измаильтяне: Бытие 37:27",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6216,7 +6216,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "19) Аморреи: Судьи 6:10",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6233,7 +6233,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "20) Евеи [Гаваонитяне]: Иисус Навин 9:3, 7",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6250,7 +6250,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Каин",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6267,7 +6267,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Авель",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6284,7 +6284,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ирад",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6301,7 +6301,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Мехуяель",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6318,7 +6318,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Мафусал",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6335,7 +6335,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иавал",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6352,7 +6352,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иувал",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6369,7 +6369,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Цилла",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6386,7 +6386,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Тувалкаин",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6403,7 +6403,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ноема",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6420,7 +6420,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ровоам",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6437,7 +6437,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Авия",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6454,7 +6454,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Аса",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6471,7 +6471,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иосафат",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6488,7 +6488,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иорам",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6505,7 +6505,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Охозия",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6522,7 +6522,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Царица Гофолия",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6539,7 +6539,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иоас",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6556,7 +6556,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Амасия",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6573,7 +6573,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Озия (Азария)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6590,7 +6590,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иеровоам",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6607,7 +6607,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Надав",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6624,7 +6624,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Вааса",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6641,7 +6641,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ила",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6658,7 +6658,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Замврий",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6675,7 +6675,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Амврий и Фамний вместе",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6692,7 +6692,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Амврий (единолично)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6709,7 +6709,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ахав",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6726,7 +6726,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иорам",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6743,7 +6743,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ииуй",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6760,7 +6760,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иоахаз",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6777,7 +6777,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иоахаз и Иоас",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6794,7 +6794,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иоас (единолично)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6811,7 +6811,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иеровоам II",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6828,7 +6828,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Илия",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6845,7 +6845,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Елисей",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6862,7 +6862,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иона",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6879,7 +6879,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Амос",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6896,7 +6896,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иоиль",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6913,7 +6913,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иоафам",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6930,7 +6930,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ахаз",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6947,7 +6947,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Езекия",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6964,7 +6964,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Манассия",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6981,7 +6981,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Амон",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6998,7 +6998,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иосия",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7015,7 +7015,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иоахаз",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7032,7 +7032,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иоаким",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7049,7 +7049,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иехония",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7066,7 +7066,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Седекия",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7083,7 +7083,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Захария",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7100,7 +7100,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Селлум",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7117,7 +7117,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Менаим",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7134,7 +7134,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Факия",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7151,7 +7151,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Факей",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7168,7 +7168,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Осия",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7185,7 +7185,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Осия",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7202,7 +7202,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Исаия",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7219,7 +7219,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Михей",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7236,7 +7236,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Софония",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7253,7 +7253,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Наум",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7270,7 +7270,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иеремия",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7287,7 +7287,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Аввакум",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7304,7 +7304,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Даниил",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7321,7 +7321,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Иезекииль",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7338,7 +7338,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Авдий",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7355,7 +7355,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Даниила 2:32, 36-38; 7:4",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7372,7 +7372,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Даниила 2:32, 39; 7:5",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7389,7 +7389,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Даниила 2:32, 39; 7:6",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7406,7 +7406,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Даниила 2:33, 40; 7:7",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7423,7 +7423,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Даниила 2:33, 41-43",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7440,7 +7440,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Вавилон",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7457,7 +7457,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Мидо-Персия",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7474,7 +7474,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Греция",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7491,7 +7491,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Рим",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7508,7 +7508,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Англо-Америка",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7525,7 +7525,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Царь Навуходоносор",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7542,7 +7542,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "разрушает Иерусалим",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7559,7 +7559,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Завоевывает Вавилон",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7576,7 +7576,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Кир издает указ о возвращении",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7593,7 +7593,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "иудеев в Иерусалим",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7610,7 +7610,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Александр Македонский",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7627,7 +7627,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "завоевывает Персию",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7644,7 +7644,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Господствует над Израилем",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7661,7 +7661,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Разрушает Иерусалим",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7678,7 +7678,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Во время Первой мировой войны",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7695,7 +7695,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "англо-американская мировая держава",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7712,7 +7712,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "выходит на мировую арену",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7729,7 +7729,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "607 год до н. э.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7746,7 +7746,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "539 г. до н. э.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7763,7 +7763,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "537 г. до н. э.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7780,7 +7780,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "331 г. до н. э.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7797,7 +7797,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "63 г. до н. э.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7814,7 +7814,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "70 г. н. э.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7831,7 +7831,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "1914–1918 гг. н. э.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7848,7 +7848,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Откровение 12:9",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7865,7 +7865,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Деяния 7:6",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7882,7 +7882,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "770–256 гг. до н. э.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7899,7 +7899,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "1943–1513 гг. до н. э.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7916,7 +7916,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "25–220 гг. н. э.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7933,7 +7933,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "368–581 гг. н. э.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7950,7 +7950,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "420–589 гг. н. э.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7967,7 +7967,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Юлий",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -7984,7 +7984,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Калигула",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8001,7 +8001,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Нерон",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8018,7 +8018,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Гальба, Отон и Вителлий (год четырёх императоров)",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8035,7 +8035,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Веспасиан",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8052,7 +8052,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Covid-19",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8069,7 +8069,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Первый Никейский собор",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8086,7 +8086,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Оксиринхские папирусы",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8103,7 +8103,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Папирус P52",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8120,7 +8120,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Династия Цин",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8137,7 +8137,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Династия Мин в имперском Китае",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8154,7 +8154,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Юань",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8171,7 +8171,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Южная Сун",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8188,7 +8188,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Северная Сун",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8205,7 +8205,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Западная Ся",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8222,7 +8222,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Николай Коперник",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8239,7 +8239,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Галилео Галилей",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8256,7 +8256,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Исаак Ньютон",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8273,7 +8273,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Династия Шан",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8290,7 +8290,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Западная Чжоу",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8307,7 +8307,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Восточная Чжоу",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8324,7 +8324,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Западная Хань",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8341,7 +8341,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Восточная Хань",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8358,7 +8358,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Китай",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8375,7 +8375,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Китай",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8392,7 +8392,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Северные династии",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8409,7 +8409,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Южные династии",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8426,7 +8426,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Династия Тан",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8443,7 +8443,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Византийская империя",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8460,7 +8460,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Османская империя",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8477,7 +8477,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Чингисхан",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8494,7 +8494,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Империя инков",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8511,7 +8511,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Империя Гуптов",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8528,7 +8528,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Теотиуакан",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8545,7 +8545,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Аббасидский халифат",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8562,7 +8562,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Мамлюкский султанат",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8579,7 +8579,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Аль-Газали",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8596,7 +8596,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Библия Вульфилы",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8613,7 +8613,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Династия Чан",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8630,7 +8630,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Династия Ле",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8647,7 +8647,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Правители Чин и Нгуен",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8664,7 +8664,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Сельджукская империя",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8681,7 +8681,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Вандалы",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8698,7 +8698,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Лангобардское королевство",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"

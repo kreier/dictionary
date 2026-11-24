@@ -273,8 +273,8 @@
   },
   {
     "key": "age_kings",
-    "text": " ",
-    "english": " ",
+    "text": "",
+    "english": "",
     "notes": "if the word \"year\" appears after the numeral, like \"at the age of 35 years\"",
     "tag": "text",
     "checked": "True",
@@ -283,7 +283,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -800,7 +800,7 @@
   },
   {
     "key": "became_king",
-    "text": "nagbalin nga ari",
+    "text": "nagbalin nga ari iti tawen a",
     "english": "becomes king at age",
     "notes": "2025-04-14",
     "tag": "text",

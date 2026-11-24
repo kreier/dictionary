@@ -273,8 +273,8 @@
   },
   {
     "key": "age_kings",
-    "text": " ",
-    "english": " ",
+    "text": "",
+    "english": "",
     "notes": "if the word \"year\" appears after the numeral, like \"at the age of 35 years\"",
     "tag": "text",
     "checked": "False",
@@ -800,7 +800,7 @@
   },
   {
     "key": "became_king",
-    "text": "nanbalin ay ari",
+    "text": "nanbalin ay ari sin tawen ay",
     "english": "becomes king at age",
     "notes": "2025-04-14",
     "tag": "text",
@@ -810,7 +810,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": "nanbalin ay ari sin tawen na ay",
+    "gemini": "nanbalin ay ari sin tawen ay",
     "claude": " ",
     "deepl": " ",
     "category": "text"

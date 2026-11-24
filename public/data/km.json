@@ -273,8 +273,8 @@
   },
   {
     "key": "age_kings",
-    "text": " ",
-    "english": " ",
+    "text": "វស្សា",
+    "english": "",
     "notes": "if the word \"year\" appears after the numeral, like \"at the age of 35 years\"",
     "tag": "text",
     "checked": "False",
@@ -283,7 +283,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": "",
+    "gemini": "វស្សា",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -800,7 +800,7 @@
   },
   {
     "key": "became_king",
-    "text": "បានក្លាយជាស្តេចនៅអាយុ",
+    "text": "បានឡើងសោយរាជ្យនៅព្រះជន្ម",
     "english": "becomes king at age",
     "notes": "2025-04-14",
     "tag": "text",
@@ -810,7 +810,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "ក្លាយជាស្តេចនៅអាយុ",
-    "gemini": "ឡើងសោយរាជ្យនៅអាយុ",
+    "gemini": "បានឡើងសោយរាជ្យនៅព្រះជន្ម",
     "claude": " ",
     "deepl": " ",
     "category": "text"

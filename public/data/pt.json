@@ -11,7 +11,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "6.000 Anos de História Humana — Uma Cronologia",
-    "gemini": " ",
+    "gemini": "6.000 anos da história humana — Uma linha do tempo",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -28,7 +28,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Cronologia da história humana de 4000 AEC até ao presente",
-    "gemini": " ",
+    "gemini": "Linha do tempo da história humana de 4000 a.E.C. até o presente",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -45,7 +45,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -62,7 +62,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -79,7 +79,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "mês",
-    "gemini": " ",
+    "gemini": "mês",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -96,7 +96,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "meses",
-    "gemini": " ",
+    "gemini": "meses",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -113,7 +113,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "dia",
-    "gemini": " ",
+    "gemini": "dia",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -130,7 +130,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "dias",
-    "gemini": " ",
+    "gemini": "dias",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -147,7 +147,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "a",
-    "gemini": " ",
+    "gemini": "até",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -164,7 +164,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Dilúvio",
-    "gemini": " ",
+    "gemini": "Dilúvio",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -181,7 +181,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "1593 a 1473 AEC – 120 anos",
-    "gemini": " ",
+    "gemini": "1593 a 1473 a.E.C. – 120 anos",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -198,7 +198,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Nisã 1513 AEC a Zive 1034 AEC",
-    "gemini": " ",
+    "gemini": "Nisã de 1513 a.E.C. até Zive de 1034 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -215,7 +215,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Jesus batizado no outono de 29 EC",
-    "gemini": " ",
+    "gemini": "Jesus batizado no outono de 29 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -232,7 +232,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "ano",
-    "gemini": " ",
+    "gemini": "ano",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -249,7 +249,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "anos",
-    "gemini": " ",
+    "gemini": "anos",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -266,15 +266,15 @@
     "link": " ",
     "google": " ",
     "chatgpt": "anos",
-    "gemini": " ",
+    "gemini": "anos",
     "claude": " ",
     "deepl": " ",
     "category": "text"
   },
   {
     "key": "age_kings",
-    "text": " ",
-    "english": " ",
+    "text": "anos",
+    "english": "",
     "notes": "if the word \"year\" appears after the numeral, like \"at the age of 35 years\"",
     "tag": "text",
     "checked": "False",
@@ -283,7 +283,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "anos",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -300,7 +300,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Israel no deserto 1513 a 1473 AEC – 40 anos",
-    "gemini": " ",
+    "gemini": "Israel no deserto de 1513 a 1473 a.E.C. – 40 anos",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -317,7 +317,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "1473 a 1117 AEC – 356 anos",
-    "gemini": " ",
+    "gemini": "1473 a 1117 a.E.C. – 356 anos",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -334,7 +334,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Época dos juízes",
-    "gemini": " ",
+    "gemini": "Período dos juízes",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -351,7 +351,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "479 anos até a construção do templo – 1 Reis 6:1",
-    "gemini": " ",
+    "gemini": "479 anos até a construção do templo – 1 Reis 6:1",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -368,7 +368,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "69 semanas até o Messias – Daniel 9:25",
-    "gemini": " ",
+    "gemini": "69 semanas até o Messias – Daniel 9:25",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -385,7 +385,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "3,5 anos de serviço de Jesus, executado em 14 de Nisã, 33 EC",
-    "gemini": " ",
+    "gemini": "3,5 anos de ministério de Jesus, executado em 14 de nisã de 33 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -402,7 +402,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Jesus nasceu em 2 AEC",
-    "gemini": " ",
+    "gemini": "Jesus nasceu em 2 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -419,7 +419,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "607 a 537 AEC – 70 anos (Jeremias 25:11)",
-    "gemini": " ",
+    "gemini": "607 a 537 a.E.C. – 70 anos (Jeremias 25:11)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -436,7 +436,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Exílio",
-    "gemini": " ",
+    "gemini": "Exílio",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -453,7 +453,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "7 tempos – 2520 anos até o Reino Messiânico 1914 EC (Daniel 4:23)",
-    "gemini": " ",
+    "gemini": "7 tempos – 2520 anos até o Reino Messiânico em 1914 E.C. (Daniel 4:23)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -470,7 +470,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Primeira Guerra Mundial – 1914–1918",
-    "gemini": " ",
+    "gemini": "Primeira Guerra Mundial – 1914–1918",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -487,7 +487,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Segunda Guerra Mundial – 1939–1945",
-    "gemini": " ",
+    "gemini": "Segunda Guerra Mundial – 1939–1945",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -504,7 +504,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Guerra dos Trinta Anos na Europa 1618-1648",
-    "gemini": " ",
+    "gemini": "Guerra dos Trinta Anos na Europa 1618-1648",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -521,7 +521,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "110 anos",
-    "gemini": " ",
+    "gemini": "110 anos",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -538,7 +538,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "mais de 85 anos",
-    "gemini": " ",
+    "gemini": "mais de 85 anos",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -555,7 +555,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Primeira Viagem Missionária de Paulo, c. 47-48 EC com Barnabé e João Marcos",
-    "gemini": " ",
+    "gemini": "Primeira Viagem Missionária de Paulo, c. 47-48 E.C. com Barnabé e João Marcos",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -572,7 +572,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Questão da circuncisão em Antioquia, conferência em Jerusalém c. 49 EC",
-    "gemini": " ",
+    "gemini": "Questão da circuncisão em Antioquia, conferência em Jerusalém c. 49 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -589,7 +589,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Segunda Viagem Missionária c. 49-52 EC com Silas (Silvano)",
-    "gemini": " ",
+    "gemini": "Segunda Viagem Missionária c. 49-52 E.C. com Silas (Silvano)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -606,7 +606,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Terceira Viagem Missionária c. 52-56 EC",
-    "gemini": " ",
+    "gemini": "Terceira Viagem Missionária c. 52-56 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -623,7 +623,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Paulo sob custódia em Cesareia c. 56-58 EC",
-    "gemini": " ",
+    "gemini": "Paulo sob custódia em Cesareia c. 56-58 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -640,7 +640,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Primeira prisão de Paulo em Roma c. 59-61 EC",
-    "gemini": " ",
+    "gemini": "Primeira prisão de Paulo em Roma c. 59-61 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -657,7 +657,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Segunda prisão de Paulo em Roma c. 65 EC, 2 Timóteo escrita, Paulo executado",
-    "gemini": " ",
+    "gemini": "Segunda prisão de Paulo em Roma c. 65 E.C., 2 Timóteo escrita, Paulo executado",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -674,7 +674,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Êxodo do Egito em 14 de Nisã, 1513 AEC",
-    "gemini": " ",
+    "gemini": "Êxodo do Egito em 14 de nisã de 1513 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -691,7 +691,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Divisão de Israel 997 AEC",
-    "gemini": " ",
+    "gemini": "Divisão de Israel 997 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -708,7 +708,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Destruição de Samaria 740 AEC pela Assíria",
-    "gemini": " ",
+    "gemini": "Destruição de Samaria em 740 a.E.C. pela Assíria",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -725,7 +725,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Destruição de Jerusalém 607 AEC pela Babilônia, 390 anos após a divisão do reino (Ezequiel 4:5)",
-    "gemini": " ",
+    "gemini": "Destruição de Jerusalém em 607 a.E.C. pela Babilônia, 390 anos após a divisão do reino (Ezequiel 4:5)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -742,7 +742,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Templo em Jerusalém reconstruído 515 AEC",
-    "gemini": " ",
+    "gemini": "Templo em Jerusalém reconstruído em 515 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -759,7 +759,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Muro de Jerusalém reconstruído 455 AEC",
-    "gemini": " ",
+    "gemini": "Muralha de Jerusalém reconstruída em 455 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -776,7 +776,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Destruição de Jerusalém 70 EC por Roma sob Tito",
-    "gemini": " ",
+    "gemini": "Destruição de Jerusalém em 70 E.C. por Roma sob o comando de Tito",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -793,14 +793,14 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Fim do tempo das nações (Lucas 21:24), o Reino de Deus começa a reinar no céu 1914 EC",
-    "gemini": " ",
+    "gemini": "Fim dos tempos dos gentios (Lucas 21:24), o Reino de Deus começa a governar no céu em 1914 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
   },
   {
     "key": "became_king",
-    "text": "torna -se rei na idade",
+    "text": "torna-se rei aos",
     "english": "becomes king at age",
     "notes": "2025-04-14",
     "tag": "text",
@@ -810,7 +810,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "torna-se rei com a idade de",
-    "gemini": " ",
+    "gemini": "torna-se rei aos",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -827,7 +827,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Vulgata concluída por Jerônimo (tradução latina da Bíblia) c. 405 EC",
-    "gemini": " ",
+    "gemini": "Vulgata concluída por Jerônimo (tradução da Bíblia para o latim) c. 405 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -844,7 +844,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Bíblia de Gutenberg impressa 1455",
-    "gemini": " ",
+    "gemini": "Bíblia de Gutenberg impressa em 1455",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -861,7 +861,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Texto grego das Escrituras Gregas Cristãs publicado por Erasmo de Roterdã 1516",
-    "gemini": " ",
+    "gemini": "Texto grego das Escrituras Gregas Cristãs publicado por Desidério Erasmo de Roterdã em 1516",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -878,7 +878,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Tradução da Bíblia de Lutero em setembro de 1522",
-    "gemini": " ",
+    "gemini": "Tradução da Bíblia de Lutero em setembro de 1522",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -895,7 +895,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Tradução da Bíblia em inglês por Tyndale 1536",
-    "gemini": " ",
+    "gemini": "Tradução da Bíblia para o inglês por Tyndale em 1536",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -912,7 +912,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Bíblia King James 1611",
-    "gemini": " ",
+    "gemini": "Bíblia King James em 1611",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -929,7 +929,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Jesus inicia seu serviço 29 EC (Lucas 3:1, 21)",
-    "gemini": " ",
+    "gemini": "Jesus começa seu ministério em 29 E.C. (Lucas 3:1, 21)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -946,7 +946,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Meio da semana \"o sacrifício cessará\" Daniel 9:27",
-    "gemini": " ",
+    "gemini": "Meio da semana, “o sacrifício cessará” Daniel 9:27",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -963,7 +963,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Cornélio batizado no fim das 70 semanas (Daniel 9:24) em 36 E.C.",
-    "gemini": " ",
+    "gemini": "Cornélio batizado no fim das 70 semanas (Daniel 9:24) em 36 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -980,7 +980,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Fim do período pré-colombiano nas Américas 1492",
-    "gemini": " ",
+    "gemini": "Fim do período pré-colombiano nas Américas em 1492",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -997,7 +997,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Declaração de independência das 13 colônias na América 1776",
-    "gemini": " ",
+    "gemini": "Declaração de independência das 13 colônias na América em 1776",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1014,7 +1014,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Tischendorf descobre o Códice Sinaítico do século 4 em 1844",
-    "gemini": " ",
+    "gemini": "Tischendorf descobre o Códice Sinaítico do século IV em 1844",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1031,7 +1031,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Manuscritos do Mar Morto escritos",
-    "gemini": " ",
+    "gemini": "Manuscritos do Mar Morto escritos",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1048,7 +1048,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Septuaginta LXX traduzida",
-    "gemini": " ",
+    "gemini": "Septuaginta (LXX) traduzida",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1065,7 +1065,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "O primeiro exemplar de \"A Torre de Vigia de Sião e Heraldo da Presença de Cristo\" é publicado em 1879",
-    "gemini": " ",
+    "gemini": "O primeiro número da “A Torre de Vigia de Sião e Arauto da Presença de Cristo” é publicado em 1879",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1082,7 +1082,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Os Estudantes da Bíblia adotam um novo nome – Testemunhas de Jeová (Isaías 43:10, 12) em Columbus, Ohio, 1931",
-    "gemini": " ",
+    "gemini": "Os Estudantes da Bíblia adotam um novo nome – Testemunhas de Jeová (Isaías 43:10, 12) em Columbus, Ohio, 1931",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1099,7 +1099,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Escola Bíblica de Gilead da Torre de Vigia começa na segunda-feira, 1 de fevereiro de 1943",
-    "gemini": " ",
+    "gemini": "Escola Bíblica de Gileade da Torre de Vigia começa na segunda-feira, 1 de fevereiro de 1943",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1116,7 +1116,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "\"Tradução do Novo Mundo das Escrituras Sagradas\" lançada em Manchester, Inglaterra, em 18 de junho de 1960, reintroduz o nome Jeová em muitas partes da Bíblia",
-    "gemini": " ",
+    "gemini": "“Tradução do Novo Mundo das Escrituras Sagradas” lançada em Manchester, Inglaterra, em 18 de junho de 1960, reintroduz o nome Jeová em muitas partes da Bíblia",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1133,7 +1133,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "\"Tradução do Novo Mundo das Escrituras Sagradas\" revisada lançada na reunião anual de 2013, otimizada para uso digital e online",
-    "gemini": " ",
+    "gemini": "“Tradução do Novo Mundo das Escrituras Sagradas” revisada lançada na reunião anual de 2013, otimizada para uso digital e online",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1150,7 +1150,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Situação geopolítica chamada \"Guerra Fria\" 1945-1991",
-    "gemini": " ",
+    "gemini": "Situação geopolítica chamada de “Guerra Fria” 1945-1991",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1167,7 +1167,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Códice Sinaítico escrito",
-    "gemini": " ",
+    "gemini": "Códice Sinaítico escrito",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1184,7 +1184,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Códice Vaticanus escrito",
-    "gemini": " ",
+    "gemini": "Códice Vaticano escrito",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1201,7 +1201,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Códice de Leningrado escrito no Cairo 1008 EC",
-    "gemini": " ",
+    "gemini": "Códice de Leningrado escrito no Cairo em 1008 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1218,7 +1218,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "João escreve \"apocalipse\" enquanto exilado em Patmos 96-98 E.C.",
-    "gemini": " ",
+    "gemini": "João escreve o “Apocalipse” enquanto exilado em Patmos, 96-98 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1235,7 +1235,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "O Buda – Siddhartha Gautama c.563-c.483 A.E.C.",
-    "gemini": " ",
+    "gemini": "O Buda – Siddhartha Gautama c. 563-c. 483 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1252,7 +1252,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Buda alternativamente c. 480-400 A.E.C.",
-    "gemini": " ",
+    "gemini": "Buda alternativamente c. 480-400 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1269,7 +1269,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Maomé c. 570-632",
-    "gemini": " ",
+    "gemini": "Maomé c. 570-632",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1286,7 +1286,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Confúcio c.551-c.479 A.E.C.",
-    "gemini": " ",
+    "gemini": "Confúcio c. 551-c. 479 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1303,7 +1303,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Hégira - Jornada de Meca a Medina 16 de julho de 622",
-    "gemini": " ",
+    "gemini": "Hégira - Viagem de Meca a Medina em 16 de julho de 622",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1320,7 +1320,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "1553 A.E.C. Moisés tem que fugir do Egito – Êxodo 2:15, Atos 7:23",
-    "gemini": " ",
+    "gemini": "1553 a.E.C. Moisés tem de fugir do Egito – Êxodo 2:15, Atos 7:23",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1337,7 +1337,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "1513 A.E.C. Egito recebe 10 pragas",
-    "gemini": " ",
+    "gemini": "1513 a.E.C. O Egito recebe 10 pragas",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1354,7 +1354,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "José vendido como escravo aos 17 anos – Gênesis 37:2",
-    "gemini": " ",
+    "gemini": "José vendido como escravo aos 17 anos – Gênesis 37:2",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1371,7 +1371,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "400 anos de aflição (Atos 7:6) – Ismael 1913 A.E.C.",
-    "gemini": " ",
+    "gemini": "400 anos de aflição (Atos 7:6) – Ismael 1913 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1388,7 +1388,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Alexandre, o Grande (Daniel 11:3)",
-    "gemini": " ",
+    "gemini": "Alexandre, o Grande (Daniel 11:3)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1405,7 +1405,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Ciro, o Grande, Cambises II, Dario I 490 A.E.C., Xerxes I 480 A.E.C. (esposo de Ester, Daniel 11:2)",
-    "gemini": " ",
+    "gemini": "Ciro, o Grande, Cambises II, Dario I 490 a.E.C., Xerxes I 480 a.E.C. (marido de Ester, Daniel 11:2)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1422,7 +1422,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Seleuco I Nicátor (v5) Síria até Antíoco III (v10) e Seleuco IV (v18, 19) até Otávio (v20) e Tibério (v21-24)",
-    "gemini": " ",
+    "gemini": "Seleuco I Nicátor (v. 5), Síria até Antíoco III (v. 10) e Seleuco IV (v. 18, 19) até Otaviano (v. 20) e Tibério (v. 21-24)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1439,7 +1439,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Rei do Norte",
-    "gemini": " ",
+    "gemini": "Rei do Norte",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1456,7 +1456,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Ptolomeu I, II, III, IV (v11, 12), V (v15, 16) até a batalha de Áccio 31 A.E.C.",
-    "gemini": " ",
+    "gemini": "Ptolomeu I, II, III, IV (v. 11, 12), V (v. 15, 16) até a batalha de Áccio, 31 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1473,7 +1473,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Rei do Sul",
-    "gemini": " ",
+    "gemini": "Rei do Sul",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1490,7 +1490,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Império Britânico 1870, Potência Mundial Anglo-Americana desde 1914",
-    "gemini": " ",
+    "gemini": "Império Britânico 1870, Potência Mundial Anglo-Americana desde 1914",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1507,7 +1507,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Rei do Sul",
-    "gemini": " ",
+    "gemini": "Rei do Sul",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1524,7 +1524,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Alemanha com o Imperador Guilherme I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
-    "gemini": " ",
+    "gemini": "Alemanha com o Imperador Guilherme I 1871 (v. 28), 1914 (v. 29), 1935 (v. 30b), 1939 (v. 31a)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1541,7 +1541,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Norte",
-    "gemini": " ",
+    "gemini": "Norte",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1558,7 +1558,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "União Soviética 1945-1991 (Daniel 11:32-39, 40b, 41)",
-    "gemini": " ",
+    "gemini": "União Soviética 1945-1991 (Daniel 11:32-39, 40b, 41)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1575,7 +1575,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Rússia desde 2017 (w20 maio)",
-    "gemini": " ",
+    "gemini": "Rússia desde 2017 (w20 maio)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1592,7 +1592,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Presença de Cristo, Conclusão do sistema de coisas (Mateus 24:3), os últimos dias (2 Timóteo 3:1)",
-    "gemini": " ",
+    "gemini": "Presença de Cristo, Terminação do sistema de coisas (Mateus 24:3), os últimos dias (2 Timóteo 3:1)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1609,7 +1609,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Últimos dias",
-    "gemini": " ",
+    "gemini": "Últimos dias",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1626,7 +1626,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Rei Suryavarman II constrói Angkor Wat 1113-1150",
-    "gemini": " ",
+    "gemini": "Rei Suryavarman II constrói Angkor Wat 1113-1150",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1643,7 +1643,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Notre-Dame de Paris construída 1163-1260",
-    "gemini": " ",
+    "gemini": "Notre-Dame de Paris construída 1163-1260",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1660,7 +1660,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Torre de Babel construída",
-    "gemini": " ",
+    "gemini": "Torre de Babel construída",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1677,7 +1677,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "400 anos de aflição",
-    "gemini": " ",
+    "gemini": "400 anos de aflição",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1694,7 +1694,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Esposa de Ló",
-    "gemini": " ",
+    "gemini": "Mulher de Ló",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1711,7 +1711,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Filhas de Ló",
-    "gemini": " ",
+    "gemini": "Filhas de Ló",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1728,7 +1728,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Moabe (filha mais velha)",
-    "gemini": " ",
+    "gemini": "Moabe (filha mais velha)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1745,7 +1745,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Pedra de Roseta 196 A.E.C.",
-    "gemini": " ",
+    "gemini": "Pedra de Roseta 196 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1762,7 +1762,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Heródoto c. 484 – c. 425 a.C., escreve As Histórias",
-    "gemini": " ",
+    "gemini": "Heródoto c. 484 – c. 425 a.C., escreve As Histórias",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1779,7 +1779,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Aristóteles 384 – 322 a.C.",
-    "gemini": " ",
+    "gemini": "Aristóteles 384 – 322 a.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1796,7 +1796,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Ptolomeu c. 100 – c. 170 d.C.",
-    "gemini": " ",
+    "gemini": "Ptolomeu c. 100 – c. 170 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1813,7 +1813,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Pitágoras c. 570 – c. 495 a.C.",
-    "gemini": " ",
+    "gemini": "Pitágoras c. 570 – c. 495 a.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1830,7 +1830,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Platão c. 427 – c. 348 a.C.",
-    "gemini": " ",
+    "gemini": "Platão c. 427 – c. 348 a.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1847,7 +1847,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Sócrates c. 470 – c. 399 a.C.",
-    "gemini": " ",
+    "gemini": "Sócrates c. 470 – c. 399 a.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1864,7 +1864,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Josefo c. 37 – c. 100 d.C.",
-    "gemini": " ",
+    "gemini": "Josefo c. 37 – c. 100 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1881,7 +1881,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Cícero 106–43 a.C.",
-    "gemini": " ",
+    "gemini": "Cícero 106–43 a.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1898,7 +1898,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Cartas de Laquis c. 590 a.C.",
-    "gemini": " ",
+    "gemini": "Cartas de Laquis c. 590 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1915,7 +1915,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Relevos de Laquis c. 681 a.C.",
-    "gemini": " ",
+    "gemini": "Relevos de Laquis c. 681 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1932,7 +1932,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Estela de Mesa (Pedra Moabita) c. 840 a.C.",
-    "gemini": " ",
+    "gemini": "Estela de Mesa (Pedra Moabita) c. 840 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1949,7 +1949,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Gilgamesh e Aga 𒇽𒆥𒄄𒀀𒀝𒂵",
-    "gemini": " ",
+    "gemini": "Gilgamesh e Aga",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1966,7 +1966,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Epopeia de Gilgamesh (Sîn-lēqi-unninni)",
-    "gemini": " ",
+    "gemini": "Epopeia de Gilgamesh (Sîn-lēqi-unninni)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1983,7 +1983,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Calendário Gregoriano 1582",
-    "gemini": " ",
+    "gemini": "Calendário gregoriano 1582",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2000,7 +2000,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "c. 1600-1046 a.C.",
-    "gemini": " ",
+    "gemini": "c. 1600-1046 a.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2017,7 +2017,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "c. 1046-771 a.C.",
-    "gemini": " ",
+    "gemini": "c. 1046-771 a.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2034,7 +2034,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Qin 221-207 a.C.",
-    "gemini": " ",
+    "gemini": "Qin 221-207 a.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2051,7 +2051,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "207 a.C. – 9 d.C.",
-    "gemini": " ",
+    "gemini": "207 a.C. – 9 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2068,7 +2068,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Três Reinos 220-280 d.C.",
-    "gemini": " ",
+    "gemini": "Três Reinos 220-280 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2085,7 +2085,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Dezesseis Reinos 304-439 d.C.",
-    "gemini": " ",
+    "gemini": "Dezesseis Reinos 304-439 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2102,7 +2102,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "618-690, 705-907",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2119,7 +2119,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "690-705 Wu Zhou",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2136,7 +2136,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Tang",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2153,7 +2153,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Regência de Gonghe 841-828 a.C.",
-    "gemini": " ",
+    "gemini": "Regência Gonghe 841-828 A.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2170,7 +2170,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Asoka (c. 304-232 a.C.) promove o budismo",
-    "gemini": " ",
+    "gemini": "Açoca (c. 304-232 A.E.C.) promove o budismo",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2187,7 +2187,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Ezequias amplia o túnel de Siloé",
-    "gemini": " ",
+    "gemini": "Ezequias amplia o túnel de Siloé",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2204,7 +2204,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Anglo-americano é simbolizado pelos pés de ferro misturados com barro na profecia em Daniel 2:33, 41-43",
-    "gemini": " ",
+    "gemini": "O mundo anglo-americano é simbolizado pelos pés de ferro misturado com barro na profecia de Daniel 2:33, 41-43",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2221,7 +2221,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Manetão escreve Aegyptiaca",
-    "gemini": " ",
+    "gemini": "Maneto escreve Aegyptiaca",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2238,7 +2238,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Destruição da Grande Babilônia (Apocalipse 17:3, 15-18; 18:9, 10)",
-    "gemini": " ",
+    "gemini": "Destruição de Babilônia, a Grande (Revelação 17:3, 15-18; 18:9, 10)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2255,7 +2255,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "“Paz e segurança!” (1 Tessalonicenses 5:3, esta é uma possibilidade, QfR 26/2, 25/11)",
-    "gemini": " ",
+    "gemini": "“Paz e segurança!” (1 Tessalonicenses 5:3, esta é uma possibilidade, QfR 26/2, 25/11)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2272,7 +2272,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Ataque de Gogue de Magogue (Ezequiel 38:1, 2, 9-12, 18-23)",
-    "gemini": " ",
+    "gemini": "Ataque de Gogue de Magogue (Ezequiel 38:1, 2, 9-12, 18-23)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2289,7 +2289,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Os habitantes da Terra são julgados, separando ovelhas e cabras (Mateus 25:31-33)",
-    "gemini": " ",
+    "gemini": "Os habitantes da Terra são julgados, separando-se as ovelhas dos cabritos (Mateus 25:31-33)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2306,7 +2306,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Reunião dos governantes do Reino (Mateus 24:31; 1 Coríntios 15:50-53; 1 Tessalonicenses 4:15-17)",
-    "gemini": " ",
+    "gemini": "Reunião dos governantes do Reino (Mateus 24:31; 1 Coríntios 15:50-53; 1 Tessalonicenses 4:15-17)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2323,7 +2323,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Batalha do Armagedom (Apocalipse 16:14, 16; Isaías 13:9; 2 Pedro 3:12)",
-    "gemini": " ",
+    "gemini": "Batalha do Armagedom (Revelação 16:14, 16; Isaías 13:9; 2 Pedro 3:12)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2340,7 +2340,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "O Reino de Deus inicia seu reinado de 1000 anos (Apocalipse 5:9, 10; 20:4, 6)",
-    "gemini": " ",
+    "gemini": "O Reino de Deus começa o seu reinado de 1000 anos (Revelação 5:9, 10; 20:4, 6)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2357,7 +2357,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Uma grande multidão sobrevive ao Armagedom (Apocalipse 7:9, 14; Salmo 37:9-11)",
-    "gemini": " ",
+    "gemini": "Uma grande multidão sobrevive ao Armagedom (Revelação 7:9, 14; Salmo 37:9-11)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2374,7 +2374,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "População mundial em bilhões nos últimos 2000 anos",
-    "gemini": " ",
+    "gemini": "População mundial em bilhões nos últimos 2000 anos",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2391,7 +2391,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Império Khmer - período de Angkor",
-    "gemini": " ",
+    "gemini": "Império Khmer - período de Angkor",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2408,7 +2408,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Sacro Império Romano – conhecido como Sacro Império Romano da Nação Germânica após 1512",
-    "gemini": " ",
+    "gemini": "Sacro Império Romano-Germânico – conhecido como Sacro Império Romano da Nação Alemã após 1512",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2425,7 +2425,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Império Mongol 1206 – 1294",
-    "gemini": " ",
+    "gemini": "Império Mongol 1206 – 1294",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2442,7 +2442,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Civilização Maia – período Clássico",
-    "gemini": " ",
+    "gemini": "Civilização Maia – período clássico",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2459,7 +2459,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Civilização Maia – período Pós-clássico",
-    "gemini": " ",
+    "gemini": "Civilização Maia – período pós-clássico",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2476,7 +2476,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Maior cidade das Américas, pirâmides construídas c. 200 d.C.",
-    "gemini": " ",
+    "gemini": "Maior cidade nas Américas, pirâmides construídas c. 200 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2493,7 +2493,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Dionísio, o Exíguo, inventor do Anno Domini",
-    "gemini": " ",
+    "gemini": "Dionísio, o Exíguo, inventor do Anno Domini",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2510,7 +2510,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Omíada",
-    "gemini": " ",
+    "gemini": "Omíada",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2527,7 +2527,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Dinastia Ur III 𒋀𒀕𒆠",
-    "gemini": " ",
+    "gemini": "Terceira Dinastia de Ur 𒋀𒀕𒆠",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2544,7 +2544,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Hamurabi 𒄩𒄠𒈬𒊏𒁉",
-    "gemini": " ",
+    "gemini": "Hamurábi 𒄩𒄠𒈬𒊏𒁉",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2561,7 +2561,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "al-Khwarizmi escreve Al-Jabr (Álgebra)",
-    "gemini": " ",
+    "gemini": "Al-Khwarizmi escreve Al-Jabr (Álgebra)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2578,7 +2578,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Universidade Al-Azhar é estabelecida no Cairo",
-    "gemini": " ",
+    "gemini": "Universidade de Al-Azhar é estabelecida no Cairo",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2595,7 +2595,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Ibn Sina ou Avicena",
-    "gemini": " ",
+    "gemini": "Ibn Sina ou Avicena",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2612,7 +2612,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Expectativa de vida 75 anos",
-    "gemini": " ",
+    "gemini": "Expectativa de vida 75 anos",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2629,7 +2629,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "430 anos: Êxodo 12:41, Gálatas 3:17",
-    "gemini": " ",
+    "gemini": "430 anos: Êxodo 12:41, Gálatas 3:17",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2646,7 +2646,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Início calculado do calendário maia 11 de agosto de 3114 a.C.",
-    "gemini": " ",
+    "gemini": "Início calculado do calendário maia 11 de agosto de 3114 A.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2663,7 +2663,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "c. 2070 – c. 1600 a.C.; Era mencionada pela primeira vez durante o período da dinastia Zhou Ocidental",
-    "gemini": " ",
+    "gemini": "c. 2070 – c. 1600 A.E.C.; Era mencionada pela primeira vez durante o período Zhou Ocidental",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2680,7 +2680,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Dinastia Xia na China",
-    "gemini": " ",
+    "gemini": "Dinastia Xia na China",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2697,7 +2697,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "3 de setembro de 32 a.C.",
-    "gemini": " ",
+    "gemini": "3 de setembro de 32 A.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2714,7 +2714,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "José e Jacó reunidos no Egito – 1728 a.C. (Gênesis 45:11; 47:9)",
-    "gemini": " ",
+    "gemini": "José e Jacó reunidos no Egito – 1728 A.E.C. (Gênesis 45:11; 47:9)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2731,7 +2731,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Rei do Sul de Daniel 11",
-    "gemini": " ",
+    "gemini": "Rei do Sul de Daniel 11",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2748,7 +2748,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Rei do Norte de Daniel 11",
-    "gemini": " ",
+    "gemini": "Rei do Norte de Daniel 11",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2765,7 +2765,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Pernas de ferro de Daniel 2",
-    "gemini": " ",
+    "gemini": "Pernas de ferro de Daniel 2",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2782,7 +2782,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Codex Argenteus c. 505",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2799,7 +2799,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Nguyễn",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2816,7 +2816,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Período Edo no Japão",
-    "gemini": " ",
+    "gemini": "Período Edo no Japão",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2833,7 +2833,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Meiji",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2850,7 +2850,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Guerra Civil Americana 1861-1865",
-    "gemini": " ",
+    "gemini": "Guerra Civil Americana 1861-1865",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2867,7 +2867,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Códice de Aleppo c. 920",
-    "gemini": " ",
+    "gemini": "Códice de Alepo c. 920",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2884,7 +2884,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Reino dos Vândalos e Alanos 435 – 534",
-    "gemini": " ",
+    "gemini": "Reino dos Vândalos e Alanos 435 – 534",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2901,7 +2901,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "c. 481/509 – 843, Merovíngio até 751, depois Carolíngio",
-    "gemini": " ",
+    "gemini": "c. 481/509 – 843, Merovíngios até 751, depois Carolíngios",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2918,7 +2918,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Reino dos Francos",
-    "gemini": " ",
+    "gemini": "Reino dos Francos",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2935,7 +2935,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Guerra dos Cem Anos 1337 – 1453",
-    "gemini": " ",
+    "gemini": "Guerra dos Cem Anos 1337 – 1453",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2952,7 +2952,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Peste Negra 1346-1353",
-    "gemini": " ",
+    "gemini": "Peste Negra 1346-1353",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2969,7 +2969,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Dinastia Sui 581-618",
-    "gemini": " ",
+    "gemini": "581-618 Dinastia Sui",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2986,7 +2986,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Sui",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -3003,7 +3003,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "A Grande Tribulação (Marcos 13:19; Daniel 12:1; Mateus 24:21, 22)",
-    "gemini": " ",
+    "gemini": "A Grande Tribulação (Marcos 13:19; Daniel 12:1; Mateus 24:21, 22)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -3020,7 +3020,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "Esta linha do tempo foi criada em 2023, o ano mais quente da história humana e dos últimos 125.000 anos",
-    "gemini": " ",
+    "gemini": "Esta cronologia foi criada em 2023, o ano mais quente da história humana e dos últimos 125.000 anos",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -3037,7 +3037,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Adão",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3054,7 +3054,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Sete",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3071,7 +3071,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Enos",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3088,7 +3088,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Cainã",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3105,7 +3105,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Maalalel",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3122,7 +3122,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jarede",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3139,7 +3139,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Enoque",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3156,7 +3156,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Matusalém",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3173,7 +3173,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Lameque",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3190,7 +3190,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Noé",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3207,7 +3207,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Sem",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3224,7 +3224,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Arfaxade",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3241,7 +3241,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Salá",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3258,7 +3258,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Éber",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3275,7 +3275,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Pelegue",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3292,7 +3292,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Reú",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3309,7 +3309,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Serugue",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3326,7 +3326,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Naor",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3343,7 +3343,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Tera",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3360,7 +3360,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Abraão",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3377,7 +3377,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Isaque",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3394,7 +3394,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jacó",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3411,7 +3411,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "José",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3428,7 +3428,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Moisés",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3445,7 +3445,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Otoniel",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3462,7 +3462,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Eúde",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3479,7 +3479,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Sangar",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3496,7 +3496,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Baraque, Débora, Jael",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3513,7 +3513,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Gideão",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3530,7 +3530,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Tola",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3547,7 +3547,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jair",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3564,7 +3564,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jefté",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3581,7 +3581,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ibsã",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3598,7 +3598,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Elom",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3615,7 +3615,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Abdom",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3632,7 +3632,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Sansão",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3649,7 +3649,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Samuel",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3666,7 +3666,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Saul",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3683,7 +3683,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Davi",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3700,7 +3700,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Salomão",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3717,7 +3717,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Malaquias",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3734,7 +3734,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Rute",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3751,7 +3751,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Esdras",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3768,7 +3768,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Neemias",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3785,7 +3785,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ester",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3802,7 +3802,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jó",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3819,7 +3819,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Moisés",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3836,7 +3836,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Josué",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3853,7 +3853,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Calebe",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3870,7 +3870,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Augusto",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3887,7 +3887,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Tibério",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3904,7 +3904,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Cláudio",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3921,7 +3921,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Pérsia",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3938,7 +3938,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Joiada",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3955,7 +3955,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ageu",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3972,7 +3972,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Zorobabel (Lucas 3:27)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3989,7 +3989,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jacó",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4006,7 +4006,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Israel",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4023,7 +4023,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Sara",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4040,7 +4040,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Hagar",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4057,7 +4057,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Harã",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4074,7 +4074,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Reumá",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4091,7 +4091,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Milca",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4108,7 +4108,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ló",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4125,7 +4125,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ben-Ami (Amom)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4142,7 +4142,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Betuel",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4159,7 +4159,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Rebeca",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4176,7 +4176,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Labão",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4193,7 +4193,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Leia",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4210,7 +4210,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Raquel",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4227,7 +4227,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Bila",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4244,7 +4244,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Zilpa",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4261,7 +4261,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Rúben",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4278,7 +4278,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Simeão",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4295,7 +4295,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Levi",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4312,7 +4312,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Judá",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4329,7 +4329,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Issacar",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4346,7 +4346,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Zebulom",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4363,7 +4363,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Diná",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4380,7 +4380,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Esaú",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4397,7 +4397,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Edom",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4414,7 +4414,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ismael",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4431,7 +4431,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Manassés",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4448,7 +4448,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "e Efraim",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4465,7 +4465,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Benjamim",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4482,7 +4482,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Dã",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4499,7 +4499,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Naftali",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4516,7 +4516,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Gade",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4533,7 +4533,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Aser",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4550,7 +4550,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Uz, Buz, Quemuel",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4567,7 +4567,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Quesede, Hazo",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4584,7 +4584,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Pildas, Jidlafe",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4601,7 +4601,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Teba",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4618,7 +4618,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Gaão",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4635,7 +4635,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Taás",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4652,7 +4652,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Maaca",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4669,7 +4669,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Malate",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4686,7 +4686,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Basemate",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4703,7 +4703,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Reuel",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4720,7 +4720,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Naate",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4737,7 +4737,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Zera",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4754,7 +4754,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Samá",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4771,7 +4771,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Miza",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4788,7 +4788,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ada",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4805,7 +4805,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Elifaz",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4822,7 +4822,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Temã",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4839,7 +4839,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Omar",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4856,7 +4856,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Zefô",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4873,7 +4873,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Quenaz",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4890,7 +4890,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Corá",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4907,7 +4907,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Corá, Gatam",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4924,7 +4924,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Amaleque",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4941,7 +4941,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Oolibama",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4958,7 +4958,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jeús",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4975,7 +4975,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jalão",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4992,7 +4992,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Nebaiote",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5009,7 +5009,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Quedar",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5026,7 +5026,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Misma",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5043,7 +5043,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Adbeel, Mibsam",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5060,7 +5060,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Dumá, Massá",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5077,7 +5077,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Hadade",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5094,7 +5094,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Temá",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5111,7 +5111,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jetur",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5128,7 +5128,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Nafis",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5145,7 +5145,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Quedemá",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5162,7 +5162,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Quetura",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5179,7 +5179,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Zinrã",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5196,7 +5196,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jocsã",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5213,7 +5213,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Medã",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5230,7 +5230,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Midiã",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5247,7 +5247,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Isbaque",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5264,7 +5264,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Sua",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5281,7 +5281,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Timna",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5298,7 +5298,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "(Salmo 90:10)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5315,7 +5315,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Cão",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5332,7 +5332,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Canaã",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5349,7 +5349,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Sidom",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5366,7 +5366,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Hete",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5383,7 +5383,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jebuseu",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5400,7 +5400,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Amorreu",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5417,7 +5417,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Girgaseu",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5434,7 +5434,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Hieu",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5451,7 +5451,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Arqueu",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5468,7 +5468,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Siniteu",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5485,7 +5485,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Arvadita",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5502,7 +5502,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Zemarita",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5519,7 +5519,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Hamateu",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5536,7 +5536,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Cuxe",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5553,7 +5553,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ninrode",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5570,7 +5570,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Mizraim",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5587,7 +5587,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Casluim",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5604,7 +5604,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jafé",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5621,7 +5621,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Assur",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5638,7 +5638,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Lude",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5655,7 +5655,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Arã",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5672,7 +5672,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Elão",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5689,7 +5689,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Joctã",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5706,7 +5706,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Almodá",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5723,7 +5723,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Selefe",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5740,7 +5740,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Hazarmavé",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5757,7 +5757,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jerá",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5774,7 +5774,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Hadorão",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5791,7 +5791,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Uzal",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5808,7 +5808,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Dicla, Obal",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5825,7 +5825,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Abimael",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5842,7 +5842,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Sabá, Ofir",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5859,7 +5859,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Havilá",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5876,7 +5876,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jobabe",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5893,7 +5893,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "1) Egípcios: Salmos 105:23",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5910,7 +5910,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "2) Cananeus: Josué 13:3",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5927,7 +5927,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "3) Arameus: Oseias 12:12",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5944,7 +5944,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "4) Elamitas: Esdras 4:9",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5961,7 +5961,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "5) Assírios: Ezequiel 27:23",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5978,7 +5978,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "6) Filisteus: 1 Crônicas 1:12",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5995,7 +5995,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "7) Etíopes [Cuxitas]: 2 Reis 19:9",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6012,7 +6012,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "8) Edomitas: Números 20:14-17",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6029,7 +6029,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "9) Moabitas: Deuteronômio 23:3, 4",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6046,7 +6046,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "10) Amonitas: Josué 12:2",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6063,7 +6063,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "11) Midianitas: Números 31:2, 3",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6080,7 +6080,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "12) Amalequitas: 1 Samuel 15:2",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6097,7 +6097,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "13) Temanitas: Jó 42:7",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6114,7 +6114,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "14) Sidônios: Zacarias 9:2",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6131,7 +6131,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "15) Hititas: Gênesis 15:20",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6148,7 +6148,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "16) Jebuseus: Josué 15:63",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6165,7 +6165,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Judite?",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6182,7 +6182,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "17) Lídios: 1 Crônicas 1:17",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6199,7 +6199,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "18) Ismaelitas: Gênesis 37:27",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6216,7 +6216,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "19) Amorreus: Juízes 6:10",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6233,7 +6233,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "20) Hivitas [Gibeão]: Josué 9:3, 7",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6250,7 +6250,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Caim",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6267,7 +6267,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Abel",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6284,7 +6284,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Irade",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6301,7 +6301,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Meujael",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6318,7 +6318,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Metusael",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6335,7 +6335,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jabal",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6352,7 +6352,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jubal",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6369,7 +6369,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Zilá",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6386,7 +6386,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Tubalcaim",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6403,7 +6403,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Naamá",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6420,7 +6420,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Roboão",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6437,7 +6437,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Abias (Abião)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6454,7 +6454,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Asa",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6471,7 +6471,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Josafá",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6488,7 +6488,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jorão",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6505,7 +6505,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Acazias",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6522,7 +6522,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Rainha Atalia",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6539,7 +6539,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Joás",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6556,7 +6556,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Amazias",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6573,7 +6573,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Uzias (Azarias)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6590,7 +6590,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jeroboão",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6607,7 +6607,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Nadabe",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6624,7 +6624,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Basa",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6641,7 +6641,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Elá",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6658,7 +6658,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Zinri",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6675,7 +6675,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Onri e Tibni juntos",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6692,7 +6692,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Onri (sozinho)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6709,7 +6709,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Acabe",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6726,7 +6726,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jorão",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6743,7 +6743,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jeú",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6760,7 +6760,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jeoacaz",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6777,7 +6777,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jeoacaz e Joás",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6794,7 +6794,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Joás (sozinho)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6811,7 +6811,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jeroboão II",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6828,7 +6828,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Elias",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6845,7 +6845,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Eliseu",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6862,7 +6862,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jonas",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6879,7 +6879,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Amós",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6896,7 +6896,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Joel",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6913,7 +6913,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jotão",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6930,7 +6930,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Acaz",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6947,7 +6947,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ezequias",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6964,7 +6964,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Manassés",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6981,7 +6981,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Amom",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6998,7 +6998,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Josias",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7015,7 +7015,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jeoacaz",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7032,7 +7032,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jeoaquim",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7049,7 +7049,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Joaquim",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7066,7 +7066,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Zedequias",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7083,7 +7083,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Zacarias",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7100,7 +7100,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Salum",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7117,7 +7117,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Menaém",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7134,7 +7134,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Pecaías",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7151,7 +7151,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Peca",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7168,7 +7168,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Oséias",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7185,7 +7185,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Oséias",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7202,7 +7202,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Isaías",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7219,7 +7219,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Miquéias",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7236,7 +7236,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Sofonias",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7253,7 +7253,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Naum",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7270,7 +7270,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Jeremias",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7287,7 +7287,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Habacuque",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7304,7 +7304,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Daniel",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7321,7 +7321,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ezequiel",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7338,7 +7338,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Obadias",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7355,7 +7355,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Daniel 2:32, 36-38; 7:4",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7372,7 +7372,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Daniel 2:32, 39; 7:5",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7389,7 +7389,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Daniel 2:32, 39; 7:6",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7406,7 +7406,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Daniel 2:33, 40; 7:7",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7423,7 +7423,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Daniel 2:33, 41-43",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7440,7 +7440,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Babilônia",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7457,7 +7457,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Medo-Pérsia",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7474,7 +7474,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Grécia",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7491,7 +7491,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Roma",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7508,7 +7508,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Anglo-América",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7525,7 +7525,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Rei Nabucodonosor",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7542,7 +7542,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "destrói Jerusalém",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7559,7 +7559,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Conquista Babilônia",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7576,7 +7576,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ciro decreta o retorno",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7593,7 +7593,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "dos judeus a Jerusalém",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7610,7 +7610,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Alexandre, o Grande",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7627,7 +7627,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "conquista a Pérsia",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7644,7 +7644,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Governa sobre Israel",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7661,7 +7661,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Destrói Jerusalém",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7678,7 +7678,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Durante a Primeira Guerra Mundial,",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7695,7 +7695,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Potência Mundial Anglo-Americana",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7712,7 +7712,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "entra em existência",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7729,7 +7729,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "607 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7746,7 +7746,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "539 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7763,7 +7763,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "537 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7780,7 +7780,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "331 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7797,7 +7797,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "63 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7814,7 +7814,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "70 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7831,7 +7831,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "1914-1918 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7848,7 +7848,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Revelação 12:9",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7865,7 +7865,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Atos 7:6",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7882,7 +7882,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "770-256 a.C.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7899,7 +7899,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "1943 – 1513 a.E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7916,7 +7916,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "25-220 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7933,7 +7933,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "368-581 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7950,7 +7950,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "420-589 E.C.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7967,7 +7967,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Júlio",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -7984,7 +7984,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Calígula",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8001,7 +8001,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Nero",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8018,7 +8018,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Galba, Otão e Vitélio (Ano dos Quatro Imperadores)",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8035,7 +8035,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Vespasiano",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8052,7 +8052,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Covid-19",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8069,7 +8069,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Primeiro Concílio de Niceia",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8086,7 +8086,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Papiros de Oxirrinco",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8103,7 +8103,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Papiro P52",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8120,7 +8120,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Dinastia Qing",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8137,7 +8137,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Dinastia Ming na China imperial",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8154,7 +8154,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Yuan",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8171,7 +8171,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Dinastia Song do Sul",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8188,7 +8188,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Dinastia Song do Norte",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8205,7 +8205,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Xia Ocidental",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8222,7 +8222,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Nicolau Copérnico",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8239,7 +8239,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Galileu Galilei",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8256,7 +8256,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Isaac Newton",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8273,7 +8273,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Dinastia Shang",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8290,7 +8290,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Zhou Ocidental",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8307,7 +8307,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Zhou Oriental",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8324,7 +8324,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Han Ocidental",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8341,7 +8341,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Han Oriental",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8358,7 +8358,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "China",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8375,7 +8375,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "China",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8392,7 +8392,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Dinastias do Norte",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8409,7 +8409,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Dinastias do Sul",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8426,7 +8426,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Dinastia Tang",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8443,7 +8443,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Império Bizantino",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8460,7 +8460,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Império Otomano",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8477,7 +8477,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Gengis Khan",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8494,7 +8494,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Império Inca",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8511,7 +8511,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Império Gupta",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8528,7 +8528,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Teotihuacan",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8545,7 +8545,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Califado Abássida",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8562,7 +8562,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Sultanato Mameluco",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8579,7 +8579,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Al-Ghazali",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8596,7 +8596,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Bíblia de Wulfila",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8613,7 +8613,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Dinastia Trần",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8630,7 +8630,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Dinastia Lê",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8647,7 +8647,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Senhores Trịnh e Senhores Nguyễn",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8664,7 +8664,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Império Seljúcida",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8681,7 +8681,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Vândalos",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8698,7 +8698,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Reino Lombardo",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"

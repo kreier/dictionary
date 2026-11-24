@@ -273,8 +273,8 @@
   },
   {
     "key": "age_kings",
-    "text": " ",
-    "english": " ",
+    "text": "ετών",
+    "english": "",
     "notes": "if the word \"year\" appears after the numeral, like \"at the age of 35 years\"",
     "tag": "text",
     "checked": "False",
@@ -283,7 +283,7 @@
     "link": " ",
     "google": "",
     "chatgpt": " ",
-    "gemini": "",
+    "gemini": "ετών",
     "claude": "",
     "deepl": " ",
     "category": "text"
@@ -3037,7 +3037,7 @@
     "link": " ",
     "google": "Αδάμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αδάμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3054,7 +3054,7 @@
     "link": " ",
     "google": "Σεθ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σήθ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3071,7 +3071,7 @@
     "link": " ",
     "google": "Ενώς",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ενώς",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3088,7 +3088,7 @@
     "link": " ",
     "google": "Κενάν (Καϊνάν)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Καϊνάν",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3105,7 +3105,7 @@
     "link": " ",
     "google": "Μααλαλήλ (Μααλαλήλ)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μαλελεήλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3122,7 +3122,7 @@
     "link": " ",
     "google": "Τζάρεντ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιάρεδ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3139,7 +3139,7 @@
     "link": " ",
     "google": "Ενώχ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ενώχ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3156,7 +3156,7 @@
     "link": " ",
     "google": "Μαθουσάλας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μαθουσάλα",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3173,7 +3173,7 @@
     "link": " ",
     "google": "Λάμεχ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Λάμεχ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3190,7 +3190,7 @@
     "link": " ",
     "google": "Νώε",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Νώε",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3207,7 +3207,7 @@
     "link": " ",
     "google": "Σημ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σήμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3224,7 +3224,7 @@
     "link": " ",
     "google": "Αρφαξάδ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αρφαξάδ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3241,7 +3241,7 @@
     "link": " ",
     "google": "Σηλά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σαλά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3258,7 +3258,7 @@
     "link": " ",
     "google": "Έβερ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Έβερ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3275,7 +3275,7 @@
     "link": " ",
     "google": "Πέλεγκ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Φάλεκ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3292,7 +3292,7 @@
     "link": " ",
     "google": "Ρέου",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ραγαύ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3309,7 +3309,7 @@
     "link": " ",
     "google": "Σερούγκ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σερούχ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3326,7 +3326,7 @@
     "link": " ",
     "google": "Ναχώρ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ναχώρ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3343,7 +3343,7 @@
     "link": " ",
     "google": "Θάρα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Θάρρας",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3360,7 +3360,7 @@
     "link": " ",
     "google": "Αβραάμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αβραάμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3377,7 +3377,7 @@
     "link": " ",
     "google": "Ισαάκ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ισαάκ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3394,7 +3394,7 @@
     "link": " ",
     "google": "Ιάκωβος",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιακώβ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3411,7 +3411,7 @@
     "link": " ",
     "google": "Ιωσήφ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωσήφ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3428,7 +3428,7 @@
     "link": " ",
     "google": "Μωυσής",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μωυσής",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3445,7 +3445,7 @@
     "link": " ",
     "google": "Γοθονιήλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Γθονιήλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3462,7 +3462,7 @@
     "link": " ",
     "google": "Αώδ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ωδώ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3479,7 +3479,7 @@
     "link": " ",
     "google": "Σαμγκάρ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σαμεγάγ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3496,7 +3496,7 @@
     "link": " ",
     "google": "Βαράκ, Δεβώρα, Ιαήλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βαράκ, Δεββώρα, Ιαήλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3513,7 +3513,7 @@
     "link": " ",
     "google": "Γεδεών",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Γεδεών",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3530,7 +3530,7 @@
     "link": " ",
     "google": "Τόλα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Θωλά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3547,7 +3547,7 @@
     "link": " ",
     "google": "Ιαΐρ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιαΐρ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3564,7 +3564,7 @@
     "link": " ",
     "google": "Ιεφθάε",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιεφθάε",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3581,7 +3581,7 @@
     "link": " ",
     "google": "Ιβζάν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Εβσάν",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3598,7 +3598,7 @@
     "link": " ",
     "google": "Έλον",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αιγλώμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3615,7 +3615,7 @@
     "link": " ",
     "google": "Άμπντον",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αβδών",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3632,7 +3632,7 @@
     "link": " ",
     "google": "Σαμψών",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σαμψών",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3649,7 +3649,7 @@
     "link": " ",
     "google": "Σαμουήλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σαμουήλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3666,7 +3666,7 @@
     "link": " ",
     "google": "Σαούλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σαούλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3683,7 +3683,7 @@
     "link": " ",
     "google": "Δαβίδ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δαυίδ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3700,7 +3700,7 @@
     "link": " ",
     "google": "Σολομών",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σολομών",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3717,7 +3717,7 @@
     "link": " ",
     "google": "Μαλαχίας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μαλαχίας",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3734,7 +3734,7 @@
     "link": " ",
     "google": "Ρουθ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ρούθ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3751,7 +3751,7 @@
     "link": " ",
     "google": "Έσδρας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Έσδρας",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3768,7 +3768,7 @@
     "link": " ",
     "google": "Νεεμίας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Νεεμίας",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3785,7 +3785,7 @@
     "link": " ",
     "google": "Εσθήρ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Εσθήρ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3802,7 +3802,7 @@
     "link": " ",
     "google": "Δουλειά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιώβ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3819,7 +3819,7 @@
     "link": " ",
     "google": "Μωυσής",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μωυσής",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3836,7 +3836,7 @@
     "link": " ",
     "google": "Ιησούς του ναυή",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιησούς του Ναυή",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3853,7 +3853,7 @@
     "link": " ",
     "google": "Κάλεμπ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Χάλεπ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3870,7 +3870,7 @@
     "link": " ",
     "google": "Αύγουστος",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αύγουστος",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3887,7 +3887,7 @@
     "link": " ",
     "google": "Τιβέριος",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Τιβέριος",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3904,7 +3904,7 @@
     "link": " ",
     "google": "Κλαύδιος",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Κλαύδιος",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3921,7 +3921,7 @@
     "link": " ",
     "google": "Περσία",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Περσία",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3938,7 +3938,7 @@
     "link": " ",
     "google": "Ιωδαέ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωδαδά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3955,7 +3955,7 @@
     "link": " ",
     "google": "Αγγαίος",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αγγαίος",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3972,7 +3972,7 @@
     "link": " ",
     "google": "Ζοροβάβελ (Λουκάς 3:27)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ζοροβάβελ (Λουκάς 3:27)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3989,7 +3989,7 @@
     "link": " ",
     "google": "Ιάκωβος/",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιακώβ/",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4006,7 +4006,7 @@
     "link": " ",
     "google": "Ισραήλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ισραήλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4023,7 +4023,7 @@
     "link": " ",
     "google": "Σάρα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σάρρα",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4040,7 +4040,7 @@
     "link": " ",
     "google": "Άγαρ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Άγαρ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4057,7 +4057,7 @@
     "link": " ",
     "google": "Χαράν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Χαράν",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4074,7 +4074,7 @@
     "link": " ",
     "google": "Ρεούμα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ρεουμά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4091,7 +4091,7 @@
     "link": " ",
     "google": "Μιλκά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μελχά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4108,7 +4108,7 @@
     "link": " ",
     "google": "Παρτίδα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Λωτ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4125,7 +4125,7 @@
     "link": " ",
     "google": "Μπεν-αμμί (Αμμών)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βεν-αμμί (Αμμων)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4142,7 +4142,7 @@
     "link": " ",
     "google": "Βαθουήλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βαθουήλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4159,7 +4159,7 @@
     "link": " ",
     "google": "Ρεβέκκα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ρεβέκκα",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4176,7 +4176,7 @@
     "link": " ",
     "google": "Λάβαν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Λάβαν",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4193,7 +4193,7 @@
     "link": " ",
     "google": "Λία",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Λεία",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4210,7 +4210,7 @@
     "link": " ",
     "google": "Ραχήλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ραχήλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4227,7 +4227,7 @@
     "link": " ",
     "google": "Βίλχα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βαλλά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4244,7 +4244,7 @@
     "link": " ",
     "google": "Ζιλφά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ζελφά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4261,7 +4261,7 @@
     "link": " ",
     "google": "Ρούμπεν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ρουβήν",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4278,7 +4278,7 @@
     "link": " ",
     "google": "Συμεών",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Συμεών",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4295,7 +4295,7 @@
     "link": " ",
     "google": "Λεβί",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Λευΐ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4312,7 +4312,7 @@
     "link": " ",
     "google": "Ιούδας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιούδας",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4329,7 +4329,7 @@
     "link": " ",
     "google": "Ισσάχαρ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ισσάχαρ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4346,7 +4346,7 @@
     "link": " ",
     "google": "Ζαβουλών",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ζαβουλών",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4363,7 +4363,7 @@
     "link": " ",
     "google": "Ντίνα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δείνα",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4380,7 +4380,7 @@
     "link": " ",
     "google": "Ησαύ/",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ησαύ/",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4397,7 +4397,7 @@
     "link": " ",
     "google": "Εδώμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Εδώμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4414,7 +4414,7 @@
     "link": " ",
     "google": "Ισμαήλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ισμαήλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4431,7 +4431,7 @@
     "link": " ",
     "google": "(Μανασσής",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "(Μανασσής",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4448,7 +4448,7 @@
     "link": " ",
     "google": "και Εφραίμ)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "και Εφραίμ)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4465,7 +4465,7 @@
     "link": " ",
     "google": "Βενιαμίν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βενιαμίν",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4482,7 +4482,7 @@
     "link": " ",
     "google": "Νταν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δαν",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4499,7 +4499,7 @@
     "link": " ",
     "google": "Νεφθαλί",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Νεφθαλί",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4516,7 +4516,7 @@
     "link": " ",
     "google": "Βουκέντρο",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Γαδ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4533,7 +4533,7 @@
     "link": " ",
     "google": "Άσερ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ασήρ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4550,7 +4550,7 @@
     "link": " ",
     "google": "Ουζ, Βουζ, Κεμουήλ,",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ωζ, Βουζ, Κεμουήλ,",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4567,7 +4567,7 @@
     "link": " ",
     "google": "Τσέσεντ, Χάζο,",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Χεσέδ, Χαζώ,",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4584,7 +4584,7 @@
     "link": " ",
     "google": "Πιλντάς, Τζιντλάφ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Πιλδάς, Ιδλάφ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4601,7 +4601,7 @@
     "link": " ",
     "google": "Τεβά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Τεβάχ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4618,7 +4618,7 @@
     "link": " ",
     "google": "Γκάχαμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Γαχάμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4635,7 +4635,7 @@
     "link": " ",
     "google": "Ταχάς",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ταχάς",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4652,7 +4652,7 @@
     "link": " ",
     "google": "Μααχά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μααχά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4669,7 +4669,7 @@
     "link": " ",
     "google": "Μαχαλάθ/",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μαχαλάθ/",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4686,7 +4686,7 @@
     "link": " ",
     "google": "Μπέιζμαθ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βασεμάθ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4703,7 +4703,7 @@
     "link": " ",
     "google": "Ρεουέλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ραγουήλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4720,7 +4720,7 @@
     "link": " ",
     "google": "Ναχάθ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ναχάθ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4737,7 +4737,7 @@
     "link": " ",
     "google": "Ζερά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ζεράχ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4754,7 +4754,7 @@
     "link": " ",
     "google": "Σαμά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σαμμά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4771,7 +4771,7 @@
     "link": " ",
     "google": "Μιζά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μιζά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4788,7 +4788,7 @@
     "link": " ",
     "google": "Άντα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αδά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4805,7 +4805,7 @@
     "link": " ",
     "google": "Ελιφάς",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ελιφάζ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4822,7 +4822,7 @@
     "link": " ",
     "google": "Θεμάν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Θαιμάν",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4839,7 +4839,7 @@
     "link": " ",
     "google": "Ομάρ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ωμάρ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4856,7 +4856,7 @@
     "link": " ",
     "google": "Ζέφω",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σεφώ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4873,7 +4873,7 @@
     "link": " ",
     "google": "Κενάζ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Κενέζ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4890,7 +4890,7 @@
     "link": " ",
     "google": "Κορέ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Κορέ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4907,7 +4907,7 @@
     "link": " ",
     "google": "Κορά, Γατάμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Κορέ, Γατάμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4924,7 +4924,7 @@
     "link": " ",
     "google": "Αμαλήκ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αμαλήκ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4941,7 +4941,7 @@
     "link": " ",
     "google": "Οολιβαμά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ωλιβαμά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4958,7 +4958,7 @@
     "link": " ",
     "google": "Τζέους",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιεούς",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4975,7 +4975,7 @@
     "link": " ",
     "google": "Τζαλάμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιαλάμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4992,7 +4992,7 @@
     "link": " ",
     "google": "Νεβαϊώθ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ναβαιώθ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5009,7 +5009,7 @@
     "link": " ",
     "google": "Κηδάρ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Κηδάρ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5026,7 +5026,7 @@
     "link": " ",
     "google": "Μίσμα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μισμά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5043,7 +5043,7 @@
     "link": " ",
     "google": "Άμπιλ, Μίμπσαμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αδβηέλ, Μιβσάμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5060,7 +5060,7 @@
     "link": " ",
     "google": "Ντούμα, Μάσα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δουμά, Μασσά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5077,7 +5077,7 @@
     "link": " ",
     "google": "Χαδάδ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αδδάδ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5094,7 +5094,7 @@
     "link": " ",
     "google": "Θέμα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Θαιμά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5111,7 +5111,7 @@
     "link": " ",
     "google": "Τζετούρ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιετούρ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5128,7 +5128,7 @@
     "link": " ",
     "google": "Ναφίς",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ναφές",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5145,7 +5145,7 @@
     "link": " ",
     "google": "Κεδάμα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Κεδμά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5162,7 +5162,7 @@
     "link": " ",
     "google": "Κετούρα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Χεττούρα",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5179,7 +5179,7 @@
     "link": " ",
     "google": "Ζιμράν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ζεβράν",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5196,7 +5196,7 @@
     "link": " ",
     "google": "Τζοκσάν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιεκσάν",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5213,7 +5213,7 @@
     "link": " ",
     "google": "Μεντάν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μαδάν",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5230,7 +5230,7 @@
     "link": " ",
     "google": "Μαδιάμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μαδιάμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5247,7 +5247,7 @@
     "link": " ",
     "google": "Ισμπάκ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ισβάκ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5264,7 +5264,7 @@
     "link": " ",
     "google": "Σουάχ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σωά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5281,7 +5281,7 @@
     "link": " ",
     "google": "Τιμνά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Θαμνά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5298,7 +5298,7 @@
     "link": " ",
     "google": "(Ψαλμός 90:10)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "(Ψαλμός 90:10)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5315,7 +5315,7 @@
     "link": " ",
     "google": "Ζαμπόν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Χαμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5332,7 +5332,7 @@
     "link": " ",
     "google": "Χαναάν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Χαναάν",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5349,7 +5349,7 @@
     "link": " ",
     "google": "Σιδώνα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σιδώνα",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5366,7 +5366,7 @@
     "link": " ",
     "google": "Χετ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Χετ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5383,7 +5383,7 @@
     "link": " ",
     "google": "Ιεβουσαίοι",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιεβουσαίος",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5400,7 +5400,7 @@
     "link": " ",
     "google": "Αμοραίος",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αμορraίος",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5417,7 +5417,7 @@
     "link": " ",
     "google": "Γεργασίτης",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Γεργεσαίος",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5434,7 +5434,7 @@
     "link": " ",
     "google": "Χιβίτης",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ευαίος",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5451,7 +5451,7 @@
     "link": " ",
     "google": "Αρκίτης",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αρακαίος",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5468,7 +5468,7 @@
     "link": " ",
     "google": "Σινίτης",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σινναίος",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5485,7 +5485,7 @@
     "link": " ",
     "google": "Αρβαδίτης",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αρваdαίος",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5502,7 +5502,7 @@
     "link": " ",
     "google": "Ζεμαρίτης",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σαμαραίος",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5519,7 +5519,7 @@
     "link": " ",
     "google": "Αμαθαίος",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αμαθίτης",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5536,7 +5536,7 @@
     "link": " ",
     "google": "Χους",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Χούς",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5553,7 +5553,7 @@
     "link": " ",
     "google": "Νεβρώδ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Νεβρώδ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5570,7 +5570,7 @@
     "link": " ",
     "google": "Μισραΐμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μεσραΐμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5587,7 +5587,7 @@
     "link": " ",
     "google": "Κασλούχ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Χασλουεχείμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5604,7 +5604,7 @@
     "link": " ",
     "google": "Ιάφεθ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιάφεθ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5621,7 +5621,7 @@
     "link": " ",
     "google": "Ασσούρ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ασσούρ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5638,7 +5638,7 @@
     "link": " ",
     "google": "Λουντ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Λούδ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5655,7 +5655,7 @@
     "link": " ",
     "google": "Αράμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αράμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5672,7 +5672,7 @@
     "link": " ",
     "google": "Ελάμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αιλάμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5689,7 +5689,7 @@
     "link": " ",
     "google": "Ιοκτάν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιεκτάν",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5706,7 +5706,7 @@
     "link": " ",
     "google": "Αλμοδάδ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αλμωδάδ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5723,7 +5723,7 @@
     "link": " ",
     "google": "Σελέφ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σελέφ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5740,7 +5740,7 @@
     "link": " ",
     "google": "Χαζαρμαβέθ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ασαρμώθ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5757,7 +5757,7 @@
     "link": " ",
     "google": "Ιερά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιερά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5774,7 +5774,7 @@
     "link": " ",
     "google": "Χαντοράμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αδωράμ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5791,7 +5791,7 @@
     "link": " ",
     "google": "Ουζάλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ουζάλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5808,7 +5808,7 @@
     "link": " ",
     "google": "Ντίκλα, Οβάλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δεχλά, Ωβάλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5825,7 +5825,7 @@
     "link": " ",
     "google": "Αβιμαήλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αβιμαήλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5842,7 +5842,7 @@
     "link": " ",
     "google": "Σεβά, Οφείρ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σαβά, Ωφείρ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5859,7 +5859,7 @@
     "link": " ",
     "google": "Αβιλά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ευιλά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5876,7 +5876,7 @@
     "link": " ",
     "google": "Ιωβάμπ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωβάβ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5893,7 +5893,7 @@
     "link": " ",
     "google": "1) Αιγύπτιοι: Ψαλμοί 105:23",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "1) Αιγύπτιοι: Ψαλμοί 105:23",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5910,7 +5910,7 @@
     "link": " ",
     "google": "2) Χαναναίοι: Ιησούς του Ναυή 13:3",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "2) Χαναναίοι: Ιησούς του Ναυή 13:3",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5927,7 +5927,7 @@
     "link": " ",
     "google": "3) Αραμαίοι: Ωσηέ 12:12",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "3) Αραμαίοι: Ωσηέ 12:12",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5944,7 +5944,7 @@
     "link": " ",
     "google": "4) Ελαμίτες: Έσδρας 4:9",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "4) Ελαμίτες: Έσδρας 4:9",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5961,7 +5961,7 @@
     "link": " ",
     "google": "5) Ασσύριοι: Ιεζεκιήλ 27:23",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "5) Ασσύριοι: Ιεζεκιήλ 27:23",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5978,7 +5978,7 @@
     "link": " ",
     "google": "6) Φιλισταίοι: Α΄ Χρονικών 1:12",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "6) Φιλισταίοι: 1 Χρονικών 1:12",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5995,7 +5995,7 @@
     "link": " ",
     "google": "7) Αιθίοπας [Κουσίτης]: 2 Βασιλέων 19:9",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "7) Αιθίοπας [Χουσιτής]: 2 Βασιλέων 19:9",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6012,7 +6012,7 @@
     "link": " ",
     "google": "8) Εδωμίτες: Αριθμοί 20:14-17",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "8) Εδωμίτες: Αριθμοί 20:14-17",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6029,7 +6029,7 @@
     "link": " ",
     "google": "9) Μωαβίτες: Δευτερονόμιο 23:3, 4",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "9) Μωαβίτες: Δευτερονόμιο 23:3, 4",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6046,7 +6046,7 @@
     "link": " ",
     "google": "10) Αμμωνίτες: Ιησούς του Ναυή 12:2",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "10) Αμμωνίτες: Ιησούς του Ναυή 12:2",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6063,7 +6063,7 @@
     "link": " ",
     "google": "11) Μαδιανίτες: Αριθμοί 31:2, 3",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "11) Μαδιανίτες: Αριθμοί 31:2, 3",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6080,7 +6080,7 @@
     "link": " ",
     "google": "12) Αμαληκίτες: Α΄ Σαμουήλ 15:2",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "12) Αμαληκίτες: 1 Σαμουήλ 15:2",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6097,7 +6097,7 @@
     "link": " ",
     "google": "13) Θεμανίτες: Ιώβ 42:7",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "13) Θαιμανίτες: Ιώβ 42:7",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6114,7 +6114,7 @@
     "link": " ",
     "google": "14) Σιδώνιοι: Ζαχαρίας 9:2",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "14) Σιδώνιοι: Ζαχαρίας 9:2",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6131,7 +6131,7 @@
     "link": " ",
     "google": "15) Χετταίοι: Γένεση 15:20",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "15) Χετταίοι: Γένεση 15:20",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6148,7 +6148,7 @@
     "link": " ",
     "google": "16) Ιεβουσαίοι: Ιησούς του Ναυή 15:63",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "16) Ιεβουσαίοι: Ιησούς του Ναυή 15:63",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6165,7 +6165,7 @@
     "link": " ",
     "google": "Ιουδίθ;",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιουδίθ;",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6182,7 +6182,7 @@
     "link": " ",
     "google": "17) Λυδοί: Α΄ Χρονικών 1:17",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "17) Λυδοί: 1 Χρονικών 1:17",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6199,7 +6199,7 @@
     "link": " ",
     "google": "18) Ισμαηλίτες: Γένεση 37:27",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "18) Ισμαηλίτες: Γένεση 37:27",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6216,7 +6216,7 @@
     "link": " ",
     "google": "19) Αμορραίοι: Κριτές 6:10",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "19) Αμορraίοι: Κριτές 6:10",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6233,7 +6233,7 @@
     "link": " ",
     "google": "20) Ευαίοι [Γαβαών]: Ιησούς του Ναυή 9:3, 7",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "20) Ευαίοι [Γαβαών]: Ιησούς του Ναυή 9:3, 7",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6250,7 +6250,7 @@
     "link": " ",
     "google": "Κάιν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Κάιν",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6267,7 +6267,7 @@
     "link": " ",
     "google": "Άβελ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Άβελ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6284,7 +6284,7 @@
     "link": " ",
     "google": "Ιράντ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ηράδ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6301,7 +6301,7 @@
     "link": " ",
     "google": "Μεχουιαήλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μεχουγιαήλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6318,7 +6318,7 @@
     "link": " ",
     "google": "Μαθουσαήλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μετουσαήλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6335,7 +6335,7 @@
     "link": " ",
     "google": "Τζαμπάλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιαβάλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6352,7 +6352,7 @@
     "link": " ",
     "google": "Τζουμπάλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιουβάλ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6369,7 +6369,7 @@
     "link": " ",
     "google": "Ζίλα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σελλά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6386,7 +6386,7 @@
     "link": " ",
     "google": "Θουβάλ-κάιν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Θουβάλ-κάιν",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6403,7 +6403,7 @@
     "link": " ",
     "google": "Νααμά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ναεμά",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6420,7 +6420,7 @@
     "link": " ",
     "google": "Ροβοάμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ροβοάμ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6437,7 +6437,7 @@
     "link": " ",
     "google": "Αβιά (Αβιάμ)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αβιά (Αβίαμ)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6454,7 +6454,7 @@
     "link": " ",
     "google": "Άσα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ασά",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6471,7 +6471,7 @@
     "link": " ",
     "google": "Ιωσαφάτ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωσαφάτ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6488,7 +6488,7 @@
     "link": " ",
     "google": "Ιωράμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωράμ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6505,7 +6505,7 @@
     "link": " ",
     "google": "Οχοζίας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Οχοζίας",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6522,7 +6522,7 @@
     "link": " ",
     "google": "Βασίλισσα Γοθολία",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βασίλισσα Γεθλία",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6539,7 +6539,7 @@
     "link": " ",
     "google": "Ιωάς",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωάς",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6556,7 +6556,7 @@
     "link": " ",
     "google": "Αμασία",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αμασίας",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6573,7 +6573,7 @@
     "link": " ",
     "google": "Οζίας (Αζαρίας)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Οζίας (Αζαρίας)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6590,7 +6590,7 @@
     "link": " ",
     "google": "Ιεροβοάμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιεροβοάμ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6607,7 +6607,7 @@
     "link": " ",
     "google": "Ναδάβ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ναδάβ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6624,7 +6624,7 @@
     "link": " ",
     "google": "Βαασά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βασά",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6641,7 +6641,7 @@
     "link": " ",
     "google": "Ηλά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ηλά",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6658,7 +6658,7 @@
     "link": " ",
     "google": "Ζιμρί",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ζαμβρί",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6675,7 +6675,7 @@
     "link": " ",
     "google": "Ο Όμρι και ο Τιβνί μαζί",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αμβρί και Θιβνί μαζί",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6692,7 +6692,7 @@
     "link": " ",
     "google": "Όμρι (μόνος)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αμβρί (μόνος)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6709,7 +6709,7 @@
     "link": " ",
     "google": "Αχαάβ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αχαάβ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6726,7 +6726,7 @@
     "link": " ",
     "google": "Ιωράμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωράμ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6743,7 +6743,7 @@
     "link": " ",
     "google": "Ιηού",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιηού",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6760,7 +6760,7 @@
     "link": " ",
     "google": "Ιωαχάζ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωάχαζ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6777,7 +6777,7 @@
     "link": " ",
     "google": "Ιωάχαζ και Ιωάς",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωάχαζ και Ιωάς",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6794,7 +6794,7 @@
     "link": " ",
     "google": "Ιωάς (μόνος)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωάς (μόνος)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6811,7 +6811,7 @@
     "link": " ",
     "google": "Ιεροβοάμ Β΄",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιεροβοάμ Β΄",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6828,7 +6828,7 @@
     "link": " ",
     "google": "Ηλίας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ηλίας",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6845,7 +6845,7 @@
     "link": " ",
     "google": "Ελισσαιέ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ελισαίος",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6862,7 +6862,7 @@
     "link": " ",
     "google": "Γρουσούζης",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωνάς",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6879,7 +6879,7 @@
     "link": " ",
     "google": "Αμώς",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αμώς",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6896,7 +6896,7 @@
     "link": " ",
     "google": "Τζόελ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωήλ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6913,7 +6913,7 @@
     "link": " ",
     "google": "Ιωθάμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωάθαμ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6930,7 +6930,7 @@
     "link": " ",
     "google": "Άχαζ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Άχαζ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6947,7 +6947,7 @@
     "link": " ",
     "google": "Εζεκίας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Εζεκίας",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6964,7 +6964,7 @@
     "link": " ",
     "google": "Μανασσής",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μανασσής",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6981,7 +6981,7 @@
     "link": " ",
     "google": "Άμων",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αμών",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6998,7 +6998,7 @@
     "link": " ",
     "google": "Ιωσίας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωσίας",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7015,7 +7015,7 @@
     "link": " ",
     "google": "Ιωάχαζ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωάχαζ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7032,7 +7032,7 @@
     "link": " ",
     "google": "Ιωακείμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωακείμ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7049,7 +7049,7 @@
     "link": " ",
     "google": "Ιωαχίν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιωακεΐν",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7066,7 +7066,7 @@
     "link": " ",
     "google": "Σεδεκίας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σεδεκίας",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7083,7 +7083,7 @@
     "link": " ",
     "google": "Ζαχαρίας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ζαχαρίας",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7100,7 +7100,7 @@
     "link": " ",
     "google": "Σάλουμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σαλλούμ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7117,7 +7117,7 @@
     "link": " ",
     "google": "Μεναχέμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μαναήμ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7134,7 +7134,7 @@
     "link": " ",
     "google": "Φεκαίας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Φεκεχίας",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7151,7 +7151,7 @@
     "link": " ",
     "google": "Φεκά",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Φεκέκ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7168,7 +7168,7 @@
     "link": " ",
     "google": "Ωσηέ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ωσηά",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7185,7 +7185,7 @@
     "link": " ",
     "google": "Ωσηέ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ωσηέ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7202,7 +7202,7 @@
     "link": " ",
     "google": "Ησάιας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ησαΐας",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7219,7 +7219,7 @@
     "link": " ",
     "google": "Μιχαίας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μιχαίας",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7236,7 +7236,7 @@
     "link": " ",
     "google": "Σοφονίας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σοφονίας",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7253,7 +7253,7 @@
     "link": " ",
     "google": "Ναούμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ναούμ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7270,7 +7270,7 @@
     "link": " ",
     "google": "Ιερεμίας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιερεμίας",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7287,7 +7287,7 @@
     "link": " ",
     "google": "Αβακούμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αββακούμ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7304,7 +7304,7 @@
     "link": " ",
     "google": "Δανιήλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δανιήλ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7321,7 +7321,7 @@
     "link": " ",
     "google": "Ιεζεκιήλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιεζεκιήλ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7338,7 +7338,7 @@
     "link": " ",
     "google": "Οβαδίας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αβδιού",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7355,7 +7355,7 @@
     "link": " ",
     "google": "Δανιήλ 2:32, 36-38· 7:4",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δανιήλ 2:32, 36-38· 7:4",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7372,7 +7372,7 @@
     "link": " ",
     "google": "Δανιήλ 2:32, 39· 7:5",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δανιήλ 2:32, 39· 7:5",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7389,7 +7389,7 @@
     "link": " ",
     "google": "Δανιήλ 2:32, 39· 7:6",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δανιήλ 2:32, 39· 7:6",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7406,7 +7406,7 @@
     "link": " ",
     "google": "Δανιήλ 2:33, 40· 7:7",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δανιήλ 2:33, 40· 7:7",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7423,7 +7423,7 @@
     "link": " ",
     "google": "Δανιήλ 2:33, 41-43",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δανιήλ 2:33, 41-43",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7440,7 +7440,7 @@
     "link": " ",
     "google": "Βαβυλών",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βαβυλώνα",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7457,7 +7457,7 @@
     "link": " ",
     "google": "Μηδοπερσία",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μηδοπερσία",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7474,7 +7474,7 @@
     "link": " ",
     "google": "Ελλάδα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ελλάδα",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7491,7 +7491,7 @@
     "link": " ",
     "google": "Ρώμη",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ρώμη",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7508,7 +7508,7 @@
     "link": " ",
     "google": "Αγγλοαμερικανική",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αγγλοαμερική",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7525,7 +7525,7 @@
     "link": " ",
     "google": "Βασιλιάς Ναβουχοδονόσορας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βασιλιάς Ναβουχοδονόσορ",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7542,7 +7542,7 @@
     "link": " ",
     "google": "καταστρέφει την Ιερουσαλήμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "καταστρέφει την Ιερουσαλήμ",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7559,7 +7559,7 @@
     "link": " ",
     "google": "Κατακτά τη Βαβυλώνα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Κατακτά τη Βαβυλώνα",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7576,7 +7576,7 @@
     "link": " ",
     "google": "Ο Κύρος διατάζει την επιστροφή",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ο Κύρος εκδίδει διάταγμα για την επιστροφή",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7593,7 +7593,7 @@
     "link": " ",
     "google": "των Ιουδαίων στην Ιερουσαλήμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "των Ιουδαίων στην Ιερουσαλήμ",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7610,7 +7610,7 @@
     "link": " ",
     "google": "Μέγας Αλέξανδρος",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Μέγας Αλέξανδρος",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7627,7 +7627,7 @@
     "link": " ",
     "google": "κατακτά την Περσία",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "κατακτά την Περσία",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7644,7 +7644,7 @@
     "link": " ",
     "google": "Κυβερνάει το Ισραήλ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Κυarρχεί επί του Ισραήλ",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7661,7 +7661,7 @@
     "link": " ",
     "google": "Καταστρέφει την Ιερουσαλήμ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Καταστρέφει την Ιερουσαλήμ",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7678,7 +7678,7 @@
     "link": " ",
     "google": "Κατά τη διάρκεια του Α' Παγκοσμίου Πολέμου,",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Κατά τον Α΄ Παγκόσμιο Πόλεμο,",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7695,7 +7695,7 @@
     "link": " ",
     "google": "Αγγλοαμερικανική Παγκόσμια Δύναμη",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "η Αγγλοαμερικανική Παγκόσμια Δύναμη",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7712,7 +7712,7 @@
     "link": " ",
     "google": "έρχεται σε ύπαρξη",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "έρχεται σε ύπαρξη",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7729,7 +7729,7 @@
     "link": " ",
     "google": "607 π.Χ.",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "607 Π.Κ.Χ.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7746,7 +7746,7 @@
     "link": " ",
     "google": "539 π.Χ.",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "539 Π.Κ.Χ.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7763,7 +7763,7 @@
     "link": " ",
     "google": "537 π.Χ.",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "537 Π.Κ.Χ.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7780,7 +7780,7 @@
     "link": " ",
     "google": "331 π.Χ.",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "331 Π.Κ.Χ.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7797,7 +7797,7 @@
     "link": " ",
     "google": "63 π.Χ.",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "63 π.Χ.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7814,7 +7814,7 @@
     "link": " ",
     "google": "70 Κ.Χ.",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "70 μ.Χ.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7831,7 +7831,7 @@
     "link": " ",
     "google": "1914-1918 μ.Χ.",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "1914-1918 μ.Χ.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7848,7 +7848,7 @@
     "link": " ",
     "google": "Αποκάλυψη 12:9",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αποκάλυψη 12:9",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7865,7 +7865,7 @@
     "link": " ",
     "google": "Πράξεις 7:6",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Πράξεις 7:6",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7882,7 +7882,7 @@
     "link": " ",
     "google": "770-256 π.Χ.",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "770-256 π.Χ.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7899,7 +7899,7 @@
     "link": " ",
     "google": "1943 – 1513 π.Χ.",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "1943 – 1513 π.Χ.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7916,7 +7916,7 @@
     "link": " ",
     "google": "25-220 μ.Χ.",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "25-220 μ.Χ.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7933,7 +7933,7 @@
     "link": " ",
     "google": "368-581 μ.Χ.",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "368-581 μ.Χ.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7950,7 +7950,7 @@
     "link": " ",
     "google": "420-589 μ.Χ.",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "420-589 μ.Χ.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7967,7 +7967,7 @@
     "link": " ",
     "google": "Ιούλιος",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ιούλιος",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -7984,7 +7984,7 @@
     "link": " ",
     "google": "Καλιγούλας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Καλιγούλας",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8001,7 +8001,7 @@
     "link": " ",
     "google": "Νέρωνας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Νέρων",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8018,7 +8018,7 @@
     "link": " ",
     "google": "Γάλβας, Όθων και Βιτέλλιος (Έτος των Τεσσάρων Αυτοκρατόρων)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Γάλβας, Όθων και Βιτέλλιος (Έτος των Τεσσάρων Αυτοκρατόρων)",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8035,7 +8035,7 @@
     "link": " ",
     "google": "Βεσπασιανός",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βεσπασιανός",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8052,7 +8052,7 @@
     "link": " ",
     "google": "COVID-19",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Covid-19",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8069,7 +8069,7 @@
     "link": " ",
     "google": "Πρώτη Σύνοδος της Νίκαιας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Α΄ Οικουμενική Σύνοδος",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8086,7 +8086,7 @@
     "link": " ",
     "google": "Πάπυροι Οξυρύγχου",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Πάπυροι της Οξυρύγχου",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8103,7 +8103,7 @@
     "link": " ",
     "google": "Πάπυρος P52",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Πάπυρος P52",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8120,7 +8120,7 @@
     "link": " ",
     "google": "Δυναστεία Τσινγκ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δυναστεία Τσινγκ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8137,7 +8137,7 @@
     "link": " ",
     "google": "Δυναστεία Μινγκ στην αυτοκρατορική Κίνα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δυναστεία Μινγκ στην αυτοκρατορική Κίνα",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8154,7 +8154,7 @@
     "link": " ",
     "google": "Γιουάν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Γιουάν",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8171,7 +8171,7 @@
     "link": " ",
     "google": "Νότιο Τραγούδι",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Νότια Σονγκ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8188,7 +8188,7 @@
     "link": " ",
     "google": "Βόρειο Τραγούδι",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βόρεια Σονγκ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8205,7 +8205,7 @@
     "link": " ",
     "google": "Δυτική Σια",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δυτική Σία",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8222,7 +8222,7 @@
     "link": " ",
     "google": "Νικόλαος Κοπέρνικος",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Νικόλαος Κοπέρνικος",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8239,7 +8239,7 @@
     "link": " ",
     "google": "Γαλιλαίος Γαλιλέι",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Γαλιλαίος Γαλιλέι",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8256,7 +8256,7 @@
     "link": " ",
     "google": "Ισαάκ Νεύτων",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ισαάκ Νεύτων",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8273,7 +8273,7 @@
     "link": " ",
     "google": "Δυναστεία Σανγκ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δυναστεία Σανγκ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8290,7 +8290,7 @@
     "link": " ",
     "google": "Δυτικό Τζόου",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δυτική Τζόου",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8307,7 +8307,7 @@
     "link": " ",
     "google": "Ανατολικό Τζόου",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ανατολική Τζόου",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8324,7 +8324,7 @@
     "link": " ",
     "google": "Δυτικό Χαν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δυτική Χαν",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8341,7 +8341,7 @@
     "link": " ",
     "google": "Ανατολικό Χαν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Ανατολική Χαν",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8358,7 +8358,7 @@
     "link": " ",
     "google": "Κίνα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Κίνα",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8375,7 +8375,7 @@
     "link": " ",
     "google": "Κίνα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Κίνα",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8392,7 +8392,7 @@
     "link": " ",
     "google": "Βόρειες δυναστείες",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βόρειες δυναστείες",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8409,7 +8409,7 @@
     "link": " ",
     "google": "Νότιες δυναστείες",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Νότιες δυναστείες",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8426,7 +8426,7 @@
     "link": " ",
     "google": "Δυναστεία Τανγκ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δυναστεία Τανγκ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8443,7 +8443,7 @@
     "link": " ",
     "google": "Βυζαντινή Αυτοκρατορία",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βυζαντινή Αυτοκρατορία",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8460,7 +8460,7 @@
     "link": " ",
     "google": "Οθωμανική Αυτοκρατορία",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Οθωμανική Αυτοκρατορία",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8477,7 +8477,7 @@
     "link": " ",
     "google": "Τζένγκις Χαν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Τζένγκις Χαν",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8494,7 +8494,7 @@
     "link": " ",
     "google": "αυτοκρατορία των Ίνκας",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αυτοκρατορία των Ίνκα",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8511,7 +8511,7 @@
     "link": " ",
     "google": "Αυτοκρατορία Γκούπτα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αυτοκρατορία των Γκίπτα",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8528,7 +8528,7 @@
     "link": " ",
     "google": "Τεοτιουακάν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Τεοτιουακάν",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8545,7 +8545,7 @@
     "link": " ",
     "google": "Χαλιφάτο των Αββασιδών",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αββασιδικό Χαλιφάτο",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8562,7 +8562,7 @@
     "link": " ",
     "google": "Σουλτανάτο των Μαμελούκων",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Σουλτανάτο των Μαμελούκων",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8579,7 +8579,7 @@
     "link": " ",
     "google": "Αλ-Γαζάλι",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αλ-Γχαζαλί",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8596,7 +8596,7 @@
     "link": " ",
     "google": "Βίβλος Γούλφιλα",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βίβλος του Ουλφίλα",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8613,7 +8613,7 @@
     "link": " ",
     "google": "Δυναστεία Τραν",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δυναστεία Τραν",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8630,7 +8630,7 @@
     "link": " ",
     "google": "Δυναστεία Λέ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Δυναστεία Λε",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8647,7 +8647,7 @@
     "link": " ",
     "google": "Άρχοντες Trịnh και άρχοντες Nguyễn",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Άρχοντες Τρινχ και Άρχοντες Νγκουγιέν",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8664,7 +8664,7 @@
     "link": " ",
     "google": "αυτοκρατορία των Σελτζούκων",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Αυτοκρατορία των Σελτζούκων",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8681,7 +8681,7 @@
     "link": " ",
     "google": "Βάνδαλοι",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βάνδαλοι",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8698,7 +8698,7 @@
     "link": " ",
     "google": "Λομβαρδικό Βασίλειο",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Βασίλειο των Λομβαρδών",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"

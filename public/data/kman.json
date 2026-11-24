@@ -11,7 +11,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "ᑖᐣ᙮ᕪᒥ ᓇᖅᓂᒃᕈᐅᔭᒦᒃ ᕪᒥᓪᓚᐃᕈᐅᔭᒦᒃ",
-    "gemini": " ",
+    "gemini": "៦,០០០ ឆ្នាំ​នៃ​ប្រវត្តិសាស្ត្រ​មនុស្សជាតិ — បញ្ជី​កាលបរិច្ឆេទ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -28,7 +28,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": "4000 BCE-ᒧᑦ ᑕᐃᕝᕪᒥᓪᓚᐃᕈᐅᔭᒦᒃ",
-    "gemini": " ",
+    "gemini": "បញ្ជី​កាលបរិច្ឆេទ​នៃ​ប្រវត្តិសាស្ត្រ​មនុស្សជាតិ​ពី​ឆ្នាំ ៤០០០ មុន​គ.ស. ដល់​បច្ចុប្បន្ន",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -45,7 +45,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មុន​គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -62,7 +62,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -79,7 +79,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ខែ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -96,7 +96,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ខែ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -113,7 +113,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ថ្ងៃ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -130,7 +130,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ថ្ងៃ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -147,7 +147,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ដល់",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -164,7 +164,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ទឹកជំនន់",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -181,7 +181,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ពី​ឆ្នាំ ១៥៩៣ ដល់ ១៤៧៣ មុន​គ.ស. – ១២០ ឆ្នាំ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -198,7 +198,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ខែ​នីសាន ឆ្នាំ ១៥១៣ មុន​គ.ស. ដល់​ខែ​ស៊ីវ ឆ្នាំ ១០៣៤ មុន​គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -215,7 +215,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ព្រះយេស៊ូ​ទទួល​បុ័ុប្ទិស​នៅ​រដូវ​ស្លឹកឈើ​ជ្រុះ​ឆ្នាំ ២៩ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -232,7 +232,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -249,7 +249,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -266,15 +266,15 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
   },
   {
     "key": "age_kings",
-    "text": " ",
-    "english": " ",
+    "text": "វស្សា",
+    "english": "",
     "notes": "if the word \"year\" appears after the numeral, like \"at the age of 35 years\"",
     "tag": "text",
     "checked": "False",
@@ -283,7 +283,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "វស្សា",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -300,7 +300,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សាសន៍​អ៊ីស្រាអែល​នៅ​ក្នុង​ទីរហោស្ថាន​ពី​ឆ្នាំ ១៥១៣ ដល់ ១៤៧៣ មុន​គ.ស. – ៤០ ឆ្នាំ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -317,7 +317,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ពី​ឆ្នាំ ១៤៧៣ ដល់ ១១១៧ មុន​គ.ស. – ៣៥៦ ឆ្នាំ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -334,7 +334,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សម័យ​ពួក​ចៅក្រម",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -351,7 +351,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "៤៧៩ ឆ្នាំ​រហូត​ដល់​ការ​សាងសង់​ព្រះវិហារ – ស្ដេចទី១ ៦:១",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -368,7 +368,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "៦៩ សប្ដាហ៍​ដល់​សម័យ​ព្រះមែស៊ី – ដានីយ៉ែល ៩:២៥",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -385,7 +385,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កិច្ចបម្រើ​របស់​ព្រះយេស៊ូ ៣.៥ ឆ្នាំ ត្រូវ​បាន​ប្រហារជីវិត​នៅ​ថ្ងៃ​ទី ១៤ ខែ​នីសាន ឆ្នាំ ៣៣ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -402,7 +402,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ព្រះយេស៊ូ​ប្រសូត​នៅ​ឆ្នាំ ២ មុន​គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -419,7 +419,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ពី​ឆ្នាំ ៦០៧ ដល់ ៥៣៧ មុន​គ.ស. – ៧០ ឆ្នាំ (យេរេមា ២៥:១១)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -436,7 +436,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការ​ត្រូវ​កោច​បញ្ជូន​ទៅ​ជា​ឈ្លើយ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -453,7 +453,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "៧ ដង – ២៥២០ ឆ្នាំ​ដល់​រាជាណាចក្រ​ព្រះមែស៊ី ឆ្នាំ ១៩១៤ គ.ស. (ដានីយ៉ែល ៤:២៣)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -470,7 +470,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សង្គ្រាមលោក​លើក​ទី ១ – ឆ្នាំ ១៩១៤–១៩១៨",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -487,7 +487,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សង្គ្រាមលោក​លើក​ទី ២ – ឆ្នាំ ១៩៣៩–១៩៤៥",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -504,7 +504,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សង្គ្រាម ៣០ ឆ្នាំ​នៅ​ទ្វីបអឺរ៉ុប ឆ្នាំ ១៦១៨-១៦៤៨",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -521,7 +521,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "១១០ ឆ្នាំ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -538,7 +538,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "លើស​ពី ៨៥ ឆ្នាំ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -555,7 +555,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ដំណើរកិច្ចបម្រើ​ផ្សាយ​ដំណឹងល្អ​លើក​ទី ១ របស់​ប៉ុល ប្រហែល​ឆ្នាំ ៤៧-៤៨ គ.ស. ជាមួយ​បារណាបាស និង​យ៉ូហានម៉ាកុស",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -572,7 +572,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "បញ្ហា​ការ​កាត់ស្បែក​នៅ​ក្រុងអាន់ទីយ៉ូក សន្និបាត​នៅ​ក្រុងយេរូសាឡិម ប្រហែល​ឆ្នាំ ៤៩ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -589,7 +589,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ដំណើរកិច្ចបម្រើ​ផ្សាយ​ដំណឹងល្អ​លើក​ទី ២ ប្រហែល​ឆ្នាំ ៤៩-៥២ គ.ស. ជាមួយ​សីលា (សីលវានុស)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -606,7 +606,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ដំណើរកិច្ចបម្រើ​ផ្សាយ​ដំណឹងល្អ​លើក​ទី ៣ ប្រហែល​ឆ្នាំ ៥២-៥៦ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -623,7 +623,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ប៉ុល​ត្រូវ​បាន​ឃុំឃាំង​នៅ​ក្រុងសេសារា ប្រហែល​ឆ្នាំ ៥៦-៥៨ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -640,7 +640,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការ​ជាប់​ពន្ធនាគារ​លើក​ទី ១ របស់​ប៉ុល​នៅ​ក្រុងរ៉ូម ប្រហែល​ឆ្នាំ ៥៩-៦១ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -657,7 +657,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការ​ជាប់​ពន្ធនាគារ​លើក​ទី ២ របស់​ប៉ុល​នៅ​ក្រុងរ៉ូម ប្រហែល​ឆ្នាំ ៦៥ គ.ស. សំបុត្រ​ធីម៉ូថេទី ២ ត្រូវ​បាន​សរសេរ ប៉ុល​ត្រូវ​បាន​ប្រហារជីវិត",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -674,7 +674,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការ​ចាកចេញ​ពី​ស្រុកអ，「យ៉ុបត » នៅ​ថ្ងៃ​ទី ១៤ ខែ​នីសាន ឆ្នាំ ១៥១៣ មុន​គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -691,7 +691,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការ​បែងចែក​ប្រទេស​អ៊ីស្រាអែល​នៅ​ឆ្នាំ ៩៩៧ មុន​គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -708,7 +708,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការបំផ្លាញក្រុងសាម៉ារី ឆ្នាំ៧៤០ មុនគ.ស. ដោយសាសន៍អាសស៊ើរ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -725,7 +725,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការបំផ្លាញក្រុងយេរូសាឡិម ឆ្នាំ៦០៧ មុនគ.ស. ដោយបាប៊ីឡូន ៣៩០ ឆ្នាំក្រោយពីការបែងចែកនគរ (អេសេគាល ៤:៥)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -742,7 +742,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ព្រះវិហារនៅក្រុងយេរូសាឡិមត្រូវសាងសង់ឡើងវិញ ឆ្នាំ៥១៥ មុនគ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -759,7 +759,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជញ្ជាំងក្រុងយេរូសាឡិមត្រូវសាងសង់ឡើងវិញ ឆ្នាំ៤៥៥ មុនគ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -776,7 +776,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការបំផ្លាញក្រុងយេរូសាឡិម ឆ្នាំ៧០ គ.ស. ដោយរ៉ូមក្រោមការដឹកនាំរបស់ទីតុស",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -793,14 +793,14 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការបញ្ចប់នៃសម័យកាលរបស់ជនជាតិដទៃ (លូកា ២១:២៤) រាជាណាចក្ររបស់ព្រះចាប់ផ្តើមសោយរាជ្យនៅស្ថានសួគ៌ ឆ្នាំ១៩១៤ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
   },
   {
     "key": "became_king",
-    "text": "បានក្លាយជាស្តេចនៅអាយុ",
+    "text": "បានឡើងសោយរាជ្យនៅព្រះជន្ម",
     "english": "becomes king at age",
     "notes": "2025-04-14",
     "tag": "text",
@@ -810,7 +810,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "បានឡើងសោយរាជ្យនៅព្រះជន្ម",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -827,7 +827,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "គម្ពីរវុលកាតត្រូវ បានបញ្ចប់ដោយហ្សេរ៉ូម (ការបកប្រែគម្ពីរជាភាសាឡាតាំង) ប្រហែលឆ្នាំ៤០៥ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -844,7 +844,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "គម្ពីរព្រះគម្ពីរហ្គូតេនបឺកត្រូវ បានបោះពុម្ព ឆ្នាំ១៤៥៥",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -861,7 +861,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អត្ថបទក្រិកនៃបទគម្ពីរភាសាក្រិកគ្រីស្ទានត្រូវ បានបោះពុម្ពផ្សាយដោយដេស៊ីឌែរៀស អេរ៉ាស្មុស មកពីទីក្រុងរ៉ុតເຕີដាម ឆ្នាំ១៥១៦",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -878,7 +878,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការបកប្រែគម្ពីរលូធើរក្នុងខែកញ្ញា ឆ្នាំ១៥២២",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -895,7 +895,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការបកប្រែគម្ពីរជាភាសាអង់គ្លេសដោយទីនដេល ឆ្នាំ១៥៣៦",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -912,7 +912,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "គម្ពីរឃីងជេមស៍ ឆ្នាំ១៦១១",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -929,7 +929,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ព្រះយេស៊ូចាប់ផ្តើមការបំរើរបស់ទ្រង់ ឆ្នាំ២៩ គ.ស. (លូកា ៣:១, ២១)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -946,7 +946,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ពាក់កណ្តាលសប្តាហ៍ «ដង្វាយបូជាត្រូវរំលង» ដានីយ៉ែល ៩:២៧",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -963,7 +963,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កូនេលিয়াসត្រូវ បានជ្រមុជទឹកនៅចុងបញ្ចប់នៃសប្តាហ៍ទាំង ៧០ (ដានីយ៉ែល ៩:២៤) ក្នុងឆ្នាំ៣៦ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -980,7 +980,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការបញ្ចប់នៃសម័យកាលមុនសម័យកូឡុំប៊ីក្នុងទ្វីបអាមេរិក ឆ្នាំ១៤៩២",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -997,7 +997,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការប្រកាសឯករាជ្យរបស់អាណានិគមទាំង ១៣ នៅអាមេរិក ឆ្នាំ១៧៧៦",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1014,7 +1014,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ទីសិនដរហ្វរកົឃើញក្រាំងស៊ីណៃទិក ដែលមានអាយុកាលតាំងពីសតវត្សរ៍ទី៤ ក្នុងឆ្នាំ១៨៤៤",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1031,7 +1031,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ក្រាំងសមុទ្រមរណៈត្រូវ បានសរសេរ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1048,7 +1048,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "គម្ពីរប្រែ Septuagint LXX ត្រូវ បានបកប្រែ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1065,7 +1065,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ទស្សនាវដ្តី «ប៉មយាមស៊ីយ៉ូន និងជាអ្នកប្រកាសវត្តមានរបស់ព្រះគ្រីស្ទ» លេខទីមួយត្រូវ បានបោះពុម្ពផ្សាយក្នុងឆ្នាំ១៨៧៩",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1082,7 +1082,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ពួកសិស្សព្រះគម្ពីរបានទទួលយកឈ្មោះថ្មី គឺព្យុះសាក្សីព្រះយេហូវ៉ា (អ៊ីសាយ ៤៣:១០, ១២) នៅទីក្រុងកូឡំបັດ រដ្ឋអូហៃយ៉ូ ឆ្នាំ១៩៣១",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1099,7 +1099,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សាលាគម្ពីរភ្នំគីលេដរបស់ប៉មយាមចាប់ផ្តើមនៅថ្ងៃចន្ទ ទី១ ខែកុម្ភៈ ឆ្នាំ១៩៤៣",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1116,7 +1116,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "«គម្ពីរបរិសុទ្ធបកប្រែពិភពលោកថ្មី» ត្រូវ បានចេញផ្សាយនៅទីក្រុងម៉ែនឆេស្ទ័រ ប្រទេសអង់គ្លេស នៅថ្ងៃទី១៨ ខែមិថុនា ឆ្នាំ១៩៦០ ដោយបានដាក់បញ្ចូលឈ្មោះព្រះយេហូវ៉ាឡើងវិញនៅកន្លែងជាច្រើនក្នុងគម្ពីរ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1133,7 +1133,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "គម្ពីរ «ពិភពលោកថ្មីដែលបានកែសម្រួល» ត្រូវ បានចេញផ្សាយក្នុងការប្រជុំប្រចាំឆ្នាំ ២០១៣ ដែលត្រូវបានកែលម្អដើម្បីប្រើប្រាស់តាមប្រព័ន្ធឌីជីថល និងតាមអ៊ីនធឺណិត",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1150,7 +1150,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស្ថានភាពភូមិសាស្ត្រនយោបាយត្រូវបានគេដាក់ស្លាកថា «សង្គ្រាមត្រជាក់» ឆ្នាំ១៩៤៥-១៩៩១",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1167,7 +1167,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ក្រាំងស៊ីណៃទិកត្រូវ បានសរសេរ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1184,7 +1184,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ក្រាំងវ៉າទីកង់ត្រូវ បានសរសេរ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1201,7 +1201,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ក្រាំងឡេនីងក្រាដត្រូវ បានសរសេរនៅទីក្រុងគែរ ឆ្នាំ១០០៨ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1218,7 +1218,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "លោកយ៉ូហានសរសេរ «វិវរណៈ» ពេលកំពុងត្រូវគេបណ្តេញចេញទៅកោះប៉ាតმოს ឆ្នាំ៩៦-៩៨ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1235,7 +1235,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ព្រះពុទ្ធ ស៊ីដ្ធាតធៈ គោតម ប្រហែលឆ្នាំ៥៦៣-៤៨៣ មុនគ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1252,7 +1252,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ព្រះពុទ្ធម្ចាស់ម្ដងទៀត ប្រហែលឆ្នាំ៤៨០-៤០០ មុនគ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1269,7 +1269,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មូហាំម៉ាត់ ប្រហែលឆ្នាំ៥៧០-៦៣២",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1286,7 +1286,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ខុងជື ប្រហែលឆ្នាំ៥៥១-៤៧៩ មុនគ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1303,7 +1303,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ហ៊ីជរ៉ា - ដំណើរពីទីក្រុងម៉ិក្កទៅទីក្រុងមេឌីណា ១៦ កក្កដា ៦២២",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1320,7 +1320,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ១៥៥៣ មុនគ.ស. លោកម៉ូសេត្រូវរត់គេចខ្លួនចេញពីប្រទេសអียុប - និក្ខមនំ ២:១៥ កិច្ចការ ៧:២៣",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1337,7 +1337,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ១៥១៣ មុនគ.ស. ប្រទេសអียុបទទួលរងគ្រាំគ្រោះដោយជំងឺរាតត្បាត ១០ យ៉ាង",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1354,7 +1354,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "លោកយ៉ូសែបត្រូវ បានគេលក់ជាទាសករក្នុងអាយុ ១៧ ឆ្នាំ - លោកុប្បត្តិ ៣៧:២",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1371,7 +1371,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការទុក្ករបុគ្គលរយៈពេល ៤០០ ឆ្នាំ (កិច្ចការ ៧:៦) - អ៊ីសមាអែល ឆ្នាំ១៩១៣ មុនគ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1388,7 +1388,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាឡិចសាន់ឌឺមហាក្សត្រ (ដានីយ៉ែល ១១:៣)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1405,7 +1405,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស៊ីរុសមហាក្សត្រ កាំប៊ីសទី២ ដារីុសទី១ ឆ្នាំ ៤៩០ ម.គ. សែរក្សទី១ ឆ្នាំ ៤៨០ ម.គ. (ប្ដីរបស់អេសធើរ ដានីយ៉ែល ១១:២)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1422,7 +1422,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សេលុយកុសទី១ នីកាទ័រ (ខ៥) ប្រទេសស៊ីរីដល់អាន់ទីយ៉ូកុសទី៣ (ខ១០) និងសេលុយកុសទី៤ (ខ១៨ ១៩) រហូតដល់អុកតាវៀន (ខ២០) និងទីបេរាស (ខ២១-២៤)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1439,7 +1439,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស្ដេចទិសខាងជើង",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1456,7 +1456,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "តូលេមីទី១ ទី២ ទី៣ ទី៤ (ខ១១ ១២) ទី៥ (ខ១៥ ១៦) ដល់សមរភូមិអាក់ស្យូម ឆ្នាំ ៣១ ម.គ.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1473,7 +1473,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស្ដេចទិសខាងត្បូង",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1490,7 +1490,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ចក្រភពអង់គ្លេស ឆ្នាំ ១៨៧០ មហាអំណាចពិភពលោកអង់គ្លេស-អាម៉េរិកចាប់តាំងពីឆ្នាំ ១៩១៤",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1507,7 +1507,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស្ដេចទិសខាងត្បូង",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1524,7 +1524,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ប្រទេសអាល្លឺម៉ង់ជាមួយអធិរាជវីល្លៀមទី១ ឆ្នាំ ១៨៧១ (ខ២៨) ឆ្នាំ ១៩១៤ (ខ២៩) ឆ្នាំ ១៩៣៥ (ខ៣០ខ) ឆ្នាំ ១៩៣៩ (ខ៣១ក)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1541,7 +1541,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ទិសខាងជើង",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1558,7 +1558,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សហភាពសូវៀត ឆ្នាំ ១៩៤៥-១៩៩១ (ដានីយ៉ែល ១១:៣២-៣៩ ៤០ខ ៤១)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1575,7 +1575,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ប្រទេសរុស្ស៊ីចាប់តាំងពីឆ្នាំ ២០១៧ (ខែឧសភា w20)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1592,7 +1592,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "វត្តមានរបស់គ្រីស្ទ ការបញ្ចប់ប្រព័ន្ធពិភពលោក (ម៉ាថាយ ២៤:៣) សម័យជិតបំផុត (២ ធីម៉ូថេ ៣:១)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1609,7 +1609,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សម័យជិតបំផុត",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1626,7 +1626,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ព្រះបាទសូរ្យវរ្ម័នទី២ សាងសង់ប្រាសាទអង្គរវត្ត ឆ្នាំ ១១១៣-១១៥០",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1643,7 +1643,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "វិហារណូត្រដាមនៃទីក្រុងប៉ារីសបានសាងសង់ ឆ្នាំ ១១៦៣-១២៦០",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1660,7 +1660,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ប៉មបាបែលត្រូវបានសាងសង់",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1677,7 +1677,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការគាបសង្កត់រយៈពេល ៤០០ ឆ្នាំ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1694,7 +1694,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ប្រពន្ធរបស់លោក",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1711,7 +1711,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កូនស្រីទាំងពីររបស់លោក",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1728,7 +1728,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ម៉ូអាប់ (កូនស្រីច្បង)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1745,7 +1745,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ថ្មរ៉ូសែត ឆ្នាំ ១៩៦ ម.គ.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1762,7 +1762,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ហេរ៉ូដូត (Herodotus) ប្រហែលឆ្នាំ ៤៨៤ – ប្រហែលឆ្នាំ ៤២៥ ម.គ. សរសេររឿងប្រវត្តិសាស្ត្រ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1779,7 +1779,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "არისតូត (Aristotle) ៣៨៤ – ៣២២ ម.គ.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1796,7 +1796,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "តូលេមី (Ptolemy) ប្រហែលឆ្នាំ ១០០ – ប្រហែលឆ្នាំ ១៧០ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1813,7 +1813,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ពីតាგორ (Pythagoras) ប្រហែលឆ្នាំ ៥៧០ – ប្រហែលឆ្នាំ ៤៩៥ ម.គ.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1830,7 +1830,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ប្លាតុង (Plato) ប្រហែលឆ្នាំ ៤២៧ – ប្រហែលឆ្នាំ ៣៤៨ ម.គ.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1847,7 +1847,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សូក្រាត (Socrates) ប្រហែលឆ្នាំ ៤៧០ – ប្រហែលឆ្នាំ ៣៩៩ ម.គ.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1864,7 +1864,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យ៉ូសែប៊ូស (Josephus) ប្រហែលឆ្នាំ ៣៧ – ប្រហែលឆ្នាំ ១០០ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1881,7 +1881,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស៊ីសេរ៉ូ (Cicero) ១០៦–៤៣ ម.គ.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1898,7 +1898,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "លិខិតឡាគីស ប្រហែលឆ្នាំ ៥៩០ ម.គ.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1915,7 +1915,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រូបចម្លាក់ឡាគីស ប្រហែលឆ្នាំ ៦៨១ ម.គ.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1932,7 +1932,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ថ្មចារឹកមេសា (ថ្មម៉ូអាប់) ប្រហែលឆ្នាំ ៨៤០ ម.គ.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1949,7 +1949,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "គីល្កាម៉េស និងអាហ្កា 𒇽𒆥𒄄𒀀𒀝𒂵",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1966,7 +1966,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រឿងនិទានគីល្កាម៉េស (សິນ-ឡេគី-អ៊ុននីនី)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -1983,7 +1983,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ប្រតិទិនហ្គ្រេហ្គោរៀន ១៥៨២",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2000,7 +2000,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ប្រហែលឆ្នាំ ១៦០០-១០៤៦ ម.គ.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2017,7 +2017,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ប្រហែលឆ្នាំ ១០៤៦-៧៧១ ម.គ.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2034,7 +2034,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សឈិន ២២១-២០៧ ម.គ.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2051,7 +2051,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "២០៧ ម.គ. – ៩ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2068,7 +2068,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "នែអាណាចក្រទាំងបី ២២០-២៨០ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2085,7 +2085,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "នែអាណាចក្រដប់ប្រាំមួយ ៣០៤-៤៣៩ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2102,7 +2102,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "៦១៨-៦៩០, ៧០៥-៩០៧",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2119,7 +2119,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "៦៩០-៧០៥ អ៊ូ ជូ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2136,7 +2136,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សតាំង",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2153,7 +2153,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សម័យរាជានុសិទ្ធិហ្គុងហឺ ៨៤១-៨២៨ មុន គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2170,7 +2170,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អសោក (ប្រហែល ៣០៤-២៣២ មុន គ.ស.) លើកតម្កើងព្រះពុទ្ធសាសនា",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2187,7 +2187,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ហេសេគីយ៉ា ពង្រីកផ្លូវរូងក្រោមដីស៊ីឡូអាំ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2204,7 +2204,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មហាអំណាចអង់គ្លេស-អាមេរិក ត្រូវគេតំណាងដោយជើងតោងធ្វើពីដែកលាយនឹងដីឥដ្ឋ ក្នុងទំនាយដានីយ៉ែល ២:៣៣, ៤១-៤៣",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2221,7 +2221,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ម៉ាណេថូ សរសេរកិច្ចការ អេហ្ស៊ីប (Aegyptiaca)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2238,7 +2238,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការបំផ្លិចបំផ្លាញបាប៊ីឡូនធំ (វិវរណៈ ១៧:៣, ១៥-១៨; ១៨:៩, ១០)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2255,7 +2255,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "«សេចក្ដីសុខសាន្ត និងសុវត្ថិភាព!» (១ធែស្សាឡូនីច ៥:៣, នេះជាលទ្ធភាពមួយ, QfR ២៦/២, ២៥/១១)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2272,7 +2272,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការវាយប្រហាររបស់គោកនៃម៉ាគោក (អេសេគាល ៣៨:១, ២, ៩-១២, ១៨-២៣)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2289,7 +2289,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មនុស្សលោកនៅលើផែនដីត្រូវបានជំនុំជម្រះ ដោយញែកចៀមចេញពីពពែ (ម៉ាថាយ ២៥:៣១-៣៣)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2306,7 +2306,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការប្រមូលផ្ដុំពួកអ្នកគ្រប់គ្រងរាជាណាចក្រ (ម៉ាថាយ ២៤:៣១; ១កូរិនថូស ១៥:៥០-៥៣; ១ធែស្សាឡូនីច ៤:១៥-១៧)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2323,7 +2323,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សង្គ្រាមហាម៉ាដេដូន (វិវរណៈ ១៦:១៤, ១៦; អេសាយ ១៣:៩; ២ពេត្រុស ៣:១២)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2340,7 +2340,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជាណាចក្ររបស់ព្រះចាប់ផ្ដើមការគ្រប់គ្រងរយៈពេល ១០០០ ឆ្នាំ (វិវរណៈ ៥:៩, ១០; ២០:៤, ៦)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2357,7 +2357,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មហាជនរួចរស់ជីវិតពីសង្គ្រាមហាម៉ាដេដូន (វិវរណៈ ៧:៩, ១៤;ទំនុកដំកើង ៣៧:៩-១១)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2374,7 +2374,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ចំនួនប្រជាជនពិភពលោកគិតជាពាន់លាននាក់ក្នុងរយៈពេល ២០០០ ឆ្នាំចុងក្រោយនេះ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2391,7 +2391,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាណាចក្រខ្មែរ - សម័យអង្គរ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2408,7 +2408,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាណាចក្ររ៉ូម៉ាំងបរិសុទ្ធ - ត្រូវបានគេស្គាល់ថាជាអាណាចក្ររ៉ូម៉ាំងបរិសុទ្ធនៃជនជាតិអាល្លឺម៉ង់បន្ទាប់ពីឆ្នាំ ១៥១២",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2425,7 +2425,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាណាចក្រម៉ុងហ្គោល ១២០៦ - ១២៩៤",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2442,7 +2442,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អរិយធម៌ម៉ាយ៉ា - សម័យបុរាណ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2459,7 +2459,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អរិយធម៌ម៉ាយ៉ា - សម័យក្រោយបុរាណ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2476,7 +2476,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ទីក្រុងធំបំផុតនៅទ្វីបអាមេរិក កសាងពីរ៉ាមីតប្រហែល ២០០ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2493,7 +2493,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឌីយូនីស៊ីស អេហ្ស៊ីគូស អ្នកបង្កើតសម័យកាលគ្រិស្តសករាជ (Anno Domini)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2510,7 +2510,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សអ៊ូម៉ាយ៉ាដ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2527,7 +2527,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សអ៊ើរទី ៣ 𒋀𒀕𒆠",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2544,7 +2544,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ហាំមូរ៉ាប៊ី 𒄩𒄠𒈬𒊏𒁉",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2561,7 +2561,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាល់-ខ្វារីស៍មី សរសេរគម្ពីរ អាល់-ជាប (ពិជគណិត)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2578,7 +2578,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សាកលវិទ្យាល័យ អាល់-អាហ្សារ ត្រូវ បានបង្កើតឡើងនៅទីក្រុងគែរ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2595,7 +2595,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អ៊ីប៊ីន ស៊ីណា ឬ អាវីເຊណា",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2612,7 +2612,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាយុកាលរស់នៅ ៧៥ ឆ្នាំ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2629,7 +2629,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "៤៣០ ឆ្នាំ៖ និក្ខមនំ ១២:៤១, កាឡាតា ៣:១៧",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2646,7 +2646,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ការគណនាការចាប់ផ្ដើមប្រតិទិនម៉ាយ៉ា ថ្ងៃទី ១១ ខែសីហា ឆ្នាំ ៣១១៤ មុន គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2663,7 +2663,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ប្រហែល ២០៧០ - ប្រហែល ១៦០០ មុន គ.ស.; សម័យកាលដែលត្រូវបានរំលឹកជាលើកដំបូងក្នុងអំឡុងសម័យរាជវង្សចូវខាងលិច",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2680,7 +2680,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សសៀក្នុងប្រទេសចិន",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2697,7 +2697,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ថ្ងៃទី ៣ ខែកញ្ញា ឆ្នាំ ៣២ មុន គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2714,7 +2714,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "លោកយ៉ូសែប និងលោកយ៉ាកុបជួបគ្នាវិញនៅស្រុកអេហ្ស៊ីប - ១៧២៨ មុន គ.ស. (លោកុប្បត្តិ ៤៥:១១; ៤៧:៩)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2731,7 +2731,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស្ដេចទិសខាងត្បូងមកពីសៀវភៅដានីយ៉ែលជំពូក ១១",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2748,7 +2748,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ព្រះរាជាទិសឧត្តរ ពីសៀវភៅដានីយ៉ែល ជំពូក១១",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2765,7 +2765,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជើងដែក ពីសៀវភៅដានីយ៉ែល ជំពូក២",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2782,7 +2782,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "គម្ពីរខូដិចស៍ អាសសេនទុស ប្រហែលជាឆ្នាំ ៥០៥",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2799,7 +2799,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ង្វៀន",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2816,7 +2816,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សម័យកាលអេដូ នៅប្រទេសជប៉ុន",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2833,7 +2833,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មេជី",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2850,7 +2850,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សង្គ្រាមស៊ីវិលអាម៉េរិក ឆ្នាំ១៨៦១-១៨៦៥",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2867,7 +2867,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "គម្ពីរខូដិចស៍ អាឡេប៉ូ ប្រហែលជាឆ្នាំ ៩២០",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2884,7 +2884,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ព្រះរាជាណាចក្រវ៉ាន់ដាល់ និងអាឡាន់ ឆ្នាំ៤៣៥ – ៥៣៤",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2901,7 +2901,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ប្រហែលជាឆ្នាំ ៤៨១/៥០៩ – ៨៤៣ សម័យមេរូវីងហ្សៀន ដល់ឆ្នាំ៧៥១ បន្ទាប់មកសម័យការ៉ូលីងហ្សៀន",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2918,7 +2918,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ព្រះរាជាណាចក្រហ្វ្រង់",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2935,7 +2935,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សង្គ្រាមរយឆ្នាំ ឆ្នាំ១៣៣៧ – ១៤៥៣",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2952,7 +2952,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជំងឺរាតត្បាតមរណភាពខ្មៅ ឆ្នាំ១៣៤៦-១៣៥៣",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2969,7 +2969,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សស่ຸย ឆ្នាំ៥៨១-៦១៨",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -2986,7 +2986,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស่ຸย",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -3003,7 +3003,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សេចក្ដីទុក្ខលំបាកវេទនាជាខ្លាំង (ម៉ាកុស ១៣:១៩; ដានីយ៉ែល ១២:១; ម៉ាថាយ ២៤:២១, ២២)",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -3020,7 +3020,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "បុគ្គលិកលក្ខណៈពេលវេលានេះ ត្រូវបានបង្កើតឡើងក្នុងឆ្នាំ២០២៣ ដែលជាឆ្នាំក្តៅបំផុតក្នុងប្រវត្តិសាស្ត្រមនុស្សជាតិ និងរយៈពេល ១២៥,០០០ឆ្នាំចុងក្រោយនេះ",
     "claude": " ",
     "deepl": " ",
     "category": "text"
@@ -3037,7 +3037,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាដាម",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3054,7 +3054,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សេត",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3071,7 +3071,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អេណុស",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3088,7 +3088,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កេណាន",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3105,7 +3105,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មហាឡាលែល",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3122,7 +3122,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យ៉ារេដ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3139,7 +3139,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អេណុក",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3156,7 +3156,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មេធូសាឡា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3173,7 +3173,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ላម៉ែក",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3190,7 +3190,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ណូអេ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3207,7 +3207,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សែម",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3224,7 +3224,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អារប៉ាក់សាឌ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3241,7 +3241,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សេឡា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3258,7 +3258,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເບີ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3275,7 +3275,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ប៉េឡេក",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3292,7 +3292,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រេអូ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3309,7 +3309,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សេរុច",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3326,7 +3326,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ណាហໍ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3343,7 +3343,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "តេរ៉ា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3360,7 +3360,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អັບរ៉ាហាំ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3377,7 +3377,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អ៊ីសាក",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3394,7 +3394,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យ៉ាកុប",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3411,7 +3411,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យ៉ូសែប",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3428,7 +3428,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ໂມເຊ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3445,7 +3445,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ໂອນຽວ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3462,7 +3462,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເອຫູດ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3479,7 +3479,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຊາມກາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3496,7 +3496,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "បາຣັກ, ເດໂບຣາ, ຍາເອນ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3513,7 +3513,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ກີເດໂອງ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3530,7 +3530,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "തോလာ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3547,7 +3547,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຢາຢີຣ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3564,7 +3564,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເຢບທາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3581,7 +3581,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ອີບຊານ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3598,7 +3598,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເອລອນ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3615,7 +3615,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាប់ដូន",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3632,7 +3632,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຊຳສັ່ນ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3649,7 +3649,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຊາມູເອນ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3666,7 +3666,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຊາອູນ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3683,7 +3683,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ដាវីឌ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3700,7 +3700,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សាឡូម៉ូន",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3717,7 +3717,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ມາລາຄີ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3734,7 +3734,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຣູທ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3751,7 +3751,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເອສະຣາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3768,7 +3768,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເນເຫມີຍ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3785,7 +3785,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເອສະເທີ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3802,7 +3802,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ໂຢບ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3819,7 +3819,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ໂມເຊ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3836,7 +3836,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ໂຢຊູເອ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3853,7 +3853,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ካሌብ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3870,7 +3870,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ໂອກັສຕັດ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3887,7 +3887,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຕີເບຣີຍຸດ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3904,7 +3904,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ក្លូឌីុស",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3921,7 +3921,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເປີເຊຍ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3938,7 +3938,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເຢໂຮຢາດາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3955,7 +3955,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຮາກາຍ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3972,7 +3972,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເຊຣຸບບາເບນ (ລູກາ 3:27)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3989,7 +3989,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຢາໂຄບ/",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4006,7 +4006,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ອິດສະຣາເອນ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4023,7 +4023,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຊາຣາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4040,7 +4040,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຮາກາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4057,7 +4057,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ဟារ៉ານ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4074,7 +4074,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រេអូម៉ា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4091,7 +4091,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ມິລຄາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4108,7 +4108,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ໂລດ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4125,7 +4125,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເບນອຳມີ (ອຳໂມນ)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4142,7 +4142,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເບທູເອນ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4159,7 +4159,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເຣເບກາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4176,7 +4176,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ລາບານ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4193,7 +4193,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເລອາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4210,7 +4210,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຣາເຊນ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4227,7 +4227,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ບິນຮາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4244,7 +4244,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຊິນປາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4261,7 +4261,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເຣູບິນ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4278,7 +4278,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຊີເມໂອນ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4295,7 +4295,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເລວີ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4312,7 +4312,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຢູດາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4329,7 +4329,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ອິດຊາການ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4346,7 +4346,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເຊບູລູນ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4363,7 +4363,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ດີນາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4380,7 +4380,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເເອຊາວ/",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4397,7 +4397,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເເອໂດມ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4414,7 +4414,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ອິດຊາເເມນ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4431,7 +4431,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "(ມະນາເຊ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4448,7 +4448,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "เເລະ ເເອຟຣາອິມ)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4465,7 +4465,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເບນຢາມິນ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4482,7 +4482,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ដານ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4499,7 +4499,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ນັບທາລີ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4516,7 +4516,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຢາດ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4533,7 +4533,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ອາເຊີ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4550,7 +4550,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ອຸດ, បຸດ, ເຄມູເອນ,",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4567,7 +4567,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເຄເຊດ, ຮາໂຊ,",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4584,7 +4584,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ປິນດາດ, ຢິດລາບ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4601,7 +4601,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເເຕບາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4618,7 +4618,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ກາຮາມ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4635,7 +4635,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຕາຮາດ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4652,7 +4652,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ມາອາຄາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4669,7 +4669,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ມາຮາລາດ/",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4686,7 +4686,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "បາເຊມາດ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4703,7 +4703,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເຣອູເອນ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4720,7 +4720,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ນາຮາດ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4737,7 +4737,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ເຊຣາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4754,7 +4754,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຊາມາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4771,7 +4771,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ມິດຊາ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4788,7 +4788,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាដា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4805,7 +4805,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អីលីផាស",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4822,7 +4822,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ធីម៉ាន",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4839,7 +4839,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អូម៉ា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4856,7 +4856,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សេផូ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4873,7 +4873,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កេណាស",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4890,7 +4890,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កូរ៉ា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4907,7 +4907,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កូរ៉ា និង កាតាំ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4924,7 +4924,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាម៉ាឡếc",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4941,7 +4941,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អូហូលីបាម៉ា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4958,7 +4958,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជេអុស",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4975,7 +4975,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យ៉ាឡាំ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4992,7 +4992,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "នេបាយុត",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5009,7 +5009,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កេដារ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5026,7 +5026,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មីស្មា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5043,7 +5043,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាប់ឌាអែល និង មីបសាំ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5060,7 +5060,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ដូម៉ា និង ម៉ាសា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5077,7 +5077,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ហាដាដ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5094,7 +5094,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ធីម៉ា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5111,7 +5111,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជេទូរ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5128,7 +5128,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ណាភីស",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5145,7 +5145,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កេដេម៉ា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5162,7 +5162,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កេតូរ៉ា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5179,7 +5179,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស៊ីមរ៉ាន",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5196,7 +5196,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យ៉ុកសាន",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5213,7 +5213,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មេដាន",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5230,7 +5230,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មីដ្យូន",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5247,7 +5247,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អ៊ីសបាក់",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5264,7 +5264,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស៊ូអាហ្វ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5281,7 +5281,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ធីមណា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5298,7 +5298,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "(ទំនុកដំកើង ៩០:១០)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5315,7 +5315,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ហាំ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5332,7 +5332,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កាណាន",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5349,7 +5349,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស៊ីដូន",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5366,7 +5366,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ហេថ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5383,7 +5383,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជនជាតិយេប៊ុស",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5400,7 +5400,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជនជាតិអាម៉ໍ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5417,7 +5417,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជនជាតិគីគាស",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5434,7 +5434,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជនជាតិអ៊ីវ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5451,7 +5451,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជនជាតិអាកាស",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5468,7 +5468,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជនជាតិស៊ីណាត",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5485,7 +5485,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជនជាតិអារ៉ាវ៉ាត",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5502,7 +5502,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជនជាតិសេម៉ារ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5519,7 +5519,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជនជាតិហាម៉ាត",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5536,7 +5536,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "គុស្ស",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5553,7 +5553,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "នីមរ៉ូឌ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5570,7 +5570,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មីស្រាយ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5587,7 +5587,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កាសលូហ៍",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5604,7 +5604,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យ៉ាផែត",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5621,7 +5621,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អស់សួរ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5638,7 +5638,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "លូត",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5655,7 +5655,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អារ៉ាម",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5672,7 +5672,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អែលាម",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5689,7 +5689,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យ៉ុកថាន",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5706,7 +5706,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាល់ម៉ូដាត",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5723,7 +5723,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សេឡេព",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5740,7 +5740,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ហាសារម៉ាវ៉េត",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5757,7 +5757,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យ៉េរ៉ាហ៍",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5774,7 +5774,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ហាតូរ៉ាម",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5791,7 +5791,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឧសាល",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5808,7 +5808,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឌីក្លា អូបាល",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5825,7 +5825,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាប៊ីម៉ាអែល",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5842,7 +5842,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សេបា អូភៀរ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5859,7 +5859,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ហាវីឡា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5876,7 +5876,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យ៉ូបាប់",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5893,7 +5893,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "1) ជនជាតិអេស៊ីប៖ ទំនុកដំកើង 105:23",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5910,7 +5910,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "2) ជនជាតិកាណាន៖ យូស្វេ 13:3",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5927,7 +5927,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "3) ជនជាតិអារ៉ាម៖ ဟោសេ 12:12",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5944,7 +5944,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "4) ជនជាតិអែលាម៖ អែសរ៉ា 4:9",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5961,7 +5961,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "5) ជនជាតិអស៊ើរ៖ អេសេគាល 27:23",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5978,7 +5978,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "6) ជនជាតិភីលីស្ទីន៖ ພົງສາວະດານទី១ 1:12",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5995,7 +5995,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "7) ជនជាតិអេត្យូភີ [គុស្ស]៖ ພົງສາວະດານទី២ 19:9",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6012,7 +6012,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "8) ជនជាតិអេដូម៖ ជនគណនា 20:14-17",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6029,7 +6029,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "9) ជនជាតិម៉ូអាប់៖ ធុត្តិវង្ស 23:3, 4",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6046,7 +6046,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "10) ជនជាតិអាំម៉ូន៖ យូស្វេ 12:2",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6063,7 +6063,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "11) ជនជាតិម៉ាឌីយ៉ែន៖ ជនគណនា 31:2, 3",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6080,7 +6080,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "12) ជនជាតិអាម៉ាলেক៖ ຊາມູເອນទី១ 15:2",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6097,7 +6097,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "13) ជនជាតិតេម៉ាន៖ យ៉ូប 42:7",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6114,7 +6114,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "14) ជនជាតិស៊ីដូន៖ សាការី 9:2",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6131,7 +6131,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "15) ជនជាតិហេត៖ លោកុប្បត្តិ 15:20",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6148,7 +6148,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "16) ជនជាតិយេប៊ុស៖ យ៉ូស្វា ១៥:៦៣",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6165,7 +6165,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យូឌីត?",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6182,7 +6182,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "17) ជនជាតិលីឌា៖ ១របាក្សត្រ ១:១៧",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6199,7 +6199,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "18) ជនជាតិអ៊ីស្មាអែល៖ លោកុប្បត្តិ ៣៧:២៧",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6216,7 +6216,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "19) ជនជាតិអាមូរី៖ විනිශ්චයකාර ៦:១០ (ប្រើពាក្យកិច្ចការចៅក្រម) - វិនិច្ឆ័យក្ដី ៦:១០",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6233,7 +6233,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "20) ជនជាតិអេវា [កីបូន]៖ យ៉ូស្វា ៩:៣, ៧",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6250,7 +6250,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កាអ៊ីន",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6267,7 +6267,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "Abel",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6284,7 +6284,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អ៊ីរ៉ាឌ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6301,7 +6301,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មេហ៊ូយ៉ាអែល",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6318,7 +6318,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មេធូសាអែល",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6335,7 +6335,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យ៉ាបាល",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6352,7 +6352,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យូបាល",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6369,7 +6369,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស៊ីឡា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6386,7 +6386,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ຕູບານ-ກາອິນ (ទូបាល់-កាអ៊ីន)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6403,7 +6403,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ណាម៉ា",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6420,7 +6420,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រេហូរបោម",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6437,7 +6437,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាបີຢា (អាបີຢាម)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6454,7 +6454,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ອາសា",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6471,7 +6471,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យេហូសាផាត",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6488,7 +6488,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យេហូរ៉ាម",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6505,7 +6505,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាហາဇຍា",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6522,7 +6522,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ព្រះនាងអាតាលីា",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6539,7 +6539,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យេហូអាស់",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6556,7 +6556,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាម៉າဇຍា",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6573,7 +6573,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អ៊ុយဇຍា (អសារីា)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6590,7 +6590,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យេរ៉ូបោម",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6607,7 +6607,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ណាដាប",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6624,7 +6624,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "បាអាសា",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6641,7 +6641,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អេឡា",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6658,7 +6658,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស៊ីមຣី",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6675,7 +6675,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អូមຣី និង ធីបនី ជាមួយគ្នា",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6692,7 +6692,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អូមຣី (ម្នាក់ឯង)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6709,7 +6709,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាហាប់",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6726,7 +6726,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យេហូរ៉ាម",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6743,7 +6743,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យេហ៊ូ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6760,7 +6760,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យេហូអាហាဇ (យេហូអាហាဇ)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6777,7 +6777,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យេហូអាហាဇ និង យេហូអាស់",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6794,7 +6794,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យេហូអាស់ (ម្នាក់ឯង)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6811,7 +6811,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យេរ៉ូបោម ទី២",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6828,7 +6828,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អេលីយ៉ា",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6845,7 +6845,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អេលីសេ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6862,7 +6862,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "โຢນາ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6879,7 +6879,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាម៉ុស",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6896,7 +6896,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "โຢអែល",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6913,7 +6913,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "โຢທាម",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6930,7 +6930,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ອາហາດ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6947,7 +6947,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "เฮเซคียะห์",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6964,7 +6964,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ម៉ាណាសេ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6981,7 +6981,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាម៉ອນ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6998,7 +6998,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "โยสิยาห์",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7015,7 +7015,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "เยโฮอาหาส",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7032,7 +7032,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "เยโฮยาคิม",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7049,7 +7049,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "เยโฮยาคีน",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7066,7 +7066,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "เซเดคียะห์",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7083,7 +7083,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សាការី",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7100,7 +7100,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សាឡូម",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7117,7 +7117,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "เมนาเฮม",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7134,7 +7134,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "เปคาหิยาห์",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7151,7 +7151,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "เปคาห์",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7168,7 +7168,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "โฮเชยา",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7185,7 +7185,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "โฮเชยา",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7202,7 +7202,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អេសាយ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7219,7 +7219,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "มีคาห์",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7236,7 +7236,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "เซฟานียะห์",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7253,7 +7253,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ណាហ៊ុម",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7270,7 +7270,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "เยเรมีย์",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7287,7 +7287,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ฮาบากุก",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7304,7 +7304,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ដានីយ៉ែល",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7321,7 +7321,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "เอเสเคียล",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7338,7 +7338,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "โอบาดีห์",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7355,7 +7355,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ដានីយ៉ែល ២:៣២, ៣៦-៣៨; ៧:៤",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7372,7 +7372,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ដានីយ៉ែល ២:៣២, ៣៩; ៧:៥",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7389,7 +7389,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ដានីយ៉ែល ២:៣២, ៣៩; ៧:៦",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7406,7 +7406,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ដានីយ៉ែល ២:៣៣, ៤០; ៧:៧",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7423,7 +7423,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ដានីយ៉ែល ២:៣៣, ៤១-៤៣",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7440,7 +7440,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "បាប៊ីឡូន",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7457,7 +7457,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មេដូវ៉ា-ពែរ្ស",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7474,7 +7474,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ក្រិច",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7491,7 +7491,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រ៉ូម",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7508,7 +7508,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អង់គ្លេស-អាមេរិក",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7525,7 +7525,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស្តេចនេប៊ូក្នަដនេសា",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7542,7 +7542,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "បំផ្លាញក្រុងយេរូសាឡិម",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7559,7 +7559,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យកឈ្នះក្រុងបាប៊ីឡូន",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7576,7 +7576,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស៊ីរុសចេញក្រឹត្យឱ្យត្រឡប់មកវិញ",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7593,7 +7593,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "នៃជនជាតិយូដាទៅកាន់ក្រុងយេរូសាឡិម",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7610,7 +7610,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាឡិចសាន់ឌឺមហាអធិរាជ",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7627,7 +7627,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យកឈ្នះពែរ្ស",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7644,7 +7644,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "គ្រងរាជ្យលើអ៊ីស្រាអែល",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7661,7 +7661,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "បំផ្លាញក្រុងយេរូសាឡិម",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7678,7 +7678,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ក្នុងសម័យសង្គ្រាមលោកលើកទី១",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7695,7 +7695,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "មហាអំណាចពិភពលោកអង់គ្លេស-អាមេរិក",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7712,7 +7712,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "បានកើតឡើង",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7729,7 +7729,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ ៦០៧ មុនគ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7746,7 +7746,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ ៥៣៩ មុនគ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7763,7 +7763,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ ៥៣៧ មុនគ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7780,7 +7780,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ ៣៣១ មុនគ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7797,7 +7797,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ ៦៣ មុនគ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7814,7 +7814,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ ៧០ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7831,7 +7831,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ ១៩១៤-១៩១៨ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7848,7 +7848,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "វិវរណៈ ១២:៩",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7865,7 +7865,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កិច្ចការ ៧:៦",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7882,7 +7882,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ ៧៧០-២៥៦ មុនគ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7899,7 +7899,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ ១៩៤៣ – ១៥១៣ មុនគ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7916,7 +7916,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ ២៥-២២០ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7933,7 +7933,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ ៣៦៨-៥៨១ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7950,7 +7950,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឆ្នាំ ៤២០-៥៨៩ គ.ស.",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7967,7 +7967,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យូលីុស",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -7984,7 +7984,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កាលីគូឡា",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8001,7 +8001,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "នេរ៉ូ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8018,7 +8018,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ហ្គាល់បា អូតូ និងវីតេលីុស (ឆ្នាំនៃអធិរាជទាំងបួន)",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8035,7 +8035,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "វេសប៉ាសៀន",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8052,7 +8052,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "កូវីដ-១៩",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8069,7 +8069,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សង្គាយនានីសដំបូង",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8086,7 +8086,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ឯកសារប៉ាពីរុសអុកស៊ីរិនកុស",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8103,7 +8103,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ប៉ាពីរុស ភី៥២",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8120,7 +8120,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សឈីង",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8137,7 +8137,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សមីងក្នុងប្រទេសចិនអធិរាជ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8154,7 +8154,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "យួន",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8171,7 +8171,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "សុងខាងត្បូង",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8188,7 +8188,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សសុងខាងជើង",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8205,7 +8205,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សស៊ីសាតខាងលិច",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8222,7 +8222,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "នីកូឡាអូស កូເປ័និក",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8239,7 +8239,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "គាលីលេអូ គាលីឡេ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8256,7 +8256,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អ៊ីសាក ញូតុន",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8273,7 +8273,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សសាង",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8290,7 +8290,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សចូវខាងលិច",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8307,7 +8307,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សចូវខាងកើត",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8324,7 +8324,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សហានខាងលិច",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8341,7 +8341,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សហានខាងកើត",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8358,7 +8358,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ប្រទេសចិន",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8375,7 +8375,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ប្រទេសចិន",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8392,7 +8392,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សខាងជើង",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8409,7 +8409,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សខាងត្បូង",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8426,7 +8426,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សថាង",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8443,7 +8443,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ចក្រភពប៊ីសាន់ទីន",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8460,7 +8460,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ចក្រភពអូតូម៉ង់",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8477,7 +8477,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជីងគីសខាន់",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8494,7 +8494,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ចក្រភពអ៊ីនកា",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8511,7 +8511,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ចក្រភពគុបតា",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8528,7 +8528,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "តេអូតេហ្វសង់",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8545,7 +8545,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាបាស៊ីដខាលីហ្វាត",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8562,7 +8562,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ស៊ុលតង់ម៉ាំលុក",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8579,7 +8579,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "អាល់កាហ្សាលី",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8596,7 +8596,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "គម្ពីរព្រះគម្ពីរវុលហ្វីឡា",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8613,7 +8613,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សត្រាន់",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8630,7 +8630,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "រាជវង្សឡេ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8647,7 +8647,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ពួកចិញនិងពួកង៉្វៀន",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8664,7 +8664,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ចក្រភពសែលជុក",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8681,7 +8681,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ជនជាតិវ៉ាន់ដាល់",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8698,7 +8698,7 @@
     "link": " ",
     "google": " ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ព្រះរាជាណាចក្រឡំបាដ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"

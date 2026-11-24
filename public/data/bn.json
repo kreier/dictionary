@@ -273,8 +273,8 @@
   },
   {
     "key": "age_kings",
-    "text": " ",
-    "english": " ",
+    "text": "বছর বয়সে রাজা হন",
+    "english": "",
     "notes": "if the word \"year\" appears after the numeral, like \"at the age of 35 years\"",
     "tag": "text",
     "checked": "False",
@@ -283,7 +283,7 @@
     "link": " ",
     "google": "#VALUE!",
     "chatgpt": " ",
-    "gemini": "",
+    "gemini": "বছর বয়সে রাজা হন",
     "claude": "",
     "deepl": " ",
     "category": "text"
@@ -800,7 +800,7 @@
   },
   {
     "key": "became_king",
-    "text": "বয়সে রাজা হন",
+    "text": "",
     "english": "becomes king at age",
     "notes": "2025-04-14",
     "tag": "text",
@@ -810,7 +810,7 @@
     "link": " ",
     "google": "বয়সে রাজা হন",
     "chatgpt": "বয়সে রাজা হন",
-    "gemini": "বয়সে রাজা হন",
+    "gemini": "",
     "claude": "বয়সে রাজা হন",
     "deepl": "বয়সে রাজা হয়",
     "category": "text"
@@ -3037,7 +3037,7 @@
     "link": " ",
     "google": "অ্যাডাম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "আদম",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3054,7 +3054,7 @@
     "link": " ",
     "google": "সেথ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "শেঠ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3071,7 +3071,7 @@
     "link": " ",
     "google": "এনোশ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইনোশ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3088,7 +3088,7 @@
     "link": " ",
     "google": "কেনান (কেনান)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "কেনন (কৈনন)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3105,7 +3105,7 @@
     "link": " ",
     "google": "মহালালেল (মহালালিল)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মহললেল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3122,7 +3122,7 @@
     "link": " ",
     "google": "জ্যারেড",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যারেদ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3139,7 +3139,7 @@
     "link": " ",
     "google": "ইনোক",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হনোক",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3156,7 +3156,7 @@
     "link": " ",
     "google": "মেথুসেলাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মথূশেল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3173,7 +3173,7 @@
     "link": " ",
     "google": "লেমেক",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "লেমক",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3190,7 +3190,7 @@
     "link": " ",
     "google": "নোয়া",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "নোহ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3207,7 +3207,7 @@
     "link": " ",
     "google": "শেম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "শেম",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3224,7 +3224,7 @@
     "link": " ",
     "google": "আরপাচশাদ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অর্পক্ষদ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3241,7 +3241,7 @@
     "link": " ",
     "google": "শেলাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "শেলহ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3258,7 +3258,7 @@
     "link": " ",
     "google": "এবার",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "এবর",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3275,7 +3275,7 @@
     "link": " ",
     "google": "পেলেগ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "পলেগ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3292,7 +3292,7 @@
     "link": " ",
     "google": "রিউ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "রূয়ূ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3309,7 +3309,7 @@
     "link": " ",
     "google": "সেরুগ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সূরূগ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3326,7 +3326,7 @@
     "link": " ",
     "google": "নাহোর",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "নাহোের",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3343,7 +3343,7 @@
     "link": " ",
     "google": "তেরাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "তেরহ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3360,7 +3360,7 @@
     "link": " ",
     "google": "আব্রাহাম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অব্রাহাম",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3377,7 +3377,7 @@
     "link": " ",
     "google": "আইজ্যাক",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইসহাক",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3394,7 +3394,7 @@
     "link": " ",
     "google": "জ্যাকব",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যাকোব",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3411,7 +3411,7 @@
     "link": " ",
     "google": "জোসেফ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যোসেফ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3428,7 +3428,7 @@
     "link": " ",
     "google": "মোজেস",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মোশি",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3445,7 +3445,7 @@
     "link": " ",
     "google": "ওথনিয়েল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অত্নীয়েল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3462,7 +3462,7 @@
     "link": " ",
     "google": "এহুদ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "এহূদ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3479,7 +3479,7 @@
     "link": " ",
     "google": "শামগার",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "শমগরি",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3496,7 +3496,7 @@
     "link": " ",
     "google": "বারাক, দেবোরা, যায়েল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "বারক, দেবরা, যায়েল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3513,7 +3513,7 @@
     "link": " ",
     "google": "গিডিয়ন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "গিদিযোন",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3530,7 +3530,7 @@
     "link": " ",
     "google": "টোলা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "তোলা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3547,7 +3547,7 @@
     "link": " ",
     "google": "জাইর",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যাঈর",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3564,7 +3564,7 @@
     "link": " ",
     "google": "জেফথা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিপ্ত",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3581,7 +3581,7 @@
     "link": " ",
     "google": "ইবজান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইবৎসন্‌",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3598,7 +3598,7 @@
     "link": " ",
     "google": "ইলন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "এলোন",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3615,7 +3615,7 @@
     "link": " ",
     "google": "অ্যাবডন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অব্দোন্",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3632,7 +3632,7 @@
     "link": " ",
     "google": "স্যামসন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "শিমশোন",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3649,7 +3649,7 @@
     "link": " ",
     "google": "স্যামুয়েল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "শমূয়েল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3666,7 +3666,7 @@
     "link": " ",
     "google": "শৌল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "শৌল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3683,7 +3683,7 @@
     "link": " ",
     "google": "ডেভিড",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "দায়ূদ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3700,7 +3700,7 @@
     "link": " ",
     "google": "সলোমন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "শলোমন",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3717,7 +3717,7 @@
     "link": " ",
     "google": "মালাচি",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মালাখি",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3734,7 +3734,7 @@
     "link": " ",
     "google": "রুথ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "রূৎ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3751,7 +3751,7 @@
     "link": " ",
     "google": "এজরা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "এজ্রা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3768,7 +3768,7 @@
     "link": " ",
     "google": "নেহেমিয়া",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "নহিমিয়",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3785,7 +3785,7 @@
     "link": " ",
     "google": "এস্থার",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইষ্টের",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3802,7 +3802,7 @@
     "link": " ",
     "google": "চাকরি",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "আইয়ুব",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3819,7 +3819,7 @@
     "link": " ",
     "google": "মোজেস",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মোশি",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3836,7 +3836,7 @@
     "link": " ",
     "google": "জোশুয়া",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিহোশূয়",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3853,7 +3853,7 @@
     "link": " ",
     "google": "ক্যালেব",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "কালেব",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3870,7 +3870,7 @@
     "link": " ",
     "google": "অগাস্টাস",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অগাস্টাস",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3887,7 +3887,7 @@
     "link": " ",
     "google": "টাইবেরিয়াস",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "তিবিরিয়",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3904,7 +3904,7 @@
     "link": " ",
     "google": "ক্লডিয়াস",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ক্লদিয়",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3921,7 +3921,7 @@
     "link": " ",
     "google": "পারস্য",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "পারস্য",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3938,7 +3938,7 @@
     "link": " ",
     "google": "যিহোয়াদা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিহোয়াদা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3955,7 +3955,7 @@
     "link": " ",
     "google": "হাগ্গাই",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হাগয়",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3972,7 +3972,7 @@
     "link": " ",
     "google": "জেরুব্বাবেল (লূক ৩:২৭)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সলোবাবেল (লূক ৩:২৭)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -3989,7 +3989,7 @@
     "link": " ",
     "google": "জ্যাকব/",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যাকোব/",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4006,7 +4006,7 @@
     "link": " ",
     "google": "ইসরায়েল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইস্রায়েল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4023,7 +4023,7 @@
     "link": " ",
     "google": "সারা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সারা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4040,7 +4040,7 @@
     "link": " ",
     "google": "হাগার",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হাগার",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4057,7 +4057,7 @@
     "link": " ",
     "google": "হারান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হারণ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4074,7 +4074,7 @@
     "link": " ",
     "google": "রিউমা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "রূয়ূমা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4091,7 +4091,7 @@
     "link": " ",
     "google": "মিলকা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মিল্কা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4108,7 +4108,7 @@
     "link": " ",
     "google": "অনেক",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "লোট",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4125,7 +4125,7 @@
     "link": " ",
     "google": "বেন-আম্মি (আম্মোন)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "বেন-অম্মি (অম্মোন)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4142,7 +4142,7 @@
     "link": " ",
     "google": "বেথুয়েল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "বথূয়েল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4159,7 +4159,7 @@
     "link": " ",
     "google": "রেবেকা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "রিবিকা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4176,7 +4176,7 @@
     "link": " ",
     "google": "লাবান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "লাবন",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4193,7 +4193,7 @@
     "link": " ",
     "google": "লিয়া",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "লেয়াহ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4210,7 +4210,7 @@
     "link": " ",
     "google": "র‍্যাচেল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "রাহেল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4227,7 +4227,7 @@
     "link": " ",
     "google": "বিলহা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "বিল্হা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4244,7 +4244,7 @@
     "link": " ",
     "google": "জিলপাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সিল্পা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4261,7 +4261,7 @@
     "link": " ",
     "google": "রুবেন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "রূবেণ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4278,7 +4278,7 @@
     "link": " ",
     "google": "শিমিয়োন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "শিমিয়োন",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4295,7 +4295,7 @@
     "link": " ",
     "google": "লেভি",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "লেবি",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4312,7 +4312,7 @@
     "link": " ",
     "google": "যিহূদা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিহূদা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4329,7 +4329,7 @@
     "link": " ",
     "google": "ইসসাখার",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইষাখরব",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4346,7 +4346,7 @@
     "link": " ",
     "google": "জেবুলুন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সবূলুন",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4363,7 +4363,7 @@
     "link": " ",
     "google": "দিনাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "দীনা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4380,7 +4380,7 @@
     "link": " ",
     "google": "এসাও/",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "এষা/",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4397,7 +4397,7 @@
     "link": " ",
     "google": "ইদোম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইদোম",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4414,7 +4414,7 @@
     "link": " ",
     "google": "ইসমাইল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইশ্মায়েলের",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4431,7 +4431,7 @@
     "link": " ",
     "google": "(মানাসেহ)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "(মনঃশী",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4448,7 +4448,7 @@
     "link": " ",
     "google": "এবং ইফ্রাইম)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ও ইফ্রয়ীমের)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4465,7 +4465,7 @@
     "link": " ",
     "google": "বেঞ্জামিন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "বিন্যামীন",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4482,7 +4482,7 @@
     "link": " ",
     "google": "ড্যান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "দান",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4499,7 +4499,7 @@
     "link": " ",
     "google": "নাফতালি",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "নপ্তালি",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4516,7 +4516,7 @@
     "link": " ",
     "google": "গ্যাড",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "গাদ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4533,7 +4533,7 @@
     "link": " ",
     "google": "অ্যাশার",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "আশের",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4550,7 +4550,7 @@
     "link": " ",
     "google": "উজ, বাজ, কেমুয়েল,",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ঊষ, বূষ, কমূয়েল,",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4567,7 +4567,7 @@
     "link": " ",
     "google": "চেসেড, হাজো,",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "খসদ, হসোদ,",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4584,7 +4584,7 @@
     "link": " ",
     "google": "পিলদাশ, জিডলাফ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "পিল্দশ, যিদ্লপ্ত",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4601,7 +4601,7 @@
     "link": " ",
     "google": "তেবাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "টেবহ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4618,7 +4618,7 @@
     "link": " ",
     "google": "গাহাম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "গহম",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4635,7 +4635,7 @@
     "link": " ",
     "google": "তাহাশ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "তহশ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4652,7 +4652,7 @@
     "link": " ",
     "google": "মাকাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মাখা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4669,7 +4669,7 @@
     "link": " ",
     "google": "মহালথ/",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মহলৎ/",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4686,7 +4686,7 @@
     "link": " ",
     "google": "বেসম্যাথ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "বশমত",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4703,7 +4703,7 @@
     "link": " ",
     "google": "রিউয়েল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "রূয়েল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4720,7 +4720,7 @@
     "link": " ",
     "google": "নাহাথ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "নহৎ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4737,7 +4737,7 @@
     "link": " ",
     "google": "জেরাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "জেরহ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4754,7 +4754,7 @@
     "link": " ",
     "google": "শাম্মা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "শম্মহ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4771,7 +4771,7 @@
     "link": " ",
     "google": "মিজাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মিষহ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4788,7 +4788,7 @@
     "link": " ",
     "google": "আদা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অদা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4805,7 +4805,7 @@
     "link": " ",
     "google": "এলিফাজ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইলীফজ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4822,7 +4822,7 @@
     "link": " ",
     "google": "তেমান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "তৈমন",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4839,7 +4839,7 @@
     "link": " ",
     "google": "ওমর",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ওমর",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4856,7 +4856,7 @@
     "link": " ",
     "google": "জেফো",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "চফো",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4873,7 +4873,7 @@
     "link": " ",
     "google": "কেনাজ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "কেনস",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4890,7 +4890,7 @@
     "link": " ",
     "google": "কোরহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "কোরহ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4907,7 +4907,7 @@
     "link": " ",
     "google": "কোরহ, গাতাম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "কোরহ, গতম",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4924,7 +4924,7 @@
     "link": " ",
     "google": "আমালেক",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অমালেক",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4941,7 +4941,7 @@
     "link": " ",
     "google": "ওহোলিবামাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অহোলীবমা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4958,7 +4958,7 @@
     "link": " ",
     "google": "যিহূষ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যীউশ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4975,7 +4975,7 @@
     "link": " ",
     "google": "জালাম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যালম",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -4992,7 +4992,7 @@
     "link": " ",
     "google": "নেবাইওথ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "নবায়োৎ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5009,7 +5009,7 @@
     "link": " ",
     "google": "কেদার",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "কেদর",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5026,7 +5026,7 @@
     "link": " ",
     "google": "মিশমা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মিশ্মা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5043,7 +5043,7 @@
     "link": " ",
     "google": "আদবিল, মিবসাম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অদ্বীয়েল, মিবসম",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5060,7 +5060,7 @@
     "link": " ",
     "google": "দুমাহ, মাসা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "দূমা, মস্শা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5077,7 +5077,7 @@
     "link": " ",
     "google": "হাদাদ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হদদ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5094,7 +5094,7 @@
     "link": " ",
     "google": "থিমা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "তৈমা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5111,7 +5111,7 @@
     "link": " ",
     "google": "জেতুর",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিটূুর",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5128,7 +5128,7 @@
     "link": " ",
     "google": "নাফিশ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "নাফীশ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5145,7 +5145,7 @@
     "link": " ",
     "google": "কেডেমা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "কেদমূহ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5162,7 +5162,7 @@
     "link": " ",
     "google": "কেতুরা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "কeturা (কেতূরা) -> কেতূরা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5179,7 +5179,7 @@
     "link": " ",
     "google": "জিমরান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সিম্রম",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5196,7 +5196,7 @@
     "link": " ",
     "google": "জোকশান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যোকশন্",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5213,7 +5213,7 @@
     "link": " ",
     "google": "মেদান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মৈদন্",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5230,7 +5230,7 @@
     "link": " ",
     "google": "মিডিয়ান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মিদিয়ন",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5247,7 +5247,7 @@
     "link": " ",
     "google": "ইশবাক",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিঃশ্‌বক -> যিষ্কক (যিশ্বক) -> যিষ্কক",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5264,7 +5264,7 @@
     "link": " ",
     "google": "শুয়াহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "শূয়হ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5281,7 +5281,7 @@
     "link": " ",
     "google": "তিমনা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "তিম্না",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5298,7 +5298,7 @@
     "link": " ",
     "google": "(গীতসংহিতা ৯০:১০)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "(গীতসংহিতা ৯০:১০)",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5315,7 +5315,7 @@
     "link": " ",
     "google": "হ্যাম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হাম",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5332,7 +5332,7 @@
     "link": " ",
     "google": "কানান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "কনান",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5349,7 +5349,7 @@
     "link": " ",
     "google": "সিডন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সিদোন্",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5366,7 +5366,7 @@
     "link": " ",
     "google": "হেথ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হেত",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5383,7 +5383,7 @@
     "link": " ",
     "google": "জেবুসাইট",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিবূষীয়",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5400,7 +5400,7 @@
     "link": " ",
     "google": "অ্যামোরাইট",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইমোরীয়",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5417,7 +5417,7 @@
     "link": " ",
     "google": "গিরগাশাইট",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "গির্গাশীয়",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5434,7 +5434,7 @@
     "link": " ",
     "google": "হাইভাইট",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হিব্বীয়",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5451,7 +5451,7 @@
     "link": " ",
     "google": "আর্কাইট",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অর্কীয়",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5468,7 +5468,7 @@
     "link": " ",
     "google": "সিনাইট",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সীনীয়",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5485,7 +5485,7 @@
     "link": " ",
     "google": "আরভাদাইট",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অর্বাদীয়",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5502,7 +5502,7 @@
     "link": " ",
     "google": "জেমারাইট",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সমরীয -> সমরীয",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5519,7 +5519,7 @@
     "link": " ",
     "google": "হামাথীয়",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হমাতীয়",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5536,7 +5536,7 @@
     "link": " ",
     "google": "কুশ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "কূশ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5553,7 +5553,7 @@
     "link": " ",
     "google": "নিমরোড",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "নিম্রোদ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5570,7 +5570,7 @@
     "link": " ",
     "google": "মিজরাইম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মিসরীয় -> মিৎসরিয় -> মিৎসরিয়",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5587,7 +5587,7 @@
     "link": " ",
     "google": "কাসলুহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "কসলূহের -> কসলূহের -> কসলূহীয়",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5604,7 +5604,7 @@
     "link": " ",
     "google": "জাফেথ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যেফৎ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5621,7 +5621,7 @@
     "link": " ",
     "google": "আশুর",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "আশূর",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5638,7 +5638,7 @@
     "link": " ",
     "google": "লুড",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "লূদ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5655,7 +5655,7 @@
     "link": " ",
     "google": "আরাম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অরাম",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5672,7 +5672,7 @@
     "link": " ",
     "google": "এলাম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "এলম",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5689,7 +5689,7 @@
     "link": " ",
     "google": "জোকটান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যোক্টন্ -> যোক্টন্",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5706,7 +5706,7 @@
     "link": " ",
     "google": "আলমোদাদ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অলমোদাদ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5723,7 +5723,7 @@
     "link": " ",
     "google": "শেলেফ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "শেলফ -> শেলফ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5740,7 +5740,7 @@
     "link": " ",
     "google": "হাজারমাভেথ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হৎসর্মাবৎ -> হৎসর্মাবৎ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5757,7 +5757,7 @@
     "link": " ",
     "google": "জেরাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যেরাখ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5774,7 +5774,7 @@
     "link": " ",
     "google": "হাদোরাম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হাদোরাম",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5791,7 +5791,7 @@
     "link": " ",
     "google": "উজাল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ঊষল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5808,7 +5808,7 @@
     "link": " ",
     "google": "ডিকলাহ, ওবাল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "দিক্লা, ওবল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5825,7 +5825,7 @@
     "link": " ",
     "google": "আবিমায়েল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অবীমায়েল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5842,7 +5842,7 @@
     "link": " ",
     "google": "শেবা, ওফির",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "শিবা, অফীর",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5859,7 +5859,7 @@
     "link": " ",
     "google": "হাভিলাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হবীলা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5876,7 +5876,7 @@
     "link": " ",
     "google": "জোবাব",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যোবাব",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5893,7 +5893,7 @@
     "link": " ",
     "google": "১) মিশরীয়রা: গীতসংহিতা ১০৫:২৩",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "১) মিশরীয়গণ: গীতসংহিতা ১০৫:২৩",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5910,7 +5910,7 @@
     "link": " ",
     "google": "২) কনানীয়রা: যিহোশূয় ১৩:৩",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "২) কনানীয়গণ: যিহোশুয় ১৩:৩",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5927,7 +5927,7 @@
     "link": " ",
     "google": "৩) অরামীয়: হোশেয় ১২:১২",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "৩) অরামীয়গণ: হোশেয় ১২:১২",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5944,7 +5944,7 @@
     "link": " ",
     "google": "৪) ইলামীয়রা: এজরা ৪:৯",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "৪) এলমীয়গণ: ইজ্রা ৪:৯",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5961,7 +5961,7 @@
     "link": " ",
     "google": "৫) অসূরীয়রা: যিহিষ্কেল ২৭:২৩",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "৫) আশূরীয়গণ: যিহিষ্কেল ২৭:২৩",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5978,7 +5978,7 @@
     "link": " ",
     "google": "৬) পলেষ্টীয়রা: ১ বংশাবলি ১:১২",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "৬) পলেষ্টীয়গণ: ১ বংশাবলি ১:১২",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -5995,7 +5995,7 @@
     "link": " ",
     "google": "7) ইথিওপিয়ান [কুশিট]: 2 কিংস 19:9",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "৭) ইথিওপীয় [কূশীয়]: ২ রাজাবলি ১৯:৯",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6012,7 +6012,7 @@
     "link": " ",
     "google": "৮) ইদোমীয়রা: গণনাপুস্তক ২০:১৪-১৭",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "৮) ইদোমীয়গণ: গণনা পুস্তক ২০:১৪-১৭",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6029,7 +6029,7 @@
     "link": " ",
     "google": "৯) মোয়াবীয়েরা: দ্বিতীয় বিবরণ ২৩:৩, ৪",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "৯) মোয়াবীয়গণ: দ্বিতীয় বিবরণ ২৩:৩, ৪",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6046,7 +6046,7 @@
     "link": " ",
     "google": "১০) অম্মোনীয়রা: যিহোশু ১২:২",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "১০) অম্মোনীয়গণ: যিহোশুয় ১২:২",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6063,7 +6063,7 @@
     "link": " ",
     "google": "১১) মিদিয়ানীয়রা: গণনাপুস্তক ৩১:২, ৩",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "১১) মিদিয়নীয়গণ: গণনা পুস্তক ৩১:২, ৩",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6080,7 +6080,7 @@
     "link": " ",
     "google": "১২) অমালেকীয়রা: ১ শমূয়েল ১৫:২",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "১২) অমালেকীয়গণ: ১ শমূয়েল ১৫:২",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6097,7 +6097,7 @@
     "link": " ",
     "google": "১৩) তেমীয়রা: ইয়োব ৪২:৭",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "১৩) তৈমনীয়গণ: ইয়োব ৪২:৭",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6114,7 +6114,7 @@
     "link": " ",
     "google": "১৪) সিদোনীয়: সখরিয় ৯:২",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "১৪) সিদোনীয়গণ: সখরিয় ৯:২",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6131,7 +6131,7 @@
     "link": " ",
     "google": "১৫) হিত্তীয়রা: আদিপুস্তক ১৫:২০",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "১৫) হিত্তীয়গণ: আদিপুস্তক ১৫:২০",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6148,7 +6148,7 @@
     "link": " ",
     "google": "১৬) যিবূসীয়রা: যিহোশূয় ১৫:৬৩",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "১৬) যিবূষীয়গণ: যিহোশুয় ১৫:৬৩",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6165,7 +6165,7 @@
     "link": " ",
     "google": "জুডিথ?",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যূদিথ?",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6182,7 +6182,7 @@
     "link": " ",
     "google": "১৭) লিদীয়: ১ বংশাবলি ১:১৭",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "১৭) লুদীয়গণ: ১ বংশাবলি ১:১৭",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6199,7 +6199,7 @@
     "link": " ",
     "google": "১৮) ইশ্মায়েলীয়রা: আদিপুস্তক ৩৭:২৭",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "১৮) ইশ্মায়েলীয়গণ: আদিপুস্তক ৩৭:২৭",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6216,7 +6216,7 @@
     "link": " ",
     "google": "১৯) অমোরীয়রা: বিচারকগণ ৬:১০",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "১৯) ইমোরীয়গণ: বিচারকর্তৃগণ ৬:১০",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6233,7 +6233,7 @@
     "link": " ",
     "google": "২০) হিবীয়রা [গিবিয়োন]: যিহোশূয় ৯:৩, ৭",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "২০) হিব্বীয়গণ [গিবিয়ন]: যিহোশুয় ৯:৩, ৭",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6250,7 +6250,7 @@
     "link": " ",
     "google": "কেইন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "কয়িন",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6267,7 +6267,7 @@
     "link": " ",
     "google": "অ্যাবেল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হাবিল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6284,7 +6284,7 @@
     "link": " ",
     "google": "ইরাদ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইরোদ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6301,7 +6301,7 @@
     "link": " ",
     "google": "মেহুজায়েল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মহূযায়েল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6318,7 +6318,7 @@
     "link": " ",
     "google": "মেথুশেল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মথূশায়েল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6335,7 +6335,7 @@
     "link": " ",
     "google": "জাবাল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যাবল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6352,7 +6352,7 @@
     "link": " ",
     "google": "জুবাল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যূবল",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6369,7 +6369,7 @@
     "link": " ",
     "google": "জিলাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সিল্লহ",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6386,7 +6386,7 @@
     "link": " ",
     "google": "টিউবাল-কেইন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "তূবল-কয়িন",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6403,7 +6403,7 @@
     "link": " ",
     "google": "নামাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "নয়মা",
     "claude": " ",
     "deepl": " ",
     "category": "bible"
@@ -6420,7 +6420,7 @@
     "link": " ",
     "google": "রেহোবোয়াম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "রহচবিয়ম",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6437,7 +6437,7 @@
     "link": " ",
     "google": "আবিজাহ (আবিজাম)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অভিয় (অভিয়ম)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6454,7 +6454,7 @@
     "link": " ",
     "google": "আসা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "আসা",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6471,7 +6471,7 @@
     "link": " ",
     "google": "যিহোশাফট",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিহোশাফট",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6488,7 +6488,7 @@
     "link": " ",
     "google": "যিহোরাম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিহোরাম",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6505,7 +6505,7 @@
     "link": " ",
     "google": "আহাজিয়া",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অহসিয়",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6522,7 +6522,7 @@
     "link": " ",
     "google": "রানী আথালিয়া",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "রানি অতলিয়া",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6539,7 +6539,7 @@
     "link": " ",
     "google": "যিহোয়াশ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিহোয়াশ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6556,7 +6556,7 @@
     "link": " ",
     "google": "আমাজিয়া",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অমৎসিয়",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6573,7 +6573,7 @@
     "link": " ",
     "google": "উযিয়াহ (আজারিয়াহ)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "উজ্জিয় (অসিয়)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6590,7 +6590,7 @@
     "link": " ",
     "google": "জেরোবোয়াম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যারবিয়ম",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6607,7 +6607,7 @@
     "link": " ",
     "google": "নাদাব",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "নাদব",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6624,7 +6624,7 @@
     "link": " ",
     "google": "বাশা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "বাশা",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6641,7 +6641,7 @@
     "link": " ",
     "google": "এলাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "এলহ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6658,7 +6658,7 @@
     "link": " ",
     "google": "জিম্রি",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সিম্রি",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6675,7 +6675,7 @@
     "link": " ",
     "google": "ওমরি এবং তিবনি একসাথে",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অম্রি ও তিব্নি একত্রে",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6692,7 +6692,7 @@
     "link": " ",
     "google": "ওমরি (একাই)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অম্রি (একা)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6709,7 +6709,7 @@
     "link": " ",
     "google": "আহাব",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "আহাব",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6726,7 +6726,7 @@
     "link": " ",
     "google": "যিহোরাম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিহোরাম",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6743,7 +6743,7 @@
     "link": " ",
     "google": "যেহু",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যেহূ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6760,7 +6760,7 @@
     "link": " ",
     "google": "জেওহাজ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিহোয়াহস",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6777,7 +6777,7 @@
     "link": " ",
     "google": "যিহোয়াহজ এবং যিহোয়াশ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিহোয়াহস ও যিহোয়াশ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6794,7 +6794,7 @@
     "link": " ",
     "google": "যিহোয়াশ (একাই)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিহোয়াশ (একা)",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6811,7 +6811,7 @@
     "link": " ",
     "google": "জেরোবোয়াম ২",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "দ্বিতীয় যারবিয়ম",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6828,7 +6828,7 @@
     "link": " ",
     "google": "এলিয়া",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "এলিয়",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6845,7 +6845,7 @@
     "link": " ",
     "google": "এলিশা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইলীশায়",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6862,7 +6862,7 @@
     "link": " ",
     "google": "যোনা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যোনা",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6879,7 +6879,7 @@
     "link": " ",
     "google": "আমোস",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "আমোস",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6896,7 +6896,7 @@
     "link": " ",
     "google": "জোয়েল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যোয়েল",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6913,7 +6913,7 @@
     "link": " ",
     "google": "জোথাম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যোথম",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6930,7 +6930,7 @@
     "link": " ",
     "google": "আহাজ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অহস",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6947,7 +6947,7 @@
     "link": " ",
     "google": "হেজেকিয়াহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হিজকিয়",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6964,7 +6964,7 @@
     "link": " ",
     "google": "মানাসেহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মনঃশি",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6981,7 +6981,7 @@
     "link": " ",
     "google": "আমন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "আমোন",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -6998,7 +6998,7 @@
     "link": " ",
     "google": "যোশিয়",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যোসিয়",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7015,7 +7015,7 @@
     "link": " ",
     "google": "যিহোয়াহাজ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিহোয়াহস",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7032,7 +7032,7 @@
     "link": " ",
     "google": "যিহোয়াকিম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিহোয়াকীম",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7049,7 +7049,7 @@
     "link": " ",
     "google": "যিহোয়াচিন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিহোয়াকীন",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7066,7 +7066,7 @@
     "link": " ",
     "google": "জেদেকিয়াহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সিসি কিয়",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7083,7 +7083,7 @@
     "link": " ",
     "google": "জাকারিয়া",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সখরিয়",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7100,7 +7100,7 @@
     "link": " ",
     "google": "শ্যালাম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "শল্লুম",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7117,7 +7117,7 @@
     "link": " ",
     "google": "মেনাহেম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মেনহম",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7134,7 +7134,7 @@
     "link": " ",
     "google": "পেকাহিয়াহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "পকহিয়া",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7151,7 +7151,7 @@
     "link": " ",
     "google": "পেকাহ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "পকহ",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7168,7 +7168,7 @@
     "link": " ",
     "google": "হোশেয়া",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হোষেয়",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7185,7 +7185,7 @@
     "link": " ",
     "google": "হোশেয়",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হোশেয়",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7202,7 +7202,7 @@
     "link": " ",
     "google": "যিশাইয়",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিশাইয়",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7219,7 +7219,7 @@
     "link": " ",
     "google": "মাইকা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মীখা",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7236,7 +7236,7 @@
     "link": " ",
     "google": "সফনিয়",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সফনীয়",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7253,7 +7253,7 @@
     "link": " ",
     "google": "নাহুম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "নহূম",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7270,7 +7270,7 @@
     "link": " ",
     "google": "যিরমিয়",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিরমিয়",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7287,7 +7287,7 @@
     "link": " ",
     "google": "হাবাকুক",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "হাবাকূক",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7304,7 +7304,7 @@
     "link": " ",
     "google": "ড্যানিয়েল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "দানিয়েল",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7321,7 +7321,7 @@
     "link": " ",
     "google": "ইজেকিয়েল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যহিষ্কেল",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7338,7 +7338,7 @@
     "link": " ",
     "google": "ওবাদিয়া",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ওবদিয়",
     "claude": " ",
     "deepl": " ",
     "category": "A6"
@@ -7355,7 +7355,7 @@
     "link": " ",
     "google": "দানিয়েল ২:৩২, ৩৬-৩৮; ৭:৪",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "দানিয়েল ২:৩২, ৩৬-৩৮; ৭:৪",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7372,7 +7372,7 @@
     "link": " ",
     "google": "দানিয়েল ২:৩২, ৩৯; ৭:৫",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "দানিয়েল ২:৩২, ৩৯; ৭:৫",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7389,7 +7389,7 @@
     "link": " ",
     "google": "দানিয়েল ২:৩২, ৩৯; ৭:৬",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "দানিয়েল ২:৩২, ৩৯; ৭:৬",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7406,7 +7406,7 @@
     "link": " ",
     "google": "দানিয়েল ২:৩৩, ৪০; ৭:৭",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "দানিয়েল ২:৩৩, ৪০; ৭:৭",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7423,7 +7423,7 @@
     "link": " ",
     "google": "দানিয়েল ২:৩৩, ৪১-৪৩",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "দানিয়েল ২:৩৩, ৪১-৪৩",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7440,7 +7440,7 @@
     "link": " ",
     "google": "ব্যাবিলন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ব্যাবিলন",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7457,7 +7457,7 @@
     "link": " ",
     "google": "মেদো-পারস্য",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মাধ্য-পারস্য",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7474,7 +7474,7 @@
     "link": " ",
     "google": "গ্রীস",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "গ্রিস",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7491,7 +7491,7 @@
     "link": " ",
     "google": "রোম",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "রোম",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7508,7 +7508,7 @@
     "link": " ",
     "google": "অ্যাংলো-আমেরিকা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইঙ্গ-আমেরিকা",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7525,7 +7525,7 @@
     "link": " ",
     "google": "রাজা নেবুচাদনেজার",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "রাজা নবূখদ্রনিৎসর",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7542,7 +7542,7 @@
     "link": " ",
     "google": "জেরুজালেম ধ্বংস করে",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিরূশালেম ধ্বংস করেন",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7559,7 +7559,7 @@
     "link": " ",
     "google": "ব্যাবিলন জয় করে",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ব্যাবিলন জয় করেন",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7576,7 +7576,7 @@
     "link": " ",
     "google": "সাইরাস প্রত্যাবর্তনের আদেশ দেন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "চোরূষ প্রত্যাবর্তনের নির্দেশ দেন",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7593,7 +7593,7 @@
     "link": " ",
     "google": "জেরুজালেমে ইহুদিদের",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিরূশালেমে ইহুদিদের",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7610,7 +7610,7 @@
     "link": " ",
     "google": "আলেকজান্ডার দ্য গ্রেট",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মহান আলেকজান্ডার",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7627,7 +7627,7 @@
     "link": " ",
     "google": "পারস্য জয় করে",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "পারস্য জয় করেন",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7644,7 +7644,7 @@
     "link": " ",
     "google": "ইসরায়েলের উপর শাসন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইস্রায়েলের ওপর শাসন করেন",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7661,7 +7661,7 @@
     "link": " ",
     "google": "জেরুজালেম ধ্বংস করে",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "যিরূশালেম ধ্বংস করেন",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7678,7 +7678,7 @@
     "link": " ",
     "google": "প্রথম বিশ্বযুদ্ধের সময়,",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "প্রথম বিশ্বযুদ্ধের সময়,",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7695,7 +7695,7 @@
     "link": " ",
     "google": "অ্যাংলো-আমেরিকান বিশ্ব শক্তি",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইঙ্গ-আমেরিকান বিশ্বশক্তি",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7712,7 +7712,7 @@
     "link": " ",
     "google": "অস্তিত্বে আসে",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "আত্মপ্রকাশ করে",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7729,7 +7729,7 @@
     "link": " ",
     "google": "৬০৭ খ্রিস্টপূর্বাব্দ।",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "খ্রীষ্টপূর্ব ৬০৭ অব্দ",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7746,7 +7746,7 @@
     "link": " ",
     "google": "৫৩৯ খ্রিস্টপূর্বাব্দ।",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "খ্রীষ্টপূর্ব ৫৩৯ অব্দ",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7763,7 +7763,7 @@
     "link": " ",
     "google": "৫৩৭ খ্রিস্টপূর্বাব্দ।",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "খ্রীষ্টপূর্ব ৫৩৭ অব্দ",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7780,7 +7780,7 @@
     "link": " ",
     "google": "৩৩১ খ্রিস্টপূর্বাব্দ।",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "খ্রীষ্টপূর্ব ৩৩১ অব্দ",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7797,7 +7797,7 @@
     "link": " ",
     "google": "৬৩ খ্রিস্টপূর্বাব্দ।",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "খ্রিস্টপূর্ব ৬৩ অব্দ",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7814,7 +7814,7 @@
     "link": " ",
     "google": "৭০ খ্রিস্টাব্দে",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "খ্রিস্টীয় ৭০ অব্দ",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7831,7 +7831,7 @@
     "link": " ",
     "google": "১৯১৪-১৯১৮ খ্রিস্টাব্দ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "১৯১৪-১৯১৮ খ্রিস্টাব্দ",
     "claude": " ",
     "deepl": " ",
     "category": "B9"
@@ -7848,7 +7848,7 @@
     "link": " ",
     "google": "প্রকাশিত বাক্য ১২:৯",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "প্রকাশিত বাক্য ১২:৯",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7865,7 +7865,7 @@
     "link": " ",
     "google": "প্রেরিত ৭:৬",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "প্রেরিত ৭:৬",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7882,7 +7882,7 @@
     "link": " ",
     "google": "৭৭০-২৫৬ খ্রিস্টপূর্বাব্দ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "খ্রিস্টপূর্ব ৭৭০-২৫৬ অব্দ",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7899,7 +7899,7 @@
     "link": " ",
     "google": "১৯৪৩ – ১৫১৩ খ্রিস্টপূর্বাব্দ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "খ্রিস্টপূর্ব ১৯৪৩ – ১৫১৩ অব্দ",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7916,7 +7916,7 @@
     "link": " ",
     "google": "২৫-২২০ খ্রিস্টাব্দ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "২৫-২২০ খ্রিস্টাব্দ",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7933,7 +7933,7 @@
     "link": " ",
     "google": "৩৬৮-৫৮১ খ্রিস্টাব্দ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "৩৬৮-৫৮১ খ্রিস্টাব্দ",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7950,7 +7950,7 @@
     "link": " ",
     "google": "৪২০-৫৮৯ খ্রিস্টাব্দ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "৪২০-৫৮৯ খ্রিস্টাব্দ",
     "claude": " ",
     "deepl": " ",
     "category": "other"
@@ -7967,7 +7967,7 @@
     "link": " ",
     "google": "জুলিয়াস",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "জুলিয়াস",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -7984,7 +7984,7 @@
     "link": " ",
     "google": "ক্যালিগুলা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "কালিগুলা",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8001,7 +8001,7 @@
     "link": " ",
     "google": "নিরো",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "নিরো",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8018,7 +8018,7 @@
     "link": " ",
     "google": "গালবা, ওথো এবং ভিটেলাস (চার সম্রাটের বছর)",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "গালবা, ওথো এবং ভিটেরিয়াস (চার সম্রাটের বছর)",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8035,7 +8035,7 @@
     "link": " ",
     "google": "ভেসপাসিয়ান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ভেসপাসিয়ান",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8052,7 +8052,7 @@
     "link": " ",
     "google": "COVID-19",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "কোভিদ-১৯",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8069,7 +8069,7 @@
     "link": " ",
     "google": "নাইসিয়ার প্রথম পরিষদ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "নিসিয়ার প্রথম পরিষদ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8086,7 +8086,7 @@
     "link": " ",
     "google": "অক্সিরিঙ্কাস প্যাপিরি",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "অকসিরিঙ্কুস প্যাপিরাই",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8103,7 +8103,7 @@
     "link": " ",
     "google": "প্যাপিরাস পি৫২",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "প্যাপিরাস পি৫২",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8120,7 +8120,7 @@
     "link": " ",
     "google": "চিং রাজবংশ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ছিং রাজবংশ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8137,7 +8137,7 @@
     "link": " ",
     "google": "সাম্রাজ্যবাদী চীনে মিং রাজবংশ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সাম্রাজ্যবাদী চীনের মিং রাজবংশ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8154,7 +8154,7 @@
     "link": " ",
     "google": "ইউয়ান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইউয়ান",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8171,7 +8171,7 @@
     "link": " ",
     "google": "দক্ষিণী গান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "দক্ষিণ সং",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8188,7 +8188,7 @@
     "link": " ",
     "google": "উত্তরের গান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "উত্তর সং",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8205,7 +8205,7 @@
     "link": " ",
     "google": "পশ্চিম জিয়া",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "পশ্চিম শিয়া",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8222,7 +8222,7 @@
     "link": " ",
     "google": "নিকোলাস কোপারনিকাস",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "নিকোলাউস কোপার্নিকাস",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8239,7 +8239,7 @@
     "link": " ",
     "google": "গ্যালিলিও গ্যালিলি",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "গ্যালিলিও গ্যালিলি",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8256,7 +8256,7 @@
     "link": " ",
     "google": "আইজ্যাক নিউটন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "আইজ্যাক নিউটন",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8273,7 +8273,7 @@
     "link": " ",
     "google": "শাং রাজবংশ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "শাং রাজবংশ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8290,7 +8290,7 @@
     "link": " ",
     "google": "পশ্চিম ঝো",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "পশ্চিম চৌ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8307,7 +8307,7 @@
     "link": " ",
     "google": "পূর্ব ঝো",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "পূর্ব চৌ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8324,7 +8324,7 @@
     "link": " ",
     "google": "পশ্চিমী হান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "পশ্চিম হান",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8341,7 +8341,7 @@
     "link": " ",
     "google": "পূর্ব হান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "পূর্ব হান",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8358,7 +8358,7 @@
     "link": " ",
     "google": "চীন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "চীন",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8375,7 +8375,7 @@
     "link": " ",
     "google": "চীন",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "চীন",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8392,7 +8392,7 @@
     "link": " ",
     "google": "উত্তরের রাজবংশগুলি",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "উত্তর রাজবংশসমূহ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8409,7 +8409,7 @@
     "link": " ",
     "google": "দক্ষিণের রাজবংশগুলি",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "দক্ষিণ রাজবংশসমূহ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8426,7 +8426,7 @@
     "link": " ",
     "google": "তাং রাজবংশ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "তাং রাজবংশ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8443,7 +8443,7 @@
     "link": " ",
     "google": "বাইজেন্টাইন সাম্রাজ্য",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "বাইজেন্টাইন সাম্রাজ্য",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8460,7 +8460,7 @@
     "link": " ",
     "google": "অটোমান সাম্রাজ্য",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "উসমানীয় সাম্রাজ্য",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8477,7 +8477,7 @@
     "link": " ",
     "google": "চেঙ্গিস খান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "চেঙ্গিস খান",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8494,7 +8494,7 @@
     "link": " ",
     "google": "ইনকা সাম্রাজ্য",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ইনকা সাম্রাজ্য",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8511,7 +8511,7 @@
     "link": " ",
     "google": "গুপ্ত সাম্রাজ্য",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "গুপ্ত সাম্রাজ্য",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8528,7 +8528,7 @@
     "link": " ",
     "google": "টিওটিহুয়াকান",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "তেওতিহুয়াকান",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8545,7 +8545,7 @@
     "link": " ",
     "google": "আব্বাসীয় খিলাফত",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "আব্বাসীয় খিলাফত",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8562,7 +8562,7 @@
     "link": " ",
     "google": "মামলুক সালতানাত",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "মামলুক সালতানাত",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8579,7 +8579,7 @@
     "link": " ",
     "google": "আল-গাজালি",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "আল-গাজ্জালী",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8596,7 +8596,7 @@
     "link": " ",
     "google": "উলফিলা বাইবেল",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "উলফিলা বাইবেল",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8613,7 +8613,7 @@
     "link": " ",
     "google": "ট্রান রাজবংশ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ট্রান রাজবংশ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8630,7 +8630,7 @@
     "link": " ",
     "google": "লে রাজবংশ",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "লে রাজবংশ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8647,7 +8647,7 @@
     "link": " ",
     "google": "ত্রেন প্রভু এবং নগুয়েন প্রভু",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ত্রিন প্রভু এবং নুগুয়েন প্রভু",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8664,7 +8664,7 @@
     "link": " ",
     "google": "সেলজুক সাম্রাজ্য",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "সেলজুক সাম্রাজ্য",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8681,7 +8681,7 @@
     "link": " ",
     "google": "ভাঙচুরকারীরা",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "ভ্যান্ডালগণ",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
@@ -8698,7 +8698,7 @@
     "link": " ",
     "google": "লোম্বার্ড রাজ্য",
     "chatgpt": " ",
-    "gemini": " ",
+    "gemini": "লম্বার্ড রাজ্য",
     "claude": " ",
     "deepl": " ",
     "category": "wiki"
