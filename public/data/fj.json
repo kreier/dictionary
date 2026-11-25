@@ -12,7 +12,7 @@
     "google": " ",
     "chatgpt": "6,000 na Yabaki ni iVakadidike ni Tamata — A Gauna",
     "gemini": "6,000 Yabaki ni Istori ni kawatamata — Ai tabacakacaka ni gauna",
-    "claude": " ",
+    "claude": "Na Yabaki 6,000 ni Tukutuku ni Tamata — Ko Dua na Kalawara",
     "deepl": " ",
     "category": "text"
   },
@@ -29,7 +29,7 @@
     "google": " ",
     "chatgpt": "Gauna ni iVakadidike ni Tamata mai 4000 BCE ki na gauna e vou",
     "gemini": "Ai tabacakacaka ni gauna ni kawatamata mai na 4000 B.C.E. ki na gauna oqo",
-    "claude": " ",
+    "claude": "Kalawara ni tukutuku ni tamata mai na 4000 B.C.E. ki na gauna oqo",
     "deepl": " ",
     "category": "text"
   },
@@ -46,7 +46,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "B.C.E.",
-    "claude": " ",
+    "claude": "B.C.E.",
     "deepl": " ",
     "category": "B9"
   },
@@ -63,7 +63,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "C.E.",
-    "claude": " ",
+    "claude": "C.E.",
     "deepl": " ",
     "category": "B9"
   },
@@ -80,7 +80,7 @@
     "google": " ",
     "chatgpt": "vula",
     "gemini": "vula",
-    "claude": " ",
+    "claude": "vula",
     "deepl": " ",
     "category": "text"
   },
@@ -97,7 +97,7 @@
     "google": " ",
     "chatgpt": "vula",
     "gemini": "vula",
-    "claude": " ",
+    "claude": "vula",
     "deepl": " ",
     "category": "text"
   },
@@ -114,7 +114,7 @@
     "google": " ",
     "chatgpt": "davui",
     "gemini": "siga",
-    "claude": " ",
+    "claude": "siga",
     "deepl": " ",
     "category": "text"
   },
@@ -131,7 +131,7 @@
     "google": " ",
     "chatgpt": "davui",
     "gemini": "siga",
-    "claude": " ",
+    "claude": "siga",
     "deepl": " ",
     "category": "text"
   },
@@ -148,7 +148,7 @@
     "google": " ",
     "chatgpt": "ki",
     "gemini": "ki na",
-    "claude": " ",
+    "claude": "ki",
     "deepl": " ",
     "category": "text"
   },
@@ -165,7 +165,7 @@
     "google": " ",
     "chatgpt": "Cakacaka Drau",
     "gemini": "Waluvu",
-    "claude": " ",
+    "claude": "Loku",
     "deepl": " ",
     "category": "text"
   },
@@ -182,7 +182,7 @@
     "google": " ",
     "chatgpt": "1593 ki 1473 B.C.E. – 120 na yabaki",
     "gemini": "1593 ki na 1473 B.C.E. – 120 na yabaki",
-    "claude": " ",
+    "claude": "1593 ki na 1473 B.C.E. – na yabaki 120",
     "deepl": " ",
     "category": "text"
   },
@@ -199,7 +199,7 @@
     "google": " ",
     "chatgpt": "Nisan 1513 B.C.E. ki Ziv 1034 B.C.E.",
     "gemini": "Nīsani 1513 B.C.E. ki na Sivi 1034 B.C.E.",
-    "claude": " ",
+    "claude": "Naisani 1513 B.C.E. ki na Zivu 1034 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -216,7 +216,7 @@
     "google": " ",
     "chatgpt": "Jisu papitaiso autumn 29 C.E.",
     "gemini": "Papitaiso o Jisu ena vakasiga tabu 29 C.E.",
-    "claude": " ",
+    "claude": "Ko Jisu e vakabito ena tagane 29 C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -233,7 +233,7 @@
     "google": " ",
     "chatgpt": "yabaki",
     "gemini": "yabaki",
-    "claude": " ",
+    "claude": "yabaki",
     "deepl": " ",
     "category": "text"
   },
@@ -250,7 +250,7 @@
     "google": " ",
     "chatgpt": "na yabaki",
     "gemini": "yabaki",
-    "claude": " ",
+    "claude": "yabaki",
     "deepl": " ",
     "category": "text"
   },
@@ -267,7 +267,7 @@
     "google": " ",
     "chatgpt": "na yabaki",
     "gemini": "yabaki",
-    "claude": " ",
+    "claude": "yabaki",
     "deepl": " ",
     "category": "text"
   },
@@ -301,7 +301,7 @@
     "google": " ",
     "chatgpt": "Isireli ena lalaga 1513 ki 1473 B.C.E. – 40 na yabaki",
     "gemini": "Isireli ena vanua lala 1513 ki na 1473 B.C.E. – 40 na yabaki",
-    "claude": " ",
+    "claude": "Ko Isileli e tiko ena veikau 1513 ki na 1473 B.C.E. – na yabaki 40",
     "deepl": " ",
     "category": "text"
   },
@@ -318,7 +318,7 @@
     "google": " ",
     "chatgpt": "1473 ki 1117 B.C.E. – 356 na yabaki",
     "gemini": "1473 ki na 1117 B.C.E. – 356 na yabaki",
-    "claude": " ",
+    "claude": "1473 ki na 1117 B.C.E. – na yabaki 356",
     "deepl": " ",
     "category": "text"
   },
@@ -335,7 +335,7 @@
     "google": " ",
     "chatgpt": "Gauna ni lewe ni leqa",
     "gemini": "Gauna ni draunikula",
-    "claude": " ",
+    "claude": "Na gauna ni kau turaganitaki",
     "deepl": " ",
     "category": "text"
   },
@@ -352,7 +352,7 @@
     "google": " ",
     "chatgpt": "479 na yabaki me yacova na iVakarautaki ni Vale Tabu – 1 Tui 6:1",
     "gemini": "479 na yabaki me yacova na tara ni valetabu – 1 Tui 6:1",
-    "claude": " ",
+    "claude": "Na yabaki 479 e liu ni cakacakataki na vale ni lotu – 1 Niu Qele 6:1",
     "deepl": " ",
     "category": "text"
   },
@@ -369,7 +369,7 @@
     "google": " ",
     "chatgpt": "69 na macawa ki na Mesaia – Taniela 9:25",
     "gemini": "69 na wiki me yacova na Mesaia – Taniela 9:25",
-    "claude": " ",
+    "claude": "Na wiki 69 ki na Mesia – Daniela 9:25",
     "deepl": " ",
     "category": "text"
   },
@@ -386,7 +386,7 @@
     "google": " ",
     "chatgpt": "3.5 na yabaki ni iTikotiko ni Jisu, a matea ena Nisan 14th, 33 C.E.",
     "gemini": "3.5 na yabaki ni cakacaka i Jisu, vakamatei ena Nīsani 14, 33 C.E.",
-    "claude": " ",
+    "claude": "Na yabaki 3.5 ni veiqaravi ni Jisu, e vakamatea ena Naisani 14, 33 C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -403,7 +403,7 @@
     "google": " ",
     "chatgpt": "Jisu sucu 2 B.C.E.",
     "gemini": "Sucu o Jisu 2 B.C.E.",
-    "claude": " ",
+    "claude": "Ko Jisu e sucu ena 2 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -420,7 +420,7 @@
     "google": " ",
     "chatgpt": "607 ki 537 B.C.E. – 70 na yabaki (Jaremia 25:11)",
     "gemini": "607 ki na 537 B.C.E. – 70 na yabaki (Jeremaia 25:11)",
-    "claude": " ",
+    "claude": "607 ki na 537 B.C.E. – na yabaki 70 (Jeremia 25:11)",
     "deepl": " ",
     "category": "text"
   },
@@ -437,7 +437,7 @@
     "google": " ",
     "chatgpt": "Lawa ni soso",
     "gemini": "Vakabobulataki",
-    "claude": " ",
+    "claude": "Veitataki",
     "deepl": " ",
     "category": "text"
   },
@@ -454,7 +454,7 @@
     "google": " ",
     "chatgpt": "7 na gauna – 2520 na yabaki ki na Basileaga ni Mesaia 1914 C.E. (Taniela 4:23)",
     "gemini": "7 na gauna – 2520 na yabaki ki na Matanitu ni Mesaia 1914 C.E. (Taniela 4:23)",
-    "claude": " ",
+    "claude": "Na gauna 7 – yabaki 2520 ki na Matanitu ni Mesia 1914 C.E. (Daniela 4:23)",
     "deepl": " ",
     "category": "text"
   },
@@ -471,7 +471,7 @@
     "google": " ",
     "chatgpt": "Tau ni Vuravura I – 1914–1918",
     "gemini": "Ai Valu Levu Taumuri – 1914–1918",
-    "claude": " ",
+    "claude": "Na Davui Levu Matairua I – 1914–1918",
     "deepl": " ",
     "category": "text"
   },
@@ -488,7 +488,7 @@
     "google": " ",
     "chatgpt": "Tau ni Vuravura II – 1939–1945",
     "gemini": "Ai Valu Levu Karua – 1939–1945",
-    "claude": " ",
+    "claude": "Na Davui Levu Matairua II – 1939–1945",
     "deepl": " ",
     "category": "text"
   },
@@ -505,7 +505,7 @@
     "google": " ",
     "chatgpt": "Tau ni Yabaki Tolu ki Europa 1618-1648",
     "gemini": "Ai Valu ni 30 na Yabaki mai Iurope 1618-1648",
-    "claude": " ",
+    "claude": "Na Davui Yabaki Tolusagavulu e Yuropa 1618–1648",
     "deepl": " ",
     "category": "text"
   },
@@ -522,7 +522,7 @@
     "google": " ",
     "chatgpt": "110 na yabaki",
     "gemini": "110 na yabaki",
-    "claude": " ",
+    "claude": "Yabaki 110",
     "deepl": " ",
     "category": "text"
   },
@@ -539,7 +539,7 @@
     "google": " ",
     "chatgpt": "sa vuqa cake 85 na yabaki",
     "gemini": "sivia na 85 na yabaki",
-    "claude": " ",
+    "claude": "levu cake i na yabaki 85",
     "deepl": " ",
     "category": "text"
   },
@@ -556,7 +556,7 @@
     "google": " ",
     "chatgpt": "Vakatataro iMatai-ni-Cakacaka vakavunautaka a Paula, c. 47-48 C.E.kei Banaba kei Joni Marika",
     "gemini": "Ai Vakadei ni Lakolako Vakailoa Taumuri i Paula, c. 47-48 C.E. kei Parnapa kei Joni Marika",
-    "claude": " ",
+    "claude": "Na Yalayala ni Misioni I ni Paula, s. 47–48 C.E. kei Banabasi kei Joane Maki",
     "deepl": " ",
     "category": "text"
   },
@@ -573,7 +573,7 @@
     "google": " ",
     "chatgpt": "Ka e veisautaka na vakayagataki ni Sekilodesi ena Antioki, a vakavoui ena Jerusalemi c. 49 C.E.",
     "gemini": "Leqa ni Cilivi mai Anitioki, bose mai Jerusalemi c. 49 C.E.",
-    "claude": " ",
+    "claude": "Na tabana ni veikocovi e Antioki, na vakacavacavataki e Jerusalemi s. 49 C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -590,7 +590,7 @@
     "google": " ",
     "chatgpt": "Vakatataro iRua-ni-Cakacaka vakavunautaka c. 49-52 C.E.kei Sailasi (Silivanusi)",
     "gemini": "Ai Lakolako Vakailoa Karua c. 49-52 C.E. kei Sailasa (Silivanusi)",
-    "claude": " ",
+    "claude": "Na Yalayala ni Misioni II s. 49–52 C.E. kei Sailasi (Silivano)",
     "deepl": " ",
     "category": "text"
   },
@@ -607,7 +607,7 @@
     "google": " ",
     "chatgpt": "Vakatataro iTolu-ni-Cakacaka vakavunautaka c. 52-56 C.E.",
     "gemini": "Ai Lakolako Vakailoa Katolu c. 52-56 C.E.",
-    "claude": " ",
+    "claude": "Na Yalayala ni Misioni III s. 52–56 C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -624,7 +624,7 @@
     "google": " ",
     "chatgpt": "Paula e vakabulai ena Kaisareca c. 56-58 C.E.",
     "gemini": "O Paula e vesu tiko mai Kaisarea c. 56-58 C.E.",
-    "claude": " ",
+    "claude": "Ko Paula e vakatokai e Saisaria s. 56–58 C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -641,7 +641,7 @@
     "google": " ",
     "chatgpt": "Paula yaco ena Roma me iVakatarogi iMatai c. 59-61 C.E.",
     "gemini": "Ai matai ni nodra vesu o Paula mai Roma c. 59-61 C.E.",
-    "claude": " ",
+    "claude": "Na vakatokai I ni Paula e Roma s. 59–61 C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -658,7 +658,7 @@
     "google": " ",
     "chatgpt": "Paula yaco ena Roma me iVakatarogi iRua c. 65 C.E., 2 Timoti a volai, a mate a Paula",
     "gemini": "Ai karua ni nodra vesu o Paula mai Roma c. 65 C.E., volai o 2 Timoci, vakamatei o Paula",
-    "claude": " ",
+    "claude": "Na vakatokai II ni Paula e Roma s. 65 C.E., e tovolea na 2 Timoci, e vakamatea ko Paula",
     "deepl": " ",
     "category": "text"
   },
@@ -675,7 +675,7 @@
     "google": " ",
     "chatgpt": "iCavacaka tani mai Ijipita ena Nisan 14th, 1513 B.C.E.",
     "gemini": "Lako tani mai Ijipita ena Nīsani 14, 1513 B.C.E.",
-    "claude": " ",
+    "claude": "Na teitei mai Ijipita ena Naisani 14, 1513 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -692,7 +692,7 @@
     "google": " ",
     "chatgpt": "iVakataotaki ni Isireli 997 BCE",
     "gemini": "Vakateveli ni Isireli 997 BCE",
-    "claude": " ",
+    "claude": "Na vetarogi ni Isileli 997 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -709,7 +709,7 @@
     "google": " ",
     "chatgpt": "Vakamateaki ni Samaria 740 B.C.E. kena i Vakalevu i Asiria",
     "gemini": "Na vakarusai kei Samaria ena 740 B.C.E. mai vei Asiria",
-    "claude": " ",
+    "claude": "Na vukica ni Sameria 740 B.C.E. mai Asiriya",
     "deepl": " ",
     "category": "text"
   },
@@ -726,7 +726,7 @@
     "google": " ",
     "chatgpt": "Vakamateaki ni Jerusalemi 607 B.C.E. kena i Vakalevu i Papiloni, 390 na yabaki muri ni iVakataotaki ni Basileaga (Esekieli 4:5)",
     "gemini": "Na vakarusai kei Jerusalemi ena 607 B.C.E. mai vei Papiloni, e 390 na yabaki ni oti na veibuli vakamatanitu (Isikeli 4:5)",
-    "claude": " ",
+    "claude": "Na vukica ni Jerusalemi 607 B.C.E. mai Babiloni, yabaki 390 ni noa mai na vetarogi ni matanitu (Ezekiele 4:5)",
     "deepl": " ",
     "category": "text"
   },
@@ -743,7 +743,7 @@
     "google": " ",
     "chatgpt": "Vale Tabu ena Jerusalemi a vakavoui tale 515 B.C.E.",
     "gemini": "E tara vou na valenisoro mai Jerusalemi ena 515 B.C.E.",
-    "claude": " ",
+    "claude": "Na vale ni lotu e Jerusalemi e cadra tale ena 515 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -760,7 +760,7 @@
     "google": " ",
     "chatgpt": "iVakalaga ni Jerusalemi a vakavoui tale 455 B.C.E.",
     "gemini": "E tara vou na bai kei Jerusalemi ena 455 B.C.E.",
-    "claude": " ",
+    "claude": "Na iqila ni Jerusalemi e cadra tale ena 455 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -777,7 +777,7 @@
     "google": " ",
     "chatgpt": "Vakamateaki ni Jerusalemi 70 C.E. kena i Roma ena iVakatikotiko ko Taitasi",
     "gemini": "Na vakarusai kei Jerusalemi ena 70 C.E. mai vei Roma ni liutaki ira o Tacitu",
-    "claude": " ",
+    "claude": "Na vukica ni Jerusalemi 70 C.E. mai Roma ena tutu ni ko Taito",
     "deepl": " ",
     "category": "text"
   },
@@ -794,7 +794,7 @@
     "google": " ",
     "chatgpt": "iVakacacani ni gauna ni lewena na Matanitu (Luka 21:24), a Basileaga ni Kalou a tekivu ki na lawa lomalagi 1914 C.E.",
     "gemini": "Na kena cava na gauna ni veimatanitu (Luke 21:24), e tekivu lewa mai lomalagi na Matanitu ni Kalou ena 1914 C.E.",
-    "claude": " ",
+    "claude": "Na musu ni gauna ni lewenivanuatua (Luka 21:24), ko na Matanitu ni Kalou e qai turaganitaka e lomalagi 1914 C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -811,7 +811,7 @@
     "google": " ",
     "chatgpt": "a koya e tui ena yabaki",
     "gemini": "yaco me tui ni sa yabaki",
-    "claude": " ",
+    "claude": "e rawa ni turaga ena yabaki",
     "deepl": " ",
     "category": "text"
   },
@@ -828,7 +828,7 @@
     "google": " ",
     "chatgpt": "Vulgate a vakakotori kina i Jeromi (vakadewataki Latin ni iVolatabu) c. 405 C.E.",
     "gemini": "E vakacavari na Vulgate nei Jeromi (vakavakadewa vakaLatina ni iVolatabu) rauta ni 405 C.E.",
-    "claude": " ",
+    "claude": "Ko na Vulgata e vakayacori ko Jeromi (na wasea ni Baibolo ki na vosa Latina) s. 405 C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -845,7 +845,7 @@
     "google": " ",
     "chatgpt": "iVolatabu iGutenberg a tabaki 1455",
     "gemini": "E tabaki na iVolatabu i Gutenberg ena 1455",
-    "claude": " ",
+    "claude": "Ko na Baibolo ni Gutenberg e lomilomia ena 1455",
     "deepl": " ",
     "category": "text"
   },
@@ -862,7 +862,7 @@
     "google": " ",
     "chatgpt": "Tukutuku Greek ni iVolatabu Karisito Grik a tabaki vakamate i Desiderius Erasmus mai Rotterdam 1516",
     "gemini": "E tabaki na iVolatabu Vakirisi Vakarisito mai vei Desiderius Erasmus ni Rotterdam ena 1516",
-    "claude": " ",
+    "claude": "Ko na tikina Kareci ni Tovoloto Kareci e lomilomia ko Desiderius Erasmus mai Rotadami ena 1516",
     "deepl": " ",
     "category": "text"
   },
@@ -879,7 +879,7 @@
     "google": " ",
     "chatgpt": "Vakadewataki ni iVolatabu Luther ena Septemba 1522",
     "gemini": "Na iVolatabu vakadewa nei Luther ena Seviteba 1522",
-    "claude": " ",
+    "claude": "Ko na wasea ni Baibolo ko Luteru ena Sepitema 1522",
     "deepl": " ",
     "category": "text"
   },
@@ -896,7 +896,7 @@
     "google": " ",
     "chatgpt": "Vakadewataki ni iVolataku iIngilisi e Tindali 1536",
     "gemini": "Na iVolatabu vakadewa vakavalagi nei Tyndale ena 1536",
-    "claude": " ",
+    "claude": "Ko na wasea ni Baibolo ki na vosa Igilisi ko Tindeli ena 1536",
     "deepl": " ",
     "category": "text"
   },
@@ -913,7 +913,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na iVolatabu ni Tui Jemi ena 1611",
-    "claude": " ",
+    "claude": "Ko na Baibolo ni Tui Jemisi ena 1611",
     "deepl": " ",
     "category": "text"
   },
@@ -930,7 +930,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E tekivu cakacaka o Jisu ena 29 C.E. (Luke 3:1, 21)",
-    "claude": " ",
+    "claude": "Ko Jisu e qai doce na nona veiqaravi ena 29 C.E. (Luka 3:1, 21)",
     "deepl": " ",
     "category": "text"
   },
@@ -947,7 +947,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na lomanibogi ni macawa “me mudu na soro” Taniela 9:27",
-    "claude": " ",
+    "claude": "Na levulevutaki ni vula \"na soli tamata e na sega ni caka\" Daniela 9:27",
     "deepl": " ",
     "category": "text"
   },
@@ -964,7 +964,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E papitaiso o Konelio ni cava na 70 na macawa (Taniela 9:24) ena 36 C.E.",
-    "claude": " ",
+    "claude": "Ko Konilio e vakabito ena musu ni wiki 70 (Daniela 9:24) ena 36 C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -981,7 +981,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na cava ni gauna ni bera o Kolomuso ena Amelika ena 1492",
-    "claude": " ",
+    "claude": "Na musu ni gauna e liu ni ko Kolombosi e yacova na Amerika 1492",
     "deepl": " ",
     "category": "text"
   },
@@ -998,7 +998,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Vakoro ni Tu Vakataki Koya ni 13 na koloni mai Amelika ena 1776",
-    "claude": " ",
+    "claude": "Na veivakaituvaki ni koloni 13 e Amerika 1776",
     "deepl": " ",
     "category": "text"
   },
@@ -1015,7 +1015,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E kunei na Kodosi Sainaici (Codex Sinaiticus) mai na ikaneivakarau ni senitiuri o Tischendorf ena 1844",
-    "claude": " ",
+    "claude": "Ko Tishendorifi e kunea na Kodeki Sinaitusu mai na seniturii 4 ena 1844",
     "deepl": " ",
     "category": "text"
   },
@@ -1032,7 +1032,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E volai nai vola dovu ni Wasawasa Mate",
-    "claude": " ",
+    "claude": "Ko na Tovoloto ni Liku ni Mate e tovolea",
     "deepl": " ",
     "category": "text"
   },
@@ -1049,7 +1049,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E vakadewataki na Septuagint LXX",
-    "claude": " ",
+    "claude": "Ko na Septuaginti LXX e wasea",
     "deepl": " ",
     "category": "text"
   },
@@ -1066,7 +1066,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E tabaki na imatai ni kato ni “Zion’s Watch Tower and Herald of Christ’s Presence” ena 1879",
-    "claude": " ",
+    "claude": "Ko na isiu I ni \"Ko na Mataka ni Ziona kei na Karukaru ni Nodrau Veisobu mai Kraisi\" e lomilomia ena 1879",
     "deepl": " ",
     "category": "text"
   },
@@ -1083,7 +1083,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Era vakayagataka na iVakadinivolatabu e dua na yaca vou – Oi Jiova na Noqu iVakadinivolatabu (Aisea 43:10, 12) mai Kolomuso, Ohaio, ena 1931",
-    "claude": " ",
+    "claude": "Ko na kaukauwa ni Kalou e dola na yaca vou — Ko Jova na Kaivakadei (Aisaia 43:10, 12) e Kolambasi, Ohio, 1931",
     "deepl": " ",
     "category": "text"
   },
@@ -1100,7 +1100,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E tekivu na Koronivuli ni Vakatisaioni ni iVolatabu mai Keleti ena Moniti, 1 Feperueri, 1943",
-    "claude": " ",
+    "claude": "Ko na Sikolo ni Baibolo ni Watataoa ko Jiliyati e qai doce ena Moniti, Maji 1, 1943",
     "deepl": " ",
     "category": "text"
   },
@@ -1117,7 +1117,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na “New World Translation of the Holy Scriptures” e sereki mai Manchester, Iniladi, ena 18 June, 1960, ka vakalesuya mai na yaca Jiova ena veivanua e levu ena iVolatabu",
-    "claude": " ",
+    "claude": "Ko na \"Wasea Vou ni Tovoloto Tabu\" e rawa mai ena Manchesta, Igilisi ena Juni 18, 1960, e vakacuruma tale na yaca ko Jiova ena veikabula ni Baibolo",
     "deepl": " ",
     "category": "text"
   },
@@ -1134,7 +1134,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na “New World Translation of the Holy Scriptures” e vakavinakataki e sereki ena soqo vakayabaki 2013, ka vakarautaki me vakayagataki vakalivaliva ena initaneti",
-    "claude": " ",
+    "claude": "Ko na \"Wasea Vou ni Tovoloto Tabu\" e soli tale ena veisobu levu 2013, e rawa vinaka me vakayagataki digidigi kei na initaneti",
     "deepl": " ",
     "category": "text"
   },
@@ -1151,7 +1151,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na i tutu vakapolitiki e vakatokai me “Cold War” 1945-1991",
-    "claude": " ",
+    "claude": "Ko na tukutuku ni politiki lewenivanuatua e kilai ko \"Na Davui Matua\" 1945–1991",
     "deepl": " ",
     "category": "text"
   },
@@ -1168,7 +1168,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E volai na Kodosi Sainaici (Codex Sinaiticus)",
-    "claude": " ",
+    "claude": "Ko na Kodeki Sinaitusu e tovolea",
     "deepl": " ",
     "category": "text"
   },
@@ -1185,7 +1185,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E volai na Kodosi Vatikana (Codex Vaticanus)",
-    "claude": " ",
+    "claude": "Ko na Kodeki Vatikani e tovolea",
     "deepl": " ",
     "category": "text"
   },
@@ -1202,7 +1202,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E volai na Kodosi ni Leningrad mai Kairo AD 1008",
-    "claude": " ",
+    "claude": "Ko na Kodeki ko Leningiradi e tovolea e Kairo AD 1008",
     "deepl": " ",
     "category": "text"
   },
@@ -1219,7 +1219,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E volai “vakatakila” o Joni ni sa vakasavi tiko mai Patimo ena 96-98 C.E.",
-    "claude": " ",
+    "claude": "Ko Joane e tovoleva na \"vatabuia\" e na gauna e vakasobutaki kina e Patimo 96–98 C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -1236,7 +1236,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Buda – Sitata Katama rauta ni 563-rauta ni 483 B.C.E.",
-    "claude": " ",
+    "claude": "Ko na Buta – ko Sidarita Gautama s. 563–s. 483 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -1253,7 +1253,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Buda e so tale na gauna rauta ni 480-400 B.C.E.",
-    "claude": " ",
+    "claude": "Ko na Buta tale eke s. 480–400 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -1270,7 +1270,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Momadi rauta ni 570-632",
-    "claude": " ",
+    "claude": "Ko Mohamedi s. 570–632",
     "deepl": " ",
     "category": "text"
   },
@@ -1287,7 +1287,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Konfusias rauta ni 551-rauta ni 479 B.C.E.",
-    "claude": " ",
+    "claude": "Ko Konfuciusi s. 551–s. 479 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -1304,7 +1304,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Hijrah - Ilako mai Mekka ina Medina 16 Julai 622",
-    "claude": " ",
+    "claude": "Ko na Hijira – Na Yalayala mai Meka ki Medina 16 Jiulai 622",
     "deepl": " ",
     "category": "text"
   },
@@ -1321,7 +1321,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "1553 B.C.E. E dodonu me dro o Mosese mai Ijipita – Lako Yani 2:15, Cakacaka 7:23",
-    "claude": " ",
+    "claude": "1553 B.C.E. ko Mosese e dro tiko mai Ijipita – Ekodo 2:15, Itarova 7:23",
     "deepl": " ",
     "category": "text"
   },
@@ -1338,7 +1338,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "1513 B.C.E. E taura o Ijipita e 10 na mate",
-    "claude": " ",
+    "claude": "1513 B.C.E. ko Ijipita e rawata na tutu 10",
     "deepl": " ",
     "category": "text"
   },
@@ -1355,7 +1355,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E volitaki o Josefa me bobula ni se yabaki 17 – Vakatekivu 37:2",
-    "claude": " ",
+    "claude": "Ko Josefa e vakasautaki me qali ni cauravou ena yabaki 17 – Ken. 37:2",
     "deepl": " ",
     "category": "text"
   },
@@ -1372,7 +1372,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "400 na yabaki ni vakacaca (Cakacaka 7:6) – Isimeeli 1913 B.C.E.",
-    "claude": " ",
+    "claude": "Ko na tutu yabaki 400 (Itarova 7:6) – ko Ismeli 1913 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -1389,7 +1389,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Alekisana Levu (Taniela 11:3)",
-    "claude": " ",
+    "claude": "Ko Aleksanda na Levu (Daniela 11:3)",
     "deepl": " ",
     "category": "text"
   },
@@ -1406,7 +1406,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Koro Levu, Sepaisi II, Tario I 490 BCE, Kesise I 480 BCE (watina o Esiteri, Taniela 11:2)",
-    "claude": " ",
+    "claude": "Ko Sairasi na Levu, Kamibisesi II, Dariusi I 490 B.C.E., Zekesisi I 480 B.C.E. (na watilagilagi ni Esita, Daniela 11:2)",
     "deepl": " ",
     "category": "text"
   },
@@ -1423,7 +1423,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Seleuku I Nikata (v5) Siria vei Antiochus III (v10) kei Seleuku IV (v18, 19) sobu vei Oketaviani (v20) kei Taiviasa (v21-24)",
-    "claude": " ",
+    "claude": "Ko Selukasi I Nikatoa (v5) mai Siria ki ko Antioku III (v10) kei Selukasi IV (v18, 19) ki ko Oktaviasi (v20) kei Tiberiasi (v21–24)",
     "deepl": " ",
     "category": "text"
   },
@@ -1440,7 +1440,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Tui Cevai",
-    "claude": " ",
+    "claude": "Ko na Tui ni Torocake",
     "deepl": " ",
     "category": "text"
   },
@@ -1457,7 +1457,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Tolemi I, II, III, IV (v11, 12), V (v15, 16) ina valu mai Asiumu 31 B.C.E.",
-    "claude": " ",
+    "claude": "Ko Tolomi I, II, III, IV (v11, 12), V (v15, 16) ki na davui e Aktiumi 31 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -1474,7 +1474,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Tui Cevai",
-    "claude": " ",
+    "claude": "Ko na Tui ni Toga",
     "deepl": " ",
     "category": "text"
   },
@@ -1491,7 +1491,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Matanitu Cokovata Vakabritani 1870, Na Matanitu Kaukaua Vakaperitania kei Amerika mai na 1914",
-    "claude": " ",
+    "claude": "Ko na Ikavitu Biritania 1870, ko na Kaukauwa ni Vuravura Anglo-Amerika vei cake mai 1914",
     "deepl": " ",
     "category": "text"
   },
@@ -1508,7 +1508,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Tui Cevai",
-    "claude": " ",
+    "claude": "Ko na Tui ni Toga",
     "deepl": " ",
     "category": "text"
   },
@@ -1525,7 +1525,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jamani kei na Empera Wiliamu I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
-    "claude": " ",
+    "claude": "Ko Jemani kei na Emepara ko Viliami I 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
     "deepl": " ",
     "category": "text"
   },
@@ -1542,7 +1542,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ceva",
-    "claude": " ",
+    "claude": "Torocake",
     "deepl": " ",
     "category": "text"
   },
@@ -1559,7 +1559,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Soviti Vuravura 1945-1991 (Taniela 11:32-39, 40b, 41)",
-    "claude": " ",
+    "claude": "Ko na Yudina Sovieti 1945–1991 (Daniela 11:32–39, 40b, 41)",
     "deepl": " ",
     "category": "text"
   },
@@ -1576,7 +1576,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Rusiya mai na 2017 (w20 Me)",
-    "claude": " ",
+    "claude": "Ko Rasia vei cake mai 2017 (w20 Me)",
     "deepl": " ",
     "category": "text"
   },
@@ -1593,7 +1593,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Tiko Vaka Koya i Karisito, Na Vakacavacava ni ivakarau ni veika (Mataio 24:3), na veigauna taotioti (2 Timoci 3:1)",
-    "claude": " ",
+    "claude": "Ko na nodrau veisobu mai Kraisi, ko na musu ni veiliutaki ni veika (Matiuse 24:3), ko na gauna volau (2 Timoci 3:1)",
     "deepl": " ",
     "category": "text"
   },
@@ -1610,7 +1610,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Veigauna taotioti",
-    "claude": " ",
+    "claude": "Ko na gauna volau",
     "deepl": " ",
     "category": "text"
   },
@@ -1627,7 +1627,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E tara o Tui Suriavarman II na Enko Wati 1113-1150",
-    "claude": " ",
+    "claude": "Ko na Tui Suryavarman II e caka na Angkor Wati 1113–1150",
     "deepl": " ",
     "category": "text"
   },
@@ -1644,7 +1644,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E tara na Notre-Dame de Paris 1163-1260",
-    "claude": " ",
+    "claude": "Ko na vale ni lotu ko Noda-Dame de Parisi e caka ena 1163–1260",
     "deepl": " ",
     "category": "text"
   },
@@ -1661,7 +1661,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E tara na Valeono mai Papeli",
-    "claude": " ",
+    "claude": "Ko na To ni Babeli e caka",
     "deepl": " ",
     "category": "text"
   },
@@ -1678,7 +1678,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "400 na yabaki ni vakacaca",
-    "claude": " ",
+    "claude": "Ko na tutu yabaki 400",
     "deepl": " ",
     "category": "text"
   },
@@ -1695,7 +1695,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na wati Loti",
-    "claude": " ",
+    "claude": "Ko na wati ni Lo",
     "deepl": " ",
     "category": "text"
   },
@@ -1712,7 +1712,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Era o Loti",
-    "claude": " ",
+    "claude": "Ko na gone yalewa ni Lo",
     "deepl": " ",
     "category": "text"
   },
@@ -1729,7 +1729,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Moape (na gone yalewa qase)",
-    "claude": " ",
+    "claude": "Mova (gone malumalumu)",
     "deepl": " ",
     "category": "text"
   },
@@ -1746,7 +1746,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na vatu o Rosetta 196 B.C.E.",
-    "claude": " ",
+    "claude": "Ko na kaukamea ko Roseta 196 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -1763,7 +1763,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Herodotus c. 484 – c. 425 BC, e volata Na iThe Histories",
-    "claude": " ",
+    "claude": "Herodotus c. 484 – c. 425 BC, ena tovolea na The Histories",
     "deepl": " ",
     "category": "text"
   },
@@ -1780,7 +1780,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Aristotle 384 – 322 BC",
-    "claude": " ",
+    "claude": "Aristotle 384 – 322 BC",
     "deepl": " ",
     "category": "text"
   },
@@ -1797,7 +1797,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Tolemi c 100 – c. 170 C.E.",
-    "claude": " ",
+    "claude": "Ptolemy c. 100 – c. 170 C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -1814,7 +1814,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Pythagoras c. 570 – c. 495 BC",
-    "claude": " ",
+    "claude": "Pythagoras c. 570 – c. 495 BC",
     "deepl": " ",
     "category": "text"
   },
@@ -1831,7 +1831,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Plato c. 427 – c. 348 BC",
-    "claude": " ",
+    "claude": "Plato c. 427 – c. 348 BC",
     "deepl": " ",
     "category": "text"
   },
@@ -1848,7 +1848,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Socrates c. 470 – c. 399 BC",
-    "claude": " ",
+    "claude": "Socrates c. 470 – c. 399 BC",
     "deepl": " ",
     "category": "text"
   },
@@ -1865,7 +1865,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Josephus c. 37 – c. 100 C.E.",
-    "claude": " ",
+    "claude": "Josephus c. 37 – c. 100 C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -1882,7 +1882,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Cicero 106–43 BC",
-    "claude": " ",
+    "claude": "Cicero 106–43 BC",
     "deepl": " ",
     "category": "text"
   },
@@ -1899,7 +1899,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na ivola ni Lasisi c. 590 B.C.E.",
-    "claude": " ",
+    "claude": "Na ivola ni Lachish c. 590 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -1916,7 +1916,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na iyaloyalo ni Lasisi c. 681 B.C.E.",
-    "claude": " ",
+    "claude": "Na i taba ni Lachish c. 681 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -1933,7 +1933,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Vatu ni Mesha (na vatu ni Moape) c. 840 B.C.E.",
-    "claude": " ",
+    "claude": "Ko na Mesha Stele (na kaukamea ni Moab) c. 840 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -1950,7 +1950,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Kilikamesi kei Aka 𒇽𒆥𒄄𒀀𒀝𒂵",
-    "claude": " ",
+    "claude": "Ko Gilgamesh kei Aga 𒇽𒆥𒄄𒀀𒀝𒂵",
     "deepl": " ",
     "category": "text"
   },
@@ -1967,7 +1967,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na iVakamacala ni Kilikamesi (Sîn-lēqi-unninni)",
-    "claude": " ",
+    "claude": "Ko na Epiki ni Gilgamesh (Sîn-lēqi-unninni)",
     "deepl": " ",
     "category": "text"
   },
@@ -1984,7 +1984,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na kalenda vakakuriqo 1582",
-    "claude": " ",
+    "claude": "Ko na kalena ni Gregorian 1582",
     "deepl": " ",
     "category": "text"
   },
@@ -2001,7 +2001,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "c. 1600-1046 BC",
-    "claude": " ",
+    "claude": "c. 1600-1046 BC",
     "deepl": " ",
     "category": "text"
   },
@@ -2018,7 +2018,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "c. 1046-771 BC",
-    "claude": " ",
+    "claude": "c. 1046-771 BC",
     "deepl": " ",
     "category": "text"
   },
@@ -2035,7 +2035,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Qin 221-207 BC",
-    "claude": " ",
+    "claude": "Qin 221-207 BC",
     "deepl": " ",
     "category": "text"
   },
@@ -2052,7 +2052,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "207 BC – 9 CE",
-    "claude": " ",
+    "claude": "207 BC – 9 CE",
     "deepl": " ",
     "category": "text"
   },
@@ -2069,7 +2069,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Matanitu E Tolu 220-280 AD",
-    "claude": " ",
+    "claude": "Ko na matanitu tolu 220-280 CE",
     "deepl": " ",
     "category": "text"
   },
@@ -2086,7 +2086,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Matanitu E Tinikaiono 304-439 AD",
-    "claude": " ",
+    "claude": "Ko na matanitu tini ka onoNo 304-439 CE",
     "deepl": " ",
     "category": "text"
   },
@@ -2103,7 +2103,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "618-690, 705-907",
-    "claude": " ",
+    "claude": "618-690, 705-907",
     "deepl": " ",
     "category": "text"
   },
@@ -2120,7 +2120,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "690-705 Wu Zhou",
-    "claude": " ",
+    "claude": "690-705 Wu Zhou",
     "deepl": " ",
     "category": "text"
   },
@@ -2137,7 +2137,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tang",
-    "claude": " ",
+    "claude": "Tang",
     "deepl": " ",
     "category": "text"
   },
@@ -2154,7 +2154,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Veiliutaki Vakamatabule o Gonghe 841-828 BC",
-    "claude": " ",
+    "claude": "Ko na veisau ni Gonghe 841-828 BC",
     "deepl": " ",
     "category": "text"
   },
@@ -2171,7 +2171,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Asoka (rauta ni 304-232 BC) e vakacaucautaka na Buddhism",
-    "claude": " ",
+    "claude": "Ko Ashoka (c. 304-232 BC) ena vakataukanataka na Buddhism",
     "deepl": " ",
     "category": "text"
   },
@@ -2188,7 +2188,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E vakabalavataka o Hesekaia na qara wai mai Sailoa",
-    "claude": " ",
+    "claude": "Ko Hezekiah ena volavola taukei na tuni ni Siloam",
     "deepl": " ",
     "category": "text"
   },
@@ -2205,7 +2205,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Anglo-American e vakatakilakilataki ena yava kaukamea ka veiwaki kei na lepo ena parofisai e tiko ena Taniela 2:33, 41-43",
-    "claude": " ",
+    "claude": "Ko na matanitu ni Anglo-Amerika ena tovolei ena yava ni auri ka simasimani kei na uro ena vunautaki i Daniel 2:33, 41-43",
     "deepl": " ",
     "category": "text"
   },
@@ -2222,7 +2222,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E vola o Manetho na Aegyptiaca",
-    "claude": " ",
+    "claude": "Ko Manetho ena tovolea ko na Aegyptiaca",
     "deepl": " ",
     "category": "text"
   },
@@ -2239,7 +2239,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Vakacacani o Papiloni Levu (Vakatakila 17:3, 15-18; 18:9, 10)",
-    "claude": " ",
+    "claude": "Ko na oti ni Babiloni Levu (Apokalipsi 17:3, 15-18; 18:9, 10)",
     "deepl": " ",
     "category": "text"
   },
@@ -2256,7 +2256,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "“Sa vakacegu kei na taqomaki!” (1 Cesalonaika 5:3, qo e dua na ka e rawa ni yaco, QfR 26/2, 25/11)",
-    "claude": " ",
+    "claude": "\"Ko na marau kei na taqomaki!\" (1 Tesalonika 5:3, oqo e dua na veiwali, QfR 26/2, 25/11)",
     "deepl": " ",
     "category": "text"
   },
@@ -2273,7 +2273,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na nodra kabai kemuni o Koki kei Mekoki (Isikeli 38:1, 2, 9-12, 18-23)",
-    "claude": " ",
+    "claude": "Ko na veivala ni Gog mai Magog (Izikeli 38:1, 2, 9-12, 18-23)",
     "deepl": " ",
     "category": "text"
   },
@@ -2290,7 +2290,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Era lewai na lewe i vuravura, ka tawasei na sipi kei na me (Maciu 25:31-33)",
-    "claude": " ",
+    "claude": "Ko ira na tamata ni vuravura era kailomai, era veicavacavataki ena sipi kei na me (Matiu 25:31-33)",
     "deepl": " ",
     "category": "text"
   },
@@ -2307,7 +2307,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nodra vakasagara na nodra turaga ni matanitu (Maciu 24:31; 1 Korinica 15:50-53; 1 Cesalonaika 4:15-17)",
-    "claude": " ",
+    "claude": "Ko na wasea ni ira na taukei ni Matanitu (Matiu 24:31; 1 Korinito 15:50-53; 1 Tesalonika 4:15-17)",
     "deepl": " ",
     "category": "text"
   },
@@ -2324,7 +2324,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Valu mai Amaketoni (Vakatakila 16:14, 16; Aisea 13:9; 2 Pita 3:12)",
-    "claude": " ",
+    "claude": "Ko na veivala ni Amagedoni (Apokalipsi 16:14, 16; Isaia 13:9; 2 Petero 3:12)",
     "deepl": " ",
     "category": "text"
   },
@@ -2341,7 +2341,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E tekivu na nodrau veiliutaki ni Matanitu ni Kalou me 1000 na yabaki (Vakatakila 5:9, 10; 20:4, 6)",
-    "claude": " ",
+    "claude": "Ko na Matanitu ni Kalou ena dokai na nona livaliva ka yabaki dua na udolu (Apokalipsi 5:9, 10; 20:4, 6)",
     "deepl": " ",
     "category": "text"
   },
@@ -2358,7 +2358,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E bula e dua na ilawalawa levu mai Amaketoni (Vakatakila 7:9, 14; Same 37:9-11)",
-    "claude": " ",
+    "claude": "Ko na lewe ni kawa tamata levu era maroroi mai na Amagedoni (Apokalipsi 7:9, 14; Saione 37:9-11)",
     "deepl": " ",
     "category": "text"
   },
@@ -2375,7 +2375,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na iwiliwili ni lewe i vuravura ena bilioni ena loma ni 2000 na yabaki sa oti",
-    "claude": " ",
+    "claude": "Ko na tokatoka ni vuravura ena bilioni ena yabaki 2000 ni gauna oti",
     "deepl": " ",
     "category": "text"
   },
@@ -2392,7 +2392,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Matanitu o Khmer - Gauna ni Angkor",
-    "claude": " ",
+    "claude": "Ko na Matanitu ni Keme – ko na gauna ni Angkor",
     "deepl": " ",
     "category": "text"
   },
@@ -2409,7 +2409,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Matanitu Tabu Vakaroma – e kilai me Matanitu Tabu Vakaroma ni Matatamata Jamani ni oti na 1512",
-    "claude": " ",
+    "claude": "Ko na Matanitu Tabu ni Roma – e kila ko na Matanitu Tabu ni Roma ni veimatatamata ni Siamani ni murikeda 1512",
     "deepl": " ",
     "category": "text"
   },
@@ -2426,7 +2426,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Matanitu o Mongolia 1206 – 1294",
-    "claude": " ",
+    "claude": "Ko na Matanitu ni Mongol 1206 – 1294",
     "deepl": " ",
     "category": "text"
   },
@@ -2443,7 +2443,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na ivakarau ni bula vakavanua o Maya – Gauna Makawa",
-    "claude": " ",
+    "claude": "Ko na isema ni Maya – ko na gauna ni Classic",
     "deepl": " ",
     "category": "text"
   },
@@ -2460,7 +2460,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na ivakarau ni bula vakavanua o Maya – Gauna ni Oti na Gauna Makawa",
-    "claude": " ",
+    "claude": "Ko na isema ni Maya – ko na gauna ni Postclassic",
     "deepl": " ",
     "category": "text"
   },
@@ -2477,7 +2477,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na koro levu duadua e Amerika, tara na veipyramid rauta ni 200 AD",
-    "claude": " ",
+    "claude": "Ko na koro levu duadua ena Amerika, ko na pirami era tavuyaki c. 200 C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -2494,7 +2494,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Dionysius Exiguus, dau bulia na Anno Domini",
-    "claude": " ",
+    "claude": "Ko Dionysius Exiguus, ko na tamata ivakamuria na Anno Domini",
     "deepl": " ",
     "category": "text"
   },
@@ -2511,7 +2511,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Umayyad",
-    "claude": " ",
+    "claude": "Umayyad",
     "deepl": " ",
     "category": "text"
   },
@@ -2528,7 +2528,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Matanitu Vakatui o Ur III 𒋀𒀕𒆠",
-    "claude": " ",
+    "claude": "Ko na matanitu ni Ur III 𒋀𒀕𒆠",
     "deepl": " ",
     "category": "text"
   },
@@ -2545,7 +2545,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Hamurapi 𒄩𒄠𒈬𒊏𒁉",
-    "claude": " ",
+    "claude": "Ko Hammurabi 𒄩𒄠𒈬𒊏𒁉",
     "deepl": " ",
     "category": "text"
   },
@@ -2562,7 +2562,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E vola o al-Khwarizmi na Al-Jabr (Algebra)",
-    "claude": " ",
+    "claude": "Ko al-Khwarizmi ena tovolea na Al-Jabr (Algebra)",
     "deepl": " ",
     "category": "text"
   },
@@ -2579,7 +2579,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E tauyavutaki na Yunivesiti o Al-Azhar mai Cairo",
-    "claude": " ",
+    "claude": "Ko na Univesiti ni Al-Azhar ena dokai i Kairo",
     "deepl": " ",
     "category": "text"
   },
@@ -2596,7 +2596,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Ibn Sina se o Avicenna",
-    "claude": " ",
+    "claude": "Ko Ibn Sina se Avicenna",
     "deepl": " ",
     "category": "text"
   },
@@ -2613,7 +2613,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na dede ni bula ni tamata e 75 na yabaki",
-    "claude": " ",
+    "claude": "Ko na gauna ni moce e 75 na yabaki",
     "deepl": " ",
     "category": "text"
   },
@@ -2630,7 +2630,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "430 na yabaki: Lako Yani 12:41, Kalatia 3:17",
-    "claude": " ",
+    "claude": "Ko na yabaki 430: Ekisodosi 12:41, Galesia 3:17",
     "deepl": " ",
     "category": "text"
   },
@@ -2647,7 +2647,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na iwiliwili ni tekivu ni kalenda o Maya Okotova 11, 3114 B.C.E.",
-    "claude": " ",
+    "claude": "Ko na matai ni kalena ni Maya e kilai vakayacavi ko na Okosita 11, 3114 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -2664,7 +2664,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "rauta ni 2070 – rauta ni 1600 BC; Gauna e cavuti taumada ena gauna ni Veiliutaki Vakamatabule o Western Zhou",
-    "claude": " ",
+    "claude": "c. 2070 – c. 1600 BC; ko na gauna e vakaraitaki kina matavata ena gauna ni Zhou Rabe",
     "deepl": " ",
     "category": "text"
   },
@@ -2681,7 +2681,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na matanitu vakatui o Xia e China",
-    "claude": " ",
+    "claude": "Ko na matanitu ni Xia iAina",
     "deepl": " ",
     "category": "text"
   },
@@ -2698,7 +2698,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Seviteba 3, 32 B.C.E.",
-    "claude": " ",
+    "claude": "Ko na siga 3 ni Sepiteba, 32 B.C.E.",
     "deepl": " ",
     "category": "text"
   },
@@ -2715,7 +2715,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Rau sota tale o Josefa kei Jekope e Ijipita – 1728 B.C.E. (Vkte 45:11; 47:9)",
-    "claude": " ",
+    "claude": "Ko Josefa kei Jope era veisau talega i Isipite – 1728 B.C.E. (Jen 45:11; 47:9)",
     "deepl": " ",
     "category": "text"
   },
@@ -2732,7 +2732,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Tui Cevata mai na Taniela 11",
-    "claude": " ",
+    "claude": "Ko na Tui ni Toga mai Daniel 11",
     "deepl": " ",
     "category": "text"
   },
@@ -2749,7 +2749,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Tui ni Vualiku mai vei Taniela 11",
-    "claude": " ",
+    "claude": "Ko na Tui ni Tokalau mai Daniel 11",
     "deepl": " ",
     "category": "text"
   },
@@ -2766,7 +2766,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na yava kaukamea mai vei Taniela 2",
-    "claude": " ",
+    "claude": "Ko na yava ni auri mai Daniel 2",
     "deepl": " ",
     "category": "text"
   },
@@ -2783,7 +2783,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Codex Argenteus c. 505",
-    "claude": " ",
+    "claude": "Ko na Codex Argenteus c. 505",
     "deepl": " ",
     "category": "text"
   },
@@ -2800,7 +2800,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nguyễn",
-    "claude": " ",
+    "claude": "Nguyễn",
     "deepl": " ",
     "category": "text"
   },
@@ -2817,7 +2817,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na gauna o Edo e Japani",
-    "claude": " ",
+    "claude": "Ko na gauna ni Edo i Jipani",
     "deepl": " ",
     "category": "text"
   },
@@ -2834,7 +2834,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Meiji",
-    "claude": " ",
+    "claude": "Meiji",
     "deepl": " ",
     "category": "text"
   },
@@ -2851,7 +2851,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Valu Lelevu ni Amerika 1861-1865",
-    "claude": " ",
+    "claude": "Ko na Veivala ni Amerika 1861-1865",
     "deepl": " ",
     "category": "text"
   },
@@ -2868,7 +2868,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Aleppo Codex c. 920",
-    "claude": " ",
+    "claude": "Ko na Aleppo Codex c. 920",
     "deepl": " ",
     "category": "text"
   },
@@ -2885,7 +2885,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Matanitu o ira na Vani kei Alani 435 – 534",
-    "claude": " ",
+    "claude": "Ko na Matanitu ni Vandal kei Alani 435 – 534",
     "deepl": " ",
     "category": "text"
   },
@@ -2902,7 +2902,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "c. 481/509 – 843, Merovingian me yacova na 751, qai tomana o Carolingian",
-    "claude": " ",
+    "claude": "c. 481/509 – 843, Merovingian ka yacova 751, sa muricaka ko Carolingian",
     "deepl": " ",
     "category": "text"
   },
@@ -2919,7 +2919,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Matanitu o ira na Fariki",
-    "claude": " ",
+    "claude": "Ko na Matanitu ni Farako",
     "deepl": " ",
     "category": "text"
   },
@@ -2936,7 +2936,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Valu ni Veiyabaki 1337 – 1453",
-    "claude": " ",
+    "claude": "Ko na Veivala ni Yabaki Dua na Drau 1337 – 1453",
     "deepl": " ",
     "category": "text"
   },
@@ -2953,7 +2953,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Mate Levu Bula 1346-1353",
-    "claude": " ",
+    "claude": "Ko na mate levu 1346-1353",
     "deepl": " ",
     "category": "text"
   },
@@ -2970,7 +2970,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "581-618 Na matavuvale vakatui o Sui",
-    "claude": " ",
+    "claude": "Ko na matanitu ni Sui 581-618",
     "deepl": " ",
     "category": "text"
   },
@@ -2987,7 +2987,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sui",
-    "claude": " ",
+    "claude": "Sui",
     "deepl": " ",
     "category": "text"
   },
@@ -3004,7 +3004,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Vakacaca Levu (Marika 13:19; Taniela 12:1; Maciu 24:21, 22)",
-    "claude": " ",
+    "claude": "Ko na Rawarawataki Levu (Maku 13:19; Daniela 12:1; Matiu 24:21, 22)",
     "deepl": " ",
     "category": "text"
   },
@@ -3021,7 +3021,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na iyaloyalo ni gauna oqo e caka ena 2023, na yabaki katakata duadua ena bula ni kawa tamata kei na 125,000 na yabaki sa oti",
-    "claude": " ",
+    "claude": "Ko na ivola ni gauna oqo e caka ena 2023, ko na yabaki maluivoce duadua ena ikau ni tamata kei na yabaki 125,000 ni gauna oti",
     "deepl": " ",
     "category": "text"
   },
@@ -3038,7 +3038,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Atama",
-    "claude": " ",
+    "claude": "Adamu",
     "deepl": " ",
     "category": "bible"
   },
@@ -3055,7 +3055,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Seti",
-    "claude": " ",
+    "claude": "Seti",
     "deepl": " ",
     "category": "bible"
   },
@@ -3072,7 +3072,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Enosi",
-    "claude": " ",
+    "claude": "Enosi",
     "deepl": " ",
     "category": "bible"
   },
@@ -3089,7 +3089,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kenani",
-    "claude": " ",
+    "claude": "Kenani (Keinani)",
     "deepl": " ",
     "category": "bible"
   },
@@ -3106,7 +3106,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Mahalaleli",
-    "claude": " ",
+    "claude": "Mahalaleli (Mahalaliili)",
     "deepl": " ",
     "category": "bible"
   },
@@ -3123,7 +3123,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jereti",
-    "claude": " ",
+    "claude": "Jaredi",
     "deepl": " ",
     "category": "bible"
   },
@@ -3140,7 +3140,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Enoki",
-    "claude": " ",
+    "claude": "Enoko",
     "deepl": " ",
     "category": "bible"
   },
@@ -3157,7 +3157,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Metusela",
-    "claude": " ",
+    "claude": "Metusela",
     "deepl": " ",
     "category": "bible"
   },
@@ -3174,7 +3174,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Lemeki",
-    "claude": " ",
+    "claude": "Lameki",
     "deepl": " ",
     "category": "bible"
   },
@@ -3191,7 +3191,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Noa",
-    "claude": " ",
+    "claude": "Noa",
     "deepl": " ",
     "category": "bible"
   },
@@ -3208,7 +3208,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Semi",
-    "claude": " ",
+    "claude": "Semu",
     "deepl": " ",
     "category": "bible"
   },
@@ -3225,7 +3225,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Aripakasati",
-    "claude": " ",
+    "claude": "Arapasiadi",
     "deepl": " ",
     "category": "bible"
   },
@@ -3242,7 +3242,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sela",
-    "claude": " ",
+    "claude": "Sela",
     "deepl": " ",
     "category": "bible"
   },
@@ -3259,7 +3259,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Epa",
-    "claude": " ",
+    "claude": "Eberi",
     "deepl": " ",
     "category": "bible"
   },
@@ -3276,7 +3276,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Pelegi",
-    "claude": " ",
+    "claude": "Peleki",
     "deepl": " ",
     "category": "bible"
   },
@@ -3293,7 +3293,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Riu",
-    "claude": " ",
+    "claude": "Reu",
     "deepl": " ",
     "category": "bible"
   },
@@ -3310,7 +3310,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Seruki",
-    "claude": " ",
+    "claude": "Serugi",
     "deepl": " ",
     "category": "bible"
   },
@@ -3327,7 +3327,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nacori",
-    "claude": " ",
+    "claude": "Nahori",
     "deepl": " ",
     "category": "bible"
   },
@@ -3344,7 +3344,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tera",
-    "claude": " ",
+    "claude": "Tera",
     "deepl": " ",
     "category": "bible"
   },
@@ -3361,7 +3361,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Eparaama",
-    "claude": " ",
+    "claude": "Aberahame",
     "deepl": " ",
     "category": "bible"
   },
@@ -3378,7 +3378,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Aisake",
-    "claude": " ",
+    "claude": "Aisake",
     "deepl": " ",
     "category": "bible"
   },
@@ -3395,7 +3395,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jekope",
-    "claude": " ",
+    "claude": "Jakopo",
     "deepl": " ",
     "category": "bible"
   },
@@ -3412,7 +3412,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Josefa",
-    "claude": " ",
+    "claude": "Josefa",
     "deepl": " ",
     "category": "bible"
   },
@@ -3429,7 +3429,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Mosese",
-    "claude": " ",
+    "claude": "Mosi",
     "deepl": " ",
     "category": "bible"
   },
@@ -3446,7 +3446,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Otonieli",
-    "claude": " ",
+    "claude": "Otonieli",
     "deepl": " ",
     "category": "bible"
   },
@@ -3463,7 +3463,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ekiute",
-    "claude": " ",
+    "claude": "Ehutu",
     "deepl": " ",
     "category": "bible"
   },
@@ -3480,7 +3480,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Samigari",
-    "claude": " ",
+    "claude": "Samigara",
     "deepl": " ",
     "category": "bible"
   },
@@ -3497,7 +3497,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Paraki, Tepora, Jeli",
-    "claude": " ",
+    "claude": "Baraki, Debora, Jaeli",
     "deepl": " ",
     "category": "bible"
   },
@@ -3514,7 +3514,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kitioni",
-    "claude": " ",
+    "claude": "Gidioni",
     "deepl": " ",
     "category": "bible"
   },
@@ -3531,7 +3531,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tola",
-    "claude": " ",
+    "claude": "Tola",
     "deepl": " ",
     "category": "bible"
   },
@@ -3548,7 +3548,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jaiiri",
-    "claude": " ",
+    "claude": "Jairi",
     "deepl": " ",
     "category": "bible"
   },
@@ -3565,7 +3565,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jifita",
-    "claude": " ",
+    "claude": "Jefita",
     "deepl": " ",
     "category": "bible"
   },
@@ -3582,7 +3582,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ipisaneli",
-    "claude": " ",
+    "claude": "Ibizani",
     "deepl": " ",
     "category": "bible"
   },
@@ -3599,7 +3599,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Eloni",
-    "claude": " ",
+    "claude": "Eloni",
     "deepl": " ",
     "category": "bible"
   },
@@ -3616,7 +3616,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Aponi",
-    "claude": " ",
+    "claude": "Abudonī",
     "deepl": " ",
     "category": "bible"
   },
@@ -3633,7 +3633,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Samisoni",
-    "claude": " ",
+    "claude": "Samisoni",
     "deepl": " ",
     "category": "bible"
   },
@@ -3650,7 +3650,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Samuela",
-    "claude": " ",
+    "claude": "Samuela",
     "deepl": " ",
     "category": "bible"
   },
@@ -3667,7 +3667,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Saula",
-    "claude": " ",
+    "claude": "Sauli",
     "deepl": " ",
     "category": "bible"
   },
@@ -3684,7 +3684,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tevita",
-    "claude": " ",
+    "claude": "Davida",
     "deepl": " ",
     "category": "bible"
   },
@@ -3701,7 +3701,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Solomoni",
-    "claude": " ",
+    "claude": "Solomoni",
     "deepl": " ",
     "category": "bible"
   },
@@ -3718,7 +3718,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Malakai",
-    "claude": " ",
+    "claude": "Malaki",
     "deepl": " ",
     "category": "bible"
   },
@@ -3735,7 +3735,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ruta",
-    "claude": " ",
+    "claude": "Rute",
     "deepl": " ",
     "category": "bible"
   },
@@ -3752,7 +3752,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Esira",
-    "claude": " ",
+    "claude": "Ezara",
     "deepl": " ",
     "category": "bible"
   },
@@ -3769,7 +3769,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Niemaia",
-    "claude": " ",
+    "claude": "Nehemia",
     "deepl": " ",
     "category": "bible"
   },
@@ -3786,7 +3786,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Esiteri",
-    "claude": " ",
+    "claude": "Esita",
     "deepl": " ",
     "category": "bible"
   },
@@ -3803,7 +3803,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jope",
-    "claude": " ",
+    "claude": "Jobi",
     "deepl": " ",
     "category": "bible"
   },
@@ -3820,7 +3820,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Mosese",
-    "claude": " ",
+    "claude": "Mosi",
     "deepl": " ",
     "category": "bible"
   },
@@ -3837,7 +3837,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Josua",
-    "claude": " ",
+    "claude": "Josua",
     "deepl": " ",
     "category": "bible"
   },
@@ -3854,7 +3854,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kalebi",
-    "claude": " ",
+    "claude": "Kalebi",
     "deepl": " ",
     "category": "bible"
   },
@@ -3871,7 +3871,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Akusto",
-    "claude": " ",
+    "claude": "Okasite",
     "deepl": " ",
     "category": "bible"
   },
@@ -3888,7 +3888,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tiperio",
-    "claude": " ",
+    "claude": "Tiberio",
     "deepl": " ",
     "category": "bible"
   },
@@ -3905,7 +3905,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kolosia",
-    "claude": " ",
+    "claude": "Kolaudio",
     "deepl": " ",
     "category": "bible"
   },
@@ -3922,7 +3922,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Persia",
-    "claude": " ",
+    "claude": "Pesia",
     "deepl": " ",
     "category": "bible"
   },
@@ -3939,7 +3939,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jioiata",
-    "claude": " ",
+    "claude": "Joyada",
     "deepl": " ",
     "category": "bible"
   },
@@ -3956,7 +3956,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Agai",
-    "claude": " ",
+    "claude": "Hagayi",
     "deepl": " ",
     "category": "bible"
   },
@@ -3973,7 +3973,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Serupapeli (Luke 3:27)",
-    "claude": " ",
+    "claude": "Zerubabele (Luka 3:27)",
     "deepl": " ",
     "category": "bible"
   },
@@ -3990,7 +3990,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jekope/",
-    "claude": " ",
+    "claude": "Jekopo/",
     "deepl": " ",
     "category": "bible"
   },
@@ -4007,7 +4007,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Isireli",
-    "claude": " ",
+    "claude": "Isileli",
     "deepl": " ",
     "category": "bible"
   },
@@ -4024,7 +4024,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sara",
-    "claude": " ",
+    "claude": "Sara",
     "deepl": " ",
     "category": "bible"
   },
@@ -4041,7 +4041,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Akari",
-    "claude": " ",
+    "claude": "Hagara",
     "deepl": " ",
     "category": "bible"
   },
@@ -4058,7 +4058,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Arani",
-    "claude": " ",
+    "claude": "Harani",
     "deepl": " ",
     "category": "bible"
   },
@@ -4075,7 +4075,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Riuma",
-    "claude": " ",
+    "claude": "Reuma",
     "deepl": " ",
     "category": "bible"
   },
@@ -4092,7 +4092,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Milika",
-    "claude": " ",
+    "claude": "Milika",
     "deepl": " ",
     "category": "bible"
   },
@@ -4109,7 +4109,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Roti",
-    "claude": " ",
+    "claude": "Lote",
     "deepl": " ",
     "category": "bible"
   },
@@ -4126,7 +4126,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Pen-ami (Amoni)",
-    "claude": " ",
+    "claude": "Beni-ami (Amoni)",
     "deepl": " ",
     "category": "bible"
   },
@@ -4143,7 +4143,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Petuel",
-    "claude": " ",
+    "claude": "Betiyeli",
     "deepl": " ",
     "category": "bible"
   },
@@ -4160,7 +4160,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Repeka",
-    "claude": " ",
+    "claude": "Rebeka",
     "deepl": " ",
     "category": "bible"
   },
@@ -4177,7 +4177,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Rapani",
-    "claude": " ",
+    "claude": "Labani",
     "deepl": " ",
     "category": "bible"
   },
@@ -4194,7 +4194,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Lia",
-    "claude": " ",
+    "claude": "Lea",
     "deepl": " ",
     "category": "bible"
   },
@@ -4211,7 +4211,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Rejeli",
-    "claude": " ",
+    "claude": "Rasele",
     "deepl": " ",
     "category": "bible"
   },
@@ -4228,7 +4228,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Piripa",
-    "claude": " ",
+    "claude": "Bila",
     "deepl": " ",
     "category": "bible"
   },
@@ -4245,7 +4245,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Silipa",
-    "claude": " ",
+    "claude": "Zilipa",
     "deepl": " ",
     "category": "bible"
   },
@@ -4262,7 +4262,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Rupeni",
-    "claude": " ",
+    "claude": "Rubeni",
     "deepl": " ",
     "category": "bible"
   },
@@ -4279,7 +4279,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Simioni",
-    "claude": " ",
+    "claude": "Simioni",
     "deepl": " ",
     "category": "bible"
   },
@@ -4296,7 +4296,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Livai",
-    "claude": " ",
+    "claude": "Livai",
     "deepl": " ",
     "category": "bible"
   },
@@ -4313,7 +4313,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jutasa",
-    "claude": " ",
+    "claude": "Juda",
     "deepl": " ",
     "category": "bible"
   },
@@ -4330,7 +4330,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Isakara",
-    "claude": " ",
+    "claude": "Isakara",
     "deepl": " ",
     "category": "bible"
   },
@@ -4347,7 +4347,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sepuloni",
-    "claude": " ",
+    "claude": "Zebuluni",
     "deepl": " ",
     "category": "bible"
   },
@@ -4364,7 +4364,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tini",
-    "claude": " ",
+    "claude": "Dina",
     "deepl": " ",
     "category": "bible"
   },
@@ -4381,7 +4381,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Esau/",
-    "claude": " ",
+    "claude": "Isau/",
     "deepl": " ",
     "category": "bible"
   },
@@ -4398,7 +4398,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Etomi",
-    "claude": " ",
+    "claude": "Edomi",
     "deepl": " ",
     "category": "bible"
   },
@@ -4415,7 +4415,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Isimeli",
-    "claude": " ",
+    "claude": "Isimeli",
     "deepl": " ",
     "category": "bible"
   },
@@ -4432,7 +4432,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "(Manasa",
-    "claude": " ",
+    "claude": "(Manase",
     "deepl": " ",
     "category": "bible"
   },
@@ -4449,7 +4449,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "kei Eparaimu)",
-    "claude": " ",
+    "claude": "kei Efuremi)",
     "deepl": " ",
     "category": "bible"
   },
@@ -4466,7 +4466,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Penijamini",
-    "claude": " ",
+    "claude": "Benjamini",
     "deepl": " ",
     "category": "bible"
   },
@@ -4483,7 +4483,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tani",
-    "claude": " ",
+    "claude": "Dani",
     "deepl": " ",
     "category": "bible"
   },
@@ -4500,7 +4500,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nafitali",
-    "claude": " ",
+    "claude": "Nafatali",
     "deepl": " ",
     "category": "bible"
   },
@@ -4517,7 +4517,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kati",
-    "claude": " ",
+    "claude": "Gadi",
     "deepl": " ",
     "category": "bible"
   },
@@ -4534,7 +4534,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Asere",
-    "claude": " ",
+    "claude": "Asere",
     "deepl": " ",
     "category": "bible"
   },
@@ -4551,7 +4551,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Usi, Pusi, Jemueli,",
-    "claude": " ",
+    "claude": "Uzi, Buzi, Kemuyeli,",
     "deepl": " ",
     "category": "bible"
   },
@@ -4568,7 +4568,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Keseti, Haso,",
-    "claude": " ",
+    "claude": "Kesedi, Hazo,",
     "deepl": " ",
     "category": "bible"
   },
@@ -4585,7 +4585,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Piratasi, Jitilafi",
-    "claude": " ",
+    "claude": "Pilidasi, Jidilafi",
     "deepl": " ",
     "category": "bible"
   },
@@ -4602,7 +4602,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tipa",
-    "claude": " ",
+    "claude": "Teba",
     "deepl": " ",
     "category": "bible"
   },
@@ -4619,7 +4619,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kahami",
-    "claude": " ",
+    "claude": "Gahamu",
     "deepl": " ",
     "category": "bible"
   },
@@ -4636,7 +4636,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tahasi",
-    "claude": " ",
+    "claude": "Tahasi",
     "deepl": " ",
     "category": "bible"
   },
@@ -4653,7 +4653,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Maaka",
-    "claude": " ",
+    "claude": "Maaka",
     "deepl": " ",
     "category": "bible"
   },
@@ -4670,7 +4670,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Mahalati/",
-    "claude": " ",
+    "claude": "Mahalati/",
     "deepl": " ",
     "category": "bible"
   },
@@ -4687,7 +4687,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Pasimati",
-    "claude": " ",
+    "claude": "Basemati",
     "deepl": " ",
     "category": "bible"
   },
@@ -4704,7 +4704,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Riueli",
-    "claude": " ",
+    "claude": "Reyeli",
     "deepl": " ",
     "category": "bible"
   },
@@ -4721,7 +4721,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nahati",
-    "claude": " ",
+    "claude": "Nahati",
     "deepl": " ",
     "category": "bible"
   },
@@ -4738,7 +4738,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sera",
-    "claude": " ",
+    "claude": "Zera",
     "deepl": " ",
     "category": "bible"
   },
@@ -4755,7 +4755,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Samasa",
-    "claude": " ",
+    "claude": "Sama",
     "deepl": " ",
     "category": "bible"
   },
@@ -4772,7 +4772,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Misai",
-    "claude": " ",
+    "claude": "Miza",
     "deepl": " ",
     "category": "bible"
   },
@@ -4789,7 +4789,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ada",
-    "claude": " ",
+    "claude": "Ada",
     "deepl": " ",
     "category": "bible"
   },
@@ -4806,7 +4806,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Elifasi",
-    "claude": " ",
+    "claude": "Elifazi",
     "deepl": " ",
     "category": "bible"
   },
@@ -4823,7 +4823,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Timani",
-    "claude": " ",
+    "claude": "Temani",
     "deepl": " ",
     "category": "bible"
   },
@@ -4840,7 +4840,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Omai",
-    "claude": " ",
+    "claude": "Omari",
     "deepl": " ",
     "category": "bible"
   },
@@ -4857,7 +4857,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sifo",
-    "claude": " ",
+    "claude": "Zefo",
     "deepl": " ",
     "category": "bible"
   },
@@ -4874,7 +4874,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kenasa",
-    "claude": " ",
+    "claude": "Kenazi",
     "deepl": " ",
     "category": "bible"
   },
@@ -4891,7 +4891,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kora",
-    "claude": " ",
+    "claude": "Kora",
     "deepl": " ",
     "category": "bible"
   },
@@ -4908,7 +4908,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kora, Katami",
-    "claude": " ",
+    "claude": "Kora, Gatami",
     "deepl": " ",
     "category": "bible"
   },
@@ -4925,7 +4925,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Amaleki",
-    "claude": " ",
+    "claude": "Amaleki",
     "deepl": " ",
     "category": "bible"
   },
@@ -4942,7 +4942,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Olipama",
-    "claude": " ",
+    "claude": "Oholibama",
     "deepl": " ",
     "category": "bible"
   },
@@ -4959,7 +4959,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jiusi",
-    "claude": " ",
+    "claude": "Jusi",
     "deepl": " ",
     "category": "bible"
   },
@@ -4976,7 +4976,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jalami",
-    "claude": " ",
+    "claude": "Jalami",
     "deepl": " ",
     "category": "bible"
   },
@@ -4993,7 +4993,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nipaioci",
-    "claude": " ",
+    "claude": "Nebayoti",
     "deepl": " ",
     "category": "bible"
   },
@@ -5010,7 +5010,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kitari",
-    "claude": " ",
+    "claude": "Kedara",
     "deepl": " ",
     "category": "bible"
   },
@@ -5027,7 +5027,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Misima",
-    "claude": " ",
+    "claude": "Misima",
     "deepl": " ",
     "category": "bible"
   },
@@ -5044,7 +5044,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Atipili, Mipsami",
-    "claude": " ",
+    "claude": "Adibeeli, Mibisami",
     "deepl": " ",
     "category": "bible"
   },
@@ -5061,7 +5061,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tuma, Masa",
-    "claude": " ",
+    "claude": "Duma, Masa",
     "deepl": " ",
     "category": "bible"
   },
@@ -5078,7 +5078,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Atati",
-    "claude": " ",
+    "claude": "Hadadi",
     "deepl": " ",
     "category": "bible"
   },
@@ -5095,7 +5095,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tima",
-    "claude": " ",
+    "claude": "Tema",
     "deepl": " ",
     "category": "bible"
   },
@@ -5112,7 +5112,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jeturi",
-    "claude": " ",
+    "claude": "Jetura",
     "deepl": " ",
     "category": "bible"
   },
@@ -5129,7 +5129,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nafisi",
-    "claude": " ",
+    "claude": "Nafisi",
     "deepl": " ",
     "category": "bible"
   },
@@ -5146,7 +5146,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kitima",
-    "claude": " ",
+    "claude": "Kedemah",
     "deepl": " ",
     "category": "bible"
   },
@@ -5163,7 +5163,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ketura",
-    "claude": " ",
+    "claude": "Ketura",
     "deepl": " ",
     "category": "bible"
   },
@@ -5180,7 +5180,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Simrani",
-    "claude": " ",
+    "claude": "Simrani",
     "deepl": " ",
     "category": "bible"
   },
@@ -5197,7 +5197,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jokisani",
-    "claude": " ",
+    "claude": "Jokisani",
     "deepl": " ",
     "category": "bible"
   },
@@ -5214,7 +5214,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Mitani",
-    "claude": " ",
+    "claude": "Medani",
     "deepl": " ",
     "category": "bible"
   },
@@ -5231,7 +5231,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Mitiani",
-    "claude": " ",
+    "claude": "Midiani",
     "deepl": " ",
     "category": "bible"
   },
@@ -5248,7 +5248,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Isipaki",
-    "claude": " ",
+    "claude": "Isibaki",
     "deepl": " ",
     "category": "bible"
   },
@@ -5265,7 +5265,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sua",
-    "claude": " ",
+    "claude": "Sua",
     "deepl": " ",
     "category": "bible"
   },
@@ -5282,7 +5282,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Timina",
-    "claude": " ",
+    "claude": "Timna",
     "deepl": " ",
     "category": "bible"
   },
@@ -5299,7 +5299,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "(Same 90:10)",
-    "claude": " ",
+    "claude": "(Saime 90:10)",
     "deepl": " ",
     "category": "bible"
   },
@@ -5316,7 +5316,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Emi",
-    "claude": " ",
+    "claude": "Hamu",
     "deepl": " ",
     "category": "bible"
   },
@@ -5333,7 +5333,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kaniani",
-    "claude": " ",
+    "claude": "Kenani",
     "deepl": " ",
     "category": "bible"
   },
@@ -5350,7 +5350,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Saitoni",
-    "claude": " ",
+    "claude": "Saidoni",
     "deepl": " ",
     "category": "bible"
   },
@@ -5367,7 +5367,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Eti",
-    "claude": " ",
+    "claude": "Heti",
     "deepl": " ",
     "category": "bible"
   },
@@ -5384,7 +5384,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jerupusi",
-    "claude": " ",
+    "claude": "Jebusai",
     "deepl": " ",
     "category": "bible"
   },
@@ -5401,7 +5401,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Amorai",
-    "claude": " ",
+    "claude": "Amori",
     "deepl": " ",
     "category": "bible"
   },
@@ -5418,7 +5418,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kikasai",
-    "claude": " ",
+    "claude": "Girgasi",
     "deepl": " ",
     "category": "bible"
   },
@@ -5435,7 +5435,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Aivai",
-    "claude": " ",
+    "claude": "Hivi",
     "deepl": " ",
     "category": "bible"
   },
@@ -5452,7 +5452,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Akai",
-    "claude": " ",
+    "claude": "Aki",
     "deepl": " ",
     "category": "bible"
   },
@@ -5469,7 +5469,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kai Sinite",
-    "claude": " ",
+    "claude": "Sini",
     "deepl": " ",
     "category": "bible"
   },
@@ -5486,7 +5486,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kai Arvadi",
-    "claude": " ",
+    "claude": "Avadi",
     "deepl": " ",
     "category": "bible"
   },
@@ -5503,7 +5503,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kai Simari",
-    "claude": " ",
+    "claude": "Semari",
     "deepl": " ",
     "category": "bible"
   },
@@ -5520,7 +5520,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kai Hamati",
-    "claude": " ",
+    "claude": "Hamati",
     "deepl": " ",
     "category": "bible"
   },
@@ -5537,7 +5537,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kusa",
-    "claude": " ",
+    "claude": "Kusi",
     "deepl": " ",
     "category": "bible"
   },
@@ -5554,7 +5554,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nimiroti",
-    "claude": " ",
+    "claude": "Nimirode",
     "deepl": " ",
     "category": "bible"
   },
@@ -5571,7 +5571,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Misirimi",
-    "claude": " ",
+    "claude": "Misiraimu",
     "deepl": " ",
     "category": "bible"
   },
@@ -5588,7 +5588,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kasaluki",
-    "claude": " ",
+    "claude": "Kasilu",
     "deepl": " ",
     "category": "bible"
   },
@@ -5605,7 +5605,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Japhethi",
-    "claude": " ",
+    "claude": "Jepeta",
     "deepl": " ",
     "category": "bible"
   },
@@ -5622,7 +5622,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Asuri",
-    "claude": " ",
+    "claude": "Asuri",
     "deepl": " ",
     "category": "bible"
   },
@@ -5639,7 +5639,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Luti",
-    "claude": " ",
+    "claude": "Lude",
     "deepl": " ",
     "category": "bible"
   },
@@ -5656,7 +5656,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Arama",
-    "claude": " ",
+    "claude": "Aramu",
     "deepl": " ",
     "category": "bible"
   },
@@ -5673,7 +5673,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ilami",
-    "claude": " ",
+    "claude": "Elamu",
     "deepl": " ",
     "category": "bible"
   },
@@ -5690,7 +5690,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jokatani",
-    "claude": " ",
+    "claude": "Joketani",
     "deepl": " ",
     "category": "bible"
   },
@@ -5707,7 +5707,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Alamodati",
-    "claude": " ",
+    "claude": "Alimodadi",
     "deepl": " ",
     "category": "bible"
   },
@@ -5724,7 +5724,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Selefi",
-    "claude": " ",
+    "claude": "Selepe",
     "deepl": " ",
     "category": "bible"
   },
@@ -5741,7 +5741,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hasaramaveci",
-    "claude": " ",
+    "claude": "Hasaramavete",
     "deepl": " ",
     "category": "bible"
   },
@@ -5758,7 +5758,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jeraha",
-    "claude": " ",
+    "claude": "Jera",
     "deepl": " ",
     "category": "bible"
   },
@@ -5775,7 +5775,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hadorami",
-    "claude": " ",
+    "claude": "Hadoramu",
     "deepl": " ",
     "category": "bible"
   },
@@ -5792,7 +5792,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Usali",
-    "claude": " ",
+    "claude": "Usali",
     "deepl": " ",
     "category": "bible"
   },
@@ -5809,7 +5809,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tikila, Obali",
-    "claude": " ",
+    "claude": "Dikila, Obali",
     "deepl": " ",
     "category": "bible"
   },
@@ -5826,7 +5826,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Abimaeli",
-    "claude": " ",
+    "claude": "Abimeli",
     "deepl": " ",
     "category": "bible"
   },
@@ -5843,7 +5843,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Siba, Ofira",
-    "claude": " ",
+    "claude": "Seba, Ofiri",
     "deepl": " ",
     "category": "bible"
   },
@@ -5860,7 +5860,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Havila",
-    "claude": " ",
+    "claude": "Havila",
     "deepl": " ",
     "category": "bible"
   },
@@ -5877,7 +5877,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jobabi",
-    "claude": " ",
+    "claude": "Jobabi",
     "deepl": " ",
     "category": "bible"
   },
@@ -5894,7 +5894,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "1) Kai Ijipita: Same 105:23",
-    "claude": " ",
+    "claude": "1) Kai Ijipite: Saime 105:23",
     "deepl": " ",
     "category": "bible"
   },
@@ -5911,7 +5911,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "2) Kai Kaniani: Josua 13:3",
-    "claude": " ",
+    "claude": "2) Kai Kenani: Josua 13:3",
     "deepl": " ",
     "category": "bible"
   },
@@ -5928,7 +5928,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "3) Kai Arami: Osea 12:12",
-    "claude": " ",
+    "claude": "3) Kai Aramu: Hosea 12:12",
     "deepl": " ",
     "category": "bible"
   },
@@ -5945,7 +5945,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "4) Kai Ilami: Esera 4:9",
-    "claude": " ",
+    "claude": "4) Kai Elamu: Esira 4:9",
     "deepl": " ",
     "category": "bible"
   },
@@ -5962,7 +5962,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "5) Kai Asiria: Isikeli 27:23",
-    "claude": " ",
+    "claude": "5) Kai Asuria: Esekeli 27:23",
     "deepl": " ",
     "category": "bible"
   },
@@ -5979,7 +5979,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "6) Kai Filisitia: 1 Veigauna 1:12",
-    "claude": " ",
+    "claude": "6) Kai Filistia: 1 Ikolomi 1:12",
     "deepl": " ",
     "category": "bible"
   },
@@ -5996,7 +5996,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "7) Kai Iciopea [Kusa]: 2 Tui 19:9",
-    "claude": " ",
+    "claude": "7) Kai Itiopiya [Kai Kusi]: 2 Noda Turaganilagi 19:9",
     "deepl": " ",
     "category": "bible"
   },
@@ -6013,7 +6013,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "8) Kai Itomi: Tiko Voli 20:14-17",
-    "claude": " ",
+    "claude": "8) Kai Edomu: Nomboro 20:14-17",
     "deepl": " ",
     "category": "bible"
   },
@@ -6030,7 +6030,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "9) Kai Moapa: Vakarua 23:3, 4",
-    "claude": " ",
+    "claude": "9) Kai Moabi: Duitirenomii 23:3, 4",
     "deepl": " ",
     "category": "bible"
   },
@@ -6047,7 +6047,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "10) Kai Amoni: Josua 12:2",
-    "claude": " ",
+    "claude": "10) Kai Amoni: Josua 12:2",
     "deepl": " ",
     "category": "bible"
   },
@@ -6064,7 +6064,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "11) Kai Mitiani: Tiko Voli 31:2, 3",
-    "claude": " ",
+    "claude": "11) Kai Midiani: Nomboro 31:2, 3",
     "deepl": " ",
     "category": "bible"
   },
@@ -6081,7 +6081,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "12) Kai Amaleki: 1 Samuela 15:2",
-    "claude": " ",
+    "claude": "12) Kai Amaleke: 1 Samuela 15:2",
     "deepl": " ",
     "category": "bible"
   },
@@ -6098,7 +6098,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "13) Kai Timani: Jope 42:7",
-    "claude": " ",
+    "claude": "13) Kai Temani: Jobi 42:7",
     "deepl": " ",
     "category": "bible"
   },
@@ -6115,7 +6115,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "14) Kai Saitoni: Sakaraia 9:2",
-    "claude": " ",
+    "claude": "14) Kai Saidoni: Sekaraia 9:2",
     "deepl": " ",
     "category": "bible"
   },
@@ -6132,7 +6132,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "15) Kai Ititi: Vakatekivu 15:20",
-    "claude": " ",
+    "claude": "15) Kai Hiti: Senesi 15:20",
     "deepl": " ",
     "category": "bible"
   },
@@ -6149,7 +6149,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "16) Ka Jevusi: Josua 15:63",
-    "claude": " ",
+    "claude": "16) Kai Jebusi: Josua 15:63",
     "deepl": " ",
     "category": "bible"
   },
@@ -6166,7 +6166,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E Jupiti?",
-    "claude": " ",
+    "claude": "Juditia?",
     "deepl": " ",
     "category": "bible"
   },
@@ -6183,7 +6183,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "17) Ka Lidia: 1 Veigauna 1:17",
-    "claude": " ",
+    "claude": "17) Kai Lidia: 1 Ikolomi 1:17",
     "deepl": " ",
     "category": "bible"
   },
@@ -6200,7 +6200,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "18) Ka Isimeeli: Vakatekivu 37:27",
-    "claude": " ",
+    "claude": "18) Kai Isimeli: Senesi 37:27",
     "deepl": " ",
     "category": "bible"
   },
@@ -6217,7 +6217,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "19) Ka Amori: Dauveilewai 6:10",
-    "claude": " ",
+    "claude": "19) Kai Amori: Jaji 6:10",
     "deepl": " ",
     "category": "bible"
   },
@@ -6234,7 +6234,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "20) Ka Ivi [Kipioni]: Josua 9:3, 7",
-    "claude": " ",
+    "claude": "20) Kai Hivi [Gibioni]: Josua 9:3, 7",
     "deepl": " ",
     "category": "bible"
   },
@@ -6251,7 +6251,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Keni",
-    "claude": " ",
+    "claude": "Keini",
     "deepl": " ",
     "category": "bible"
   },
@@ -6268,7 +6268,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Epolo",
-    "claude": " ",
+    "claude": "Ebele",
     "deepl": " ",
     "category": "bible"
   },
@@ -6285,7 +6285,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Iraki",
-    "claude": " ",
+    "claude": "Iradi",
     "deepl": " ",
     "category": "bible"
   },
@@ -6302,7 +6302,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Mekuiaeli",
-    "claude": " ",
+    "claude": "Mehujeli",
     "deepl": " ",
     "category": "bible"
   },
@@ -6319,7 +6319,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Metusieli",
-    "claude": " ",
+    "claude": "Metuseli",
     "deepl": " ",
     "category": "bible"
   },
@@ -6336,7 +6336,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Japali",
-    "claude": " ",
+    "claude": "Jabali",
     "deepl": " ",
     "category": "bible"
   },
@@ -6353,7 +6353,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jiupali",
-    "claude": " ",
+    "claude": "Jubali",
     "deepl": " ",
     "category": "bible"
   },
@@ -6370,7 +6370,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sila",
-    "claude": " ",
+    "claude": "Sila",
     "deepl": " ",
     "category": "bible"
   },
@@ -6387,7 +6387,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tupalkeni",
-    "claude": " ",
+    "claude": "Tubali-keini",
     "deepl": " ",
     "category": "bible"
   },
@@ -6404,7 +6404,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Naama",
-    "claude": " ",
+    "claude": "Naamah",
     "deepl": " ",
     "category": "bible"
   },
@@ -6421,7 +6421,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Epoami",
-    "claude": " ",
+    "claude": "Rioboamu",
     "deepl": " ",
     "category": "A6"
   },
@@ -6438,7 +6438,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Apia (Apijami)",
-    "claude": " ",
+    "claude": "Abiia (Abiamu)",
     "deepl": " ",
     "category": "A6"
   },
@@ -6455,7 +6455,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Asa",
-    "claude": " ",
+    "claude": "Asa",
     "deepl": " ",
     "category": "A6"
   },
@@ -6472,7 +6472,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jeosafati",
-    "claude": " ",
+    "claude": "Josafate",
     "deepl": " ",
     "category": "A6"
   },
@@ -6489,7 +6489,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Joramani",
-    "claude": " ",
+    "claude": "Joramu",
     "deepl": " ",
     "category": "A6"
   },
@@ -6506,7 +6506,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Aasaia",
-    "claude": " ",
+    "claude": "Ahasaia",
     "deepl": " ",
     "category": "A6"
   },
@@ -6523,7 +6523,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ranadi Atalaia",
-    "claude": " ",
+    "claude": "Kuini ko Atalaia",
     "deepl": " ",
     "category": "A6"
   },
@@ -6540,7 +6540,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jioasi",
-    "claude": " ",
+    "claude": "Joasi",
     "deepl": " ",
     "category": "A6"
   },
@@ -6557,7 +6557,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Amasia",
-    "claude": " ",
+    "claude": "Amasaia",
     "deepl": " ",
     "category": "A6"
   },
@@ -6574,7 +6574,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Usia (Asaria)",
-    "claude": " ",
+    "claude": "Usia (Asaria)",
     "deepl": " ",
     "category": "A6"
   },
@@ -6591,7 +6591,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jeropoami",
-    "claude": " ",
+    "claude": "Jeroboamu",
     "deepl": " ",
     "category": "A6"
   },
@@ -6608,7 +6608,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Natapi",
-    "claude": " ",
+    "claude": "Nadabi",
     "deepl": " ",
     "category": "A6"
   },
@@ -6625,7 +6625,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Basa",
-    "claude": " ",
+    "claude": "Baasa",
     "deepl": " ",
     "category": "A6"
   },
@@ -6642,7 +6642,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ela",
-    "claude": " ",
+    "claude": "Ela",
     "deepl": " ",
     "category": "A6"
   },
@@ -6659,7 +6659,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Simiri",
-    "claude": " ",
+    "claude": "Simiri",
     "deepl": " ",
     "category": "A6"
   },
@@ -6676,7 +6676,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Omiri kei Tipini vata",
-    "claude": " ",
+    "claude": "Ko Omiri kei Tibini, rau taurivaka vata",
     "deepl": " ",
     "category": "A6"
   },
@@ -6693,7 +6693,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Omiri (o koya duadua ga)",
-    "claude": " ",
+    "claude": "Ko Omiri (e dua ga)",
     "deepl": " ",
     "category": "A6"
   },
@@ -6710,7 +6710,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Eapi",
-    "claude": " ",
+    "claude": "Ahabi",
     "deepl": " ",
     "category": "A6"
   },
@@ -6727,7 +6727,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Joramani",
-    "claude": " ",
+    "claude": "Joramu",
     "deepl": " ",
     "category": "A6"
   },
@@ -6744,7 +6744,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jeu",
-    "claude": " ",
+    "claude": "Jehu",
     "deepl": " ",
     "category": "A6"
   },
@@ -6761,7 +6761,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jioasi",
-    "claude": " ",
+    "claude": "Joahasi",
     "deepl": " ",
     "category": "A6"
   },
@@ -6778,7 +6778,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jioasi kei Jioasi",
-    "claude": " ",
+    "claude": "Ko Joahasi kei Joasi",
     "deepl": " ",
     "category": "A6"
   },
@@ -6795,7 +6795,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jioasi (o koya duadua ga)",
-    "claude": " ",
+    "claude": "Ko Joasi (e dua ga)",
     "deepl": " ",
     "category": "A6"
   },
@@ -6812,7 +6812,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jeropoami II",
-    "claude": " ",
+    "claude": "Jeroboamu II",
     "deepl": " ",
     "category": "A6"
   },
@@ -6829,7 +6829,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ilaijia",
-    "claude": " ",
+    "claude": "Elia",
     "deepl": " ",
     "category": "A6"
   },
@@ -6846,7 +6846,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Elisa",
-    "claude": " ",
+    "claude": "Elisha",
     "deepl": " ",
     "category": "A6"
   },
@@ -6863,7 +6863,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jona",
-    "claude": " ",
+    "claude": "Jona",
     "deepl": " ",
     "category": "A6"
   },
@@ -6880,7 +6880,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Emosi",
-    "claude": " ",
+    "claude": "Amosi",
     "deepl": " ",
     "category": "A6"
   },
@@ -6897,7 +6897,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Joeli",
-    "claude": " ",
+    "claude": "Joeli",
     "deepl": " ",
     "category": "A6"
   },
@@ -6914,7 +6914,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jotama",
-    "claude": " ",
+    "claude": "Jotami",
     "deepl": " ",
     "category": "A6"
   },
@@ -6931,7 +6931,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ehasa",
-    "claude": " ",
+    "claude": "Ahazi",
     "deepl": " ",
     "category": "A6"
   },
@@ -6948,7 +6948,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hesikia",
-    "claude": " ",
+    "claude": "Hezekia",
     "deepl": " ",
     "category": "A6"
   },
@@ -6965,7 +6965,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Manasa",
-    "claude": " ",
+    "claude": "Manase",
     "deepl": " ",
     "category": "A6"
   },
@@ -6982,7 +6982,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Emoni",
-    "claude": " ",
+    "claude": "Amoni",
     "deepl": " ",
     "category": "A6"
   },
@@ -6999,7 +6999,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Josaia",
-    "claude": " ",
+    "claude": "Josia",
     "deepl": " ",
     "category": "A6"
   },
@@ -7016,7 +7016,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jehoasa",
-    "claude": " ",
+    "claude": "Jehoahazi",
     "deepl": " ",
     "category": "A6"
   },
@@ -7033,7 +7033,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jehoiakimi",
-    "claude": " ",
+    "claude": "Jehoiakimi",
     "deepl": " ",
     "category": "A6"
   },
@@ -7050,7 +7050,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jehoiakini",
-    "claude": " ",
+    "claude": "Jehoiakini",
     "deepl": " ",
     "category": "A6"
   },
@@ -7067,7 +7067,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Setekaia",
-    "claude": " ",
+    "claude": "Zedekia",
     "deepl": " ",
     "category": "A6"
   },
@@ -7084,7 +7084,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sakaraia",
-    "claude": " ",
+    "claude": "Zekaria",
     "deepl": " ",
     "category": "A6"
   },
@@ -7101,7 +7101,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Salumi",
-    "claude": " ",
+    "claude": "Salumi",
     "deepl": " ",
     "category": "A6"
   },
@@ -7118,7 +7118,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Menemi",
-    "claude": " ",
+    "claude": "Menahemi",
     "deepl": " ",
     "category": "A6"
   },
@@ -7135,7 +7135,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Pekaia",
-    "claude": " ",
+    "claude": "Pekahia",
     "deepl": " ",
     "category": "A6"
   },
@@ -7152,7 +7152,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Peka",
-    "claude": " ",
+    "claude": "Peka",
     "deepl": " ",
     "category": "A6"
   },
@@ -7169,7 +7169,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Osia",
-    "claude": " ",
+    "claude": "Hosea",
     "deepl": " ",
     "category": "A6"
   },
@@ -7186,7 +7186,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Osea",
-    "claude": " ",
+    "claude": "Hosea",
     "deepl": " ",
     "category": "A6"
   },
@@ -7203,7 +7203,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Aisea",
-    "claude": " ",
+    "claude": "Isaia",
     "deepl": " ",
     "category": "A6"
   },
@@ -7220,7 +7220,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Maika",
-    "claude": " ",
+    "claude": "Mika",
     "deepl": " ",
     "category": "A6"
   },
@@ -7237,7 +7237,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sefanaia",
-    "claude": " ",
+    "claude": "Zefania",
     "deepl": " ",
     "category": "A6"
   },
@@ -7254,7 +7254,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Neumi",
-    "claude": " ",
+    "claude": "Nahumi",
     "deepl": " ",
     "category": "A6"
   },
@@ -7271,7 +7271,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jeremaia",
-    "claude": " ",
+    "claude": "Jeremia",
     "deepl": " ",
     "category": "A6"
   },
@@ -7288,7 +7288,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Apakuki",
-    "claude": " ",
+    "claude": "Habakuki",
     "deepl": " ",
     "category": "A6"
   },
@@ -7305,7 +7305,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Taniela",
-    "claude": " ",
+    "claude": "Danieli",
     "deepl": " ",
     "category": "A6"
   },
@@ -7322,7 +7322,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Isikeli",
-    "claude": " ",
+    "claude": "Ezekiela",
     "deepl": " ",
     "category": "A6"
   },
@@ -7339,7 +7339,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Opetaia",
-    "claude": " ",
+    "claude": "Obadia",
     "deepl": " ",
     "category": "A6"
   },
@@ -7356,7 +7356,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Taniela 2:32, 36-38; 7:4",
-    "claude": " ",
+    "claude": "Danieli 2:32, 36-38; 7:4",
     "deepl": " ",
     "category": "B9"
   },
@@ -7373,7 +7373,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Taniela 2:32, 39; 7:5",
-    "claude": " ",
+    "claude": "Danieli 2:32, 39; 7:5",
     "deepl": " ",
     "category": "B9"
   },
@@ -7390,7 +7390,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Taniela 2:32, 39; 7:6",
-    "claude": " ",
+    "claude": "Danieli 2:32, 39; 7:6",
     "deepl": " ",
     "category": "B9"
   },
@@ -7407,7 +7407,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Taniela 2:33, 40; 7:7",
-    "claude": " ",
+    "claude": "Danieli 2:33, 40; 7:7",
     "deepl": " ",
     "category": "B9"
   },
@@ -7424,7 +7424,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Taniela 2:33, 41-43",
-    "claude": " ",
+    "claude": "Danieli 2:33, 41-43",
     "deepl": " ",
     "category": "B9"
   },
@@ -7441,7 +7441,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Babuloni",
-    "claude": " ",
+    "claude": "Babiloni",
     "deepl": " ",
     "category": "B9"
   },
@@ -7458,7 +7458,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Mato-Perisia",
-    "claude": " ",
+    "claude": "Mido-Pesia",
     "deepl": " ",
     "category": "B9"
   },
@@ -7475,7 +7475,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kirisi",
-    "claude": " ",
+    "claude": "Girisi",
     "deepl": " ",
     "category": "B9"
   },
@@ -7492,7 +7492,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Roma",
-    "claude": " ",
+    "claude": "Roma",
     "deepl": " ",
     "category": "B9"
   },
@@ -7509,7 +7509,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Anglo-Amerika",
-    "claude": " ",
+    "claude": "Anglo-Amerika",
     "deepl": " ",
     "category": "B9"
   },
@@ -7526,7 +7526,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Tui Nepukanesa",
-    "claude": " ",
+    "claude": "Turaga Nebukadneza",
     "deepl": " ",
     "category": "B9"
   },
@@ -7543,7 +7543,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "vakarusa i Jerusalemi",
-    "claude": " ",
+    "claude": "e caka talai Jerusalemi",
     "deepl": " ",
     "category": "B9"
   },
@@ -7560,7 +7560,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Vakabula o Papilona",
-    "claude": " ",
+    "claude": "E taukena Babiloni",
     "deepl": " ",
     "category": "B9"
   },
@@ -7577,7 +7577,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "E vakarota o Koresi me ra",
-    "claude": " ",
+    "claude": "E tukuna mai na vesu ni Sairasi",
     "deepl": " ",
     "category": "B9"
   },
@@ -7594,7 +7594,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "lesu na Jiu i Jerusalemi",
-    "claude": " ",
+    "claude": "me lesu tale ki Jerusalemi na Jiu",
     "deepl": " ",
     "category": "B9"
   },
@@ -7611,7 +7611,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O Alekiseca Levu",
-    "claude": " ",
+    "claude": "Aleksanda Levu",
     "deepl": " ",
     "category": "B9"
   },
@@ -7628,7 +7628,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "vakabula o Perisia",
-    "claude": " ",
+    "claude": "e taukena Pesia",
     "deepl": " ",
     "category": "B9"
   },
@@ -7645,7 +7645,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Lewa na Isireli",
-    "claude": " ",
+    "claude": "E taukena Isileli",
     "deepl": " ",
     "category": "B9"
   },
@@ -7662,7 +7662,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Vakarusa i Jerusalemi",
-    "claude": " ",
+    "claude": "E caka talai Jerusalemi",
     "deepl": " ",
     "category": "B9"
   },
@@ -7679,7 +7679,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ena gauna ni iValu Levu Kei Madai,",
-    "claude": " ",
+    "claude": "I liu ni Davui Tagane Levu,",
     "deepl": " ",
     "category": "B9"
   },
@@ -7696,7 +7696,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kaukaua Vakavuravura ni Anglo-Amerika",
-    "claude": " ",
+    "claude": "Ko Anglo-Amerika na Mana ni Vuravura",
     "deepl": " ",
     "category": "B9"
   },
@@ -7713,7 +7713,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "yaco mai",
-    "claude": " ",
+    "claude": "e qai mai kaukauwa",
     "deepl": " ",
     "category": "B9"
   },
@@ -7730,7 +7730,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "607 B.C.E.",
-    "claude": " ",
+    "claude": "607 B.C.E.",
     "deepl": " ",
     "category": "B9"
   },
@@ -7747,7 +7747,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "539 B.C.E.",
-    "claude": " ",
+    "claude": "539 B.C.E.",
     "deepl": " ",
     "category": "B9"
   },
@@ -7764,7 +7764,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "537 B.C.E.",
-    "claude": " ",
+    "claude": "537 B.C.E.",
     "deepl": " ",
     "category": "B9"
   },
@@ -7781,7 +7781,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "331 B.C.E.",
-    "claude": " ",
+    "claude": "331 B.C.E.",
     "deepl": " ",
     "category": "B9"
   },
@@ -7798,7 +7798,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "63 B.C.E.",
-    "claude": " ",
+    "claude": "63 B.C.E.",
     "deepl": " ",
     "category": "B9"
   },
@@ -7815,7 +7815,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "70 C.E.",
-    "claude": " ",
+    "claude": "70 C.E.",
     "deepl": " ",
     "category": "B9"
   },
@@ -7832,7 +7832,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "1914-1918 C.E.",
-    "claude": " ",
+    "claude": "1914-1918 C.E.",
     "deepl": " ",
     "category": "B9"
   },
@@ -7849,7 +7849,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Vakatakila 12:9",
-    "claude": " ",
+    "claude": "Palataiviti 12:9",
     "deepl": " ",
     "category": "other"
   },
@@ -7866,7 +7866,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Cakacaka 7:6",
-    "claude": " ",
+    "claude": "Cakacaka 7:6",
     "deepl": " ",
     "category": "other"
   },
@@ -7883,7 +7883,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "770-256 BC",
-    "claude": " ",
+    "claude": "770-256 BC",
     "deepl": " ",
     "category": "other"
   },
@@ -7900,7 +7900,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "1943 – 1513 B.C.E.",
-    "claude": " ",
+    "claude": "1943 – 1513 B.C.E.",
     "deepl": " ",
     "category": "other"
   },
@@ -7917,7 +7917,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "25-220 CE",
-    "claude": " ",
+    "claude": "25-220 CE",
     "deepl": " ",
     "category": "other"
   },
@@ -7934,7 +7934,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "368-581 CE",
-    "claude": " ",
+    "claude": "368-581 CE",
     "deepl": " ",
     "category": "other"
   },
@@ -7951,7 +7951,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "420-589 CE",
-    "claude": " ",
+    "claude": "420-589 CE",
     "deepl": " ",
     "category": "other"
   },
@@ -7968,7 +7968,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Julius",
-    "claude": " ",
+    "claude": "Iuliasi",
     "deepl": " ",
     "category": "wiki"
   },
@@ -7985,7 +7985,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Caligula",
-    "claude": " ",
+    "claude": "Kaligula",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8002,7 +8002,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nero",
-    "claude": " ",
+    "claude": "Nero",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8019,7 +8019,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Galba, Otho kei Vitellius (Yabaki ni Va na Tui)",
-    "claude": " ",
+    "claude": "Galiba, Oto kei Vitelisi (Na Yabaki ni Emepara Tini-Hā)",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8036,7 +8036,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Vespasian",
-    "claude": " ",
+    "claude": "Vesipasiani",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8053,7 +8053,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Covid-19",
-    "claude": " ",
+    "claude": "Covid-19",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8070,7 +8070,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Bose Levu mai Nicaea",
-    "claude": " ",
+    "claude": "Na Koro ni Naisea Matai",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8087,7 +8087,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Pepa Papyrus mai Oxyrhynchus",
-    "claude": " ",
+    "claude": "Oxyrhynchus Papyri",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8104,7 +8104,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Papyrus P52",
-    "claude": " ",
+    "claude": "Papirasi P52",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8121,7 +8121,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Matavuvale vakaturaga o Qing",
-    "claude": " ",
+    "claude": "Na matanitu o Qing",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8138,7 +8138,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Matavuvale vakaturaga o Ming e China",
-    "claude": " ",
+    "claude": "Na matanitu o Ming enaAina ni turaga",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8155,7 +8155,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yuan",
-    "claude": " ",
+    "claude": "Yuan",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8172,7 +8172,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Song Ceva",
-    "claude": " ",
+    "claude": "Song i Tonga",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8189,7 +8189,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Matamata Waganu",
-    "claude": " ",
+    "claude": "Song i Tokalau",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8206,7 +8206,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Wedia Sia",
-    "claude": " ",
+    "claude": "Western Xia",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8223,7 +8223,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Niqolasa Kopaniku",
-    "claude": " ",
+    "claude": "Nikolausi Kopernikusu",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8240,7 +8240,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kalileo Kalilei",
-    "claude": " ",
+    "claude": "Galileo Galilei",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8257,7 +8257,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Aisake Niutoni",
-    "claude": " ",
+    "claude": "Aisake Niutoni",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8274,7 +8274,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na matavuvale vakatui o Sangi",
-    "claude": " ",
+    "claude": "Na matanitu o Shang",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8291,7 +8291,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Su o Cake",
-    "claude": " ",
+    "claude": "Western Zhou",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8308,7 +8308,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Su o Ra",
-    "claude": " ",
+    "claude": "Eastern Zhou",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8325,7 +8325,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Ani o Cake",
-    "claude": " ",
+    "claude": "Western Han",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8342,7 +8342,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Ani o Ra",
-    "claude": " ",
+    "claude": "Eastern Han",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8359,7 +8359,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jaina",
-    "claude": " ",
+    "claude": "Aina",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8376,7 +8376,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jaina",
-    "claude": " ",
+    "claude": "Aina",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8393,7 +8393,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na matavuvale vakatui o Cake",
-    "claude": " ",
+    "claude": "Na matanitu i Tokalau",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8410,7 +8410,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na matavuvale vakatui o Ra",
-    "claude": " ",
+    "claude": "Na matanitu i Tonga",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8427,7 +8427,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na matavuvale vakatui o Tangi",
-    "claude": " ",
+    "claude": "Na matanitu o Tang",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8444,7 +8444,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Matanitu o Bisantium",
-    "claude": " ",
+    "claude": "Na Emepaia o Bisantium",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8461,7 +8461,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Matanitu o Otomoni",
-    "claude": " ",
+    "claude": "Na Emepaia o Otomani",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8478,7 +8478,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jenikisi Kani",
-    "claude": " ",
+    "claude": "Jengiside Kani",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8495,7 +8495,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na matanitu vakaturaga o Inika",
-    "claude": " ",
+    "claude": "Na Emepaia o Inka",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8512,7 +8512,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Matanitu o Kupita",
-    "claude": " ",
+    "claude": "Na Emepaia o Gupta",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8529,7 +8529,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Teotihuacan",
-    "claude": " ",
+    "claude": "Teotihuacan",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8546,7 +8546,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Kalifa o Abasidi",
-    "claude": " ",
+    "claude": "Ko e Abbasid Caliphate",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8563,7 +8563,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Sultan o Mamaluki",
-    "claude": " ",
+    "claude": "Ko e Mamluk Sultanate",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8580,7 +8580,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Al-Ghazali",
-    "claude": " ",
+    "claude": "Al-Ghazali",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8597,7 +8597,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Baipeli nei Wulfila",
-    "claude": " ",
+    "claude": "Ko e Baibolo ni Wulfila",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8614,7 +8614,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na matavuvale vakatui o Tran",
-    "claude": " ",
+    "claude": "Ko e Daulati ni Trần",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8631,7 +8631,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na matavuvale vakatui o Le",
-    "claude": " ",
+    "claude": "Ko e Daulati ni Lê",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8648,7 +8648,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O ira na turaga o Trinh kei na turaga o Nguyen",
-    "claude": " ",
+    "claude": "Na Noda Matai ko Trịnh kei na Noda Matai ko Nguyễn",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8665,7 +8665,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na matanitu o Seljuk",
-    "claude": " ",
+    "claude": "Ko e Empiraia ni Seljuk",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8682,7 +8682,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "O ira na Vandali",
-    "claude": " ",
+    "claude": "Na Vandal",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8699,7 +8699,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Na Matanitu o Lombard",
-    "claude": " ",
+    "claude": "Ko e Matanitu ni Lombard",
     "deepl": " ",
     "category": "wiki"
   }
