@@ -274,7 +274,7 @@
   {
     "key": "age_kings",
     "text": "عاماً",
-    "english": "",
+    "english": " ",
     "notes": "if the word \"year\" appears after the numeral, like \"at the age of 35 years\"",
     "tag": "text",
     "checked": "False",
@@ -284,7 +284,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "عاماً",
-    "claude": "",
+    "claude": " ",
     "deepl": " ",
     "category": "text"
   },
@@ -3542,8 +3542,8 @@
     "notes": "Judges 10:3",
     "tag": "bible",
     "checked": "False",
-    "checked_by": "",
-    "date": "",
+    "checked_by": " ",
+    "date": " ",
     "link": " ",
     "google": " ",
     "chatgpt": " ",

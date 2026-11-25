@@ -274,7 +274,7 @@
   {
     "key": "age_kings",
     "text": "taun",
-    "english": "",
+    "english": " ",
     "notes": "if the word \"year\" appears after the numeral, like \"at the age of 35 years\"",
     "tag": "text",
     "checked": "False",

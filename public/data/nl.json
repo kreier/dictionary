@@ -274,7 +274,7 @@
   {
     "key": "age_kings",
     "text": "jaar",
-    "english": "",
+    "english": " ",
     "notes": "if the word \"year\" appears after the numeral, like \"at the age of 35 years\"",
     "tag": "text",
     "checked": "False",
@@ -3018,7 +3018,7 @@
     "checked_by": " ",
     "date": " ",
     "link": " ",
-    "google": " ",
+    "google": "Deze tijdlijn is gemaakt in 2023, het warmste jaar in de menselijke geschiedenis en de afgelopen 125.000 jaar",
     "chatgpt": "Deze tijdlijn is gemaakt in 2023, het warmste jaar in de menselijke geschiedenis en de laatste 125.000 jaar",
     "gemini": "Deze tijdlijn is gemaakt in 2023, het warmste jaar in de menselijke geschiedenis en de afgelopen 125.000 jaar",
     "claude": "Deze tijdlijn is gemaakt in 2023, het heetste jaar in de menselijke geschiedenis en de laatste 125.000 jaar",

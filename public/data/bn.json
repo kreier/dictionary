@@ -274,7 +274,7 @@
   {
     "key": "age_kings",
     "text": "বছর বয়সে রাজা হন",
-    "english": "",
+    "english": " ",
     "notes": "if the word \"year\" appears after the numeral, like \"at the age of 35 years\"",
     "tag": "text",
     "checked": "False",
@@ -284,7 +284,7 @@
     "google": "#VALUE!",
     "chatgpt": " ",
     "gemini": "বছর বয়সে রাজা হন",
-    "claude": "",
+    "claude": " ",
     "deepl": " ",
     "category": "text"
   },
@@ -800,7 +800,7 @@
   },
   {
     "key": "became_king",
-    "text": "",
+    "text": " ",
     "english": "becomes king at age",
     "notes": "2025-04-14",
     "tag": "text",
@@ -810,7 +810,7 @@
     "link": " ",
     "google": "বয়সে রাজা হন",
     "chatgpt": "বয়সে রাজা হন",
-    "gemini": "",
+    "gemini": " ",
     "claude": "বয়সে রাজা হন",
     "deepl": "বয়সে রাজা হয়",
     "category": "text"
