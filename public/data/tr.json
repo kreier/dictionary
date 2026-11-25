@@ -12,7 +12,7 @@
     "google": " ",
     "chatgpt": "6.000 Yıllık İnsanlık Tarihi — Bir Zaman Çizelgesi",
     "gemini": "İnsanlık Tarihinin 6.000 Yılı — Bir Zaman Çizelgesi",
-    "claude": " ",
+    "claude": "İnsanlık Tarihinin 6.000 Yılı — Bir Zaman Çizelgesi",
     "deepl": " ",
     "category": "text"
   },
@@ -29,7 +29,7 @@
     "google": " ",
     "chatgpt": "MÖ 4000'den günümüze insanlık tarihinin zaman çizelgesi",
     "gemini": "MÖ 4000'den günümüze insanlık tarihi zaman çizelgesi",
-    "claude": " ",
+    "claude": "M.Ö. 4000'den günümüze insanlık tarihinin zaman çizelgesi",
     "deepl": " ",
     "category": "text"
   },
@@ -46,7 +46,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "MÖ (Milattan Önce)",
-    "claude": " ",
+    "claude": "M.Ö.",
     "deepl": " ",
     "category": "B9"
   },
@@ -63,7 +63,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "MS (Milattan Sonra)",
-    "claude": " ",
+    "claude": "M.S.",
     "deepl": " ",
     "category": "B9"
   },
@@ -80,7 +80,7 @@
     "google": " ",
     "chatgpt": "ay",
     "gemini": "ay",
-    "claude": " ",
+    "claude": "ay",
     "deepl": " ",
     "category": "text"
   },
@@ -97,7 +97,7 @@
     "google": " ",
     "chatgpt": "ay",
     "gemini": "ay",
-    "claude": " ",
+    "claude": "ay",
     "deepl": " ",
     "category": "text"
   },
@@ -114,7 +114,7 @@
     "google": " ",
     "chatgpt": "gün",
     "gemini": "gün",
-    "claude": " ",
+    "claude": "gün",
     "deepl": " ",
     "category": "text"
   },
@@ -131,7 +131,7 @@
     "google": " ",
     "chatgpt": "gün",
     "gemini": "gün",
-    "claude": " ",
+    "claude": "gün",
     "deepl": " ",
     "category": "text"
   },
@@ -148,7 +148,7 @@
     "google": " ",
     "chatgpt": "ila",
     "gemini": "-e kadar",
-    "claude": " ",
+    "claude": "ile",
     "deepl": " ",
     "category": "text"
   },
@@ -165,7 +165,7 @@
     "google": " ",
     "chatgpt": "Tufan",
     "gemini": "Tufan",
-    "claude": " ",
+    "claude": "Tufan",
     "deepl": " ",
     "category": "text"
   },
@@ -182,7 +182,7 @@
     "google": " ",
     "chatgpt": "MÖ 1593 - MÖ 1473 – 120 yıl",
     "gemini": "MÖ 1593 - 1473 arası – 120 yıl",
-    "claude": " ",
+    "claude": "M.Ö. 1593'ten 1473'e kadar – 120 yıl",
     "deepl": " ",
     "category": "text"
   },
@@ -199,7 +199,7 @@
     "google": " ",
     "chatgpt": "MÖ Nisan 1513'ten MÖ Ziv 1034'e",
     "gemini": "Nisan MÖ 1513 ile Ziv MÖ 1034 arası",
-    "claude": " ",
+    "claude": "M.Ö. 1513 Nisan ayından M.Ö. 1034 Ziv ayına kadar",
     "deepl": " ",
     "category": "text"
   },
@@ -216,7 +216,7 @@
     "google": " ",
     "chatgpt": "İsa'nın vaftiz edilmesi 29 sonbaharı M.S.",
     "gemini": "İsa'nın vaftiz edilmesi, sonbahar MS 29",
-    "claude": " ",
+    "claude": "İsa M.S. 29 sonbaharında vaftiz edildi",
     "deepl": " ",
     "category": "text"
   },
@@ -233,7 +233,7 @@
     "google": " ",
     "chatgpt": "yıl",
     "gemini": "yıl",
-    "claude": " ",
+    "claude": "yıl",
     "deepl": " ",
     "category": "text"
   },
@@ -250,7 +250,7 @@
     "google": " ",
     "chatgpt": "yıllar",
     "gemini": "yıl",
-    "claude": " ",
+    "claude": "yıl",
     "deepl": " ",
     "category": "text"
   },
@@ -267,7 +267,7 @@
     "google": " ",
     "chatgpt": "yıllar",
     "gemini": "yıl",
-    "claude": " ",
+    "claude": "yıl",
     "deepl": " ",
     "category": "text"
   },
@@ -301,7 +301,7 @@
     "google": " ",
     "chatgpt": "İsrail çölde MÖ 1513 - MÖ 1473 – 40 yıl",
     "gemini": "İsrailoğullarının çölde geçirdiği dönem: MÖ 1513 - 1473 – 40 yıl",
-    "claude": " ",
+    "claude": "İsrail çölde M.Ö. 1513'ten 1473'e kadar – 40 yıl",
     "deepl": " ",
     "category": "text"
   },
@@ -318,7 +318,7 @@
     "google": " ",
     "chatgpt": "MÖ 1473 - MÖ 1117 – 356 yıl",
     "gemini": "MÖ 1473 - 1117 arası – 356 yıl",
-    "claude": " ",
+    "claude": "M.Ö. 1473'ten 1117'ye kadar – 356 yıl",
     "deepl": " ",
     "category": "text"
   },
@@ -335,7 +335,7 @@
     "google": " ",
     "chatgpt": "Hakimler dönemi",
     "gemini": "Hakimler dönemi",
-    "claude": " ",
+    "claude": "Hâkimler dönemi",
     "deepl": " ",
     "category": "text"
   },
@@ -352,7 +352,7 @@
     "google": " ",
     "chatgpt": "Tapınak inşaatına kadar 479 yıl – 1. Krallar 6:1",
     "gemini": "Tapınak yapımına kadar 479 yıl – 1. Krallar 6:1",
-    "claude": " ",
+    "claude": "Tapınağın inşasına kadar 479 yıl – 1. Krallar 6:1",
     "deepl": " ",
     "category": "text"
   },
@@ -369,7 +369,7 @@
     "google": " ",
     "chatgpt": "Mesih'e kadar 69 hafta – Daniel 9:25",
     "gemini": "Mesih'e kadar 69 hafta – Daniel 9:25",
-    "claude": " ",
+    "claude": "Mesih'e kadar 69 hafta – Daniel 9:25",
     "deepl": " ",
     "category": "text"
   },
@@ -386,7 +386,7 @@
     "google": " ",
     "chatgpt": "İsa'nın 3,5 yıllık hizmeti, MÖ Nisan 14'ünde 33 M.S. idam edildi",
     "gemini": "İsa'nın 3,5 yıllık hizmeti, MS 33 yılının 14 Nisan günü idamı",
-    "claude": " ",
+    "claude": "İsa'nın 3,5 yıllık hizmeti, M.S. 33'te Nisan ayının 14'ünde idam edildi",
     "deepl": " ",
     "category": "text"
   },
@@ -403,7 +403,7 @@
     "google": " ",
     "chatgpt": "İsa'nın doğumu MÖ 2",
     "gemini": "İsa'nın doğumu MÖ 2",
-    "claude": " ",
+    "claude": "İsa M.Ö. 2'de doğdu",
     "deepl": " ",
     "category": "text"
   },
@@ -420,7 +420,7 @@
     "google": " ",
     "chatgpt": "MÖ 607 - MÖ 537 – 70 yıl (Yeremya 25:11)",
     "gemini": "MÖ 607 - 537 arası – 70 yıl (Yeremya 25:11)",
-    "claude": " ",
+    "claude": "M.Ö. 607'den 537'ye kadar – 70 yıl (Yeremya 25:11)",
     "deepl": " ",
     "category": "text"
   },
@@ -437,7 +437,7 @@
     "google": " ",
     "chatgpt": "Sürgün",
     "gemini": "Sürgün",
-    "claude": " ",
+    "claude": "Sürgün",
     "deepl": " ",
     "category": "text"
   },
@@ -454,7 +454,7 @@
     "google": " ",
     "chatgpt": "Mesih Krallığı'na 7 kez – 2520 yıl 1914 M.S. (Daniel 4:23)",
     "gemini": "7 vakit – Mesih Krallığına kadar 2520 yıl, MS 1914 (Daniel 4:23)",
-    "claude": " ",
+    "claude": "7 dönem – Mesih Krallığı'na kadar 2520 yıl, M.S. 1914 (Daniel 4:23)",
     "deepl": " ",
     "category": "text"
   },
@@ -471,7 +471,7 @@
     "google": " ",
     "chatgpt": "Birinci Dünya Savaşı – 1914–1918",
     "gemini": "I. Dünya Savaşı – 1914–1918",
-    "claude": " ",
+    "claude": "I. Dünya Savaşı – 1914–1918",
     "deepl": " ",
     "category": "text"
   },
@@ -488,7 +488,7 @@
     "google": " ",
     "chatgpt": "İkinci Dünya Savaşı – 1939–1945",
     "gemini": "II. Dünya Savaşı – 1939–1945",
-    "claude": " ",
+    "claude": "II. Dünya Savaşı – 1939–1945",
     "deepl": " ",
     "category": "text"
   },
@@ -505,7 +505,7 @@
     "google": " ",
     "chatgpt": "Avrupa'da Otuz Yıl Savaşı 1618-1648",
     "gemini": "Avrupa'da Otuz Yıl Savaşları 1618-1648",
-    "claude": " ",
+    "claude": "Avrupa'da Otuz Yıl Savaşları 1618-1648",
     "deepl": " ",
     "category": "text"
   },
@@ -522,7 +522,7 @@
     "google": " ",
     "chatgpt": "110 yıl",
     "gemini": "110 yıl",
-    "claude": " ",
+    "claude": "110 yıl",
     "deepl": " ",
     "category": "text"
   },
@@ -539,7 +539,7 @@
     "google": " ",
     "chatgpt": "85 yıldan fazla",
     "gemini": "85 yıldan fazla",
-    "claude": " ",
+    "claude": "85 yıldan fazla",
     "deepl": " ",
     "category": "text"
   },
@@ -556,7 +556,7 @@
     "google": " ",
     "chatgpt": "Pavlus'un Birinci Misyon Yolculuğu, yaklaşık M.S. 47-48, Barnaba ve Yuhanna Markos ile birlikte",
     "gemini": "Pavlus'un Birinci Müjdeleme Yolculuğu, yaklaşık MS 47-48, Barnaba ve Yuhanna Markos ile",
-    "claude": " ",
+    "claude": "Pavlus'un Barnaba ve Yuhanna Markos ile birlikte yaptığı Birinci Misyonerlik Yolculuğu, yaklaşık M.S. 47-48",
     "deepl": " ",
     "category": "text"
   },
@@ -573,7 +573,7 @@
     "google": " ",
     "chatgpt": "Antakya'da sünnet meselesi, Yaklaşık M.S. 49'da Kudüs konferansı",
     "gemini": "Antakya'daki sünnet meselesi, Yeruşalim'deki toplantı, yaklaşık MS 49",
-    "claude": " ",
+    "claude": "Antakya'da sünnet sorunu, Yeruşalim'de yaklaşık M.S. 49'da toplantı",
     "deepl": " ",
     "category": "text"
   },
@@ -590,7 +590,7 @@
     "google": " ",
     "chatgpt": "İkinci Misyon Yolculuğu yaklaşık M.S. 49-52 Silas (Silvanus) ile",
     "gemini": "İkinci Müjdeleme Yolculuğu, yaklaşık MS 49-52, Silas (Silvanus) ile",
-    "claude": " ",
+    "claude": "Silas (Silvanus) ile birlikte yaklaşık M.S. 49-52'de İkinci Misyonerlik Yolculuğu",
     "deepl": " ",
     "category": "text"
   },
@@ -607,7 +607,7 @@
     "google": " ",
     "chatgpt": "Üçüncü Misyon Yolculuğu yaklaşık M.S. 52-56",
     "gemini": "Üçüncü Müjdeleme Yolculuğu, yaklaşık MS 52-56",
-    "claude": " ",
+    "claude": "Yaklaşık M.S. 52-56'da Üçüncü Misyonerlik Yolculuğu",
     "deepl": " ",
     "category": "text"
   },
@@ -624,7 +624,7 @@
     "google": " ",
     "chatgpt": "Pavlus'un Seyris'te yaklaşık M.S. 56-58 gözetim altında",
     "gemini": "Pavlus'un Kayseri'de tutukluluğu, yaklaşık MS 56-58",
-    "claude": " ",
+    "claude": "Pavlus yaklaşık M.S. 56-58'de Sezare'de tutuklu",
     "deepl": " ",
     "category": "text"
   },
@@ -641,7 +641,7 @@
     "google": " ",
     "chatgpt": "Pavlus'un Roma'daki ilk tutukluluğu yaklaşık M.S. 59-61",
     "gemini": "Pavlus'un Roma'daki ilk tutukluluğu, yaklaşık MS 59-61",
-    "claude": " ",
+    "claude": "Pavlus'un Roma'daki birinci tutukluluğu yaklaşık M.S. 59-61",
     "deepl": " ",
     "category": "text"
   },
@@ -658,7 +658,7 @@
     "google": " ",
     "chatgpt": "Pavlus'un Roma'daki ikinci tutukluluğu yaklaşık M.S. 65, 2. Timoteos yazıldı, Pavlus idam edildi",
     "gemini": "Pavlus'un Roma'daki ikinci tutukluluğu, yaklaşık MS 65, 2. Timoteos'un yazılması, Pavlus'un idamı",
-    "claude": " ",
+    "claude": "Pavlus'un Roma'daki ikinci tutukluluğu yaklaşık M.S. 65, 2. Timoteos yazıldı, Pavlus idam edildi",
     "deepl": " ",
     "category": "text"
   },
@@ -675,7 +675,7 @@
     "google": " ",
     "chatgpt": "MÖ Nisan 14, 1513'te Mısır'dan Çıkış",
     "gemini": "Mısır'dan çıkış, 14 Nisan MÖ 1513",
-    "claude": " ",
+    "claude": "M.Ö. 1513'te Nisan ayının 14'ünde Mısır'dan Çıkış",
     "deepl": " ",
     "category": "text"
   },
@@ -692,7 +692,7 @@
     "google": " ",
     "chatgpt": "İsrail'in Bölünmesi MÖ 997",
     "gemini": "İsrail'in bölünmesi, MÖ 997",
-    "claude": " ",
+    "claude": "İsrail'in bölünmesi M.Ö. 997",
     "deepl": " ",
     "category": "text"
   },
@@ -709,7 +709,7 @@
     "google": " ",
     "chatgpt": "Asur tarafından Samiriye'nin Yıkılması MÖ 740",
     "gemini": "Samiriye'nin Asur tarafından yıkılışı M.Ö. 740",
-    "claude": " ",
+    "claude": "Samiriye'nin M.Ö. 740'ta Asur tarafından yıkılması",
     "deepl": " ",
     "category": "text"
   },
@@ -726,7 +726,7 @@
     "google": " ",
     "chatgpt": "Babil tarafından Kudüs'ün Yıkılması MÖ 607, krallığın bölünmesinden 390 yıl sonra (Hezekiel 4:5)",
     "gemini": "Yeruşalim'in Babil tarafından yıkılışı M.Ö. 607, krallığın bölünmesinden 390 yıl sonra (Hezekiel 4:5)",
-    "claude": " ",
+    "claude": "Yeruşalim'in M.Ö. 607'de Babil tarafından yıkılması, krallığın bölünmesinden 390 yıl sonra (Hezekiel 4:5)",
     "deepl": " ",
     "category": "text"
   },
@@ -743,7 +743,7 @@
     "google": " ",
     "chatgpt": "Kudüs'teki Tapınağın Yeniden İnşası MÖ 515",
     "gemini": "Yeruşalim'deki tapınağın yeniden inşası M.Ö. 515",
-    "claude": " ",
+    "claude": "Yeruşalim'deki tapınak M.Ö. 515'te yeniden inşa edildi",
     "deepl": " ",
     "category": "text"
   },
@@ -760,7 +760,7 @@
     "google": " ",
     "chatgpt": "Kudüs Surlarının Yeniden İnşası MÖ 455",
     "gemini": "Yeruşalim surlarının yeniden inşası M.Ö. 455",
-    "claude": " ",
+    "claude": "Yeruşalim surları M.Ö. 455'te yeniden inşa edildi",
     "deepl": " ",
     "category": "text"
   },
@@ -777,7 +777,7 @@
     "google": " ",
     "chatgpt": "Titus'un yönetimindeki Roma tarafından Kudüs'ün Yıkılması M.S. 70",
     "gemini": "Yeruşalim'in Roma tarafından Titus komutasında yıkılışı M.S. 70",
-    "claude": " ",
+    "claude": "Yeruşalim'in M.S. 70'te Titus komutasındaki Roma tarafından yıkılması",
     "deepl": " ",
     "category": "text"
   },
@@ -794,7 +794,7 @@
     "google": " ",
     "chatgpt": "Milletlerin zamanının sonu (Luka 21:24), Tanrı'nın Krallığı'nın M.S. 1914'te gökte hüküm sürmeye başlaması",
     "gemini": "Milletlerin zamanının sonu (Luka 21:24), Tanrı'nın Krallığı'nın gökte hüküm sürmeye başlaması M.S. 1914",
-    "claude": " ",
+    "claude": "Ulusların zamanının sonu (Luka 21:24), Tanrı'nın Krallığı M.S. 1914'te gökte yönetmeye başladı",
     "deepl": " ",
     "category": "text"
   },
@@ -811,7 +811,7 @@
     "google": " ",
     "chatgpt": "yaşında kral oluyor",
     "gemini": "",
-    "claude": " ",
+    "claude": "yaşında kral oldu",
     "deepl": " ",
     "category": "text"
   },
@@ -828,7 +828,7 @@
     "google": " ",
     "chatgpt": "Vulgat'ın (İncil'in Latince çevirisi) Hieronymus tarafından tamamlanması yaklaşık M.S. 405",
     "gemini": "Vulgate'in Jerome tarafından tamamlanması (Kutsal Kitabın Latince çevirisi) yaklaşık M.S. 405",
-    "claude": " ",
+    "claude": "Yeronimus tarafından tamamlanan Vulgate (İncilin Latince çevirisi) yaklaşık M.S. 405",
     "deepl": " ",
     "category": "text"
   },
@@ -845,7 +845,7 @@
     "google": " ",
     "chatgpt": "Gutenberg İncili'nin basılması 1455",
     "gemini": "Gutenberg Kutsal Kitabı'nın basılması 1455",
-    "claude": " ",
+    "claude": "Gutenberg İncili 1455'te basıldı",
     "deepl": " ",
     "category": "text"
   },
@@ -862,7 +862,7 @@
     "google": " ",
     "chatgpt": "Hıristiyan Yunan Kutsal Yazıları'nın Yunanca metninin Rotterdamlı Desiderius Erasmus tarafından yayınlanması 1516",
     "gemini": "Hristiyan Yunanca Yazıların Yunanca metninin Rotterdamlı Desiderius Erasmus tarafından yayımlanması 1516",
-    "claude": " ",
+    "claude": "Hristiyan Yunan Yazıları'nın Yunanca metni Desiderius Erasmus tarafından 1516'da yayımlandı",
     "deepl": " ",
     "category": "text"
   },
@@ -879,7 +879,7 @@
     "google": " ",
     "chatgpt": "Luther İncil çevirisi Eylül 1522",
     "gemini": "Luther Kutsal Kitap çevirisi Eylül 1522",
-    "claude": " ",
+    "claude": "Luther İncili Eylül 1522'de çevrildi",
     "deepl": " ",
     "category": "text"
   },
@@ -896,7 +896,7 @@
     "google": " ",
     "chatgpt": "Tyndale'ın İngilizce İncil çevirisi 1536",
     "gemini": "Tyndale tarafından İngilizce Kutsal Kitap çevirisi 1536",
-    "claude": " ",
+    "claude": "Tyndale tarafından İngilizce İncil çevirisi 1536",
     "deepl": " ",
     "category": "text"
   },
@@ -913,7 +913,7 @@
     "google": " ",
     "chatgpt": "Kral James İncili 1611",
     "gemini": "Kral James Kutsal Kitabı 1611",
-    "claude": " ",
+    "claude": "Kral James İncili 1611",
     "deepl": " ",
     "category": "text"
   },
@@ -930,7 +930,7 @@
     "google": " ",
     "chatgpt": "İsa hizmetine 29 CE'de başlar (Luka 3:1, 21)",
     "gemini": "İsa'nın hizmetine başlaması M.S. 29 (Luka 3:1, 21)",
-    "claude": " ",
+    "claude": "İsa M.S. 29'da hizmetine başladı (Luka 3:1, 21)",
     "deepl": " ",
     "category": "text"
   },
@@ -947,7 +947,7 @@
     "google": " ",
     "chatgpt": "Haftanın ortasında \"kurban kesme durur\" Daniel 9:27",
     "gemini": "Haftanın ortası “kurbanı sona erdirecek” Daniel 9:27",
-    "claude": " ",
+    "claude": "Haftanın ortasında \"kurban sunmaya son verilecek\" Daniel 9:27",
     "deepl": " ",
     "category": "text"
   },
@@ -964,7 +964,7 @@
     "google": " ",
     "chatgpt": "Kornelius, 70 haftanın sonunda (Daniel 9:24) 36 C.E.'de vaftiz edilir",
     "gemini": "Kornelius'un 70 haftanın sonunda (Daniel 9:24) M.S. 36'da vaftiz edilmesi",
-    "claude": " ",
+    "claude": "Kornelyus 70 haftanın sonunda (Daniel 9:24) M.S. 36'da vaftiz edildi",
     "deepl": " ",
     "category": "text"
   },
@@ -981,7 +981,7 @@
     "google": " ",
     "chatgpt": "Amerika'da Kolomb öncesi dönemin sonu 1492",
     "gemini": "Amerika kıtasında Kolomb öncesi dönemin sonu 1492",
-    "claude": " ",
+    "claude": "Amerika'da Kolomb öncesi dönemin sonu 1492",
     "deepl": " ",
     "category": "text"
   },
@@ -998,7 +998,7 @@
     "google": " ",
     "chatgpt": "13 koloninin bağımsızlık bildirgesi Amerika'da 1776",
     "gemini": "Amerika'daki 13 koloninin bağımsızlık bildirgesi 1776",
-    "claude": " ",
+    "claude": "Amerika'daki 13 koloninin bağımsızlık bildirisi 1776",
     "deepl": " ",
     "category": "text"
   },
@@ -1015,7 +1015,7 @@
     "google": " ",
     "chatgpt": "Tischendorf, 1844'te 4. yüzyıldan kalma Sinay Codex'ini keşfeder",
     "gemini": "Tischendorf'un 4. yüzyıla ait Codex Sinaiticus'u keşfetmesi 1844",
-    "claude": " ",
+    "claude": "Tischendorf 1844'te 4. yüzyıldan kalma Codex Sinaiticus'u keşfetti",
     "deepl": " ",
     "category": "text"
   },
@@ -1032,7 +1032,7 @@
     "google": " ",
     "chatgpt": "Ölü Deniz Parşömenleri yazılmıştır",
     "gemini": "Ölü Deniz Parşömenleri'nin yazılması",
-    "claude": " ",
+    "claude": "Ölü Deniz Tomarları yazıldı",
     "deepl": " ",
     "category": "text"
   },
@@ -1049,7 +1049,7 @@
     "google": " ",
     "chatgpt": "Septuaginta LXX çevrilmiştir",
     "gemini": "Septuagint LXX çevirisi",
-    "claude": " ",
+    "claude": "Septuagint LXX çevrildi",
     "deepl": " ",
     "category": "text"
   },
@@ -1066,7 +1066,7 @@
     "google": " ",
     "chatgpt": "\"Zion's Watch Tower and Herald of Christ's Presence\" dergisinin ilk sayısı 1879'da yayımlanır",
     "gemini": "\"Zion’s Watch Tower and Herald of Christ’s Presence\" dergisinin ilk sayısının yayımlanması 1879",
-    "claude": " ",
+    "claude": "\"Siyon'un Gözetleme Kulesi ve Mesih'in Varlığının Habercisi\"nin ilk sayısı 1879'da yayımlandı",
     "deepl": " ",
     "category": "text"
   },
@@ -1083,7 +1083,7 @@
     "google": " ",
     "chatgpt": "İncil Öğrencileri yeni bir isim benimser – Yehova'nın Şahitleri (İşaya 43:10, 12) Columbus, Ohio, 1931",
     "gemini": "Kutsal Kitap Öğrencileri'nin yeni bir isim alması – Yehova'nın Şahitleri (Yeşaya 43:10, 12), Columbus, Ohio, 1931",
-    "claude": " ",
+    "claude": "Kutsal Kitap Öğrencileri Columbus, Ohio'da 1931'de yeni bir isim benimsedi – Yehova'nın Şahitleri (Yeşaya 43:10, 12)",
     "deepl": " ",
     "category": "text"
   },
@@ -1100,7 +1100,7 @@
     "google": " ",
     "chatgpt": "Gilead İncil Okulu 1 Şubat 1943 Pazartesi günü eğitime başlar",
     "gemini": "Gilead Gözcü Kulesi Kutsal Kitap Okulu'nun başlaması, Pazartesi, 1 Şubat 1943",
-    "claude": " ",
+    "claude": "Gilead Watchtower Kutsal Kitap Okulu Pazartesi, 1 Şubat 1943'te başladı",
     "deepl": " ",
     "category": "text"
   },
@@ -1117,7 +1117,7 @@
     "google": " ",
     "chatgpt": "\"Kutsal Yazıların Yeni Dünya Tercümesi\" İngiltere'nin Manchester kentinde 18 Haziran 1960'da yayımlanır ve İncil'in birçok yerinde Yehova ismini yeniden tanıtır",
     "gemini": "\"Kutsal Yazıların Yeni Dünya Çevirisi\"nin Manchester, İngiltere'de 18 Haziran 1960'ta yayımlanması ve Yehova ismini Kutsal Kitabın birçok kısmına geri kazandırması",
-    "claude": " ",
+    "claude": "\"Kutsal Yazıların Yeni Dünya Çevirisi\" 18 Haziran 1960'ta İngiltere'nin Manchester şehrinde yayımlandı ve İncil'in birçok bölümüne Yehova adını yeniden kazandırdı",
     "deepl": " ",
     "category": "text"
   },
@@ -1134,7 +1134,7 @@
     "google": " ",
     "chatgpt": "Revize edilmiş \"Kutsal Yazıların Yeni Dünya Tercümesi\" 2013 yıllık toplantısında yayımlanır ve dijital olarak ve çevrimiçi kullanıma uygun hâle getirilir",
     "gemini": "Gözden geçirilmiş \"Kutsal Yazıların Yeni Dünya Çevirisi\"nin yıllık toplantıda 2013 yılında yayımlanması, dijital ve çevrimiçi kullanım için optimize edilmesi",
-    "claude": " ",
+    "claude": "Yıllık toplantıda 2013'te yayımlanan gözden geçirilmiş \"Kutsal Yazıların Yeni Dünya Çevirisi\", dijital ve çevrimiçi kullanım için optimize edildi",
     "deepl": " ",
     "category": "text"
   },
@@ -1151,7 +1151,7 @@
     "google": " ",
     "chatgpt": "\"Soğuk Savaş\" olarak etiketlenen jeopolitik durum 1945-1991",
     "gemini": "\"Soğuk Savaş\" olarak adlandırılan jeopolitik durum 1945-1991",
-    "claude": " ",
+    "claude": "Jeopolitik durum \"Soğuk Savaş\" olarak adlandırıldı 1945-1991",
     "deepl": " ",
     "category": "text"
   },
@@ -1168,7 +1168,7 @@
     "google": " ",
     "chatgpt": "Sinay Codex'i yazılmıştır",
     "gemini": "Codex Sinaiticus'un yazılması",
-    "claude": " ",
+    "claude": "Codex Sinaiticus yazıldı",
     "deepl": " ",
     "category": "text"
   },
@@ -1185,7 +1185,7 @@
     "google": " ",
     "chatgpt": "Vatikan Codex'i yazılmıştır",
     "gemini": "Codex Vaticanus'un yazılması",
-    "claude": " ",
+    "claude": "Codex Vaticanus yazıldı",
     "deepl": " ",
     "category": "text"
   },
@@ -1202,7 +1202,7 @@
     "google": " ",
     "chatgpt": "Leningrad Codex'i Kahire'de MS 1008'de yazılmıştır",
     "gemini": "Leningrad Kodeksi'nin Kahire'de M.S. 1008'de yazılması",
-    "claude": " ",
+    "claude": "Leningrad Kodeksi M.S. 1008'de Kahire'de yazıldı",
     "deepl": " ",
     "category": "text"
   },
@@ -1219,7 +1219,7 @@
     "google": " ",
     "chatgpt": "Yuhanna Patmos adasında sürgündeyken \"vahiy\"i yazar 96-98 C.E.",
     "gemini": "Yuhanna'nın Patmos'ta sürgündeyken \"Vahiy\" kitabını yazması M.S. 96-98",
-    "claude": " ",
+    "claude": "Yuhanna, sürgünde Patmos'tayken M.S. 96-98'de \"vahiy\"i yazdı",
     "deepl": " ",
     "category": "text"
   },
@@ -1236,7 +1236,7 @@
     "google": " ",
     "chatgpt": "Buda – Siddhartha Gautama yaklaşık MÖ 563-yaklaşık MÖ 483",
     "gemini": "Buda – Siddhartha Gautama yaklaşık M.Ö. 563-M.Ö. 483",
-    "claude": " ",
+    "claude": "Buda – Siddhartha Gautama yaklaşık M.Ö. 563 – yaklaşık M.Ö. 483",
     "deepl": " ",
     "category": "text"
   },
@@ -1253,7 +1253,7 @@
     "google": " ",
     "chatgpt": "Buda alternatif olarak yaklaşık MÖ 480-400",
     "gemini": "Buda'nın alternatif dönemi yaklaşık M.Ö. 480-400",
-    "claude": " ",
+    "claude": "Buda alternatif olarak yaklaşık M.Ö. 480-400",
     "deepl": " ",
     "category": "text"
   },
@@ -1270,7 +1270,7 @@
     "google": " ",
     "chatgpt": "Muhammed yaklaşık 570-632",
     "gemini": "Muhammed yaklaşık 570-632",
-    "claude": " ",
+    "claude": "Muhammed yaklaşık 570-632",
     "deepl": " ",
     "category": "text"
   },
@@ -1287,7 +1287,7 @@
     "google": " ",
     "chatgpt": "Konfüçyüs yaklaşık MÖ 551-yaklaşık MÖ 479",
     "gemini": "Konfüçyüs yaklaşık M.Ö. 551-M.Ö. 479",
-    "claude": " ",
+    "claude": "Konfüçyüs yaklaşık M.Ö. 551 – yaklaşık M.Ö. 479",
     "deepl": " ",
     "category": "text"
   },
@@ -1304,7 +1304,7 @@
     "google": " ",
     "chatgpt": "Hicret - Mekke'den Medine'ye yolculuk 16 Temmuz 622",
     "gemini": "Hicret - Mekke'den Medine'ye yolculuk 16 Temmuz 622",
-    "claude": " ",
+    "claude": "Hicret – Mekke'den Medine'ye Yolculuk 16 Temmuz 622",
     "deepl": " ",
     "category": "text"
   },
@@ -1321,7 +1321,7 @@
     "google": " ",
     "chatgpt": "MÖ 1553 Musa Mısır'dan kaçmak zorunda kalır – Mısır'dan Çıkış 2:15, Elçilerin İşleri 7:23",
     "gemini": "M.Ö. 1553 Musa'nın Mısır'dan kaçmak zorunda kalması – Çıkış 2:15, Elçilerin İşleri 7:23",
-    "claude": " ",
+    "claude": "M.Ö. 1553 Musa Mısır'dan kaçmak zorunda kaldı – Çıkış 2:15, Elçilerin İşleri 7:23",
     "deepl": " ",
     "category": "text"
   },
@@ -1338,7 +1338,7 @@
     "google": " ",
     "chatgpt": "MÖ 1513 Mısır 10 felaketi alır",
     "gemini": "M.Ö. 1513 Mısır'ın 10 belaya uğraması",
-    "claude": " ",
+    "claude": "M.Ö. 1513 Mısır 10 belaya uğradı",
     "deepl": " ",
     "category": "text"
   },
@@ -1355,7 +1355,7 @@
     "google": " ",
     "chatgpt": "Yusuf 17 yaşında köle olarak satılır – Yaratılış 37:2",
     "gemini": "Yusuf'un 17 yaşında köle olarak satılması – Yaratılış 37:2",
-    "claude": " ",
+    "claude": "Yusuf 17 yaşında köle olarak satıldı – Yar 37:2",
     "deepl": " ",
     "category": "text"
   },
@@ -1372,7 +1372,7 @@
     "google": " ",
     "chatgpt": "400 yıllık zulüm (Elçilerin İşleri 7:6) – İsmail MÖ 1913",
     "gemini": "400 yıllık çile (Elçilerin İşleri 7:6) – İsmail M.Ö. 1913",
-    "claude": " ",
+    "claude": "400 yıllık baskı (Elçilerin İşleri 7:6) – İsmail M.Ö. 1913",
     "deepl": " ",
     "category": "text"
   },
@@ -1389,7 +1389,7 @@
     "google": " ",
     "chatgpt": "Büyük İskender (Daniel 11:3)",
     "gemini": "Büyük İskender (Daniel 11:3)",
-    "claude": " ",
+    "claude": "Büyük İskender (Daniel 11:3)",
     "deepl": " ",
     "category": "text"
   },
@@ -1406,7 +1406,7 @@
     "google": " ",
     "chatgpt": "Büyük Cyrus, Cambyses II, Darius I MÖ 490, Kserkses I MÖ 480 (Ester'in kocası, Daniel 11:2)",
     "gemini": "Büyük Koreş, Kambises II, Darius I MÖ 490, Kserkses I MÖ 480 (Ester'in eşi, Daniel 11:2)",
-    "claude": " ",
+    "claude": "Büyük Kiros, II. Kambises, I. Darius M.Ö. 490, Kserkses I M.Ö. 480 (Ester'in kocası, Daniel 11:2)",
     "deepl": " ",
     "category": "text"
   },
@@ -1423,7 +1423,7 @@
     "google": " ",
     "chatgpt": "Seleucus I Nicator (v5) Suriye'den Antiokhus III'e (v10) ve Seleucus IV'e (v18, 19) Octavian'a (v20) ve Tiberius'a (v21-24) kadar",
     "gemini": "Selevkos I Nikator (v5), Suriye'den III. Antiokhos'a (v10) ve IV. Selevkos'a (v18, 19), oradan Oktavian'a (v20) ve Tiberius'a (v21-24) kadar",
-    "claude": " ",
+    "claude": "I. Seleukos Nikator (5. ayet) Suriye'den III. Antiokhos'a (10. ayet) ve IV. Seleukos'a (18, 19. ayetler) Octavianus'a (20. ayet) ve Tiberius'a (21-24. ayetler) kadar",
     "deepl": " ",
     "category": "text"
   },
@@ -1440,7 +1440,7 @@
     "google": " ",
     "chatgpt": "Kuzey Kralı",
     "gemini": "Kuzey Kralı",
-    "claude": " ",
+    "claude": "Kuzey Kralı",
     "deepl": " ",
     "category": "text"
   },
@@ -1457,7 +1457,7 @@
     "google": " ",
     "chatgpt": "Ptolemy I, II, III, IV (v11, 12), V (v15, 16) MÖ 31 Actium Savaşı'na kadar",
     "gemini": "Batlamyus I, II, III, IV (v11, 12), V (v15, 16) ve MÖ 31 Aktium savaşına kadar",
-    "claude": " ",
+    "claude": "I., II., III., IV. Ptolemaios (11, 12. ayetler), V. Ptolemaios (15, 16. ayetler) M.Ö. 31'deki Aktium Savaşı'na kadar",
     "deepl": " ",
     "category": "text"
   },
@@ -1474,7 +1474,7 @@
     "google": " ",
     "chatgpt": "Güney Kralı",
     "gemini": "Güney Kralı",
-    "claude": " ",
+    "claude": "Güney Kralı",
     "deepl": " ",
     "category": "text"
   },
@@ -1491,7 +1491,7 @@
     "google": " ",
     "chatgpt": "İngiliz İmparatorluğu 1870, 1914'ten beri Anglo-Amerikan Dünya Gücü",
     "gemini": "Britanya İmparatorluğu 1870, 1914'ten beri Anglo-Amerikan Dünya Gücü",
-    "claude": " ",
+    "claude": "1870'te Britanya İmparatorluğu, 1914'ten itibaren Anglo-Amerikan Dünya Gücü",
     "deepl": " ",
     "category": "text"
   },
@@ -1508,7 +1508,7 @@
     "google": " ",
     "chatgpt": "Güney Kralı",
     "gemini": "Güney Kralı",
-    "claude": " ",
+    "claude": "Güney Kralı",
     "deepl": " ",
     "category": "text"
   },
@@ -1525,7 +1525,7 @@
     "google": " ",
     "chatgpt": "İmparator I. Wilhelm ile Almanya 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
     "gemini": "Almanya, İmparator I. William ile 1871 (v28), 1914 (v29), 1935 (v30b), 1939 (v31a)",
-    "claude": " ",
+    "claude": "I. Kaiser Wilhelm ile birlikte Almanya 1871 (28. ayet), 1914 (29. ayet), 1935 (30b. ayet), 1939 (31a. ayet)",
     "deepl": " ",
     "category": "text"
   },
@@ -1542,7 +1542,7 @@
     "google": " ",
     "chatgpt": "Kuzey",
     "gemini": "Kuzey",
-    "claude": " ",
+    "claude": "Kuzey",
     "deepl": " ",
     "category": "text"
   },
@@ -1559,7 +1559,7 @@
     "google": " ",
     "chatgpt": "Sovyetler Birliği 1945-1991 (Daniel 11:32-39, 40b, 41)",
     "gemini": "Sovyetler Birliği 1945-1991 (Daniel 11:32-39, 40b, 41)",
-    "claude": " ",
+    "claude": "Sovyetler Birliği 1945-1991 (Daniel 11:32-39, 40b, 41)",
     "deepl": " ",
     "category": "text"
   },
@@ -1576,7 +1576,7 @@
     "google": " ",
     "chatgpt": "2017'den beri Rusya (w20 Mayıs)",
     "gemini": "Rusya 2017'den beri (w20 Mayıs)",
-    "claude": " ",
+    "claude": "2017'den bu yana Rusya (w20 Mayıs)",
     "deepl": " ",
     "category": "text"
   },
@@ -1593,7 +1593,7 @@
     "google": " ",
     "chatgpt": "Mesih'in Varlığı, Dünya Düzeninin Sonu (Matta 24:3), son günler (2. Timoteos 3:1)",
     "gemini": "Mesih'in hazır bulunuşu, ortamın sonu (Matta 24:3), son günler (2. Timoteos 3:1)",
-    "claude": " ",
+    "claude": "Mesih'in varlığı, düzenlerin sonu (Matta 24:3), son günler (2. Timoteos 3:1)",
     "deepl": " ",
     "category": "text"
   },
@@ -1610,7 +1610,7 @@
     "google": " ",
     "chatgpt": "Son günler",
     "gemini": "Son günler",
-    "claude": " ",
+    "claude": "Son günler",
     "deepl": " ",
     "category": "text"
   },
@@ -1627,7 +1627,7 @@
     "google": " ",
     "chatgpt": "Kral Suryavarman II Angkor Wat'ı inşa eder 1113-1150",
     "gemini": "Kral Suryavarman II, Angkor Vat'ı inşa eder 1113-1150",
-    "claude": " ",
+    "claude": "Kral II. Suryavarman Angkor Wat'ı 1113-1150'de inşa etti",
     "deepl": " ",
     "category": "text"
   },
@@ -1644,7 +1644,7 @@
     "google": " ",
     "chatgpt": "Notre-Dame de Paris inşa edilir 1163-1260",
     "gemini": "Notre-Dame de Paris'in inşası 1163-1260",
-    "claude": " ",
+    "claude": "Paris Notre-Dame Katedrali 1163-1260'ta inşa edildi",
     "deepl": " ",
     "category": "text"
   },
@@ -1661,7 +1661,7 @@
     "google": " ",
     "chatgpt": "Babil Kulesi inşa edilmiştir",
     "gemini": "Babil Kulesi'nin inşası",
-    "claude": " ",
+    "claude": "Babil Kulesi inşa edildi",
     "deepl": " ",
     "category": "text"
   },
@@ -1678,7 +1678,7 @@
     "google": " ",
     "chatgpt": "400 yıllık zulüm",
     "gemini": "400 yıllık çile",
-    "claude": " ",
+    "claude": "400 yıllık baskı",
     "deepl": " ",
     "category": "text"
   },
@@ -1695,7 +1695,7 @@
     "google": " ",
     "chatgpt": "Lût'un karısı",
     "gemini": "Lut'un karısı",
-    "claude": " ",
+    "claude": "Lut'un karısı",
     "deepl": " ",
     "category": "text"
   },
@@ -1712,7 +1712,7 @@
     "google": " ",
     "chatgpt": "Lût'un kızları",
     "gemini": "Lut'un kızları",
-    "claude": " ",
+    "claude": "Lut'un kızları",
     "deepl": " ",
     "category": "text"
   },
@@ -1729,7 +1729,7 @@
     "google": " ",
     "chatgpt": "Moav (büyük kız)",
     "gemini": "Moav (büyük kız)",
-    "claude": " ",
+    "claude": "Moab (büyük kız)",
     "deepl": " ",
     "category": "text"
   },
@@ -1746,7 +1746,7 @@
     "google": " ",
     "chatgpt": "Rosetta Taşı MÖ 196",
     "gemini": "Rosetta Taşı MÖ 196",
-    "claude": " ",
+    "claude": "Rosetta Taşı M.Ö. 196",
     "deepl": " ",
     "category": "text"
   },
@@ -1763,7 +1763,7 @@
     "google": " ",
     "chatgpt": "Herodotus MÖ yaklaşık 484 – yaklaşık 425, Herodot Tarihi'ni yazar",
     "gemini": "Heredot yaklaşık MÖ 484 – MÖ 425, Tarih adlı eseri yazar",
-    "claude": " ",
+    "claude": "Herodotos yaklaşık M.Ö. 484 – yaklaşık M.Ö. 425, Tarihler'i yazdı",
     "deepl": " ",
     "category": "text"
   },
@@ -1780,7 +1780,7 @@
     "google": " ",
     "chatgpt": "Aristotle MÖ 384 – 322",
     "gemini": "Aristoteles MÖ 384 – 322",
-    "claude": " ",
+    "claude": "Aristoteles M.Ö. 384 – 322",
     "deepl": " ",
     "category": "text"
   },
@@ -1797,7 +1797,7 @@
     "google": " ",
     "chatgpt": "Batlamyus yaklaşık 100 – yaklaşık 170 M.S.",
     "gemini": "Batlamyus yaklaşık MS 100 – 170",
-    "claude": " ",
+    "claude": "Ptolemaios yaklaşık M.S. 100 – yaklaşık M.S. 170",
     "deepl": " ",
     "category": "text"
   },
@@ -1814,7 +1814,7 @@
     "google": " ",
     "chatgpt": "Pisagor MÖ yaklaşık 570 – yaklaşık 495",
     "gemini": "Pisagor yaklaşık MÖ 570 – 495",
-    "claude": " ",
+    "claude": "Pisagor yaklaşık M.Ö. 570 – yaklaşık M.Ö. 495",
     "deepl": " ",
     "category": "text"
   },
@@ -1831,7 +1831,7 @@
     "google": " ",
     "chatgpt": "Platon MÖ yaklaşık 427 – yaklaşık 348",
     "gemini": "Platon yaklaşık MÖ 427 – 348",
-    "claude": " ",
+    "claude": "Platon yaklaşık M.Ö. 427 – yaklaşık M.Ö. 348",
     "deepl": " ",
     "category": "text"
   },
@@ -1848,7 +1848,7 @@
     "google": " ",
     "chatgpt": "Sokrates MÖ yaklaşık 470 – yaklaşık 399",
     "gemini": "Sokrates yaklaşık MÖ 470 – 399",
-    "claude": " ",
+    "claude": "Sokrates yaklaşık M.Ö. 470 – yaklaşık M.Ö. 399",
     "deepl": " ",
     "category": "text"
   },
@@ -1865,7 +1865,7 @@
     "google": " ",
     "chatgpt": "Josephus yaklaşık 37 – yaklaşık 100 M.S.",
     "gemini": "Flavius Josephus yaklaşık MS 37 – 100",
-    "claude": " ",
+    "claude": "Josephus yaklaşık M.S. 37 – yaklaşık M.S. 100",
     "deepl": " ",
     "category": "text"
   },
@@ -1882,7 +1882,7 @@
     "google": " ",
     "chatgpt": "Cicero MÖ 106–43",
     "gemini": "Çiçero MÖ 106-43",
-    "claude": " ",
+    "claude": "Cicero M.Ö. 106-43",
     "deepl": " ",
     "category": "text"
   },
@@ -1899,7 +1899,7 @@
     "google": " ",
     "chatgpt": "Lakiş mektupları MÖ yaklaşık 590",
     "gemini": "Lakiş mektupları yaklaşık MÖ 590",
-    "claude": " ",
+    "claude": "Laşiş mektupları yaklaşık M.Ö. 590",
     "deepl": " ",
     "category": "text"
   },
@@ -1916,7 +1916,7 @@
     "google": " ",
     "chatgpt": "Lakiş kabartmaları MÖ yaklaşık 681",
     "gemini": "Lakiş kabartmaları yaklaşık MÖ 681",
-    "claude": " ",
+    "claude": "Laşiş rölyefleri yaklaşık M.Ö. 681",
     "deepl": " ",
     "category": "text"
   },
@@ -1933,7 +1933,7 @@
     "google": " ",
     "chatgpt": "Meşa Steli (Moav taşı) MÖ yaklaşık 840",
     "gemini": "Meşa Yazıtı (Moav Taşı) yaklaşık MÖ 840",
-    "claude": " ",
+    "claude": "Meşa Steli (Moab Taşı) yaklaşık M.Ö. 840",
     "deepl": " ",
     "category": "text"
   },
@@ -1950,7 +1950,7 @@
     "google": " ",
     "chatgpt": "Gilgamesh ve Aga 𒇽𒆥𒄄𒀀𒀝𒂵",
     "gemini": "Gılgamış ve Agga",
-    "claude": " ",
+    "claude": "Gılgamış ve Aga 𒇽𒆥𒄄𒀀𒀝𒂵",
     "deepl": " ",
     "category": "text"
   },
@@ -1967,7 +1967,7 @@
     "google": " ",
     "chatgpt": "Gılgamış Destanı (Sîn-lēqi-unninni)",
     "gemini": "Gılgamış Destanı (Sîn-lēqi-unninni)",
-    "claude": " ",
+    "claude": "Gılgamış Destanı (Sîn-lēqi-unninni)",
     "deepl": " ",
     "category": "text"
   },
@@ -1984,7 +1984,7 @@
     "google": " ",
     "chatgpt": "Gregoryen takvimi 1582",
     "gemini": "Gregoryen takvimi 1582",
-    "claude": " ",
+    "claude": "Gregoryen takvimi 1582",
     "deepl": " ",
     "category": "text"
   },
@@ -2001,7 +2001,7 @@
     "google": " ",
     "chatgpt": "MÖ yaklaşık 1600-1046",
     "gemini": "yaklaşık MÖ 1600-1046",
-    "claude": " ",
+    "claude": "yaklaşık M.Ö. 1600-1046",
     "deepl": " ",
     "category": "text"
   },
@@ -2018,7 +2018,7 @@
     "google": " ",
     "chatgpt": "MÖ yaklaşık 1046-771",
     "gemini": "yaklaşık MÖ 1046-771",
-    "claude": " ",
+    "claude": "yaklaşık M.Ö. 1046-771",
     "deepl": " ",
     "category": "text"
   },
@@ -2035,7 +2035,7 @@
     "google": " ",
     "chatgpt": "Çin MÖ 221-207",
     "gemini": "Çin Hanedanı MÖ 221-207",
-    "claude": " ",
+    "claude": "Qin M.Ö. 221-207",
     "deepl": " ",
     "category": "text"
   },
@@ -2052,7 +2052,7 @@
     "google": " ",
     "chatgpt": "MÖ 207 – MS 9",
     "gemini": "MÖ 207 – MS 9",
-    "claude": " ",
+    "claude": "M.Ö. 207 – M.S. 9",
     "deepl": " ",
     "category": "text"
   },
@@ -2069,7 +2069,7 @@
     "google": " ",
     "chatgpt": "Üç krallık MS 220-280",
     "gemini": "Üç Krallık 220-280 MS",
-    "claude": " ",
+    "claude": "Üç Krallık M.S. 220-280",
     "deepl": " ",
     "category": "text"
   },
@@ -2086,7 +2086,7 @@
     "google": " ",
     "chatgpt": "On Altı Krallık MS 304-439",
     "gemini": "On Altı Krallık 304-439 MS",
-    "claude": " ",
+    "claude": "On Altı Krallık M.S. 304-439",
     "deepl": " ",
     "category": "text"
   },
@@ -2103,7 +2103,7 @@
     "google": " ",
     "chatgpt": "MS 618-690, 705-907",
     "gemini": "618-690, 705-907",
-    "claude": " ",
+    "claude": "618-690, 705-907",
     "deepl": " ",
     "category": "text"
   },
@@ -2120,7 +2120,7 @@
     "google": " ",
     "chatgpt": "MS 690-705 Wu Zhou",
     "gemini": "690-705 Wu Zhou",
-    "claude": " ",
+    "claude": "690-705 Wu Zhou",
     "deepl": " ",
     "category": "text"
   },
@@ -2137,7 +2137,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tang",
-    "claude": " ",
+    "claude": "Tang",
     "deepl": " ",
     "category": "text"
   },
@@ -2154,7 +2154,7 @@
     "google": " ",
     "chatgpt": "Gonghe Rejensi MÖ 841-828",
     "gemini": "Gonghe Dönemi 841-828 MÖ",
-    "claude": " ",
+    "claude": "Gonghe Naipliği M.Ö. 841-828",
     "deepl": " ",
     "category": "text"
   },
@@ -2171,7 +2171,7 @@
     "google": " ",
     "chatgpt": "Ashoka (yaklaşık MÖ 304-232) Budizmi destekler",
     "gemini": "Ashoka (yaklaşık 304-232 MÖ) Budizmi teşvik eder",
-    "claude": " ",
+    "claude": "Aşoka (yaklaşık M.Ö. 304-232) Budizmi yaydı",
     "deepl": " ",
     "category": "text"
   },
@@ -2188,7 +2188,7 @@
     "google": " ",
     "chatgpt": "Hezekiya Siloam tünelini genişletir",
     "gemini": "Hizkiya, Siloam tünelini genişletir",
-    "claude": " ",
+    "claude": "Hizkiya, Şiloah tünelini genişletti",
     "deepl": " ",
     "category": "text"
   },
@@ -2205,7 +2205,7 @@
     "google": " ",
     "chatgpt": "Anglo-Amerikan, Daniel 2:33, 41-43'teki peygamberlikteki demir ve kil karışımı ayaklarla sembolize edilir",
     "gemini": "Anglo-Amerikan, Daniel 2:33, 41-43'teki peygamberlikte demirle karışık kille sembolize edilir",
-    "claude": " ",
+    "claude": "Anglo-Amerika, Daniel 2:33, 41-43'teki kehanette demir ile kilden yapılmış ayaklar simgesiyle temsil edilir",
     "deepl": " ",
     "category": "text"
   },
@@ -2222,7 +2222,7 @@
     "google": " ",
     "chatgpt": "Manetho Aegyptiaca'yı yazar",
     "gemini": "Manetho, Aegyptiaca eserini yazar",
-    "claude": " ",
+    "claude": "Manetho Aegyptiaca'yı yazdı",
     "deepl": " ",
     "category": "text"
   },
@@ -2239,7 +2239,7 @@
     "google": " ",
     "chatgpt": "Büyük Babil'in Yıkılışı (Vahiy 17:3, 15-18; 18:9, 10)",
     "gemini": "Büyük Babil'in yıkımı (Vahiy 17:3, 15-18; 18:9, 10)",
-    "claude": " ",
+    "claude": "Büyük Babil'in yıkılması (Vahiy 17:3, 15-18; 18:9, 10)",
     "deepl": " ",
     "category": "text"
   },
@@ -2256,7 +2256,7 @@
     "google": " ",
     "chatgpt": "“Barış ve güvenlik!” (1. Selanikliler 5:3, bu bir olasılıktır, QfR 26/2, 25/11)",
     "gemini": "“Esenlik ve güvenlik!” (1. Selanikliler 5:3, bu bir ihtimaldir, QfR 26/2, 25/11)",
-    "claude": " ",
+    "claude": "\"Esenlik ve güvenlik!\" (1. Selanikliler 5:3, bu bir olasılıktır, Okuyuculardan Sorular 26/2, 25/11)",
     "deepl": " ",
     "category": "text"
   },
@@ -2273,7 +2273,7 @@
     "google": " ",
     "chatgpt": "Gog'un Magog'dan saldırısı (Hezekiel 38:1, 2, 9-12, 18-23)",
     "gemini": "Magog'lu Gog'un saldırısı (Hezekiel 38:1, 2, 9-12, 18-23)",
-    "claude": " ",
+    "claude": "Yecüc ve Mecüc'ün saldırısı (Hezekiel 38:1, 2, 9-12, 18-23)",
     "deepl": " ",
     "category": "text"
   },
@@ -2290,7 +2290,7 @@
     "google": " ",
     "chatgpt": "Yeryüzü sakinleri yargılanır, koyunlar ve keçiler ayrılır (Matta 25:31-33)",
     "gemini": "Yeryüzünde yaşayanlar yargılanır, koyunlar ve keçiler ayrılır (Matta 25:31-33)",
-    "claude": " ",
+    "claude": "Yeryüzü sakinlerinin yargılanması, koyunların ve keçilerin ayrılması (Matta 25:31-33)",
     "deepl": " ",
     "category": "text"
   },
@@ -2307,7 +2307,7 @@
     "google": " ",
     "chatgpt": "Krallık yöneticilerinin toplanması (Matta 24:31; 1. Korintliler 15:50-53; 1. Selanikliler 4:15-17)",
     "gemini": "Krallık yöneticilerinin toplanması (Matta 24:31; 1. Korintliler 15:50-53; 1. Selanikliler 4:15-17)",
-    "claude": " ",
+    "claude": "Krallık yöneticilerinin toplanması (Matta 24:31; 1. Korintliler 15:50-53; 1. Selanikliler 4:15-17)",
     "deepl": " ",
     "category": "text"
   },
@@ -2324,7 +2324,7 @@
     "google": " ",
     "chatgpt": "Armageddon Savaşı (Vahiy 16:14, 16; Yeşaya 13:9; 2. Petrus 3:12)",
     "gemini": "Armagedon Savaşı (Vahiy 16:14, 16; Yeşaya 13:9; 2. Petrus 3:12)",
-    "claude": " ",
+    "claude": "Armageddon Savaşı (Vahiy 16:14, 16; Yeşaya 13:9; 2. Petrus 3:12)",
     "deepl": " ",
     "category": "text"
   },
@@ -2341,7 +2341,7 @@
     "google": " ",
     "chatgpt": "Tanrı'nın Krallığı 1000 yıllık hükümdarlığına başlar (Vahiy 5:9, 10; 20:4, 6)",
     "gemini": "Tanrı'nın Krallığı 1000 yıllık yönetimine başlar (Vahiy 5:9, 10; 20:4, 6)",
-    "claude": " ",
+    "claude": "Tanrı'nın Krallığı 1.000 yıllık hükümdarlığına başlar (Vahiy 5:9, 10; 20:4, 6)",
     "deepl": " ",
     "category": "text"
   },
@@ -2358,7 +2358,7 @@
     "google": " ",
     "chatgpt": "Büyük bir kalabalık Armageddon'dan sağ kurtulur (Vahiy 7:9, 14; Mezmur 37:9-11)",
     "gemini": "Büyük bir kalabalık Armagedon'dan sağ çıkar (Vahiy 7:9, 14; Mezmur 37:9-11)",
-    "claude": " ",
+    "claude": "Büyük bir kalabalık Armageddon'dan kurtulur (Vahiy 7:9, 14; Mezmur 37:9-11)",
     "deepl": " ",
     "category": "text"
   },
@@ -2375,7 +2375,7 @@
     "google": " ",
     "chatgpt": "Son 2000 yılda milyarlarca dünya nüfusu",
     "gemini": "Son 2000 yılda dünya nüfusu (milyar olarak)",
-    "claude": " ",
+    "claude": "Son 2000 yılda milyar cinsinden dünya nüfusu",
     "deepl": " ",
     "category": "text"
   },
@@ -2392,7 +2392,7 @@
     "google": " ",
     "chatgpt": "Khmer İmparatorluğu - Angkor dönemi",
     "gemini": "Khmer İmparatorluğu - Angkor dönemi",
-    "claude": " ",
+    "claude": "Khmer İmparatorluğu – Angkor dönemi",
     "deepl": " ",
     "category": "text"
   },
@@ -2409,7 +2409,7 @@
     "google": " ",
     "chatgpt": "Kutsal Roma İmparatorluğu – 1512'den sonra Alman Ulusunun Kutsal Roma İmparatorluğu olarak bilinir",
     "gemini": "Kutsal Roma İmparatorluğu – 1512'den sonra Alman Milletinin Kutsal Roma İmparatorluğu olarak bilinir",
-    "claude": " ",
+    "claude": "Kutsal Roma İmparatorluğu – 1512'den sonra Alman Milletinin Kutsal Roma İmparatorluğu olarak bilinir",
     "deepl": " ",
     "category": "text"
   },
@@ -2426,7 +2426,7 @@
     "google": " ",
     "chatgpt": "Moğol İmparatorluğu 1206 – 1294",
     "gemini": "Moğol İmparatorluğu 1206 – 1294",
-    "claude": " ",
+    "claude": "Moğol İmparatorluğu 1206 – 1294",
     "deepl": " ",
     "category": "text"
   },
@@ -2443,7 +2443,7 @@
     "google": " ",
     "chatgpt": "Maya uygarlığı – Klasik dönem",
     "gemini": "Maya medeniyeti – Klasik dönem",
-    "claude": " ",
+    "claude": "Maya medeniyeti – Klasik dönem",
     "deepl": " ",
     "category": "text"
   },
@@ -2460,7 +2460,7 @@
     "google": " ",
     "chatgpt": "Maya uygarlığı – Klasik Sonrası dönem",
     "gemini": "Maya medeniyeti – Klasik sonrası dönem",
-    "claude": " ",
+    "claude": "Maya medeniyeti – Klasik Sonrası dönem",
     "deepl": " ",
     "category": "text"
   },
@@ -2477,7 +2477,7 @@
     "google": " ",
     "chatgpt": "Amerika'daki en büyük şehir, piramitler yaklaşık MS 200'de inşa edilmiştir",
     "gemini": "Amerika'daki en büyük şehir, piramitlerin inşası yaklaşık 200 MS",
-    "claude": " ",
+    "claude": "Amerika'nın en büyük şehri, piramitler yaklaşık M.S. 200'de inşa edildi",
     "deepl": " ",
     "category": "text"
   },
@@ -2494,7 +2494,7 @@
     "google": " ",
     "chatgpt": "Dionysius Exiguus, Anno Domini'nin mucidi",
     "gemini": "Dionysius Exiguus, Anno Domini'nin mucidi",
-    "claude": " ",
+    "claude": "Anno Domini'nin mucidi Dionysius Exiguus",
     "deepl": " ",
     "category": "text"
   },
@@ -2511,7 +2511,7 @@
     "google": " ",
     "chatgpt": "Emevîler",
     "gemini": "Emeviler",
-    "claude": " ",
+    "claude": "Emeviler",
     "deepl": " ",
     "category": "text"
   },
@@ -2528,7 +2528,7 @@
     "google": " ",
     "chatgpt": "Ur III Hanedanı 𒋀𒀕𒆠",
     "gemini": "Ur III Hanedanı 𒋀𒀕𒆠",
-    "claude": " ",
+    "claude": "III. Ur Hanedanı 𒋀𒀕𒆠",
     "deepl": " ",
     "category": "text"
   },
@@ -2545,7 +2545,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hammurabi 𒄩𒄠𒈬𒊏𒁉",
-    "claude": " ",
+    "claude": "Hammurabi 𒄩𒄠𒈬𒊏𒁉",
     "deepl": " ",
     "category": "text"
   },
@@ -2562,7 +2562,7 @@
     "google": " ",
     "chatgpt": "Harezmi Al-Jabr'ı (Cebir) yazar",
     "gemini": "El-Harezmi, Al-Jabr (Cebir) kitabını yazar",
-    "claude": " ",
+    "claude": "el-Harizmi El-Cebr'i (Cebir) yazdı",
     "deepl": " ",
     "category": "text"
   },
@@ -2579,7 +2579,7 @@
     "google": " ",
     "chatgpt": "El-Ezher Üniversitesi Kahire'de kurulur",
     "gemini": "Ezher Üniversitesi Kahire'de kurulur",
-    "claude": " ",
+    "claude": "El-Ezher Üniversitesi Kahire'de kuruldu",
     "deepl": " ",
     "category": "text"
   },
@@ -2596,7 +2596,7 @@
     "google": " ",
     "chatgpt": "İbn Sînâ veya Avicenna",
     "gemini": "İbn-i Sina veya Avicenna",
-    "claude": " ",
+    "claude": "İbn Sina ya da Avicenna",
     "deepl": " ",
     "category": "text"
   },
@@ -2613,7 +2613,7 @@
     "google": " ",
     "chatgpt": "Yaşam süresi 75 yıl",
     "gemini": "Ortalama yaşam süresi 75 yıl",
-    "claude": " ",
+    "claude": "Ortalama yaşam süresi 75 yıl",
     "deepl": " ",
     "category": "text"
   },
@@ -2630,7 +2630,7 @@
     "google": " ",
     "chatgpt": "430 yıl: Mısır'dan Çıkış 12:41, Galatyalılar 3:17",
     "gemini": "430 yıl: Mısır'dan Çıkış 12:41, Galatyalılar 3:17",
-    "claude": " ",
+    "claude": "430 yıl: Çıkış 12:41, Galatyalılar 3:17",
     "deepl": " ",
     "category": "text"
   },
@@ -2647,7 +2647,7 @@
     "google": " ",
     "chatgpt": "Maya takviminin hesaplanan başlangıcı 11 Ağustos M.Ö. 3114",
     "gemini": "Maya takviminin hesaplanan başlangıcı 11 Ağustos 3114 MÖ",
-    "claude": " ",
+    "claude": "Maya takviminin hesaplanan başlangıcı M.Ö. 11 Ağustos 3114",
     "deepl": " ",
     "category": "text"
   },
@@ -2664,7 +2664,7 @@
     "google": " ",
     "chatgpt": "c. M.Ö. 2070 – c. M.Ö. 1600; Batı Zhou döneminde ilk kez bahsedilen çağ",
     "gemini": "yaklaşık 2070 – yaklaşık 1600 MÖ; Döneme ilk kez Batı Zhou döneminde atıfta bulunulmuştur",
-    "claude": " ",
+    "claude": "yaklaşık M.Ö. 2070 – yaklaşık M.Ö. 1600; Dönem ilk kez Batı Zhou döneminde anılır",
     "deepl": " ",
     "category": "text"
   },
@@ -2681,7 +2681,7 @@
     "google": " ",
     "chatgpt": "Çin'de Xia hanedanı",
     "gemini": "Çin'de Xia hanedanı",
-    "claude": " ",
+    "claude": "Çin'de Xia hanedanı",
     "deepl": " ",
     "category": "text"
   },
@@ -2698,7 +2698,7 @@
     "google": " ",
     "chatgpt": "3 Eylül, M.Ö. 32",
     "gemini": "3 Eylül 32 MÖ",
-    "claude": " ",
+    "claude": "M.Ö. 3 Eylül 32",
     "deepl": " ",
     "category": "text"
   },
@@ -2715,7 +2715,7 @@
     "google": " ",
     "chatgpt": "Yusuf ve Yakup Mısır'da yeniden bir araya geldi – M.Ö. 1728 (Yaratılış 45:11; 47:9)",
     "gemini": "Yusuf ve Yakup Mısır'da tekrar bir araya gelir – 1728 MÖ (Yaratılış 45:11; 47:9)",
-    "claude": " ",
+    "claude": "Yusuf ve Yakup Mısır'da yeniden buluştu – M.Ö. 1728 (Yar 45:11; 47:9)",
     "deepl": " ",
     "category": "text"
   },
@@ -2732,7 +2732,7 @@
     "google": " ",
     "chatgpt": "Daniel 11'den Güney Kralı",
     "gemini": "Daniel 11'deki Güney Kralı",
-    "claude": " ",
+    "claude": "Daniel 11'deki Güney Kralı",
     "deepl": " ",
     "category": "text"
   },
@@ -2749,7 +2749,7 @@
     "google": " ",
     "chatgpt": "Daniel 11'den Kuzey Kralı",
     "gemini": "Daniel 11'deki Kuzey Kralı",
-    "claude": " ",
+    "claude": "Daniel 11'deki Kuzey Kralı",
     "deepl": " ",
     "category": "text"
   },
@@ -2766,7 +2766,7 @@
     "google": " ",
     "chatgpt": "Daniel 2'den demir bacaklar",
     "gemini": "Daniel 2'deki demir bacaklar",
-    "claude": " ",
+    "claude": "Daniel 2'deki demir bacaklar",
     "deepl": " ",
     "category": "text"
   },
@@ -2783,7 +2783,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Codex Argenteus yaklaşık 505",
-    "claude": " ",
+    "claude": "Codex Argenteus yaklaşık M.S. 505",
     "deepl": " ",
     "category": "text"
   },
@@ -2800,7 +2800,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nguyễn",
-    "claude": " ",
+    "claude": "Nguyễn",
     "deepl": " ",
     "category": "text"
   },
@@ -2817,7 +2817,7 @@
     "google": " ",
     "chatgpt": "Japonya'da Edo dönemi",
     "gemini": "Japonya'da Edo dönemi",
-    "claude": " ",
+    "claude": "Japonya'da Edo dönemi",
     "deepl": " ",
     "category": "text"
   },
@@ -2834,7 +2834,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Meiji",
-    "claude": " ",
+    "claude": "Meiji",
     "deepl": " ",
     "category": "text"
   },
@@ -2851,7 +2851,7 @@
     "google": " ",
     "chatgpt": "Amerikan İç Savaşı 1861-1865",
     "gemini": "Amerikan İç Savaşı 1861-1865",
-    "claude": " ",
+    "claude": "Amerikan İç Savaşı 1861-1865",
     "deepl": " ",
     "category": "text"
   },
@@ -2868,7 +2868,7 @@
     "google": " ",
     "chatgpt": "Aleppo Kodeksi c. 920",
     "gemini": "Halep Kodeksi yaklaşık 920",
-    "claude": " ",
+    "claude": "Halep Kodeksi yaklaşık M.S. 920",
     "deepl": " ",
     "category": "text"
   },
@@ -2885,7 +2885,7 @@
     "google": " ",
     "chatgpt": "Vandallar ve Alanlar Krallığı 435 – 534",
     "gemini": "Vandallar ve Alanlar Krallığı 435 – 534",
-    "claude": " ",
+    "claude": "Vandal ve Alan Krallığı 435 – 534",
     "deepl": " ",
     "category": "text"
   },
@@ -2902,7 +2902,7 @@
     "google": " ",
     "chatgpt": "c. 481/509 – 843, 751'e kadar Meroveng, sonra Karolenj",
     "gemini": "Yaklaşık 481/509 – 843, 751'e kadar Merovenj, sonra Karolenj",
-    "claude": " ",
+    "claude": "yaklaşık 481/509 – 843, 751'e kadar Merovenj, ardından Karolenj",
     "deepl": " ",
     "category": "text"
   },
@@ -2919,7 +2919,7 @@
     "google": " ",
     "chatgpt": "Franklar Krallığı",
     "gemini": "Frank Krallığı",
-    "claude": " ",
+    "claude": "Frank Krallığı",
     "deepl": " ",
     "category": "text"
   },
@@ -2936,7 +2936,7 @@
     "google": " ",
     "chatgpt": "Yüz Yıl Savaşı 1337 – 1453",
     "gemini": "Yüzyıl Savaşları 1337 – 1453",
-    "claude": " ",
+    "claude": "Yüz Yıl Savaşları 1337 – 1453",
     "deepl": " ",
     "category": "text"
   },
@@ -2953,7 +2953,7 @@
     "google": " ",
     "chatgpt": "Kara veba 1346-1353",
     "gemini": "Kara Ölüm 1346-1353",
-    "claude": " ",
+    "claude": "Veba salgını 1346-1353",
     "deepl": " ",
     "category": "text"
   },
@@ -2970,7 +2970,7 @@
     "google": " ",
     "chatgpt": "581-618 Sui hanedanı",
     "gemini": "581-618 Sui hanedanı",
-    "claude": " ",
+    "claude": "581-618 Sui hanedanı",
     "deepl": " ",
     "category": "text"
   },
@@ -2987,7 +2987,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sui",
-    "claude": " ",
+    "claude": "Sui",
     "deepl": " ",
     "category": "text"
   },
@@ -3004,7 +3004,7 @@
     "google": " ",
     "chatgpt": "Büyük Sıkıntı (Markos 13:19; Daniel 12:1; Matta 24:21, 22)",
     "gemini": "Büyük Sıkıntı (Markos 13:19; Daniel 12:1; Matta 24:21, 22)",
-    "claude": " ",
+    "claude": "Büyük Sıkıntı (Markos 13:19; Daniel 12:1; Matta 24:21, 22)",
     "deepl": " ",
     "category": "text"
   },
@@ -3021,7 +3021,7 @@
     "google": " ",
     "chatgpt": "Bu zaman çizelgesi 2023'te, insanlık tarihinin ve son 125.000 yılın en sıcak yılında oluşturulmuştur",
     "gemini": "Bu zaman çizelgesi, insanlık tarihinin ve son 125.000 yılın en sıcak yılı olan 2023'te oluşturulmuştur",
-    "claude": " ",
+    "claude": "Bu zaman çizelgesi 2023'te, insanlık tarihinin ve son 125.000 yılın en sıcak yılında oluşturuldu",
     "deepl": " ",
     "category": "text"
   },
@@ -3038,7 +3038,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Adem",
-    "claude": " ",
+    "claude": "Âdem",
     "deepl": " ",
     "category": "bible"
   },
@@ -3055,7 +3055,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Şit",
-    "claude": " ",
+    "claude": "Şet",
     "deepl": " ",
     "category": "bible"
   },
@@ -3072,7 +3072,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Enoş",
-    "claude": " ",
+    "claude": "Enoş",
     "deepl": " ",
     "category": "bible"
   },
@@ -3089,7 +3089,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kenan",
-    "claude": " ",
+    "claude": "Kenan (Kaynan)",
     "deepl": " ",
     "category": "bible"
   },
@@ -3106,7 +3106,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Mahalalel",
-    "claude": " ",
+    "claude": "Mahalalel (Mahalaleel)",
     "deepl": " ",
     "category": "bible"
   },
@@ -3123,7 +3123,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yeret",
-    "claude": " ",
+    "claude": "Yared",
     "deepl": " ",
     "category": "bible"
   },
@@ -3140,7 +3140,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hanok",
-    "claude": " ",
+    "claude": "Hanok",
     "deepl": " ",
     "category": "bible"
   },
@@ -3157,7 +3157,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Metuşelah",
-    "claude": " ",
+    "claude": "Metüşelah",
     "deepl": " ",
     "category": "bible"
   },
@@ -3174,7 +3174,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Lemek",
-    "claude": " ",
+    "claude": "Lemek",
     "deepl": " ",
     "category": "bible"
   },
@@ -3191,7 +3191,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nuh",
-    "claude": " ",
+    "claude": "Nuh",
     "deepl": " ",
     "category": "bible"
   },
@@ -3208,7 +3208,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sam",
-    "claude": " ",
+    "claude": "Sam",
     "deepl": " ",
     "category": "bible"
   },
@@ -3225,7 +3225,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Erpakşat",
-    "claude": " ",
+    "claude": "Arpakşad",
     "deepl": " ",
     "category": "bible"
   },
@@ -3242,7 +3242,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Şelah",
-    "claude": " ",
+    "claude": "Şelah",
     "deepl": " ",
     "category": "bible"
   },
@@ -3259,7 +3259,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Eber",
-    "claude": " ",
+    "claude": "Eber",
     "deepl": " ",
     "category": "bible"
   },
@@ -3276,7 +3276,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Pelek",
-    "claude": " ",
+    "claude": "Peleg",
     "deepl": " ",
     "category": "bible"
   },
@@ -3293,7 +3293,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Reu",
-    "claude": " ",
+    "claude": "Regu",
     "deepl": " ",
     "category": "bible"
   },
@@ -3310,7 +3310,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Seruk",
-    "claude": " ",
+    "claude": "Serug",
     "deepl": " ",
     "category": "bible"
   },
@@ -3327,7 +3327,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nahor",
-    "claude": " ",
+    "claude": "Nahor",
     "deepl": " ",
     "category": "bible"
   },
@@ -3344,7 +3344,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Terah",
-    "claude": " ",
+    "claude": "Tera",
     "deepl": " ",
     "category": "bible"
   },
@@ -3361,7 +3361,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "İbrahim",
-    "claude": " ",
+    "claude": "İbrahim",
     "deepl": " ",
     "category": "bible"
   },
@@ -3378,7 +3378,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "İshak",
-    "claude": " ",
+    "claude": "İshak",
     "deepl": " ",
     "category": "bible"
   },
@@ -3395,7 +3395,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yakup",
-    "claude": " ",
+    "claude": "Yakup",
     "deepl": " ",
     "category": "bible"
   },
@@ -3412,7 +3412,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yusuf",
-    "claude": " ",
+    "claude": "Yusuf",
     "deepl": " ",
     "category": "bible"
   },
@@ -3429,7 +3429,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Musa",
-    "claude": " ",
+    "claude": "Musa",
     "deepl": " ",
     "category": "bible"
   },
@@ -3446,7 +3446,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Otniel",
-    "claude": " ",
+    "claude": "Otniel",
     "deepl": " ",
     "category": "bible"
   },
@@ -3463,7 +3463,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ehud",
-    "claude": " ",
+    "claude": "Ehud",
     "deepl": " ",
     "category": "bible"
   },
@@ -3480,7 +3480,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Şamgar",
-    "claude": " ",
+    "claude": "Şamgar",
     "deepl": " ",
     "category": "bible"
   },
@@ -3497,7 +3497,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Barak, Debora, Yael",
-    "claude": " ",
+    "claude": "Barak, Debora, Yael",
     "deepl": " ",
     "category": "bible"
   },
@@ -3514,7 +3514,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Gidyon",
-    "claude": " ",
+    "claude": "Gideon",
     "deepl": " ",
     "category": "bible"
   },
@@ -3531,7 +3531,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tola",
-    "claude": " ",
+    "claude": "Tola",
     "deepl": " ",
     "category": "bible"
   },
@@ -3548,7 +3548,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yair",
-    "claude": " ",
+    "claude": "Yair",
     "deepl": " ",
     "category": "bible"
   },
@@ -3565,7 +3565,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yiftah",
-    "claude": " ",
+    "claude": "Yiftah",
     "deepl": " ",
     "category": "bible"
   },
@@ -3582,7 +3582,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "İbzan",
-    "claude": " ",
+    "claude": "İbsan",
     "deepl": " ",
     "category": "bible"
   },
@@ -3599,7 +3599,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Elon",
-    "claude": " ",
+    "claude": "Elon",
     "deepl": " ",
     "category": "bible"
   },
@@ -3616,7 +3616,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Abdon",
-    "claude": " ",
+    "claude": "Abdon",
     "deepl": " ",
     "category": "bible"
   },
@@ -3633,7 +3633,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Şimşon",
-    "claude": " ",
+    "claude": "Şimşon",
     "deepl": " ",
     "category": "bible"
   },
@@ -3650,7 +3650,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Samuel",
-    "claude": " ",
+    "claude": "Samuel",
     "deepl": " ",
     "category": "bible"
   },
@@ -3667,7 +3667,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Saul",
-    "claude": " ",
+    "claude": "Saul",
     "deepl": " ",
     "category": "bible"
   },
@@ -3684,7 +3684,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Davut",
-    "claude": " ",
+    "claude": "Davut",
     "deepl": " ",
     "category": "bible"
   },
@@ -3701,7 +3701,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Süleyman",
-    "claude": " ",
+    "claude": "Süleyman",
     "deepl": " ",
     "category": "bible"
   },
@@ -3718,7 +3718,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Malaki",
-    "claude": " ",
+    "claude": "Malaki",
     "deepl": " ",
     "category": "bible"
   },
@@ -3735,7 +3735,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Rut",
-    "claude": " ",
+    "claude": "Rut",
     "deepl": " ",
     "category": "bible"
   },
@@ -3752,7 +3752,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ezra",
-    "claude": " ",
+    "claude": "Ezra",
     "deepl": " ",
     "category": "bible"
   },
@@ -3769,7 +3769,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nehemya",
-    "claude": " ",
+    "claude": "Nehemya",
     "deepl": " ",
     "category": "bible"
   },
@@ -3786,7 +3786,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ester",
-    "claude": " ",
+    "claude": "Ester",
     "deepl": " ",
     "category": "bible"
   },
@@ -3803,7 +3803,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Eyüp",
-    "claude": " ",
+    "claude": "Eyüp",
     "deepl": " ",
     "category": "bible"
   },
@@ -3820,7 +3820,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Musa",
-    "claude": " ",
+    "claude": "Musa",
     "deepl": " ",
     "category": "bible"
   },
@@ -3837,7 +3837,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yeşu",
-    "claude": " ",
+    "claude": "Yeşu",
     "deepl": " ",
     "category": "bible"
   },
@@ -3854,7 +3854,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kaleb",
-    "claude": " ",
+    "claude": "Kalev",
     "deepl": " ",
     "category": "bible"
   },
@@ -3871,7 +3871,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Avgustus",
-    "claude": " ",
+    "claude": "Augustus",
     "deepl": " ",
     "category": "bible"
   },
@@ -3888,7 +3888,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tiberius",
-    "claude": " ",
+    "claude": "Tiberius",
     "deepl": " ",
     "category": "bible"
   },
@@ -3905,7 +3905,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Klavdiyus",
-    "claude": " ",
+    "claude": "Klaudyus",
     "deepl": " ",
     "category": "bible"
   },
@@ -3922,7 +3922,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Pers",
-    "claude": " ",
+    "claude": "Pers",
     "deepl": " ",
     "category": "bible"
   },
@@ -3939,7 +3939,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yehoyada",
-    "claude": " ",
+    "claude": "Yehoyada",
     "deepl": " ",
     "category": "bible"
   },
@@ -3956,7 +3956,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hagay",
-    "claude": " ",
+    "claude": "Hagay",
     "deepl": " ",
     "category": "bible"
   },
@@ -3973,7 +3973,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Zerubbabil (Luka 3:27)",
-    "claude": " ",
+    "claude": "Zerubbabel (Luka 3:27)",
     "deepl": " ",
     "category": "bible"
   },
@@ -3990,7 +3990,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yakup",
-    "claude": " ",
+    "claude": "Yakup/",
     "deepl": " ",
     "category": "bible"
   },
@@ -4007,7 +4007,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "İsrail",
-    "claude": " ",
+    "claude": "İsrail",
     "deepl": " ",
     "category": "bible"
   },
@@ -4024,7 +4024,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sara",
-    "claude": " ",
+    "claude": "Sara",
     "deepl": " ",
     "category": "bible"
   },
@@ -4041,7 +4041,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hacer",
-    "claude": " ",
+    "claude": "Hacer",
     "deepl": " ",
     "category": "bible"
   },
@@ -4058,7 +4058,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Haran",
-    "claude": " ",
+    "claude": "Haran",
     "deepl": " ",
     "category": "bible"
   },
@@ -4075,7 +4075,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Reuma",
-    "claude": " ",
+    "claude": "Reuma",
     "deepl": " ",
     "category": "bible"
   },
@@ -4092,7 +4092,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Milka",
-    "claude": " ",
+    "claude": "Milka",
     "deepl": " ",
     "category": "bible"
   },
@@ -4109,7 +4109,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Lut",
-    "claude": " ",
+    "claude": "Lut",
     "deepl": " ",
     "category": "bible"
   },
@@ -4126,7 +4126,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ben-Ammi (Ammon)",
-    "claude": " ",
+    "claude": "Ben-ammi (Ammon)",
     "deepl": " ",
     "category": "bible"
   },
@@ -4143,7 +4143,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Betuel",
-    "claude": " ",
+    "claude": "Betuel",
     "deepl": " ",
     "category": "bible"
   },
@@ -4160,7 +4160,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Rebeka",
-    "claude": " ",
+    "claude": "Rebekka",
     "deepl": " ",
     "category": "bible"
   },
@@ -4177,7 +4177,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Lavan",
-    "claude": " ",
+    "claude": "Laban",
     "deepl": " ",
     "category": "bible"
   },
@@ -4194,7 +4194,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Lea",
-    "claude": " ",
+    "claude": "Lea",
     "deepl": " ",
     "category": "bible"
   },
@@ -4211,7 +4211,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Rahel",
-    "claude": " ",
+    "claude": "Rahel",
     "deepl": " ",
     "category": "bible"
   },
@@ -4228,7 +4228,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Bilha",
-    "claude": " ",
+    "claude": "Bilha",
     "deepl": " ",
     "category": "bible"
   },
@@ -4245,7 +4245,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Zilpa",
-    "claude": " ",
+    "claude": "Zilpa",
     "deepl": " ",
     "category": "bible"
   },
@@ -4262,7 +4262,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ruben",
-    "claude": " ",
+    "claude": "Ruben",
     "deepl": " ",
     "category": "bible"
   },
@@ -4279,7 +4279,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Şimon",
-    "claude": " ",
+    "claude": "Şimeon",
     "deepl": " ",
     "category": "bible"
   },
@@ -4296,7 +4296,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Levi",
-    "claude": " ",
+    "claude": "Levi",
     "deepl": " ",
     "category": "bible"
   },
@@ -4313,7 +4313,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yahuda",
-    "claude": " ",
+    "claude": "Yahuda",
     "deepl": " ",
     "category": "bible"
   },
@@ -4330,7 +4330,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "İssakar",
-    "claude": " ",
+    "claude": "İssakar",
     "deepl": " ",
     "category": "bible"
   },
@@ -4347,7 +4347,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Zevulun",
-    "claude": " ",
+    "claude": "Zebulun",
     "deepl": " ",
     "category": "bible"
   },
@@ -4364,7 +4364,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Dina",
-    "claude": " ",
+    "claude": "Dina",
     "deepl": " ",
     "category": "bible"
   },
@@ -4381,7 +4381,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Esav",
-    "claude": " ",
+    "claude": "Esav/",
     "deepl": " ",
     "category": "bible"
   },
@@ -4398,7 +4398,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Edom",
-    "claude": " ",
+    "claude": "Edom",
     "deepl": " ",
     "category": "bible"
   },
@@ -4415,7 +4415,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "İsmail",
-    "claude": " ",
+    "claude": "İsmail",
     "deepl": " ",
     "category": "bible"
   },
@@ -4432,7 +4432,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Manaşşe",
-    "claude": " ",
+    "claude": "(Manaşe",
     "deepl": " ",
     "category": "bible"
   },
@@ -4449,7 +4449,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "ve Efrayim",
-    "claude": " ",
+    "claude": "ve Efrayim)",
     "deepl": " ",
     "category": "bible"
   },
@@ -4466,7 +4466,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Benyamin",
-    "claude": " ",
+    "claude": "Benyamin",
     "deepl": " ",
     "category": "bible"
   },
@@ -4483,7 +4483,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Dan",
-    "claude": " ",
+    "claude": "Dan",
     "deepl": " ",
     "category": "bible"
   },
@@ -4500,7 +4500,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Naftali",
-    "claude": " ",
+    "claude": "Naftali",
     "deepl": " ",
     "category": "bible"
   },
@@ -4517,7 +4517,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Gad",
-    "claude": " ",
+    "claude": "Gad",
     "deepl": " ",
     "category": "bible"
   },
@@ -4534,7 +4534,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Aşer",
-    "claude": " ",
+    "claude": "Aşer",
     "deepl": " ",
     "category": "bible"
   },
@@ -4551,7 +4551,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Uz, Buz, Kemuel",
-    "claude": " ",
+    "claude": "Uz, Buz, Kemuel,",
     "deepl": " ",
     "category": "bible"
   },
@@ -4568,7 +4568,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kesed, Hazo",
-    "claude": " ",
+    "claude": "Kesed, Hazo,",
     "deepl": " ",
     "category": "bible"
   },
@@ -4585,7 +4585,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Pildaş, Yidlaf",
-    "claude": " ",
+    "claude": "Pildaş, Yidlaf",
     "deepl": " ",
     "category": "bible"
   },
@@ -4602,7 +4602,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Teba",
-    "claude": " ",
+    "claude": "Tevah",
     "deepl": " ",
     "category": "bible"
   },
@@ -4619,7 +4619,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Gaham",
-    "claude": " ",
+    "claude": "Gaham",
     "deepl": " ",
     "category": "bible"
   },
@@ -4636,7 +4636,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tahaş",
-    "claude": " ",
+    "claude": "Tahaş",
     "deepl": " ",
     "category": "bible"
   },
@@ -4653,7 +4653,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Maaka",
-    "claude": " ",
+    "claude": "Maaka",
     "deepl": " ",
     "category": "bible"
   },
@@ -4670,7 +4670,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Mahalat",
-    "claude": " ",
+    "claude": "Mahalat/",
     "deepl": " ",
     "category": "bible"
   },
@@ -4687,7 +4687,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Basemat",
-    "claude": " ",
+    "claude": "Basemat",
     "deepl": " ",
     "category": "bible"
   },
@@ -4704,7 +4704,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Reuel",
-    "claude": " ",
+    "claude": "Reuel",
     "deepl": " ",
     "category": "bible"
   },
@@ -4721,7 +4721,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nahat",
-    "claude": " ",
+    "claude": "Nahat",
     "deepl": " ",
     "category": "bible"
   },
@@ -4738,7 +4738,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Zerah",
-    "claude": " ",
+    "claude": "Zerah",
     "deepl": " ",
     "category": "bible"
   },
@@ -4755,7 +4755,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Şamma",
-    "claude": " ",
+    "claude": "Şamma",
     "deepl": " ",
     "category": "bible"
   },
@@ -4772,7 +4772,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Mizza",
-    "claude": " ",
+    "claude": "Mizza",
     "deepl": " ",
     "category": "bible"
   },
@@ -4789,7 +4789,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ada",
-    "claude": " ",
+    "claude": "Ada",
     "deepl": " ",
     "category": "bible"
   },
@@ -4806,7 +4806,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Elifaz",
-    "claude": " ",
+    "claude": "Elifaz",
     "deepl": " ",
     "category": "bible"
   },
@@ -4823,7 +4823,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Teman",
-    "claude": " ",
+    "claude": "Teman",
     "deepl": " ",
     "category": "bible"
   },
@@ -4840,7 +4840,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Omar",
-    "claude": " ",
+    "claude": "Omar",
     "deepl": " ",
     "category": "bible"
   },
@@ -4857,7 +4857,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sefo",
-    "claude": " ",
+    "claude": "Zefо",
     "deepl": " ",
     "category": "bible"
   },
@@ -4874,7 +4874,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kenaz",
-    "claude": " ",
+    "claude": "Kenaz",
     "deepl": " ",
     "category": "bible"
   },
@@ -4891,7 +4891,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Korah",
-    "claude": " ",
+    "claude": "Korah",
     "deepl": " ",
     "category": "bible"
   },
@@ -4908,7 +4908,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Korah, Gatam",
-    "claude": " ",
+    "claude": "Korah, Gatam",
     "deepl": " ",
     "category": "bible"
   },
@@ -4925,7 +4925,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Amalek",
-    "claude": " ",
+    "claude": "Amalek",
     "deepl": " ",
     "category": "bible"
   },
@@ -4942,7 +4942,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Oholibama",
-    "claude": " ",
+    "claude": "Oholibama",
     "deepl": " ",
     "category": "bible"
   },
@@ -4959,7 +4959,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yeuş",
-    "claude": " ",
+    "claude": "Yeuş",
     "deepl": " ",
     "category": "bible"
   },
@@ -4976,7 +4976,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yalam",
-    "claude": " ",
+    "claude": "Yalam",
     "deepl": " ",
     "category": "bible"
   },
@@ -4993,7 +4993,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nevayot",
-    "claude": " ",
+    "claude": "Nevayot",
     "deepl": " ",
     "category": "bible"
   },
@@ -5010,7 +5010,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kedar",
-    "claude": " ",
+    "claude": "Kedar",
     "deepl": " ",
     "category": "bible"
   },
@@ -5027,7 +5027,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Mişma",
-    "claude": " ",
+    "claude": "Mişma",
     "deepl": " ",
     "category": "bible"
   },
@@ -5044,7 +5044,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Adbeel, Mibsam",
-    "claude": " ",
+    "claude": "Adbeel, Mibsam",
     "deepl": " ",
     "category": "bible"
   },
@@ -5061,7 +5061,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Duma, Massa",
-    "claude": " ",
+    "claude": "Duma, Massa",
     "deepl": " ",
     "category": "bible"
   },
@@ -5078,7 +5078,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hadad",
-    "claude": " ",
+    "claude": "Hadad",
     "deepl": " ",
     "category": "bible"
   },
@@ -5095,7 +5095,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tema",
-    "claude": " ",
+    "claude": "Tema",
     "deepl": " ",
     "category": "bible"
   },
@@ -5112,7 +5112,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yetur",
-    "claude": " ",
+    "claude": "Yetur",
     "deepl": " ",
     "category": "bible"
   },
@@ -5129,7 +5129,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nafiş",
-    "claude": " ",
+    "claude": "Nafiş",
     "deepl": " ",
     "category": "bible"
   },
@@ -5146,7 +5146,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kedema",
-    "claude": " ",
+    "claude": "Kedemah",
     "deepl": " ",
     "category": "bible"
   },
@@ -5163,7 +5163,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ketura",
-    "claude": " ",
+    "claude": "Ketura",
     "deepl": " ",
     "category": "bible"
   },
@@ -5180,7 +5180,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Zimran",
-    "claude": " ",
+    "claude": "Zimran",
     "deepl": " ",
     "category": "bible"
   },
@@ -5197,7 +5197,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yokşan",
-    "claude": " ",
+    "claude": "Yokşan",
     "deepl": " ",
     "category": "bible"
   },
@@ -5214,7 +5214,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Medan",
-    "claude": " ",
+    "claude": "Medan",
     "deepl": " ",
     "category": "bible"
   },
@@ -5231,7 +5231,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Midyan",
-    "claude": " ",
+    "claude": "Midyan",
     "deepl": " ",
     "category": "bible"
   },
@@ -5248,7 +5248,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "İşbak",
-    "claude": " ",
+    "claude": "Yişbak",
     "deepl": " ",
     "category": "bible"
   },
@@ -5265,7 +5265,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Şuah",
-    "claude": " ",
+    "claude": "Şuah",
     "deepl": " ",
     "category": "bible"
   },
@@ -5282,7 +5282,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Timna",
-    "claude": " ",
+    "claude": "Timna",
     "deepl": " ",
     "category": "bible"
   },
@@ -5299,7 +5299,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "(Mezmur 90:10)",
-    "claude": " ",
+    "claude": "(Mezmur 90:10)",
     "deepl": " ",
     "category": "bible"
   },
@@ -5316,7 +5316,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ham",
-    "claude": " ",
+    "claude": "Ham",
     "deepl": " ",
     "category": "bible"
   },
@@ -5333,7 +5333,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kenan",
-    "claude": " ",
+    "claude": "Kenan",
     "deepl": " ",
     "category": "bible"
   },
@@ -5350,7 +5350,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sayda",
-    "claude": " ",
+    "claude": "Sidon",
     "deepl": " ",
     "category": "bible"
   },
@@ -5367,7 +5367,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Het",
-    "claude": " ",
+    "claude": "Het",
     "deepl": " ",
     "category": "bible"
   },
@@ -5384,7 +5384,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yevuslu",
-    "claude": " ",
+    "claude": "Yebusiler",
     "deepl": " ",
     "category": "bible"
   },
@@ -5401,7 +5401,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Amorlu",
-    "claude": " ",
+    "claude": "Amoriler",
     "deepl": " ",
     "category": "bible"
   },
@@ -5418,7 +5418,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Girgaşlı",
-    "claude": " ",
+    "claude": "Girgaşiler",
     "deepl": " ",
     "category": "bible"
   },
@@ -5435,7 +5435,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hivli",
-    "claude": " ",
+    "claude": "Hiviler",
     "deepl": " ",
     "category": "bible"
   },
@@ -5452,7 +5452,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Arklılar",
-    "claude": " ",
+    "claude": "Arkiler",
     "deepl": " ",
     "category": "bible"
   },
@@ -5469,7 +5469,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sinitler",
-    "claude": " ",
+    "claude": "Siniler",
     "deepl": " ",
     "category": "bible"
   },
@@ -5486,7 +5486,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Arvatlılar",
-    "claude": " ",
+    "claude": "Arvadiler",
     "deepl": " ",
     "category": "bible"
   },
@@ -5503,7 +5503,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Semarlılar",
-    "claude": " ",
+    "claude": "Zemariler",
     "deepl": " ",
     "category": "bible"
   },
@@ -5520,7 +5520,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hamatlılar",
-    "claude": " ",
+    "claude": "Hamatlılar",
     "deepl": " ",
     "category": "bible"
   },
@@ -5537,7 +5537,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kûş",
-    "claude": " ",
+    "claude": "Kuş",
     "deepl": " ",
     "category": "bible"
   },
@@ -5554,7 +5554,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nimrot",
-    "claude": " ",
+    "claude": "Nemrut",
     "deepl": " ",
     "category": "bible"
   },
@@ -5571,7 +5571,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Misrayim",
-    "claude": " ",
+    "claude": "Mısrayim",
     "deepl": " ",
     "category": "bible"
   },
@@ -5588,7 +5588,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kasluh",
-    "claude": " ",
+    "claude": "Kasluhlular",
     "deepl": " ",
     "category": "bible"
   },
@@ -5605,7 +5605,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yafet",
-    "claude": " ",
+    "claude": "Yafet",
     "deepl": " ",
     "category": "bible"
   },
@@ -5622,7 +5622,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Asur",
-    "claude": " ",
+    "claude": "Aşur",
     "deepl": " ",
     "category": "bible"
   },
@@ -5639,7 +5639,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Lud",
-    "claude": " ",
+    "claude": "Lud",
     "deepl": " ",
     "category": "bible"
   },
@@ -5656,7 +5656,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Aram",
-    "claude": " ",
+    "claude": "Aram",
     "deepl": " ",
     "category": "bible"
   },
@@ -5673,7 +5673,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Elam",
-    "claude": " ",
+    "claude": "Elam",
     "deepl": " ",
     "category": "bible"
   },
@@ -5690,7 +5690,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yoktan",
-    "claude": " ",
+    "claude": "Yoktan",
     "deepl": " ",
     "category": "bible"
   },
@@ -5707,7 +5707,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Almodat",
-    "claude": " ",
+    "claude": "Almodad",
     "deepl": " ",
     "category": "bible"
   },
@@ -5724,7 +5724,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Şelef",
-    "claude": " ",
+    "claude": "Şelef",
     "deepl": " ",
     "category": "bible"
   },
@@ -5741,7 +5741,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hasarmavet",
-    "claude": " ",
+    "claude": "Hatsarmavet",
     "deepl": " ",
     "category": "bible"
   },
@@ -5758,7 +5758,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yerah",
-    "claude": " ",
+    "claude": "Yerah",
     "deepl": " ",
     "category": "bible"
   },
@@ -5775,7 +5775,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hadoram",
-    "claude": " ",
+    "claude": "Hadoram",
     "deepl": " ",
     "category": "bible"
   },
@@ -5792,7 +5792,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Uzal",
-    "claude": " ",
+    "claude": "Uzal",
     "deepl": " ",
     "category": "bible"
   },
@@ -5809,7 +5809,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Dikla, Oval",
-    "claude": " ",
+    "claude": "Dikla, Obal",
     "deepl": " ",
     "category": "bible"
   },
@@ -5826,7 +5826,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Avimael",
-    "claude": " ",
+    "claude": "Abimael",
     "deepl": " ",
     "category": "bible"
   },
@@ -5843,7 +5843,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Seva, Ofir",
-    "claude": " ",
+    "claude": "Şeba, Ofir",
     "deepl": " ",
     "category": "bible"
   },
@@ -5860,7 +5860,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Havila",
-    "claude": " ",
+    "claude": "Havila",
     "deepl": " ",
     "category": "bible"
   },
@@ -5877,7 +5877,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yovav",
-    "claude": " ",
+    "claude": "Yobab",
     "deepl": " ",
     "category": "bible"
   },
@@ -5894,7 +5894,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "1) Mısırlılar: Mezmurlar 105:23",
-    "claude": " ",
+    "claude": "1) Mısırlılar: Mezmur 105:23",
     "deepl": " ",
     "category": "bible"
   },
@@ -5911,7 +5911,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "2) Kenanlılar: Yeşu 13:3",
-    "claude": " ",
+    "claude": "2) Kenanlılar: Yeşu 13:3",
     "deepl": " ",
     "category": "bible"
   },
@@ -5928,7 +5928,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "3) Aramlılar: Hoşea 12:12",
-    "claude": " ",
+    "claude": "3) Aramlılar: Hoşea 12:12",
     "deepl": " ",
     "category": "bible"
   },
@@ -5945,7 +5945,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "4) Elamlılar: Ezra 4:9",
-    "claude": " ",
+    "claude": "4) Elamlılar: Ezra 4:9",
     "deepl": " ",
     "category": "bible"
   },
@@ -5962,7 +5962,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "5) Asurlular: Hezekiel 27:23",
-    "claude": " ",
+    "claude": "5) Asurlular: Hezekiel 27:23",
     "deepl": " ",
     "category": "bible"
   },
@@ -5979,7 +5979,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "6) Filistliler: 1. Tarihler 1:12",
-    "claude": " ",
+    "claude": "6) Filistliler: 1. Tarihler 1:12",
     "deepl": " ",
     "category": "bible"
   },
@@ -5996,7 +5996,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "7) Etiyopyalılar [Kûşlular]: 2. Krallar 19:9",
-    "claude": " ",
+    "claude": "7) Etiyopyalılar [Kuşlular]: 2. Krallar 19:9",
     "deepl": " ",
     "category": "bible"
   },
@@ -6013,7 +6013,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "8) Edomlular: Sayılar 20:14-17",
-    "claude": " ",
+    "claude": "8) Edomlular: Çölde Sayım 20:14-17",
     "deepl": " ",
     "category": "bible"
   },
@@ -6030,7 +6030,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "9) Moavlılar: Yasanın Tekrarı 23:3, 4",
-    "claude": " ",
+    "claude": "9) Moablılar: Yasa'nın Tekrarı 23:3, 4",
     "deepl": " ",
     "category": "bible"
   },
@@ -6047,7 +6047,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "10) Ammonlular: Yeşu 12:2",
-    "claude": " ",
+    "claude": "10) Ammonlular: Yeşu 12:2",
     "deepl": " ",
     "category": "bible"
   },
@@ -6064,7 +6064,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "11) Midyanlılar: Sayılar 31:2, 3",
-    "claude": " ",
+    "claude": "11) Midyanlılar: Çölde Sayım 31:2, 3",
     "deepl": " ",
     "category": "bible"
   },
@@ -6081,7 +6081,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "12) Amalekliler: 1. Samuel 15:2",
-    "claude": " ",
+    "claude": "12) Amalekliler: 1. Samuel 15:2",
     "deepl": " ",
     "category": "bible"
   },
@@ -6098,7 +6098,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "13) Temanlılar: Eyüp 42:7",
-    "claude": " ",
+    "claude": "13) Temanlılar: Eyüp 42:7",
     "deepl": " ",
     "category": "bible"
   },
@@ -6115,7 +6115,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "14) Saydalılar: Zekeriya 9:2",
-    "claude": " ",
+    "claude": "14) Sidonlular: Zekeriya 9:2",
     "deepl": " ",
     "category": "bible"
   },
@@ -6132,7 +6132,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "15) Hititliler: Yaratılış 15:20",
-    "claude": " ",
+    "claude": "15) Hititler: Yaratılış 15:20",
     "deepl": " ",
     "category": "bible"
   },
@@ -6149,7 +6149,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "16) Yebusiler: Yeşu 15:63",
-    "claude": " ",
+    "claude": "16) Yebusiler: Yeşu 15:63",
     "deepl": " ",
     "category": "bible"
   },
@@ -6166,7 +6166,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yudit?",
-    "claude": " ",
+    "claude": "Yudit?",
     "deepl": " ",
     "category": "bible"
   },
@@ -6183,7 +6183,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "17) Ludlular: 1. Tarihler 1:17",
-    "claude": " ",
+    "claude": "17) Lidyalılar: 1. Tarihler 1:17",
     "deepl": " ",
     "category": "bible"
   },
@@ -6200,7 +6200,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "18) İsmailoğulları: Yaratılış 37:27",
-    "claude": " ",
+    "claude": "18) İsmaililer: Yaratılış 37:27",
     "deepl": " ",
     "category": "bible"
   },
@@ -6217,7 +6217,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "19) Amorlular: Hakimler 6:10",
-    "claude": " ",
+    "claude": "19) Amoriler: Hâkimler 6:10",
     "deepl": " ",
     "category": "bible"
   },
@@ -6234,7 +6234,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "20) Hivliler [Givon]: Yeşu 9:3, 7",
-    "claude": " ",
+    "claude": "20) Hiviler [Givon]: Yeşu 9:3, 7",
     "deepl": " ",
     "category": "bible"
   },
@@ -6251,7 +6251,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kain",
-    "claude": " ",
+    "claude": "Kain",
     "deepl": " ",
     "category": "bible"
   },
@@ -6268,7 +6268,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Habil",
-    "claude": " ",
+    "claude": "Habil",
     "deepl": " ",
     "category": "bible"
   },
@@ -6285,7 +6285,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Irad",
-    "claude": " ",
+    "claude": "İrad",
     "deepl": " ",
     "category": "bible"
   },
@@ -6302,7 +6302,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Mehuyael",
-    "claude": " ",
+    "claude": "Mehuyael",
     "deepl": " ",
     "category": "bible"
   },
@@ -6319,7 +6319,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Metuşael",
-    "claude": " ",
+    "claude": "Metuşael",
     "deepl": " ",
     "category": "bible"
   },
@@ -6336,7 +6336,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yaval",
-    "claude": " ",
+    "claude": "Yabal",
     "deepl": " ",
     "category": "bible"
   },
@@ -6353,7 +6353,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yuval",
-    "claude": " ",
+    "claude": "Yubal",
     "deepl": " ",
     "category": "bible"
   },
@@ -6370,7 +6370,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Silla",
-    "claude": " ",
+    "claude": "Zilla",
     "deepl": " ",
     "category": "bible"
   },
@@ -6387,7 +6387,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tubal-Kain",
-    "claude": " ",
+    "claude": "Tubal-kain",
     "deepl": " ",
     "category": "bible"
   },
@@ -6404,7 +6404,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Naama",
-    "claude": " ",
+    "claude": "Naama",
     "deepl": " ",
     "category": "bible"
   },
@@ -6421,7 +6421,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Rehavam",
-    "claude": " ",
+    "claude": "Rehavam",
     "deepl": " ",
     "category": "A6"
   },
@@ -6438,7 +6438,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Aviya (Abiyam)",
-    "claude": " ",
+    "claude": "Aviya (Aviyam)",
     "deepl": " ",
     "category": "A6"
   },
@@ -6455,7 +6455,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Asa",
-    "claude": " ",
+    "claude": "Asa",
     "deepl": " ",
     "category": "A6"
   },
@@ -6472,7 +6472,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yehoşafat",
-    "claude": " ",
+    "claude": "Yehoşafat",
     "deepl": " ",
     "category": "A6"
   },
@@ -6489,7 +6489,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yehoram",
-    "claude": " ",
+    "claude": "Yehoram",
     "deepl": " ",
     "category": "A6"
   },
@@ -6506,7 +6506,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ahazya",
-    "claude": " ",
+    "claude": "Ahazya",
     "deepl": " ",
     "category": "A6"
   },
@@ -6523,7 +6523,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kraliçe Atalya",
-    "claude": " ",
+    "claude": "Kraliçe Atalya",
     "deepl": " ",
     "category": "A6"
   },
@@ -6540,7 +6540,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yehoaş",
-    "claude": " ",
+    "claude": "Yehoaş",
     "deepl": " ",
     "category": "A6"
   },
@@ -6557,7 +6557,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Amasya",
-    "claude": " ",
+    "claude": "Amazya",
     "deepl": " ",
     "category": "A6"
   },
@@ -6574,7 +6574,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Uzziya (Azarya)",
-    "claude": " ",
+    "claude": "Uzziya (Azarya)",
     "deepl": " ",
     "category": "A6"
   },
@@ -6591,7 +6591,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yarovam",
-    "claude": " ",
+    "claude": "Yeroboam",
     "deepl": " ",
     "category": "A6"
   },
@@ -6608,7 +6608,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nadav",
-    "claude": " ",
+    "claude": "Nadav",
     "deepl": " ",
     "category": "A6"
   },
@@ -6625,7 +6625,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Baaşa",
-    "claude": " ",
+    "claude": "Baaşa",
     "deepl": " ",
     "category": "A6"
   },
@@ -6642,7 +6642,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ela",
-    "claude": " ",
+    "claude": "Ela",
     "deepl": " ",
     "category": "A6"
   },
@@ -6659,7 +6659,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Zimri",
-    "claude": " ",
+    "claude": "Zimri",
     "deepl": " ",
     "category": "A6"
   },
@@ -6676,7 +6676,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Omri ve Tivni birlikte",
-    "claude": " ",
+    "claude": "Omri ve Tibni birlikte",
     "deepl": " ",
     "category": "A6"
   },
@@ -6693,7 +6693,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Omri (tek başına)",
-    "claude": " ",
+    "claude": "Omri (tek başına)",
     "deepl": " ",
     "category": "A6"
   },
@@ -6710,7 +6710,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ahav",
-    "claude": " ",
+    "claude": "Ahav",
     "deepl": " ",
     "category": "A6"
   },
@@ -6727,7 +6727,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yehoram",
-    "claude": " ",
+    "claude": "Yehoram",
     "deepl": " ",
     "category": "A6"
   },
@@ -6744,7 +6744,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yehu",
-    "claude": " ",
+    "claude": "Yehu",
     "deepl": " ",
     "category": "A6"
   },
@@ -6761,7 +6761,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yehoahaz",
-    "claude": " ",
+    "claude": "Yehoahaz",
     "deepl": " ",
     "category": "A6"
   },
@@ -6778,7 +6778,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yehoahaz ve Yehoaş",
-    "claude": " ",
+    "claude": "Yehoahaz ve Yehoaş",
     "deepl": " ",
     "category": "A6"
   },
@@ -6795,7 +6795,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yehoaş (tek başına)",
-    "claude": " ",
+    "claude": "Yehoaş (tek başına)",
     "deepl": " ",
     "category": "A6"
   },
@@ -6812,7 +6812,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yarovam II",
-    "claude": " ",
+    "claude": "II. Yeroboam",
     "deepl": " ",
     "category": "A6"
   },
@@ -6829,7 +6829,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "İlyas",
-    "claude": " ",
+    "claude": "Eliya",
     "deepl": " ",
     "category": "A6"
   },
@@ -6846,7 +6846,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Elişa",
-    "claude": " ",
+    "claude": "Elişa",
     "deepl": " ",
     "category": "A6"
   },
@@ -6863,7 +6863,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yunus",
-    "claude": " ",
+    "claude": "Yunus",
     "deepl": " ",
     "category": "A6"
   },
@@ -6880,7 +6880,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Amos",
-    "claude": " ",
+    "claude": "Amos",
     "deepl": " ",
     "category": "A6"
   },
@@ -6897,7 +6897,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yoel",
-    "claude": " ",
+    "claude": "Yoel",
     "deepl": " ",
     "category": "A6"
   },
@@ -6914,7 +6914,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yotam",
-    "claude": " ",
+    "claude": "Yotam",
     "deepl": " ",
     "category": "A6"
   },
@@ -6931,7 +6931,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ahaz",
-    "claude": " ",
+    "claude": "Ahaz",
     "deepl": " ",
     "category": "A6"
   },
@@ -6948,7 +6948,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hizkiya",
-    "claude": " ",
+    "claude": "Hizkiya",
     "deepl": " ",
     "category": "A6"
   },
@@ -6965,7 +6965,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Manaşşe",
-    "claude": " ",
+    "claude": "Manaşe",
     "deepl": " ",
     "category": "A6"
   },
@@ -6982,7 +6982,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Amon",
-    "claude": " ",
+    "claude": "Amon",
     "deepl": " ",
     "category": "A6"
   },
@@ -6999,7 +6999,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yoşiya",
-    "claude": " ",
+    "claude": "Yoşiya",
     "deepl": " ",
     "category": "A6"
   },
@@ -7016,7 +7016,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yehoahaz",
-    "claude": " ",
+    "claude": "Yehoahaz",
     "deepl": " ",
     "category": "A6"
   },
@@ -7033,7 +7033,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yehoyakim",
-    "claude": " ",
+    "claude": "Yehoyakim",
     "deepl": " ",
     "category": "A6"
   },
@@ -7050,7 +7050,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yehoyakin",
-    "claude": " ",
+    "claude": "Yehoyakin",
     "deepl": " ",
     "category": "A6"
   },
@@ -7067,7 +7067,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sidkiya",
-    "claude": " ",
+    "claude": "Tsidkiya",
     "deepl": " ",
     "category": "A6"
   },
@@ -7084,7 +7084,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Zekeriya",
-    "claude": " ",
+    "claude": "Zekeriya",
     "deepl": " ",
     "category": "A6"
   },
@@ -7101,7 +7101,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Şallum",
-    "claude": " ",
+    "claude": "Şallum",
     "deepl": " ",
     "category": "A6"
   },
@@ -7118,7 +7118,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Menahem",
-    "claude": " ",
+    "claude": "Menahem",
     "deepl": " ",
     "category": "A6"
   },
@@ -7135,7 +7135,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Pekahya",
-    "claude": " ",
+    "claude": "Pekahya",
     "deepl": " ",
     "category": "A6"
   },
@@ -7152,7 +7152,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Pekah",
-    "claude": " ",
+    "claude": "Pekah",
     "deepl": " ",
     "category": "A6"
   },
@@ -7169,7 +7169,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hoşea",
-    "claude": " ",
+    "claude": "Hoşea",
     "deepl": " ",
     "category": "A6"
   },
@@ -7186,7 +7186,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hoşea",
-    "claude": " ",
+    "claude": "Hoşea",
     "deepl": " ",
     "category": "A6"
   },
@@ -7203,7 +7203,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yeşaya",
-    "claude": " ",
+    "claude": "Yeşaya",
     "deepl": " ",
     "category": "A6"
   },
@@ -7220,7 +7220,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Mika",
-    "claude": " ",
+    "claude": "Mika",
     "deepl": " ",
     "category": "A6"
   },
@@ -7237,7 +7237,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Sefanya",
-    "claude": " ",
+    "claude": "Tsefanya",
     "deepl": " ",
     "category": "A6"
   },
@@ -7254,7 +7254,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nahum",
-    "claude": " ",
+    "claude": "Nahum",
     "deepl": " ",
     "category": "A6"
   },
@@ -7271,7 +7271,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yeremya",
-    "claude": " ",
+    "claude": "Yeremya",
     "deepl": " ",
     "category": "A6"
   },
@@ -7288,7 +7288,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Habakkuk",
-    "claude": " ",
+    "claude": "Habakkuk",
     "deepl": " ",
     "category": "A6"
   },
@@ -7305,7 +7305,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Daniel",
-    "claude": " ",
+    "claude": "Daniel",
     "deepl": " ",
     "category": "A6"
   },
@@ -7322,7 +7322,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Hezekiel",
-    "claude": " ",
+    "claude": "Hezekiel",
     "deepl": " ",
     "category": "A6"
   },
@@ -7339,7 +7339,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Ovadya",
-    "claude": " ",
+    "claude": "Ovadya",
     "deepl": " ",
     "category": "A6"
   },
@@ -7356,7 +7356,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Daniel 2:32, 36-38; 7:4",
-    "claude": " ",
+    "claude": "Daniel 2:32, 36-38; 7:4",
     "deepl": " ",
     "category": "B9"
   },
@@ -7373,7 +7373,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Daniel 2:32, 39; 7:5",
-    "claude": " ",
+    "claude": "Daniel 2:32, 39; 7:5",
     "deepl": " ",
     "category": "B9"
   },
@@ -7390,7 +7390,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Daniel 2:32, 39; 7:6",
-    "claude": " ",
+    "claude": "Daniel 2:32, 39; 7:6",
     "deepl": " ",
     "category": "B9"
   },
@@ -7407,7 +7407,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Daniel 2:33, 40; 7:7",
-    "claude": " ",
+    "claude": "Daniel 2:33, 40; 7:7",
     "deepl": " ",
     "category": "B9"
   },
@@ -7424,7 +7424,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Daniel 2:33, 41-43",
-    "claude": " ",
+    "claude": "Daniel 2:33, 41-43",
     "deepl": " ",
     "category": "B9"
   },
@@ -7441,7 +7441,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Babil",
-    "claude": " ",
+    "claude": "Babil",
     "deepl": " ",
     "category": "B9"
   },
@@ -7458,7 +7458,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Med-Pers",
-    "claude": " ",
+    "claude": "Med-Pers",
     "deepl": " ",
     "category": "B9"
   },
@@ -7475,7 +7475,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yunan",
-    "claude": " ",
+    "claude": "Yunanistan",
     "deepl": " ",
     "category": "B9"
   },
@@ -7492,7 +7492,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Roma",
-    "claude": " ",
+    "claude": "Roma",
     "deepl": " ",
     "category": "B9"
   },
@@ -7509,7 +7509,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Anglo-Amerika",
-    "claude": " ",
+    "claude": "Anglo-Amerika",
     "deepl": " ",
     "category": "B9"
   },
@@ -7526,7 +7526,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kral Nebukadnezar",
-    "claude": " ",
+    "claude": "Kral Nebukadnetsar",
     "deepl": " ",
     "category": "B9"
   },
@@ -7543,7 +7543,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yeruşalim'i yıkar",
-    "claude": " ",
+    "claude": "Yeruşalim'i yıktı",
     "deepl": " ",
     "category": "B9"
   },
@@ -7560,7 +7560,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Babil'i fetheder",
-    "claude": " ",
+    "claude": "Babil'i fethetti",
     "deepl": " ",
     "category": "B9"
   },
@@ -7577,7 +7577,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Koreş'in fermanıyla Yahudiler",
-    "claude": " ",
+    "claude": "Kiros, dönüşe izin verdi",
     "deepl": " ",
     "category": "B9"
   },
@@ -7594,7 +7594,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yeruşalim'e geri döner",
-    "claude": " ",
+    "claude": "Yahudilerin Yeruşalim'e dönmesi için",
     "deepl": " ",
     "category": "B9"
   },
@@ -7611,7 +7611,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Büyük İskender",
-    "claude": " ",
+    "claude": "Büyük İskender",
     "deepl": " ",
     "category": "B9"
   },
@@ -7628,7 +7628,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Pers İmparatorluğu'nu fetheder",
-    "claude": " ",
+    "claude": "Pers'i fethetti",
     "deepl": " ",
     "category": "B9"
   },
@@ -7645,7 +7645,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "İsrail üzerinde hüküm sürer",
-    "claude": " ",
+    "claude": "İsrail üzerinde hüküm sürdü",
     "deepl": " ",
     "category": "B9"
   },
@@ -7662,7 +7662,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yeruşalim'i yıkar",
-    "claude": " ",
+    "claude": "Yeruşalim'i yıktı",
     "deepl": " ",
     "category": "B9"
   },
@@ -7679,7 +7679,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "I. Dünya Savaşı sırasında,",
-    "claude": " ",
+    "claude": "I. Dünya Savaşı sırasında,",
     "deepl": " ",
     "category": "B9"
   },
@@ -7696,7 +7696,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Anglo-Amerikan Dünya Gücü",
-    "claude": " ",
+    "claude": "Anglo-Amerikan Dünya Gücü",
     "deepl": " ",
     "category": "B9"
   },
@@ -7713,7 +7713,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "ortaya çıkar",
-    "claude": " ",
+    "claude": "ortaya çıktı",
     "deepl": " ",
     "category": "B9"
   },
@@ -7730,7 +7730,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "M.Ö. 607",
-    "claude": " ",
+    "claude": "M.Ö. 607",
     "deepl": " ",
     "category": "B9"
   },
@@ -7747,7 +7747,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "M.Ö. 539",
-    "claude": " ",
+    "claude": "M.Ö. 539",
     "deepl": " ",
     "category": "B9"
   },
@@ -7764,7 +7764,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "M.Ö. 537",
-    "claude": " ",
+    "claude": "M.Ö. 537",
     "deepl": " ",
     "category": "B9"
   },
@@ -7781,7 +7781,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "M.Ö. 331",
-    "claude": " ",
+    "claude": "M.Ö. 331",
     "deepl": " ",
     "category": "B9"
   },
@@ -7798,7 +7798,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "M.Ö. 63",
-    "claude": " ",
+    "claude": "M.Ö. 63",
     "deepl": " ",
     "category": "B9"
   },
@@ -7815,7 +7815,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "M.S. 70",
-    "claude": " ",
+    "claude": "M.S. 70",
     "deepl": " ",
     "category": "B9"
   },
@@ -7832,7 +7832,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "M.S. 1914-1918",
-    "claude": " ",
+    "claude": "M.S. 1914-1918",
     "deepl": " ",
     "category": "B9"
   },
@@ -7849,7 +7849,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Vahiy 12:9",
-    "claude": " ",
+    "claude": "Vahiy 12:9",
     "deepl": " ",
     "category": "other"
   },
@@ -7866,7 +7866,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Elçilerin İşleri 7:6",
-    "claude": " ",
+    "claude": "Elçilerin İşleri 7:6",
     "deepl": " ",
     "category": "other"
   },
@@ -7883,7 +7883,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "M.Ö. 770-256",
-    "claude": " ",
+    "claude": "M.Ö. 770-256",
     "deepl": " ",
     "category": "other"
   },
@@ -7900,7 +7900,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "M.Ö. 1943 – 1513",
-    "claude": " ",
+    "claude": "M.Ö. 1943 – 1513",
     "deepl": " ",
     "category": "other"
   },
@@ -7917,7 +7917,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "M.S. 25-220",
-    "claude": " ",
+    "claude": "M.S. 25-220",
     "deepl": " ",
     "category": "other"
   },
@@ -7934,7 +7934,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "M.S. 368-581",
-    "claude": " ",
+    "claude": "M.S. 368-581",
     "deepl": " ",
     "category": "other"
   },
@@ -7951,7 +7951,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "M.S. 420-589",
-    "claude": " ",
+    "claude": "M.S. 420-589",
     "deepl": " ",
     "category": "other"
   },
@@ -7968,7 +7968,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Jül Sezar",
-    "claude": " ",
+    "claude": "Julius",
     "deepl": " ",
     "category": "wiki"
   },
@@ -7985,7 +7985,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kaligula",
-    "claude": " ",
+    "claude": "Caligula",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8002,7 +8002,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Neron",
-    "claude": " ",
+    "claude": "Nero",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8019,7 +8019,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Galba, Otho ve Vitellius (Dört İmparator Yılı)",
-    "claude": " ",
+    "claude": "Galba, Otho ve Vitellius (Dört İmparator Yılı)",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8036,7 +8036,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Vespasianus",
-    "claude": " ",
+    "claude": "Vespasianus",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8053,7 +8053,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Covid-19",
-    "claude": " ",
+    "claude": "Covid-19",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8070,7 +8070,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Birinci İznik Konsili",
-    "claude": " ",
+    "claude": "İznik Birinci Konsili",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8087,7 +8087,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Oksirinkus Papirüsleri",
-    "claude": " ",
+    "claude": "Oxyrhynchus Papirüsleri",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8104,7 +8104,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Papirüs P52",
-    "claude": " ",
+    "claude": "Papirüs P52",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8121,7 +8121,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Çing hanedanı",
-    "claude": " ",
+    "claude": "Qing hanedanı",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8138,7 +8138,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "İmparatorluk Çinindeki Ming hanedanı",
-    "claude": " ",
+    "claude": "İmparatorluk Çin'inde Ming hanedanı",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8155,7 +8155,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Yuan",
-    "claude": " ",
+    "claude": "Yuan",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8172,7 +8172,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Güney Song",
-    "claude": " ",
+    "claude": "Güney Song",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8189,7 +8189,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kuzey Song",
-    "claude": " ",
+    "claude": "Kuzey Song",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8206,7 +8206,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Batı Xia",
-    "claude": " ",
+    "claude": "Batı Xia",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8223,7 +8223,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Nicolaus Copernicus",
-    "claude": " ",
+    "claude": "Nikolaus Kopernik",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8240,7 +8240,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Galileo Galilei",
-    "claude": " ",
+    "claude": "Galileo Galilei",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8257,7 +8257,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Isaac Newton",
-    "claude": " ",
+    "claude": "Isaac Newton",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8274,7 +8274,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Shang hanedanı",
-    "claude": " ",
+    "claude": "Şang hanedanı",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8291,7 +8291,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Batı Zhou",
-    "claude": " ",
+    "claude": "Batı Zhou",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8308,7 +8308,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Doğu Zhou",
-    "claude": " ",
+    "claude": "Doğu Zhou",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8325,7 +8325,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Batı Han",
-    "claude": " ",
+    "claude": "Batı Han",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8342,7 +8342,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Doğu Han",
-    "claude": " ",
+    "claude": "Doğu Han",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8359,7 +8359,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Çin",
-    "claude": " ",
+    "claude": "Çin",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8376,7 +8376,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Çin",
-    "claude": " ",
+    "claude": "Çin",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8393,7 +8393,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Kuzey hanedanları",
-    "claude": " ",
+    "claude": "Kuzey hanedanları",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8410,7 +8410,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Güney hanedanları",
-    "claude": " ",
+    "claude": "Güney hanedanları",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8427,7 +8427,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Tang hanedanı",
-    "claude": " ",
+    "claude": "Tang hanedanı",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8444,7 +8444,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Bizans İmparatorluğu",
-    "claude": " ",
+    "claude": "Bizans İmparatorluğu",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8461,7 +8461,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Osmanlı İmparatorluğu",
-    "claude": " ",
+    "claude": "Osmanlı İmparatorluğu",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8478,7 +8478,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Cengiz Han",
-    "claude": " ",
+    "claude": "Cengiz Han",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8495,7 +8495,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "İnka imparatorluğu",
-    "claude": " ",
+    "claude": "İnka İmparatorluğu",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8512,7 +8512,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Gupta İmparatorluğu",
-    "claude": " ",
+    "claude": "Gupta İmparatorluğu",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8529,7 +8529,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Teotihuacan",
-    "claude": " ",
+    "claude": "Teotihuacan",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8546,7 +8546,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Abbasi Halifeliği",
-    "claude": " ",
+    "claude": "Abbasi Halifeliği",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8563,7 +8563,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Memlûk Sultanlığı",
-    "claude": " ",
+    "claude": "Memlük Sultanlığı",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8580,7 +8580,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Gazâlî",
-    "claude": " ",
+    "claude": "el-Gazâlî",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8597,7 +8597,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Wulfila İncili",
-    "claude": " ",
+    "claude": "Wulfila İncili",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8614,7 +8614,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Trần hanedanı",
-    "claude": " ",
+    "claude": "Trần hanedanı",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8631,7 +8631,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Lê hanedanı",
-    "claude": " ",
+    "claude": "Lê hanedanı",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8648,7 +8648,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Trịnh beyleri ve Nguyễn beyleri",
-    "claude": " ",
+    "claude": "Trịnh beyleri ve Nguyễn beyleri",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8665,7 +8665,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Selçuklu imparatorluğu",
-    "claude": " ",
+    "claude": "Selçuklu İmparatorluğu",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8682,7 +8682,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Vandallar",
-    "claude": " ",
+    "claude": "Vandaller",
     "deepl": " ",
     "category": "wiki"
   },
@@ -8699,7 +8699,7 @@
     "google": " ",
     "chatgpt": " ",
     "gemini": "Lombard Krallığı",
-    "claude": " ",
+    "claude": "Lombard Krallığı",
     "deepl": " ",
     "category": "wiki"
   }
